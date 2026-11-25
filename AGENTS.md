@@ -1,29 +1,11 @@
-# AGENTS.md — Diretrizes Obrigatórias para o Codex
+# Diretrizes do SOaprender
 
-Antes de criar ou editar qualquer arquivo, leia e siga rigorosamente `PRD.md`, `ARCHITECTURE.md` e `DESIGN.md`.
+Leia PRD.md, ARCHITECTURE.md e DESIGN.md antes de alterar a aplicação. A missão inicial tem janela de sete dias. Priorize uma entrega funcional, verificações essenciais e correção de bloqueios de uso e publicação.
 
-## 1. Regra de Ouro do Layout (Base v1 Limpa)
-* **Estrutura:** Coluna única centralizada (`max-width: 760px`), limpa e focada. **NÃO** crie sidebars pesadas, painéis laterais múltiplos ou dashboards com excesso de caixas.
-* **Cabeçalho:** Altura fixa (`56px`), minimalista, contendo apenas a marca, status compacto (Streak/XP) e controles discretos.
-* **Mobile (`< 640px`):** Navegação inferior limpa na zona do polegar, alvos de toque mínimos de `44px` e áudio iniciando mudo por padrão.
-
-## 2. Regras Visuais e Anti-Genérico
-* **Proibido:** Gradientes roxo/azul genéricos, sombras pesadas (`shadow-xl`), emojis como ícones de UI (use apenas `lucide-react`) e `transition: all`.
-* **Sistema de 2 Eixos:**
-  * `data-appearance="light" | "dark"` (Claro em `#F6F5F1` / Escuro anti-halation em `#0E1014` com texto `#E4E8EF`).
-  * `data-intensity="focus" | "arena"` (Foco = leitura limpa sem timer/glow e HUD oculto durante a questão; Arena = prática com timer GPU, combo e feedback rico).
-* **Erro Informativo:** Use coral (`#C25E44` / `#E07A5F`) em vez de vermelho saturado, sempre com ícone + texto explicativo.
-* **Performance:** Barra de timer animada exclusivamente com `transform: scaleX(...)` (GPU). Respeitar `prefers-reduced-motion` e `:focus-visible`.
-
-## 3. Sincronização de Tipos e Arquitetura
-* **Stack:** React + TypeScript (`strict: true`), Vite (`base: './'` para GitHub Pages), Tailwind CSS, Zustand, `lucide-react`, `framer-motion`.
-* **Separação estrita:** Toda lógica de SRS (SM-2), cálculo de domínio, seleção calibrada de sessão e persistência (`StorageAdapter` / `LocalStorageAdapter`) deve ficar isolada em `src/engine/`, sem mistura com componentes React.
-* **Campos obrigatórios nos tipos:**
-  * `UserProgress`: `appearance: 'light' | 'dark'`, `intensity: 'focus' | 'arena'`, `streakFreezes: number`.
-  * `Flashcard` e `QuizQuestion`: suporte opcional a `mediaUrl?: string`, `mediaCaption?: string` e `optionExplanations?: string[]`.
-  * `StudyAttempt`: `confidence?: 'know' | 'think' | 'guess'` e `wasRecovery: boolean`.
-
-## 4. Disciplina de Código
-* Nunca gere arquivos gigantes (>300 linhas). Quebre em componentes pequenos e bem nomeados.
-* Todo conteúdo de Geografia deve vir de arquivos JSON em `src/content/geografia/`, nunca hardcoded dentro dos componentes.
-* Botões de **Reset Local** (por módulo) e **Reset Geral** (trilha inteira) devem sempre exigir modal de confirmação explícita.
+- Banca exclusiva FCC. Concurso prioritário SEDUC-MA, Professor de Geografia, código 17.
+- Use o bundle original e preserve identificadores, fontes e estados editoriais. Identifique questões inéditas e sinalize material em auditoria. Não atribua incidência histórica à FCC sem evidência.
+- Use React, TypeScript strict, Vite, Tailwind CSS, Zustand, Lucide React e Framer Motion. Isole o motor de aprendizagem e o StorageAdapter em `src/engine/`. Mantenha arquivos abaixo de 300 linhas.
+- Preserve os eixos independentes de aparência `light | dark` e intensidade `focus | arena`. Foco sem relógio e com HUD oculto durante prática. Arena opcional. Use `transform: scaleX()` na barra do timer, respeite movimento reduzido e indique foco de teclado.
+- Use coluna central de 760 px, cabeçalho de 56 px, navegação inferior em telas menores que 640 px e alvos de toque de 44 px. Use Lucide, cor coral com ícone e texto, e evite brilho ou sombras pesadas. Áudio silenciado por padrão.
+- Fundamente domínio em respostas e recuperação espaçada. Preserve independência de XP, tempo e leitura. Resets local e geral exigem confirmação explícita.
+- Valide alterações de conteúdo, TypeScript, testes essenciais e build antes de preparar o PR. Atualize docs/STATUS.md quando houver pendências relevantes.
