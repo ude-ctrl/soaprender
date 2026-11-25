@@ -1,0 +1,1303 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="gamer">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SOaprender — Preview do DESIGN.md</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+  <style>
+    /* =========================================
+       1. TOKENS DE CORES (DESIGN.md)
+       ========================================= */
+    :root, [data-theme="light"] {
+      --bg-base: #F6F5F1;
+      --bg-surface: #FFFFFF;
+      --bg-subtle: #ECEAE4;
+      --border-default: #DDD9D0;
+      --border-active: #0F766E;
+      --text-primary: #18181B;
+      --text-secondary: #52525B;
+      --accent-primary: #0F766E;
+      --accent-primary-fg: #FFFFFF;
+      --accent-xp: #B45309;
+      --status-success: #15803D;
+      --status-error: #B91C1C;
+      --radius-card: 12px;
+      --radius-btn: 8px;
+      --glow-active: none;
+      --glow-combo: none;
+    }
+
+    [data-theme="dark"] {
+      --bg-base: #0E1014;
+      --bg-surface: #161920;
+      --bg-subtle: #1E222B;
+      --border-default: #272C38;
+      --border-active: #2DD4BF;
+      --text-primary: #F1F5F9;
+      --text-secondary: #94A3B8;
+      --accent-primary: #2DD4BF;
+      --accent-primary-fg: #0E1014;
+      --accent-xp: #F59E0B;
+      --status-success: #22C55E;
+      --status-error: #F87171;
+      --radius-card: 12px;
+      --radius-btn: 8px;
+      --glow-active: none;
+      --glow-combo: none;
+    }
+
+    [data-theme="gamer"] {
+      --bg-base: #07080C;
+      --bg-surface: #10131C;
+      --bg-subtle: #181D2B;
+      --border-default: #242C40;
+      --border-active: #00F0FF;
+      --text-primary: #F8FAFC;
+      --text-secondary: #8B9BB4;
+      --accent-primary: #00F0FF;
+      --accent-primary-fg: #07080C;
+      --accent-xp: #FFB800;
+      --status-success: #00E676;
+      --status-error: #FF2A5F;
+      --radius-card: 6px;
+      --radius-btn: 6px;
+      --glow-active: 0 0 18px rgba(0, 240, 255, 0.16);
+      --glow-combo: 0 0 18px rgba(255, 184, 0, 0.22);
+    }
+
+    /* =========================================
+       2. BASE & TIPOGRAFIA
+       ========================================= */
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background-color: var(--bg-base);
+      color: var(--text-primary);
+      font-family: 'Inter', sans-serif;
+      line-height: 1.6;
+      min-height: 100vh;
+      transition: background-color 0.2s ease, color 0.2s ease;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    h1, h2, h3, .font-display {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      letter-spacing: -0.02em;
+    }
+
+    .font-mono {
+      font-family: 'JetBrains Mono', monospace;
+      font-variant-numeric: tabular-nums;
+    }
+
+    button {
+      font-family: inherit;
+      cursor: pointer;
+      border: none;
+      background: none;
+      color: inherit;
+    }
+
+    svg {
+      display: inline-block;
+      vertical-align: middle;
+      stroke: currentColor;
+      fill: none;
+      stroke-width: 1.75;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    /* =========================================
+       3. CABEÇALHO (56px FIXO)
+       ========================================= */
+    header {
+      height: 56px;
+      background: var(--bg-surface);
+      border-bottom: 1px solid var(--border-default);
+      position: sticky;
+      top: 0;
+      z-index: 40;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 20px;
+      gap: 12px;
+    }
+
+    .header-left, .header-right {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .brand {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 800;
+      font-size: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      letter-spacing: -0.03em;
+    }
+
+    .brand-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 2px;
+      background: var(--accent-primary);
+      box-shadow: var(--glow-active);
+    }
+
+    .subject-pill {
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 4px 10px;
+      border-radius: var(--radius-btn);
+      background: var(--bg-subtle);
+      border: 1px solid var(--border-default);
+      color: var(--text-secondary);
+    }
+
+    .stat-badge {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 0.8rem;
+      font-weight: 700;
+      padding: 4px 9px;
+      border-radius: var(--radius-btn);
+      background: var(--bg-subtle);
+      border: 1px solid var(--border-default);
+    }
+
+    .stat-badge.xp { color: var(--accent-xp); }
+
+    .icon-btn {
+      width: 34px;
+      height: 34px;
+      border-radius: var(--radius-btn);
+      border: 1px solid var(--border-default);
+      background: var(--bg-surface);
+      color: var(--text-secondary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.15s ease;
+    }
+
+    .icon-btn:hover {
+      background: var(--bg-subtle);
+      color: var(--text-primary);
+      border-color: var(--border-active);
+    }
+
+    .theme-switcher {
+      display: flex;
+      background: var(--bg-subtle);
+      border: 1px solid var(--border-default);
+      border-radius: var(--radius-btn);
+      padding: 2px;
+      gap: 2px;
+    }
+
+    .theme-btn {
+      font-size: 0.72rem;
+      font-weight: 600;
+      padding: 4px 9px;
+      border-radius: calc(var(--radius-btn) - 2px);
+      color: var(--text-secondary);
+      transition: all 0.15s ease;
+    }
+
+    .theme-btn.active {
+      background: var(--bg-surface);
+      color: var(--text-primary);
+      border: 1px solid var(--border-default);
+    }
+
+    [data-theme="gamer"] .theme-btn.active {
+      border-color: var(--accent-primary);
+      color: var(--accent-primary);
+      box-shadow: var(--glow-active);
+    }
+
+    /* =========================================
+       4. BARRA DE NAVEGAÇÃO DE PREVIEW
+       ========================================= */
+    .mode-nav {
+      max-width: 760px;
+      margin: 24px auto 0;
+      padding: 0 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .tabs {
+      display: flex;
+      gap: 6px;
+      background: var(--bg-surface);
+      border: 1px solid var(--border-default);
+      padding: 4px;
+      border-radius: var(--radius-btn);
+    }
+
+    .tab-btn {
+      padding: 7px 14px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      border-radius: calc(var(--radius-btn) - 2px);
+      color: var(--text-secondary);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.15s ease;
+    }
+
+    .tab-btn.active {
+      background: var(--accent-primary);
+      color: var(--accent-primary-fg);
+      box-shadow: var(--glow-active);
+    }
+
+    .btn-danger-ghost {
+      font-size: 0.78rem;
+      font-weight: 600;
+      color: var(--text-secondary);
+      padding: 6px 10px;
+      border-radius: var(--radius-btn);
+      border: 1px solid var(--border-default);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .btn-danger-ghost:hover {
+      color: var(--status-error);
+      border-color: var(--status-error);
+    }
+
+    /* =========================================
+       5. CONTAINER PRINCIPAL
+       ========================================= */
+    main {
+      max-width: 760px;
+      margin: 24px auto 64px;
+      padding: 0 20px;
+    }
+
+    .view { display: none; }
+    .view.active { display: block; animation: fadeIn 0.2s ease; }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(4px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* =========================================
+       6. MAPA DA TRILHA CONECTADA
+       ========================================= */
+    .trail-header {
+      margin-bottom: 24px;
+    }
+
+    .trail-header h1 {
+      font-size: 1.5rem;
+      font-weight: 800;
+      margin-bottom: 4px;
+    }
+
+    .trail-header p {
+      font-size: 0.9rem;
+      color: var(--text-secondary);
+    }
+
+    .trail-list {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      padding-left: 28px;
+    }
+
+    .trail-list::before {
+      content: "";
+      position: absolute;
+      left: 9px;
+      top: 18px;
+      bottom: 18px;
+      width: 2px;
+      background: var(--border-default);
+    }
+
+    .trail-node {
+      position: relative;
+      background: var(--bg-surface);
+      border: 1px solid var(--border-default);
+      border-radius: var(--radius-card);
+      padding: 18px 20px;
+      transition: border-color 0.15s ease;
+    }
+
+    .trail-node.active-node {
+      border-color: var(--border-active);
+      box-shadow: var(--glow-active);
+    }
+
+    .trail-node.mastered {
+      border-color: var(--status-success);
+    }
+
+    .node-dot {
+      position: absolute;
+      left: -27px;
+      top: 22px;
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      background: var(--bg-base);
+      border: 2px solid var(--border-default);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .trail-node.mastered .node-dot {
+      background: var(--status-success);
+      border-color: var(--status-success);
+      color: var(--bg-base);
+    }
+
+    .trail-node.active-node .node-dot {
+      border-color: var(--accent-primary);
+      background: var(--accent-primary);
+      box-shadow: var(--glow-active);
+    }
+
+    .node-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 12px;
+      margin-bottom: 10px;
+    }
+
+    .node-tag {
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      color: var(--text-secondary);
+      margin-bottom: 2px;
+      display: block;
+    }
+
+    .node-title {
+      font-size: 1.05rem;
+      font-weight: 700;
+    }
+
+    .mastery-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 14px;
+    }
+
+    .progress-track {
+      flex: 1;
+      height: 6px;
+      background: var(--bg-subtle);
+      border-radius: 99px;
+      overflow: hidden;
+    }
+
+    .progress-fill {
+      height: 100%;
+      background: var(--accent-primary);
+      transition: width 0.3s ease;
+    }
+
+    .trail-node.mastered .progress-fill {
+      background: var(--status-success);
+    }
+
+    .node-actions {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .btn-primary {
+      background: var(--accent-primary);
+      color: var(--accent-primary-fg);
+      font-weight: 700;
+      font-size: 0.82rem;
+      padding: 8px 14px;
+      border-radius: var(--radius-btn);
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      box-shadow: var(--glow-active);
+    }
+
+    .btn-secondary {
+      background: var(--bg-subtle);
+      color: var(--text-primary);
+      border: 1px solid var(--border-default);
+      font-weight: 600;
+      font-size: 0.82rem;
+      padding: 8px 14px;
+      border-radius: var(--radius-btn);
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .btn-secondary:hover {
+      border-color: var(--border-active);
+    }
+
+    /* =========================================
+       7. FLASHCARDS INTELIGENTES (SRS)
+       ========================================= */
+    .flashcard-shell {
+      max-width: 640px;
+      margin: 0 auto;
+    }
+
+    .card-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+      font-size: 0.8rem;
+      color: var(--text-secondary);
+    }
+
+    .flashcard {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-default);
+      border-radius: var(--radius-card);
+      min-height: 320px;
+      padding: 28px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      cursor: pointer;
+      transition: border-color 0.2s ease, transform 0.15s ease;
+    }
+
+    .flashcard:hover {
+      border-color: var(--border-active);
+    }
+
+    .fc-topic {
+      font-size: 0.75rem;
+      color: var(--accent-primary);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    .fc-question {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 1.35rem;
+      font-weight: 700;
+      line-height: 1.4;
+      margin: 24px 0;
+    }
+
+    .fc-answer {
+      font-size: 1.02rem;
+      line-height: 1.65;
+      margin: 16px 0;
+    }
+
+    .fc-tip {
+      background: var(--bg-subtle);
+      border-left: 3px solid var(--accent-xp);
+      padding: 12px 14px;
+      border-radius: 0 var(--radius-btn) var(--radius-btn) 0;
+      font-size: 0.88rem;
+      color: var(--text-secondary);
+      margin-top: 12px;
+    }
+
+    .fc-tip strong {
+      color: var(--accent-xp);
+      display: block;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      margin-bottom: 2px;
+    }
+
+    .fc-hint {
+      font-size: 0.78rem;
+      color: var(--text-secondary);
+      text-align: center;
+      margin-top: 16px;
+    }
+
+    .srs-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 8px;
+      margin-top: 16px;
+    }
+
+    .srs-btn {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-default);
+      border-radius: var(--radius-btn);
+      padding: 12px 8px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2px;
+      transition: all 0.15s ease;
+    }
+
+    .srs-btn:hover {
+      background: var(--bg-subtle);
+      border-color: var(--border-active);
+    }
+
+    .srs-btn .srs-label { font-weight: 700; font-size: 0.85rem; }
+    .srs-btn .srs-sub { font-size: 0.72rem; color: var(--text-secondary); }
+    .srs-btn.again:hover { border-color: var(--status-error); color: var(--status-error); }
+    .srs-btn.good:hover { border-color: var(--status-success); color: var(--status-success); }
+
+    /* =========================================
+       8. QUIZ RÁPIDO CRONOMETRADO (TIME ATTACK)
+       ========================================= */
+    .quiz-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-default);
+      border-radius: var(--radius-card);
+      overflow: hidden;
+    }
+
+    .timer-track {
+      height: 5px;
+      width: 100%;
+      background: var(--bg-subtle);
+    }
+
+    .timer-bar {
+      height: 100%;
+      width: 100%;
+      background: var(--accent-primary);
+      transition: width 0.1s linear, background-color 0.2s ease;
+    }
+
+    .quiz-body {
+      padding: 24px;
+    }
+
+    .quiz-hud {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 18px;
+      gap: 10px;
+    }
+
+    .combo-badge {
+      font-size: 0.82rem;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: var(--radius-btn);
+      background: var(--bg-subtle);
+      border: 1px solid var(--border-default);
+      color: var(--accent-xp);
+      transition: transform 0.15s ease;
+    }
+
+    .combo-badge.overdrive {
+      border-color: var(--accent-xp);
+      box-shadow: var(--glow-combo);
+    }
+
+    .combo-pop {
+      transform: scale(1.18);
+    }
+
+    .quiz-statement {
+      font-size: 1.05rem;
+      font-weight: 500;
+      line-height: 1.65;
+      max-width: 68ch;
+      margin-bottom: 20px;
+    }
+
+    .options-list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .option-btn {
+      width: 100%;
+      min-height: 52px;
+      padding: 12px 14px;
+      background: var(--bg-base);
+      border: 1px solid var(--border-default);
+      border-radius: var(--radius-btn);
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-align: left;
+      font-size: 0.94rem;
+      transition: all 0.15s ease;
+    }
+
+    .option-btn:hover:not(:disabled) {
+      border-color: var(--border-active);
+      background: var(--bg-subtle);
+    }
+
+    .option-letter {
+      width: 28px;
+      height: 28px;
+      flex-shrink: 0;
+      border-radius: 4px;
+      background: var(--bg-surface);
+      border: 1px solid var(--border-default);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.8rem;
+      font-weight: 700;
+    }
+
+    .option-btn.correct {
+      border-color: var(--status-success);
+      background: color-mix(in srgb, var(--status-success) 12%, var(--bg-surface));
+    }
+
+    .option-btn.correct .option-letter {
+      background: var(--status-success);
+      border-color: var(--status-success);
+      color: #07080C;
+    }
+
+    .option-btn.wrong {
+      border-color: var(--status-error);
+      background: color-mix(in srgb, var(--status-error) 12%, var(--bg-surface));
+    }
+
+    .option-btn.wrong .option-letter {
+      background: var(--status-error);
+      border-color: var(--status-error);
+      color: #FFFFFF;
+    }
+
+    .feedback-box {
+      margin-top: 18px;
+      padding: 14px 16px;
+      border-radius: var(--radius-btn);
+      background: var(--bg-subtle);
+      border: 1px solid var(--border-default);
+      display: none;
+    }
+
+    .feedback-box.visible { display: block; animation: fadeIn 0.2s ease; }
+
+    .feedback-footer {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 12px;
+    }
+
+    /* =========================================
+       9. MODAL DE CONFIRMAÇÃO DE RESET
+       ========================================= */
+    .modal-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.65);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      z-index: 50;
+    }
+
+    .modal-backdrop.open { display: flex; }
+
+    .modal-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-default);
+      border-radius: var(--radius-card);
+      max-width: 400px;
+      width: 100%;
+      padding: 22px;
+    }
+
+    .modal-card h3 { font-size: 1.1rem; margin-bottom: 8px; }
+    .modal-card p { font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 18px; }
+
+    .modal-actions {
+      display: flex;
+      justify-content: flex-end;
+      gap: 8px;
+    }
+
+    .btn-danger {
+      background: var(--status-error);
+      color: #FFFFFF;
+      font-weight: 700;
+      font-size: 0.82rem;
+      padding: 8px 14px;
+      border-radius: var(--radius-btn);
+    }
+
+    @media (max-width: 600px) {
+      .subject-pill { display: none; }
+      .srs-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- CABEÇALHO 56px -->
+  <header>
+    <div class="header-left">
+      <div class="brand">
+        <span class="brand-dot"></span>
+        <span>SOaprender</span>
+      </div>
+      <span class="subject-pill">Geografia • Concursos</span>
+    </div>
+
+    <div class="header-right">
+      <div class="stat-badge font-mono" title="Ofensiva diária">
+        <svg width="14" height="14" viewBox="0 0 24 24"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>
+        <span id="streak-val">7</span>
+      </div>
+
+      <div class="stat-badge xp font-mono" title="Experiência acumulada">
+        <svg width="14" height="14" viewBox="0 0 24 24"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+        <span id="xp-val">420</span> XP
+      </div>
+
+      <button class="icon-btn" id="sound-toggle" title="Ativar/Silenciar áudio">
+        <svg id="sound-icon" width="16" height="16" viewBox="0 0 24 24"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>
+      </button>
+
+      <div class="theme-switcher" role="group" aria-label="Seletor de tema">
+        <button class="theme-btn" data-set-theme="light">Claro</button>
+        <button class="theme-btn" data-set-theme="dark">Escuro</button>
+        <button class="theme-btn active" data-set-theme="gamer">Gamer</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- NAVEGAÇÃO ENTRE TELAS DO PREVIEW -->
+  <nav class="mode-nav">
+    <div class="tabs">
+      <button class="tab-btn active" data-view="trail">
+        <svg width="15" height="15" viewBox="0 0 24 24"><circle cx="6" cy="19" r="3"/><path d="M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15"/><circle cx="18" cy="5" r="3"/></svg>
+        Trilha
+      </button>
+      <button class="tab-btn" data-view="flashcards">
+        <svg width="15" height="15" viewBox="0 0 24 24"><rect width="18" height="14" x="3" y="5" rx="2"/><path d="M7 15h10"/></svg>
+        Flashcards (SRS)
+      </button>
+      <button class="tab-btn" data-view="quiz">
+        <svg width="15" height="15" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        Quiz Time Attack
+      </button>
+    </div>
+
+    <button class="btn-danger-ghost" id="btn-reset-all">
+      <svg width="14" height="14" viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>
+      Reset Geral
+    </button>
+  </nav>
+
+  <main>
+    <!-- =====================================
+         TELA 1: MAPA DA TRILHA CONECTADA
+         ===================================== -->
+    <section id="view-trail" class="view active">
+      <div class="trail-header">
+        <h1>Trilha de Geografia para Concursos</h1>
+        <p>Complete os nós em sequência ou acesse livremente qualquer módulo para revisão.</p>
+      </div>
+
+      <div class="trail-list">
+        <!-- Nó 1: Dominado -->
+        <article class="trail-node mastered">
+          <div class="node-dot">
+            <svg width="11" height="11" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+          </div>
+          <div class="node-top">
+            <div>
+              <span class="node-tag font-mono">Módulo 01 • Dominado</span>
+              <h2 class="node-title">Cartografia e Geoprocessamento</h2>
+            </div>
+            <button class="icon-btn" title="Resetar apenas este módulo" onclick="openResetModal('Cartografia e Geoprocessamento')">
+              <svg width="14" height="14" viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>
+            </button>
+          </div>
+          <div class="mastery-row">
+            <div class="progress-track"><div class="progress-fill" style="width: 100%"></div></div>
+            <span class="font-mono" style="font-size: 0.78rem; color: var(--status-success); font-weight: 700;">100%</span>
+          </div>
+          <div class="node-actions">
+            <button class="btn-secondary" onclick="switchView('flashcards')">Revisar Flashcards</button>
+            <button class="btn-secondary" onclick="switchView('quiz')">Refazer Quiz</button>
+          </div>
+        </article>
+
+        <!-- Nó 2: Ativo / Em Progresso -->
+        <article class="trail-node active-node">
+          <div class="node-dot"></div>
+          <div class="node-top">
+            <div>
+              <span class="node-tag font-mono" style="color: var(--accent-primary);">Módulo 02 • Em Progresso</span>
+              <h2 class="node-title">Geografia Física: Relevo, Clima e Domínios Morfoclimáticos</h2>
+            </div>
+            <button class="icon-btn" title="Resetar apenas este módulo" onclick="openResetModal('Geografia Física')">
+              <svg width="14" height="14" viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>
+            </button>
+          </div>
+          <div class="mastery-row">
+            <div class="progress-track"><div class="progress-fill" style="width: 64%"></div></div>
+            <span class="font-mono" style="font-size: 0.78rem; font-weight: 700;">64%</span>
+          </div>
+          <div class="node-actions">
+            <button class="btn-primary" onclick="switchView('quiz')">
+              <svg width="14" height="14" viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              Quiz Time Attack
+            </button>
+            <button class="btn-secondary" onclick="switchView('flashcards')">Flashcards (SRS)</button>
+          </div>
+        </article>
+
+        <!-- Nó 3: Disponível -->
+        <article class="trail-node">
+          <div class="node-dot"></div>
+          <div class="node-top">
+            <div>
+              <span class="node-tag font-mono">Módulo 03 • Disponível</span>
+              <h2 class="node-title">Urbanização Brasileira e Redes Geográficas</h2>
+            </div>
+            <button class="icon-btn" title="Resetar apenas este módulo" onclick="openResetModal('Urbanização Brasileira')">
+              <svg width="14" height="14" viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>
+            </button>
+          </div>
+          <div class="mastery-row">
+            <div class="progress-track"><div class="progress-fill" style="width: 0%"></div></div>
+            <span class="font-mono" style="font-size: 0.78rem; color: var(--text-secondary);">0%</span>
+          </div>
+          <div class="node-actions">
+            <button class="btn-secondary" onclick="switchView('flashcards')">Iniciar Flashcards</button>
+            <button class="btn-secondary" onclick="switchView('quiz')">Iniciar Quiz</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- =====================================
+         TELA 2: FLASHCARDS INTELIGENTES (SRS)
+         ===================================== -->
+    <section id="view-flashcards" class="view">
+      <div class="flashcard-shell">
+        <div class="card-meta font-mono">
+          <span>MODO FOCO • FLASHCARDS SRS</span>
+          <span id="fc-counter">1 / 3</span>
+        </div>
+
+        <div class="flashcard" id="flashcard-box" onclick="flipCard()">
+          <div>
+            <span class="fc-topic font-mono" id="fc-topic">CARTOGRAFIA • ESCALAS</span>
+            <div id="fc-front-content">
+              <div class="fc-question" id="fc-question"></div>
+            </div>
+            <div id="fc-back-content" style="display: none;">
+              <div class="fc-answer" id="fc-answer"></div>
+              <div class="fc-tip">
+                <strong>Bizu de Concurso</strong>
+                <span id="fc-tip"></span>
+              </div>
+            </div>
+          </div>
+          <div class="fc-hint font-mono" id="fc-hint">Clique no card ou pressione [Espaço] para revelar</div>
+        </div>
+
+        <div class="srs-grid" id="srs-controls" style="opacity: 0.35; pointer-events: none;">
+          <button class="srs-btn again" onclick="rateCard('again')">
+            <span class="srs-label">[1] Errei</span>
+            <span class="srs-sub font-mono">Hoje</span>
+          </button>
+          <button class="srs-btn" onclick="rateCard('hard')">
+            <span class="srs-label">[2] Difícil</span>
+            <span class="srs-sub font-mono">1 dia</span>
+          </button>
+          <button class="srs-btn good" onclick="rateCard('good')">
+            <span class="srs-label">[3] Bom</span>
+            <span class="srs-sub font-mono">6 dias</span>
+          </button>
+          <button class="srs-btn" onclick="rateCard('easy')">
+            <span class="srs-label">[4] Fácil</span>
+            <span class="srs-sub font-mono">12 dias</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================
+         TELA 3: QUIZ RÁPIDO CRONOMETRADO
+         ===================================== -->
+    <section id="view-quiz" class="view">
+      <div class="quiz-card">
+        <div class="timer-track">
+          <div class="timer-bar" id="timer-bar"></div>
+        </div>
+
+        <div class="quiz-body">
+          <div class="quiz-hud">
+            <span class="font-mono" style="font-size: 0.8rem; color: var(--text-secondary);" id="quiz-progress">QUESTÃO 1 / 3 • INÉDITA · PADRÃO FCC</span>
+            <div style="display: flex; align-items: center; gap: 10px;">
+              <span class="font-mono" style="font-size: 0.85rem; font-weight: 700;" id="timer-text">30.0s</span>
+              <span class="combo-badge font-mono" id="combo-badge">COMBO 1x</span>
+            </div>
+          </div>
+
+          <p class="quiz-statement" id="quiz-statement"></p>
+
+          <div class="options-list" id="options-list"></div>
+
+          <div class="feedback-box" id="feedback-box">
+            <strong id="feedback-title" style="display: block; margin-bottom: 4px; font-size: 0.88rem;"></strong>
+            <p id="feedback-text" style="font-size: 0.88rem; color: var(--text-secondary);"></p>
+            <div class="feedback-footer">
+              <button class="btn-primary" onclick="nextQuestion()">Próxima Questão (Enter)</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- MODAL DE CONFIRMAÇÃO DE RESET -->
+  <div class="modal-backdrop" id="reset-modal">
+    <div class="modal-card">
+      <h3 id="modal-title">Confirmar Reset</h3>
+      <p id="modal-desc">Esta ação apagará o progresso salvo. Deseja continuar?</p>
+      <div class="modal-actions">
+        <button class="btn-secondary" onclick="closeResetModal()">Cancelar</button>
+        <button class="btn-danger" onclick="confirmReset()">Sim, Resetar</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // =========================================
+    // ÁUDIO SINTETIZADO (WEB AUDIO API)
+    // =========================================
+    let soundEnabled = true;
+    const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+
+    function playTone(freq, duration = 0.08, type = 'sine') {
+      if (!soundEnabled) return;
+      if (audioCtx.state === 'suspended') audioCtx.resume();
+      const osc = audioCtx.createOscillator();
+      const gain = audioCtx.createGain();
+      osc.type = type;
+      osc.frequency.setValueAtTime(freq, audioCtx.currentTime);
+      gain.gain.setValueAtTime(0.06, audioCtx.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + duration);
+      osc.connect(gain);
+      gain.connect(audioCtx.destination);
+      osc.start();
+      osc.stop(audioCtx.currentTime + duration);
+    }
+
+    document.getElementById('sound-toggle').addEventListener('click', () => {
+      soundEnabled = !soundEnabled;
+      document.getElementById('sound-toggle').style.opacity = soundEnabled ? '1' : '0.45';
+    });
+
+    // =========================================
+    // SELETOR DE TEMAS (CLARO / ESCURO / GAMER)
+    // =========================================
+    document.querySelectorAll('[data-set-theme]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const theme = btn.getAttribute('data-set-theme');
+        document.documentElement.setAttribute('data-theme', theme);
+        document.querySelectorAll('[data-set-theme]').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        playTone(520, 0.05);
+      });
+    });
+
+    // =========================================
+    // NAVEGAÇÃO ENTRE TELAS
+    // =========================================
+    function switchView(viewName) {
+      document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      document.getElementById('view-' + viewName).classList.add('active');
+      document.querySelector(`.tab-btn[data-view="${viewName}"]`).classList.add('active');
+      if (viewName === 'quiz') startQuestion();
+      else stopTimer();
+    }
+
+    document.querySelectorAll('.tab-btn').forEach(btn => {
+      btn.addEventListener('click', () => switchView(btn.getAttribute('data-view')));
+    });
+
+    let xp = 420;
+    function addXP(amount) {
+      xp += amount;
+      document.getElementById('xp-val').textContent = xp;
+    }
+
+    // =========================================
+    // FLASHCARDS SRS
+    // =========================================
+    const flashcards = [
+      {
+        topic: "CARTOGRAFIA • ESCALAS",
+        q: "Qual a relação entre o denominador de uma escala cartográfica e o nível de detalhamento do mapa?",
+        a: "São inversamente proporcionais: quanto MENOR o denominador (ex: 1:10.000), MAIOR é a escala e maior o nível de detalhes representados.",
+        tip: "Bancas adoram inverter isso! Escala GRANDE = denominador PEQUENO (planta urbana). Escala PEQUENA = denominador GRANDE (mapa-múndi)."
+      },
+      {
+        topic: "GEOGRAFIA FÍSICA • RELEVO",
+        q: "Na classificação de Jurandyr Ross, quais são as três grandes unidades morfoesculturais do relevo brasileiro?",
+        a: "Planaltos (predomínio de erosão), Planícies (predomínio de sedimentação) e Depressões (áreas rebaixadas por erosão no entorno de planaltos).",
+        tip: "Lembre: Aroldo de Azevedo e Aziz Ab'Saber NÃO incluíam as 'Depressões'. Elas são a marca registrada da classificação de Jurandyr Ross (1989)."
+      },
+      {
+        topic: "CLIMATOLOGIA • MASSAS DE AR",
+        q: "Qual massa de ar atua no Brasil sendo quente e úmida, originada no interior do continente, e responsável pelos 'rios voadores'?",
+        a: "Massa Equatorial Continental (mEc), formada na Amazônia pela intensa evapotranspiração da floresta.",
+        tip: "É a única massa continental úmida do Brasil. No verão, avança para o Centro-Oeste e Sudeste levando chuvas."
+      }
+    ];
+
+    let fcIndex = 0;
+    let fcFlipped = false;
+
+    function renderFlashcard() {
+      const item = flashcards[fcIndex];
+      fcFlipped = false;
+      document.getElementById('fc-counter').textContent = `${fcIndex + 1} / ${flashcards.length}`;
+      document.getElementById('fc-topic').textContent = item.topic;
+      document.getElementById('fc-question').textContent = item.q;
+      document.getElementById('fc-answer').textContent = item.a;
+      document.getElementById('fc-tip').textContent = item.tip;
+      document.getElementById('fc-front-content').style.display = 'block';
+      document.getElementById('fc-back-content').style.display = 'none';
+      document.getElementById('fc-hint').style.display = 'block';
+      document.getElementById('srs-controls').style.opacity = '0.35';
+      document.getElementById('srs-controls').style.pointerEvents = 'none';
+    }
+
+    function flipCard() {
+      if (fcFlipped) return;
+      fcFlipped = true;
+      playTone(440, 0.06);
+      document.getElementById('fc-front-content').style.display = 'none';
+      document.getElementById('fc-back-content').style.display = 'block';
+      document.getElementById('fc-hint').style.display = 'none';
+      document.getElementById('srs-controls').style.opacity = '1';
+      document.getElementById('srs-controls').style.pointerEvents = 'auto';
+    }
+
+    function rateCard(rating) {
+      if (!fcFlipped) return;
+      playTone(rating === 'again' ? 220 : 660, 0.08);
+      if (rating !== 'again') addXP(10);
+      fcIndex = (fcIndex + 1) % flashcards.length;
+      renderFlashcard();
+    }
+
+    renderFlashcard();
+
+    // =========================================
+    // QUIZ TIME ATTACK
+    // =========================================
+    const questions = [
+  {
+    "board": "Inédita · padrão FCC",
+    "statement": "Na obra de Milton Santos, a compreensão do espaço geográfico supera tanto o reducionismo naturalista quanto a visão puramente geométrica herdada da Geografia Quantitativa. Nessa perspectiva teórico-metodológica, o espaço geográfico é definido como",
+    "options": [
+      "o produto exclusivo da experiência afetiva individual, desvinculado dos processos técnicos e econômicos globais.",
+      "um palco neutro e homogêneo sobre o qual os fenômenos econômicos se distribuem segundo leis matemáticas universais.",
+      "a soma estática das formas naturais visíveis, idêntica à paisagem e independente da dinâmica social.",
+      "o recorte político-jurídico exclusivo do Estado-Nação, delimitado por fronteiras diplomáticas fixas.",
+      "um conjunto indissociável, solidário e contraditório de sistemas de objetos e sistemas de ações."
+    ],
+    "correct": 4,
+    "explanation": "Em 'A Natureza do Espaço', Milton Santos conceitua o espaço geográfico exatamente como um conjunto indissociável, solidário e também contraditório de sistemas de objetos e sistemas de ações."
+  },
+  {
+    "board": "Inédita · padrão FCC",
+    "statement": "No debate epistemológico da Geografia clássica entre o final do século XIX e o início do século XX, a escola francesa liderada por Paul Vidal de La Blache opôs-se às teses deterministas ao propor que a natureza oferece possibilidades cuja concretização depende das técnicas e da organização histórica das sociedades. O conceito central formulado por La Blache para expressar essa adaptação ativa é",
+    "options": [
+      "espaço vital.",
+      "diferenciação de áreas.",
+      "gênero de vida.",
+      "meio técnico-científico-informacional.",
+      "topofilia."
+    ],
+    "correct": 2,
+    "explanation": "Vidal de La Blache formulou o conceito de 'gênero de vida' para designar o conjunto de técnicas, hábitos e formas de organização por meio dos quais cada grupo humano transforma as possibilidades oferecidas pelo meio."
+  },
+  {
+    "board": "Inédita · padrão FCC",
+    "statement": "Ao analisar o conceito de território na Geografia contemporânea, autores como Claude Raffestin e Marcelo Lopes de Souza ampliam a acepção tradicional da categoria. Segundo essa abordagem, o território caracteriza-se fundamentalmente por",
+    "options": [
+      "existir apenas na escala nacional, sendo prerrogativa exclusiva da soberania estatal.",
+      "corresponder à porção física do relevo e da hidrografia, isenta de conflitos políticos.",
+      "resultar unicamente da aplicação de modelos estatísticos de otimização locacional.",
+      "substituir integralmente o conceito de paisagem, eliminando a dimensão visível das formas espaciais.",
+      "ser um espaço definido e delimitado por e a partir de relações de poder, podendo apresentar caráter contínuo ou descontínuo e temporalidade variável."
+    ],
+    "correct": 4,
+    "explanation": "Para Marcelo Lopes de Souza e Raffestin, o núcleo definidor do território são as relações de poder projetadas no espaço, o que permite territorialidades em múltiplas escalas (permanentes, periódicas ou cíclicas)."
+  }
+];
+
+    let qIndex = 0;
+    let combo = 0;
+    let answered = false;
+    let timerInterval = null;
+    let timeLeft = 30.0;
+
+    function stopTimer() {
+      if (timerInterval) clearInterval(timerInterval);
+    }
+
+    function startQuestion() {
+      stopTimer();
+      answered = false;
+      timeLeft = 30.0;
+      const q = questions[qIndex];
+      document.getElementById('quiz-progress').textContent = `QUESTÃO ${qIndex + 1} / ${questions.length} • ${q.board}`;
+      document.getElementById('quiz-statement').textContent = q.statement;
+      document.getElementById('feedback-box').classList.remove('visible');
+
+      const list = document.getElementById('options-list');
+      list.innerHTML = '';
+      const letters = ['A', 'B', 'C', 'D', 'E'];
+      q.options.forEach((opt, idx) => {
+        const btn = document.createElement('button');
+        btn.className = 'option-btn';
+        btn.innerHTML = `<span class="option-letter font-mono">${letters[idx]}</span><span>${opt}</span>`;
+        btn.onclick = () => selectOption(idx, btn);
+        list.appendChild(btn);
+      });
+
+      updateTimerUI();
+      timerInterval = setInterval(() => {
+        timeLeft = Math.max(0, timeLeft - 0.1);
+        updateTimerUI();
+        if (timeLeft <= 0) {
+          stopTimer();
+          selectOption(-1, null);
+        }
+      }, 100);
+    }
+
+    function updateTimerUI() {
+      const pct = (timeLeft / 30) * 100;
+      const bar = document.getElementById('timer-bar');
+      bar.style.width = pct + '%';
+      document.getElementById('timer-text').textContent = timeLeft.toFixed(1) + 's';
+
+      if (pct < 20) bar.style.backgroundColor = 'var(--status-error)';
+      else if (pct < 40) bar.style.backgroundColor = 'var(--accent-xp)';
+      else bar.style.backgroundColor = 'var(--accent-primary)';
+    }
+
+    function selectOption(idx, clickedBtn) {
+      if (answered) return;
+      answered = true;
+      stopTimer();
+
+      const q = questions[qIndex];
+      const buttons = document.querySelectorAll('.option-btn');
+      buttons.forEach(b => b.disabled = true);
+
+      const isCorrect = idx === q.correct;
+      buttons[q.correct].classList.add('correct');
+      if (!isCorrect && clickedBtn) clickedBtn.classList.add('wrong');
+
+      const badge = document.getElementById('combo-badge');
+      if (isCorrect) {
+        combo++;
+        const mult = combo >= 3 ? 3 : combo === 2 ? 2 : 1.5;
+        addXP(Math.round(20 * mult));
+        playTone(740, 0.1, 'triangle');
+        badge.textContent = combo >= 3 ? `COMBO ${mult}x OVERDRIVE` : `COMBO ${mult}x`;
+        badge.classList.toggle('overdrive', combo >= 3);
+        badge.classList.add('combo-pop');
+        setTimeout(() => badge.classList.remove('combo-pop'), 180);
+      } else {
+        combo = 0;
+        playTone(190, 0.14, 'sawtooth');
+        badge.textContent = 'COMBO 1x';
+        badge.classList.remove('overdrive');
+      }
+
+      document.getElementById('feedback-title').textContent = isCorrect ? 'Resposta Correta!' : (idx === -1 ? 'Tempo Esgotado' : 'Incorreta — Enviada ao Caderno de Erros');
+      document.getElementById('feedback-title').style.color = isCorrect ? 'var(--status-success)' : 'var(--status-error)';
+      document.getElementById('feedback-text').textContent = q.explanation;
+      document.getElementById('feedback-box').classList.add('visible');
+    }
+
+    function nextQuestion() {
+      qIndex = (qIndex + 1) % questions.length;
+      startQuestion();
+    }
+
+    // =========================================
+    // MODAL DE RESET (LOCAL E GERAL)
+    // =========================================
+    function openResetModal(scope) {
+      document.getElementById('modal-title').textContent = scope === 'ALL' ? 'Reset Geral da Trilha' : `Resetar: ${scope}`;
+      document.getElementById('modal-desc').textContent = scope === 'ALL'
+        ? 'Isso zerará todo o seu XP, ofensiva e progresso de todos os módulos. Tem certeza?'
+        : `Isso zerará apenas o progresso e revisões do módulo "${scope}". Seu XP global será mantido.`;
+      document.getElementById('reset-modal').classList.add('open');
+    }
+
+    function closeResetModal() {
+      document.getElementById('reset-modal').classList.remove('open');
+    }
+
+    function confirmReset() {
+      playTone(300, 0.1);
+      closeResetModal();
+    }
+
+    document.getElementById('btn-reset-all').addEventListener('click', () => openResetModal('ALL'));
+
+    // Atalhos de teclado
+    document.addEventListener('keydown', (e) => {
+      const fcActive = document.getElementById('view-flashcards').classList.contains('active');
+      const quizActive = document.getElementById('view-quiz').classList.contains('active');
+      if (fcActive) {
+        if (e.code === 'Space') { e.preventDefault(); flipCard(); }
+        if (e.key === '1') rateCard('again');
+        if (e.key === '2') rateCard('hard');
+        if (e.key === '3') rateCard('good');
+        if (e.key === '4') rateCard('easy');
+      }
+      if (quizActive && e.key === 'Enter' && answered) {
+        nextQuestion();
+      }
+    });
+  </script>
+</body>
+</html>
