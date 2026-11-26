@@ -54,3 +54,8 @@ A auditoria científica do acervo segue pendente. Sincronização entre disposit
 ## Língua Portuguesa
 
 - CG-POR-01 a 08 ampliadas em 48 missões, 104 questões e 160 flashcards. Correções de norma, escopo de redação oficial e ambiguidades em itens legados. [Registro](INTEGRACAO_PORTUGUES.md). Mantido em_auditoria. Próximo lote: Raciocínio Lógico-Matemático.
+
+
+## Raciocínio Lógico-Matemático
+
+- CG-RLM-01 a 05 ampliadas em 30 missões, 65 questões e 100 flashcards; cinco diagramas. [Registro](INTEGRACAO_RACIOCINIO_LOGICO.md). Mantido em_auditoria. Próximo lote: Informática.

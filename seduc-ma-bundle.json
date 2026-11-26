@@ -5,8 +5,8 @@
   "resumo_cobertura": {
     "total_unidades_edital": 45,
     "unidades_populadas": 45,
-    "total_questoes": 516,
-    "total_flashcards": 831
+    "total_questoes": 556,
+    "total_flashcards": 901
   },
   "edital": {
     "schema_version": "1.0.0",
@@ -25484,63 +25484,74 @@
           "url": "https://www.concursosfcc.com.br"
         },
         {
-          "referencia_abnt": "PORTAL CONCURSOS. Banca FCC: perfil, estilo de prova e como estudar. 2026.",
-          "tipo": "prova_fcc",
-          "nivel_autoridade": 4,
-          "url": "https://cursosdoportal.com.br/noticias/banca-fcc-perfil-estilo-de-prova-e-como-estudar"
+          "referencia_abnt": "COPI, Irving M.; COHEN, Carl; MCMAHON, Kenneth. Introduction to Logic. 14th ed. Pearson, 2011. Referência para auditoria.",
+          "tipo": "bibliografia_academica",
+          "nivel_autoridade": 5
         }
       ],
       "sintese_fcc": {
         "conceitos_nucleares": [
           {
-            "termo": "Condicional (P → Q)",
-            "definicao_precisa": "Só é falsa quando a 1ª é Verdadeira e a 2ª é Falsa (V → F = F).",
-            "fonte": "Lógica Proposicional."
+            "termo": "Condicional",
+            "definicao_precisa": "Falsa apenas em V→F",
+            "fonte": "Síntese matemática autoral; bibliografia de referência."
           },
           {
-            "termo": "Negação da Condicional (MANÉ)",
-            "definicao_precisa": "~(P → Q) ⇔ P ∧ ~Q (mantém a 1ª, troca por 'e', nega a 2ª).",
-            "fonte": "Lógica Proposicional."
+            "termo": "Negação",
+            "definicao_precisa": "De Morgan e P∧não Q",
+            "fonte": "Síntese matemática autoral; bibliografia de referência."
           },
           {
-            "termo": "Equivalências da Condicional",
-            "definicao_precisa": "P → Q equivale a ~Q → ~P (contrapositiva) e a ~P ∨ Q (nega 1ª ou mantém 2ª).",
-            "fonte": "Lógica Proposicional."
+            "termo": "Quantificador",
+            "definicao_precisa": "Negação universal por contraexemplo",
+            "fonte": "Síntese matemática autoral; bibliografia de referência."
+          },
+          {
+            "termo": "Validade",
+            "definicao_precisa": "Impossibilidade de premissas V e conclusão F",
+            "fonte": "Síntese matemática autoral; bibliografia de referência."
           }
         ],
         "pegadinhas_fcc": [
           {
-            "armadilha": "Negar 'Se P, então Q' usando outro 'Se... então'",
-            "como_a_fcc_cobra": "Propõe 'Se não P, então não Q' como negação de 'Se P, então Q'.",
-            "como_desarmar": "Negação de 'Se P, então Q' NÃO usa 'Se': é 'P e não Q' (MANÉ)."
+            "armadilha": "Recíproca",
+            "como_a_fcc_cobra": "Exemplo autoral: P→Q equivale a Q→P",
+            "como_desarmar": "Use contrapositiva."
           },
           {
-            "armadilha": "Inverter a condicional achando que é equivalente",
-            "como_a_fcc_cobra": "Afirma que 'Se P, então Q' equivale a 'Se Q, então P'.",
-            "como_desarmar": "Para manter equivalência, tem que inverter E negar ambas (~Q → ~P)."
+            "armadilha": "Universal",
+            "como_a_fcc_cobra": "Exemplo autoral: Negar todos exige nenhum",
+            "como_desarmar": "Basta um contraexemplo."
+          },
+          {
+            "armadilha": "Grade",
+            "como_a_fcc_cobra": "Exemplo autoral: Possível implica necessário",
+            "como_desarmar": "Teste todas as soluções."
           }
         ],
         "quadro_comparativo": [
           {
-            "proposicao": "P ∧ Q (e)",
-            "negacao": "~P ∨ ~Q",
-            "quando_v": "Ambas V"
+            "conceito": "Condicional",
+            "criterio": "Falsa apenas em V→F"
           },
           {
-            "proposicao": "P ∨ Q (ou)",
-            "negacao": "~P ∧ ~Q",
-            "quando_v": "Pelo menos uma V"
+            "conceito": "Negação",
+            "criterio": "De Morgan e P∧não Q"
           },
           {
-            "proposicao": "P → Q (se... então)",
-            "negacao": "P ∧ ~Q",
-            "quando_v": "Tudo, exceto V → F"
+            "conceito": "Quantificador",
+            "criterio": "Negação universal por contraexemplo"
+          },
+          {
+            "conceito": "Validade",
+            "criterio": "Impossibilidade de premissas V e conclusão F"
           }
         ],
         "checklist_revisao": [
-          "Decorei os 3 macetes: Vera Fischer (V→F=F), MANÉ (negação P∧~Q) e Contrapositiva (~Q→~P)?",
-          "Sei aplicar De Morgan para negar E e OU?",
-          "Uso grade/tabela de eliminação em problemas de relações arbitrárias?"
+          "Consigo aplicar condicional em um problema novo?",
+          "Consigo aplicar negação em um problema novo?",
+          "Consigo aplicar quantificador em um problema novo?",
+          "Consigo aplicar validade em um problema novo?"
         ]
       },
       "questoes": [
@@ -25654,9 +25665,193 @@
             "A": "Inverte indevidamente a inclusão de conjuntos.",
             "B": "Extrapolação ('apenas').",
             "D": "Contradição.",
-            "E": "Contradição."
+            "E": "Contradiz as premissas: João é professor de Geografia e estuda Cartografia."
           },
           "dificuldade": "basica",
+          "subtopico": "Dedução de novas informações e avaliação de condições"
+        },
+        {
+          "questao_id": "CG-RLM-01-EXP-Q001",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — treino autoral; não é questão oficial FCC",
+          "enunciado": "Se P é falsa e Q verdadeira, quais os valores de P → Q e P ∧ Q, respectivamente?",
+          "alternativas": {
+            "A": "F e V",
+            "B": "V e V",
+            "C": "V e F",
+            "D": "F e F",
+            "E": "Não determinados"
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "Condicional com antecedente falso é verdadeira; conjunção com uma parcela falsa é falsa.",
+          "analise_distratores": {
+            "A": "A condicional é V.",
+            "B": "A conjunção é F.",
+            "D": "A condicional é V.",
+            "E": "Ambos são determinados."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Dedução de novas informações e avaliação de condições"
+        },
+        {
+          "questao_id": "CG-RLM-01-EXP-Q002",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — treino autoral; não é questão oficial FCC",
+          "enunciado": "A negação de 'Todos os relatórios foram revisados' é",
+          "alternativas": {
+            "A": "Nenhum relatório foi revisado.",
+            "B": "Existe pelo menos um relatório que não foi revisado.",
+            "C": "Todos os relatórios não foram revisados.",
+            "D": "Algum relatório foi revisado.",
+            "E": "Todos foram publicados."
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "Negar universal exige contraexemplo existencial.",
+          "analise_distratores": {
+            "A": "É mais forte que a negação.",
+            "C": "Afirma ausência total, não basta um contraexemplo.",
+            "D": "Pode coexistir com a universal.",
+            "E": "Troca o predicado."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Processo lógico de hipóteses a conclusões válidas"
+        },
+        {
+          "questao_id": "CG-RLM-01-EXP-Q003",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — treino autoral; não é questão oficial FCC",
+          "enunciado": "De P → Q e não Q, conclui-se necessariamente",
+          "alternativas": {
+            "A": "P",
+            "B": "Q",
+            "C": "P e Q",
+            "D": "não P",
+            "E": "P ou Q"
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "Modus tollens: P verdadeira produziria Q, contradizendo não Q.",
+          "analise_distratores": {
+            "A": "P contradiz as premissas.",
+            "B": "Q foi negada.",
+            "C": "Ambas não podem ser verdadeiras.",
+            "E": "P e Q são falsas, logo a disjunção é falsa."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Processo lógico de hipóteses a conclusões válidas"
+        },
+        {
+          "questao_id": "CG-RLM-01-EXP-Q004",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — treino autoral; não é questão oficial FCC",
+          "enunciado": "Três salas distintas 1, 2, 3 são ocupadas por Lia, Rui e Sol, uma pessoa em cada. Lia está em sala de número maior que Rui; Sol está na sala 3. Qual a distribuição?",
+          "alternativas": {
+            "A": "Rui 1, Lia 2, Sol 3",
+            "B": "Lia 1, Rui 2, Sol 3",
+            "C": "Rui 2, Lia 3, Sol 1",
+            "D": "Sol 2, Lia 3, Rui 1",
+            "E": "Lia 1, Sol 2, Rui 3"
+          },
+          "gabarito": "A",
+          "justificativa_gabarito": "Com Sol na 3, restam 1 e 2; Lia > Rui, portanto Lia 2, Rui 1.",
+          "analise_distratores": {
+            "B": "Lia não está acima de Rui.",
+            "C": "Sol deve estar na 3.",
+            "D": "Sol deve estar na 3.",
+            "E": "Sol deve estar na 3."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Relações arbitrárias entre pessoas, lugares, objetos e eventos"
+        },
+        {
+          "questao_id": "CG-RLM-01-EXP-Q005",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — treino autoral; não é questão oficial FCC",
+          "enunciado": "A conclusão 'P' a partir de P → Q e Q é",
+          "alternativas": {
+            "A": "sempre necessária.",
+            "B": "modus tollens.",
+            "C": "negação de Q.",
+            "D": "equivalente à bicondicional.",
+            "E": "inválida em geral, pois P pode ser falsa e Q verdadeira."
+          },
+          "gabarito": "E",
+          "justificativa_gabarito": "O contraexemplo P=F,Q=V satisfaz ambas as premissas e torna a conclusão falsa.",
+          "analise_distratores": {
+            "A": "Há contraexemplo.",
+            "B": "Modus tollens exige não Q.",
+            "C": "Q foi afirmada.",
+            "D": "Não foi dada Q → P."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Processo lógico de hipóteses a conclusões válidas"
+        },
+        {
+          "questao_id": "CG-RLM-01-EXP-Q006",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — treino autoral; não é questão oficial FCC",
+          "enunciado": "A proposição 'P somente se Q' corresponde a",
+          "alternativas": {
+            "A": "Q → P",
+            "B": "P ∧ não Q",
+            "C": "P → Q",
+            "D": "não P → não Q",
+            "E": "P ↔ Q necessariamente"
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "Q é necessária para P; logo P implica Q.",
+          "analise_distratores": {
+            "A": "É a recíproca.",
+            "B": "É a negação da condicional.",
+            "D": "É a inversa.",
+            "E": "A bicondicional exige dois sentidos."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Dedução de novas informações e avaliação de condições"
+        },
+        {
+          "questao_id": "CG-RLM-01-EXP-Q007",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — treino autoral; não é questão oficial FCC",
+          "enunciado": "Quatro livros A, B, C, D estão em fila, um por posição. A está imediatamente antes de C, D está na posição 4 e B está antes de A. Qual a ordem?",
+          "alternativas": {
+            "A": "A,C,B,D",
+            "B": "B,A,C,D",
+            "C": "B,C,A,D",
+            "D": "D,B,A,C",
+            "E": "C,A,B,D"
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "D ocupa 4. O bloco A,C deve vir depois de B, logo B,A,C,D.",
+          "analise_distratores": {
+            "A": "B precisa anteceder A.",
+            "C": "C não pode preceder A.",
+            "D": "D deve ocupar 4.",
+            "E": "A deve anteceder C e B deve anteceder A."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Relações arbitrárias entre pessoas, lugares, objetos e eventos"
+        },
+        {
+          "questao_id": "CG-RLM-01-EXP-Q008",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — treino autoral; não é questão oficial FCC",
+          "enunciado": "Qual expressão é equivalente a não (P ou Q)?",
+          "alternativas": {
+            "A": "não P ou não Q",
+            "B": "P e Q",
+            "C": "P ou não Q",
+            "D": "não P e não Q",
+            "E": "P → Q"
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "De Morgan: nega cada parcela e troca ou inclusivo por e.",
+          "analise_distratores": {
+            "A": "Esta nega a conjunção.",
+            "B": "Não nega nenhum termo.",
+            "C": "Só nega Q.",
+            "E": "Não equivale em todas as linhas."
+          },
+          "dificuldade": "intermediaria",
           "subtopico": "Dedução de novas informações e avaliação de condições"
         }
       ],
@@ -25664,7 +25859,7 @@
         {
           "card_id": "CG-RLM-01-FC001",
           "frente": "Em qual único caso a condicional 'Se P, então Q' é FALSA?",
-          "verso": "Quando P é Verdadeira e Q é Falsa (regra 'Vera Fischer': V → F = F).",
+          "verso": "P verdadeira e Q falsa; nos demais casos, a condicional material é verdadeira.",
           "tipo": "conceito",
           "tags": [
             "tabela-verdade"
@@ -25673,7 +25868,7 @@
         {
           "card_id": "CG-RLM-01-FC002",
           "frente": "Qual a negação de 'Se P, então Q'?",
-          "verso": "P e não Q (regra do MANÉ: mantém a 1ª, troca por 'e', nega a 2ª).",
+          "verso": "P e não Q; é exatamente a linha que torna a condicional falsa.",
           "tipo": "pegadinha_fcc",
           "tags": [
             "negacao",
@@ -25683,7 +25878,7 @@
         {
           "card_id": "CG-RLM-01-FC003",
           "frente": "Quais são as duas equivalências clássicas de 'Se P, então Q'?",
-          "verso": "1) 'Se não Q, então não P' (contrapositiva); 2) 'Não P ou Q' (NEymar).",
+          "verso": "Contrapositiva não Q → não P; ou inclusivo não P ou Q.",
           "tipo": "conceito",
           "tags": [
             "equivalencia"
@@ -25715,9 +25910,149 @@
           "tags": [
             "relacoes-arbitrarias"
           ]
+        },
+        {
+          "card_id": "CG-RLM-01-EXP-FC001",
+          "frente": "O que caracteriza uma proposição fechada?",
+          "verso": "Enunciado declarativo com valor lógico V ou F, na lógica clássica.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-01"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-01-EXP-FC002",
+          "frente": "P → Q: condição suficiente",
+          "verso": "P é suficiente para Q.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-01"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-01-EXP-FC003",
+          "frente": "P → Q: condição necessária",
+          "verso": "Q é necessária para P.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-01"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-01-EXP-FC004",
+          "frente": "P somente se Q",
+          "verso": "P → Q.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-01"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-01-EXP-FC005",
+          "frente": "P se Q",
+          "verso": "Q → P.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-01"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-01-EXP-FC006",
+          "frente": "Recíproca da condicional",
+          "verso": "Q → P; não equivale em geral.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-01"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-01-EXP-FC007",
+          "frente": "Contrapositiva",
+          "verso": "Não Q → não P.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-01"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-01-EXP-FC008",
+          "frente": "Tautologia",
+          "verso": "Verdadeira em todas as atribuições.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-01"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-01-EXP-FC009",
+          "frente": "Linhas de tabela com n proposições",
+          "verso": "2 elevado a n.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-01"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-01-EXP-FC010",
+          "frente": "Negação de todo A é B",
+          "verso": "Existe A que não é B.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-01"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-01-EXP-FC011",
+          "frente": "Negação de algum A é B",
+          "verso": "Nenhum A é B.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-01"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-01-EXP-FC012",
+          "frente": "Modus ponens",
+          "verso": "P → Q; P; logo Q.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-01"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-01-EXP-FC013",
+          "frente": "Modus tollens",
+          "verso": "P → Q; não Q; logo não P.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-01"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-01-EXP-FC014",
+          "frente": "Teste de invalidade",
+          "verso": "Premissas V e conclusão F em algum caso.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-01"
+          ]
         }
       ],
-      "teoria_md": "---\ntopico_id: CG-RLM-01\nslug: logica-relacoes-deducao\ntitulo: \"Estruturas Lógicas, Relações Arbitrárias, Equivalências e Negações (FCC)\"\nedital: SEDUC-MA-01-2026\nbanca: FCC\nstatus: em_auditoria\n---\n\n# 1. Delimitação no Edital (Camada A)\n- **Itens explícitos (p. 60):** *Estrutura lógica de relações arbitrárias entre pessoas, lugares, objetos ou eventos fictícios; deduzir novas informações das relações fornecidas e avaliar as condições usadas para estabelecer a estrutura daquelas relações. Compreensão do processo lógico que, a partir de um conjunto de hipóteses, conduz, de forma válida, a conclusões determinadas.*\n- Em provas da FCC, **Lógica de Proposições e Relações Arbitrárias** compõem mais da metade das questões de Raciocínio Lógico.\n\n# 2. Tabela-Verdade e Conectivos Lógicos (Resumo de Sobrevivência)\nSejam `P` e `Q` proposições simples:\n1. **Conjunção (`P ∧ Q` — \"P e Q\"):** só é **V** quando **AMBAS são V**.\n2. **Disjunção Inclusiva (`P ∨ Q` — \"P ou Q\"):** só é **F** quando **AMBAS são F**.\n3. **Disjunção Exclusiva (`P ⊻ Q` — \"Ou P, ou Q\"):** só é **V** quando têm valores **opostos** (`V/F` ou `F/V`).\n4. **Condicional (`P → Q` — \"Se P, então Q\"):** só é **F** no caso **\"Vera Fischer\"** (**`P = V` e `Q = F`**)! Em todos os outros casos, é **V**.\n5. **Bicondicional (`P ↔ Q` — \"P se e somente se Q\"):** só é **V** quando têm valores **iguais** (`V/V` ou `F/F`).\n\n# 3. As 2 Equivalências e as 3 Negações Mais Cobradas pela FCC\n\n### Equivalências da Condicional (`P → Q`)\n1. **Contrapositiva (inverte e nega tudo):** `P → Q` ⇔ **`~Q → ~P`**\n   - *Exemplo:* \"Se chove, então fico em casa\" ⇔ \"Se **não** fico em casa, então **não** chove\".\n2. **Regra do \"NEymar\" (Nega a 1ª OU mantém a 2ª):** `P → Q` ⇔ **`~P ∨ Q`**\n   - *Exemplo:* \"Se estudo, passo\" ⇔ \"**Não** estudo **ou** passo\".\n\n### Negações Obrigatórias (Leis de De Morgan + Condicional)\n1. **Negação do `E` (`~(P ∧ Q)`):** troca `E` por `OU` e nega ambas → **`~P ∨ ~Q`**.\n2. **Negação do `OU` (`~(P ∨ Q)`):** troca `OU` por `E` e nega ambas → **`~P ∧ ~Q`**.\n3. **Negação do `SE... ENTÃO` (`~(P → Q)` — Regra do \"MANÉ\"):** **MA**ntém a 1ª **E** **NE**ga a 2ª → **`P ∧ ~Q`**! (Atenção: a negação de \"Se P, então Q\" NÃO começa com \"Se\"!)\n\n# 4. Relações Arbitrárias (Método da Tabela / Grade)\nNos problemas de associação lógica da FCC (ex.: *3 professores — Ana, Bruno e Carla — lecionam em 3 cidades diferentes e gostam de 3 músicas diferentes*):\n1. Desenhe uma **matriz/tabela** colocando os nomes nas linhas e as categorias nas colunas.\n2. Preencha primeiro as pistas **afirmativas diretas** (\"Ana mora em Caxias\").\n3. Marque `X` nas exclusões (\"Bruno não mora em Imperatriz\").\n4. Por eliminação em linha e coluna, feche as associações restantes sem chutar.\n"
+      "teoria_md": "# 1. Proposições e valores lógicos\n\nUma proposição declarativa é um enunciado ao qual atribuímos valor verdadeiro (V) ou falso (F), na lógica clássica. \"7 é primo\" é verdadeira; \"4 é ímpar\" é falsa. Perguntas, ordens e sentenças abertas como \"x é maior que 3\", sem atribuição ou quantificação da variável, não são proposições fechadas nesse sentido.\n\nUma proposição composta combina proposições por conectivos. Identifique primeiro as unidades P e Q e o alcance de cada negação. \"Não é verdade que Ana leu e Bruno escreveu\" nega a conjunção inteira. É diferente de \"Ana não leu e Bruno escreveu\".\n\n# 2. Tabela-verdade e condições\n\n| P | Q | P e Q | P ou Q | Ou exclusivo | P → Q | P ↔ Q |\n|---|---|---|---|---|---|---|\n| V | V | V | V | F | V | V |\n| V | F | F | V | V | F | F |\n| F | V | F | V | V | V | F |\n| F | F | F | F | F | V | V |\n\nO ou inclusivo permite ambas verdadeiras; o exclusivo exige exatamente uma. Na condicional material P → Q, apenas P verdadeira e Q falsa tornam a sentença falsa. P é condição suficiente para Q, e Q necessária para P. \"P somente se Q\" significa P → Q; \"P se Q\" significa Q → P. A bicondicional exige os dois sentidos.\n\nCom n proposições simples independentes, a tabela contém 2 elevado a n linhas. Tautologia é verdadeira em todas; contradição, falsa em todas; contingência assume ambos os valores.\n\n# 3. Equivalência e negação\n\nEquivalência lógica significa coincidência de valores em todas as atribuições. A condicional P → Q equivale a não P ou Q e à contrapositiva não Q → não P. A recíproca Q → P e a inversa não P → não Q não são equivalências gerais da original.\n\nLeis de De Morgan: negar P e Q resulta em não P ou não Q; negar P ou Q resulta em não P e não Q. Negar P → Q resulta em P e não Q. A negação de P ↔ Q é o ou exclusivo. Observe o alcance: \"Nem P nem Q\" significa não P e não Q.\n\n![Tabela-resumo da condicional e da negação.](./media/raciocinio-logico/condicional.svg)\n\nExemplo: \"Se entreguei o relatório, recebi protocolo.\" Para refutar, basta ocorrer entrega sem protocolo. Não entregar não é, por si, contraexemplo.\n\n# 4. Quantificadores e argumentos\n\n\"Todo A é B\" equivale à inclusão A dentro de B. Sua negação é \"Existe pelo menos um A que não é B\". Negar \"Algum A é B\" resulta em \"Nenhum A é B\". A negação de \"Nenhum A é B\" é \"Algum A é B\". Na lógica clássica, a universal não afirma por si existência de elementos na classe A.\n\nUm argumento é válido quando não existe caso com todas as premissas verdadeiras e conclusão falsa. Modus ponens: P → Q, P, logo Q. Modus tollens: P → Q, não Q, logo não P. Afirmar o consequente (P → Q, Q, logo P) ou negar o antecedente são inferências inválidas em geral.\n\nExemplo: todo mapa tem representação; este objeto é mapa; logo tem representação. Não se pode concluir que toda representação seja mapa.\n\n# 5. Relações arbitrárias: grade e eliminação\n\nConsidere três professores, Ana, Bruno e Carla, em três cidades distintas, A, B e C. Ana não está em A nem C; Bruno não está em A. Ana fica em B. Como B está ocupada e Bruno não está em A, ele fica em C. Carla fica em A.\n\n| Pessoa | A | B | C |\n|---|---|---|---|\n| Ana | não | sim | não |\n| Bruno | não | não | sim |\n| Carla | sim | não | não |\n\nA eliminação por coluna pressupõe associação um a um expressamente dada. Quando uma pista diz \"antes\", \"ao lado\" ou \"imediatamente antes\", distinga as restrições. Em problemas com várias soluções, não conclua que uma associação é obrigatória apenas por ser possível.\n\n# 6. Estratégia e recuperação\n\nTraduza o enunciado antes de calcular: diferencie equivalência, negação, consequência necessária e possibilidade. Para invalidar uma conclusão universal, procure contraexemplo. Em problemas de associação, liste as possibilidades compatíveis e teste todas as condições, não apenas a primeira.\n\nTreino: construa a tabela da condicional; negue \"Todos os alunos entregaram\"; identifique os dois argumentos válidos; explique por que o ou inclusivo não é o exclusivo; refaça a grade sem consultar."
     },
     {
       "schema_version": "2.0.0",
@@ -25727,7 +26062,7 @@
       "titulo": "Raciocínio Verbal, Matemático, Sequencial, Orientação Espacial e Temporal (FCC)",
       "status": "em_auditoria",
       "origem": "edital_explicito",
-      "tempo_leitura_min": 25,
+      "tempo_leitura_min": 30,
       "edital_subtopicos": [
         "Raciocínio verbal e matemático",
         "Sequências lógicas",
@@ -25742,60 +26077,74 @@
           "url": "https://www.concursosfcc.com.br"
         },
         {
-          "referencia_abnt": "SOS CONCURSOS. Banca FCC: perfil da Fundação Carlos Chagas. 2026.",
-          "tipo": "prova_fcc",
-          "nivel_autoridade": 4,
-          "url": "https://sosconcursos.com.br/blog/bancas/fcc-fundacao-carlos-chagas/"
+          "referencia_abnt": "IEZZI, Gelson et al. Matemática: ciência e aplicações. São Paulo: Saraiva. Referência para auditoria.",
+          "tipo": "bibliografia_academica",
+          "nivel_autoridade": 5
         }
       ],
       "sintese_fcc": {
         "conceitos_nucleares": [
           {
-            "termo": "Ciclos e Resto da Divisão",
-            "definicao_precisa": "Para achar o n-ésimo termo de um ciclo de tamanho k (ex.: 7 dias da semana), divide-se n por k e utiliza-se o resto.",
-            "fonte": "Raciocínio Sequencial."
+            "termo": "Sequências",
+            "definicao_precisa": "Diferenças, razões e intercalação",
+            "fonte": "Síntese matemática autoral; bibliografia de referência."
           },
           {
-            "termo": "Sequências Intercaladas",
-            "definicao_precisa": "Quando os termos não crescem monotonicamente, testar padrão separado para posições ímpares e posições pares.",
-            "fonte": "Raciocínio Sequencial."
+            "termo": "Ciclos",
+            "definicao_precisa": "Resto e convenção de contagem",
+            "fonte": "Síntese matemática autoral; bibliografia de referência."
           },
           {
-            "termo": "Verdades e Mentiras",
-            "definicao_precisa": "Identificar o par contraditório (um V, outro F) para deduzir imediatamente o valor lógico das demais falas.",
-            "fonte": "Lógica Situacional."
+            "termo": "Orientação",
+            "definicao_precisa": "Componentes, distância e rotação",
+            "fonte": "Síntese matemática autoral; bibliografia de referência."
+          },
+          {
+            "termo": "Condições",
+            "definicao_precisa": "Testar todas as pistas",
+            "fonte": "Síntese matemática autoral; bibliografia de referência."
           }
         ],
         "pegadinhas_fcc": [
           {
-            "armadilha": "Resto zero em ciclos indexados a partir de 1",
-            "como_a_fcc_cobra": "Pergunta qual a 28ª letra da sequência ABCDABCD... (ciclo 4).",
-            "como_desarmar": "28 ÷ 4 = 7 com resto ZERO → quando o resto é zero, cai exatamente no ÚLTIMO elemento do ciclo ('D')."
+            "armadilha": "Contagem",
+            "como_a_fcc_cobra": "Exemplo autoral: Incluindo hoje é igual a daqui a n dias",
+            "como_desarmar": "Avance n−1 se hoje é dia 1."
           },
           {
-            "armadilha": "Confundir distância percorrida com deslocamento líquido",
-            "como_a_fcc_cobra": "Pessoa caminha 3 km L, 4 km N, 3 km O e pergunta a distância até o ponto de partida.",
-            "como_desarmar": "Usar coordenadas: (+3 - 3 = 0 em x; +4 em y) → distância final é apenas 4 km, não 10 km!"
+            "armadilha": "Deslocamento",
+            "como_a_fcc_cobra": "Exemplo autoral: Somar trajetos para obter distância reta",
+            "como_desarmar": "Some vetores e use Pitágoras."
+          },
+          {
+            "armadilha": "Sequência",
+            "como_a_fcc_cobra": "Exemplo autoral: Todo padrão finito é único",
+            "como_desarmar": "Respeite a regra indicada."
           }
         ],
         "quadro_comparativo": [
           {
-            "tipo_problema": "Calendário / Dias da semana",
-            "ferramenta": "Divisão por 7 e uso do resto"
+            "conceito": "Sequências",
+            "criterio": "Diferenças, razões e intercalação"
           },
           {
-            "tipo_problema": "Sequência numérica irregular",
-            "ferramenta": "Diferenças de 1ª/2ª ordem ou sub-sequências intercaladas"
+            "conceito": "Ciclos",
+            "criterio": "Resto e convenção de contagem"
           },
           {
-            "tipo_problema": "Deslocamento em direções",
-            "ferramenta": "Plano cartesiano (L=+x, O=-x, N=+y, S=-y) + Pitágoras"
+            "conceito": "Orientação",
+            "criterio": "Componentes, distância e rotação"
+          },
+          {
+            "conceito": "Condições",
+            "criterio": "Testar todas as pistas"
           }
         ],
         "checklist_revisao": [
-          "Sei usar o resto da divisão em problemas de calendário e sequências cíclicas?",
-          "Sei resolver deslocamentos espaciais usando eixos X e Y?",
-          "Sei achar contradições em problemas de verdades e mentiras?"
+          "Consigo aplicar sequências em um problema novo?",
+          "Consigo aplicar ciclos em um problema novo?",
+          "Consigo aplicar orientação em um problema novo?",
+          "Consigo aplicar condições em um problema novo?"
         ]
       },
       "questoes": [
@@ -25803,7 +26152,7 @@
           "questao_id": "CG-RLM-02-Q001",
           "origem": "inedita_padrao_fcc",
           "referencia_prova": "Inédita — padrão FCC / Edital SEDUC-MA 01/2026",
-          "enunciado": "Sabendo que o dia 4 de abril de 2027 cairá em um domingo, em qual dia da semana cairá exatamente 100 dias após essa data?",
+          "enunciado": "Em um calendário hipotético, uma data cai em domingo. Em qual dia da semana cairá exatamente 100 dias depois?",
           "alternativas": {
             "A": "Segunda-feira.",
             "B": "Terça-feira.",
@@ -25812,7 +26161,7 @@
             "E": "Sexta-feira."
           },
           "gabarito": "B",
-          "justificativa_gabarito": "100 ÷ 7 = 14 semanas completas e resto 2. Contando 2 dias após domingo: segunda (1), terça-feira (2).",
+          "justificativa_gabarito": "100 = 14 × 7 + 2. Avançam-se dois dias a partir de domingo, chegando a terça-feira.",
           "analise_distratores": {
             "A": "Contou apenas +1 dia.",
             "C": "Contou +3 dias.",
@@ -25907,9 +26256,193 @@
           "justificativa_gabarito": "Marcos e Nélson se contradizem diretamente ('Nélson gabaritou' vs. 'Eu não gabaritei'). Logo, a única verdade está entre eles dois, o que torna a fala de Otávio ('Eu também não gabaritei') obrigatoriamente FALSA. Portanto, Otávio gabaritou e Nélson disse a verdade!",
           "analise_distratores": {
             "A": "Se Marcos fosse V, Otávio também seria V (seriam 2 verdades).",
-            "C": "Contradição com o par Marcos/Nélson.",
-            "D": "Contraditório.",
-            "E": "Contraditório."
+            "C": "Se Marcos fosse o vencedor, Nélson e Otávio diriam a verdade, totalizando duas verdades.",
+            "D": "Se Otávio venceu, Nélson não venceu, portanto a fala de Marcos é falsa.",
+            "E": "Se Nélson venceu, Marcos e Otávio diriam a verdade."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Raciocínio verbal e matemático"
+        },
+        {
+          "questao_id": "CG-RLM-02-EXP-Q001",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — treino autoral; não é questão oficial FCC",
+          "enunciado": "Uma sequência tem diferenças sucessivas 4, 6, 8, 10, 12, ...; começa em 5. Qual é o quinto termo?",
+          "alternativas": {
+            "A": "23",
+            "B": "27",
+            "C": "33",
+            "D": "35",
+            "E": "45"
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "5+4=9; +6=15; +8=23; +10=33.",
+          "analise_distratores": {
+            "A": "É o quarto termo.",
+            "B": "Não segue incrementos pares.",
+            "D": "Soma correta é 33.",
+            "E": "É o sexto termo."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Sequências lógicas"
+        },
+        {
+          "questao_id": "CG-RLM-02-EXP-Q002",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — treino autoral; não é questão oficial FCC",
+          "enunciado": "Em 3, 20, 6, 18, 12, 16, ..., os termos ímpares dobram e os pares diminuem de 2 em 2. O sétimo termo é",
+          "alternativas": {
+            "A": "14",
+            "B": "24",
+            "C": "28",
+            "D": "32",
+            "E": "48"
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "Ímpares: 3,6,12,24. A sétima posição pertence a essa subsequência.",
+          "analise_distratores": {
+            "A": "É o próximo termo par.",
+            "C": "Não é o dobro de 12.",
+            "D": "Não segue a razão 2.",
+            "E": "É o próximo ímpar depois de 24."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Sequências lógicas"
+        },
+        {
+          "questao_id": "CG-RLM-02-EXP-Q003",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — treino autoral; não é questão oficial FCC",
+          "enunciado": "Hoje é segunda-feira. Qual dia da semana será o 50º dia contando hoje como dia 1?",
+          "alternativas": {
+            "A": "Segunda-feira",
+            "B": "Terça-feira",
+            "C": "Quarta-feira",
+            "D": "Domingo",
+            "E": "Sábado"
+          },
+          "gabarito": "A",
+          "justificativa_gabarito": "Avance 49 dias, múltiplo de 7.",
+          "analise_distratores": {
+            "B": "Resulta de avançar 50 dias.",
+            "C": "Avança dois dias líquidos.",
+            "D": "Avança seis dias líquidos.",
+            "E": "Avança cinco dias líquidos."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Orientação espacial e temporal"
+        },
+        {
+          "questao_id": "CG-RLM-02-EXP-Q004",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — treino autoral; não é questão oficial FCC",
+          "enunciado": "Uma pessoa parte da origem, caminha 9 km leste, 12 km norte e 4 km oeste. Sua distância em linha reta da origem é",
+          "alternativas": {
+            "A": "25 km",
+            "B": "17 km",
+            "C": "12 km",
+            "D": "13 km",
+            "E": "5 km"
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "Deslocamento (5,12); raiz de 25+144 = 13.",
+          "analise_distratores": {
+            "A": "É o percurso total.",
+            "B": "É soma das componentes líquidas.",
+            "C": "Considera apenas norte.",
+            "E": "Considera apenas leste líquido."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Orientação espacial e temporal"
+        },
+        {
+          "questao_id": "CG-RLM-02-EXP-Q005",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — treino autoral; não é questão oficial FCC",
+          "enunciado": "Às 22h40 começa uma atividade de 3h35. Em que horário termina?",
+          "alternativas": {
+            "A": "1h15 do dia seguinte",
+            "B": "2h05 do dia seguinte",
+            "C": "25h75",
+            "D": "1h05 do dia seguinte",
+            "E": "2h15 do dia seguinte"
+          },
+          "gabarito": "E",
+          "justificativa_gabarito": "40+35=75 min, ou 1h15; 22+3+1=26, isto é, 2h15 do dia seguinte.",
+          "analise_distratores": {
+            "A": "Falta uma hora.",
+            "B": "Minutos foram somados incorretamente.",
+            "C": "Minutos devem ser normalizados.",
+            "D": "Falta hora e parte dos minutos."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Orientação espacial e temporal"
+        },
+        {
+          "questao_id": "CG-RLM-02-EXP-Q006",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — treino autoral; não é questão oficial FCC",
+          "enunciado": "Se Lia é mais jovem que Rui, Rui mais jovem que Ana, e Bia mais velha que Ana, quem é a segunda pessoa mais velha?",
+          "alternativas": {
+            "A": "Lia",
+            "B": "Ana",
+            "C": "Rui",
+            "D": "Bia",
+            "E": "Não é possível saber"
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "Ordem decrescente Bia, Ana, Rui, Lia.",
+          "analise_distratores": {
+            "A": "É a mais jovem.",
+            "C": "É a terceira mais velha.",
+            "D": "É a mais velha.",
+            "E": "As desigualdades determinam a ordem."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Raciocínio verbal e matemático"
+        },
+        {
+          "questao_id": "CG-RLM-02-EXP-Q007",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — treino autoral; não é questão oficial FCC",
+          "enunciado": "Segundo o critério 'possuir exatamente dois divisores positivos', qual elemento não pertence ao grupo 2, 3, 5, 9, 11?",
+          "alternativas": {
+            "A": "2",
+            "B": "3",
+            "C": "9",
+            "D": "5",
+            "E": "11"
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "9 tem divisores positivos 1,3,9. Os outros são primos.",
+          "analise_distratores": {
+            "A": "2 é primo.",
+            "B": "3 é primo.",
+            "D": "5 é primo.",
+            "E": "11 é primo."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Formação de conceitos e discriminação de elementos"
+        },
+        {
+          "questao_id": "CG-RLM-02-EXP-Q008",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — treino autoral; não é questão oficial FCC",
+          "enunciado": "Três pessoas dizem: A: 'B venceu'; B: 'B não venceu'; C: 'C não venceu'. Há um único vencedor entre elas e duas falas verdadeiras. Qual conclusão é necessária?",
+          "alternativas": {
+            "A": "B necessariamente venceu.",
+            "B": "A necessariamente venceu.",
+            "C": "C necessariamente venceu.",
+            "D": "C não venceu; A ou B venceu.",
+            "E": "As três falas são verdadeiras."
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "A e B são contraditórias, fornecem uma verdade; para haver duas, C deve dizer a verdade.",
+          "analise_distratores": {
+            "A": "A também pode vencer.",
+            "B": "B também pode vencer.",
+            "C": "A terceira fala precisa ser verdadeira.",
+            "E": "A e B não podem ser ambas verdadeiras."
           },
           "dificuldade": "intermediaria",
           "subtopico": "Raciocínio verbal e matemático"
@@ -25939,7 +26472,7 @@
         {
           "card_id": "CG-RLM-02-FC003",
           "frente": "Qual o primeiro passo em problemas de Verdades e Mentiras com 1 verdade?",
-          "verso": "Achar duas falas contraditórias entre si; a verdade estará nelas, tornando todas as demais falas falsas.",
+          "verso": "Se duas falas são negações exatas, uma é verdadeira; com exatamente uma verdade no conjunto, as demais são falsas.",
           "tipo": "conceito",
           "tags": [
             "verdades-mentiras"
@@ -25972,9 +26505,149 @@
           "tags": [
             "orientacao-espacial"
           ]
+        },
+        {
+          "card_id": "CG-RLM-02-EXP-FC001",
+          "frente": "PA",
+          "verso": "Diferença constante entre termos.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-02"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-02-EXP-FC002",
+          "frente": "PG",
+          "verso": "Razão multiplicativa constante.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-02"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-02-EXP-FC003",
+          "frente": "Termo geral de PA",
+          "verso": "a(n)=a(1)+(n−1)r.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-02"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-02-EXP-FC004",
+          "frente": "Termo geral de PG",
+          "verso": "a(n)=a(1)×q elevado a (n−1).",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-02"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-02-EXP-FC005",
+          "frente": "Diferenças de segunda ordem",
+          "verso": "Calcular diferenças das diferenças.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-02"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-02-EXP-FC006",
+          "frente": "Resto zero em posição a partir de 1",
+          "verso": "Último elemento do ciclo.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-02"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-02-EXP-FC007",
+          "frente": "Contagem incluindo hoje",
+          "verso": "n-ésimo dia significa avançar n−1 dias.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-02"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-02-EXP-FC008",
+          "frente": "1 h em minutos",
+          "verso": "60 minutos.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-02"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-02-EXP-FC009",
+          "frente": "Deslocamento leste/oeste",
+          "verso": "Some componentes com sinais opostos.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-02"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-02-EXP-FC010",
+          "frente": "Distância reta no plano",
+          "verso": "Raiz de Δx²+Δy².",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-02"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-02-EXP-FC011",
+          "frente": "Distância percorrida",
+          "verso": "Soma dos comprimentos dos trechos.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-02"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-02-EXP-FC012",
+          "frente": "Direita de quem olha para sul",
+          "verso": "Oeste.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-02"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-02-EXP-FC013",
+          "frente": "Imediatamente antes",
+          "verso": "Posições consecutivas.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-02"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-02-EXP-FC014",
+          "frente": "Critério de classificação",
+          "verso": "Indicar propriedade que agrupa ou distingue elementos.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-02"
+          ]
         }
       ],
-      "teoria_md": "---\ntopico_id: CG-RLM-02\nslug: raciocinio-sequencial-espacial-verbal\ntitulo: \"Raciocínio Verbal, Matemático, Sequencial, Orientação Espacial e Temporal (FCC)\"\nedital: SEDUC-MA-01-2026\nbanca: FCC\nstatus: em_auditoria\n---\n\n# 1. Delimitação no Edital (Camada A)\n- **Itens explícitos (p. 60):** *Compreensão e elaboração da lógica das situações por meio de: raciocínio verbal, raciocínio matemático, raciocínio sequencial, orientação espacial e temporal, formação de conceitos, discriminação de elementos.*\n\n# 2. Sequências Lógicas (Numéricas, Literais e Figurais)\nNa FCC, sequências lógicas seguem padrões regulares que se descobrem testando em 3 passos:\n1. **Diferenças sucessivas (PA / 2ª ordem):** calcule a diferença entre termos vizinhos (`a₂−a₁`, `a₃−a₂`...). Ex.: `2, 5, 10, 17, 26...` → diferenças `+3, +5, +7, +9` → próximo termo `26 + 11 = 37`.\n2. **Razão multiplicativa / alternada (PG / intercalada):** observe se os termos dobram/triplicam ou se há **duas sequências intercaladas** (posições ímpares × posições pares).\n3. **Sequências cíclicas (Resto da divisão!):** muito cobrada em **orientação temporal** (dias da semana, meses, letras repetidas em ciclos de `k` elementos).\n   - *Fórmula de ouro:* divida a posição desejada `N` pelo tamanho do ciclo `k` e olhe **apenas o RESTO** da divisão!\n   - *Exemplo:* Hoje é quarta-feira. Que dia será daqui a `100` dias? `100 ÷ 7 = 14` semanas e **resto `2`**. Conte 2 dias após quarta → **sexta-feira**!\n\n# 3. Orientação Espacial e Verdades/Mentiras\n- **Orientação espacial:** desenhe uma rosa dos ventos (`N, S, L, O`) e trace o caminho passo a passo em coordenadas `(x, y)` (Leste = `+x`, Oeste = `-x`, Norte = `+y`, Sul = `-y`).\n- **Problemas de Verdades e Mentiras:** procure **duas afirmações contraditórias** entre si (ex.: João diz *\"Pedro é culpado\"* e Pedro diz *\"Eu não sou culpado\"*). Como uma é V e a outra é F, se o problema diz que só há 1 verdade, **todas as outras afirmações são obrigatoriamente falsas**!\n"
+      "teoria_md": "# 1. Interpretar regras e relações\n\nRaciocínio verbal exige identificar quantificadores, comparações e condições. \"Mais alto que\" é uma relação transitiva; \"é vizinho de\" não é necessariamente transitiva. Se Ana é mais alta que Bruno e Bruno é mais alto que Carla, Ana é mais alta que Carla. Se Ana é vizinha de Bruno e Bruno de Carla, não se conclui automaticamente que Ana seja vizinha de Carla.\n\nEm problemas de ordenação, traduza cada pista em desigualdade ou posição. \"Antes de\" permite intervalo; \"imediatamente antes\" exige posições consecutivas. Desenhe uma fila quando o enunciado envolve ordem.\n\n# 2. Sequências numéricas\n\nUma progressão aritmética tem diferença constante: 7, 11, 15, 19; razão 4. Termo geral a(n) = a(1) + (n−1)r. Uma progressão geométrica tem razão multiplicativa constante: 3, 6, 12, 24; próximo 48. Termo geral a(n) = a(1) × q elevado a (n−1).\n\nOutras sequências exigem diferenças de segunda ordem, alternância ou operações combinadas. Em 3, 6, 11, 18, as diferenças são 3, 5, 7; o próximo incremento sugerido é 9, resultando em 27. A sequência finita, isoladamente, admite infinitas extensões possíveis; a questão deve indicar ou tornar claro o padrão pretendido.\n\nSepare posições pares e ímpares em sequências intercaladas. Em 2, 10, 4, 20, 6, 30, os ímpares crescem de 2 em 2 e os pares de 10 em 10. O próximo termo é 8.\n\n# 3. Ciclos e orientação temporal\n\nPara sequência repetida de k elementos, numerada a partir de 1, a posição n corresponde ao resto de n por k; se o resto é zero, use o último elemento. Exemplo: ABCD, 38ª posição; 38 = 9 × 4 + 2, portanto B.\n\nPara dias da semana, conte deslocamentos a partir do dia inicial (dia zero). Daqui a 100 dias: 100 = 14 × 7 + 2. Se hoje é quarta-feira, o resultado é sexta-feira. \"O 100º dia incluindo hoje\" é diferente: avance 99 dias.\n\nHoras: 1 h = 60 min. Para somar 2 h 45 min a 22h30, obtenha 25h15, ou 1h15 do dia seguinte. Quando o problema atravessa meia-noite ou meses, explicite a mudança de data. Trabalhe com as condições fornecidas.\n\n# 4. Orientação espacial\n\nEm um plano cartesiano, adote leste como +x, oeste como −x, norte como +y e sul como −y. Some componentes. Um percurso de 5 km leste, 4 km norte e 2 km oeste termina em (3,4), a 5 km da origem em linha reta, embora percorra 11 km.\n\n![Deslocamento líquido em um plano cartesiano.](./media/raciocinio-logico/deslocamento.svg)\n\nDistância euclidiana é a raiz de x²+y² para deslocamento plano com eixos perpendiculares. Rotação depende da orientação inicial: quem olha para o norte e vira à direita passa a olhar para leste; se olha para sul, vira para oeste. Em mapas, não confunda direita da folha com direita do observador.\n\n# 5. Verdades, mentiras e discriminação\n\nSe duas declarações são negações exatas uma da outra, exatamente uma é verdadeira. Se o problema informa que há apenas uma verdade entre três falas, a terceira é falsa. Isso não permite escolher qual das duas primeiras é verdadeira sem examinar outras premissas.\n\nUse tabela de casos quando houver contagem de verdade. Suponha um único vencedor entre A, B e C; A afirma \"B venceu\", B afirma \"B não venceu\", C afirma \"C não venceu\". Se há uma verdade, a fala de C deve ser falsa; C venceu, portanto a afirmação de B é verdadeira.\n\nClassificação de elementos exige explicitar critério. Entre quadrado, triângulo, círculo e retângulo, círculo é o único sem segmentos retos no contorno; não basta dizer que é diferente sem indicar a propriedade.\n\n# 6. Resolver e verificar\n\nRegistre a ordem das operações, a convenção de contagem e as condições de unicidade. Releia o que se pede: posição, deslocamento, caminho, duração ou dia. Verifique se a solução satisfaz todas as pistas e se o padrão usado reproduz os termos dados.\n\nRecupere: PA e PG; resto zero; contagem inclusiva; deslocamento versus distância percorrida; par de declarações contraditórias; classificação por critério."
     },
     {
       "schema_version": "2.0.0",
@@ -25984,7 +26657,7 @@
       "titulo": "Números Inteiros, Racionais, Múltiplos/Divisores (MMC/MDC) e Frações (FCC)",
       "status": "em_auditoria",
       "origem": "edital_explicito",
-      "tempo_leitura_min": 25,
+      "tempo_leitura_min": 30,
       "edital_subtopicos": [
         "Operações com inteiros e racionais; expressões numéricas",
         "Múltiplos e divisores de números naturais (MMC e MDC)",
@@ -25996,56 +26669,76 @@
           "tipo": "edital",
           "nivel_autoridade": 1,
           "url": "https://www.concursosfcc.com.br"
+        },
+        {
+          "referencia_abnt": "IEZZI, Gelson; DOLCE, Osvaldo; MACHADO, Antonio. Matemática e realidade. São Paulo: Atual. Referência para auditoria.",
+          "tipo": "bibliografia_academica",
+          "nivel_autoridade": 5
         }
       ],
       "sintese_fcc": {
         "conceitos_nucleares": [
           {
-            "termo": "MMC (Encontro/Ciclo)",
-            "definicao_precisa": "Usado quando eventos periódicos precisam coincidir novamente no tempo.",
-            "fonte": "Aritmética Básica."
+            "termo": "Expressões",
+            "definicao_precisa": "Prioridades e sinais",
+            "fonte": "Síntese matemática autoral; bibliografia de referência."
           },
           {
-            "termo": "MDC (Partilha Máxima Igual)",
-            "definicao_precisa": "Usado para dividir quantidades distintas em grupos/pedaços iguais do maior tamanho possível, sem sobra.",
-            "fonte": "Aritmética Básica."
+            "termo": "Frações",
+            "definicao_precisa": "Denominador comum, produto, inverso",
+            "fonte": "Síntese matemática autoral; bibliografia de referência."
           },
           {
-            "termo": "Fração do Restante",
-            "definicao_precisa": "Multiplicar a nova fração pelo que sobrou (1 − fração gasta), nunca somar direto com a fração inicial.",
-            "fonte": "Aritmética Básica."
+            "termo": "MMC",
+            "definicao_precisa": "Menor múltiplo comum positivo",
+            "fonte": "Síntese matemática autoral; bibliografia de referência."
+          },
+          {
+            "termo": "MDC",
+            "definicao_precisa": "Maior divisor comum positivo",
+            "fonte": "Síntese matemática autoral; bibliografia de referência."
           }
         ],
         "pegadinhas_fcc": [
           {
-            "armadilha": "Somar 'fração do restante' diretamente com a fração inicial",
-            "como_a_fcc_cobra": "Candidato gasta 1/4 do salário e depois 1/3 do RESTANTE, e a prova pergunta que fração restou.",
-            "como_desarmar": "Após 1/4, restam 3/4. 1/3 de 3/4 = 1/4. Total gasto = 1/4 + 1/4 = 2/4 = 1/2 (restou 1/2)."
+            "armadilha": "Sinais",
+            "como_a_fcc_cobra": "Exemplo autoral: −3²=9",
+            "como_desarmar": "Potência precede sinal externo."
           },
           {
-            "armadilha": "Confundir MMC com MDC",
-            "como_a_fcc_cobra": "Mistura problemas de encontros periódicos com partilha máxima.",
-            "como_desarmar": "Coincidir no tempo = MMC. Dividir no maior tamanho igual possível = MDC."
+            "armadilha": "Frações",
+            "como_a_fcc_cobra": "Exemplo autoral: Somar denominadores",
+            "como_desarmar": "Iguale denominadores."
+          },
+          {
+            "armadilha": "MDC",
+            "como_a_fcc_cobra": "Exemplo autoral: MDC sempre é número de caixas",
+            "como_desarmar": "Verifique se pede tamanho ou quantidade."
           }
         ],
         "quadro_comparativo": [
           {
+            "conceito": "Expressões",
+            "criterio": "Prioridades e sinais"
+          },
+          {
+            "conceito": "Frações",
+            "criterio": "Denominador comum, produto, inverso"
+          },
+          {
             "conceito": "MMC",
-            "gatilho": "Coincidência / Encontro futuro / Juntos novamente"
+            "criterio": "Menor múltiplo comum positivo"
           },
           {
             "conceito": "MDC",
-            "gatilho": "Dividir igualmente / Maior tamanho possível / Sem sobras"
-          },
-          {
-            "conceito": "Divisão de frações",
-            "gatilho": "Conserva a 1ª e multiplica pelo inverso da 2ª"
+            "criterio": "Maior divisor comum positivo"
           }
         ],
         "checklist_revisao": [
-          "Sei identificar na hora se o problema pede MMC ou MDC?",
-          "Sei calcular frações sucessivas 'do restante' sem somar direto?",
-          "Respeito a ordem PEMDAS em expressões numéricas?"
+          "Consigo aplicar expressões em um problema novo?",
+          "Consigo aplicar frações em um problema novo?",
+          "Consigo aplicar mmc em um problema novo?",
+          "Consigo aplicar mdc em um problema novo?"
         ]
       },
       "questoes": [
@@ -26088,9 +26781,9 @@
           "justificativa_gabarito": "Partilha máxima igual → MDC(48, 72) = 24 mapas por pasta. Número de pastas: 48/24 = 2 pastas (físicos) + 72/24 = 3 pastas (políticos) = 5 pastas.",
           "analise_distratores": {
             "B": "24 é a quantidade de mapas por pasta, não o número de pastas!",
-            "C": "Metade de 24.",
-            "D": "Cálculo incorreto.",
-            "E": "Cálculo incorreto."
+            "C": "12 é divisor comum, mas não o máximo; levaria a 10 pastas, não 12.",
+            "D": "Usar 12 por pasta dá 10 pastas, mas não maximiza a quantidade por pasta.",
+            "E": "O tamanho máximo é 24, e 48/24+72/24=5."
           },
           "dificuldade": "intermediaria",
           "subtopico": "Múltiplos e divisores de números naturais (MMC e MDC)"
@@ -26135,7 +26828,7 @@
           "analise_distratores": {
             "A": "Esqueceu de somar o 2 inicial.",
             "B": "Erro de prioridade (somou 2 + 4 antes de multiplicar por 3).",
-            "D": "Erro na divisão de frações.",
+            "D": "A divisão vale 2 e a potência multiplicada por 3 vale 12, total 14.",
             "E": "Erro de potenciação/ordem."
           },
           "dificuldade": "basica",
@@ -26145,7 +26838,7 @@
           "questao_id": "CG-RLM-03-Q005",
           "origem": "inedita_padrao_fcc",
           "referencia_prova": "Inédita — padrão FCC / Edital SEDUC-MA 01/2026",
-          "enunciado": "Em uma sala de aula com 45 estudantes, 3/5 optaram por estudar em grupo. Quantos estudantes optaram por estudar individualmente?",
+          "enunciado": "Em uma sala com 45 estudantes, cada um escolheu exatamente uma opção: estudo em grupo ou individual. Se 3/5 optaram por grupo, quantos escolheram individual?",
           "alternativas": {
             "A": "18.",
             "B": "27.",
@@ -26163,6 +26856,190 @@
           },
           "dificuldade": "basica",
           "subtopico": "Frações e operações com frações"
+        },
+        {
+          "questao_id": "CG-RLM-03-EXP-Q001",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — treino autoral; não é questão oficial FCC",
+          "enunciado": "Calcule −4² + (−3)² − (−2).",
+          "alternativas": {
+            "A": "27",
+            "B": "−9",
+            "C": "−5",
+            "D": "−7",
+            "E": "5"
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "−16+9+2=−5.",
+          "analise_distratores": {
+            "A": "Confunde −4² com (−4)² e soma incorretamente.",
+            "B": "Subtrai 2 em vez de somar.",
+            "D": "Ignora o último termo.",
+            "E": "Troca o sinal do resultado."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Operações com inteiros e racionais; expressões numéricas"
+        },
+        {
+          "questao_id": "CG-RLM-03-EXP-Q002",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — treino autoral; não é questão oficial FCC",
+          "enunciado": "O valor de 24 ÷ 4 × 3 − 2 é",
+          "alternativas": {
+            "A": "0",
+            "B": "16",
+            "C": "4",
+            "D": "18",
+            "E": "−1"
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "24÷4=6; 6×3=18; 18−2=16.",
+          "analise_distratores": {
+            "A": "Agrupa 4×3 indevidamente e calcula 2−2.",
+            "C": "Não segue ordem dada.",
+            "D": "Não subtrai 2.",
+            "E": "Agrupamento e cálculo incorretos."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Operações com inteiros e racionais; expressões numéricas"
+        },
+        {
+          "questao_id": "CG-RLM-03-EXP-Q003",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — treino autoral; não é questão oficial FCC",
+          "enunciado": "A soma 5/6 + 3/4 é",
+          "alternativas": {
+            "A": "8/10",
+            "B": "8/24",
+            "C": "11/12",
+            "D": "19/12",
+            "E": "15/24"
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "MMC 12: 10/12+9/12=19/12.",
+          "analise_distratores": {
+            "A": "Soma numeradores e denominadores.",
+            "B": "Denominador comum exige ajustar numeradores.",
+            "C": "Numeradores ajustados são 10 e 9.",
+            "E": "É produto dos numeradores e denominadores."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Frações e operações com frações"
+        },
+        {
+          "questao_id": "CG-RLM-03-EXP-Q004",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — treino autoral; não é questão oficial FCC",
+          "enunciado": "Qual fração resulta de (5/9) ÷ (10/3)?",
+          "alternativas": {
+            "A": "1/6",
+            "B": "50/27",
+            "C": "2/3",
+            "D": "3/2",
+            "E": "1/3"
+          },
+          "gabarito": "A",
+          "justificativa_gabarito": "5/9×3/10=15/90=1/6.",
+          "analise_distratores": {
+            "B": "Multiplica sem inverter.",
+            "C": "Resultado não satisfaz quociente × divisor = 5/9.",
+            "D": "Inversão incorreta.",
+            "E": "Simplificação incorreta."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Frações e operações com frações"
+        },
+        {
+          "questao_id": "CG-RLM-03-EXP-Q005",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — treino autoral; não é questão oficial FCC",
+          "enunciado": "Duas atividades, iniciadas juntas, repetem-se a cada 18 e 24 minutos. Quando coincidem novamente?",
+          "alternativas": {
+            "A": "6 min",
+            "B": "42 min",
+            "C": "48 min",
+            "D": "432 min",
+            "E": "72 min"
+          },
+          "gabarito": "E",
+          "justificativa_gabarito": "18=2×3², 24=2³×3; MMC=2³×3²=72.",
+          "analise_distratores": {
+            "A": "É MDC.",
+            "B": "É soma.",
+            "C": "48 não é múltiplo de 18.",
+            "D": "É produto sem dividir pelo MDC."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Múltiplos e divisores de números naturais (MMC e MDC)"
+        },
+        {
+          "questao_id": "CG-RLM-03-EXP-Q006",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — treino autoral; não é questão oficial FCC",
+          "enunciado": "84 folhas azuis e 126 brancas serão agrupadas sem mistura, com maior quantidade igual por pacote e sem sobra. Quantos pacotes ao todo?",
+          "alternativas": {
+            "A": "42",
+            "B": "3",
+            "C": "5",
+            "D": "7",
+            "E": "6"
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "MDC=42; 84/42=2 e 126/42=3; total 5.",
+          "analise_distratores": {
+            "A": "É quantidade por pacote.",
+            "B": "É apenas número de pacotes brancos.",
+            "D": "Não corresponde a tamanho máximo.",
+            "E": "Não corresponde a tamanho máximo."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Múltiplos e divisores de números naturais (MMC e MDC)"
+        },
+        {
+          "questao_id": "CG-RLM-03-EXP-Q007",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — treino autoral; não é questão oficial FCC",
+          "enunciado": "Uma pessoa lê 1/4 do livro e depois 2/5 do restante. Que fração ainda falta?",
+          "alternativas": {
+            "A": "7/20",
+            "B": "9/20",
+            "C": "3/10",
+            "D": "13/20",
+            "E": "3/4"
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "Restante = (3/4)×(3/5)=9/20.",
+          "analise_distratores": {
+            "A": "Resulta de subtrair frações com bases distintas.",
+            "C": "É lido na segunda etapa.",
+            "D": "É soma direta de frações lidas com bases distintas.",
+            "E": "É o saldo após a primeira etapa."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Frações e operações com frações"
+        },
+        {
+          "questao_id": "CG-RLM-03-EXP-Q008",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — treino autoral; não é questão oficial FCC",
+          "enunciado": "Para base não nula, 2 elevado a −3 é",
+          "alternativas": {
+            "A": "−8",
+            "B": "−6",
+            "C": "8",
+            "D": "1/8",
+            "E": "1/6"
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "Expoente negativo indica inverso: 1/(2³)=1/8.",
+          "analise_distratores": {
+            "A": "Confunde expoente negativo com sinal.",
+            "B": "Multiplica base por expoente.",
+            "C": "Ignora expoente negativo.",
+            "E": "Usa 2×3 em vez de 2³."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Operações com inteiros e racionais; expressões numéricas"
         }
       ],
       "flashcards": [
@@ -26179,7 +27056,7 @@
         {
           "card_id": "CG-RLM-03-FC002",
           "frente": "Como dividir uma fração por outra?",
-          "verso": "Conserva a primeira fração e multiplica pelo inverso da segunda.",
+          "verso": "Para divisor não nulo, multiplique a primeira fração pelo inverso da segunda.",
           "tipo": "conceito",
           "tags": [
             "fracoes"
@@ -26214,16 +27091,156 @@
         },
         {
           "card_id": "CG-RLM-03-FC006",
-          "frente": "Qual a relação entre MMC(a,b) e MDC(a,b)?",
+          "frente": "Qual a relação entre MMC(a,b) e MDC(a,b) para inteiros positivos?",
           "verso": "MMC(a,b) × MDC(a,b) = a × b.",
           "tipo": "conceito",
           "tags": [
             "mmc",
             "mdc"
           ]
+        },
+        {
+          "card_id": "CG-RLM-03-EXP-FC001",
+          "frente": "Subtrair negativo",
+          "verso": "Somar seu oposto.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-03"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-03-EXP-FC002",
+          "frente": "−3²",
+          "verso": "−9.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-03"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-03-EXP-FC003",
+          "frente": "(−3)²",
+          "verso": "9.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-03"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-03-EXP-FC004",
+          "frente": "Expoente negativo (base não nula)",
+          "verso": "Inverso da potência com expoente positivo.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-03"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-03-EXP-FC005",
+          "frente": "Divisão por zero",
+          "verso": "Não definida.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-03"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-03-EXP-FC006",
+          "frente": "Multiplicação e divisão na expressão",
+          "verso": "Mesma prioridade, da esquerda para a direita.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-03"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-03-EXP-FC007",
+          "frente": "Soma de frações",
+          "verso": "Obter denominador comum e ajustar numeradores.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-03"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-03-EXP-FC008",
+          "frente": "Fração de um total",
+          "verso": "Multiplicar a fração pelo total.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-03"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-03-EXP-FC009",
+          "frente": "Fração do restante",
+          "verso": "Aplicar ao saldo, não à base inicial.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-03"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-03-EXP-FC010",
+          "frente": "Número 1 é primo?",
+          "verso": "Não; possui apenas um divisor positivo.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-03"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-03-EXP-FC011",
+          "frente": "MMC por fatoração",
+          "verso": "Maiores expoentes dos primos presentes.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-03"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-03-EXP-FC012",
+          "frente": "MDC por fatoração",
+          "verso": "Menores expoentes dos primos comuns.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-03"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-03-EXP-FC013",
+          "frente": "MDC por Euclides",
+          "verso": "Repetir divisões com resto; último resto não nulo.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-03"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-03-EXP-FC014",
+          "frente": "MMC com ciclos não sincronizados",
+          "verso": "Verificar instantes de início e compatibilidade.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-03"
+          ]
         }
       ],
-      "teoria_md": "---\ntopico_id: CG-RLM-03\nslug: numeros-operacoes-fracoes\ntitulo: \"Números Inteiros, Racionais, Múltiplos/Divisores (MMC/MDC) e Frações (FCC)\"\nedital: SEDUC-MA-01-2026\nbanca: FCC\nstatus: em_auditoria\n---\n\n# 1. Delimitação no Edital (Camada A)\n- **Itens explícitos (p. 60):** *Números inteiros e racionais: operações (adição, subtração, multiplicação, divisão, potenciação); expressões numéricas; múltiplos e divisores de números naturais; problemas. Frações e operações com frações.*\n\n# 2. Expressões Numéricas e Operações com Frações\n- **Ordem de prioridade (PEMDAS):** (1) Parênteses `()`, Colchetes `[]`, Chaves `{}`; (2) Potenciação/Radiciação; (3) Multiplicação e Divisão (da esquerda para a direita); (4) Adição e Subtração.\n- **Frações:**\n  - *Adição/Subtração:* igualar denominadores pelo **MMC** (ou método borboleta para duas frações).\n  - *Multiplicação:* numerador × numerador e denominador × denominador.\n  - *Divisão:* mantém a 1ª fração e multiplica pelo **inverso** da 2ª (`(a/b) ÷ (c/d) = (a/b) × (d/c)`).\n  - *Fração de um total / Resto:* se gastou `2/5` de um valor, sobrou `3/5`; se depois gastou `1/3` **do restante**, gastou `(1/3) × (3/5) = 1/5` do total, sobrando `2/5`.\n\n# 3. Múltiplos e Divisores: Quando Usar MMC vs. MDC na FCC!\n- **MMC (Mínimo Múltiplo Comum) — Ideia de ENCONTRO NO TEMPO:**\n  - *Palavras-chave na FCC:* \"voltam a se encontrar\", \"coincidem novamente\", \"de quanto em quanto tempo ocorrem juntos\", \"menor número que é divisível por...\".\n  - *Exemplo:* Ônibus A passa a cada 12 min e B a cada 18 min. Saem juntos às 8h. Quando saem juntos de novo? `MMC(12, 18) = 36 min` → às **8h36**.\n- **MDC (Máximo Divisor Comum) — Ideia de DIVISÃO EM PARTES IGUAIS E MÁXIMAS:**\n  - *Palavras-chave na FCC:* \"dividir em grupos/pedaços iguais de maior tamanho possível\", \"sem sobrar nada\", \"mesma quantidade em cada caixa\".\n  - *Exemplo:* 24 livros de Geografia e 36 de História serão divididos em caixas com o mesmo número de livros, sem misturar matérias, sendo o maior número possível por caixa. `MDC(24, 36) = 12 livros/caixa` (2 caixas de Geo + 3 de Hist = 5 caixas).\n"
+      "teoria_md": "# 1. Inteiros, racionais e sinais\n\nInteiros incluem negativos, zero e positivos. Racionais são números representáveis por a/b, com a e b inteiros e b diferente de zero. Na reta numérica, números à esquerda são menores. O módulo indica distância até zero: |−7| = 7.\n\nSomar um negativo equivale a subtrair seu módulo. Subtrair um negativo equivale a somar seu oposto: 4 − (−3) = 7. Produtos e quocientes de sinais iguais são positivos; sinais diferentes, negativos, com a ressalva de que zero não é positivo nem negativo. Divisão por zero não é definida.\n\n# 2. Potências e expressões\n\nPotenciação antecede multiplicação e divisão; estas têm a mesma prioridade e resolvem-se da esquerda para a direita; adição e subtração também têm prioridade igual entre si. Agrupamentos controlam a ordem. Em −3², a potência incide em 3, produzindo −9; em (−3)², a base é −3 e o resultado 9.\n\nPara a não nulo, a elevado a zero é 1; a elevado a −n é o inverso de a elevado a n. Multiplicação de potências de mesma base soma expoentes; divisão subtrai, quando definida. Não distribua potência sobre soma: (2+3)² = 25, diferente de 2²+3² = 13.\n\nExemplo: 18 ÷ 3 × 2 − 4 = 6 × 2 − 4 = 8. Em 18 ÷ (3 × 2) − 4, o resultado é −1.\n\n# 3. Frações e operações\n\nFrações equivalentes representam o mesmo número; multiplique ou divida numerador e denominador pelo mesmo fator não nulo. Para somar ou subtrair, use denominador comum: 3/4 + 1/6 = 9/12 + 2/12 = 11/12.\n\nPara multiplicar, multiplique numeradores e denominadores e simplifique. Para dividir por uma fração não nula, multiplique pelo inverso: (3/4) ÷ (3/8) = (3/4) × (8/3) = 2. Não some denominadores. Uma fração de um total é produto: 3/5 de 45 = 27.\n\n# 4. Fração do restante\n\nSe uma pessoa gasta 2/5 do total e depois 1/3 do restante, após a primeira etapa sobram 3/5. A segunda despesa é 1/3 × 3/5 = 1/5 do total. Restam 2/5. Alternativamente, a parte final é (1−2/5) × (1−1/3) = 3/5 × 2/3 = 2/5.\n\n![Frações do total e do restante, em cinco partes.](./media/raciocinio-logico/fracoes.svg)\n\nA base de referência muda. \"Um terço do total\" não é \"um terço do restante\". Se o total era 150, os gastos foram 60 e 30, restando 60. Confira a soma.\n\n# 5. Múltiplos, divisores, MMC e MDC\n\nUm número positivo d divide n quando n = d × k para algum inteiro k. Número primo positivo tem exatamente dois divisores positivos. 1 não é primo. Decomponha em fatores primos: 48 = 2⁴ × 3; 72 = 2³ × 3². MDC utiliza menores expoentes comuns: 2³ × 3 = 24. MMC utiliza maiores expoentes de todos os primos: 2⁴ × 3² = 144.\n\nPara dois inteiros positivos, MMC × MDC = produto dos números. O algoritmo de Euclides calcula MDC por restos sucessivos: 72 = 48 × 1 + 24; 48 = 24 × 2 + 0; MDC = 24.\n\nEventos de 12 e 18 minutos, sincronizados na origem, coincidem após 36 minutos (MMC). Se começam em instantes diferentes, é necessário verificar a compatibilidade dos ciclos, não apenas calcular MMC. Para dividir 48 e 72 itens em grupos homogêneos do maior tamanho comum, MDC = 24; são 2+3 = 5 grupos.\n\n# 6. Revisão aplicada\n\nIdentifique unidade, operação e pergunta final. Simplifique antes de multiplicar, quando possível. Teste resultados pela operação inversa. Para frações, estime a ordem de grandeza. Para MMC/MDC, verifique divisibilidade; para expressões, escreva uma transformação por linha.\n\nRecupere: regras de sinais, −3² versus (−3)², denominador comum, divisão por fração, fração do restante, fatores primos e algoritmo de Euclides."
     },
     {
       "schema_version": "2.0.0",
@@ -26248,64 +27265,74 @@
           "url": "https://www.concursosfcc.com.br"
         },
         {
-          "referencia_abnt": "PORTAL CONCURSOS. Banca FCC: perfil, estilo de prova e como estudar (Raciocínio Lógico e Matemática). 2026.",
-          "tipo": "prova_fcc",
-          "nivel_autoridade": 4,
-          "url": "https://cursosdoportal.com.br/noticias/banca-fcc-perfil-estilo-de-prova-e-como-estudar"
+          "referencia_abnt": "IEZZI, Gelson; DOLCE, Osvaldo; MACHADO, Antonio. Matemática e realidade. São Paulo: Atual. Referência para auditoria.",
+          "tipo": "bibliografia_academica",
+          "nivel_autoridade": 5
         }
       ],
       "sintese_fcc": {
         "conceitos_nucleares": [
           {
-            "termo": "Fator Multiplicativo de Porcentagem",
-            "definicao_precisa": "Aumento de p% = multiplicar por (1 + p/100); Desconto de p% = multiplicar por (1 - p/100).",
-            "fonte": "Matemática Básica Aplicada."
+            "termo": "Direta",
+            "definicao_precisa": "Razão constante",
+            "fonte": "Síntese matemática autoral; bibliografia de referência."
           },
           {
-            "termo": "Grandezas Inversamente Proporcionais (GIP)",
-            "definicao_precisa": "Ao dobrar uma grandeza, a outra reduz-se à metade (ex.: velocidade × tempo, operários × dias). Na regra de três, multiplica-se em linha reta.",
-            "fonte": "Matemática Básica Aplicada."
+            "termo": "Inversa",
+            "definicao_precisa": "Produto constante",
+            "fonte": "Síntese matemática autoral; bibliografia de referência."
           },
           {
-            "termo": "Método da Constante k",
-            "definicao_precisa": "Na divisão proporcional a (a, b, c), escreve-se a·k + b·k + c·k = Total para achar k em segundos.",
-            "fonte": "Matemática Básica Aplicada."
+            "termo": "Divisão proporcional",
+            "definicao_precisa": "Normalização dos pesos",
+            "fonte": "Síntese matemática autoral; bibliografia de referência."
+          },
+          {
+            "termo": "Porcentagem",
+            "definicao_precisa": "Fatores multiplicativos e base",
+            "fonte": "Síntese matemática autoral; bibliografia de referência."
           }
         ],
         "pegadinhas_fcc": [
           {
-            "armadilha": "Somar ou anular porcentagens sucessivas",
-            "como_a_fcc_cobra": "Afirma que um aumento de 10% seguido de desconto de 10% volta ao preço original (ou que dois aumentos de 10% equivalem a 20%).",
-            "como_desarmar": "Multiplicar os fatores: 1,10 × 0,90 = 0,99 (-1%); 1,10 × 1,10 = 1,21 (+21%)."
+            "armadilha": "Proporcionalidade",
+            "como_a_fcc_cobra": "Exemplo autoral: Mais significa direta",
+            "como_desarmar": "Teste razão ou produto constante."
           },
           {
-            "armadilha": "Multiplicar cruzado em regra de três inversa",
-            "como_a_fcc_cobra": "Problema clássico de torneiras/impressoras/velocidade onde mais máquinas reduzem o tempo.",
-            "como_desarmar": "Antes de armar a conta, perguntar: 'Se aumentar X, Y aumenta ou diminui?' Se diminuir, é inversa → multiplica em paralelo."
+            "armadilha": "Variações",
+            "como_a_fcc_cobra": "Exemplo autoral: Somar percentuais sucessivos",
+            "como_desarmar": "Multiplique fatores."
+          },
+          {
+            "armadilha": "Inversão",
+            "como_a_fcc_cobra": "Exemplo autoral: Acrescentar desconto para recuperar preço",
+            "como_desarmar": "Divida pelo fator."
           }
         ],
         "quadro_comparativo": [
           {
-            "operacao": "Aumento de 25%",
-            "fator": "× 1,25"
+            "conceito": "Direta",
+            "criterio": "Razão constante"
           },
           {
-            "operacao": "Desconto de 25%",
-            "fator": "× 0,75"
+            "conceito": "Inversa",
+            "criterio": "Produto constante"
           },
           {
-            "operacao": "Dois aumentos de 10%",
-            "fator": "1,10 × 1,10 = 1,21 (+21%)"
+            "conceito": "Divisão proporcional",
+            "criterio": "Normalização dos pesos"
           },
           {
-            "operacao": "Aumento 20% + Desconto 20%",
-            "fator": "1,20 × 0,80 = 0,96 (-4%)"
+            "conceito": "Porcentagem",
+            "criterio": "Fatores multiplicativos e base"
           }
         ],
         "checklist_revisao": [
-          "Sei usar o método da constante k para divisão direta e inversamente proporcional?",
-          "Verifico sempre se a regra de três é direta ou inversa antes de multiplicar?",
-          "Uso fatores multiplicativos em acréscimos e descontos sucessivos?"
+          "Consigo aplicar direta em um problema novo?",
+          "Consigo aplicar inversa em um problema novo?",
+          "Consigo aplicar divisão proporcional em um problema novo?",
+          "Consigo aplicar porcentagem em um problema novo?"
         ]
       },
       "questoes": [
@@ -26382,7 +27409,7 @@
           "questao_id": "CG-RLM-04-Q004",
           "origem": "inedita_padrao_fcc",
           "referencia_prova": "Inédita — padrão FCC / Edital SEDUC-MA 01/2026",
-          "enunciado": "Em um concurso com 141 vagas no total, 28 vagas são reservadas para candidatos negros e 14 para candidatos com deficiência, sendo o restante para ampla concorrência. A razão aproximada (em porcentagem) entre as vagas reservadas a candidatos negros e o total de vagas é de",
+          "enunciado": "Em um concurso hipotético com 141 vagas, 28 são reservadas a um grupo. Qual a participação percentual aproximada dessas 28 vagas no total?",
           "alternativas": {
             "A": "10,0%.",
             "B": "42,0%.",
@@ -26391,12 +27418,12 @@
             "E": "19,9%."
           },
           "gabarito": "E",
-          "justificativa_gabarito": "28 / 141 ≈ 0,19858, ou seja, aproximadamente 19,9% (arredondamento da reserva legal de 20%).",
+          "justificativa_gabarito": "28/141 × 100 ≈ 19,858%, arredondado a uma casa decimal: 19,9%.",
           "analise_distratores": {
-            "A": "Corresponde aproximadamente a 14/141 (PcD).",
-            "B": "Soma incorreta de 28 + 14.",
+            "A": "10% corresponderia a aproximadamente 14 vagas, não 28.",
+            "B": "42% de 141 corresponderia a cerca de 59 vagas.",
             "C": "Confundiu quantidade absoluta (28) com porcentagem.",
-            "D": "Valor incorreto."
+            "D": "33,3% corresponderia a aproximadamente um terço das vagas."
           },
           "dificuldade": "basica",
           "subtopico": "Razões e proporções"
@@ -26405,7 +27432,7 @@
           "questao_id": "CG-RLM-04-Q005",
           "origem": "inedita_padrao_fcc",
           "referencia_prova": "Inédita — padrão FCC / Edital SEDUC-MA 01/2026",
-          "enunciado": "Um município maranhense recebeu dois reajustes sucessivos de 10% ao mês em sua arrecadação de ICMS durante um trimestre. O aumento percentual acumulado equivalente a esses dois reajustes sucessivos de 10% é de",
+          "enunciado": "Um valor hipotético recebe dois reajustes sucessivos de 10%, cada um sobre o valor vigente. O aumento acumulado é",
           "alternativas": {
             "A": "20%.",
             "B": "19%.",
@@ -26422,6 +27449,190 @@
             "E": "Considerou apenas um reajuste."
           },
           "dificuldade": "basica",
+          "subtopico": "Porcentagem, acréscimos e descontos"
+        },
+        {
+          "questao_id": "CG-RLM-04-EXP-Q001",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — treino autoral; não é questão oficial FCC",
+          "enunciado": "Em uma escala 1:25.000, a distância de 4 cm no mapa corresponde a",
+          "alternativas": {
+            "A": "100 m",
+            "B": "250 m",
+            "C": "1 km",
+            "D": "10 km",
+            "E": "100 km"
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "4×25.000=100.000 cm = 1.000 m = 1 km.",
+          "analise_distratores": {
+            "A": "Conversão incorreta por fator 10.",
+            "B": "É distância de 1 cm.",
+            "D": "Conversão incorreta por fator 10.",
+            "E": "Conversão incorreta por fator 100."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Razões e proporções"
+        },
+        {
+          "questao_id": "CG-RLM-04-EXP-Q002",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — treino autoral; não é questão oficial FCC",
+          "enunciado": "R$ 840 serão divididos diretamente na razão 2:5:7. A maior parte é",
+          "alternativas": {
+            "A": "R$ 300",
+            "B": "R$ 420",
+            "C": "R$ 350",
+            "D": "R$ 600",
+            "E": "R$ 120"
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "Soma 14; cada unidade 60; maior parte 7×60=420.",
+          "analise_distratores": {
+            "A": "É parte de peso 5.",
+            "C": "Não corresponde a peso 7.",
+            "D": "Não respeita a razão.",
+            "E": "É parte de peso 2."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Divisão em partes proporcionais"
+        },
+        {
+          "questao_id": "CG-RLM-04-EXP-Q003",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — treino autoral; não é questão oficial FCC",
+          "enunciado": "Divida 420 em partes inversamente proporcionais a 3 e 4. A parte associada a 3 é",
+          "alternativas": {
+            "A": "180",
+            "B": "210",
+            "C": "140",
+            "D": "240",
+            "E": "280"
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "Pesos inversos 1/3:1/4 = 4:3; 420×4/7=240.",
+          "analise_distratores": {
+            "A": "É a parte de índice 4.",
+            "B": "Divisão igual.",
+            "C": "Usa divisão direta pelo índice.",
+            "E": "Não conserva razão 4:3."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Divisão em partes proporcionais"
+        },
+        {
+          "questao_id": "CG-RLM-04-EXP-Q004",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — treino autoral; não é questão oficial FCC",
+          "enunciado": "6 máquinas iguais executam um lote em 10 horas. Com 8 máquinas de ritmo constante e trabalho divisível, o tempo é",
+          "alternativas": {
+            "A": "7h30",
+            "B": "8h",
+            "C": "13h20",
+            "D": "6h",
+            "E": "5h"
+          },
+          "gabarito": "A",
+          "justificativa_gabarito": "6×10=8×t; t=7,5h = 7h30.",
+          "analise_distratores": {
+            "B": "Não mantém produto 60.",
+            "C": "Trata como direta.",
+            "D": "Não mantém produto constante.",
+            "E": "Não mantém produto constante."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Regra de três simples"
+        },
+        {
+          "questao_id": "CG-RLM-04-EXP-Q005",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — treino autoral; não é questão oficial FCC",
+          "enunciado": "Ao preço unitário fixo, 7 fichários custam R$ 84. Quanto custam 11?",
+          "alternativas": {
+            "A": "R$ 96",
+            "B": "R$ 108",
+            "C": "R$ 120",
+            "D": "R$ 126",
+            "E": "R$ 132"
+          },
+          "gabarito": "E",
+          "justificativa_gabarito": "84/7=12 reais por unidade; 11×12=132.",
+          "analise_distratores": {
+            "A": "Corresponde a 8.",
+            "B": "Corresponde a 9.",
+            "C": "Corresponde a 10.",
+            "D": "Não corresponde a 11×12."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Regra de três simples"
+        },
+        {
+          "questao_id": "CG-RLM-04-EXP-Q006",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — treino autoral; não é questão oficial FCC",
+          "enunciado": "Um valor de R$ 200 aumenta 15% e depois cai 10% sobre o novo valor. Resultado?",
+          "alternativas": {
+            "A": "R$ 210",
+            "B": "R$ 205",
+            "C": "R$ 207",
+            "D": "R$ 230",
+            "E": "R$ 180"
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "200×1,15×0,90=207.",
+          "analise_distratores": {
+            "A": "Soma percentuais como se tivessem base igual.",
+            "B": "Não é o produto correto.",
+            "D": "Considera só aumento.",
+            "E": "Considera só desconto."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Porcentagem, acréscimos e descontos"
+        },
+        {
+          "questao_id": "CG-RLM-04-EXP-Q007",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — treino autoral; não é questão oficial FCC",
+          "enunciado": "Após desconto de 25%, o preço é R$ 180. Qual era o preço original?",
+          "alternativas": {
+            "A": "R$ 225",
+            "B": "R$ 240",
+            "C": "R$ 205",
+            "D": "R$ 135",
+            "E": "R$ 250"
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "0,75×original=180; original=240.",
+          "analise_distratores": {
+            "A": "Acrescenta 25% à base errada.",
+            "C": "Soma 25 em vez de usar fator.",
+            "D": "Aplica outro desconto.",
+            "E": "Não satisfaz 0,75×original=180."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Porcentagem, acréscimos e descontos"
+        },
+        {
+          "questao_id": "CG-RLM-04-EXP-Q008",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — treino autoral; não é questão oficial FCC",
+          "enunciado": "Uma taxa sobe de 40% para 50%. O aumento em pontos percentuais e o aumento relativo são, respectivamente,",
+          "alternativas": {
+            "A": "10 pp e 10%",
+            "B": "25 pp e 10%",
+            "C": "25 pp e 25%",
+            "D": "10 pp e 25%",
+            "E": "50 pp e 25%"
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "50−40=10 pp; 10/40=25%.",
+          "analise_distratores": {
+            "A": "Confunde diferença com crescimento relativo.",
+            "B": "Inverte as medidas.",
+            "C": "A diferença é 10 pp.",
+            "E": "50% é a taxa final."
+          },
+          "dificuldade": "intermediaria",
           "subtopico": "Porcentagem, acréscimos e descontos"
         }
       ],
@@ -26448,7 +27659,7 @@
         {
           "card_id": "CG-RLM-04-FC003",
           "frente": "Como resolver regra de três com grandezas inversamente proporcionais?",
-          "verso": "Multiplica-se em linha reta (paralelo), e não cruzado.",
+          "verso": "Identifique produto constante xy=k, quando as condições autorizam; escreva a igualdade dos produtos.",
           "tipo": "conceito",
           "tags": [
             "regra-de-tres"
@@ -26475,14 +27686,154 @@
         {
           "card_id": "CG-RLM-04-FC006",
           "frente": "Velocidade e tempo de viagem são grandezas diretas ou inversas?",
-          "verso": "Inversamente proporcionais (quanto maior a velocidade, menor o tempo para a mesma distância).",
+          "verso": "Inversas para distância fixa, considerando velocidade média e tempo do mesmo percurso.",
           "tipo": "conceito",
           "tags": [
             "grandezas"
           ]
+        },
+        {
+          "card_id": "CG-RLM-04-EXP-FC001",
+          "frente": "Razão parte:parte × parte:todo",
+          "verso": "2:3 entre partes; 2/5 do total.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-04"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-04-EXP-FC002",
+          "frente": "Direta: equação",
+          "verso": "y=kx; razão constante.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-04"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-04-EXP-FC003",
+          "frente": "Inversa: equação",
+          "verso": "xy=k; produto constante.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-04"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-04-EXP-FC004",
+          "frente": "Relação crescente sempre direta?",
+          "verso": "Não, precisa de razão constante.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-04"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-04-EXP-FC005",
+          "frente": "Divisão inversa a 2 e 3",
+          "verso": "Pesos 1/2:1/3 = 3:2.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-04"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-04-EXP-FC006",
+          "frente": "15% de 240",
+          "verso": "36.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-04"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-04-EXP-FC007",
+          "frente": "Fator de aumento de 25%",
+          "verso": "1,25.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-04"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-04-EXP-FC008",
+          "frente": "Fator de desconto de 20%",
+          "verso": "0,80.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-04"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-04-EXP-FC009",
+          "frente": "Preço após desconto de 20%",
+          "verso": "Multiplicar inicial por 0,8.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-04"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-04-EXP-FC010",
+          "frente": "Recuperar preço após desconto de 20%",
+          "verso": "Dividir saldo por 0,8.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-04"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-04-EXP-FC011",
+          "frente": "Aumento necessário após perda de 20%",
+          "verso": "25% sobre o saldo.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-04"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-04-EXP-FC012",
+          "frente": "25% aumento e 20% desconto",
+          "verso": "Fatores 1,25×0,8=1.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-04"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-04-EXP-FC013",
+          "frente": "Taxa 20% → 25%",
+          "verso": "+5 pp; crescimento relativo 25%.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-04"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-04-EXP-FC014",
+          "frente": "Escala 1:25.000",
+          "verso": "1 cm no mapa = 250 m no terreno, se mantida a escala.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-04"
+          ]
         }
       ],
-      "teoria_md": "---\ntopico_id: CG-RLM-04\nslug: proporcionalidade-regra-de-tres-porcentagem\ntitulo: \"Razões, Proporções, Divisão Proporcional, Regra de Três e Porcentagem (FCC)\"\nedital: SEDUC-MA-01-2026\nbanca: FCC\nstatus: em_auditoria\n---\n\n# 1. Delimitação no Edital (Camada A)\n- **Itens explícitos (p. 60):** *Números e grandezas proporcionais: razões e proporções; divisão em partes proporcionais; regra de três; porcentagem e problemas envolvendo regra de três simples, cálculos de porcentagem, acréscimos e descontos.*\n- Junto com Lógica Proposicional (`CG-RLM-01`), **Porcentagem e Proporcionalidade respondem por quase 60% das questões de Matemática da FCC** — tema de retorno imediato para quem parte do nível 0!\n\n# 2. Razão, Proporção e Divisão em Partes Proporcionais\n- **Razão:** quociente `a / b` (`b ≠ 0`). Ex.: escala cartográfica `1 : 250.000` é uma razão!\n- **Proporção:** igualdade entre duas razões (`a / b = c / d` ⇔ `a · d = b · c`).\n- **Divisão Diretamente Proporcional (Método da Constante `k`):**\n  - Dividir `300` em partes proporcionais a `2`, `3` e `5`:\n    - `2k + 3k + 5k = 300` → `10k = 300` → `k = 30`.\n    - Partes: `60`, `90` e `150`.\n- **Divisão Inversamente Proporcional:**\n  - Dividir `220` inversamente proporcional a `2` e `3` (= diretamente proporcional a `1/2` e `1/3`):\n    - `k/2 + k/3 = 220` → `(3k + 2k)/6 = 220` → `5k = 1320` → `k = 264`.\n    - Partes: `264/2 = 132` e `264/3 = 88` (note: quem tinha o menor índice `2` recebe a maior parte `132`!).\n\n# 3. Regra de Três Simples (Direta vs. Inversa)\n1. **Grandezas Diretamente Proporcionais (GDP):** quando uma aumenta, a outra aumenta na mesma razão (ex.: número de questões acertadas e pontuação). Multiplica-se **cruzado**.\n2. **Grandezas Inversamente Proporcionais (GIP):** quando uma aumenta, a outra diminui na razão inversa (ex.: **velocidade × tempo de percurso**; **número de digitadores/máquinas × tempo de execução**). Multiplica-se **em linha reta (paralelo)**!\n\n# 4. Porcentagem, Acréscimos e Descontos Sucessivos (Fator de Multiplicação)\nUsar o **fator multiplicativo** evita quase 100% dos erros de conta na FCC:\n- **Aumento de `p%`:** multiplique por **`(1 + p/100)`** (ex.: +20% → `× 1,20`).\n- **Desconto de `p%`:** multiplique por **`(1 - p/100)`** (ex.: -15% → `× 0,85`).\n- **Armadilha clássica da FCC (Variações Sucessivas):**\n  - *Um preço aumenta 20% e depois cai 20%. Ele volta ao valor inicial?* **NÃO!**\n  - Conta: `1,20 × 0,80 = 0,96` → ou seja, há uma **redução líquida de 4%**!\n  - *Regra de ouro:* aumentos e descontos sucessivos **nunca se somam nem se anulam linearmente**; sempre multiplique os fatores!\n"
+      "teoria_md": "# 1. Razões e proporções\n\nUma razão a/b compara quantidades, com b não nulo. Em uma escala 1:50.000, 1 cm no mapa representa 50.000 cm no terreno, isto é, 500 m, se a escala for mantida. Converta unidades antes de comparar. Uma proporção a/b = c/d, com denominadores não nulos, equivale a ad = bc.\n\nUma taxa pode ter unidade, como km/h ou reais por unidade. Razão parte/total pode ser expressa em porcentagem. Não confunda razão entre partes com fração do total: se há 2 mapas físicos e 3 políticos, a razão físicos:políticos é 2:3, mas físicos são 2/5 do total.\n\n# 2. Grandezas diretamente e inversamente proporcionais\n\nDireta: y = kx, com razão y/x constante. Se 4 cadernos custam R$ 28 ao mesmo preço unitário, 7 custam R$ 49. Inversa: xy = k. Para distância fixa, velocidade média e tempo são inversamente proporcionais, se as condições forem adequadas.\n\nApenas crescer ou diminuir não basta para estabelecer proporcionalidade. Uma corrida com tarifa fixa mais preço por km não é diretamente proporcional à distância. Em problemas de produtividade, suponha trabalhadores de mesmo ritmo, trabalho divisível e condições constantes apenas quando o enunciado autoriza.\n\n# 3. Divisão em partes proporcionais\n\nPara dividir 360 diretamente em razão 2:3:4, some pesos: 9. Cada unidade vale 40; partes 80, 120 e 160. Para divisão inversa a 2 e 3, use pesos 1/2 e 1/3, equivalentes a 3:2. Dividindo 250, resultam 150 e 100.\n\nConfira se as partes somam o total e se a razão entre elas é a indicada. Na divisão inversa com pesos positivos, o menor índice recebe maior parcela. Não confunda dividir igualmente com dividir proporcionalmente.\n\n# 4. Regra de três simples\n\nOrganize as grandezas e suas unidades. Para 5 impressoras iguais produzirem um lote em 12 h, 8 impressoras iguais levam x horas, supondo ritmo constante e sem gargalos. Produto constante: 5 × 12 = 8x, portanto x = 7,5 h (7 h 30 min).\n\nSe 5 mapas custam R$ 60, 8 mapas ao mesmo preço unitário custam x: 60/5 = x/8, portanto x = 96. Identifique a relação matemática antes de escolher a multiplicação; não confie apenas em macetes visuais de tabela.\n\n# 5. Porcentagens e variação acumulada\n\np% equivale a p/100. Para 15% de 240, calcule 0,15 × 240 = 36. Aumento de p% multiplica a base por 1+p/100; desconto, por 1−p/100. Variações sucessivas multiplicam fatores: aumento de 25% seguido de desconto de 20% resulta em 1,25 × 0,80 = 1, ou seja, retorno ao valor inicial.\n\n![Comparação de fatores de aumento e desconto.](./media/raciocinio-logico/percentuais.svg)\n\nSe um preço após desconto de 20% é R$ 120, o original é 120/0,80 = R$ 150. Não acrescente 20% ao preço descontado: o denominador mudou. Para recuperar perda de 20%, o aumento necessário sobre o saldo é 25%.\n\n# 6. Pontos percentuais e interpretação\n\nSe a taxa passa de 20% para 25%, há crescimento de 5 pontos percentuais e crescimento relativo de 25% (5/20). Diferencie quantidade absoluta, participação e variação relativa. Uma taxa pode subir mesmo que o total de casos diminua, se o denominador mudar.\n\nEm problemas de desconto, arredonde somente quando necessário. Confira se a resposta é percentual ou valor monetário. Recupere: condições de proporcionalidade direta e inversa; pesos e reciprocidade; regra de três; fatores sucessivos; cálculo reverso; pontos percentuais."
     },
     {
       "schema_version": "2.0.0",
@@ -26492,7 +27843,7 @@
       "titulo": "Estatística Descritiva (Tendência Central, Dispersão) e Interpretação de Gráficos/Tabelas",
       "status": "em_auditoria",
       "origem": "edital_explicito",
-      "tempo_leitura_min": 25,
+      "tempo_leitura_min": 30,
       "edital_subtopicos": [
         "Tendência central: média simples, ponderada, mediana e moda",
         "Dispersão: amplitude, desvio médio, variância e desvio padrão",
@@ -26514,59 +27865,66 @@
       "sintese_fcc": {
         "conceitos_nucleares": [
           {
-            "termo": "Mediana (Md)",
-            "definicao_precisa": "Valor central do conjunto APÓS ordenação (rol). Se n for par, é a média dos dois centrais.",
-            "fonte": "MORETTIN & BUSSAB, 2017."
+            "termo": "Centro",
+            "definicao_precisa": "Média, mediana, moda",
+            "fonte": "Síntese matemática autoral; bibliografia de referência."
           },
           {
-            "termo": "Desvio Padrão",
-            "definicao_precisa": "Raiz quadrada da variância; mede o grau de dispersão/heterogeneidade dos dados em torno da média (zero = dados todos iguais).",
-            "fonte": "MORETTIN & BUSSAB, 2017."
+            "termo": "Dispersão",
+            "definicao_precisa": "Amplitude, desvio médio, variância e desvio padrão",
+            "fonte": "Síntese matemática autoral; bibliografia de referência."
           },
           {
-            "termo": "Gráfico de Setores vs. Histograma",
-            "definicao_precisa": "Setores: proporções de um todo (360° = 100%). Histograma: barras contíguas para intervalos contínuos de frequência.",
-            "fonte": "Estatística Descritiva."
+            "termo": "Histograma",
+            "definicao_precisa": "Área proporcional à frequência",
+            "fonte": "Síntese matemática autoral; bibliografia de referência."
+          },
+          {
+            "termo": "Setores",
+            "definicao_precisa": "Ângulo proporcional à parte",
+            "fonte": "Síntese matemática autoral; bibliografia de referência."
           }
         ],
         "pegadinhas_fcc": [
           {
-            "armadilha": "Calcular Mediana em lista desordenada",
-            "como_a_fcc_cobra": "Apresenta uma sequência fora de ordem (ex.: 10, 2, 8, 4, 6) e pergunta a mediana.",
-            "como_desarmar": "SEMPRE ordenar antes (2, 4, 6, 8, 10 → Md = 6; nunca pegar o 8!)."
+            "armadilha": "Mediana",
+            "como_a_fcc_cobra": "Exemplo autoral: Usar termo central sem ordenar",
+            "como_desarmar": "Ordene primeiro."
           },
           {
-            "armadilha": "Achar que o conjunto com maior média tem maior desvio padrão",
-            "como_a_fcc_cobra": "Compara duas turmas e afirma que a de maior média é necessariamente mais heterogênea.",
-            "como_desarmar": "Tendência central (média) não mede dispersão! O conjunto {10, 10, 10} tem média 10 e desvio padrão ZERO."
+            "armadilha": "Variância",
+            "como_a_fcc_cobra": "Exemplo autoral: Sempre dividir por n−1",
+            "como_desarmar": "Identifique convenção."
+          },
+          {
+            "armadilha": "Histograma",
+            "como_a_fcc_cobra": "Exemplo autoral: Altura é sempre frequência",
+            "como_desarmar": "Com larguras diferentes, use densidade."
           }
         ],
         "quadro_comparativo": [
           {
-            "medida": "Média Ponderada",
-            "formula_ideia": "Σ(valor × peso) / Σpesos"
+            "conceito": "Centro",
+            "criterio": "Média, mediana, moda"
           },
           {
-            "medida": "Moda",
-            "formula_ideia": "Valor mais frequente"
+            "conceito": "Dispersão",
+            "criterio": "Amplitude, desvio médio, variância e desvio padrão"
           },
           {
-            "medida": "Mediana",
-            "formula_ideia": "Centro do rol ordenado"
+            "conceito": "Histograma",
+            "criterio": "Área proporcional à frequência"
           },
           {
-            "medida": "Amplitude",
-            "formula_ideia": "Máximo − Mínimo"
-          },
-          {
-            "medida": "Desvio Padrão",
-            "formula_ideia": "√Variância"
+            "conceito": "Setores",
+            "criterio": "Ângulo proporcional à parte"
           }
         ],
         "checklist_revisao": [
-          "Lembro sempre de ordenar os dados antes de achar a Mediana?",
-          "Sei calcular Média Ponderada (como a própria nota objetiva do edital)?",
-          "Sei interpretar Variância, Desvio Padrão e ângulos de gráfico de setores (1% = 3,6°)?"
+          "Consigo aplicar centro em um problema novo?",
+          "Consigo aplicar dispersão em um problema novo?",
+          "Consigo aplicar histograma em um problema novo?",
+          "Consigo aplicar setores em um problema novo?"
         ]
       },
       "questoes": [
@@ -26597,7 +27955,7 @@
           "questao_id": "CG-RLM-05-Q002",
           "origem": "inedita_padrao_fcc",
           "referencia_prova": "Inédita — padrão FCC / Edital SEDUC-MA 01/2026",
-          "enunciado": "De acordo com o Edital SEAD/MA nº 01/2026, a Nota Objetiva é a média ponderada entre Conhecimentos Gerais (peso 1) e Conhecimentos Específicos (peso 2). Se um candidato obteve nota 6,0 em Conhecimentos Gerais e nota 9,0 em Conhecimentos Específicos, sua Nota Objetiva será",
+          "enunciado": "Em uma avaliação hipotética, Conhecimentos Gerais têm peso 1 e Conhecimentos Específicos peso 2. Com notas 6,0 e 9,0, respectivamente, qual a média ponderada?",
           "alternativas": {
             "A": "7,5.",
             "B": "7,0.",
@@ -26606,12 +27964,12 @@
             "E": "7,8."
           },
           "gabarito": "C",
-          "justificativa_gabarito": "(1 × 6,0 + 2 × 9,0) / (1 + 2) = (6 + 18) / 3 = 24 / 3 = 8,0.",
+          "justificativa_gabarito": "(1×6 + 2×9)/(1+2)=24/3=8. Trata-se de exemplo hipotético.",
           "analise_distratores": {
             "A": "Calculou média aritmética simples (6+9)/2 = 7,5.",
             "B": "Inverteu os pesos: (2×6 + 1×9)/3 = 7,0.",
-            "D": "Estimativa incorreta.",
-            "E": "Estimativa incorreta."
+            "D": "A média ponderada é 24/3, não 8,5.",
+            "E": "A soma ponderada 24 deve ser dividida por 3."
           },
           "dificuldade": "basica",
           "subtopico": "Tendência central: média simples, ponderada, mediana e moda"
@@ -26666,7 +28024,7 @@
           "questao_id": "CG-RLM-05-Q005",
           "origem": "inedita_padrao_fcc",
           "referencia_prova": "Inédita — padrão FCC / Edital SEDUC-MA 01/2026",
-          "enunciado": "Analisando as notas de duas turmas (A = {7, 7, 7, 7} e B = {1, 7, 7, 13}), ambas com média igual a 7,0, é correto afirmar quanto às medidas de dispersão que",
+          "enunciado": "Duas turmas têm os seguintes resultados em um índice hipotético de desempenho sem limite de 10: A = {7,7,7,7}; B = {1,7,7,13}. Ambas têm média 7. Quanto à dispersão, é correto afirmar que",
           "alternativas": {
             "A": "a turma A é mais heterogênea que a turma B.",
             "B": "ambas as turmas têm exatamente o mesmo desvio padrão por possuírem a mesma média.",
@@ -26684,6 +28042,190 @@
           },
           "dificuldade": "basica",
           "subtopico": "Dispersão: amplitude, desvio médio, variância e desvio padrão"
+        },
+        {
+          "questao_id": "CG-RLM-05-EXP-Q001",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — treino autoral; não é questão oficial FCC",
+          "enunciado": "Notas 2, 4, 4, 8, 12 têm média, mediana e moda, respectivamente,",
+          "alternativas": {
+            "A": "6, 6, 4",
+            "B": "4, 6, 4",
+            "C": "6, 4, 4",
+            "D": "6, 4, 8",
+            "E": "5, 4, 4"
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "Soma 30, média 6; terceiro valor 4; 4 se repete.",
+          "analise_distratores": {
+            "A": "Mediana é 4.",
+            "B": "Média é 6 e mediana 4.",
+            "D": "Moda é 4.",
+            "E": "Soma/5 é 6."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Tendência central: média simples, ponderada, mediana e moda"
+        },
+        {
+          "questao_id": "CG-RLM-05-EXP-Q002",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — treino autoral; não é questão oficial FCC",
+          "enunciado": "Uma nota 5 tem peso 2; uma nota 8 tem peso 3. A média ponderada é",
+          "alternativas": {
+            "A": "6,5",
+            "B": "6,8",
+            "C": "7,0",
+            "D": "7,4",
+            "E": "6,2"
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "(5×2+8×3)/5=34/5=6,8.",
+          "analise_distratores": {
+            "A": "É média simples.",
+            "C": "Não é 34/5.",
+            "D": "Não é 34/5.",
+            "E": "Inverte os pesos."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Tendência central: média simples, ponderada, mediana e moda"
+        },
+        {
+          "questao_id": "CG-RLM-05-EXP-Q003",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — treino autoral; não é questão oficial FCC",
+          "enunciado": "O desvio absoluto médio em relação à média dos valores 1, 3, 5 é",
+          "alternativas": {
+            "A": "0",
+            "B": "2",
+            "C": "4",
+            "D": "4/3",
+            "E": "8/3"
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "Média 3; módulos 2,0,2; soma 4; divide por 3.",
+          "analise_distratores": {
+            "A": "É soma algébrica dos desvios.",
+            "B": "Não inclui divisão por todas as observações.",
+            "C": "É soma dos módulos.",
+            "E": "É variância populacional."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Dispersão: amplitude, desvio médio, variância e desvio padrão"
+        },
+        {
+          "questao_id": "CG-RLM-05-EXP-Q004",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — treino autoral; não é questão oficial FCC",
+          "enunciado": "Para a população 2, 4, 6, 8, a variância é",
+          "alternativas": {
+            "A": "5",
+            "B": "20",
+            "C": "5/4",
+            "D": "4",
+            "E": "10"
+          },
+          "gabarito": "A",
+          "justificativa_gabarito": "Média 5; quadrados 9,1,1,9 somam 20; divide por 4=5.",
+          "analise_distratores": {
+            "B": "É soma dos quadrados.",
+            "C": "Divide novamente por 4.",
+            "D": "Não é a média dos quadrados.",
+            "E": "Divide por 2 em vez de 4."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Dispersão: amplitude, desvio médio, variância e desvio padrão"
+        },
+        {
+          "questao_id": "CG-RLM-05-EXP-Q005",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — treino autoral; não é questão oficial FCC",
+          "enunciado": "Se todos os valores de um conjunto forem multiplicados por 3, um desvio padrão inicial de 2 passa a",
+          "alternativas": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "18",
+            "E": "6"
+          },
+          "gabarito": "E",
+          "justificativa_gabarito": "Desvio padrão multiplica pelo módulo do fator: 3×2=6.",
+          "analise_distratores": {
+            "A": "Seria invariável sob adição constante.",
+            "B": "É o fator, não o resultado.",
+            "C": "É variância original.",
+            "D": "Corresponde à aplicação incorreta de fator quadrático."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Dispersão: amplitude, desvio médio, variância e desvio padrão"
+        },
+        {
+          "questao_id": "CG-RLM-05-EXP-Q006",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — treino autoral; não é questão oficial FCC",
+          "enunciado": "Um setor de 72° representa quantos alunos em uma turma de 150?",
+          "alternativas": {
+            "A": "20",
+            "B": "72",
+            "C": "30",
+            "D": "45",
+            "E": "108"
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "72/360=0,20; 150×0,20=30.",
+          "analise_distratores": {
+            "A": "É a porcentagem, não quantidade.",
+            "B": "Confunde graus com pessoas.",
+            "D": "Corresponde a 30%.",
+            "E": "Não usa o total corretamente."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Leitura e interpretação de histogramas, setores, infográficos e tabelas"
+        },
+        {
+          "questao_id": "CG-RLM-05-EXP-Q007",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — treino autoral; não é questão oficial FCC",
+          "enunciado": "Em histograma, classe A tem largura 5 e frequência 20; classe B tem largura 10 e frequência 20. As densidades A e B são",
+          "alternativas": {
+            "A": "20 e 20",
+            "B": "4 e 2",
+            "C": "2 e 4",
+            "D": "5 e 10",
+            "E": "100 e 200"
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "Densidade = frequência/largura: 20/5=4 e 20/10=2.",
+          "analise_distratores": {
+            "A": "São frequências, não densidades.",
+            "C": "Inverte as classes.",
+            "D": "São larguras.",
+            "E": "Multiplica em vez de dividir."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Leitura e interpretação de histogramas, setores, infográficos e tabelas"
+        },
+        {
+          "questao_id": "CG-RLM-05-EXP-Q008",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — treino autoral; não é questão oficial FCC",
+          "enunciado": "Em tabela hipotética, matrículas sobem de 200 para 250 e concluintes de 100 para 110. Qual leitura é correta?",
+          "alternativas": {
+            "A": "Concluintes caíram 10%.",
+            "B": "A razão concluintes/matrículas cresceu 5 pp.",
+            "C": "Matrículas cresceram 10%.",
+            "D": "Concluintes cresceram 10%, mas a razão concluintes/matrículas caiu de 50% para 44%.",
+            "E": "A razão permaneceu 50%."
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "110/100−1=10%; 100/200=50%, 110/250=44%.",
+          "analise_distratores": {
+            "A": "Cresceram.",
+            "B": "A razão caiu 6 pp.",
+            "C": "Matrículas cresceram 25%.",
+            "E": "A razão final é 44%."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Leitura e interpretação de histogramas, setores, infográficos e tabelas"
         }
       ],
       "flashcards": [
@@ -26740,9 +28282,149 @@
           "tags": [
             "amplitude"
           ]
+        },
+        {
+          "card_id": "CG-RLM-05-EXP-FC001",
+          "frente": "Frequência absoluta",
+          "verso": "Número de observações em classe/categoria.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-05"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-05-EXP-FC002",
+          "frente": "Frequência relativa",
+          "verso": "Frequência absoluta dividida pelo total.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-05"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-05-EXP-FC003",
+          "frente": "Média ponderada",
+          "verso": "Soma valor×peso / soma dos pesos.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-05"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-05-EXP-FC004",
+          "frente": "Moda",
+          "verso": "Valor de maior frequência.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-05"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-05-EXP-FC005",
+          "frente": "Mediana e extremos",
+          "verso": "Mediana costuma ser menos sensível que média.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-05"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-05-EXP-FC006",
+          "frente": "Soma dos desvios em relação à média",
+          "verso": "Zero.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-05"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-05-EXP-FC007",
+          "frente": "Desvio absoluto médio",
+          "verso": "Média dos módulos dos desvios.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-05"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-05-EXP-FC008",
+          "frente": "Variância populacional",
+          "verso": "Soma dos quadrados dos desvios / n.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-05"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-05-EXP-FC009",
+          "frente": "Variância amostral usual corrigida",
+          "verso": "Soma dos quadrados dos desvios / (n−1), n>1.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-05"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-05-EXP-FC010",
+          "frente": "Unidade do desvio padrão",
+          "verso": "Mesma unidade dos dados.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-05"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-05-EXP-FC011",
+          "frente": "Somar constante e dispersão",
+          "verso": "Não altera amplitude, variância ou desvio padrão.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-05"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-05-EXP-FC012",
+          "frente": "Multiplicar dados por k e desvio padrão",
+          "verso": "Multiplica por |k|.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-05"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-05-EXP-FC013",
+          "frente": "Densidade de frequência no histograma",
+          "verso": "Frequência dividida pela largura da classe.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-05"
+          ]
+        },
+        {
+          "card_id": "CG-RLM-05-EXP-FC014",
+          "frente": "Setor de 72 graus",
+          "verso": "20% do círculo.",
+          "tipo": "conceito",
+          "tags": [
+            "raciocinio-logico",
+            "cg-rlm-05"
+          ]
         }
       ],
-      "teoria_md": "---\ntopico_id: CG-RLM-05\nslug: estatistica-descritiva-graficos\ntitulo: \"Estatística Descritiva (Tendência Central, Dispersão) e Interpretação de Gráficos/Tabelas\"\nedital: SEDUC-MA-01-2026\nbanca: FCC\nstatus: em_auditoria\n---\n\n# 1. Delimitação no Edital (Camada A)\n- **Itens explícitos (p. 60):** *Noções de Estatísticas: medidas de tendência central (moda, mediana, média aritmética simples e ponderada) e de dispersão (desvio médio, amplitude, variância, desvio padrão); leitura e interpretação de gráficos (histogramas, setores, infográficos) e tabelas.*\n- **Sinergia direta:** além de cair em `CG-RLM`, leitura de tabelas, histogramas e gráficos aparece muito nas provas de **Geografia** da FCC!\n\n# 2. Medidas de Tendência Central\nDado um conjunto de dados `{x₁, x₂, ..., xₙ}`:\n1. **Média Aritmética Simples (`x̄`):** soma dos valores dividida pela quantidade (`Σx / n`).\n2. **Média Aritmética Ponderada:** soma dos produtos `(valor × peso)` dividida pela **soma dos pesos** (`Σ(x·p) / Σp`). *Exemplo real:* a Nota Objetiva da SEDUC-MA é uma média ponderada com peso 1 (CG) e peso 2 (CE) → `(1·CG + 2·CE) / 3`.\n3. **Moda (`Mo`):** valor que aparece com **maior frequência** (um conjunto pode ser amodal, unimodal, bimodal...).\n4. **Mediana (`Md`):** valor **central** após **ORDENAR** os dados (rol crescente ou decrescente)!\n   - *`n` ímpar:* é exatamente o termo do meio (posição `(n+1)/2`).\n   - *`n` par:* é a **média aritmética dos dois termos centrais**.\n   - *(Armadilha FCC: calcular a mediana sem ordenar os dados antes!)*\n\n# 3. Medidas de Dispersão (Medem o quão espalhados os dados estão)\n1. **Amplitude Total (`A`):** diferença entre o maior e o menor valor (`Máx − Mín`).\n2. **Desvio Médio (`DM`):** média aritmética dos **valores absolutos (módulos)** dos desvios em relação à média (`Σ|xᵢ − x̄| / n`). *(A soma simples dos desvios sem módulo é sempre ZERO!)*\n3. **Variância (`s²` ou `σ²`):** média dos **quadrados** dos desvios em relação à média (`Σ(xᵢ − x̄)² / n` na população; `/ (n-1)` na amostra).\n4. **Desvio Padrão (`s` ou `σ`):** **raiz quadrada da variância** (`√Variância`). Quanto menor o desvio padrão, **mais homogêneo/regular** é o conjunto; se todos os valores forem iguais (ex.: `{5, 5, 5}`), o desvio padrão e a variância são **ZERO**.\n\n# 4. Leitura de Gráficos e Tabelas\n- **Gráfico de Setores (Pizza):** representa proporções/percentuais de um todo (`360° = 100%`, logo `1% = 3,6°`).\n- **Histograma:** gráfico de barras contíguas (sem espaço entre si) usado para **distribuições de frequência em intervalos de classes contínuas** (ex.: faixas etárias ou faixas de renda).\n- **Infográficos e Tabelas:** sempre conferir **título, unidade de medida** (milhares, %, R$ milhões) e **escala dos eixos** antes de fazer qualquer conta.\n"
+      "teoria_md": "# 1. Dados, população e frequência\n\nPopulação é o conjunto de interesse; amostra é subconjunto observado. Variáveis qualitativas descrevem categorias; quantitativas representam contagens ou medidas. Frequência absoluta conta observações; frequência relativa divide a frequência absoluta pelo total. Uma tabela de frequência deve informar categorias, unidade e total.\n\nExemplo: 20 estudantes, 8 preferem mapas, 7 gráficos e 5 textos. Frequências relativas: 40%, 35%, 25%, respectivamente. A soma é 100%, desde que as categorias sejam exclusivas e cubram o conjunto. Em respostas múltiplas, percentuais podem somar mais de 100%.\n\n# 2. Tendência central\n\nMédia simples é soma dos valores dividida pelo número de observações. Média ponderada é soma de valor × peso dividida pela soma dos pesos. Exemplo hipotético: notas 6 e 9 com pesos 1 e 2 resultam em (6+18)/3 = 8. Não confunda esse exemplo com regra de nota de edital ainda não conferida.\n\nMediana é o valor central após ordenação; para n par, média dos dois centrais. Moda é o valor de maior frequência; pode haver mais de uma moda ou, na convenção escolar, distribuição amodal quando todos os valores ocorrem igualmente. Em 2, 2, 4, 6, 11, a média é 5, a mediana 4 e a moda 2. A média reage a valores extremos; a mediana costuma ser mais resistente.\n\n# 3. Dispersão: amplitude e desvio médio\n\nAmplitude = máximo − mínimo. Para os dados 2, 4, 6, a média é 4 e a amplitude 4. Desvios em relação à média: −2, 0, 2. A soma dos desvios simples é zero. O desvio absoluto médio em relação à média é (2+0+2)/3 = 4/3.\n\nNão confunda amplitude com média nem com desvio médio. Dois conjuntos podem ter mesma média e amplitudes distintas. Se todos os valores são iguais, as medidas de dispersão usuais citadas aqui são zero.\n\n# 4. Variância e desvio padrão\n\nPara população ou descrição com denominador n, variância é a soma dos quadrados dos desvios dividida por n. Para estimativa amostral usual da variância populacional, usa-se n−1, quando n > 1. O enunciado precisa explicitar a convenção quando a diferença afeta a resposta.\n\nExemplo: população 2, 4, 6. Desvios ao quadrado: 4, 0, 4. Variância = 8/3. Desvio padrão = raiz de 8/3, aproximadamente 1,63. A variância usa unidade ao quadrado; desvio padrão tem a unidade original. Somar uma constante a todos os valores desloca a média, mas mantém dispersão; multiplicar todos por k multiplica o desvio padrão por |k| e a variância por k².\n\n# 5. Gráficos de setores, barras e histogramas\n\nGráfico de setores representa partes de um todo: ângulo = frequência relativa × 360°. Em uma turma de 40 alunos, 10 representam 25% ou 90°. Gráfico de barras compara categorias; histograma representa distribuição de variável quantitativa em intervalos. No histograma, a área de cada retângulo deve ser proporcional à frequência. Com classes de larguras iguais, a altura pode representar frequência; com larguras diferentes, use densidade de frequência (frequência/largura).\n\n![Histograma didático com classes de mesma largura.](./media/raciocinio-logico/histograma.svg)\n\nExemplo: classes [0,10) e [10,30), ambas com 20 observações. Densidades: 2 e 1. As áreas são iguais, apesar das alturas diferentes. Observe intervalos fechados/abertos para não contar valores de fronteira duas vezes.\n\n# 6. Leitura crítica de tabelas e infográficos\n\n| Ano hipotético | Matrículas | Concluintes |\n|---|---|---|\n| A | 200 | 120 |\n| B | 300 | 150 |\n\nAs quantidades de concluintes cresceram de 120 para 150 (25%). A razão concluintes/matrículas caiu de 60% para 50% (10 pontos percentuais). Essa razão é meramente ilustrativa; em dados reais, é preciso verificar se numerador e denominador pertencem à mesma coorte para chamar o indicador de taxa de conclusão.\n\nConfira título, fonte, período, eixos, unidade, escala e denominador. Barras com eixo truncado podem exagerar diferenças visualmente. Infográficos podem combinar dados com símbolos cuja área induz interpretação equivocada. Não deduza causalidade apenas por associação.\n\nRecupere: média simples e ponderada, mediana, moda, amplitude, desvio médio, variância populacional/amostral, desvio padrão, setores e densidade do histograma."
     },
     {
       "schema_version": "2.0.0",
