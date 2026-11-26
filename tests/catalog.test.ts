@@ -6,10 +6,10 @@ test('valida o conteúdo e a cobertura do edital SEDUC-MA', () => {
   expect(catalog.disciplines).toHaveLength(6);
   expect(catalog.units.size).toBe(45);
   const items = Array.from(catalog.items.values());
-  expect(items.filter(item => item.kind === 'question')).toHaveLength(225);
-  expect(items.filter(item => item.kind === 'card')).toHaveLength(270);
+  expect(items.filter(item => item.kind === 'question')).toHaveLength(raw.resumo_cobertura.total_questoes);
+  expect(items.filter(item => item.kind === 'card')).toHaveLength(raw.resumo_cobertura.total_flashcards);
   expect(items.every(item => item.unit.status === 'em_auditoria')).toBe(true);
-  expect(items.every(item => item.kind !== 'question' || item.data.origem === 'inedita_padrao_fcc')).toBe(true);
+  expect(items.every(item => item.kind !== 'question' || ['inedita_padrao_fcc', 'autoral_legado_em_adaptacao', 'inedita_autoral_em_auditoria'].includes(item.data.origem))).toBe(true);
 });
 
 test('rejeita alternativas ausentes e referências divergentes do edital', () => {
@@ -38,4 +38,15 @@ test.each([
   expect(item.data.gabarito).toBe(letter);
   expect(item.data.justificativa_gabarito).toContain(keyConcept);
   expect(item.data.justificativa_gabarito).not.toMatch(/\b(?:alternativa|em)\s+[A-E]\b(?=[,.;:])/);
+});
+
+ test('Cartografia expandida preserva o acervo anterior e as 19 missões', () => {
+  const unit = catalog.units.get('CE-GEO-02')!;
+  expect(unit.teoria_md.match(/^# .+/gm)).toHaveLength(19);
+  expect(unit.questoes).toHaveLength(58);
+  expect(unit.flashcards).toHaveLength(132);
+  expect(unit.status).toBe('em_auditoria');
+  for (let i=1; i<=5; i++) expect(catalog.items.has('CE-GEO-02-Q'+String(i).padStart(3,'0'))).toBe(true);
+  for (let i=1; i<=6; i++) expect(catalog.items.has('CE-GEO-02-FC'+String(i).padStart(3,'0'))).toBe(true);
+  expect(unit.teoria_md.match(/!\[[^\]]+\]\(\.\/media\/cartografia\/[^)]+\.svg\)/g)).toHaveLength(7);
 });
