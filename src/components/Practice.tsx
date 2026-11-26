@@ -1,11 +1,12 @@
 import { useEffect, useRef, useState, type ReactNode } from 'react';
 import { motion, useReducedMotion } from 'framer-motion';
-import { ArrowRight, CalendarClock, Check, CheckCircle2, CircleAlert, Clock3, Eye, Undo2, X, Zap } from 'lucide-react';
-import type { Item } from '../content/catalog';
+import { ArrowRight, BookOpen, CalendarClock, ChartNoAxesCombined, Check, CheckCircle2, CircleAlert, Clock3, Eye, Layers3, Target, Trophy, Undo2, X, Zap } from 'lucide-react';
+import { catalog, type Item } from '../content/catalog';
 import { letters, type Letter } from '../content/schema';
 import { day, ratings, schedule, type Rating, type Review, type StudyAttempt } from '../engine/progress';
 import { useStudy } from '../store/study';
 import { Editorial, Media, Prose } from './Content';
+import { Cartography } from './EditorialArt';
 import { IconButton, useImmersion } from './LayoutControls';
 
 const ratingLabels: Record<Rating, string> = { again: 'Errei', hard: 'Difícil', good: 'Bom', easy: 'Fácil' };
@@ -69,6 +70,7 @@ function Prompt({ item, ordinal, total, arena, combo, recovery, previousReview, 
   const [confidence, setConfidence] = useState<'know' | 'think' | 'guess'>('think');
   const [seconds, setSeconds] = useState(arenaSeconds);
   const record = useStudy(state => state.record);
+  const update = useStudy(state => state.update);
   const reduced = useReducedMotion();
   const heading = useRef<HTMLHeadingElement>(null);
   const feedback = useRef<HTMLButtonElement>(null);
@@ -90,7 +92,13 @@ function Prompt({ item, ordinal, total, arena, combo, recovery, previousReview, 
     return () => window.clearInterval(timer);
   }, [timed]);
   useEffect(() => {
-    if (result) feedback.current?.focus();
+    if (!result || !feedback.current) return;
+    const sideBySide = window.matchMedia('(min-width: 1120px)').matches;
+    feedback.current.focus({ preventScroll: sideBySide });
+    if (sideBySide) {
+      const toolbar = feedback.current.closest('.practice-shell')?.querySelector('.practice-toolbar');
+      if (toolbar && toolbar.getBoundingClientRect().top < 56) toolbar.scrollIntoView({ block: 'start' });
+    }
   }, [result]);
   useEffect(() => { if (revealedAt !== undefined) revealed.current?.focus(); }, [revealedAt]);
 
@@ -111,19 +119,35 @@ function Prompt({ item, ordinal, total, arena, combo, recovery, previousReview, 
   const nextButton = <div className="next-action"><button className="primary" onClick={onNext}>
     {ordinal === total ? 'Ver resultado' : 'Próximo item'} <ArrowRight size={17} />
   </button></div>;
-  const hasAside = item.kind === 'question' ? Boolean(result) : Boolean(previousReview);
+  const discipline = catalog.disciplines.find(entry => entry.disciplina_id === item.unit.disciplina_id);
+  const hasAside = !isQuestion || Boolean(result);
 
   return <>
     <header className="practice-toolbar">
-      <div className="practice-meta">
-        <span>{isQuestion ? 'Questão' : 'Flashcard'} {ordinal} de {total}</span>
-        {arena && combo > 1 && <span className="xp"><Zap size={15} /> Combo ×{combo}</span>}
-        {timed && <span><Clock3 size={15} /> {seconds}s</span>}
+      <div className="practice-heading">
+        <p className="eyebrow">{isQuestion ? 'Prática dirigida — FCC' : 'Flashcards inteligentes'}</p>
+        <h1>{isQuestion ? `Questão ${ordinal} de ${total}` : 'Reforce o que aprendeu'}</h1>
+        <p>{isQuestion ? item.unit.titulo : 'Recupere a resposta antes de conferir.'}</p>
       </div>
-      <div className="immerse-control">{immersionControl}</div>
+      <div className="practice-tools">
+        <div className="practice-meta">
+          {isQuestion && <div className="practice-modes" role="group" aria-label="Intensidade da prática">
+            <button aria-pressed={!arena} onClick={() => update(current => ({ ...current, intensity: 'focus' }))}><Target size={16} /> Foco</button>
+            <button aria-pressed={arena} onClick={() => update(current => ({ ...current, intensity: 'arena' }))}><Trophy size={16} /> Arena</button>
+          </div>}
+          {arena && combo > 1 && <span className="xp"><Zap size={15} /> Combo ×{combo}</span>}
+          {timed && <span><Clock3 size={16} /> {seconds}s</span>}
+          <div className="immerse-control">{immersionControl}</div>
+        </div>
+        {isQuestion && <div className="question-segments" aria-hidden="true">
+          {Array.from({ length: total }, (_, i) => <span key={i} className={i + 1 === ordinal && !result ? 'current' : i < ordinal - 1 || (i + 1 === ordinal && result) ? 'answered' : ''} />)}
+        </div>}
+      </div>
     </header>
-    <div className={`practice-layout ${hasAside ? 'practice-has-aside' : ''}`}>
+    <div className={`practice-layout ${hasAside ? 'practice-has-aside' : ''} ${isQuestion ? 'question-layout' : 'flashcard-layout'}`}>
+      <div className="practice-column">
       <section className={`practice ${isQuestion ? 'question-sheet' : 'flashcard-sheet'}`}>
+        {!isQuestion && <Cartography className="card-art" />}
         {timed && <div className="timer" aria-hidden="true">
           <motion.div initial={false} animate={{ scaleX: seconds / arenaSeconds }} transition={{ duration: reduced ? 0 : .2 }} />
         </div>}
@@ -131,9 +155,11 @@ function Prompt({ item, ordinal, total, arena, combo, recovery, previousReview, 
         <div className="practice-context">
           {item.kind === 'question' && <p className="eyebrow">{item.data.origem === 'inedita_padrao_fcc' ? 'Questão inédita · padrão FCC' :
             `Origem: ${item.data.origem.replaceAll('_', ' ')}`} · {difficultyLabels[item.data.dificuldade] ?? item.data.dificuldade}</p>}
+          {!isQuestion && <p className="card-discipline"><Layers3 size={18} /> {discipline?.nome}</p>}
           <Editorial status={item.unit.status} />
+          {!isQuestion && <span className="card-position">{ordinal} / {total}</span>}
         </div>
-        <h1 ref={heading} tabIndex={-1} className="prompt-title">{isQuestion ? item.data.enunciado : item.data.frente}</h1>
+        <h2 ref={heading} tabIndex={-1} className="prompt-title">{isQuestion ? item.data.enunciado : item.data.frente}</h2>
         {(isQuestion || revealedAt !== undefined) && <Media url={item.data.mediaUrl} caption={item.data.mediaCaption} />}
         {item.kind === 'question' ? <>
           <fieldset className="options">
@@ -172,12 +198,10 @@ function Prompt({ item, ordinal, total, arena, combo, recovery, previousReview, 
               if (answer) grade(answer === item.data.gabarito ? 'good' : 'again');
             }}>Confirmar resposta <ArrowRight size={16} /></button>
           </div>}
+          {result && nextButton}
         </> : <>
-          {revealedAt === undefined && <div className="card-reveal">
-            <button className="primary" onClick={() => setRevealedAt(Date.now())}><Eye size={18} /> Mostrar resposta</button>
-          </div>}
           {revealedAt !== undefined && <motion.div ref={revealed} tabIndex={-1} className="card-answer"
-            initial={reduced ? false : { opacity: 0 }} animate={{ opacity: 1 }}>
+            initial={reduced ? false : { opacity: 0, y: 5 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: reduced ? 0 : .2 }}>
             <h2>Resposta</h2><Prose>{item.data.verso}</Prose>
             {!result && <>
               <h3>Como foi sua recuperação?</h3>
@@ -194,29 +218,41 @@ function Prompt({ item, ordinal, total, arena, combo, recovery, previousReview, 
               <CalendarClock size={18} /> Próxima revisão {intervalLabel(previousReview.due - result.at)}.
             </p>}
           </motion.div>}
-          {result && nextButton}
         </>}
       </section>
+      {!isQuestion && revealedAt === undefined && <div className="card-reveal">
+        <button className="primary" onClick={() => setRevealedAt(Date.now())}><Eye size={20} /> Mostrar resposta</button>
+      </div>}
+      {!isQuestion && result && nextButton}
+      </div>
       {item.kind === 'question' && result && <aside className="practice-feedback" aria-label="Feedback da questão" data-result={success ? 'correct' : 'incorrect'}>
         <button ref={feedback} className="panel-toggle" aria-expanded={showFeedback}
           onClick={() => setShowFeedback(!showFeedback)}>{success ? <CheckCircle2 size={18} /> : <CircleAlert size={18} />}
           <span>{success ? 'Resposta correta' : 'Revise esta resposta'}</span><span aria-hidden="true">{showFeedback ? '−' : '+'}</span>
         </button>
         {showFeedback && <div className="feedback-copy">
-          <h2>Gabarito {item.data.gabarito}</h2><Prose>{item.data.justificativa_gabarito}</Prose>
+          <h2><BookOpen size={21} /> Gabarito {item.data.gabarito}</h2><Prose>{item.data.justificativa_gabarito}</Prose>
           <h3>Análise dos distratores</h3>
           <dl>{letters.filter(letter => letter !== item.data.gabarito).map(letter =>
             <div key={letter}><dt>Alternativa {letter}</dt><dd>{item.data.analise_distratores[letter]}</dd></div>)}</dl>
           <small>{item.data.referencia_prova}</small>
         </div>}
-        {nextButton}
       </aside>}
-      {item.kind === 'card' && previousReview && <aside className="practice-review" aria-label="Agenda do flashcard">
-        <button className="panel-toggle" aria-expanded={showReview} onClick={() => setShowReview(!showReview)}>
-          <CalendarClock size={18} /><span>Agenda do flashcard</span><span aria-hidden="true">{showReview ? '−' : '+'}</span>
-        </button>
-        {showReview && <p>{previousReview.due <= Date.now() ? 'Revisão disponível.' :
-          `Próxima revisão ${intervalLabel(previousReview.due - Date.now())}.`}</p>}
+      {item.kind === 'card' && <aside className="flashcard-aside" aria-label="Progresso e revisão dos flashcards">
+        <section className="practice-review card-progress">
+          <h2><ChartNoAxesCombined size={22} /> Seu progresso</h2>
+          <p className="card-tally"><strong>{ordinal - (result ? 0 : 1)}</strong> / {total}</p>
+          <progress value={ordinal - (result ? 0 : 1)} max={total} aria-label="Itens avaliados nesta sessão" />
+          <p className="muted">Itens avaliados nesta sessão.</p>
+        </section>
+        <section className="practice-review">
+          <button className="panel-toggle" aria-expanded={showReview} onClick={() => setShowReview(!showReview)}>
+            <CalendarClock size={21} /><span>Repetição espaçada</span><span aria-hidden="true">{showReview ? '−' : '+'}</span>
+          </button>
+          {showReview && <p>{!previousReview ? 'A primeira avaliação define a próxima revisão deste cartão.' :
+            previousReview.due <= Date.now() ? 'Revisão disponível neste cartão.' :
+              `Próxima revisão ${intervalLabel(previousReview.due - Date.now())}.`}</p>}
+        </section>
       </aside>}
     </div>
   </>;

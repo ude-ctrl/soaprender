@@ -6,5 +6,7 @@ import '@fontsource-variable/source-serif-4/wght.css';
 import '@fontsource-variable/source-serif-4/wght-italic.css';
 import App from './App';
 import './styles.css';
+import './editorial.css';
+import './editorial-study.css';
 
 createRoot(document.getElementById('root')!).render(<StrictMode><App /></StrictMode>);

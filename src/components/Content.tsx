@@ -4,6 +4,7 @@ import remarkGfm from 'remark-gfm';
 import { CircleAlert } from 'lucide-react';
 import { catalog } from '../content/catalog';
 import type { Unit } from '../content/schema';
+import { GisDiagram } from './GisDiagram';
 
 export function safeUrl(url?: string) {
   return url && /^https?:\/\//i.test(url) ? url : undefined;
@@ -30,18 +31,19 @@ export function Media({ url, caption }: { url?: string; caption?: string }) {
 
 const theoryHeadings: Components = { h1: ({ node: _node, ...props }) => <h2 {...props} /> };
 
-function illustratedHeading(matching: string, Diagram: () => ReactNode): Components {
+function illustratedHeadings(illustrations: readonly (readonly [string, () => ReactNode])[]): Components {
   return {
     h1: ({ node, children, ...props }) => <>
       <h2 {...props}>{children}</h2>
-      {node?.children.some(child => child.type === 'text' && child.value.includes(matching)) && <Diagram />}
+      {illustrations.map(([matching, Diagram]) =>
+        node?.children.some(child => child.type === 'text' && child.value.includes(matching)) && <Diagram key={matching} />)}
     </>,
   };
 }
 
 const annotated = new Map([
-  ['CE-GEO-01', illustratedHeading('Cinco Categorias Estruturantes', SpaceDiagram)],
-  ['CE-GEO-02', illustratedHeading('Escalas Cartográficas', ScaleDiagram)],
+  ['CE-GEO-01', illustratedHeadings([['Cinco Categorias Estruturantes', SpaceDiagram]])],
+  ['CE-GEO-02', illustratedHeadings([['Escalas Cartográficas', ScaleDiagram], ['Cartografia Temática e Geotecnologias', GisDiagram]])],
 ]);
 
 export function Theory({ unit }: { unit: Unit }) {
