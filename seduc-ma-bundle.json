@@ -5,8 +5,8 @@
   "resumo_cobertura": {
     "total_unidades_edital": 45,
     "unidades_populadas": 45,
-    "total_questoes": 404,
-    "total_flashcards": 635
+    "total_questoes": 420,
+    "total_flashcards": 663
   },
   "edital": {
     "schema_version": "1.0.0",
@@ -1075,7 +1075,7 @@
       "titulo": "História do Pensamento Geográfico: Conceitos, Temas e Teorias da Geografia",
       "status": "em_auditoria",
       "origem": "edital_explicito",
-      "tempo_leitura_min": 30,
+      "tempo_leitura_min": 35,
       "edital_subtopicos": [
         "Conceitos estruturantes (espaço, território, região, paisagem, lugar)",
         "Correntes, temas e teorias clássicas e contemporâneas da Geografia"
@@ -1099,6 +1099,30 @@
         },
         {
           "referencia_abnt": "CORRÊA, Roberto Lobato. Espaço: um conceito-chave da Geografia. In: CASTRO, Iná Elias de; GOMES, Paulo Cesar da Costa; CORRÊA, Roberto Lobato (orgs.). Geografia: conceitos e temas. Rio de Janeiro: Bertrand Brasil, 1995.",
+          "tipo": "bibliografia_academica",
+          "nivel_autoridade": 5
+        },
+        {
+          "referencia_abnt": "GEOgraphia. A região e o Estado segundo Friedrich Ratzel e Paul Vidal de la Blache. Artigo, resumo consultado.",
+          "url": "https://periodicos.uff.br/geographia/article/view/13580",
+          "tipo": "bibliografia_academica",
+          "nivel_autoridade": 5
+        },
+        {
+          "referencia_abnt": "Sociedade & Natureza. Visão de Vidal de La Blache a respeito de Friedrich Ratzel. Artigo, trechos consultados.",
+          "url": "https://seer.ufu.br/index.php/sociedadenatureza/article/view/26567",
+          "tipo": "bibliografia_academica",
+          "nivel_autoridade": 5
+        },
+        {
+          "referencia_abnt": "Espaço & Geografia. Friedrich Ratzel e o determinismo geográfico: a construção de um estigma. Resumo consultado.",
+          "url": "https://periodicos.unb.br/index.php/espacoegeografia/article/view/40284",
+          "tipo": "bibliografia_academica",
+          "nivel_autoridade": 5
+        },
+        {
+          "referencia_abnt": "Ciência & Educação. Questões sociocientíficas e a localidade: contribuições de Milton Santos para uma visão relacional. Trechos consultados.",
+          "url": "https://www.scielo.br/j/ciedu/a/TYCBQyQZmG7c9jjMz6xbfRy/?lang=pt",
           "tipo": "bibliografia_academica",
           "nivel_autoridade": 5
         }
@@ -1129,23 +1153,38 @@
             "termo": "Lugar (Yi-Fu Tuan)",
             "definicao_precisa": "Porção do espaço dotada de significado pela experiência vivida, memória e vínculos afetivos (topofilia).",
             "fonte": "TUAN, Yi-Fu, 1983."
+          },
+          {
+            "termo": "Diferenciação de áreas",
+            "definicao_precisa": "Tradição corológica de Hettner e Hartshorne; relações entre fenômenos e particularidade regional.",
+            "fonte": "Historiografia geográfica."
+          },
+          {
+            "termo": "Geografia quantitativa",
+            "definicao_precisa": "Modelos, padrões espaciais, mensuração; técnica não determina isoladamente posição teórica.",
+            "fonte": "Historiografia geográfica."
           }
         ],
         "pegadinhas_fcc": [
           {
-            "armadilha": "Troca de autores clássicos",
-            "como_a_fcc_cobra": "Atribui 'gênero de vida' a Ratzel ou 'espaço vital' à escola francesa possibilista.",
-            "como_desarmar": "Ratzel = Alemanha / Determinismo / Espaço Vital; La Blache = França / Possibilismo / Gênero de Vida."
+            "armadilha": "Oposição absoluta Ratzel–Vidal",
+            "como_a_fcc_cobra": "Exemplo autoral de distrator: Ratzel e Vidal são integralmente incompatíveis.",
+            "como_desarmar": "Rótulos são aproximações históricas, há convergências."
           },
           {
-            "armadilha": "Paisagem como sinônimo exato de Espaço",
-            "como_a_fcc_cobra": "Afirma que, para Milton Santos, paisagem e espaço geográfico são conceitos idênticos e estáticos.",
-            "como_desarmar": "Paisagem é forma/acúmulo de tempos; Espaço é a paisagem acrescida da sociedade em movimento (sistemas de objetos + ações)."
+            "armadilha": "Paisagem e espaço",
+            "como_a_fcc_cobra": "Exemplo autoral de distrator: Formas materiais bastam para definir espaço.",
+            "como_desarmar": "Considerar ações sociais e formas."
           },
           {
-            "armadilha": "Território reduzido apenas ao Estado-Nação",
-            "como_a_fcc_cobra": "Restringe o conceito contemporâneo de território exclusivamente às fronteiras político-administrativas estatais.",
-            "como_desarmar": "Na Geografia contemporânea, território deriva de relações de poder em qualquer escala (microterritórios urbanos, terras indígenas, redes)."
+            "armadilha": "Território estatal",
+            "como_a_fcc_cobra": "Exemplo autoral de distrator: Só Estados produzem territórios.",
+            "como_desarmar": "Relações de poder em diversas escalas."
+          },
+          {
+            "armadilha": "Método e epistemologia",
+            "como_a_fcc_cobra": "Exemplo autoral de distrator: Todo SIG é neopositivista.",
+            "como_desarmar": "Examinar problema, referencial e interpretação."
           }
         ],
         "quadro_comparativo": [
@@ -1193,7 +1232,7 @@
           "justificativa_gabarito": "Em 'A Natureza do Espaço', Milton Santos conceitua o espaço geográfico exatamente como um conjunto indissociável, solidário e também contraditório de sistemas de objetos e sistemas de ações.",
           "analise_distratores": {
             "A": "Aproxima-se de uma leitura caricata de lugar na Geografia Humanista, ignorando a técnica e o trabalho.",
-            "B": "Descreve a concepção neopositivista da Geografia Teorético-Quantitativa (espaço abstrato/geométrico).",
+            "B": "Modelos geométricos podem analisar padrões, mas a ideia de palco neutro não expressa a relação entre objetos e ações em Santos.",
             "C": "Confunde espaço com uma visão estática de paisagem, negando a indissociabilidade entre forma e ação social.",
             "D": "Restringe o conceito à visão clássica de território estatal."
           },
@@ -1204,7 +1243,7 @@
           "questao_id": "CE-GEO-01-Q002",
           "origem": "inedita_padrao_fcc",
           "referencia_prova": "Inédita — padrão FCC / Edital SEDUC-MA 01/2026",
-          "enunciado": "No debate epistemológico da Geografia clássica entre o final do século XIX e o início do século XX, a escola francesa liderada por Paul Vidal de La Blache opôs-se às teses deterministas ao propor que a natureza oferece possibilidades cuja concretização depende das técnicas e da organização histórica das sociedades. O conceito central formulado por La Blache para expressar essa adaptação ativa é",
+          "enunciado": "Na tradição francesa da Geografia humana, Paul Vidal de La Blache investigou práticas, técnicas e hábitos historicamente desenvolvidos pelos grupos sociais em suas relações com o meio. O conceito associado a essa abordagem é",
           "alternativas": {
             "A": "espaço vital.",
             "B": "diferenciação de áreas.",
@@ -1213,13 +1252,12 @@
             "E": "topofilia."
           },
           "gabarito": "C",
-          "justificativa_gabarito": "Vidal de La Blache formulou o conceito de 'gênero de vida' para designar o conjunto de técnicas, hábitos e formas de organização por meio dos quais cada grupo humano transforma as possibilidades oferecidas pelo meio.",
+          "justificativa_gabarito": "Gênero de vida articula práticas e técnicas historicamente constituídas nas relações com o meio, sem pressupor oposição absoluta entre Vidal e Ratzel.",
           "analise_distratores": {
-            "A": "Conceito formulado por Friedrich Ratzel na escola alemã.",
-            "B": "Conceito central do método regional (corológico) sistematizado por Richard Hartshorne.",
-            "C": "Correta.",
-            "D": "Conceito contemporâneo formulado por Milton Santos.",
-            "E": "Conceito da Geografia Humanista desenvolvido por Yi-Fu Tuan."
+            "A": "Espaço vital associa-se a Ratzel e ao contexto biogeográfico e político.",
+            "B": "Diferenciação de áreas associa-se à tradição corológica, incluindo Hartshorne.",
+            "D": "Meio técnico-científico-informacional é conceito de Milton Santos.",
+            "E": "Topofilia é associada aos estudos de Yi-Fu Tuan."
           },
           "dificuldade": "basica",
           "subtopico": "Correntes, temas e teorias clássicas e contemporâneas da Geografia"
@@ -1239,7 +1277,7 @@
           "gabarito": "E",
           "justificativa_gabarito": "Para Marcelo Lopes de Souza e Raffestin, o núcleo definidor do território são as relações de poder projetadas no espaço, o que permite territorialidades em múltiplas escalas (permanentes, periódicas ou cíclicas).",
           "analise_distratores": {
-            "A": "Armadilha clássica da FCC: reduz território à visão estatal tradicional.",
+            "A": "Reduz poder territorial à escala estatal, excluindo múltiplas territorialidades.",
             "B": "Despolitiza o conceito, confundindo-o com substrato físico/natural.",
             "C": "Refere-se à Geografia Quantitativa/Teorético-Pragmática, não ao conceito de território.",
             "D": "Território e paisagem são categorias analíticas complementares, não excludentes."
@@ -1264,7 +1302,7 @@
           "analise_distratores": {
             "B": "Base da Geografia Humanista.",
             "C": "Base da Geografia Crítica (Radical).",
-            "D": "Característica da Geografia Tradicional/Possibilista francesa.",
+            "D": "Descrição exclusiva de paisagens rurais não caracteriza a busca de modelos e padrões espaciais.",
             "E": "Associa-se a pioneiros como Élisée Reclus e Piotr Kropotkin, não à Revolução Quantitativa."
           },
           "dificuldade": "intermediaria",
@@ -1292,6 +1330,190 @@
           },
           "dificuldade": "intermediaria",
           "subtopico": "Conceitos estruturantes (espaço, território, região, paisagem, lugar)"
+        },
+        {
+          "questao_id": "CE-GEO-01-EXP-Q001",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "A contribuição de Humboldt para a sistematização da Geografia moderna destaca-se pela",
+          "alternativas": {
+            "A": "recusa da observação empírica.",
+            "B": "investigação de conexões entre fenômenos naturais mediante observação e comparação.",
+            "C": "formulação da teoria dos lugares centrais.",
+            "D": "definição de topofilia.",
+            "E": "criação da Geografia radical dos anos 1970."
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "Humboldt articulou observação, medidas e comparação de fenômenos.",
+          "analise_distratores": {
+            "A": "Observação era central.",
+            "C": "Christaller elaborou a teoria.",
+            "D": "Tuan associa-se ao conceito.",
+            "E": "A renovação crítica é posterior."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Correntes, temas e teorias clássicas e contemporâneas da Geografia"
+        },
+        {
+          "questao_id": "CE-GEO-01-EXP-Q002",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "O contraste didático entre determinismo e possibilismo, ao interpretar Ratzel e Vidal, deve ser tratado como",
+          "alternativas": {
+            "A": "prova de que Vidal rejeitou toda influência da natureza.",
+            "B": "descrição de duas obras integralmente incompatíveis.",
+            "C": "afirmação de que Ratzel jamais discutiu sociedade e Estado.",
+            "D": "classificação histórica útil, mas insuficiente para representar toda a complexidade dos autores.",
+            "E": "evidência de que ambos pertencem à revolução quantitativa."
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "A historiografia mostra relações e convergências entre os autores.",
+          "analise_distratores": {
+            "A": "Vidal considerou relações com o meio.",
+            "B": "Há aproximações historiográficas.",
+            "C": "Estado e sociedade são temas de Ratzel.",
+            "E": "São anteriores à revolução quantitativa."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Correntes, temas e teorias clássicas e contemporâneas da Geografia"
+        },
+        {
+          "questao_id": "CE-GEO-01-EXP-Q003",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "A análise de diferenciação de áreas, associada à tradição corológica de Hettner e Hartshorne, privilegia",
+          "alternativas": {
+            "A": "combinações de fenômenos que conferem particularidade espacial às áreas.",
+            "B": "a eliminação do estudo regional.",
+            "C": "exclusivamente vínculos afetivos individuais.",
+            "D": "a negação de qualquer integração entre fenômenos.",
+            "E": "apenas o controle militar de fronteiras."
+          },
+          "gabarito": "A",
+          "justificativa_gabarito": "A tradição corológica examina diferenciação espacial.",
+          "analise_distratores": {
+            "B": "Região é relevante.",
+            "C": "Lugar vivido é enfoque humanista.",
+            "D": "A integração é importante.",
+            "E": "Não é seu objeto exclusivo."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Correntes, temas e teorias clássicas e contemporâneas da Geografia"
+        },
+        {
+          "questao_id": "CE-GEO-01-EXP-Q004",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "Uma pesquisa utiliza SIG para medir desigualdades no acesso a equipamentos públicos e interpreta os resultados à luz da segregação socioespacial. Sobre seu método, é correto afirmar que",
+          "alternativas": {
+            "A": "o uso de SIG impede análise crítica.",
+            "B": "qualquer estatística torna a pesquisa exclusivamente neopositivista.",
+            "C": "métodos quantitativos podem ser articulados a uma interpretação crítica coerente.",
+            "D": "a técnica dispensa explicação social.",
+            "E": "o SIG torna desnecessária a validação dos dados."
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "Instrumento quantitativo não determina sozinho a perspectiva epistemológica.",
+          "analise_distratores": {
+            "A": "Pode apoiar análise crítica.",
+            "B": "Método não define toda a epistemologia.",
+            "D": "Explicações sociais são relevantes.",
+            "E": "Dados exigem validação."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Correntes, temas e teorias clássicas e contemporâneas da Geografia"
+        },
+        {
+          "questao_id": "CE-GEO-01-EXP-Q005",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "Em uma praça, grupos disputam horários e condições de acesso ao espaço para comércio e manifestações. A categoria que focaliza diretamente essas relações é",
+          "alternativas": {
+            "A": "paisagem, exclusivamente pela aparência.",
+            "B": "região natural.",
+            "C": "escala cartográfica.",
+            "D": "lugar, exclusivamente pela memória.",
+            "E": "território, pelas relações de poder e apropriação."
+          },
+          "gabarito": "E",
+          "justificativa_gabarito": "Território permite investigar controle e apropriação do espaço.",
+          "analise_distratores": {
+            "A": "Aparência não capta diretamente controle.",
+            "B": "Não é classificação natural.",
+            "C": "Escala é relação de representação.",
+            "D": "Lugar enfatiza experiência."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Conceitos estruturantes (espaço, território, região, paisagem, lugar)"
+        },
+        {
+          "questao_id": "CE-GEO-01-EXP-Q006",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "Uma estudante descreve seu bairro a partir das lembranças, vínculos afetivos e sentidos atribuídos às ruas. A categoria central nessa abordagem é",
+          "alternativas": {
+            "A": "região funcional.",
+            "B": "lugar.",
+            "C": "bacia sedimentar.",
+            "D": "território estatal.",
+            "E": "projeção cartográfica."
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "Lugar enfatiza a experiência e os significados vividos.",
+          "analise_distratores": {
+            "A": "Região funcional enfatiza fluxos.",
+            "C": "É estrutura geológica.",
+            "D": "Não há foco em soberania estatal.",
+            "E": "É procedimento de representação."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Conceitos estruturantes (espaço, território, região, paisagem, lugar)"
+        },
+        {
+          "questao_id": "CE-GEO-01-EXP-Q007",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "No pensamento de Milton Santos, a coexistência de instalações antigas e redes digitais modernas em uma cidade evidencia",
+          "alternativas": {
+            "A": "homogeneidade temporal de todas as técnicas.",
+            "B": "eliminação de toda forma anterior.",
+            "C": "independência entre objetos e ações.",
+            "D": "combinação de heranças materiais e novas funções na organização espacial.",
+            "E": "inexistência de relações entre escalas."
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "Rugosidades e técnicas de diferentes tempos coexistem e assumem funções.",
+          "analise_distratores": {
+            "A": "Há temporalidades distintas.",
+            "B": "Formas anteriores podem permanecer.",
+            "C": "Objetos e ações se articulam.",
+            "E": "Redes conectam escalas."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Conceitos estruturantes (espaço, território, região, paisagem, lugar)"
+        },
+        {
+          "questao_id": "CE-GEO-01-EXP-Q008",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "Uma investigação que relaciona preços da terra, decisões de investimento e acesso desigual a serviços urbanos aproxima-se especialmente",
+          "alternativas": {
+            "A": "da Geografia crítica, ao investigar processos sociais de produção do espaço.",
+            "B": "da descrição regional exclusivamente natural.",
+            "C": "da topofilia como única explicação.",
+            "D": "da ideia de espaço neutro sem relações de poder.",
+            "E": "de um modelo que dispensa evidências empíricas."
+          },
+          "gabarito": "A",
+          "justificativa_gabarito": "A perspectiva crítica investiga produção social e desigualdades.",
+          "analise_distratores": {
+            "B": "A análise inclui relações sociais.",
+            "C": "Afeto não explica sozinho o problema.",
+            "D": "Poder é relevante.",
+            "E": "Toda investigação requer evidências."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Correntes, temas e teorias clássicas e contemporâneas da Geografia"
         }
       ],
       "flashcards": [
@@ -1308,7 +1530,7 @@
         {
           "card_id": "CE-GEO-01-FC002",
           "frente": "Qual a diferença entre Ratzel e Vidal de La Blache quanto à relação sociedade-natureza?",
-          "verso": "Ratzel (Determinismo/Alemanha) enfatiza forte influência do meio e o 'espaço vital'; La Blache (Possibilismo/França) afirma que o meio oferece possibilidades transformadas pelo 'gênero de vida'.",
+          "verso": "Ratzel investigou relações entre sociedade, meio e Estado; Vidal enfatizou gênero de vida e práticas históricas. Determinismo e possibilismo são rótulos didáticos que não esgotam suas obras.",
           "tipo": "comparacao",
           "tags": [
             "ratzel",
@@ -1338,7 +1560,7 @@
         {
           "card_id": "CE-GEO-01-FC005",
           "frente": "Qual corrente geográfica usa o neopositivismo lógico, modelos matemáticos e estatística?",
-          "verso": "Geografia Teorético-Quantitativa (ou Nova Geografia / Pragmática), a partir da década de 1950.",
+          "verso": "Geografia teorético-quantitativa, desde os anos 1950; métodos quantitativos também podem servir a outras abordagens.",
           "tipo": "conceito",
           "tags": [
             "quantitativa",
@@ -1347,16 +1569,156 @@
         },
         {
           "card_id": "CE-GEO-01-FC006",
-          "frente": "Qual a pegadinha clássica da FCC sobre Paisagem vs. Espaço?",
-          "verso": "Tratar paisagem e espaço como sinônimos estáticos. Paisagem é forma/acúmulo; Espaço inclui o movimento vivo da sociedade.",
+          "frente": "Qual diferença entre paisagem e espaço na abordagem de Milton Santos?",
+          "verso": "Paisagem reúne formas e marcas de tempos diversos; espaço articula objetos e ações sociais.",
           "tipo": "pegadinha_fcc",
           "tags": [
             "fcc",
             "paisagem"
           ]
+        },
+        {
+          "card_id": "CE-GEO-01-EXP-FC001",
+          "frente": "Quais contribuições caracterizam Humboldt?",
+          "verso": "Observação, comparação e conexões entre fenômenos naturais.",
+          "tipo": "conceito",
+          "tags": [
+            "ce-geo-01",
+            "fundamentos"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-01-EXP-FC002",
+          "frente": "Qual enfoque caracteriza Carl Ritter?",
+          "verso": "Comparação regional e relações históricas sociedade-meio.",
+          "tipo": "conceito",
+          "tags": [
+            "ce-geo-01",
+            "fundamentos"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-01-EXP-FC003",
+          "frente": "A quem se associa o gênero de vida?",
+          "verso": "Paul Vidal de La Blache.",
+          "tipo": "conceito",
+          "tags": [
+            "ce-geo-01",
+            "fundamentos"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-01-EXP-FC004",
+          "frente": "Quem difundiu a denominação possibilismo?",
+          "verso": "Lucien Febvre.",
+          "tipo": "conceito",
+          "tags": [
+            "ce-geo-01",
+            "fundamentos"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-01-EXP-FC005",
+          "frente": "Qual tradição associa Hettner e Hartshorne?",
+          "verso": "Corologia e diferenciação de áreas.",
+          "tipo": "conceito",
+          "tags": [
+            "ce-geo-01",
+            "fundamentos"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-01-EXP-FC006",
+          "frente": "Quem criticou o excepcionalismo geográfico em 1953?",
+          "verso": "Fred Schaefer.",
+          "tipo": "conceito",
+          "tags": [
+            "ce-geo-01",
+            "fundamentos"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-01-EXP-FC007",
+          "frente": "Quem formulou a teoria dos lugares centrais em 1933?",
+          "verso": "Walter Christaller.",
+          "tipo": "conceito",
+          "tags": [
+            "ce-geo-01",
+            "fundamentos"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-01-EXP-FC008",
+          "frente": "Usar estatística torna uma pesquisa necessariamente neopositivista?",
+          "verso": "Não. Métodos não determinam isoladamente a epistemologia.",
+          "tipo": "conceito",
+          "tags": [
+            "ce-geo-01",
+            "fundamentos"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-01-EXP-FC009",
+          "frente": "Que obra de Milton Santos foi publicada em 1978?",
+          "verso": "Por uma Geografia Nova.",
+          "tipo": "conceito",
+          "tags": [
+            "ce-geo-01",
+            "fundamentos"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-01-EXP-FC010",
+          "frente": "Qual categoria enfatiza experiência vivida?",
+          "verso": "Lugar.",
+          "tipo": "conceito",
+          "tags": [
+            "ce-geo-01",
+            "fundamentos"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-01-EXP-FC011",
+          "frente": "O que é topofilia?",
+          "verso": "Vínculo afetivo com o ambiente, associado a Yi-Fu Tuan.",
+          "tipo": "conceito",
+          "tags": [
+            "ce-geo-01",
+            "fundamentos"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-01-EXP-FC012",
+          "frente": "O que distingue região de território?",
+          "verso": "Região enfatiza recorte por critérios; território, relações de poder.",
+          "tipo": "conceito",
+          "tags": [
+            "ce-geo-01",
+            "fundamentos"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-01-EXP-FC013",
+          "frente": "O que são horizontalidades em Milton Santos?",
+          "verso": "Relações de contiguidade e vida cotidiana.",
+          "tipo": "conceito",
+          "tags": [
+            "ce-geo-01",
+            "fundamentos"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-01-EXP-FC014",
+          "frente": "O que são verticalidades?",
+          "verso": "Articulações entre pontos e comandos distantes por redes.",
+          "tipo": "conceito",
+          "tags": [
+            "ce-geo-01",
+            "fundamentos"
+          ]
         }
       ],
-      "teoria_md": "---\ntopico_id: CE-GEO-01\nslug: historia-pensamento-geografico\ntitulo: \"História do Pensamento Geográfico: Conceitos, Temas e Teorias da Geografia\"\nedital: SEDUC-MA-01-2026\nbanca: FCC\nstatus: em_auditoria\n---\n\n# 1. Delimitação no Edital (Camada A)\n- **Item explícito (p. 76):** *A história do pensamento geográfico: conceitos, temas e teorias da Geografia.*\n- **Peso estratégico:** Integra os Conhecimentos Específicos (peso 2 na Prova Objetiva; 33,33% da nota final sem títulos; 1º critério técnico de desempate).\n\n# 2. Sistematização da Geografia Científica (Século XIX)\nA Geografia institucionaliza-se como ciência moderna na Alemanha do século XIX, superando o caráter meramente descritivo dos relatos de viagem. Dois pioneiros lançam suas bases epistemológicas:\n- **Alexander von Humboldt (1769–1859):** método empírico-indutivo, observação de campo e busca de conexões causais entre fenômenos naturais (princípio da **causalidade** e da **conexão**).\n- **Carl Ritter (1779–1859):** abordagem comparativa e antropocêntrica, voltada ao estudo das individualidades regionais e da relação histórica entre sociedades e natureza.\n\n# 3. Correntes do Pensamento Geográfico\n\n| Corrente | Período / Contexto | Autores Centrais | Base Filosófica / Método | Conceito-Chave |\n| :--- | :--- | :--- | :--- | :--- |\n| **Determinismo Geográfico** | Final séc. XIX (unificação alemã) | Friedrich Ratzel | Positivismo / Darwinismo social | **Espaço vital** (*Lebensraum*) e território estatal |\n| **Possibilismo Geográfico** | Virada séc. XIX–XX (escola francesa) | Paul Vidal de La Blache | Historicismo / Empirismo | **Gênero de vida** e **região** |\n| **Método Regional (Corologia)** | Meados séc. XX (EUA/Alemanha) | Alfred Hettner, Richard Hartshorne | Neokantismo | **Diferenciação de áreas** (*areal differentiation*) |\n| **Geografia Teorético-Quantitativa (Pragmática)** | Pós-1950 (Guerra Fria / planejamento) | Fred Schaefer, Brian Berry, Peter Haggett | Neopositivismo lógico / Estatística | **Espaço geométrico**, modelos e sistemas |\n| **Geografia Crítica (Radical)** | Décadas de 1960–1970 (França, EUA, Brasil) | Yves Lacoste, David Harvey, Milton Santos, Ruy Moreira | Materialismo histórico-dialético | **Espaço geográfico** como produção social e contradição |\n| **Geografia Humanista e Cultural** | A partir da década de 1970 | Yi-Fu Tuan, Anne Buttimer, Paul Claval | Fenomenologia / Existencialismo | **Lugar** (vivência, topofilia) e **paisagem cultural** |\n\n### Pontos de atenção epistemológica\n- **Ratzel vs. caricatura:** Embora associado ao determinismo, Ratzel fundou a **Antropogeografia** e a **Geografia Política**, articulando Estado, povo e solo. A leitura rígida de subordinação absoluta do homem ao meio foi acentuada por discípulos como Ellen Churchill Semple.\n- **Vidal de La Blache:** A natureza oferece **possibilidades**, não imposições absolutas; a sociedade seleciona e transforma o meio por meio do **gênero de vida** (conjunto de técnicas, hábitos e adaptações).\n- **Crise da Geografia Tradicional e Revolução Quantitativa:** Fred Schaefer (1953) criticou o \"excepcionalismo\" de Hartshorne e defendeu a busca de leis espaciais gerais por meio de modelos matemáticos, matrizes e análise sistêmica. No Brasil, essa vertente teve forte presença no IBGE entre as décadas de 1960 e 1970.\n- **Virada Crítica no Brasil (1978):** O III Encontro Nacional de Geógrafos (ENG), em Fortaleza (1978), e a publicação de *Por uma Geografia Nova* (Milton Santos, 1978) consolidaram a crítica à neutralidade científica e ao papel ideológico da Geografia escolar (\"Geografia dos Professores\" vs. \"Geografia dos Estados-Maiores\", em Yves Lacoste).\n\n# 4. As Cinco Categorias Estruturantes da Geografia\n\n1. **Espaço Geográfico:** Para **Milton Santos** (*A Natureza do Espaço*), é um **conjunto indissociável, solidário e também contraditório de sistemas de objetos e sistemas de ações**, não considerados isoladamente, mas como o quadro único no qual a história se dá. Evolui do *meio natural* → *meio técnico* → *meio técnico-científico-informacional*.\n2. **Paisagem:** Tudo aquilo que nossa visão/percepção alcança em um dado momento — combinação de formas naturais e culturais. Milton Santos distingue **paisagem** (forma, acúmulo de tempos desiguais, *rugosidades*) de **espaço** (paisagem + vida social/movimento que a anima).\n3. **Território:** Espaço definido e delimitado **por e a partir de relações de poder** (Marcelo Lopes de Souza; Claude Raffestin). Não se reduz ao território nacional do Estado: abrange territorialidades flexíveis, cíclicas, urbanas, indígenas, quilombolas e econômicas (multiterritorialidade em Rogério Haesbaert).\n4. **Região:** Recorte espacial definido segundo critérios específicos (naturais, econômicos, culturais ou de planejamento). Passou de \"região natural\" (Geografia Tradicional) e \"região homogênea/funcional\" (Quantitativa) para construção intelectual e instrumento de ação política/planejamento.\n5. **Lugar:** Espaço vivido, apropriado pela experiência cotidiana, afetividade e identidade (**topofilia** e **topofobia** em Yi-Fu Tuan). Na globalização (Milton Santos), o lugar é também o ponto de encontro entre a verticalidade global e a horizontalidade cotidiana.\n\n# 5. Como a FCC Cobra Este Tema (Camada C)\n- A FCC costuma construir questões **monotemáticas e conceituais precisas**, testando se o candidato confunde **paisagem** com **espaço**, **território** com **região**, ou atribui o conceito de *gênero de vida* a Ratzel e *espaço vital* a La Blache.\n- Armadilha recorrente: alternativa correta na primeira metade (ex.: define corretamente Milton Santos como autor da Geografia Crítica) e incorreta na segunda (atribui a ele a defesa da neutralidade neopositivista ou da separação entre objetos e ações).\n"
+      "teoria_md": "# 1. A formação da Geografia como disciplina\n\nA produção de conhecimentos sobre a Terra antecede a institucionalização universitária da Geografia. Navegação, cartografia, observação de paisagens, administração territorial e conhecimentos de povos diversos contribuíram para a compreensão do espaço. Não se deve confundir essa história ampla com o nascimento da disciplina acadêmica moderna.\n\nNo século XIX, Alexander von Humboldt investigou relações entre fenômenos naturais, mobilizando observações, medições e comparações em diferentes áreas. Seu trabalho sobre a distribuição da vegetação exemplifica a análise de conexões entre altitude, temperatura e formas de vida. Carl Ritter valorizou a comparação regional e relações históricas entre sociedades e meio. Ambos contribuíram para a sistematização da disciplina, mas não inauguraram todo conhecimento geográfico.\n\nA institucionalização relacionou-se a universidades, escolas, sociedades geográficas, Estados nacionais e expansão colonial. Mapear, conhecer recursos e organizar territórios podia servir a finalidades científicas e políticas. Uma abordagem histórica precisa examinar o contexto de produção do conhecimento, evitando tratar correntes como etapas rígidas que eliminam completamente as anteriores.\n\n# 2. Ratzel, Vidal e a tradição regional\n\nFriedrich Ratzel, na Alemanha do final do século XIX, desenvolveu a antropogeografia e a geografia política, investigando relações entre população, Estado, território e condições naturais. Seu conceito de espaço vital relaciona-se ao pensamento biogeográfico e político de seu período. A associação didática de Ratzel ao determinismo não autoriza afirmar que ele defendia uma causalidade climática única para todas as sociedades.\n\nPaul Vidal de La Blache, na França, enfatizou práticas, técnicas e formas históricas de organização da vida humana. O gênero de vida expressa relações entre grupos sociais e meio, considerando hábitos e possibilidades de transformação. A denominação possibilismo foi difundida posteriormente por Lucien Febvre. Estudos historiográficos mostram aproximações entre Vidal e Ratzel, tornando insuficiente a oposição absoluta entre natureza dominante e sociedade livre de condicionantes.\n\nA região ganhou importância na tradição francesa de estudos particulares. Alfred Hettner e Richard Hartshorne desenvolveram abordagens corológicas, voltadas à diferenciação espacial de áreas e à integração de fenômenos. A descrição regional não se reduz à lista de acidentes naturais: busca compreender combinações de processos. A regionalização, como procedimento, depende da pergunta e dos critérios utilizados.\n\n# 3. Geografia teorético-quantitativa e análise espacial\n\nA partir dos anos 1950, a revolução quantitativa buscou ampliar formalização, mensuração, modelos e explicações gerais sobre padrões espaciais. Fred Schaefer, em 1953, criticou o excepcionalismo metodológico associado à tradição regional. Brian Berry e Peter Haggett são referências do desenvolvimento da análise espacial quantitativa.\n\nDistância, acessibilidade, localização de serviços, distribuição de pontos e interação entre centros podem ser investigadas por modelos. A teoria dos lugares centrais, originalmente de Walter Christaller (1933), ilustra relações entre oferta de serviços e hierarquia urbana; não constitui descrição exata de toda cidade real. Modelos utilizam pressupostos que precisam ser examinados antes de generalizar seus resultados.\n\nEssa corrente é frequentemente associada ao positivismo lógico e ao planejamento. Entretanto, usar estatística, SIG ou modelagem não torna automaticamente uma pesquisa neopositivista. Métodos quantitativos também podem investigar desigualdade, segregação e acesso a direitos. A técnica não determina, por si só, a posição epistemológica.\n\n# 4. Geografia crítica e renovação brasileira\n\nNas décadas de 1960 e 1970, diferentes vertentes críticas questionaram neutralidade, desigualdades, relações de classe e usos políticos do conhecimento espacial. David Harvey desenvolveu análises sobre urbanização e capitalismo; Yves Lacoste destacou a dimensão estratégica do saber geográfico e criticou a apresentação escolar despolitizada.\n\nNo Brasil, Milton Santos, Ruy Moreira e outros autores contribuíram para a renovação crítica. O III Encontro Nacional de Geógrafos, realizado em Fortaleza em 1978, e a publicação de Por uma Geografia Nova, de Milton Santos, no mesmo ano, são referências da renovação. O materialismo histórico-dialético influenciou parte importante desse movimento, mas a Geografia crítica não é intelectualmente homogênea.\n\nExemplo: a desigualdade de acesso a transporte urbano pode ser investigada considerando localização das moradias, empregos, preços da terra, decisões públicas e infraestrutura. O problema não se explica apenas pela distância geométrica. É necessário analisar processos históricos e relações sociais que produzem e reproduzem o padrão espacial.\n\n# 5. Geografia humanista, cultural e abordagens contemporâneas\n\nA Geografia humanista valoriza experiências vividas, sentidos atribuídos aos lugares e relações afetivas. Yi-Fu Tuan investigou as relações entre espaço, lugar e experiência. Topofilia diz respeito a vínculos afetivos com ambientes; não significa que todo lugar seja vivido positivamente. Medo, exclusão e pertencimentos conflitantes também integram a experiência espacial.\n\nA Geografia cultural aborda práticas, representações, símbolos, identidades e produção de paisagens. Diferentes tradições culturais não constituem uma única escola fenomenológica. Carl Sauer é referência da tradição da paisagem cultural; abordagens posteriores ampliam o debate sobre significados, poder e representação. Anne Buttimer contribuiu para o estudo da experiência e do mundo vivido.\n\nAbordagens feministas, pós-coloniais, decoloniais e de justiça ambiental ampliam perguntas sobre quem produz conhecimento, quem controla o espaço e quais experiências são invisibilizadas. Não há substituição linear de todas as correntes por uma escola final. Um problema pode exigir métodos quantitativos, históricos e qualitativos articulados, com coerência entre conceitos e evidências.\n\n# 6. Categorias estruturantes: comparar e aplicar\n\n| Categoria | Questão orientadora | Exemplo |\n|---|---|---|\n| Espaço geográfico | Como objetos, ações e processos se articulam? | Porto, trabalho, redes logísticas e decisões públicas |\n| Paisagem | Quais formas e marcas históricas são percebidas? | Casarões e ruas do centro histórico |\n| Território | Quem exerce poder, controle e apropriação? | Disputas pelo acesso a babaçuais |\n| Região | Qual critério diferencia e organiza áreas? | Regiões imediatas do IBGE |\n| Lugar | Que significados e experiências são atribuídos? | Bairro vivido pelos estudantes |\n\nEssas categorias são lentes complementares. A mesma praça pode ser analisada como paisagem pelas formas, como lugar por memórias, como território pelas regras de acesso, como parte de uma região por sua função e como espaço pelas relações entre objetos e ações.\n\nTerritório não é apenas propriedade fundiária nem fronteira estatal. Marcelo Lopes de Souza enfatiza relações de poder projetadas espacialmente; Claude Raffestin também destaca poder e territorialização. Territórios podem ser descontínuos, temporários e sobrepostos. Região pode resultar de critérios naturais, funcionais, socioeconômicos ou políticos; não é necessariamente entidade administrativa.\n\n![Cinco categorias geográficas aplicadas a uma mesma praça; esquema conceitual.](./media/geografia-fundamentos/categorias.svg)\n\n# 7. Milton Santos: técnica, tempo e ação\n\nNa obra A Natureza do Espaço, Milton Santos concebe o espaço pela inseparabilidade entre sistemas de objetos e de ações. Edifícios, máquinas, estradas e redes técnicas não existem socialmente como simples inventário material: usos, decisões, trabalho e normas conferem funções a esses objetos. Objetos herdados também condicionam possibilidades de ação.\n\nPaisagem e espaço não são sinônimos. A paisagem reúne formas percebidas e marcas de diferentes tempos; o espaço inclui as relações sociais que dão vida e função às formas. Rugosidades designam heranças materiais de processos históricos anteriores, como armazéns antigos reutilizados, que podem permanecer e assumir novas funções.\n\nA periodização entre meio natural, meio técnico e meio técnico-científico-informacional descreve a incorporação histórica crescente de técnicas, ciência e informação à organização espacial. Não implica que todos os lugares atravessem simultaneamente fases idênticas. Formas e técnicas de tempos distintos coexistem.\n\nHorizontalidades remetem a relações de contiguidade e vida cotidiana; verticalidades, à articulação entre pontos e comandos distantes por redes. Uma cidade portuária combina relações locais de trabalho e moradia com fluxos internacionais. A escala local não é isolada da global.\n\n# 8. Aplicação comparativa e síntese\n\nConsidere um bairro junto a um corredor ferroviário. A tradição regional pode examinar sua inserção na organização de uma área; a análise quantitativa pode comparar distâncias e acessibilidade; a crítica pode investigar distribuição dos custos e benefícios; a humanista pode interpretar a experiência dos moradores; a cultural pode examinar significados atribuídos ao patrimônio e à paisagem.\n\nEssas perguntas não se excluem. A validade de uma resposta depende da coerência entre o problema, a categoria, o método e a evidência disponível. Não atribua a um autor toda uma escola sem considerar contexto e diferenças internas.\n\nRecuperação ativa: compare Ratzel e Vidal sem caricaturas; explique diferenciação de áreas e revolução quantitativa; distinga perspectivas crítica e humanista; aplique as cinco categorias a um mesmo lugar; explique rugosidades e relações entre objetos e ações."
     },
     {
       "schema_version": "2.0.0",
@@ -13288,7 +13650,7 @@
       "titulo": "Metodologia de Ensino da Geografia: Raciocínio Geográfico (BNCC), Cartografia Escolar e Prática Docente",
       "status": "em_auditoria",
       "origem": "edital_explicito",
-      "tempo_leitura_min": 30,
+      "tempo_leitura_min": 35,
       "edital_subtopicos": [
         "Didática, alfabetização cartográfica, raciocínio geográfico e práticas pedagógicas em sala de aula",
         "Articulação com atribuições docentes (PPP, planejamento e avaliação — Anexo I)"
@@ -13309,6 +13671,24 @@
           "referencia_abnt": "ALMEIDA, Rosângela Doin de. Do desenho ao mapa: iniciação cartográfica na escola. São Paulo: Contexto, 2001.",
           "tipo": "bibliografia_academica",
           "nivel_autoridade": 5
+        },
+        {
+          "referencia_abnt": "BRASIL. MEC. BNCC, Educação Infantil e Ensino Fundamental, 2018, seção Geografia, quadro 1, p. 359–360. Texto consultado.",
+          "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
+        },
+        {
+          "referencia_abnt": "BRASIL. Lei 9.394/1996, arts. 12, 13, 24, 26-A e 58–59. Art. 13 conferido em fonte oficial.",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l9394.htm",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
+        },
+        {
+          "referencia_abnt": "Revista Brasileira de Cartografia. Fundamentos e perspectivas da cartografia escolar no Brasil. Resumo consultado.",
+          "url": "https://seer.ufu.br/index.php/revistabrasileiracartografia/article/view/44689",
+          "tipo": "bibliografia_academica",
+          "nivel_autoridade": 5
         }
       ],
       "sintese_fcc": {
@@ -13327,42 +13707,74 @@
             "termo": "Trabalho de Campo / Estudo do Meio",
             "definicao_precisa": "Prática investigativa planejada (pré-campo, campo e sistematização) que articula teoria geográfica e espaço vivido.",
             "fonte": "Didática da Geografia."
+          },
+          {
+            "termo": "Avaliação formativa",
+            "definicao_precisa": "Evidências, devolutiva e intervenção durante aprendizagem.",
+            "fonte": "Síntese didática; LDB art. 24."
+          },
+          {
+            "termo": "Plano docente",
+            "definicao_precisa": "Vinculado à proposta pedagógica e às responsabilidades do art. 13.",
+            "fonte": "LDB."
           }
         ],
         "pegadinhas_fcc": [
           {
-            "armadilha": "Reduzir a Cartografia Escolar a 'copiar mapas em papel vegetal'",
-            "como_a_fcc_cobra": "Afirma que a alfabetização cartográfica consiste em memorizar e decalcar contornos de países.",
-            "como_desarmar": "Alfabetização cartográfica transforma o aluno em leitor crítico e produtor de mapas a partir do seu espaço vivido."
+            "armadilha": "Cartografia como cópia",
+            "como_a_fcc_cobra": "Exemplo autoral de distrator: Decalcar mapas basta.",
+            "como_desarmar": "Ler, produzir e interpretar representações."
           },
           {
-            "armadilha": "Tratar o Trabalho de Campo como 'passeio recreativo sem planejamento'",
-            "como_a_fcc_cobra": "Descreve o trabalho de campo como atividade improvisada desvinculada do PPP e dos objetivos curriculares.",
-            "como_desarmar": "Exige planejamento articulado ao PPP, roteiro de observação e análise posterior em sala."
+            "armadilha": "Campo sem investigação",
+            "como_a_fcc_cobra": "Exemplo autoral de distrator: Saída sem objetivos e registro.",
+            "como_desarmar": "Pré-campo, campo, pós-campo."
+          },
+          {
+            "armadilha": "Confundir distribuição e extensão",
+            "como_a_fcc_cobra": "Exemplo autoral de distrator: Repartição é extensão.",
+            "como_desarmar": "Distribuição = repartição; extensão = área."
+          },
+          {
+            "armadilha": "Avaliação apenas classificatória",
+            "como_a_fcc_cobra": "Exemplo autoral de distrator: Feedback não exige intervenção.",
+            "como_desarmar": "Formativa orienta ajustes e recuperação."
           }
         ],
         "quadro_comparativo": [
           {
             "principio_bncc": "Analogia",
-            "pergunta_chave": "Onde mais ocorre fenômeno semelhante?"
+            "pergunta_chave": "Quais semelhanças?"
           },
           {
             "principio_bncc": "Conexão",
-            "pergunta_chave": "Como este fenômeno se interliga a outros processos físicos/sociais?"
+            "pergunta_chave": "Quais relações?"
           },
           {
-            "principio_bncc": "Distribuição / Extensão",
-            "pergunta_chave": "Como se reparte e qual área abrange?"
+            "principio_bncc": "Diferenciação",
+            "pergunta_chave": "Quais variações?"
           },
           {
-            "principio_bncc": "Localização / Ordem",
-            "pergunta_chave": "Onde está situado e qual organização espacial produz?"
+            "principio_bncc": "Distribuição",
+            "pergunta_chave": "Como se reparte?"
+          },
+          {
+            "principio_bncc": "Extensão",
+            "pergunta_chave": "Qual área abrange?"
+          },
+          {
+            "principio_bncc": "Localização",
+            "pergunta_chave": "Onde?"
+          },
+          {
+            "principio_bncc": "Ordem",
+            "pergunta_chave": "Como o espaço é estruturado socialmente?"
           }
         ],
         "checklist_revisao": [
-          "Sei listar e aplicar os 7 princípios do raciocínio geográfico da BNCC?",
-          "Sei explicar as etapas da alfabetização cartográfica (visão oblíqua → vertical, escala, legenda)?",
-          "Articulo o trabalho docente ao Projeto Político Pedagógico (PPP) e à educação inclusiva (Anexo I)?"
+          "Aplico os sete princípios da BNCC?",
+          "Planejo atividades cartográficas acessíveis e investigativas?",
+          "Distingo as funções de avaliação e o papel da proposta pedagógica?"
         ]
       },
       "questoes": [
@@ -13381,10 +13793,10 @@
           "gabarito": "E",
           "justificativa_gabarito": "Na BNCC, o princípio da Conexão busca identificar as interdependências e ligações entre fenômenos físicos e humanos em diferentes escalas.",
           "analise_distratores": {
-            "A": "Não é princípio da BNCC.",
-            "B": "Prática tradicional superada.",
-            "C": "Cópia mecânica.",
-            "D": "Oposto de conexão."
+            "A": "Não corresponde a princípio enumerado pela BNCC.",
+            "B": "Memorização não explica relações entre fenômenos.",
+            "C": "Cópia não mobiliza análise das interdependências.",
+            "D": "Isolamento contraria a investigação relacional."
           },
           "dificuldade": "basica",
           "subtopico": "Didática, alfabetização cartográfica, raciocínio geográfico e práticas pedagógicas em sala de aula"
@@ -13425,12 +13837,12 @@
             "E": "desconsidere as condições de acessibilidade de estudantes com deficiência."
           },
           "gabarito": "D",
-          "justificativa_gabarito": "O trabalho de campo é metodologia investigativa em 3 etapas (pré-campo, campo e pós-campo), articulada ao PPP e inclusiva (conforme atribuições do Anexo I do Edital).",
+          "justificativa_gabarito": "Uma investigação de campo articula planejamento, coleta orientada e análise posterior, com acessibilidade e segurança.",
           "analise_distratores": {
-            "A": "Absurdo.",
-            "B": "Descaracteriza a função pedagógica.",
-            "C": "Separa teoria e prática.",
-            "E": "Fere as atribuições de inclusão do Anexo I."
+            "A": "Não oferece investigação do fenômeno proposto.",
+            "B": "Ausência de objetivos e registros compromete a investigação.",
+            "C": "A articulação de observações com conceitos é central.",
+            "E": "O planejamento deve remover barreiras à participação."
           },
           "dificuldade": "basica",
           "subtopico": "Articulação com atribuições docentes (PPP, planejamento e avaliação — Anexo I)"
@@ -13462,23 +13874,207 @@
           "questao_id": "CE-GEO-15-Q005",
           "origem": "inedita_padrao_fcc",
           "referencia_prova": "Inédita — padrão FCC / Edital SEDUC-MA 01/2026",
-          "enunciado": "Conforme a descrição das atribuições do cargo de Professor de Geografia no Anexo I do Edital SEAD/MA nº 01/2026, o docente da rede estadual maranhense deve",
+          "enunciado": "Considerando as atribuições docentes previstas no art. 13 da LDB e os princípios de planejamento e inclusão escolar, é adequada a prática de",
           "alternativas": {
             "A": "atuar de forma isolada, ignorando o PPP da escola e os períodos de planejamento coletivo.",
-            "B": "elaborar e cumprir Plano de Trabalho em consonância com o Projeto Político Pedagógico (PPP) e a proposta curricular estadual, articulando planejamento, avaliação contínua e recursos de acessibilidade.",
+            "B": "elaborar e cumprir o plano de trabalho de acordo com a proposta pedagógica, acompanhando a aprendizagem e planejando estratégias de apoio.",
             "C": "delegar exclusivamente ao Supervisor Escolar o registro de aprendizagem dos alunos.",
             "D": "excluir estudantes público-alvo da Educação Especial das atividades da sala comum.",
             "E": "ministrar apenas aulas expositivas sem qualquer instrumento de registro."
           },
           "gabarito": "B",
-          "justificativa_gabarito": "O Anexo I (pp. 43–44) lista explicitamente o cumprimento do PPP, planejamento, registro do desenvolvimento discente e articulação com recursos pedagógicos de acessibilidade.",
+          "justificativa_gabarito": "A LDB prevê participação na proposta pedagógica, plano de trabalho, zelo pela aprendizagem e estratégias de recuperação.",
           "analise_distratores": {
-            "A": "Contraria o Anexo I.",
-            "C": "O registro adequado do desenvolvimento dos alunos é atribuição docente.",
-            "D": "O Anexo I exige articulação inclusiva na sala de aula comum.",
-            "E": "Contraria o Anexo I."
+            "A": "Contraria participação e planejamento coletivo.",
+            "C": "O professor tem responsabilidade de acompanhar a aprendizagem.",
+            "D": "Exclusão não promove acesso e participação.",
+            "E": "A prática docente inclui avaliação e planejamento, não apenas exposição."
           },
           "dificuldade": "basica",
+          "subtopico": "Articulação com atribuições docentes (PPP, planejamento e avaliação — Anexo I)"
+        },
+        {
+          "questao_id": "CE-GEO-15-EXP-Q001",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "Ao comparar dois mapas de precipitação para identificar variações entre litoral e sul do Maranhão, a atividade enfatiza o princípio de",
+          "alternativas": {
+            "A": "extensão.",
+            "B": "diferenciação.",
+            "C": "ordem exclusivamente jurídica.",
+            "D": "localização absoluta.",
+            "E": "decalque."
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "Diferenciação identifica variações espaciais.",
+          "analise_distratores": {
+            "A": "Extensão delimita alcance.",
+            "C": "Ordem explica estruturação espacial.",
+            "D": "Localização situa uma posição.",
+            "E": "Decalque não é princípio."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Didática, alfabetização cartográfica, raciocínio geográfico e práticas pedagógicas em sala de aula"
+        },
+        {
+          "questao_id": "CE-GEO-15-EXP-Q002",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "Ao mapear a repartição dos postos de saúde e, em outra etapa, delimitar a área atingida por uma enchente, o professor mobiliza, respectivamente,",
+          "alternativas": {
+            "A": "analogia e ordem.",
+            "B": "conexão e analogia.",
+            "C": "localização e diferenciação.",
+            "D": "distribuição e extensão.",
+            "E": "extensão e distribuição."
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "Repartição é distribuição; área abrangida é extensão.",
+          "analise_distratores": {
+            "A": "Não são os focos indicados.",
+            "B": "Não se trata de relação e comparação de semelhantes.",
+            "C": "São operações distintas.",
+            "E": "A sequência está invertida."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Didática, alfabetização cartográfica, raciocínio geográfico e práticas pedagógicas em sala de aula"
+        },
+        {
+          "questao_id": "CE-GEO-15-EXP-Q003",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "Uma aula investiga como zoneamento, preços da terra e decisões públicas organizam o acesso desigual à moradia. O princípio que enfatiza o arranjo espacial socialmente produzido é",
+          "alternativas": {
+            "A": "ordem.",
+            "B": "analogia.",
+            "C": "localização absoluta.",
+            "D": "extensão.",
+            "E": "distribuição isolada."
+          },
+          "gabarito": "A",
+          "justificativa_gabarito": "Ordem refere-se à estruturação espacial segundo relações e regras sociais.",
+          "analise_distratores": {
+            "B": "Analogia compara semelhanças.",
+            "C": "Posição não explica arranjo.",
+            "D": "Delimitação não basta.",
+            "E": "A repartição descreve padrão, não explica sozinha sua estruturação."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Didática, alfabetização cartográfica, raciocínio geográfico e práticas pedagógicas em sala de aula"
+        },
+        {
+          "questao_id": "CE-GEO-15-EXP-Q004",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "Ao apresentar um mapa de municípios com número absoluto de casos de uma doença, o professor solicita comparação com taxas por população. Essa atividade favorece",
+          "alternativas": {
+            "A": "cópia mecânica de contornos.",
+            "B": "substituição da leitura de dados por memorização.",
+            "C": "leitura crítica das escolhas de representação e dos denominadores.",
+            "D": "suposição de que totais e taxas são idênticos.",
+            "E": "abandono das legendas."
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "Totais e taxas respondem a perguntas distintas; leitura crítica exige denominadores.",
+          "analise_distratores": {
+            "A": "Não se limita à cópia.",
+            "B": "Exige interpretação.",
+            "D": "Medidas diferem.",
+            "E": "Legenda é necessária."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Didática, alfabetização cartográfica, raciocínio geográfico e práticas pedagógicas em sala de aula"
+        },
+        {
+          "questao_id": "CE-GEO-15-EXP-Q005",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "No pós-campo, estudantes organizam fotografias e registros, comparam hipóteses e explicam a distribuição de processos erosivos. Essa etapa corresponde",
+          "alternativas": {
+            "A": "à definição inicial do percurso.",
+            "B": "à autorização prévia.",
+            "C": "ao passeio sem objetivos.",
+            "D": "à coleta de dados sem interpretação.",
+            "E": "à sistematização analítica dos resultados."
+          },
+          "gabarito": "E",
+          "justificativa_gabarito": "Pós-campo organiza e interpreta evidências.",
+          "analise_distratores": {
+            "A": "É pré-campo.",
+            "B": "É pré-campo.",
+            "C": "Contraria investigação.",
+            "D": "Coleta ocorre durante o campo."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Didática, alfabetização cartográfica, raciocínio geográfico e práticas pedagógicas em sala de aula"
+        },
+        {
+          "questao_id": "CE-GEO-15-EXP-Q006",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "Após identificar que alunos confundem escala e orientação, a professora oferece feedback, propõe exercício guiado e verifica novamente a aprendizagem. Predomina a função",
+          "alternativas": {
+            "A": "somativa exclusivamente classificatória.",
+            "B": "formativa, com recuperação dirigida.",
+            "C": "administrativa de controle de frequência.",
+            "D": "seletiva de exclusão.",
+            "E": "de certificação final sem intervenção."
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "Avaliação formativa orienta ajustes e recuperação.",
+          "analise_distratores": {
+            "A": "Há intervenção durante o processo.",
+            "C": "Não é controle de presença.",
+            "D": "A atividade busca aprendizagem.",
+            "E": "Não se limita ao final."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Articulação com atribuições docentes (PPP, planejamento e avaliação — Anexo I)"
+        },
+        {
+          "questao_id": "CE-GEO-15-EXP-Q007",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "Segundo o art. 13 da LDB, o plano de trabalho docente deve",
+          "alternativas": {
+            "A": "ser elaborado independentemente da proposta pedagógica.",
+            "B": "substituir a elaboração coletiva da proposta da escola.",
+            "C": "restringir-se ao registro de notas.",
+            "D": "estar em consonância com a proposta pedagógica do estabelecimento de ensino.",
+            "E": "ser elaborado exclusivamente por estudantes."
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "A lei vincula elaboração e cumprimento do plano à proposta pedagógica.",
+          "analise_distratores": {
+            "A": "A lei estabelece vínculo.",
+            "B": "Docentes participam da proposta.",
+            "C": "Inclui planejamento de aprendizagens.",
+            "E": "É responsabilidade docente."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Articulação com atribuições docentes (PPP, planejamento e avaliação — Anexo I)"
+        },
+        {
+          "questao_id": "CE-GEO-15-EXP-Q008",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "Uma atividade cartográfica envolve estudante com deficiência visual. A adaptação coerente com a educação inclusiva consiste em",
+          "alternativas": {
+            "A": "oferecer representação tátil e descrição acessível, mantendo o objetivo conceitual e articulando apoios necessários.",
+            "B": "dispensar automaticamente o estudante de toda atividade geográfica.",
+            "C": "substituir o objetivo por tarefa sem relação com mapas.",
+            "D": "transferir integralmente a responsabilidade ao AEE.",
+            "E": "manter o material inacessível para garantir tratamento idêntico."
+          },
+          "gabarito": "A",
+          "justificativa_gabarito": "A inclusão remove barreiras sem excluir o estudante do currículo.",
+          "analise_distratores": {
+            "B": "Dispensa exclui a aprendizagem.",
+            "C": "A adaptação deve preservar o objetivo.",
+            "D": "A responsabilidade é articulada.",
+            "E": "Igualdade formal não remove barreiras."
+          },
+          "dificuldade": "intermediaria",
           "subtopico": "Articulação com atribuições docentes (PPP, planejamento e avaliação — Anexo I)"
         }
       ],
@@ -13523,8 +14119,8 @@
         },
         {
           "card_id": "CE-GEO-15-FC005",
-          "frente": "Qual o papel do PPP nas atribuições do Professor no Anexo I do Edital?",
-          "verso": "Elaborar e cumprir o Plano de Trabalho segundo o Projeto Político Pedagógico (PPP) e a proposta curricular estadual.",
+          "frente": "Qual o vínculo entre plano docente e proposta pedagógica segundo a LDB?",
+          "verso": "O docente participa da elaboração da proposta e elabora e cumpre o plano de trabalho em consonância com ela (art. 13).",
           "tipo": "legislacao_dado",
           "tags": [
             "anexo-i",
@@ -13533,16 +14129,156 @@
         },
         {
           "card_id": "CE-GEO-15-FC006",
-          "frente": "Como o Professor da sala comum atua com a Educação Especial segundo o Anexo I?",
-          "verso": "Articulando-se com o AEE, utilizando recursos pedagógicos e tecnologia assistiva para promover a participação e autonomia dos alunos.",
+          "frente": "Como articular sala comum e AEE na educação inclusiva?",
+          "verso": "Promover participação e aprendizagem, remover barreiras e articular recursos e apoios com a equipe.",
           "tipo": "legislacao_dado",
           "tags": [
             "inclusao",
             "anexo-i"
           ]
+        },
+        {
+          "card_id": "CE-GEO-15-EXP-FC001",
+          "frente": "O que o princípio da analogia permite?",
+          "verso": "Comparar fenômenos e identificar semelhanças.",
+          "tipo": "conceito",
+          "tags": [
+            "ce-geo-15",
+            "fundamentos"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-15-EXP-FC002",
+          "frente": "O que a conexão investiga?",
+          "verso": "Relações entre fenômenos próximos ou distantes.",
+          "tipo": "conceito",
+          "tags": [
+            "ce-geo-15",
+            "fundamentos"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-15-EXP-FC003",
+          "frente": "O que a diferenciação identifica?",
+          "verso": "Variações espaciais.",
+          "tipo": "conceito",
+          "tags": [
+            "ce-geo-15",
+            "fundamentos"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-15-EXP-FC004",
+          "frente": "O que a distribuição analisa?",
+          "verso": "Repartição espacial dos objetos e fenômenos.",
+          "tipo": "conceito",
+          "tags": [
+            "ce-geo-15",
+            "fundamentos"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-15-EXP-FC005",
+          "frente": "O que a extensão delimita?",
+          "verso": "Área de ocorrência de um fenômeno.",
+          "tipo": "conceito",
+          "tags": [
+            "ce-geo-15",
+            "fundamentos"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-15-EXP-FC006",
+          "frente": "O que distingue localização absoluta e relativa?",
+          "verso": "Coordenadas versus posição em relação a referências.",
+          "tipo": "conceito",
+          "tags": [
+            "ce-geo-15",
+            "fundamentos"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-15-EXP-FC007",
+          "frente": "O que a ordem explica?",
+          "verso": "Arranjo espacial produzido segundo relações e regras sociais.",
+          "tipo": "conceito",
+          "tags": [
+            "ce-geo-15",
+            "fundamentos"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-15-EXP-FC008",
+          "frente": "Qual etapa da BNCC enumera as cinco unidades temáticas de Geografia?",
+          "verso": "Ensino Fundamental.",
+          "tipo": "conceito",
+          "tags": [
+            "ce-geo-15",
+            "fundamentos"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-15-EXP-FC009",
+          "frente": "Em qual área a Geografia se insere no Ensino Médio da BNCC?",
+          "verso": "Ciências Humanas e Sociais Aplicadas.",
+          "tipo": "conceito",
+          "tags": [
+            "ce-geo-15",
+            "fundamentos"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-15-EXP-FC010",
+          "frente": "Qual é a função da legenda?",
+          "verso": "Explicar os símbolos usados na representação.",
+          "tipo": "conceito",
+          "tags": [
+            "ce-geo-15",
+            "fundamentos"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-15-EXP-FC011",
+          "frente": "Qual é a função de avaliação diagnóstica?",
+          "verso": "Identificar conhecimentos prévios e dificuldades.",
+          "tipo": "conceito",
+          "tags": [
+            "ce-geo-15",
+            "fundamentos"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-15-EXP-FC012",
+          "frente": "Qual é a função de avaliação formativa?",
+          "verso": "Acompanhar aprendizagem e orientar intervenções.",
+          "tipo": "conceito",
+          "tags": [
+            "ce-geo-15",
+            "fundamentos"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-15-EXP-FC013",
+          "frente": "Qual é a função de avaliação somativa?",
+          "verso": "Sintetizar resultados de uma etapa.",
+          "tipo": "conceito",
+          "tags": [
+            "ce-geo-15",
+            "fundamentos"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-15-EXP-FC014",
+          "frente": "O que prevê o art. 13 da LDB sobre recuperação?",
+          "verso": "O docente deve estabelecer estratégias de recuperação para alunos de menor rendimento.",
+          "tipo": "conceito",
+          "tags": [
+            "ce-geo-15",
+            "fundamentos"
+          ]
         }
       ],
-      "teoria_md": "---\ntopico_id: CE-GEO-15\nslug: metodologia-ensino-geografia\ntitulo: \"Metodologia de Ensino da Geografia: Raciocínio Geográfico (BNCC), Cartografia Escolar e Prática Docente\"\nedital: SEDUC-MA-01-2026\nbanca: FCC\nstatus: em_auditoria\n---\n\n# 1. Delimitação no Edital (Camada A)\n- **Item explícito (p. 76):** *Metodologia de Ensino da Geografia.*\n- **Articulação com o Anexo I (p. 43 — Atribuições do Professor SEDUC-MA):** elaborar e cumprir Plano de Trabalho segundo o **Projeto Político Pedagógico (PPP)** e a proposta curricular estadual; planejar estratégias de apoio pedagógico; avaliar continuamente; registrar o desenvolvimento dos alunos; integrar inclusão escolar (AEE/acessibilidade).\n\n# 2. Do Ensino Tradicional (Mnemônico) ao Raciocínio Geográfico (BNCC)\n- **Geografia Tradicional Escolar (\"decoreba\"):** listagem fragmentada de rios, capitais e relevos sem problematização social (criticada por Yves Lacoste como a \"Geografia dos Professores\").\n- **Geografia Crítica e Raciocínio Geográfico Contemporâneo:** o ensino da Geografia visa desenvolver o **pensamento espacial** e o **raciocínio geográfico**, permitindo ao estudante compreender o mundo como produção social e exercer cidadania.\n- **Os 7 Princípios do Raciocínio Geográfico na BNCC (Clássico em Concursos de Magistério!):**\n  1. **Analogia:** comparar fenômenos geográficos semelhantes em diferentes lugares.\n  2. **Conexão:** identificar relações e interdependências entre fenômenos físicos e humanos.\n  3. **Diferenciação:** perceber variações e singularidades entre lugares/regiões.\n  4. **Distribuição:** analisar como os objetos/fenômenos se repartem no espaço.\n  5. **Extensão:** dimensionar o alcance espacial/área de um fenômeno.\n  6. **Localização:** situar precisamente onde o fenômeno ocorre (absoluta e relativa).\n  7. **Ordem:** identificar a estruturação e organização espacial resultante das ações humanas e naturais.\n\n# 3. Alfabetização Cartográfica e Metodologias Ativas\n- **Alfabetização Cartográfica (Rosângela Doin de Almeida; Passini):** ensinar o aluno a **ler e construir mapas** desde o espaço vivido (do corpo e da sala de aula para o bairro, município e mundo), trabalhando **visão oblíqua → vertical**, **legenda**, **proporção/escala**, **orientação** e **lateralidade**.\n- **Trabalho de Campo / Estudo do Meio:** metodologia fundamental da Geografia escolar para observar *in loco* paisagens, rugosidades e conflitos socioambientais (ex.: visita a manguezais, centros históricos ou áreas de erosão), sempre com roteiro prévio, observação orientada e sistematização posterior.\n- **Uso de Geotecnologias e Linguagens Diversas:** imagens de satélite, SIGs didáticos, mapas mentais, charges, letras de música, gráficos e tabelas para promover aprendizagem ativa e inclusão.\n"
+      "teoria_md": "# 1. Finalidades do ensino de Geografia\n\nEnsinar Geografia envolve formar estudantes capazes de localizar, representar, interpretar e explicar fenômenos espaciais, articulando processos sociais e naturais. Memorizar nomes e conceitos pode apoiar a aprendizagem, mas não substitui a capacidade de explicar relações, argumentar com evidências e transferir conhecimentos para novas situações.\n\nO pensamento espacial mobiliza noções como posição, distância, direção, escala, distribuição e relações entre fenômenos. O raciocínio geográfico utiliza essas noções para compreender a organização do espaço e suas transformações. O espaço vivido constitui ponto de partida fecundo, sem limitar o currículo ao cotidiano imediato. Uma enchente no bairro pode levar ao estudo da bacia hidrográfica, do clima, da urbanização e das políticas públicas.\n\nA crítica de Yves Lacoste à Geografia escolar enciclopédica e aparentemente neutra ajuda a compreender a importância de explicitar relações de poder. O professor deve promover análise fundamentada, não trocar memorização por aceitação automática de opiniões. Conceitos, dados, mapas e comparação de fontes sustentam a argumentação.\n\n# 2. Os sete princípios do raciocínio geográfico\n\nNa seção de Geografia do Ensino Fundamental, a BNCC apresenta sete princípios para exercitar o pensamento espacial. A seguir, uma síntese autoral com exemplos didáticos.\n\n| Princípio | Operação | Exemplo |\n|---|---|---|\n| Analogia | Identificar semelhanças | Comparar cheias de duas cidades |\n| Conexão | Relacionar processos | Associar chuva, ocupação e drenagem |\n| Diferenciação | Reconhecer variações espaciais | Contrastar litoral e sul maranhense |\n| Distribuição | Analisar a repartição dos fenômenos | Mapear escolas e postos de saúde |\n| Extensão | Delimitar a área de ocorrência | Identificar perímetro inundado |\n| Localização | Determinar posição absoluta ou relativa | Situar uma escola por coordenadas ou referências |\n| Ordem | Explicar o arranjo espacial socialmente produzido | Relacionar zoneamento, renda e acesso a serviços |\n\nLocalização responde onde; distribuição investiga como os elementos se espalham ou concentram; extensão determina a área abrangida. Ordem procura explicar a estruturação espacial segundo as regras e relações da sociedade que a produz. Uma atividade pode mobilizar vários princípios; identifique aquele destacado pelo objetivo do enunciado.\n\n# 3. BNCC e planejamento curricular\n\nNo Ensino Fundamental, a BNCC organiza Geografia em cinco unidades temáticas: O sujeito e seu lugar no mundo; Conexões e escalas; Mundo do trabalho; Formas de representação e pensamento espacial; Natureza, ambientes e qualidade de vida. Objetos de conhecimento e habilidades articulam essas unidades com progressão ao longo da escolarização.\n\nNo Ensino Médio, Geografia integra a área de Ciências Humanas e Sociais Aplicadas, articulada às demais disciplinas. Não se deve transpor automaticamente a organização das unidades temáticas do Ensino Fundamental como se fosse a estrutura formal do Ensino Médio. Competências e habilidades orientam aprendizagens; o currículo e o planejamento docente contextualizam essas referências segundo a etapa, a rede e a escola.\n\nUma sequência didática pode começar com diagnóstico, formular um problema, mobilizar conceitos, investigar fontes, produzir uma síntese e avaliar a aprendizagem. Exemplo: investigar por que certas áreas urbanas têm menos acesso ao transporte. O objetivo pode ser interpretar mapas e relacionar distância, renda e oferta de serviços; a evidência pode ser um mapa comentado acompanhado de explicação causal.\n\n# 4. Alfabetização e letramento cartográfico\n\nA cartografia escolar procura formar leitores críticos e produtores de representações, em vez de apenas copiadores de mapas. Trabalhos de Rosângela Doin de Almeida, Elza Passini e Maria Elena Simielli contribuem para essa perspectiva. O desenvolvimento de noções espaciais considera conhecimentos prévios, experiências e características dos estudantes; não existe sequência rígida aplicável igualmente a todas as idades.\n\nDa observação de objetos em perspectiva, o professor pode propor maquetes, plantas vistas de cima, croquis e mapas em diferentes escalas. Legenda relaciona símbolos ao que representam; orientação estabelece direções; escala relaciona dimensões da representação e do terreno. Em um mapa 1:10.000, 1 cm representa 100 m no terreno, se a impressão mantém a escala original.\n\n![Esquema didático de observação, representação em planta e leitura de símbolos.](./media/geografia-fundamentos/cartografia-escolar.svg)\n\nA leitura crítica pergunta quem produziu o mapa, com qual finalidade, quais dados, data, recorte, projeção e escolhas gráficas. Mapas de totais e de taxas podem produzir interpretações diferentes. A ausência de informação no mapa não prova inexistência do fenômeno. Recursos táteis, contrastes adequados, descrições verbais e objetos manipuláveis permitem diversificar meios de acesso sem abandonar o objetivo de aprendizagem.\n\n# 5. Trabalho de campo, estudo do meio e investigação\n\nO trabalho de campo é procedimento investigativo que relaciona conceitos e evidências observadas. O estudo do meio pode envolver integração interdisciplinar e análise mais ampla das relações de um território. Uma saída de campo não se torna pedagógica apenas por ocorrer fora da sala de aula.\n\nNo pré-campo, definir problema, objetivos, percurso, autorização, segurança, acessibilidade e instrumentos de registro. Durante o campo, observar, descrever, comparar, coletar dados adequados e respeitar pessoas e ambientes. No pós-campo, organizar registros, construir mapas ou gráficos, confrontar hipóteses e elaborar conclusões. Evidência insuficiente deve ser reconhecida, não preenchida por suposição.\n\nEm uma investigação de erosão, estudantes podem comparar cobertura do solo, declividade e sinais de escoamento em locais seguros. Devem distinguir observação (sulcos visíveis) de inferência (possível relação com concentração de fluxo). Fotografias, entrevistas autorizadas e mapas podem complementar a análise. Se a saída não for acessível, planejar alternativas equivalentes de investigação.\n\n# 6. Linguagens, geotecnologias e aprendizagem ativa\n\nFotografias, mapas, gráficos, textos, imagens de satélite e SIG permitem analisar fenômenos em escalas distintas. Uma imagem de satélite é registro de interação da radiação com superfícies, sujeito a resolução, data e condições de aquisição. Um SIG organiza camadas e permite operações espaciais; sua presença não garante aprendizagem crítica.\n\nExemplo: comparar imagens de datas diferentes para discutir expansão urbana. Verificar estação do ano, resolução e cobertura de nuvens; distinguir mudança de vegetação de alteração sazonal; formular hipóteses e buscar outras evidências. O professor deve evitar inferir causalidade apenas pela aparência.\n\nMetodologias por investigação, problemas, projetos e estudos de caso podem favorecer participação quando objetivos são claros e há mediação. Exposição dialogada, exercícios guiados e prática de recuperação também são úteis. A escolha metodológica depende do conteúdo, dos estudantes e do objetivo, não de rótulos de inovação. Recursos digitais exigem acessibilidade, proteção de dados, alternativas não digitais quando necessárias e análise crítica das fontes.\n\n# 7. PPP, planejamento, avaliação e recuperação\n\nA LDB (Lei 9.394/1996), art. 13, estabelece responsabilidades docentes relativas à elaboração da proposta pedagógica, ao plano de trabalho, à aprendizagem, às estratégias de recuperação, aos períodos de planejamento e avaliação e à articulação com famílias e comunidade. O projeto político-pedagógico (PPP) expressa a identidade e os compromissos coletivos da escola. O plano docente operacionaliza esses compromissos e o currículo em objetivos, conteúdos, estratégias e avaliação.\n\nAvaliação diagnóstica identifica conhecimentos prévios e dificuldades; formativa acompanha o processo e orienta ajustes; somativa sintetiza resultados ao fim de uma etapa. Um instrumento pode cumprir mais de uma função conforme seu uso. Avaliação formativa não é simplesmente aplicar provas frequentes: exige evidências, interpretação, devolutiva e intervenção.\n\nA LDB, art. 24, prevê avaliação contínua e cumulativa na verificação do rendimento escolar, com prevalência de aspectos qualitativos e dos resultados ao longo do período sobre eventuais provas finais, além de estudos de recuperação nos termos legais. Isso não elimina a possibilidade de notas ou avaliações escritas.\n\nExemplo: se estudantes confundem distribuição e extensão, o professor propõe mapas contrastantes, oferece feedback específico e reaplica tarefa semelhante em novo contexto. A recuperação deve responder à dificuldade identificada. O conteúdo exato do Anexo I do edital estadual permanece sujeito ao cotejo documental; não se atribuem literalmente a ele obrigações sem confirmação.\n\n# 8. Inclusão, cidadania e integração didática\n\nA educação inclusiva pressupõe participação e aprendizagem com remoção de barreiras. A sala comum e o atendimento educacional especializado (AEE) possuem funções articuladas; o atendimento não deve ser tratado como substituição geral da escolarização. O professor pode utilizar mapas táteis, descrição textual, materiais de alto contraste, tempo e instrumentos adequados, em articulação com a equipe e as necessidades do estudante.\n\nA LDB prevê o ensino de história e cultura afro-brasileira e indígena, nos termos do art. 26-A. Em Geografia, territorialidades indígenas, quilombolas e práticas de comunidades tradicionais devem ser abordadas sem estereótipos, com atenção a fontes, diversidade e direitos. Exemplos maranhenses ajudam a relacionar conteúdo curricular, contextos locais e escalas mais amplas.\n\nUma sequência integrada sobre o Maranhão pode investigar redes de transporte e conflitos ambientais. Iniciar com um mapa e perguntas diagnósticas; comparar dados e paisagens; identificar localização, distribuição e conexões; produzir uma representação acessível; avaliar explicações e oferecer recuperação direcionada. Critérios de avaliação: precisão espacial, emprego de conceitos, relação entre evidências e argumento, clareza da representação e revisão após feedback.\n\nRecuperação ativa: aplique os sete princípios a uma situação local; explique como ensinar legenda e escala; organize as três etapas de campo; diferencie avaliação diagnóstica, formativa e somativa; relacione PPP, plano docente, recuperação e inclusão."
     },
     {
       "schema_version": "2.0.0",
