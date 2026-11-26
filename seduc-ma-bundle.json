@@ -5,8 +5,8 @@
   "resumo_cobertura": {
     "total_unidades_edital": 45,
     "unidades_populadas": 45,
-    "total_questoes": 372,
-    "total_flashcards": 579
+    "total_questoes": 404,
+    "total_flashcards": 635
   },
   "edital": {
     "schema_version": "1.0.0",
@@ -13560,10 +13560,10 @@
       ],
       "fontes_primarias": [
         {
-          "referencia_abnt": "IBGE. Cidades@ — Panorama do Maranhão (Território, População Censo 2022 e Estimativa 2026). Rio de Janeiro: IBGE, 2025/2026.",
+          "referencia_abnt": "IBGE. Maranhão, Cidades e Estados: área 2025 e Censo 2022. Consulta: 26 nov. 2026.",
+          "url": "https://www.ibge.gov.br/cidades-e-estados/ma/",
           "tipo": "institucional",
-          "nivel_autoridade": 3,
-          "url": "https://cidades.ibge.gov.br/brasil/ma/panorama"
+          "nivel_autoridade": 3
         },
         {
           "referencia_abnt": "IBGE. Divisão Regional do Brasil em Regiões Geográficas Imediatas e Regiões Geográficas Intermediárias 2017 — Mapa do Estado do Maranhão (atualização 11/09/2018). Rio de Janeiro: IBGE, 2018.",
@@ -13578,52 +13578,69 @@
           "url": "https://www.ibge.gov.br/apps/quadrogeografico/pdf/qg_2024_110_120_reggeog.pdf"
         },
         {
-          "referencia_abnt": "IBGE. Censo Demográfico 2022 — Território, Indígenas e Quilombolas (Maranhão). Rio de Janeiro: IBGE, 2023.",
+          "referencia_abnt": "IBGE. Divisão Territorial Brasileira. Consulta: 26 nov. 2026.",
+          "url": "https://www.ibge.gov.br/geociencias/organizacao-do-territorio/divisao-regional/23701-divisao-territorial-brasileira.html",
           "tipo": "institucional",
-          "nivel_autoridade": 3,
-          "url": "https://cidades.ibge.gov.br/brasil/ma/pesquisa/10102/122229"
+          "nivel_autoridade": 3
+        },
+        {
+          "referencia_abnt": "BRASIL. Lei Complementar 124/2007, art. 2º: área de atuação da SUDAM. Consulta: 26 nov. 2026.",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp124.htm",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
+        },
+        {
+          "referencia_abnt": "UNESCO. Centro Histórico de São Luís. Consulta: 26 nov. 2026.",
+          "url": "https://whc.unesco.org/en/list/821/",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
         }
       ],
       "sintese_fcc": {
         "conceitos_nucleares": [
           {
-            "termo": "Área e Municípios do Maranhão",
-            "definicao_precisa": "329.651,463 km² (8º maior estado do Brasil) e 217 municípios.",
-            "fonte": "IBGE Cidades@, 2025."
-          },
-          {
-            "termo": "Limites do Maranhão",
-            "definicao_precisa": "Oceano Atlântico (N), Piauí (L/SE — Rio Parnaíba), Tocantins (S/SO — Rio Tocantins) e Pará (O — Rio Gurupi).",
+            "termo": "Território",
+            "definicao_precisa": "217 municípios; área de 329.651,463 km² na edição 2025.",
             "fonte": "IBGE."
           },
           {
-            "termo": "Divisão Regional Vigente (IBGE 2017)",
-            "definicao_precisa": "5 Regiões Geográficas Intermediárias (São Luís, Santa Inês–Bacabal, Caxias, Presidente Dutra e Imperatriz) e 22 Regiões Geográficas Imediatas, baseadas na rede urbana.",
-            "fonte": "IBGE, 2017/2018."
+            "termo": "Frentes históricas",
+            "definicao_precisa": "Litoral e vales agrícolas e frente pastoril sertaneja; sem excluir territorialidades indígenas.",
+            "fonte": "História territorial maranhense."
           },
           {
-            "termo": "Dupla Inserção Macroespacial",
-            "definicao_precisa": "Integra a Região Nordeste (Meio-Norte) e tem sua porção a oeste do meridiano 44° W inserida na Amazônia Legal.",
-            "fonte": "IBGE / Legislação da Amazônia Legal."
+            "termo": "Divisão regional",
+            "definicao_precisa": "5 intermediárias e 22 imediatas no recorte 2017/2018.",
+            "fonte": "IBGE."
+          },
+          {
+            "termo": "Amazônia Legal",
+            "definicao_precisa": "Recorte de planejamento que abrange a porção a oeste de 44° W.",
+            "fonte": "LC 124/2007."
           }
         ],
         "pegadinhas_fcc": [
           {
-            "armadilha": "Confundir Mesorregiões (1989) com RGInt (2017)",
-            "como_a_fcc_cobra": "Afirma que o IBGE ainda adota oficialmente 5 mesorregiões e 21 microrregiões como divisão vigente, ou troca o critério de rede urbana por critério puramente climático.",
-            "como_desarmar": "Desde 2017 vigoram 5 RGInt e 22 RGI, estruturadas a partir da rede urbana e polarização de centros (REGIC)."
+            "armadilha": "Recorte oficial e planejamento",
+            "como_a_fcc_cobra": "Exemplo de distrator autoral: MA integra Região Norte.",
+            "como_desarmar": "É Nordeste; parte integra Amazônia Legal."
           },
           {
-            "armadilha": "Limites estaduais incorretos",
-            "como_a_fcc_cobra": "Inclui a Bahia ou o Ceará como estados limítrofes do Maranhão.",
-            "como_desarmar": "O Maranhão faz divisa terrestre com APENAS 3 estados: Pará (O), Tocantins (S/SO) e Piauí (L/SE)."
+            "armadilha": "Regionalização e administração",
+            "como_a_fcc_cobra": "Exemplo de distrator autoral: Região intermediária é novo ente.",
+            "como_desarmar": "É recorte funcional e estatístico."
+          },
+          {
+            "armadilha": "Ocupação colonial como início",
+            "como_a_fcc_cobra": "Exemplo de distrator autoral: Não havia ocupação anterior.",
+            "como_desarmar": "Povos indígenas já possuíam territorialidades."
           }
         ],
         "quadro_comparativo": [
           {
             "rgint_codigo": "2101",
             "rgint_nome": "São Luís",
-            "destaque": "Polarização metropolitana da capital"
+            "destaque": "Centralidade regional de São Luís"
           },
           {
             "rgint_codigo": "2102",
@@ -13647,9 +13664,9 @@
           }
         ],
         "checklist_revisao": [
-          "Sei os 3 estados que fazem fronteira com o Maranhão e os 3 rios divisores principais?",
-          "Sei nomear as 5 Regiões Geográficas Intermediárias (IBGE 2017) e o critério de rede urbana?",
-          "Sei a diferença entre as frentes de ocupação litorânea (agroexportadora) e sertaneja (pastoril)?"
+          "Identifico localização, limites e área com edição?",
+          "Explico frentes de ocupação e presença indígena anterior?",
+          "Distingo municípios, regiões imediatas, intermediárias e Amazônia Legal?"
         ]
       },
       "questoes": [
@@ -13703,7 +13720,7 @@
           "questao_id": "CG-GHM-01-Q003",
           "origem": "inedita_padrao_fcc",
           "referencia_prova": "Inédita — padrão FCC / Edital SEDUC-MA 01/2026",
-          "enunciado": "Assinale a alternativa que apresenta APENAS municípios que dão nome às Regiões Geográficas Intermediárias (RGInt) do Estado do Maranhão segundo a divisão oficial do IBGE (2017).",
+          "enunciado": "Assinale a alternativa que apresenta as cinco Regiões Geográficas Intermediárias do Maranhão segundo a divisão do IBGE de 2017, com ajustes de 2018.",
           "alternativas": {
             "A": "São Luís, Imperatriz, Caxias, Presidente Dutra e Santa Inês–Bacabal.",
             "B": "São Luís, Imperatriz, Balsas, Pinheiro e Timon.",
@@ -13726,7 +13743,7 @@
           "questao_id": "CG-GHM-01-Q004",
           "origem": "inedita_padrao_fcc",
           "referencia_prova": "Inédita — padrão FCC / Edital SEDUC-MA 01/2026",
-          "enunciado": "A formação territorial do Maranhão ocorreu a partir de duas frentes históricas distintas de ocupação, que deixaram marcas duradouras na organização espacial do estado. Essas duas frentes corresponderam, respectivamente, à",
+          "enunciado": "Entre os vetores históricos de expansão colonial no Maranhão, duas frentes de ocupação frequentemente destacadas são",
           "alternativas": {
             "A": "mineração aurífera no extremo sul no século XVI e à industrialização têxtil em Imperatriz no século XVII.",
             "B": "ocupação litorânea e dos vales úmidos do norte, voltada à agricultura de exportação, e à frente pastoril sertaneja no sul e leste, originária da expansão pecuarista nordestina.",
@@ -13735,7 +13752,7 @@
             "E": "ocupação exclusivamente fluvial a partir do Rio Tocantins, sem povoamento costeiro relevante até o século XX."
           },
           "gabarito": "B",
-          "justificativa_gabarito": "Historicamente, o norte/vales (São Luís, Itapecuru, Mearim) articulou-se à agroexportação (algodão, cana, arroz), enquanto o sul/leste (Pastos Bons, Carolina, sertões) foi ocupado pela frente pastoril vinda da Bahia, Pernambuco e Piauí.",
+          "justificativa_gabarito": "Frentes litorâneas e dos vales associam-se à agricultura e circulação; a pastoril, à interiorização. Não excluem a ocupação indígena anterior ou outros vetores.",
           "analise_distratores": {
             "A": "Anacronismo completo: Imperatriz foi fundada no século XIX e não houve ciclo industrial no século XVII.",
             "C": "O café não estruturou o litoral ocidental maranhense no período colonial.",
@@ -13767,13 +13784,197 @@
           },
           "dificuldade": "basica",
           "subtopico": "Localização e limites geográficos"
+        },
+        {
+          "questao_id": "CG-GHM-01-EXP-Q001",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "A ocupação do espaço maranhense anterior à colonização europeia deve ser interpretada como",
+          "alternativas": {
+            "A": "ausência de relações territoriais.",
+            "B": "ocupação exclusivamente urbana de origem portuguesa.",
+            "C": "presença de povos indígenas com territorialidades e modos de vida diversos.",
+            "D": "resultado da expansão ferroviária.",
+            "E": "ocupação iniciada pela pecuária colonial."
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "As sociedades indígenas antecedem as frentes coloniais.",
+          "analise_distratores": {
+            "A": "Já existiam relações territoriais.",
+            "B": "A ocupação antecede Portugal.",
+            "D": "Ferrovias são posteriores.",
+            "E": "Pecuária colonial não marca o início."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Formação territorial e ocupação espacial"
+        },
+        {
+          "questao_id": "CG-GHM-01-EXP-Q002",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "Na formação colonial do Maranhão, a agricultura de exportação nos vales e a pecuária sertaneja representam",
+          "alternativas": {
+            "A": "atividades sem vínculos com mercados.",
+            "B": "vetores distintos, porém articulados, de ocupação e circulação.",
+            "C": "uma única frente marítima.",
+            "D": "processos iniciados somente após 1960.",
+            "E": "prova de distribuição igualitária da terra."
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "As frentes diferiram em atividades e redes, mas mantinham relações.",
+          "analise_distratores": {
+            "A": "Havia mercados e abastecimento.",
+            "C": "Houve interiorização.",
+            "D": "São processos coloniais.",
+            "E": "A estrutura fundiária foi desigual."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Formação territorial e ocupação espacial"
+        },
+        {
+          "questao_id": "CG-GHM-01-EXP-Q003",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "A abertura de eixos de circulação como a BR-010 contribuiu para",
+          "alternativas": {
+            "A": "eliminar todas as diferenças regionais.",
+            "B": "deslocar a capital para Imperatriz.",
+            "C": "transformar o Maranhão em estado da Região Norte.",
+            "D": "reorganizar fluxos e fortalecer a centralidade de cidades do interior.",
+            "E": "suprimir as funções de São Luís."
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "Infraestrutura reorganiza fluxos sem eliminar centralidades anteriores.",
+          "analise_distratores": {
+            "A": "Acessibilidade permanece desigual.",
+            "B": "São Luís é capital.",
+            "C": "Região oficial não mudou.",
+            "E": "A capital mantém funções."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Formação territorial e ocupação espacial"
+        },
+        {
+          "questao_id": "CG-GHM-01-EXP-Q004",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "O IBGE informa para o Maranhão área territorial referente a 2025 e densidade referente ao Censo 2022. Ao interpretar os indicadores, é adequado",
+          "alternativas": {
+            "A": "identificar a edição e o ano de cada medida, evitando tratar densidade como distribuição uniforme.",
+            "B": "supor densidade idêntica em todos os municípios.",
+            "C": "atribuir ambos ao Censo de 2025.",
+            "D": "interpretar densidade como população absoluta.",
+            "E": "ignorar revisões de área."
+          },
+          "gabarito": "A",
+          "justificativa_gabarito": "Indicadores possuem referências e significados diferentes.",
+          "analise_distratores": {
+            "B": "Densidade estadual é média.",
+            "C": "Não houve Censo 2025.",
+            "D": "É razão população/área.",
+            "E": "Áreas podem ser revisadas."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Localização e limites geográficos"
+        },
+        {
+          "questao_id": "CG-GHM-01-EXP-Q005",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "Uma região geográfica imediata, segundo o IBGE, é definida principalmente em função",
+          "alternativas": {
+            "A": "da identidade de todos os solos.",
+            "B": "de limites de bacias sedimentares.",
+            "C": "da criação de um novo estado.",
+            "D": "da presença exclusiva de capitais estaduais.",
+            "E": "dos vínculos cotidianos de trabalho, compras e serviços com centros urbanos."
+          },
+          "gabarito": "E",
+          "justificativa_gabarito": "O recorte imediato considera funções e fluxos cotidianos.",
+          "analise_distratores": {
+            "A": "Não é critério pedológico.",
+            "B": "Não é geológico.",
+            "C": "Não cria unidade federativa.",
+            "D": "Centros de menor porte também polarizam."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Divisão político-administrativa e regionalizações"
+        },
+        {
+          "questao_id": "CG-GHM-01-EXP-Q006",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "A classificação de um município maranhense numa região intermediária polarizada por outro município implica",
+          "alternativas": {
+            "A": "perda de autonomia política.",
+            "B": "transferência automática de sua prefeitura.",
+            "C": "vínculos funcionais de alcance regional, sem alteração da autonomia municipal.",
+            "D": "mudança da unidade federativa.",
+            "E": "fusão obrigatória dos dois municípios."
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "Regionalização estatística não altera a estrutura federativa.",
+          "analise_distratores": {
+            "A": "Autonomia permanece.",
+            "B": "Não transfere sede.",
+            "D": "O estado permanece.",
+            "E": "Não implica fusão."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Divisão político-administrativa e regionalizações"
+        },
+        {
+          "questao_id": "CG-GHM-01-EXP-Q007",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "A porção maranhense a oeste do meridiano de 44° integra a área de atuação da Sudam. Essa condição",
+          "alternativas": {
+            "A": "retira o Maranhão do Nordeste.",
+            "B": "é compatível com a inserção estadual no Nordeste, por se tratar de recorte com finalidade distinta.",
+            "C": "faz coincidir toda a fronteira do estado com o bioma Amazônia.",
+            "D": "substitui as regiões imediatas.",
+            "E": "modifica a localização da capital."
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "O recorte legal de planejamento e a grande região estatística coexistem.",
+          "analise_distratores": {
+            "A": "Permanece no Nordeste.",
+            "C": "Bioma possui outro critério.",
+            "D": "Recortes funcionais continuam.",
+            "E": "São Luís continua capital."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Localização e limites geográficos"
+        },
+        {
+          "questao_id": "CG-GHM-01-EXP-Q008",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "Ao comparar um mapa de mesorregiões de 1989 e um de regiões geográficas de 2017, o estudante deve considerar",
+          "alternativas": {
+            "A": "que ambos têm obrigatoriamente os mesmos limites.",
+            "B": "que a divisão antiga não pode aparecer em estudos históricos.",
+            "C": "que o mapa de 2017 é uma classificação exclusiva de biomas.",
+            "D": "que as edições adotam critérios e recortes diferentes, úteis em contextos distintos.",
+            "E": "que o mapa mais recente cria novos entes federativos."
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "As divisões são instrumentos estatísticos de épocas e critérios diferentes.",
+          "analise_distratores": {
+            "A": "Limites podem variar.",
+            "B": "O recorte histórico tem utilidade.",
+            "C": "Rede urbana é central.",
+            "E": "Não cria entes."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Divisão político-administrativa e regionalizações"
         }
       ],
       "flashcards": [
         {
           "card_id": "CG-GHM-01-FC001",
-          "frente": "Qual a área territorial oficial e o número de municípios do Maranhão (IBGE)?",
-          "verso": "329.651,463 km² (8º maior do Brasil) e 217 municípios.",
+          "frente": "Qual a área territorial do Maranhão em 2025 e o número de municípios?",
+          "verso": "329.651,463 km² (IBGE, edição 2025) e 217 municípios.",
           "tipo": "legislacao_dado",
           "tags": [
             "ibge",
@@ -13813,7 +14014,7 @@
         {
           "card_id": "CG-GHM-01-FC005",
           "frente": "Qual a população do Maranhão no Censo 2022 (IBGE)?",
-          "verso": "6.776.699 habitantes (densidade de 20,56 hab/km²; 269.168 quilombolas e 57.166 indígenas).",
+          "verso": "6.776.699 habitantes, resultado atualizado em dezembro de 2023; densidade 20,56 hab./km².",
           "tipo": "legislacao_dado",
           "tags": [
             "censo-2022",
@@ -13829,9 +14030,149 @@
             "amazonia-legal",
             "meio-norte"
           ]
+        },
+        {
+          "card_id": "CG-GHM-01-EXP-FC001",
+          "frente": "O que a expressão Meio-Norte representa?",
+          "verso": "Regionalização didática de transições; não um ente federativo.",
+          "tipo": "conceito",
+          "tags": [
+            "maranhao",
+            "cg-ghm-01"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-01-EXP-FC002",
+          "frente": "O que existia antes da conquista europeia no Maranhão?",
+          "verso": "Diversas territorialidades indígenas.",
+          "tipo": "conceito",
+          "tags": [
+            "maranhao",
+            "cg-ghm-01"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-01-EXP-FC003",
+          "frente": "Quando se estabeleceu a França Equinocial em São Luís?",
+          "verso": "1612; expulsão dos franceses em 1615.",
+          "tipo": "conceito",
+          "tags": [
+            "maranhao",
+            "cg-ghm-01"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-01-EXP-FC004",
+          "frente": "Qual atividade se associa à frente sertaneja colonial?",
+          "verso": "Pecuária, com Pastos Bons como referência histórica.",
+          "tipo": "conceito",
+          "tags": [
+            "maranhao",
+            "cg-ghm-01"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-01-EXP-FC005",
+          "frente": "Que atividades marcaram a frente litorânea e dos vales?",
+          "verso": "Agricultura, navegação fluvial e comércio atlântico.",
+          "tipo": "conceito",
+          "tags": [
+            "maranhao",
+            "cg-ghm-01"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-01-EXP-FC006",
+          "frente": "Que rodovia reforçou a centralidade de Imperatriz?",
+          "verso": "BR-010, Belém–Brasília.",
+          "tipo": "conceito",
+          "tags": [
+            "maranhao",
+            "cg-ghm-01"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-01-EXP-FC007",
+          "frente": "Região do IBGE é ente federativo?",
+          "verso": "Não. É recorte estatístico e analítico.",
+          "tipo": "conceito",
+          "tags": [
+            "maranhao",
+            "cg-ghm-01"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-01-EXP-FC008",
+          "frente": "Qual critério orienta as regiões imediatas?",
+          "verso": "Relações de serviços e necessidades cotidianas.",
+          "tipo": "conceito",
+          "tags": [
+            "maranhao",
+            "cg-ghm-01"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-01-EXP-FC009",
+          "frente": "Qual critério orienta as regiões intermediárias?",
+          "verso": "Funções urbanas e gestão de maior alcance.",
+          "tipo": "conceito",
+          "tags": [
+            "maranhao",
+            "cg-ghm-01"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-01-EXP-FC010",
+          "frente": "Santa Inês e Bacabal dão nome a quantas regiões intermediárias?",
+          "verso": "Uma: Santa Inês–Bacabal.",
+          "tipo": "conceito",
+          "tags": [
+            "maranhao",
+            "cg-ghm-01"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-01-EXP-FC011",
+          "frente": "O que aconteceu com mesorregiões e microrregiões em 2017?",
+          "verso": "Foram sucedidas como quadro regional de referência; permanecem úteis em séries históricas.",
+          "tipo": "conceito",
+          "tags": [
+            "maranhao",
+            "cg-ghm-01"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-01-EXP-FC012",
+          "frente": "Qual região oficial do IBGE contém o Maranhão?",
+          "verso": "Nordeste.",
+          "tipo": "conceito",
+          "tags": [
+            "maranhao",
+            "cg-ghm-01"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-01-EXP-FC013",
+          "frente": "Qual lei define a área de atuação da Sudam?",
+          "verso": "LC 124/2007, art. 2º, incluindo parte do MA a oeste de 44°.",
+          "tipo": "conceito",
+          "tags": [
+            "maranhao",
+            "cg-ghm-01"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-01-EXP-FC014",
+          "frente": "Por que densidade média não descreve distribuição?",
+          "verso": "Não mostra diferenças internas de concentração de habitantes.",
+          "tipo": "conceito",
+          "tags": [
+            "maranhao",
+            "cg-ghm-01"
+          ]
         }
       ],
-      "teoria_md": "---\ntopico_id: CG-GHM-01\nslug: espaco-maranhense-regionalizacao\ntitulo: \"Formação Territorial, Limites e Regionalização do Maranhão\"\nedital: SEDUC-MA-01-2026\nbanca: FCC\nstatus: em_auditoria\nsinergia_especifica: CE-GEO-14\n---\n\n# 1. Delimitação no Edital e Sinergia Estratégica (Camada A)\n- **Itens explícitos:** Conhecimentos Gerais (p. 60 — *Formação territorial e ocupação do espaço maranhense. Localização, limites, divisão político-administrativa e regionalização do Maranhão*) com sinergia direta em Conhecimentos Específicos (`CE-GEO-14`, p. 76 — *Geografia do Maranhão: localização, população e economia*).\n- Dominar esta unidade gera pontuação dupla nos dois blocos da Prova Objetiva.\n\n# 2. Dados Territoriais e Demográficos Oficiais (IBGE)\nSegundo o [IBGE Cidades@ — Panorama do Maranhão](https://cidades.ibge.gov.br/brasil/ma/panorama) e o [Censo Demográfico 2022](https://cidades.ibge.gov.br/brasil/ma/pesquisa/10102/122229):\n- **Área territorial oficial (IBGE 2025):** **329.651,463 km²** — **8º maior estado do Brasil** e 2º maior do Nordeste (atrás apenas da Bahia).\n- **Número de municípios:** **217 municípios** (10º estado com mais municípios no país).\n- **População (Censo 2022):** **6.776.699 habitantes** (12º contingente populacional do Brasil; densidade demográfica de **20,56 hab/km²**; estimativa IBGE 2026: **7.024.557 habitantes**).\n- **Populações tradicionais (Censo 2022):** **269.168 pessoas quilombolas** (3,97% da população estadual) e **57.166 pessoas indígenas** (0,84%).\n\n# 3. Localização, Posição de Transição e Limites\nO Maranhão ocupa posição geográfica singular no extremo oeste da **Região Nordeste**, funcionando como faixa de transição ecológica e geoeconômica entre a Amazônia, o Cerrado do Brasil Central e o Semiárido nordestino (sub-região do **Meio-Norte**).\n- **Limites oficiais:**\n  - **Norte:** Oceano Atlântico (segundo maior litoral do Brasil em extensão recortada).\n  - **Leste e Sudeste:** Piauí (tendo o **Rio Parnaíba** como grande divisor natural).\n  - **Oeste:** Pará (tendo o **Rio Gurupi** como importante limite natural no noroeste).\n  - **Sul e Sudoeste:** Tocantins (tendo o **Rio Tocantins** como divisor natural a sudoeste).\n- **Amazônia Legal:** Grande parte do território maranhense (a oeste do meridiano de 44° W) integra oficialmente a **Amazônia Legal**, o que explica a coexistência de políticas da SUDENE (Nordeste) e da SUDAM (Amazônia).\n\n# 4. Divisão Regional Oficial do IBGE: 1989 vs. 2017 (Atenção Máxima na FCC!)\nA FCC cobra com rigor o critério técnico vigente do IBGE ([Quadro Geográfico IBGE, 2024](https://www.ibge.gov.br/apps/quadrogeografico/pdf/qg_2024_110_120_reggeog.pdf); [Mapa Oficial IBGE Maranhão, 2018](https://geoftp.ibge.gov.br/organizacao_do_territorio/divisao_regional/divisao_regional_do_brasil/divisao_regional_do_brasil_em_regioes_geograficas_2017/mapas/21_regioes_geograficas_maranhao_20180911.pdf)):\n\n| Critério | Divisão Anterior (1989 — Revogada) | Divisão Vigente (IBGE 2017, ajuste 2018) |\n| :--- | :--- | :--- |\n| **Escala maior** | 5 Mesorregiões (Norte, Oeste, Centro, Leste e Sul Maranhense) | **5 Regiões Geográficas Intermediárias (RGInt)** |\n| **Escala menor** | 21 Microrregiões | **22 Regiões Geográficas Imediatas (RGI)** |\n| **Critério central** | Homogeneidade física/socioeconômica e articulação | **Rede urbana e centros urbanos polarizadores (REGIC)** |\n\n### As 5 Regiões Geográficas Intermediárias (RGInt) do Maranhão (IBGE 2017/2018)\n1. **2101 — São Luís** (polarizada pela capital; a RGI de São Luís abrange 13 municípios após o ajuste de 11/09/2018).\n2. **2102 — Santa Inês – Bacabal** (porção centro-noroeste/Vale do Mearim e Pindaré).\n3. **2103 — Caxias** (leste maranhense, próximo à divisa com o Piauí).\n4. **2104 — Presidente Dutra** (região central do estado).\n5. **2105 — Imperatriz** (sudoeste e sul maranhense, incluindo o eixo de Imperatriz, Açailândia e Balsas).\n\n# 5. Formação Territorial e Eixos de Ocupação Histórica\nA ocupação do espaço maranhense não foi homogênea; estruturou-se em duas grandes frentes históricas:\n1. **Frente Litorânea e dos Vales (Norte/Baixada/Itapecuru-Mearim):** A partir do século XVII (fundação de São Luís em 1612), voltada à exportação agrícola (algodão, cana-de-açúcar, arroz) e articulada por navegação fluvial e costeira.\n2. **Frente Pastoril Sertaneja (Sul/Sudoeste/Leste):** Penetração interiorana a partir da Bahia e de Pernambuco/Piauí (séculos XVIII–XIX), baseada na pecuária extensiva (Pastos Bons, Carolina, Grajaú, Barra do Corda).\n3. **Integração Moderna (Século XX–XXI):** Abertura da **Rodovia Belém–Brasília (BR-010)** (impulsionando Imperatriz), expansão da **Estrada de Ferro Carajás (EFC)** e da **Ferrovia Norte-Sul (FNS)** ligando o interior e o MATOPIBA ao **Porto do Itaqui**.\n"
+      "teoria_md": "# 1. Localização e leitura do território\n\nO Maranhão ocupa a parte ocidental da Região Nordeste, voltado para o oceano Atlântico. Seus vizinhos terrestres são Pará, Tocantins e Piauí. O Gurupi acompanha parte da divisa com o Pará, o Tocantins parte da divisa sudoeste e o Parnaíba parte da divisa oriental com o Piauí. Não confunda rio limítrofe com todos os segmentos de uma fronteira: limites legais também podem seguir outros acidentes e linhas convencionais.\n\nSão Luís, capital estadual, localiza-se na Ilha do Maranhão, também chamada Upaon-Açu. A localização do estado favorece conexões entre litoral, interior, Amazônia e Nordeste. A expressão Meio-Norte, empregada em regionalizações didáticas, destaca transições entre a Amazônia e o Nordeste oriental; não representa uma unidade federativa nem uma divisão oficial de municípios.\n\nO IBGE informa área de 329.651,463 km² na edição territorial de 2025 e 217 municípios. No Censo 2022, foram contabilizados 6.776.699 habitantes e densidade de 20,56 hab./km². A densidade é uma média, não uma afirmação de ocupação uniforme. As áreas territoriais podem sofrer revisões de representação cartográfica; registre a edição antes de comparar valores.\n\n# 2. Ocupação anterior à colonização e núcleos litorâneos\n\nO espaço maranhense já era ocupado e organizado por diversos povos indígenas antes da chegada dos europeus. Seus territórios, práticas agrícolas, conhecimentos e redes de circulação não devem ser tratados como ausência de ocupação. A conquista europeia modificou relações de poder, trabalho e acesso à terra, enfrentando resistências.\n\nA França Equinocial estabeleceu-se na região de São Luís em 1612; a expulsão dos franceses pelos portugueses ocorreu em 1615. A fundação colonial de São Luís relaciona-se à posição estratégica da ilha, à defesa e à circulação marítima. O domínio português organizou a exploração de recursos e a ocupação dos vales fluviais, com trabalho escravizado indígena e africano.\n\nA produção de algodão, arroz e outros gêneros agrícolas vinculou parcelas do território a mercados externos. A Companhia Geral do Grão-Pará e Maranhão, criada em 1755, integra o contexto das políticas de comércio colonial e expansão da escravidão africana. Portos, caminhos e rios articulavam produção, abastecimento e exportação; os benefícios econômicos não eram distribuídos igualmente.\n\n# 3. Frente pastoril e interiorização\n\nEm outra vertente da ocupação colonial, a pecuária avançou pelos sertões, articulada à demanda por abastecimento, ao acesso a pastagens e à circulação de rebanhos. Pastos Bons tornou-se importante referência histórica desse movimento, que alcançou áreas do sul e leste maranhense.\n\nA organização do território pode ser interpretada pela combinação de frentes litorâneas e dos vales, associadas à agricultura e à circulação fluvial, e frentes sertanejas de criação de gado. Trata-se de síntese didática: ambas mantinham contatos e não esgotam as trajetórias indígenas, quilombolas, camponesas e urbanas.\n\nA ocupação não equivale a uma distribuição equilibrada de terras. A concentração de propriedade, formas de trabalho coercitivo e disputas pelo acesso a recursos deixaram marcas duradouras. A história social explica por que usos econômicos e direitos territoriais podem entrar em conflito mesmo em áreas pouco densamente povoadas.\n\n# 4. Integração contemporânea e redes\n\nNo século XX, rodovias e grandes projetos alteraram a localização de atividades. A rodovia Belém–Brasília (BR-010) reforçou a posição de Imperatriz e a circulação entre o Maranhão e outros estados. A Estrada de Ferro Carajás articulou produção mineral paraense e terminais de São Luís; a Norte-Sul ampliou a integração de redes de carga.\n\nA integração por corredores não significa que todos os municípios tenham a mesma acessibilidade. Um eixo ferroviário pode ligar pontos muito distantes e atravessar pequenas localidades sem oferecer os mesmos serviços a todas. Cidades que concentram comércio, saúde, educação ou gestão podem organizar áreas de influência que ultrapassam limites estaduais.\n\nO estudante deve distinguir ocupação histórica, integração física e centralidade funcional. O espaço é continuamente reorganizado por investimentos, políticas, migrações, técnicas e relações sociais. O aprofundamento dos fluxos e atividades econômicas está em CG-GHM-03; a interpretação integrada também aparece em CE-GEO-14.\n\n# 5. Divisão político-administrativa e regionalização\n\nA federação brasileira compreende União, estados, Distrito Federal e municípios, com competências constitucionais. O Maranhão é estado da federação; seus municípios possuem autonomia nos termos da Constituição. Região geográfica do IBGE é recorte analítico e estatístico, não ente federativo. A capital estadual não governa administrativamente todos os municípios de sua região de influência.\n\nA divisão de 1989 em mesorregiões e microrregiões permanece relevante em séries e estudos históricos. Em 2017, o IBGE introduziu regiões geográficas imediatas e intermediárias como novo quadro regional, com ajustes de composição em 2018. O critério funcional considera relações urbanas, serviços, circulação e gestão; não se limita à homogeneidade natural.\n\n| Escala | Recorte no Maranhão | Finalidade |\n|---|---|---|\n| Grande Região | Nordeste | Estatística regional por estados |\n| Região intermediária | 5 | Funções de maior complexidade |\n| Região imediata | 22 | Serviços e necessidades cotidianas |\n| Município | 217 | Organização político-administrativa |\n\nAs cinco regiões intermediárias são São Luís, Santa Inês–Bacabal, Caxias, Presidente Dutra e Imperatriz. A denominação Santa Inês–Bacabal deve ser lida como um único recorte intermediário. A região de Imperatriz abrange redes urbanas do sudoeste e sul; isso não faz de Balsas uma sexta região intermediária.\n\n![Esquema das escalas: Nordeste, Maranhão, cinco regiões intermediárias e 22 imediatas; município é recorte administrativo distinto.](./media/geografia-maranhao/escalas.svg)\n\n# 6. Amazônia Legal, Meio-Norte e critérios de leitura\n\nO art. 2º da Lei Complementar 124/2007 inclui a porção do Maranhão a oeste do meridiano 44° na área de atuação da Sudam. Esse recorte de planejamento não transforma o Maranhão em estado da Região Norte. O bioma Amazônia, definido por critérios ecológicos e cartográficos, também não tem necessariamente os mesmos limites da área legal.\n\nUma questão pode combinar mapas de regionalização, vegetação, gestão hídrica e planejamento. Antes de responder, identifique o critério, a data, a unidade territorial e a finalidade do recorte. Uma região de influência urbana pode atravessar fronteiras; uma grande região estatística do IBGE não divide os estados.\n\nExemplo: se uma prefeitura está numa região imediata polarizada por outro município, isso não retira a sua autonomia. A relação funcional explica deslocamentos e prestação de serviços, não subordinação federativa.\n\nRecuperação ativa: localize os três estados vizinhos e o oceano; compare as frentes de ocupação; nomeie as cinco regiões intermediárias; explique por que o Maranhão pode integrar parcialmente a Amazônia Legal e pertencer integralmente ao Nordeste do IBGE."
     },
     {
       "schema_version": "2.0.0",
@@ -13841,7 +14182,7 @@
       "titulo": "Aspectos Naturais, Biomas de Transição, Hidrografia e Litoral do Maranhão",
       "status": "em_auditoria",
       "origem": "edital_explicito",
-      "tempo_leitura_min": 30,
+      "tempo_leitura_min": 25,
       "edital_subtopicos": [
         "Relevo, clima, solos e vegetação",
         "Biomas e domínios de transição (Amazônia, Cerrado, Mata dos Cocais)",
@@ -13871,61 +14212,95 @@
           "referencia_abnt": "FEITOSA, Antonio Cordeiro; TROVÃO, José Ribamar. Atlas Escolar do Maranhão: Espaço Geo-Histórico e Cultural. João Pessoa: Grafset, 2006.",
           "tipo": "bibliografia_academica",
           "nivel_autoridade": 5
+        },
+        {
+          "referencia_abnt": "SEMA-MA. As chuvas no Maranhão, caracterização de sistemas atmosféricos. Consulta: 26 nov. 2026.",
+          "url": "https://www.sema.ma.gov.br/noticias/as-chuvas-no-maranhao",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
+        },
+        {
+          "referencia_abnt": "IBGE. Biomas e Sistema Costeiro-Marinho. Consulta: 26 nov. 2026.",
+          "url": "https://www.ibge.gov.br/geociencias/cartas-e-mapas/informacoes-ambientais/15842-biomas.html",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
+        },
+        {
+          "referencia_abnt": "ANA. Regiões hidrográficas brasileiras. Consulta: 26 nov. 2026.",
+          "url": "https://www.gov.br/ana/pt-br/assuntos/gestao-das-aguas/panorama-das-aguas/regioes-hidrograficas",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
+        },
+        {
+          "referencia_abnt": "UNESCO. Parque Nacional dos Lençóis Maranhenses, inscrição em 2024. Consulta: 26 nov. 2026.",
+          "url": "https://whc.unesco.org/en/list/1611/",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
         }
       ],
       "sintese_fcc": {
         "conceitos_nucleares": [
           {
-            "termo": "Mata dos Cocais",
-            "definicao_precisa": "Formação vegetal de transição (ecótono) entre Amazônia, Cerrado e Caatinga, marcada por babaçu e carnaúba.",
-            "fonte": "FEITOSA & TROVÃO, 2006."
+            "termo": "Relevo e solos",
+            "definicao_precisa": "Chapadas sedimentares no centro-sul; planícies e campos no norte; solos variados.",
+            "fonte": "Feitosa e Trovão; diagnóstico ambiental."
           },
           {
-            "termo": "Bacias Federais vs. Estaduais do MA",
-            "definicao_precisa": "Federais/fronteiriças: Parnaíba (L), Tocantins (SO) e Gurupi (NO). Estaduais principais: Itapecuru, Mearim (c/ Pindaré e Grajaú), Munim, Turiaçu e Preguiças.",
-            "fonte": "IMESC/SEMA, 2023."
+            "termo": "Clima",
+            "definicao_precisa": "ZCIT no litoral; ZCAS e frentes no sul.",
+            "fonte": "SEMA-MA."
           },
           {
-            "termo": "Lençóis Maranhenses — UNESCO (2024)",
-            "definicao_precisa": "Parque Nacional de 155 mil ha reconhecido pela UNESCO em 26/07/2024 como Patrimônio Mundial Natural da Humanidade.",
-            "fonte": "SEMA-MA / Agência Brasil, 2024."
+            "termo": "Biomas e Cocais",
+            "definicao_precisa": "Amazônia, Cerrado e pequena área de Caatinga; Cocais não é bioma oficial.",
+            "fonte": "IBGE."
           },
           {
-            "termo": "Compartimentos do Litoral (~640 km)",
-            "definicao_precisa": "Litoral Ocidental (Reentrâncias e manguezais/macromarés), Golfão Maranhense (Ilha do Maranhão) e Litoral Oriental (dunas/Lençóis e Delta do Parnaíba).",
-            "fonte": "FEITOSA & TROVÃO, 2006."
+            "termo": "Drenagem",
+            "definicao_precisa": "Itapecuru abastece São Luís via Italuís; Mearim recebe Pindaré e Grajaú.",
+            "fonte": "ANA; acervo institucional."
+          },
+          {
+            "termo": "Lençóis",
+            "definicao_precisa": "Patrimônio Mundial natural UNESCO em 2024; dunas e lagoas sazonais.",
+            "fonte": "UNESCO."
           }
         ],
         "pegadinhas_fcc": [
           {
-            "armadilha": "Trocar rios estaduais por fronteiriços",
-            "como_a_fcc_cobra": "Afirma que o Rio Itapecuru faz a divisa com o Piauí ou que o Mearim divide o Maranhão do Pará.",
-            "como_desarmar": "Divisas: Parnaíba (PI), Gurupi (PA), Tocantins (TO). Itapecuru e Mearim são bacias integralmente maranhenses."
+            "armadilha": "Bacia sedimentar × hidrográfica",
+            "como_a_fcc_cobra": "Exemplo de distrator autoral: Os limites são iguais.",
+            "como_desarmar": "Critérios geológico e de drenagem são distintos."
           },
           {
-            "armadilha": "Classificar Lençóis Maranhenses como deserto árido",
-            "como_a_fcc_cobra": "Afirma que os Lençóis possuem clima desértico árido sem chuvas.",
-            "como_desarmar": "Apesar das dunas, a pluviosidade anual é elevada (clima tropical/litorâneo), o que enche as lagoas interdunares de água pluvial."
+            "armadilha": "Uniformizar chuvas",
+            "como_a_fcc_cobra": "Exemplo de distrator autoral: ZCIT explica todas as chuvas.",
+            "como_desarmar": "Reconhecer circulação regional."
+          },
+          {
+            "armadilha": "Dunas = deserto",
+            "como_a_fcc_cobra": "Exemplo de distrator autoral: Lençóis sem chuvas.",
+            "como_desarmar": "Há precipitação sazonal e lagoas."
           }
         ],
         "quadro_comparativo": [
           {
-            "compartimento": "Litoral Ocidental (Reentrâncias)",
-            "caracteristica": "Costa recortada, rias, manguezais densos, macromarés"
+            "compartimento": "Reentrâncias",
+            "caracteristica": "Manguezais, estuários e marés"
           },
           {
-            "compartimento": "Golfão Maranhense",
-            "caracteristica": "Baías de São Marcos e São José, Ilha do Maranhão, Porto do Itaqui"
+            "compartimento": "Golfão",
+            "caracteristica": "Baías de São Marcos e São José, ilha e portos"
           },
           {
-            "compartimento": "Litoral Oriental",
-            "caracteristica": "Costa retilínea, Lençóis Maranhenses (UNESCO 2024), Rio Preguiças e Delta do Parnaíba"
+            "compartimento": "Litoral oriental",
+            "caracteristica": "Dunas, lagoas e Delta do Parnaíba"
           }
         ],
         "checklist_revisao": [
-          "Sei diferenciar as 3 bacias fronteiriças (Parnaíba, Tocantins, Gurupi) das principais estaduais (Itapecuru, Mearim, Munim, Preguiças)?",
-          "Sei explicar por que os Lençóis Maranhenses não são um deserto climático e qual o título recebido em julho de 2024?",
-          "Sei posicionar Amazônia (O/NO), Cerrado (Centro-Sul/L) e Mata dos Cocais (transição) no mapa do Maranhão?"
+          "Distingo solos, formas de relevo e bacias?",
+          "Explico clima, biomas e Cocais?",
+          "Comparo litoral e principais rios?"
         ]
       },
       "questoes": [
@@ -13933,7 +14308,7 @@
           "questao_id": "CG-GHM-02-Q001",
           "origem": "inedita_padrao_fcc",
           "referencia_prova": "Inédita — padrão FCC / Edital SEDUC-MA 01/2026",
-          "enunciado": "A rede hidrográfica maranhense articula bacias de domínio federal (fronteiriças) e bacias genuinamente estaduais. Assinale a alternativa que relaciona corretamente o rio à sua localização ou função geográfica no Estado do Maranhão.",
+          "enunciado": "Sobre rios maranhenses e suas relações com os limites estaduais, assinale a alternativa correta.",
           "alternativas": {
             "A": "O Rio Itapecuru atua como divisor natural entre o Maranhão e o Estado do Piauí.",
             "B": "O Rio Gurupi marca importante trecho da divisa noroeste entre o Maranhão e o Pará, enquanto o Rio Tocantins banha o sudoeste estadual na divisa com o Tocantins.",
@@ -13942,7 +14317,7 @@
             "E": "O Rio Preguiças constitui o principal limite natural entre o Maranhão e o Estado da Bahia."
           },
           "gabarito": "B",
-          "justificativa_gabarito": "Gurupi (divisa NO com o PA), Tocantins (divisa SO com o TO) e Parnaíba (divisa L com o PI) são as três grandes bacias fronteiriças; Itapecuru e Mearim são genuinamente estaduais.",
+          "justificativa_gabarito": "Gurupi e Tocantins acompanham trechos de divisas estaduais. Domínio das águas não equivale ao recorte de toda a bacia.",
           "analise_distratores": {
             "A": "Quem divide MA e PI é o Rio Parnaíba; o Itapecuru é genuinamente maranhense.",
             "C": "Inverte Parnaíba com Itapecuru (este sim abastece o Sistema Italuís).",
@@ -13956,7 +14331,7 @@
           "questao_id": "CG-GHM-02-Q002",
           "origem": "inedita_padrao_fcc",
           "referencia_prova": "Inédita — padrão FCC / Edital SEDUC-MA 01/2026",
-          "enunciado": "Em julho de 2024, o Parque Nacional dos Lençóis Maranhenses (155 mil hectares) foi reconhecido pela UNESCO como Patrimônio Mundial Natural da Humanidade. Do ponto de vista geoambiental, a singularidade dessa paisagem decorre",
+          "enunciado": "O Parque Nacional dos Lençóis Maranhenses foi inscrito no Patrimônio Mundial natural da UNESCO em 2024. A singularidade dessa paisagem decorre",
           "alternativas": {
             "A": "de um clima desértico hiperárido com precipitação anual inferior a 100 mm, responsável pela ausência de lagoas.",
             "B": "da ocorrência de dobramentos modernos de origem vulcânica no litoral ocidental maranhense.",
@@ -13965,7 +14340,7 @@
             "E": "da canalização artificial do Rio Tocantins até o Golfão Maranhense."
           },
           "gabarito": "C",
-          "justificativa_gabarito": "Os Lençóis Maranhenses não constituem um deserto climático: recebem chuvas tropicais sazonais expressivas que abastecem o lençol freático e formam lagoas pluviais entre as dunas modeladas pelos ventos.",
+          "justificativa_gabarito": "Ventos transportam areia e chuvas sazonais alimentam lagoas de água doce. Dunas não são suficientes para definir um deserto climático.",
           "analise_distratores": {
             "A": "Armadilha clássica: não é clima desértico hiperárido, e as lagoas pluviais são justamente sua marca.",
             "B": "O Brasil não possui dobramentos modernos e os Lençóis ficam no litoral oriental, em bacia sedimentar.",
@@ -14002,7 +14377,7 @@
           "questao_id": "CG-GHM-02-Q004",
           "origem": "inedita_padrao_fcc",
           "referencia_prova": "Inédita — padrão FCC / Edital SEDUC-MA 01/2026",
-          "enunciado": "Com cerca de 640 km de extensão, o litoral maranhense apresenta forte diferenciação geomorfológica entre sua porção ocidental e sua porção oriental. Em contraste com o litoral oriental (mais retilíneo e dominado por dunas), o litoral ocidental — conhecido como Reentrâncias Maranhenses — caracteriza-se por",
+          "enunciado": "Em contraste com os campos de dunas do litoral oriental maranhense, a porção ocidental conhecida como Reentrâncias Maranhenses caracteriza-se por",
           "alternativas": {
             "A": "predomínio de solos de terra roxa voltados à cafeicultura litorânea.",
             "B": "falésias basálticas contínuas de mais de 500 metros de altitude, sem ocorrência de manguezais.",
@@ -14029,12 +14404,12 @@
           "alternativas": {
             "A": "planícies fluviomarinhas permanentemente alagadas pelas marés do Oceano Atlântico.",
             "B": "cadeias montanhosas cristalinas de origem tectônica recente, com altitudes superiores a 2.500 metros.",
-            "C": "planaltos e chapadas de estrutura sedimentar (Bacia do Parnaíba) com ampla ocorrência de Latossolos, cuja utilização agrícola intensiva demanda correção de acidez.",
+            "C": "planaltos e chapadas associados à Bacia Sedimentar do Parnaíba, com solos como Latossolos que podem exigir correção de acidez e manejo.",
             "D": "solos vulcânicos de alta fertilidade natural que dispensam calagem ou manejo.",
             "E": "depressões tectônicas áridas cobertas exclusivamente por vegetação de mangue."
           },
           "gabarito": "C",
-          "justificativa_gabarito": "O centro-sul maranhense assenta-se sobre a Bacia Sedimentar do Parnaíba (planaltos tabulares/chapadas) com predomínio de Latossolos profundos e bem drenados, porém naturalmente ácidos, exigindo calagem para o agronegócio.",
+          "justificativa_gabarito": "Rochas sedimentares e dissecação explicam formas de chapadas; aptidão agrícola depende do diagnóstico do solo, não só da classe.",
           "analise_distratores": {
             "A": "Descreve a Planície Costeira / Baixada no norte, não o centro-sul.",
             "B": "Não há montanhas recentes nem altitudes acima de 2.500 m no Maranhão.",
@@ -14043,13 +14418,197 @@
           },
           "dificuldade": "intermediaria",
           "subtopico": "Relevo, clima, solos e vegetação"
+        },
+        {
+          "questao_id": "CG-GHM-02-EXP-Q001",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "A diferença entre a Bacia Sedimentar do Parnaíba e uma bacia hidrográfica de mesmo nome resulta",
+          "alternativas": {
+            "A": "da identidade obrigatória de seus limites.",
+            "B": "da inexistência de rochas sedimentares no estado.",
+            "C": "dos critérios: estrutura geológica de um lado e área de drenagem de outro.",
+            "D": "do fato de ambas serem divisões municipais.",
+            "E": "da classificação de uma delas como bioma."
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "Bacia sedimentar e de drenagem são categorias distintas.",
+          "analise_distratores": {
+            "A": "Limites não precisam coincidir.",
+            "B": "Existem rochas sedimentares.",
+            "D": "Não são municípios.",
+            "E": "Não são biomas."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Relevo, clima, solos e vegetação"
+        },
+        {
+          "questao_id": "CG-GHM-02-EXP-Q002",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "Em uma chapada cultivada, a correção da acidez de um Latossolo deve ser interpretada como",
+          "alternativas": {
+            "A": "prova de fertilidade natural ilimitada.",
+            "B": "prática de manejo baseada em análise do solo, que não dispensa conservação.",
+            "C": "substituto universal da cobertura vegetal.",
+            "D": "processo de formação de manguezais.",
+            "E": "garantia de ausência de erosão."
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "A calagem é parte de um manejo condicionado ao diagnóstico.",
+          "analise_distratores": {
+            "A": "Muitos Latossolos são ácidos.",
+            "C": "Cobertura tem outras funções.",
+            "D": "Manguezal é ecossistema costeiro.",
+            "E": "Erosão depende de diversos fatores."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Relevo, clima, solos e vegetação"
+        },
+        {
+          "questao_id": "CG-GHM-02-EXP-Q003",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "Segundo a caracterização climática da SEMA-MA, a ZCIT tem destaque no litoral, enquanto no sul também são relevantes",
+          "alternativas": {
+            "A": "correntes de geleiras.",
+            "B": "monções de inverno asiáticas.",
+            "C": "vulcanismo ativo.",
+            "D": "ZCAS e sistemas frontais.",
+            "E": "nevascas permanentes."
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "A circulação atmosférica apresenta diferenças regionais.",
+          "analise_distratores": {
+            "A": "Não há dinâmica glacial regional.",
+            "B": "Não explica esse regime.",
+            "C": "Não é sistema atmosférico.",
+            "E": "Não caracteriza o clima maranhense."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Relevo, clima, solos e vegetação"
+        },
+        {
+          "questao_id": "CG-GHM-02-EXP-Q004",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "A designação Mata dos Cocais, no estudo da vegetação do Maranhão, corresponde",
+          "alternativas": {
+            "A": "a paisagens com palmeiras como babaçu, distintas da classificação oficial de biomas.",
+            "B": "a um sétimo bioma continental.",
+            "C": "à totalidade do bioma Amazônia.",
+            "D": "a uma região hidrográfica nacional.",
+            "E": "a uma categoria de município."
+          },
+          "gabarito": "A",
+          "justificativa_gabarito": "Cocais é denominação vegetal e paisagística.",
+          "analise_distratores": {
+            "B": "O IBGE distingue seis biomas.",
+            "C": "Não coincide com a Amazônia.",
+            "D": "Não é drenagem.",
+            "E": "Não é divisão administrativa."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Biomas e domínios de transição (Amazônia, Cerrado, Mata dos Cocais)"
+        },
+        {
+          "questao_id": "CG-GHM-02-EXP-Q005",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "No Maranhão, o Sistema Italuís capta água de qual rio para abastecimento, incluindo São Luís?",
+          "alternativas": {
+            "A": "Gurupi.",
+            "B": "Parnaíba.",
+            "C": "Tocantins.",
+            "D": "Preguiças.",
+            "E": "Itapecuru."
+          },
+          "gabarito": "E",
+          "justificativa_gabarito": "O Italuís utiliza captação do Itapecuru.",
+          "analise_distratores": {
+            "A": "Gurupi é limítrofe a oeste.",
+            "B": "Parnaíba está no leste.",
+            "C": "Tocantins está no sudoeste.",
+            "D": "Preguiças relaciona-se ao litoral oriental."
+          },
+          "dificuldade": "basica",
+          "subtopico": "Principais bacias hidrográficas"
+        },
+        {
+          "questao_id": "CG-GHM-02-EXP-Q006",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "A deposição de sedimentos em um canal fluvial após aumento de erosão a montante caracteriza um possível processo de",
+          "alternativas": {
+            "A": "conurbação.",
+            "B": "calagem.",
+            "C": "assoreamento.",
+            "D": "regionalização.",
+            "E": "metropolização."
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "Assoreamento é deposição de sedimentos que pode reduzir capacidade do canal.",
+          "analise_distratores": {
+            "A": "É processo urbano.",
+            "B": "É correção do solo.",
+            "D": "É criação de recortes.",
+            "E": "É articulação metropolitana."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Principais bacias hidrográficas"
+        },
+        {
+          "questao_id": "CG-GHM-02-EXP-Q007",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "As lagoas interdunares dos Lençóis Maranhenses evidenciam que",
+          "alternativas": {
+            "A": "todos os campos de dunas apresentam clima desértico.",
+            "B": "ventos, sedimentos e precipitação sazonal atuam conjuntamente na paisagem.",
+            "C": "a chuva é inexistente na área.",
+            "D": "a água das lagoas é necessariamente marinha.",
+            "E": "as dunas são resultado de geleiras."
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "A paisagem decorre de processos eólicos e hidrológicos.",
+          "analise_distratores": {
+            "A": "Dunas não definem clima.",
+            "C": "Há chuvas.",
+            "D": "Lagoas de água doce são características.",
+            "E": "Não é origem glacial."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Litoral maranhense, ecossistemas costeiros e recursos naturais"
+        },
+        {
+          "questao_id": "CG-GHM-02-EXP-Q008",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "A comparação entre Reentrâncias Maranhenses e litoral oriental deve reconhecer",
+          "alternativas": {
+            "A": "homogeneidade de toda a costa.",
+            "B": "ausência de marés nas Reentrâncias.",
+            "C": "predomínio obrigatório de chapadas elevadas na costa.",
+            "D": "diferenças de recorte costeiro, estuários, manguezais, dunas e dinâmica sedimentar.",
+            "E": "identidade entre litoral e divisão municipal."
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "Processos litorâneos variam conforme configuração e dinâmica.",
+          "analise_distratores": {
+            "A": "A costa é diversa.",
+            "B": "Marés são relevantes.",
+            "C": "Chapadas não caracterizam toda costa.",
+            "E": "São recortes distintos."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Litoral maranhense, ecossistemas costeiros e recursos naturais"
         }
       ],
       "flashcards": [
         {
           "card_id": "CG-GHM-02-FC001",
-          "frente": "Quais são as 3 bacias hidrográficas fronteiriças (domínio federal) do Maranhão?",
-          "verso": "Parnaíba (L — divisa com PI), Tocantins (SO — divisa com TO) e Gurupi (NO — divisa com PA).",
+          "frente": "Quais rios maranhenses exemplificam drenagem interestadual ou limítrofe?",
+          "verso": "Parnaíba, Tocantins e Gurupi; domínio jurídico segue critérios constitucionais.",
           "tipo": "conceito",
           "tags": [
             "hidrografia",
@@ -14058,8 +14617,8 @@
         },
         {
           "card_id": "CG-GHM-02-FC002",
-          "frente": "Quais são as duas maiores bacias genuinamente estaduais do Maranhão?",
-          "verso": "Bacia do Rio Mearim (com Pindaré e Grajaú) e Bacia do Rio Itapecuru (abastece São Luís pelo Sistema Italuís).",
+          "frente": "Quais duas bacias maranhenses têm destaque para drenagem e abastecimento?",
+          "verso": "Mearim (com Pindaré e Grajaú) e Itapecuru (captação do Sistema Italuís).",
           "tipo": "conceito",
           "tags": [
             "hidrografia",
@@ -14070,7 +14629,7 @@
         {
           "card_id": "CG-GHM-02-FC003",
           "frente": "Qual título internacional os Lençóis Maranhenses receberam em 26/07/2024?",
-          "verso": "Patrimônio Mundial Natural da Humanidade pela UNESCO (155 mil ha, gestão ICMBio).",
+          "verso": "Inscrição na Lista do Patrimônio Mundial natural da UNESCO, em 2024.",
           "tipo": "legislacao_dado",
           "tags": [
             "unesco",
@@ -14079,8 +14638,8 @@
         },
         {
           "card_id": "CG-GHM-02-FC004",
-          "frente": "Qual a extensão aproximada do litoral maranhense e seus 3 compartimentos?",
-          "verso": "~640 km (2º maior do Brasil): Litoral Ocidental (Reentrâncias), Golfão Maranhense e Litoral Oriental (Lençóis/Delta).",
+          "frente": "Quais os três grandes compartimentos didáticos do litoral maranhense?",
+          "verso": "Reentrâncias (oeste), Golfão Maranhense e litoral oriental (Lençóis/Delta).",
           "tipo": "conceito",
           "tags": [
             "litoral",
@@ -14090,7 +14649,7 @@
         {
           "card_id": "CG-GHM-02-FC005",
           "frente": "Quais biomas e faixa de transição compõem a vegetação do Maranhão?",
-          "verso": "Amazônia (O/NO), Cerrado (Centro-Sul/L), Mata dos Cocais (ecótono com babaçu e carnaúba) e ecossistemas costeiros (manguezais/dunas).",
+          "verso": "Amazônia, Cerrado e pequena porção de Caatinga; Cocais é formação de transição, não bioma oficial.",
           "tipo": "conceito",
           "tags": [
             "biomas",
@@ -14106,9 +14665,149 @@
             "clima",
             "lencois"
           ]
+        },
+        {
+          "card_id": "CG-GHM-02-EXP-FC001",
+          "frente": "O que distingue bacia sedimentar de bacia hidrográfica?",
+          "verso": "Estrutura geológica de acumulação versus área de drenagem.",
+          "tipo": "conceito",
+          "tags": [
+            "maranhao",
+            "cg-ghm-02"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-02-EXP-FC002",
+          "frente": "Qual bacia sedimentar se destaca no centro-sul?",
+          "verso": "Bacia do Parnaíba.",
+          "tipo": "conceito",
+          "tags": [
+            "maranhao",
+            "cg-ghm-02"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-02-EXP-FC003",
+          "frente": "Como se formam as escarpas e topos das chapadas?",
+          "verso": "Dissecação e erosão diferencial de rochas ao longo do tempo.",
+          "tipo": "conceito",
+          "tags": [
+            "maranhao",
+            "cg-ghm-02"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-02-EXP-FC004",
+          "frente": "Que solos se associam a saturação hídrica?",
+          "verso": "Gleissolos.",
+          "tipo": "conceito",
+          "tags": [
+            "maranhao",
+            "cg-ghm-02"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-02-EXP-FC005",
+          "frente": "Que classe de solo pode apresentar textura muito arenosa?",
+          "verso": "Neossolos Quartzarênicos.",
+          "tipo": "conceito",
+          "tags": [
+            "maranhao",
+            "cg-ghm-02"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-02-EXP-FC006",
+          "frente": "Calagem garante ausência de erosão?",
+          "verso": "Não. Corrige acidez conforme diagnóstico; erosão requer manejo.",
+          "tipo": "conceito",
+          "tags": [
+            "maranhao",
+            "cg-ghm-02"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-02-EXP-FC007",
+          "frente": "Qual sistema de chuva se destaca no litoral do MA?",
+          "verso": "Zona de Convergência Intertropical (ZCIT).",
+          "tipo": "conceito",
+          "tags": [
+            "maranhao",
+            "cg-ghm-02"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-02-EXP-FC008",
+          "frente": "Quais sistemas têm destaque no sul do Maranhão?",
+          "verso": "ZCAS e sistemas frontais, conforme a SEMA.",
+          "tipo": "conceito",
+          "tags": [
+            "maranhao",
+            "cg-ghm-02"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-02-EXP-FC009",
+          "frente": "Cocais é um dos seis biomas oficiais?",
+          "verso": "Não. É uma designação de paisagens com palmeiras.",
+          "tipo": "conceito",
+          "tags": [
+            "maranhao",
+            "cg-ghm-02"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-02-EXP-FC010",
+          "frente": "Quais regiões hidrográficas abrangem o Maranhão?",
+          "verso": "Atlântico Nordeste Ocidental, Tocantins-Araguaia e Parnaíba.",
+          "tipo": "conceito",
+          "tags": [
+            "maranhao",
+            "cg-ghm-02"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-02-EXP-FC011",
+          "frente": "Quais afluentes importantes integram o sistema do Mearim?",
+          "verso": "Pindaré e Grajaú.",
+          "tipo": "conceito",
+          "tags": [
+            "maranhao",
+            "cg-ghm-02"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-02-EXP-FC012",
+          "frente": "O que é assoreamento?",
+          "verso": "Deposição de sedimentos em canais e reservatórios.",
+          "tipo": "conceito",
+          "tags": [
+            "maranhao",
+            "cg-ghm-02"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-02-EXP-FC013",
+          "frente": "Que ambientes predominam nas Reentrâncias?",
+          "verso": "Estuários, manguezais, ilhas e canais de maré.",
+          "tipo": "conceito",
+          "tags": [
+            "maranhao",
+            "cg-ghm-02"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-02-EXP-FC014",
+          "frente": "Que baías integram o Golfão Maranhense?",
+          "verso": "São Marcos e São José.",
+          "tipo": "conceito",
+          "tags": [
+            "maranhao",
+            "cg-ghm-02"
+          ]
         }
       ],
-      "teoria_md": "---\ntopico_id: CG-GHM-02\nslug: quadro-natural-hidrografia-litoral-ma\ntitulo: \"Aspectos Naturais, Biomas de Transição, Hidrografia e Litoral do Maranhão\"\nedital: SEDUC-MA-01-2026\nbanca: FCC\nstatus: em_auditoria\nsinergia_especifica: CE-GEO-14\n---\n\n# 1. Delimitação no Edital e Sinergia Dupla (Camada A)\n- **Itens explícitos:** Conhecimentos Gerais (p. 60) + Conhecimentos Específicos (`CE-GEO-14`, p. 76 — *Aspectos naturais: o relevo e as paisagens, o tempo e o clima, a vegetação e a hidrografia*).\n\n# 2. Relevo e Solos do Maranhão\nO relevo maranhense é predominantemente **sedimentar** (Bacia Sedimentar do Parnaíba e Bacia de São Luís/Grajaú), com altitudes modestas (maior parte abaixo de 300 m) e duas grandes unidades:\n1. **Planície Costeira e Baixada Maranhense (Norte):** terrenos baixos quaternários sujeitos a inundações sazonais, dunas, restingas, manguezais e campos alagáveis (Baixada).\n2. **Planaltos e Chapadas da Bacia do Parnaíba (Centro-Sul):** formas tabulares, cuestas e chapadões (como a **Chapada das Mesas**, no sul/sudoeste), onde ocorrem as maiores altitudes do estado (superiores a 600–800 m nas serras do extremo sul, como a Serra do Penitente/Tabatinga).\n- **Solos:** predomínio de **Latossolos** (nos chapadões do Cerrado sul-maranhense, muito usados pelo agronegócio após correção da acidez/calagem), **Argissolos**, **Neossolos Quartzarênicos** (dunas/litoral) e **Gleissolos/Solos Hidromórficos** (Baixada Maranhense e várzeas).\n\n# 3. Clima e Transição Vegetal (Ecótonos)\n- **Climas predominantes:**\n  - **Equatorial Úmido (Noroeste/Oeste):** influenciado pela massa Equatorial Continental (mEc) e pela ZCIT, com chuvas abundantes e curta estação seca.\n  - **Tropical Subúmido a Semiúmido (Centro, Leste e Sul):** duas estações bem definidas — chuvosa (verão-outono, ~dezembro a maio) e seca (inverno-primavera, ~junho a novembro).\n- **Biomas e Domínios de Transição:**\n  - **Amazônia** (porção oeste/noroeste — Floresta Ombrófila densa e aberta, severamente pressionada pelo Arco do Desmatamento).\n  - **Cerrado** (porção centro-sul e leste — savanas, matas de galeria e chapadões, fronteira agrícola do MATOPIBA).\n  - **Mata dos Cocais** (faixa de **transição/ecótono** entre Amazônia, Cerrado e Caatinga, caracterizada por palmeiras como **babaçu** e **carnaúba**, base do extrativismo das quebradeiras de coco babaçu).\n  - **Ecossistemas Costeiros:** extensos **manguezais** (um dos maiores contínuos do mundo nas Reentrâncias), dunas, restingas e campos inundáveis da Baixada.\n\n# 4. Hidrografia e Principais Bacias Hidrográficas\nConforme o [Diagnóstico Ambiental do IMESC/SEMA (Maranhão 2050)](https://imesc.ma.gov.br/wp-content/uploads/2023/12/11-Ambiental.pdf), o Maranhão possui rica rede hidrográfica majoritariamente perene, dividida entre:\n- **Bacias de Domínio Federal / Fronteiriças:**\n  - **Bacia do Rio Parnaíba** (leste — divisa natural com o Piauí; deságua no **Delta do Parnaíba**, único delta em mar aberto das Américas, compartilhado entre MA e PI, com maior porção territorial no Maranhão).\n  - **Bacia do Rio Tocantins** (sudoeste — divisa com o Tocantins; banha Imperatriz e abriga a UHE Estreito).\n  - **Bacia do Rio Gurupi** (noroeste — divisa natural com o Pará).\n- **Principais Bacias de Domínio Estadual (100% maranhenses):**\n  - **Rio Itapecuru:** nasce no sul (região de Mirador) e abastece grande parte da população da Ilha de São Luís (Sistema Italuís).\n  - **Rio Mearim** (e seus grandes afluentes **Pindaré** e **Grajaú**): drena o centro-norte e a Baixada Maranhense até a Baía de São Marcos.\n  - Outras bacias relevantes: **Munim**, **Turiaçu**, **Preguiças** (eixo dos Lençóis Maranhenses), **Pericumã** e **Maracaçumé**.\n\n# 5. Litoral Maranhense e Patrimônio Natural Mundial (Atualização Crítica!)\n- **Extensão:** cerca de **640 km** (2º maior litoral do Brasil), indo da foz do Rio Gurupi (oeste) ao Delta do Parnaíba (leste) (Feitosa & Trovão, 2006).\n- **Três grandes compartimentos litorâneos:**\n  1. **Litoral Ocidental (Reentrâncias Maranhenses):** costa muito recortada por rias, ilhas e densos manguezais, sob regime de **macromarés** (amplitudes que podem ultrapassar 6–7 metros).\n  2. **Golfão Maranhense:** engloba as baías de São Marcos e São José e a Ilha do Maranhão (Upaon-Açu), abrigando o complexo portuário do Itaqui.\n  3. **Litoral Oriental:** costa mais retilínea, marcada por grandes campos de dunas, lagoas interdunares e o Delta do Parnaíba.\n- **Marco Internacional (2024):** Em **26 de julho de 2024**, o **Parque Nacional dos Lençóis Maranhenses** (155 mil hectares, gerido pelo ICMBio, maior campo de dunas da América do Sul) foi oficialmente reconhecido pela **UNESCO como Patrimônio Mundial Natural da Humanidade** ([SEMA-MA](https://www.sema.ma.gov.br/noticias/unesco-reconhece-lencois-maranhenses-como-patrimonio-mundial-natural); [Agência Brasil](https://agenciabrasil.ebc.com.br/geral/noticia/2024-07/unesco-declara-parque-dos-lencois-maranhenses-patrimonio-da-humanidade)).\n"
+      "teoria_md": "# 1. Estrutura geológica e relevo\n\nO Maranhão apresenta ampla ocorrência de terrenos sedimentares, sobretudo na Bacia do Parnaíba, além de unidades costeiras e áreas de embasamento cristalino. Geologia estuda materiais e estruturas; geomorfologia estuda formas do relevo e processos que as modelam. Não confunda uma bacia sedimentar com uma bacia hidrográfica, ainda que tenham nomes semelhantes.\n\nNo centro-sul destacam-se planaltos, chapadas e formas residuais. A Chapada das Mesas, na região de Carolina e municípios próximos, exemplifica paisagens de rochas sedimentares dissecadas. Topos relativamente planos e escarpas resultam de erosão diferencial e ação da água ao longo do tempo, não de uma cadeia montanhosa de dobramentos recentes.\n\nNo norte, terras baixas, planícies costeiras, campos inundáveis e estuários têm dinâmica ligada à deposição de sedimentos, rios e marés. A Baixada Maranhense apresenta variação sazonal da área alagada. Uma superfície relativamente plana pode resultar de processos diferentes; altitude, gênese e relação com a drenagem devem ser avaliadas conjuntamente.\n\n![Relação esquemática entre chapadas, vertentes, cursos de água e terras baixas; não é perfil real do Maranhão.](./media/geografia-maranhao/relevo-agua.svg)\n\n# 2. Solos e usos da terra\n\nSolo resulta da interação entre material de origem, clima, organismos, relevo e tempo, modificada pelas atividades humanas. No Maranhão ocorrem, entre outras classes, Latossolos, Argissolos, Neossolos e Gleissolos. A distribuição não é uniforme, e a aptidão agrícola não pode ser deduzida somente do nome da classe.\n\nLatossolos profundos e bem drenados são encontrados em áreas de chapada; muitos apresentam acidez e baixa disponibilidade natural de certos nutrientes, exigindo manejo adequado quando cultivados. Argissolos possuem diferenciação textural entre horizontes, o que pode influenciar suscetibilidade à erosão. Neossolos Quartzarênicos têm textura arenosa e baixa retenção de água; Gleissolos associam-se a condições de saturação hídrica.\n\nA calagem corrige acidez conforme diagnóstico, não é garantia automática de produtividade. Cobertura vegetal, terraceamento quando apropriado, manejo do tráfego e proteção de nascentes ajudam a reduzir perdas de solo. Em áreas úmidas, drenagem indiscriminada pode modificar funções ecológicas e usos comunitários.\n\n# 3. Clima: sazonalidade e contrastes\n\nO estado apresenta temperaturas geralmente elevadas e regime chuvoso sazonal, com diferenças regionais. Segundo a caracterização da SEMA, a Zona de Convergência Intertropical (ZCIT) tem destaque na produção de chuva no litoral; linhas de instabilidade, vórtices em altitude e distúrbios de leste também participam da circulação regional. No sul, a Zona de Convergência do Atlântico Sul (ZCAS) e sistemas frontais exercem influência importante.\n\nO primeiro semestre concentra chuvas em grande parte do território, sobretudo no litoral. No sul, a estação úmida pode iniciar mais cedo. Não existe um calendário mensal idêntico para todos os municípios. A localização da ZCIT, a circulação continental e o oceano interagem com as condições locais.\n\n| Termo | Significado |\n|---|---|\n| Tempo | Estado momentâneo da atmosfera |\n| Clima | Distribuição de condições atmosféricas em períodos longos |\n| Estação seca | Período sazonal de menores chuvas |\n| Seca meteorológica | Déficit de chuva em relação ao padrão esperado |\n\nA precipitação condiciona calendários de cultivo e disponibilidade hídrica. A ocorrência de seca ou inundação como desastre depende também da exposição, da vulnerabilidade e da infraestrutura. Um episódio chuvoso isolado não refuta uma classificação climática de longo prazo.\n\n# 4. Biomas, Cocais e paisagens vegetais\n\nO Maranhão situa-se na transição entre Amazônia e Cerrado, com pequena porção de Caatinga indicada na cartografia de biomas do IBGE. O mapa de vegetação e o mapa de biomas classificam fenômenos em escalas e categorias distintas. Não se deve usar porcentagens de edições diferentes como se fossem diretamente comparáveis.\n\nAmazônia: formações florestais no oeste/noroeste, com remanescentes importantes na área do Gurupi. Cerrado: mosaico de formações campestres, savânicas e florestais, incluindo matas de galeria; ocorre extensamente no centro-sul e leste. Caatinga: presença limitada no estado, não sinônimo de toda a região leste.\n\nMata dos Cocais designa paisagens com destaque de palmeiras, especialmente babaçu e carnaúba. O babaçu tem papel econômico e cultural no extrativismo. Cocais é expressão de vegetação e transição, não sétimo bioma oficial brasileiro. Manguezais e restingas constituem ecossistemas costeiros; a classificação costeiro-marinha não é equivalente à divisão político-administrativa.\n\n# 5. Hidrografia e abastecimento\n\nA bacia hidrográfica é a área que contribui com água para um sistema de drenagem. A ANA organiza o Brasil em doze regiões hidrográficas. O Maranhão participa das regiões Atlântico Nordeste Ocidental, Tocantins-Araguaia e Parnaíba; uma região pode incluir várias bacias.\n\nParnaíba, Tocantins e Gurupi são rios de alcance interestadual ou limítrofe. O Mearim recebe afluentes importantes como Pindaré e Grajaú. O Itapecuru é estratégico para o abastecimento pelo Sistema Italuís. Munim, Turiaçu, Pericumã e Preguiças também integram a diversidade de sistemas de drenagem do estado.\n\nDomínio jurídico de águas e escala de planejamento não são sinônimos. A Constituição estabelece critérios para águas da União e dos estados; não se deve classificar toda uma região hidrográfica como propriedade de um único ente apenas por seu nome.\n\nA proteção de nascentes, vertentes e vegetação marginal favorece qualidade de água e regulação de processos hidrológicos. Erosão é retirada e transporte de material; assoreamento é deposição de sedimentos em canais ou reservatórios. Nem toda inundação é causada por assoreamento, pois cheias naturais integram a dinâmica de diversos ecossistemas.\n\n# 6. Litoral: Reentrâncias, Golfão e Lençóis\n\nO litoral ocidental, com as Reentrâncias Maranhenses, é bastante recortado e apresenta estuários, ilhas, canais de maré e manguezais. A amplitude de marés é elevada em diferentes pontos, condicionada pela configuração costeira. Manguezais ajudam a sustentar cadeias alimentares, retenção de sedimentos e atividades pesqueiras.\n\nO Golfão Maranhense abrange a região das baías de São Marcos e São José e a Ilha do Maranhão. É espaço de intensa interação entre fluxos fluviais, oceânicos, ocupação urbana e infraestrutura portuária. O litoral oriental apresenta campos de dunas, lagoas interdunares e o Delta do Parnaíba, compartilhado com o Piauí.\n\nEm 2024, o Parque Nacional dos Lençóis Maranhenses foi inscrito na Lista do Patrimônio Mundial natural da UNESCO. Dunas são modeladas pela circulação dos ventos e pelo transporte de areia; chuvas sazonais alimentam lagoas de água doce. Essa combinação explica a paisagem sem caracterizá-la como deserto climático. O título UNESCO não substitui o regime nacional de unidade de conservação.\n\nA extensão de uma costa depende da escala, da metodologia e da linha de referência. Evite rankings de comprimento sem indicar a fonte. Para estudo, a diferenciação de compartimentos, processos e ecossistemas é mais informativa que uma cifra isolada.\n\nRecuperação: explique a diferença entre chapada e planície, relacione os principais sistemas de chuva às regiões, diferencie bioma de Cocais, identifique Itapecuru e Mearim e compare as paisagens do litoral."
     },
     {
       "schema_version": "2.0.0",
@@ -14118,7 +14817,7 @@
       "titulo": "População, Rede Urbana, Economia e Infraestrutura Logística do Maranhão",
       "status": "em_auditoria",
       "origem": "edital_explicito",
-      "tempo_leitura_min": 30,
+      "tempo_leitura_min": 25,
       "edital_subtopicos": [
         "Dinâmica demográfica, migrações, urbanização e rede urbana",
         "Agricultura, pecuária, extrativismo, indústria, mineração, comércio, serviços e turismo",
@@ -14126,91 +14825,119 @@
       ],
       "fontes_primarias": [
         {
-          "referencia_abnt": "IBGE. Cidades@ — Panorama do Maranhão e Censo Demográfico 2022. Rio de Janeiro: IBGE, 2023/2026.",
+          "referencia_abnt": "IBGE. Maranhão: resultados Censo 2022. Consulta: 26 nov. 2026.",
+          "url": "https://www.ibge.gov.br/cidades-e-estados/ma/",
           "tipo": "institucional",
-          "nivel_autoridade": 3,
-          "url": "https://cidades.ibge.gov.br/brasil/ma/panorama"
+          "nivel_autoridade": 3
         },
         {
-          "referencia_abnt": "IMESC. Produto Interno Bruto do Estado do Maranhão — v. 20, n. 1. São Luís: IMESC, 13 nov. 2026.",
+          "referencia_abnt": "IBGE. Imperatriz: população Censo 2022. Consulta: 26 nov. 2026.",
+          "url": "https://www.ibge.gov.br/cidades-e-estados/ma/imperatriz.html",
           "tipo": "institucional",
-          "nivel_autoridade": 3,
-          "url": "https://imesc.ma.gov.br/produto-interno-bruto-do-estado-do-maranhao-v-20-n-1-2026/"
+          "nivel_autoridade": 3
         },
         {
-          "referencia_abnt": "SINDICOMIS / GOVERNO FEDERAL. Porto de Itaqui consolida força do Arco Norte e encurta caminhos para o mercado internacional. 2026.",
+          "referencia_abnt": "IBGE. REGIC 2018, publicação 2020. Consulta: 26 nov. 2026.",
+          "url": "https://www.ibge.gov.br/geociencias/organizacao-do-territorio/redes-e-fluxos-geograficos/15798-regioes-de-influencia-das-cidades.html",
           "tipo": "institucional",
-          "nivel_autoridade": 4,
-          "url": "https://sindicomis.com.br/porto-de-itaqui-consolida-forca-do-arco-norte-e-encurta-caminhos-para-o-mercado-internacional/"
+          "nivel_autoridade": 3
         },
         {
-          "referencia_abnt": "IMIRANTE / EMAP. Porto do Itaqui apresenta recorde de movimentação em maio e projeta expansão. São Luís, 25 jun. 2026.",
+          "referencia_abnt": "EMAP. Infraestrutura do Porto do Itaqui. Consulta: 26 nov. 2026.",
+          "url": "https://website.portodoitaqui.com.br/porto-itaqui/infraestrutura",
           "tipo": "institucional",
-          "nivel_autoridade": 4,
-          "url": "https://m.imirante.com/noticias/sao-luis/2026/06/25/porto-do-itaqui-apresenta-recorde-de-movimentacao-em-maio-e-projeto-de-expansao"
+          "nivel_autoridade": 3
+        },
+        {
+          "referencia_abnt": "SEINC-MA. Petróleo e gás. Consulta: 26 nov. 2026.",
+          "url": "https://seinc.ma.gov.br/petroleo-e-gas",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
+        },
+        {
+          "referencia_abnt": "UNESCO. Centro Histórico de São Luís. Consulta: 26 nov. 2026.",
+          "url": "https://whc.unesco.org/en/list/821/",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
+        },
+        {
+          "referencia_abnt": "UNESCO. Parque Nacional dos Lençóis Maranhenses. Consulta: 26 nov. 2026.",
+          "url": "https://whc.unesco.org/en/list/1611/",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
         }
       ],
       "sintese_fcc": {
         "conceitos_nucleares": [
           {
-            "termo": "Porto do Itaqui (EMAP)",
-            "definicao_precisa": "Maior porto público do Arco Norte e 4º do Brasil, com profundidade natural de 12 a 26 m e integração multimodal a 3 ferrovias (EFC, FNS e FTL).",
-            "fonte": "EMAP / SINDICOMIS, 2026."
+            "termo": "População",
+            "definicao_precisa": "6.776.699 habitantes no Censo 2022, atualização de 2023.",
+            "fonte": "IBGE."
           },
           {
-            "termo": "MATOPIBA no Maranhão",
-            "definicao_precisa": "Fronteira agrícola do Cerrado (MA, TO, PI, BA) com polo em Balsas, liderando a produção mecanizada de soja e grãos escoados pelo Corredor Centro-Norte.",
-            "fonte": "IMESC, 2026."
+            "termo": "Rede urbana",
+            "definicao_precisa": "São Luís Capital Regional A; Imperatriz Capital Regional C na REGIC 2018.",
+            "fonte": "IBGE."
           },
           {
-            "termo": "Rede Urbana Maranhense",
-            "definicao_precisa": "Polarizada por São Luís (metrópole, 1,037 milhão) e Imperatriz (capital regional sudoeste, 273 mil); Timon integra a RIDE Grande Teresina.",
-            "fonte": "IBGE Censo 2022."
+            "termo": "MATOPIBA",
+            "definicao_precisa": "Recorte de municípios em quatro estados; Balsas é polo agrícola maranhense.",
+            "fonte": "Acervo regional."
           },
           {
-            "termo": "Polos Industriais do MA",
-            "definicao_precisa": "São Luís (alumina/alumínio), Imperatriz (celulose), Açailândia (siderurgia/ferro-gusa) e Santo Antônio dos Lopes (gás natural da Bacia do Parnaíba).",
-            "fonte": "IMESC, 2026."
+            "termo": "Itaqui",
+            "definicao_precisa": "Porto público; EFC e FTL diretas, FNS indireta via Açailândia.",
+            "fonte": "EMAP."
+          },
+          {
+            "termo": "Polos econômicos",
+            "definicao_precisa": "São Luís: alumina/alumínio e portos; Imperatriz: celulose; Açailândia: siderurgia.",
+            "fonte": "Acervo regional."
           }
         ],
         "pegadinhas_fcc": [
           {
-            "armadilha": "Confundir Porto do Itaqui com Terminal de Ponta da Madeira",
-            "como_a_fcc_cobra": "Afirma que o Porto do Itaqui é um terminal privado exclusivo da Vale para minério de ferro.",
-            "como_desarmar": "Itaqui é porto PÚBLICO administrado pela EMAP (grãos, combustíveis, celulose, fertilizantes); Ponta da Madeira é terminal PRIVADO da Vale (minério de Carajás)."
+            "armadilha": "Confundir classificação urbana",
+            "como_a_fcc_cobra": "Exemplo de distrator autoral: São Luís é Metrópole Nacional na REGIC.",
+            "como_desarmar": "Capital Regional A na REGIC 2018."
           },
           {
-            "armadilha": "Posicionar o MATOPIBA na Amazônia maranhense ou na Baixada",
-            "como_a_fcc_cobra": "Associa o polo sojicultor de Balsas à Baixada Maranhense ou às Reentrâncias.",
-            "como_desarmar": "O MATOPIBA ocupa os chapadões do Cerrado no sul/sudeste maranhense (eixo de Balsas)."
+            "armadilha": "Conexões ferroviárias",
+            "como_a_fcc_cobra": "Exemplo de distrator autoral: FNS liga-se diretamente ao Itaqui.",
+            "como_desarmar": "Via EFC em Açailândia."
+          },
+          {
+            "armadilha": "Indicadores econômicos",
+            "como_a_fcc_cobra": "Exemplo de distrator autoral: Tonelagem é PIB e renda distribuída.",
+            "como_desarmar": "Cada medida tem unidade e recorte diferentes."
           }
         ],
         "quadro_comparativo": [
           {
-            "polo": "São Luís / Grande Ilha",
-            "funcao": "Metrópole, gestão pública, Porto do Itaqui, Ponta da Madeira, alumina"
+            "polo": "São Luís",
+            "funcao": "Gestão, serviços, porto e alumina/alumínio"
           },
           {
             "polo": "Imperatriz",
-            "funcao": "2ª cidade do MA, capital regional sudoeste, comércio/serviços, celulose, BR-010"
+            "funcao": "Serviços regionais e celulose"
           },
           {
             "polo": "Açailândia",
-            "funcao": "Entroncamento ferroviário (EFC × FNS) e polo siderúrgico"
+            "funcao": "Siderurgia e entroncamento EFC/FNS"
           },
           {
             "polo": "Balsas",
-            "funcao": "Polo do agronegócio (soja/grãos) no Cerrado sul-maranhense (MATOPIBA)"
+            "funcao": "Grãos e redes agrícolas"
           },
           {
             "polo": "Timon",
-            "funcao": "Integração funcional interestadual na RIDE Grande Teresina (PI)"
+            "funcao": "Vínculos funcionais com Teresina"
           }
         ],
         "checklist_revisao": [
-          "Sei diferenciar Porto do Itaqui (público/EMAP) de Ponta da Madeira (privado/Vale) e citar as 3 ferrovias conectadas?",
-          "Sei localizar os polos de São Luís, Imperatriz, Açailândia, Balsas e Timon e sua especialização produtiva?",
-          "Sei explicar o papel do Maranhão no Arco Norte e no MATOPIBA?"
+          "Distingo censo, migração e rede urbana?",
+          "Associo os principais polos produtivos e turísticos?",
+          "Diferencio Itaqui e Ponta da Madeira e conexões?"
         ]
       },
       "questoes": [
@@ -14218,16 +14945,16 @@
           "questao_id": "CG-GHM-03-Q001",
           "origem": "inedita_padrao_fcc",
           "referencia_prova": "Inédita — padrão FCC / Edital SEDUC-MA 01/2026",
-          "enunciado": "Na logística de exportação do Arco Norte brasileiro, o Complexo Portuário do Itaqui, em São Luís, destaca-se pela profundidade natural de seus berços e pela integração multimodal. Esse porto público conecta-se diretamente a uma malha ferroviária que viabiliza o escoamento de grãos do MATOPIBA, celulose e minérios, destacando-se",
+          "enunciado": "Segundo a descrição da infraestrutura do Porto do Itaqui pela EMAP, sua integração ferroviária é estabelecida",
           "alternativas": {
-            "A": "a Estrada de Ferro Carajás (EFC), a Ferrovia Norte-Sul (FNS) e a Ferrovia Transnordestina Logística (FTL).",
+            "A": "diretamente pela Estrada de Ferro Carajás e pela FTL, e indiretamente pela Ferrovia Norte-Sul via Açailândia.",
             "B": "a Estrada de Ferro Vitória a Minas (EFVM) e a Ferrovia do Aço.",
             "C": "a Ferrovia Oeste-Leste (FIOL) e o Ramal Ferroviário de Santos.",
             "D": "exclusivamente rodovias vicinais não pavimentadas, sem acesso ferroviário direto.",
             "E": "a Hidrovia Tietê-Paraná, diretamente ligada à Baía de São Marcos."
           },
           "gabarito": "A",
-          "justificativa_gabarito": "O Porto do Itaqui integra-se diretamente à EFC (892 km, Carajás–São Luís), à Ferrovia Norte-Sul (entroncamento em Açailândia) e à Transnordestina (FTL).",
+          "justificativa_gabarito": "A EMAP descreve duas ligações diretas (EFC e FTL) e uma indireta (FNS via EFC em Açailândia).",
           "analise_distratores": {
             "B": "EFVM e Ferrovia do Aço pertencem à Região Sudeste (MG/ES/RJ).",
             "C": "FIOL está na Bahia e Santos em São Paulo.",
@@ -14241,16 +14968,16 @@
           "questao_id": "CG-GHM-03-Q002",
           "origem": "inedita_padrao_fcc",
           "referencia_prova": "Inédita — padrão FCC / Edital SEDUC-MA 01/2026",
-          "enunciado": "Sobre a rede urbana e a hierarquia das cidades do Maranhão segundo dados do IBGE (Censo 2022), assinale a alternativa correta.",
+          "enunciado": "Considerando o Censo 2022 e a REGIC 2018, assinale a alternativa correta sobre a população e rede urbana do Maranhão.",
           "alternativas": {
-            "A": "Imperatriz é o segundo município mais populoso do estado e atua como principal capital regional do sudoeste maranhense.",
+            "A": "Imperatriz é o segundo município mais populoso do estado e figura como Capital Regional C na REGIC 2018.",
             "B": "Balsas possui população superior à de São Luís em razão da expansão da soja no MATOPIBA.",
             "C": "Timon está geograficamente isolado do Estado do Piauí, não mantendo relações cotidianas com Teresina.",
             "D": "A Região Metropolitana da Grande São Luís é composta apenas pelo município de São Luís.",
             "E": "Nenhum município maranhense fora da Ilha do Maranhão ultrapassa 50 mil habitantes."
           },
           "gabarito": "A",
-          "justificativa_gabarito": "No Censo 2022, São Luís (1.037.775) é a maior cidade e Imperatriz (273.110) é o segundo município mais populoso, exercendo forte polarização regional no sudoeste do Maranhão.",
+          "justificativa_gabarito": "Imperatriz tem 273.110 habitantes no Censo 2022 e centralidade regional na REGIC 2018; população e hierarquia funcional são indicadores diferentes.",
           "analise_distratores": {
             "B": "Balsas tem ~101,7 mil habitantes, contra mais de 1 milhão em São Luís.",
             "C": "Timon é conurbado a Teresina (PI), formando a RIDE Grande Teresina.",
@@ -14328,13 +15055,197 @@
           },
           "dificuldade": "intermediaria",
           "subtopico": "Infraestrutura logística: portos e ferrovias"
+        },
+        {
+          "questao_id": "CG-GHM-03-EXP-Q001",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "A população de um município cresce, mas a proporção urbana diminui. Essa situação permite concluir que",
+          "alternativas": {
+            "A": "urbanização necessariamente avançou.",
+            "B": "o número absoluto urbano necessariamente caiu.",
+            "C": "crescimento populacional e proporção urbana são indicadores diferentes.",
+            "D": "o município tornou-se totalmente rural.",
+            "E": "todos os habitantes migraram."
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "A proporção depende da população urbana e do total.",
+          "analise_distratores": {
+            "A": "Proporção diminuiu.",
+            "B": "O absoluto pode subir.",
+            "D": "Não decorre dos dados.",
+            "E": "Não informa migração."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Dinâmica demográfica, migrações, urbanização e rede urbana"
+        },
+        {
+          "questao_id": "CG-GHM-03-EXP-Q002",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "A ligação de Timon com Teresina por deslocamentos cotidianos para trabalho e serviços exemplifica",
+          "alternativas": {
+            "A": "a impossibilidade de fluxos interestaduais.",
+            "B": "articulação funcional que ultrapassa limites estaduais.",
+            "C": "transferência de Timon para o Piauí.",
+            "D": "extinção de municípios.",
+            "E": "migração internacional obrigatória."
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "Redes urbanas e mobilidade podem atravessar limites administrativos.",
+          "analise_distratores": {
+            "A": "Há fluxos interestaduais.",
+            "C": "Timon permanece maranhense.",
+            "D": "Não extingue municípios.",
+            "E": "São estados brasileiros."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Dinâmica demográfica, migrações, urbanização e rede urbana"
+        },
+        {
+          "questao_id": "CG-GHM-03-EXP-Q003",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "Na REGIC 2018, São Luís está classificada como Capital Regional A. Isso significa que",
+          "alternativas": {
+            "A": "o município não pode fazer parte de região metropolitana legal.",
+            "B": "toda capital estadual é Metrópole Nacional.",
+            "C": "a classificação decorre apenas da área municipal.",
+            "D": "o nível funcional da REGIC não se confunde com a condição jurídica de região metropolitana.",
+            "E": "a classificação independe dos fluxos de serviços."
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "REGIC analisa centralidade; instituição metropolitana obedece a regras próprias.",
+          "analise_distratores": {
+            "A": "Os recortes coexistem.",
+            "B": "Há níveis distintos.",
+            "C": "Área não basta.",
+            "E": "Fluxos são relevantes."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Dinâmica demográfica, migrações, urbanização e rede urbana"
+        },
+        {
+          "questao_id": "CG-GHM-03-EXP-Q004",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "A produção mecanizada de grãos no eixo de Balsas deve ser associada",
+          "alternativas": {
+            "A": "à fronteira agrícola do Cerrado e às redes do MATOPIBA.",
+            "B": "à extração exclusiva de minério de ferro.",
+            "C": "à dinâmica de manguezais das Reentrâncias.",
+            "D": "à ausência de infraestrutura de circulação.",
+            "E": "ao cultivo exclusivo de subsistência."
+          },
+          "gabarito": "A",
+          "justificativa_gabarito": "Balsas é polo agrícola do sul maranhense.",
+          "analise_distratores": {
+            "B": "Não caracteriza esse polo.",
+            "C": "O ambiente é interiorano.",
+            "D": "Logística é importante.",
+            "E": "Há produção comercial."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Agricultura, pecuária, extrativismo, indústria, mineração, comércio, serviços e turismo"
+        },
+        {
+          "questao_id": "CG-GHM-03-EXP-Q005",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "O minério de Carajás embarcado em São Luís ilustra",
+          "alternativas": {
+            "A": "que toda extração ocorre na ilha de São Luís.",
+            "B": "que a tonelagem portuária mede o PIB municipal.",
+            "C": "que transporte e produção são sempre realizados no mesmo lugar.",
+            "D": "que a exportação não depende de redes.",
+            "E": "a articulação entre área produtora no Pará e infraestrutura logística no Maranhão."
+          },
+          "gabarito": "E",
+          "justificativa_gabarito": "Origem mineral, transporte e embarque são etapas espacialmente diferenciadas.",
+          "analise_distratores": {
+            "A": "Carajás está no Pará.",
+            "B": "São medidas distintas.",
+            "C": "Etapas podem ser separadas.",
+            "D": "A rede viabiliza circulação."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Agricultura, pecuária, extrativismo, indústria, mineração, comércio, serviços e turismo"
+        },
+        {
+          "questao_id": "CG-GHM-03-EXP-Q006",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "Um aumento na movimentação portuária não permite inferir isoladamente",
+          "alternativas": {
+            "A": "a existência de cargas movimentadas.",
+            "B": "a possibilidade de integração logística.",
+            "C": "uma melhora na distribuição de renda e nas condições de vida da população.",
+            "D": "a presença de infraestrutura.",
+            "E": "a relevância de redes de transporte."
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "Tonelagem não mede distribuição de benefícios sociais.",
+          "analise_distratores": {
+            "A": "É medida de movimentação.",
+            "B": "Fluxos podem integrar redes.",
+            "D": "A atividade exige infraestrutura.",
+            "E": "Redes sustentam a operação."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Agricultura, pecuária, extrativismo, indústria, mineração, comércio, serviços e turismo"
+        },
+        {
+          "questao_id": "CG-GHM-03-EXP-Q007",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "Quanto ao reconhecimento pela UNESCO de bens maranhenses, a associação adequada é",
+          "alternativas": {
+            "A": "Lençóis: patrimônio cultural; São Luís: patrimônio natural.",
+            "B": "Centro Histórico de São Luís: cultural; Parque Nacional dos Lençóis: natural.",
+            "C": "ambos são apenas portos públicos.",
+            "D": "Chapada das Mesas: centro histórico de São Luís.",
+            "E": "UNESCO e categoria de parque nacional são sinônimos."
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "Os bens possuem tipos de patrimônio distintos.",
+          "analise_distratores": {
+            "A": "A associação está invertida.",
+            "C": "Não são portos.",
+            "D": "São lugares distintos.",
+            "E": "Reconhecimento não é categoria nacional."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Agricultura, pecuária, extrativismo, indústria, mineração, comércio, serviços e turismo"
+        },
+        {
+          "questao_id": "CG-GHM-03-EXP-Q008",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "A Norte-Sul, ao chegar ao entroncamento de Açailândia e conectar-se à EFC, permite acesso ao Itaqui. Essa descrição evidencia",
+          "alternativas": {
+            "A": "ausência de integração ferroviária.",
+            "B": "identidade entre Ponta da Madeira e Porto do Itaqui.",
+            "C": "ligação direta da FNS a todos os berços.",
+            "D": "conexão indireta por uma rede ferroviária articulada.",
+            "E": "desativação da FTL."
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "A EMAP distingue conexões diretas EFC/FTL e indireta FNS.",
+          "analise_distratores": {
+            "A": "Há integração.",
+            "B": "São instalações distintas.",
+            "C": "A ligação é indireta.",
+            "E": "Não decorre da conexão."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Infraestrutura logística: portos e ferrovias"
         }
       ],
       "flashcards": [
         {
           "card_id": "CG-GHM-03-FC001",
-          "frente": "Quais são os 5 municípios mais populosos do Maranhão no Censo 2022?",
-          "verso": "São Luís (1,037M), Imperatriz (273k), São José de Ribamar (244k), Timon (174k) e Caxias (156k).",
+          "frente": "Qual era a população de Imperatriz no Censo 2022?",
+          "verso": "273.110 habitantes, segundo o IBGE.",
           "tipo": "legislacao_dado",
           "tags": [
             "censo-2022",
@@ -14353,8 +15264,8 @@
         },
         {
           "card_id": "CG-GHM-03-FC003",
-          "frente": "Quais 3 ferrovias conectam o Maranhão ao Porto do Itaqui?",
-          "verso": "Estrada de Ferro Carajás (EFC), Ferrovia Norte-Sul (FNS) e Ferrovia Transnordestina Logística (FTL).",
+          "frente": "Quais ferrovias se conectam diretamente e indiretamente ao Itaqui?",
+          "verso": "Diretas: EFC e FTL. Indireta: FNS via EFC em Açailândia.",
           "tipo": "conceito",
           "tags": [
             "ferrovias",
@@ -14364,7 +15275,7 @@
         {
           "card_id": "CG-GHM-03-FC004",
           "frente": "O que é o MATOPIBA e qual município lidera esse polo no Maranhão?",
-          "verso": "Fronteira agrícola mecanizada do Cerrado (MA, TO, PI, BA), liderada no Maranhão por Balsas (soja, milho, algodão).",
+          "verso": "Recorte de municípios de MA, TO, PI e BA; Balsas é polo agrícola do sul maranhense.",
           "tipo": "conceito",
           "tags": [
             "matopiba",
@@ -14383,16 +15294,156 @@
         },
         {
           "card_id": "CG-GHM-03-FC006",
-          "frente": "Qual foi o PIB do Maranhão divulgado pelo IMESC em novembro de 2026?",
-          "verso": "R$ 177,1 bilhões, com destaque para Indústria, Serviços e Agropecuária.",
+          "frente": "Por que uma cifra de PIB estadual precisa de ano de referência?",
+          "verso": "Para distinguir produção do período, preços, revisão estatística e eventuais projeções.",
           "tipo": "legislacao_dado",
           "tags": [
             "pib",
             "imesc"
           ]
+        },
+        {
+          "card_id": "CG-GHM-03-EXP-FC001",
+          "frente": "Qual o total populacional do Maranhão no Censo 2022?",
+          "verso": "6.776.699 habitantes (resultado atualizado em dez. 2023).",
+          "tipo": "conceito",
+          "tags": [
+            "maranhao",
+            "cg-ghm-03"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-03-EXP-FC002",
+          "frente": "Como distinguir censo de estimativa?",
+          "verso": "Censo é levantamento em referência definida; estimativa é cálculo estatístico.",
+          "tipo": "conceito",
+          "tags": [
+            "maranhao",
+            "cg-ghm-03"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-03-EXP-FC003",
+          "frente": "O que caracteriza mobilidade pendular?",
+          "verso": "Deslocamento recorrente sem mudança residencial habitual.",
+          "tipo": "conceito",
+          "tags": [
+            "maranhao",
+            "cg-ghm-03"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-03-EXP-FC004",
+          "frente": "Que categoria REGIC 2018 tem São Luís?",
+          "verso": "Capital Regional A.",
+          "tipo": "conceito",
+          "tags": [
+            "maranhao",
+            "cg-ghm-03"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-03-EXP-FC005",
+          "frente": "Que categoria REGIC 2018 tem Imperatriz?",
+          "verso": "Capital Regional C.",
+          "tipo": "conceito",
+          "tags": [
+            "maranhao",
+            "cg-ghm-03"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-03-EXP-FC006",
+          "frente": "A que cidade piauiense Timon está funcionalmente ligado?",
+          "verso": "Teresina.",
+          "tipo": "conceito",
+          "tags": [
+            "maranhao",
+            "cg-ghm-03"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-03-EXP-FC007",
+          "frente": "Qual atividade é referência no eixo de Balsas?",
+          "verso": "Produção agrícola mecanizada de grãos no Cerrado.",
+          "tipo": "conceito",
+          "tags": [
+            "maranhao",
+            "cg-ghm-03"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-03-EXP-FC008",
+          "frente": "Que atividade se destaca em Açailândia?",
+          "verso": "Siderurgia e entroncamento ferroviário.",
+          "tipo": "conceito",
+          "tags": [
+            "maranhao",
+            "cg-ghm-03"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-03-EXP-FC009",
+          "frente": "Qual indústria tem destaque em Imperatriz?",
+          "verso": "Celulose.",
+          "tipo": "conceito",
+          "tags": [
+            "maranhao",
+            "cg-ghm-03"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-03-EXP-FC010",
+          "frente": "Onde se destaca a produção de gás natural terrestre?",
+          "verso": "Bacia do Parnaíba, em Santo Antônio dos Lopes e entorno.",
+          "tipo": "conceito",
+          "tags": [
+            "maranhao",
+            "cg-ghm-03"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-03-EXP-FC011",
+          "frente": "O minério de Carajás embarcado em São Luís é extraído onde?",
+          "verso": "Na região de Carajás, Pará.",
+          "tipo": "conceito",
+          "tags": [
+            "maranhao",
+            "cg-ghm-03"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-03-EXP-FC012",
+          "frente": "Qual patrimônio UNESCO de São Luís é cultural?",
+          "verso": "Centro Histórico de São Luís.",
+          "tipo": "conceito",
+          "tags": [
+            "maranhao",
+            "cg-ghm-03"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-03-EXP-FC013",
+          "frente": "Qual o patrimônio natural maranhense inscrito em 2024?",
+          "verso": "Parque Nacional dos Lençóis Maranhenses.",
+          "tipo": "conceito",
+          "tags": [
+            "maranhao",
+            "cg-ghm-03"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-03-EXP-FC014",
+          "frente": "Tonelagem de um porto mede renda distribuída?",
+          "verso": "Não. Mede massa de carga movimentada.",
+          "tipo": "conceito",
+          "tags": [
+            "maranhao",
+            "cg-ghm-03"
+          ]
         }
       ],
-      "teoria_md": "---\ntopico_id: CG-GHM-03\nslug: populacao-urbanizacao-economia-ma\ntitulo: \"População, Rede Urbana, Economia e Infraestrutura Logística do Maranhão\"\nedital: SEDUC-MA-01-2026\nbanca: FCC\nstatus: em_auditoria\nsinergia_especifica: CE-GEO-14\n---\n\n# 1. Delimitação no Edital e Sinergia Dupla (Camada A)\n- **Itens explícitos:** Conhecimentos Gerais (p. 60 — *População, dinâmica demográfica, migrações, urbanização e rede urbana. Aspectos econômicos: agricultura, pecuária, extrativismo, indústria, mineração, comércio, serviços, turismo, infraestrutura, portos e ferrovias*) + Conhecimentos Específicos (`CE-GEO-14`, p. 76).\n\n# 2. Dinâmica Demográfica e Rede Urbana Maranhense (IBGE Censo 2022)\nSegundo o [IBGE Cidades@ — Maranhão](https://cidades.ibge.gov.br/brasil/ma/panorama):\n- **População total:** **6.776.699 habitantes** no Censo 2022 (estimativa 2026: **7.024.557**), com densidade de **20,56 hab/km²** e taxa de crescimento geométrico anual de **0,25%** entre 2010 e 2022 (desaceleração demográfica acompanhando a queda da fecundidade e saldos migratórios).\n- **Estrutura etária e social:** o Maranhão ainda possui estrutura relativamente mais jovem que a média nacional, mas já em transição demográfica; apresenta importante peso de populações tradicionais (**269.168 quilombolas** e **57.166 indígenas** no Censo 2022).\n- **Rede Urbana e Polarização (Top 10 municípios acima de 100 mil hab. no Censo 2022):**\n  1. **São Luís** (`1.037.775`) — Metrópole estadual e polo administrativo/portuário, conurbada na Ilha com **São José de Ribamar** (`244.579`), **Paço do Lumiar** (`145.643`) e Raposa (Região Metropolitana da Grande São Luís).\n  2. **Imperatriz** (`273.110`) — Segunda maior cidade e grande capital regional do sudoeste maranhense (eixo da BR-010, serviços, comércio, ensino superior e polo de celulose).\n  3. **Timon** (`174.465`) — Conurbada/integrada funcionalmente a Teresina (PI), compondo a **RIDE Grande Teresina**.\n  4. Outros polos regionais acima de 100 mil hab.: **Caxias** (`156.973`), **Codó** (`114.275`), **Açailândia** (`106.550` — polo siderúrgico/ferroviário), **Bacabal** (`103.711`) e **Balsas** (`101.767` — capital do agronegócio sul-maranhense).\n\n# 3. Economia Maranhense: Setores e Espacialização\nSegundo o [IMESC — PIB do Estado do Maranhão (novembro/2026)](https://imesc.ma.gov.br/produto-interno-bruto-do-estado-do-maranhao-v-20-n-1-2026/), o **PIB estadual alcançou R$ 177,1 bilhões**, sustentado pela combinação de **Serviços**, **Indústria** e **Agropecuária**:\n- **Agropecuária e MATOPIBA:** O sul maranhense (especialmente **Balsas** e o eixo dos cerrados) integra a fronteira agrícola do **MATOPIBA** (Maranhão, Tocantins, Piauí e Bahia), destacando-se na produção altamente mecanizada de **soja** (principal item da pauta exportadora), milho e algodão. No centro-oeste e leste, convivem pecuária bovina extensiva/semi-intensiva e agricultura familiar (arroz, mandioca, feijão).\n- **Extrativismo Vegetal:** Destaque histórico e socioeconômico para o **coco babaçu** (quebradeiras de coco na Mata dos Cocais) e a carnaúba, além da pesca artesanal costeira.\n- **Indústria e Mineração:**\n  - **São Luís (Distrito Industrial):** produção de **alumina e alumínio** (Consórcio Alumar) e logística portuária/combustíveis.\n  - **Imperatriz:** grande polo industrial de **celulose** (Suzano), conectado por ferrovia ao Porto do Itaqui.\n  - **Açailândia:** polo **siderúrgico** (ferro-gusa) articulado ao corredor de Carajás.\n  - **Energia e Gás Natural:** exploração de gás natural na **Bacia do Parnaíba** (Complexo Termelétrico Parnaíba, Santo Antônio dos Lopes) e expansão de energia eólica (litoral oriental) e solar.\n- **Turismo:** Polos estruturantes como o **Centro Histórico de São Luís** (Patrimônio Cultural Mundial — UNESCO), o **Parque Nacional dos Lençóis Maranhenses** (Patrimônio Natural Mundial — UNESCO, 2024), o **Delta do Parnaíba** (Rota das Emoções) e a **Chapada das Mesas** (Carolina/Riachão).\n\n# 4. Infraestrutura Logística: Corredor Centro-Norte, Portos e Ferrovias\nO Maranhão ocupa posição estratégica no **Arco Norte** brasileiro:\n- **Porto do Itaqui (São Luís — gerido pela EMAP):** Maior porto público do Arco Norte e **4º maior porto público do Brasil**, com berços naturais de **12 a 26 metros de profundidade** capazes de receber navios de grande porte, escoando soja/grãos do MATOPIBA e do Mato Grosso, celulose, derivados e fertilizantes ([EMAP/Imirante, 2026](https://m.imirante.com/noticias/sao-luis/2026/06/25/porto-do-itaqui-apresenta-recorde-de-movimentacao-em-maio-e-projeto-de-expansao); [SINDICOMIS, 2026](https://sindicomis.com.br/porto-de-itaqui-consolida-forca-do-arco-norte-e-encurta-caminhos-para-o-mercado-internacional/)). Ao lado operam terminais privados de grande porte, como o **Terminal Marítimo de Ponta da Madeira** (Vale — exportação de minério de ferro de Carajás) e o terminal da Alumar.\n- **Integração Ferroviária (3 grandes eixos):**\n  1. **Estrada de Ferro Carajás (EFC — 892 km):** liga Parauapebas/Carajás (PA) a São Luís (Ponta da Madeira/Itaqui), transportando minério de ferro, passageiros e cargas como celulose de Imperatriz.\n  2. **Ferrovia Norte-Sul (FNS):** conecta o Centro-Oeste/Tocantins (entroncamento em Açailândia) à EFC rumo ao Porto do Itaqui, viabilizando o escoamento de grãos do Corredor Centro-Norte.\n  3. **Ferrovia Transnordestina Logística (FTL):** integra o Maranhão a outros estados do Nordeste (como Piauí e Ceará).\n"
+      "teoria_md": "# 1. População e indicadores demográficos\n\nO Censo 2022 registrou 6.776.699 habitantes no Maranhão, com densidade de 20,56 hab./km², conforme resultados atualizados em dezembro de 2023. O município de Imperatriz registrou 273.110 habitantes. Esses números têm referência censitária e não devem ser apresentados como estimativas de 2026. A população absoluta mede quantidade de residentes; a densidade divide o contingente pela área; a distribuição mostra como as pessoas se localizam.\n\nA transição demográfica envolve mudanças de mortalidade, fecundidade e estrutura etária. A queda de fecundidade pode reduzir o ritmo de crescimento, mas não determina sozinha redução do número de moradores. O saldo migratório e a composição etária também importam. Um município pode receber migrantes e, simultaneamente, perder outros moradores.\n\nA comparação entre indicadores de municípios exige atenção ao tamanho da área, às fronteiras e à data. O número de residentes de São Luís, por exemplo, não equivale à população de toda a sua região metropolitana. Uma concentração urbana formada por vários municípios requer recorte próprio.\n\n# 2. Migração, urbanização e centralidade\n\nA ocupação contemporânea está relacionada à expansão rodoviária, grandes projetos, busca de trabalho, acesso a terras, serviços e redes familiares. Imperatriz reforçou sua centralidade no sudoeste com o eixo da BR-010. São Luís reúne funções administrativas, de comércio, saúde, educação e atividades portuárias. Timon mantém vínculos funcionais com Teresina, no Piauí.\n\nMigração envolve mudança de residência habitual, ao passo que mobilidade pendular descreve deslocamentos recorrentes, como viagens para trabalho ou estudo, sem mudança residencial. Urbanização é aumento da proporção de população urbana; crescimento urbano é aumento do contingente urbano. Não se deve inferir um a partir do outro sem conhecer o total populacional.\n\nA REGIC 2018, publicada pelo IBGE em 2020, classifica São Luís como Capital Regional A e Imperatriz como Capital Regional C. Região Metropolitana da Grande São Luís é recorte jurídico distinto. Chamar a capital de metrópole em sentido coloquial ou legal não a torna integrante do nível Metrópoles da REGIC.\n\nCaxias, Bacabal, Santa Inês, Balsas e outros centros organizam redes diferenciadas de comércio e serviços. A influência funcional depende dos fluxos e da complexidade de funções, não apenas do tamanho populacional.\n\n# 3. Agropecuária, extrativismo e pesca\n\nO sul maranhense, particularmente o eixo de Balsas, insere-se na expansão da agricultura empresarial mecanizada do Cerrado. MATOPIBA é recorte de planejamento que reúne municípios de quatro estados: Maranhão, Tocantins, Piauí e Bahia. Não representa um bioma nem a soma de todo o território dos quatro estados.\n\nSoja, milho e algodão são exemplos de cultivos associados a cadeias comerciais de maior escala. A expansão resulta de pesquisa, crédito, infraestrutura, mercados e condições de relevo e solos, não de fertilidade natural uniforme. O crescimento da produção pode ocorrer por ampliação de área, aumento de produtividade ou ambos.\n\nA pecuária bovina, as unidades familiares, a mandioca, o arroz e outros cultivos têm importância em diferentes municípios. O extrativismo de babaçu relaciona-se à renda de famílias e ao trabalho das quebradeiras de coco. A pesca artesanal em rios, campos inundáveis e litoral conecta economia, cultura e ecologia.\n\nAgricultura familiar é categoria relativa às características da unidade produtiva; agronegócio refere-se à cadeia de produção, insumos, processamento e comercialização. Os conceitos podem se sobrepor. É inadequado atribuir porcentagem de toda produção alimentar ou de todos os empregos a um grupo sem fonte e denominador.\n\n# 4. Indústria, mineração, energia, comércio e serviços\n\nSão Luís concentra atividades industriais e portuárias, incluindo alumina e alumínio. Imperatriz possui produção de celulose; Açailândia relaciona-se à siderurgia e ao entroncamento ferroviário. Santo Antônio dos Lopes e entorno integram o complexo de gás natural terrestre da Bacia do Parnaíba, com geração termelétrica. Esses exemplos não significam especialização exclusiva de cada município.\n\nA mineração de Carajás, no Pará, está integrada à economia maranhense pelo transporte ferroviário e pela exportação em São Luís. É preciso distinguir a origem do minério, o local de transformação industrial e o ponto de embarque. Movimentação de um terminal não equivale automaticamente a produção mineral local.\n\nComércio e serviços atendem consumo, gestão pública, saúde, ensino, transporte e atividades empresariais. Um centro regional pode apresentar grande relevância funcional sem possuir a maior produção industrial do estado.\n\nO PIB mede valor adicionado da produção econômica em um período; PIB por habitante é uma média e não distribuição da renda. Exportação mede valores de bens enviados ao exterior, e tonelagem portuária mede massa movimentada. Nenhum desses indicadores isoladamente prova redução de pobreza ou desigualdade. Para valores monetários, indique ano de referência, preço nominal ou real e fonte. A cifra de PIB sem ano de referência confirmado do bundle anterior não foi mantida.\n\n# 5. Turismo, patrimônio e integração econômica\n\nO Centro Histórico de São Luís integra o Patrimônio Mundial cultural da UNESCO; os Lençóis Maranhenses integram a lista natural desde 2024. A Chapada das Mesas e o Delta do Parnaíba são outros espaços relevantes para turismo de natureza. A distinção cultural/natural é importante: o reconhecimento de um bem não torna todo o município ou toda a região automaticamente patrimônio mundial.\n\nO turismo pode gerar trabalho em hospedagem, alimentação, transporte, guias e serviços. Contudo, a expansão sem planejamento pode pressionar água, resíduos, moradia e ecossistemas frágeis. A capacidade de visitação, normas de unidades de conservação, mobilidade e participação comunitária são elementos da gestão territorial.\n\nPatrimônio cultural, paisagem natural e infraestrutura econômica articulam-se, mas possuem critérios distintos de reconhecimento e proteção. Um sítio protegido pode ter regras específicas para uso público que não se resumem à promoção turística.\n\n# 6. Portos, ferrovias e o corredor Centro-Norte\n\nO Porto do Itaqui é porto público administrado pela EMAP, localizado na Baía de São Marcos. O Terminal Marítimo de Ponta da Madeira é instalação privada operada pela Vale, ligada ao embarque de minério de ferro de Carajás. Outros terminais compõem a rede portuária da região. Não se deve tratar o nome Itaqui como sinônimo de todos os terminais de São Luís.\n\nSegundo a EMAP, o Itaqui tem ligação ferroviária direta com a Estrada de Ferro Carajás (EFC) e a ferrovia FTL. A Ferrovia Norte-Sul (FNS) conecta-se indiretamente ao porto, pelo entroncamento com a EFC em Açailândia. A conexão permite articular cargas de diferentes origens. As cargas podem circular por mais de um terminal e operador, conforme suas características.\n\n![Esquema das conexões diretas EFC e FTL e da ligação indireta da Norte-Sul via Açailândia ao Itaqui.](./media/geografia-maranhao/logistica.svg)\n\nO termo Arco Norte reúne corredores e instalações de exportação na porção setentrional do Brasil. Não é um único porto nem uma única ferrovia. A vantagem logística depende da origem da carga, distância, capacidade, transbordos, tarifas e destino.\n\nA ampliação de infraestrutura favorece fluxos e atividades, mas seus resultados sociais dependem de encadeamentos produtivos, emprego, tributação, políticas públicas e mitigação de impactos. Uma estrada pode integrar mercados distantes e, ainda assim, comunidades próximas terem acesso precário a serviços.\n\nRecuperação: distinga população municipal de área metropolitana; explique a centralidade de Imperatriz e Timon; associe os polos econômicos; compare Itaqui e Ponta da Madeira e descreva a conexão indireta da Norte-Sul."
     },
     {
       "schema_version": "2.0.0",
@@ -14402,7 +15453,7 @@
       "titulo": "Questões Ambientais, Conservação da Biodiversidade e Povos Tradicionais no Maranhão",
       "status": "em_auditoria",
       "origem": "edital_explicito",
-      "tempo_leitura_min": 30,
+      "tempo_leitura_min": 25,
       "edital_subtopicos": [
         "Questões ambientais, conservação da biodiversidade e desenvolvimento sustentável",
         "Povos indígenas, comunidades quilombolas e populações tradicionais"
@@ -14431,41 +15482,93 @@
           "tipo": "bibliografia_academica",
           "nivel_autoridade": 5,
           "url": "https://periodicos.ufpa.br/index.php/ncn/article/download/8278/7508"
+        },
+        {
+          "referencia_abnt": "IBGE. O Brasil Quilombola: segunda apuração do Censo 2022. Consulta: 26 nov. 2026.",
+          "url": "https://www.ibge.gov.br/brasil-quilombola/",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
+        },
+        {
+          "referencia_abnt": "IBGE Educa. Quilombolas: primeira divulgação do Censo 2022. Consulta: 26 nov. 2026.",
+          "url": "https://educa.ibge.gov.br/criancas/brasil/2848-nosso-povo/22325-os-quilombolas-no-censo-2022.html",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
+        },
+        {
+          "referencia_abnt": "IBGE. O Brasil Indígena: Censo 2022. Consulta: 26 nov. 2026.",
+          "url": "https://www.ibge.gov.br/brasil-indigena/",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
+        },
+        {
+          "referencia_abnt": "MMA. Zonas úmidas e sítios Ramsar maranhenses. Consulta: 26 nov. 2026.",
+          "url": "https://antigo.mma.gov.br/informma/item/2365-parceria-leva-informacoes-sobre-zonas-umidas-para-salas-verdes.html",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
+        },
+        {
+          "referencia_abnt": "BRASIL. Lei 9.985/2000, Sistema Nacional de Unidades de Conservação. Consulta: 26 nov. 2026.",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l9985.htm",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
+        },
+        {
+          "referencia_abnt": "BRASIL. Decreto 6.040/2007, povos e comunidades tradicionais. Consulta: 26 nov. 2026.",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2007/decreto/d6040.htm",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
+        },
+        {
+          "referencia_abnt": "INSS. Maranhão: população indígena segundo Censo 2022, 57.214 pessoas, notícia de 2026. Consulta: 26 nov. 2026.",
+          "url": "https://www.gov.br/inss/pt-br/noticias/inss-participa-de-acao-voltada-as-comunidades-indigenas-do-maranhao",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
         }
       ],
       "sintese_fcc": {
         "conceitos_nucleares": [
           {
-            "termo": "Quilombolas no Maranhão (IBGE Censo 2022)",
-            "definicao_precisa": "269.168 pessoas (3,97% da população estadual): 1º lugar proporcional e 2º lugar absoluto do Brasil (atrás apenas da Bahia); Alcântara tem 84,6% (maior proporção do país).",
-            "fonte": "IBGE, Censo 2022 / SEIR-MA, 2023."
-          },
-          {
-            "termo": "3 Sítios Ramsar do Maranhão",
-            "definicao_precisa": "APA das Reentrâncias Maranhenses (1993), APA da Baixada Maranhense (2000) e Parque Estadual Marinho do Parcel de Manuel Luís (2000).",
-            "fonte": "Convenção de Ramsar / UFPA-NAEA."
-          },
-          {
-            "termo": "Indígenas no Maranhão (IBGE Censo 2022)",
-            "definicao_precisa": "57.166 pessoas indígenas (43.281 em Terras Indígenas), com destaque para Guajajara/Tenetehara, Awá-Guajá, Ka'apor e povos Timbira.",
+            "termo": "Quilombolas",
+            "definicao_precisa": "269.168 pessoas na segunda apuração; maior proporção estadual, segundo contingente absoluto.",
             "fonte": "IBGE, Censo 2022."
           },
           {
-            "termo": "Quebradeiras de Coco Babaçu",
-            "definicao_precisa": "População tradicional extrativista da Mata dos Cocais organizada no MIQCB em defesa do uso sustentável e das Leis do Babaçu Livre.",
-            "fonte": "Literatura socioambiental do Maranhão."
+            "termo": "Ramsar",
+            "definicao_precisa": "Reentrâncias, Baixada e Parcel de Manuel Luís, documentados pelo MMA.",
+            "fonte": "MMA."
+          },
+          {
+            "termo": "Povos indígenas",
+            "definicao_precisa": "Diversidade de povos e residências dentro/fora de terras indígenas; conferir edição de números.",
+            "fonte": "IBGE."
+          },
+          {
+            "termo": "SNUC",
+            "definicao_precisa": "Parques e reservas biológicas: proteção integral; APAs: uso sustentável.",
+            "fonte": "Lei 9.985/2000."
+          },
+          {
+            "termo": "Babaçu Livre",
+            "definicao_precisa": "Acesso a frutos e proteção de babaçuais conforme leis locais.",
+            "fonte": "Acervo socioambiental."
           }
         ],
         "pegadinhas_fcc": [
           {
-            "armadilha": "Confundir 1º lugar proporcional com 1º lugar absoluto em quilombolas",
-            "como_a_fcc_cobra": "Afirma que o Maranhão tem a maior população quilombola absoluta do Brasil.",
-            "como_desarmar": "Em números ABSOLUTOS, 1º é Bahia (397k) e 2º é Maranhão (269k). Em PROPORÇÃO da população estadual (3,97%), o Maranhão é o 1º do Brasil!"
+            "armadilha": "Percentual × absoluto",
+            "como_a_fcc_cobra": "Exemplo de distrator autoral: MA tem maior total quilombola.",
+            "como_desarmar": "Bahia tem maior total; Maranhão maior proporção."
           },
           {
-            "armadilha": "Incluir Lençóis Maranhenses como Sítio Ramsar ou excluir o Parcel de Manuel Luís",
-            "como_a_fcc_cobra": "Mistura o título UNESCO (Lençóis) com os 3 Sítios Ramsar oficiais do estado.",
-            "como_desarmar": "UNESCO Patrimônio Natural = Lençóis Maranhenses (2024). Sítios Ramsar (3) = APA Reentrâncias, APA Baixada e PEM Parcel de Manuel Luís."
+            "armadilha": "Reconhecimentos internacionais",
+            "como_a_fcc_cobra": "Exemplo de distrator autoral: Ramsar e UNESCO são a mesma categoria.",
+            "como_desarmar": "Instrumentos distintos, também diferentes do SNUC."
+          },
+          {
+            "armadilha": "Identidade e residência",
+            "como_a_fcc_cobra": "Exemplo de distrator autoral: Só há indígenas ou quilombolas em territórios delimitados.",
+            "como_desarmar": "Censo conta residentes dentro e fora."
           }
         ],
         "quadro_comparativo": [
@@ -14496,9 +15599,10 @@
           }
         ],
         "checklist_revisao": [
-          "Sei a diferença entre o ranking absoluto (2º) e proporcional (1º) de quilombolas no Maranhão e o destaque de Alcântara (84,6%)?",
-          "Sei listar os 3 Sítios Ramsar do Maranhão sem confundir com o título UNESCO dos Lençóis?",
-          "Sei os principais povos indígenas do MA e os vetores de pressão na Amazônia maranhense vs. Cerrado (MATOPIBA)?"
+          "Relaciono pressões e ecossistemas?",
+          "Distingo SNUC, Ramsar e UNESCO?",
+          "Interpreto dados quilombolas por edição e denominador?",
+          "Reconheço direitos e diversidade dos povos tradicionais?"
         ]
       },
       "questoes": [
@@ -14529,7 +15633,7 @@
           "questao_id": "CG-GHM-04-Q002",
           "origem": "inedita_padrao_fcc",
           "referencia_prova": "Inédita — padrão FCC / Edital SEDUC-MA 01/2026",
-          "enunciado": "A Convenção de Ramsar reconhece áreas úmidas de importância internacional para a conservação da biodiversidade e o uso sustentável. No Estado do Maranhão, correspondem aos três Sítios Ramsar oficialmente reconhecidos",
+          "enunciado": "A Convenção de Ramsar reconhece áreas úmidas de importância internacional. Entre os sítios maranhenses documentados pelo MMA, assinale o conjunto correto.",
           "alternativas": {
             "A": "Porto do Itaqui, APA do Maracanã e Parque Estadual do Bacanga.",
             "B": "Parque Nacional da Chapada das Mesas, Reserva Biológica do Gurupi e Parque Estadual do Mirador.",
@@ -14552,7 +15656,7 @@
           "questao_id": "CG-GHM-04-Q003",
           "origem": "inedita_padrao_fcc",
           "referencia_prova": "Inédita — padrão FCC / Edital SEDUC-MA 01/2026",
-          "enunciado": "No Censo Demográfico 2022 (IBGE), um município histórico maranhense destacou-se nacionalmente por registrar a maior proporção de população quilombola entre todos os municípios do Brasil (84,6% de seus habitantes). Trata-se de",
+          "enunciado": "Na primeira divulgação do Censo Demográfico 2022, um município histórico maranhense destacou-se com cerca de 84,6% de população quilombola. Trata-se de",
           "alternativas": {
             "A": "Alcântara.",
             "B": "Balsas.",
@@ -14561,7 +15665,7 @@
             "E": "Açailândia."
           },
           "gabarito": "A",
-          "justificativa_gabarito": "Alcântara (MA) registrou 84,6% de população autodeclarada quilombola no Censo 2022, a maior proporção entre os 5.570 municípios brasileiros.",
+          "justificativa_gabarito": "Alcântara registrou 84,57% na primeira divulgação do IBGE. O percentual tem recorte e edição definidos.",
           "analise_distratores": {
             "B": "Balsas é polo do agronegócio no sul.",
             "C": "Imperatriz é capital regional urbana no sudoeste, sem esse percentual.",
@@ -14616,6 +15720,190 @@
           },
           "dificuldade": "intermediaria",
           "subtopico": "Questões ambientais, conservação da biodiversidade e desenvolvimento sustentável"
+        },
+        {
+          "questao_id": "CG-GHM-04-EXP-Q001",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "A conservação da floresta na região do Gurupi é favorecida, além da proteção de áreas isoladas, pela",
+          "alternativas": {
+            "A": "fragmentação crescente dos remanescentes.",
+            "B": "eliminação de todo monitoramento.",
+            "C": "manutenção da conectividade entre habitats e controle de pressões ambientais.",
+            "D": "conversão integral da vegetação.",
+            "E": "substituição de floresta por infraestrutura urbana."
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "Conectividade e controle de pressões sustentam processos ecológicos.",
+          "analise_distratores": {
+            "A": "Fragmentação dificulta fluxos biológicos.",
+            "B": "Monitoramento é relevante.",
+            "D": "Conversão remove habitat.",
+            "E": "Não conserva floresta."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Questões ambientais, conservação da biodiversidade e desenvolvimento sustentável"
+        },
+        {
+          "questao_id": "CG-GHM-04-EXP-Q002",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "A APA da Baixada Maranhense, segundo o sistema de categorias do SNUC, é unidade de",
+          "alternativas": {
+            "A": "proteção integral na categoria reserva biológica.",
+            "B": "uso sustentável, com regras de ocupação e utilização.",
+            "C": "uso exclusivamente industrial.",
+            "D": "patrimônio cultural sem normas ambientais.",
+            "E": "proibição automática de toda presença humana."
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "APA pertence ao grupo de uso sustentável.",
+          "analise_distratores": {
+            "A": "São categorias diferentes.",
+            "C": "Não é destinação exclusiva.",
+            "D": "Possui normas de conservação.",
+            "E": "O regime permite usos regulados."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Questões ambientais, conservação da biodiversidade e desenvolvimento sustentável"
+        },
+        {
+          "questao_id": "CG-GHM-04-EXP-Q003",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "A designação Ramsar de uma área úmida significa que",
+          "alternativas": {
+            "A": "todas as terras passam automaticamente à União.",
+            "B": "a área é necessariamente patrimônio cultural UNESCO.",
+            "C": "não existe categoria nacional de conservação.",
+            "D": "há reconhecimento internacional da importância da área úmida, distinto de sua categoria jurídica nacional.",
+            "E": "a área deixa de ter relações com comunidades locais."
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "Ramsar é reconhecimento de áreas úmidas, não substitui o SNUC.",
+          "analise_distratores": {
+            "A": "Não transfere automaticamente propriedade.",
+            "B": "É outro instrumento.",
+            "C": "As categorias podem coexistir.",
+            "E": "Comunidades podem manter vínculos."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Questões ambientais, conservação da biodiversidade e desenvolvimento sustentável"
+        },
+        {
+          "questao_id": "CG-GHM-04-EXP-Q004",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "Na segunda apuração do Censo 2022, o IBGE registrou 240.026 quilombolas fora e 29.142 dentro de territórios oficialmente delimitados no Maranhão. Isso mostra que",
+          "alternativas": {
+            "A": "o total censitário inclui moradores dentro e fora desses territórios.",
+            "B": "a população fora dos territórios não é quilombola.",
+            "C": "delimitação e titulação são conceitos equivalentes.",
+            "D": "o número de pessoas corresponde ao de comunidades.",
+            "E": "apenas moradores urbanos foram contados."
+          },
+          "gabarito": "A",
+          "justificativa_gabarito": "A autodeclaração e localização são variáveis distintas.",
+          "analise_distratores": {
+            "B": "Identidade não depende desse limite.",
+            "C": "São etapas distintas.",
+            "D": "Pessoas não são comunidades.",
+            "E": "O censo inclui áreas rurais e urbanas."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Povos indígenas, comunidades quilombolas e populações tradicionais"
+        },
+        {
+          "questao_id": "CG-GHM-04-EXP-Q005",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "Um município registra 8 mil quilombolas em 10 mil habitantes; outro registra 20 mil em 100 mil. No exemplo hipotético,",
+          "alternativas": {
+            "A": "o primeiro tem maior contingente absoluto.",
+            "B": "o segundo tem maior proporção.",
+            "C": "ambos têm 20% de população quilombola.",
+            "D": "o primeiro tem 20 mil quilombolas.",
+            "E": "o primeiro tem maior proporção, mas o segundo maior contingente absoluto."
+          },
+          "gabarito": "E",
+          "justificativa_gabarito": "80% contra 20%; 8 mil contra 20 mil.",
+          "analise_distratores": {
+            "A": "8 mil é menor que 20 mil.",
+            "B": "20% é menor que 80%.",
+            "C": "As proporções são diferentes.",
+            "D": "O dado é 8 mil."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Povos indígenas, comunidades quilombolas e populações tradicionais"
+        },
+        {
+          "questao_id": "CG-GHM-04-EXP-Q006",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "A presença de pessoas indígenas fora de terras oficialmente demarcadas deve ser interpretada como",
+          "alternativas": {
+            "A": "perda automática do pertencimento indígena.",
+            "B": "impossibilidade de residência urbana.",
+            "C": "evidência de que identidade, residência e situação jurídica territorial são dimensões distintas.",
+            "D": "prova de que não há terras indígenas no estado.",
+            "E": "igualdade entre pessoas e aldeias."
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "O censo distingue pertencimento e localização da residência.",
+          "analise_distratores": {
+            "A": "Pertencimento não depende da residência.",
+            "B": "Há indígenas em cidades.",
+            "D": "Há terras indígenas no Maranhão.",
+            "E": "As unidades de contagem diferem."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Povos indígenas, comunidades quilombolas e populações tradicionais"
+        },
+        {
+          "questao_id": "CG-GHM-04-EXP-Q007",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "As reivindicações das quebradeiras de coco babaçu relacionadas a leis locais de acesso aos babaçuais exemplificam",
+          "alternativas": {
+            "A": "a eliminação de todas as atividades extrativistas.",
+            "B": "a articulação entre geração de renda, direitos de acesso e conservação de recursos.",
+            "C": "uma modalidade de transporte ferroviário.",
+            "D": "a transformação automática de todo babaçual em parque nacional.",
+            "E": "a ausência de participação social."
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "A organização extrativista envolve recursos, território e trabalho.",
+          "analise_distratores": {
+            "A": "Buscam condições para extrativismo.",
+            "C": "Não é infraestrutura de transporte.",
+            "D": "Categoria de UC exige outro procedimento.",
+            "E": "É ação coletiva."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Povos indígenas, comunidades quilombolas e populações tradicionais"
+        },
+        {
+          "questao_id": "CG-GHM-04-EXP-Q008",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "Uma intervenção em campos inundáveis da Baixada Maranhense que busque desenvolvimento sustentável deve considerar",
+          "alternativas": {
+            "A": "somente aumento imediato da produção.",
+            "B": "a eliminação de toda cheia natural.",
+            "C": "a ausência de usuários tradicionais.",
+            "D": "regime hídrico, biodiversidade, usos comunitários e resultados econômicos.",
+            "E": "a equivalência entre inundação e degradação."
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "A análise integra dimensões ambientais, sociais e econômicas.",
+          "analise_distratores": {
+            "A": "Não basta um indicador.",
+            "B": "Cheias podem sustentar ecossistemas.",
+            "C": "Há diversos usos tradicionais.",
+            "E": "Inundação pode ser natural."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Questões ambientais, conservação da biodiversidade e desenvolvimento sustentável"
         }
       ],
       "flashcards": [
@@ -14631,8 +15919,8 @@
         },
         {
           "card_id": "CG-GHM-04-FC002",
-          "frente": "Qual município brasileiro tem a maior proporção de população quilombola (Censo 2022)?",
-          "verso": "Alcântara (MA), com 84,6% de sua população autodeclarada quilombola.",
+          "frente": "Qual município tinha cerca de 84,6% de população quilombola na primeira divulgação do Censo 2022?",
+          "verso": "Alcântara (84,57% nessa edição).",
           "tipo": "legislacao_dado",
           "tags": [
             "alcantara",
@@ -14641,7 +15929,7 @@
         },
         {
           "card_id": "CG-GHM-04-FC003",
-          "frente": "Quais são os 3 Sítios Ramsar (áreas úmidas de importância internacional) do Maranhão?",
+          "frente": "Quais sítios Ramsar maranhenses são destacados pelo MMA?",
           "verso": "APA das Reentrâncias Maranhenses, APA da Baixada Maranhense e Parque Estadual Marinho do Parcel de Manuel Luís.",
           "tipo": "conceito",
           "tags": [
@@ -14651,8 +15939,8 @@
         },
         {
           "card_id": "CG-GHM-04-FC004",
-          "frente": "Quantas pessoas indígenas residem no Maranhão segundo o Censo 2022 e quais os principais povos?",
-          "verso": "57.166 indígenas (43.281 em TIs); destaques: Guajajara/Tenetehara, Awá-Guajá, Ka'apor e povos Timbira (Canela, Gavião, Krikati).",
+          "frente": "Quais povos indígenas estão entre os presentes no Maranhão?",
+          "verso": "Guajajara/Tenetehara, Awá-Guajá, Ka'apor, Krikati e outros povos Timbira.",
           "tipo": "legislacao_dado",
           "tags": [
             "indigenas",
@@ -14678,9 +15966,149 @@
             "babacu",
             "povos-tradicionais"
           ]
+        },
+        {
+          "card_id": "CG-GHM-04-EXP-FC001",
+          "frente": "O que significa fragmentação de habitats?",
+          "verso": "Divisão de ambientes em remanescentes menores e potencialmente isolados.",
+          "tipo": "conceito",
+          "tags": [
+            "maranhao",
+            "cg-ghm-04"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-04-EXP-FC002",
+          "frente": "Qual lei institui o SNUC?",
+          "verso": "Lei 9.985/2000.",
+          "tipo": "conceito",
+          "tags": [
+            "maranhao",
+            "cg-ghm-04"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-04-EXP-FC003",
+          "frente": "Qual o grupo de proteção da Rebio do Gurupi?",
+          "verso": "Proteção integral.",
+          "tipo": "conceito",
+          "tags": [
+            "maranhao",
+            "cg-ghm-04"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-04-EXP-FC004",
+          "frente": "Qual o grupo de proteção da APA da Baixada?",
+          "verso": "Uso sustentável.",
+          "tipo": "conceito",
+          "tags": [
+            "maranhao",
+            "cg-ghm-04"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-04-EXP-FC005",
+          "frente": "O que diferencia Ramsar de UNESCO?",
+          "verso": "Ramsar reconhece áreas úmidas; UNESCO inscreve bens de patrimônio mundial.",
+          "tipo": "conceito",
+          "tags": [
+            "maranhao",
+            "cg-ghm-04"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-04-EXP-FC006",
+          "frente": "Que ambiente caracteriza o Parcel de Manuel Luís?",
+          "verso": "Ambientes recifais marinhos.",
+          "tipo": "conceito",
+          "tags": [
+            "maranhao",
+            "cg-ghm-04"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-04-EXP-FC007",
+          "frente": "Qual o total quilombola maranhense na primeira divulgação do Censo 2022?",
+          "verso": "269.074 pessoas.",
+          "tipo": "conceito",
+          "tags": [
+            "maranhao",
+            "cg-ghm-04"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-04-EXP-FC008",
+          "frente": "Qual o total quilombola na segunda apuração do Censo 2022?",
+          "verso": "269.168 pessoas.",
+          "tipo": "conceito",
+          "tags": [
+            "maranhao",
+            "cg-ghm-04"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-04-EXP-FC009",
+          "frente": "Quantos quilombolas residiam fora de territórios oficialmente delimitados, na segunda apuração?",
+          "verso": "240.026 pessoas no Maranhão.",
+          "tipo": "conceito",
+          "tags": [
+            "maranhao",
+            "cg-ghm-04"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-04-EXP-FC010",
+          "frente": "Delimitação territorial equivale a titulação?",
+          "verso": "Não. São situações jurídicas distintas.",
+          "tipo": "conceito",
+          "tags": [
+            "maranhao",
+            "cg-ghm-04"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-04-EXP-FC011",
+          "frente": "Residência fora de terra indígena elimina identidade indígena?",
+          "verso": "Não. Pertencimento e localização são dimensões distintas.",
+          "tipo": "conceito",
+          "tags": [
+            "maranhao",
+            "cg-ghm-04"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-04-EXP-FC012",
+          "frente": "Qual decreto instituiu a política de povos e comunidades tradicionais?",
+          "verso": "Decreto 6.040/2007.",
+          "tipo": "conceito",
+          "tags": [
+            "maranhao",
+            "cg-ghm-04"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-04-EXP-FC013",
+          "frente": "Leis municipais do Babaçu Livre valem automaticamente em todo o Maranhão?",
+          "verso": "Não. A aplicação depende da norma e de sua competência territorial.",
+          "tipo": "conceito",
+          "tags": [
+            "maranhao",
+            "cg-ghm-04"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-04-EXP-FC014",
+          "frente": "Que aspectos devem ser considerados na gestão de campos alagáveis?",
+          "verso": "Dinâmica da água, conservação, usos comunitários, direitos e economia.",
+          "tipo": "conceito",
+          "tags": [
+            "maranhao",
+            "cg-ghm-04"
+          ]
         }
       ],
-      "teoria_md": "---\ntopico_id: CG-GHM-04\nslug: meio-ambiente-povos-tradicionais-ma\ntitulo: \"Questões Ambientais, Conservação da Biodiversidade e Povos Tradicionais no Maranhão\"\nedital: SEDUC-MA-01-2026\nbanca: FCC\nstatus: em_auditoria\nsinergia_especifica: CE-GEO-14\n---\n\n# 1. Delimitação no Edital e Sinergia Dupla (Camada A)\n- **Itens explícitos:** Conhecimentos Gerais (p. 60 — *Questões ambientais, conservação da biodiversidade e desenvolvimento sustentável. Povos indígenas, comunidades quilombolas e populações tradicionais*) + Conhecimentos Específicos (`CE-GEO-14`, p. 76 — *Questões ambientais do Maranhão*).\n\n# 2. Pressões Ambientais e Conservação no Maranhão\nPor estar na interface Amazônia–Cerrado–Zona Costeira, o Maranhão enfrenta vetores distintos de pressão ambiental:\n1. **Amazônia Maranhense (Oeste/Noroeste):** uma das porções mais pressionadas do **Arco do Desmatamento**, afetada por extração ilegal de madeira, expansão de pastagens, queimadas e pressão sobre a **Reserva Biológica (Rebio) do Gurupi** e Terras Indígenas vizinhas.\n2. **Cerrado Sul-Maranhense (MATOPIBA):** supressão de vegetação nativa para agricultura mecanizada de grãos, erosão em chapadões, assoreamento de nascentes (como formadores das bacias do Parnaíba e Itapecuru) e uso intensivo de agroquímicos.\n3. **Baixada Maranhense e Zona Costeira:** conflitos ligados à bubalinocultura extensiva em campos alagáveis, especulação imobiliária em áreas de dunas/manguezais e pressão pesqueira.\n\n### Unidades de Conservação e os 3 Sítios Ramsar do Maranhão\nO Maranhão abriga **três Sítios Ramsar** (Áreas Úmidas de Importância Internacional reconhecidas pela Convenção de Ramsar — [UFPA/NAEA](https://periodicos.ufpa.br/index.php/ncn/article/download/8278/7508)):\n1. **APA das Reentrâncias Maranhenses** (reconhecida em 1993) — manguezais e estuários do litoral ocidental.\n2. **APA da Baixada Maranhense** (1,7 milhão de ha; reconhecida em 2000) — campos inundáveis, lagos, babaçuais e manguezais.\n3. **Parque Estadual Marinho do Parcel de Manuel Luís** (reconhecido em 2000) — grande banco de corais ao largo de Cururupu.\n\nAlém disso, destacam-se UCs federais de proteção integral como o **Parque Nacional dos Lençóis Maranhenses** (Patrimônio Mundial Natural — UNESCO 2024), o **Parque Nacional da Chapada das Mesas** (Cerrado sul-maranhense) e a **Reserva Biológica do Gurupi** (último grande remanescente amazônico contínuo do estado).\n\n# 3. Comunidades Quilombolas no Maranhão (Dados Oficiais — Censo 2022)\nSegundo o [IBGE — O Brasil Quilombola (Censo 2022)](https://www.ibge.gov.br/brasil-quilombola/) e a [SEIR-MA](https://igualdaderacial.ma.gov.br/noticias/censo-2022-do-ibge-mostra-que-maranhao-e-o-estado-com-o-maior-numero-relativamente-de-quilombolas-do-pais-sao-269.074-que-se-autoidentificaram):\n- O Maranhão possui **269.168 pessoas quilombolas** (2ª apuração do Censo 2022; `269.074` na primeira divulgação), o que corresponde a **3,97% da população estadual**.\n- **Ranking nacional (altíssima chance de prova!):**\n  - **1º lugar proporcional do Brasil** (maior percentual de população quilombola entre todos os estados; média nacional é 0,65%).\n  - **2º lugar absoluto do Brasil**, atrás apenas da Bahia (397.059). Juntos, Bahia e Maranhão concentram mais de **50%** da população quilombola do país.\n- **Destaque municipal:** **Alcântara (MA)** é o município brasileiro com a **maior proporção de população quilombola do país (84,6%)**, seguido no estado em números absolutos por Itapecuru Mirim.\n- **Desafio fundiário:** grande parcela da população quilombola maranhense ainda reside fora de territórios oficialmente titulados/delimitados (240.026 fora vs. 29.142 dentro de territórios oficialmente delimitados no Censo 2022).\n\n# 4. Povos Indígenas e Populações Tradicionais\n- **Povos Indígenas (Censo 2022 — IBGE):** **57.166 pessoas indígenas** no Maranhão (0,84% da população estadual), sendo **43.281 residentes em Terras Indígenas** ([IBGE Cidades@](https://cidades.ibge.gov.br/brasil/ma/pesquisa/10101/0)). Principais povos: **Guajajara (Tenetehara)** — o mais numeroso no estado —, **Awá-Guajá** (incluindo grupos em isolamento voluntário), **Ka'apor**, e povos de língua Jê/Timbira (**Canela, Gavião, Krikati, Krenyê**). Principais TIs: **Araribóia**, **Caru**, **Alto Turiaçu**, **Cana Brava** e **Governador**.\n- **Quebradeiras de Coco Babaçu:** movimento tradicional (MIQCB — Movimento Interestadual das Quebradeiras de Coco Babaçu) que atua na defesa dos babaçuais e do livre acesso aos frutos (**Leis municipais do Babaçu Livre**), combinando geração de renda feminina, extrativismo sustentável e conservação da Mata dos Cocais.\n"
+      "teoria_md": "# 1. Pressões ambientais e diversidade territorial\n\nAs questões ambientais do Maranhão variam conforme ecossistemas, atividades produtivas, distribuição da terra e infraestrutura. No oeste amazônico, retirada de vegetação, exploração ilegal de madeira, incêndios e expansão de usos agropecuários podem fragmentar remanescentes e ameaçar a biodiversidade. Na Reserva Biológica do Gurupi, a proteção de florestas relaciona-se também à conectividade ecológica com áreas vizinhas.\n\nNo Cerrado, alterações de uso da terra podem afetar nascentes, infiltração, erosão e qualidade da água. A intensidade dos impactos depende da cobertura, do manejo e das características do solo. A perda de vegetação nativa e a fragmentação de habitats não são consequências inevitáveis de toda atividade agrícola, mas riscos que exigem avaliação e controle.\n\nNa Baixada Maranhense, cheias sazonais sustentam campos alagáveis e usos pesqueiros. Cercamentos e criação extensiva de animais podem gerar disputas de acesso e modificar condições ambientais em determinados locais. No litoral, ocupação urbana, resíduos, alteração de manguezais e pressão sobre recursos pesqueiros constituem outros desafios. Identificar o processo e a escala é melhor que generalizar uma única causa para todo o estado.\n\n# 2. Conservação e desenvolvimento sustentável\n\nBiodiversidade inclui variedade genética, de espécies e de ecossistemas. Conservar não significa apenas contabilizar hectares; a qualidade do habitat, a conectividade, a fiscalização e as condições sociais também importam. Restauração de áreas degradadas e corredores ecológicos podem favorecer processos ambientais, mas resultados dependem de contexto e acompanhamento.\n\nA Lei 9.985/2000 institui o Sistema Nacional de Unidades de Conservação (SNUC). As categorias de proteção integral priorizam preservação, admitindo em regra uso indireto dos recursos naturais, conforme exceções legais. As de uso sustentável conciliam conservação com formas reguladas de utilização.\n\n| Categoria | Grupo | Exemplo maranhense |\n|---|---|---|\n| Parque nacional | Proteção integral | Lençóis Maranhenses e Chapada das Mesas |\n| Reserva biológica | Proteção integral | Gurupi |\n| Área de proteção ambiental | Uso sustentável | Baixada e Reentrâncias Maranhenses |\n\nNão confunda proteção integral com proibição de toda presença humana. Visitação, pesquisa e educação ambiental obedecem a regras que variam por categoria. APA pode abranger terras públicas e privadas e possui normas de uso e ocupação. Desenvolvimento sustentável exige avaliar simultaneamente efeitos econômicos, ambientais e sociais, com horizonte de longo prazo.\n\n# 3. Áreas úmidas, Ramsar e patrimônio mundial\n\nÁreas úmidas incluem ecossistemas em que a presença de água permanente ou sazonal condiciona processos ecológicos. Elas podem armazenar água, abrigar espécies, sustentar pesca e regular fluxos. A inundação natural de campos não é, por si só, degradação.\n\nA Convenção de Ramsar reconhece áreas úmidas de importância internacional. Entre os sítios maranhenses documentados pelo Ministério do Meio Ambiente estão a APA das Reentrâncias Maranhenses (manguezais e estuários), a APA da Baixada Maranhense (campos inundáveis e lagos) e o Parque Estadual Marinho do Parcel de Manuel Luís (ambientes recifais marinhos).\n\n![Quadro conceitual: Ramsar reconhece áreas úmidas; UNESCO reconhece patrimônio mundial; SNUC define categorias nacionais.](./media/geografia-maranhao/reconhecimentos.svg)\n\nO Parque Nacional dos Lençóis Maranhenses foi inscrito no Patrimônio Mundial natural da UNESCO em 2024. O reconhecimento UNESCO, a designação Ramsar e a categoria jurídica de unidade de conservação não são sinônimos. A mesma área pode reunir mais de um reconhecimento, e a designação internacional não substitui as regras nacionais.\n\n# 4. Povos indígenas: diversidade e direitos territoriais\n\nO Maranhão abriga diversos povos indígenas, entre eles Guajajara/Tenetehara, Awá-Guajá, Ka'apor, Krikati e outros povos Timbira. Denominações coletivas não devem apagar diferenças de língua, história, organização social ou território. Terras indígenas como Araribóia, Caru e Alto Turiaçu são referências geográficas importantes.\n\nO Censo 2022 investigou pertencimento indígena e localização da residência; as inovações metodológicas e ampliações de cobertura afetam a comparabilidade com censos anteriores. O governo federal divulgou 57.214 pessoas indígenas no Maranhão em notícia do INSS de 2026 referente ao Censo 2022; outra publicação institucional usa 57.166. Registre o produto estatístico, a edição e o recorte antes de usar valores exatos; não trate a divergência como crescimento populacional.\n\nPessoas indígenas vivem dentro e fora de terras indígenas, em situações urbanas e rurais. O total censitário não equivale ao número de aldeias ou terras demarcadas. A Constituição reconhece direitos originários sobre as terras tradicionalmente ocupadas; o estudo deve distinguir reconhecimento, delimitação, demarcação e proteção efetiva.\n\n# 5. Quilombolas: interpretar dados e territorialidades\n\nO Censo 2022 investigou especificamente a população quilombola pela primeira vez em um levantamento censitário nacional. Na primeira divulgação, o IBGE registrou 269.074 pessoas quilombolas no Maranhão. O portal O Brasil Quilombola apresenta, na segunda apuração, 240.026 residentes fora e 29.142 dentro de territórios oficialmente delimitados, totalizando 269.168.\n\nO Maranhão tem a maior proporção estadual de população quilombola, cerca de 3,97%, e o segundo maior contingente absoluto, após a Bahia. Não confunda posição por percentual com posição por número de pessoas. A primeira divulgação identificou Alcântara com 84,57% da população quilombola, cerca de 84,6%; cite essa edição ao utilizar o percentual.\n\nTerritório quilombola oficialmente delimitado não é necessariamente território titulado. A residência fora de uma área delimitada não retira identidade quilombola. A análise fundiária envolve direitos coletivos, modos de vida, reconhecimento, regularização e conflitos. O caso de Alcântara e o centro de lançamento ilustra a necessidade de conciliar projetos estatais com direitos territoriais; ver a contextualização jurídica em CE-GEO-14.\n\n# 6. Populações tradicionais, extrativismo e gestão participativa\n\nO Decreto 6.040/2007 instituiu a política nacional voltada a povos e comunidades tradicionais, reconhecendo grupos culturalmente diferenciados e seus modos de organização e relação com territórios e recursos. Não existe um único padrão de vida tradicional: práticas, atividades e formas de identificação variam.\n\nAs quebradeiras de coco babaçu constituem referência de organização extrativista e protagonismo feminino. O acesso aos babaçuais permite a produção de alimentos, óleo, artesanato e outros produtos, além de renda. Leis locais do Babaçu Livre tratam de acesso e proteção em determinados municípios; a existência de uma norma municipal não torna seu texto automaticamente aplicável a todo o Maranhão.\n\nPescadores artesanais, comunidades ribeirinhas, quilombolas e povos indígenas participam de diferentes redes socioambientais. A conservação pode se beneficiar de conhecimento local, participação e gestão compartilhada, respeitados os direitos e as regras aplicáveis a cada categoria territorial. Não se deve pressupor que qualquer atividade tradicional seja automaticamente isenta de impacto, nem que comunidades sejam obstáculos à conservação.\n\nExemplo: um plano para campos alagáveis deve considerar dinâmica de cheia e vazante, acesso à pesca, manejo de animais, direitos de uso e qualidade da água. Uma solução que melhora um indicador econômico, mas restringe acesso comunitário sem avaliar consequências, não demonstra sustentabilidade.\n\nRecuperação: diferencie Ramsar, UNESCO e SNUC; compare os ambientes de Gurupi, Baixada e Parcel de Manuel Luís; explique diferença entre total e proporção de quilombolas; identifique o sentido das leis do Babaçu Livre."
     },
     {
       "schema_version": "2.0.0",
