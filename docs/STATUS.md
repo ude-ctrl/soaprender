@@ -49,3 +49,8 @@ A auditoria científica do acervo segue pendente. Sincronização entre disposit
 ## História e Cultura do Maranhão
 
 - CG-GHM-05 a 08 ampliadas em 24 missões, 52 questões e 80 flashcards. Expansão editorial das oito unidades de História e Geografia do Maranhão concluída; auditoria e atualidades específicas de 2026 pendentes. [Registro](INTEGRACAO_HISTORIA_CULTURA_MARANHAO.md). Próximo lote: Língua Portuguesa.
+
+
+## Língua Portuguesa
+
+- CG-POR-01 a 08 ampliadas em 48 missões, 104 questões e 160 flashcards. Correções de norma, escopo de redação oficial e ambiguidades em itens legados. [Registro](INTEGRACAO_PORTUGUES.md). Mantido em_auditoria. Próximo lote: Raciocínio Lógico-Matemático.
