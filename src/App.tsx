@@ -3,6 +3,7 @@ import { ArrowLeft, CalendarClock, ChartNoAxesCombined, BookOpen, ChevronRight, 
 import { catalog, type Item } from './content/catalog';
 import { mastery, reviewIndex, reviewQueue, stats } from './engine/progress';
 import { useStudy } from './store/study';
+import { useSessionCheckpoints, type Page } from './store/session';
 import { Contours } from './components/EditorialArt';
 import { UnitSearch } from './components/UnitSearch';
 import { ExamGuide } from './components/Content';
@@ -14,8 +15,6 @@ import { Settings } from './components/Settings';
 import { PerformancePage, StudyHome } from './components/StudyOverview';
 import { UnitPage } from './components/UnitPage';
 
-type Page = 'home' | 'map' | 'unit' | 'review' | 'performance' | 'exam' | 'settings';
-type Session = { items: Item[]; recovery: boolean; returnTo: Page; scrollY: number };
 type NavTarget = Exclude<Page, 'unit'> | Item['kind'];
 const navigation = [
   { page: 'home', label: 'Início', icon: House },
@@ -29,11 +28,12 @@ const navigation = [
 ] as const;
 
 export default function App() {
-  const { progress, error, update } = useStudy();
-  const [page, setPage] = useState<Page>('home');
-  const [discipline, setDiscipline] = useState('CE-GEO');
-  const [unitId, setUnitId] = useState('');
-  const [session, setSession] = useState<Session>();
+  const { progress, error, ready, preferences } = useStudy();
+  const checkpoints = useSessionCheckpoints();
+  const session = checkpoints.active;
+  const [page, setPage] = useState<Page>(() => session?.returnTo ?? 'home');
+  const [discipline, setDiscipline] = useState(() => session?.discipline ?? 'CE-GEO');
+  const [unitId, setUnitId] = useState(() => session?.unitId ?? '');
   const [now, setNow] = useState(Date.now);
   const [collapsed, setCollapsed] = usePreference('navigation', false, [true, false]);
   const [settingsHost, setSettingsHost] = useState<HTMLDivElement | null>(null);
@@ -60,7 +60,7 @@ export default function App() {
 
   function go(next: Page, position = 0) {
     pendingScroll.current = position;
-    setSession(undefined);
+    checkpoints.suspend();
     setImmersive(false);
     setPage(next);
     setNow(Date.now());
@@ -82,7 +82,7 @@ export default function App() {
   }
 
   function start(items: Item[], recovery: boolean) {
-    setSession({ items, recovery, returnTo: page, scrollY: session?.scrollY ?? window.scrollY });
+    checkpoints.start(items, recovery, { returnTo: page, scrollY: session?.scrollY ?? window.scrollY, unitId, discipline });
     setImmersive(false);
     pendingScroll.current = 0;
   }
@@ -109,8 +109,10 @@ export default function App() {
   const exitSession = () => { if (session) go(session.returnTo, session.scrollY); };
   const section = navigation.find(item => item.page === page)?.label ?? 'Unidade de estudo';
   const reading = page === 'unit' && !session;
-  const sessionType = session?.items[0]?.kind;
+  const sessionType = session && catalog.items.get(session.itemIds[session.index] ?? session.itemIds[0])?.kind;
   const disciplineName = unit && catalog.disciplines.find(d => d.disciplina_id === unit.disciplina_id)?.nome;
+
+  if (!ready) return <main className="site-main"><p role="status">Carregando seu progresso…</p></main>;
 
   return <div className={`app-shell ${reading ? 'study-view reading-view' : session ? 'study-view' : ''} ${collapsed ? 'nav-collapsed' : ''} ${immersive ? 'is-immersive' : ''}`}>
     <aside className="site-sidebar">
@@ -151,19 +153,19 @@ export default function App() {
               <span title={`${scores.streak} dias de prática consecutiva`}><Flame size={16} /> {scores.streak}</span>
               <span className="xp" title={`Nível ${scores.level}`}><Zap size={16} /> {scores.xp} XP</span>
             </div>}
-            {(!session || session.items.every(item => item.kind === 'card')) && <button className="mode" aria-pressed={progress.intensity === 'arena'} onClick={() =>
-              update(p => ({ ...p, intensity: p.intensity === 'focus' ? 'arena' : 'focus' }))}>
+            {(!session || sessionType === 'card') && <button className="mode" aria-pressed={progress.intensity === 'arena'} onClick={() =>
+              preferences(p => ({ ...p, intensity: p.intensity === 'focus' ? 'arena' : 'focus' }))}>
               {progress.intensity === 'focus' ? 'Foco' : 'Arena'}
             </button>}
             <IconButton label={progress.appearance === 'light' ? 'Usar aparência escura' : 'Usar aparência clara'}
               icon={progress.appearance === 'light' ? Moon : Sun}
-              onClick={() => update(p => ({ ...p, appearance: p.appearance === 'light' ? 'dark' : 'light' }))} />
+              onClick={() => preferences(p => ({ ...p, appearance: p.appearance === 'light' ? 'dark' : 'light' }))} />
             <IconButton className="mobile-settings" label="Abrir ajustes" icon={Settings2} onClick={() => go('settings')} />
           </div>
         </div>
       </header>
       <main className={reading ? 'site-main reader-main' : session ? 'site-main practice-main' : 'site-main'}>
-        {error && <p className="storage-error" role="alert">{error}</p>}
+        {(error || checkpoints.error) && <p className="storage-error" role="alert">{error || checkpoints.error}</p>}
         {page === 'unit' && unit && <div hidden={Boolean(session)}><UnitPage key={unitId} unit={unit}
           score={mastery(unit, reviews)} settingsHost={reading && !collapsed ? settingsHost : null} onBack={() => go('map')} onPractice={practiceUnit}
           immersive={!session && immersive} onImmersion={setImmersive} /></div>}
@@ -172,14 +174,14 @@ export default function App() {
         </div>}
         {session ? <>
           <button className="back session-exit" onClick={exitSession}><ArrowLeft size={17} /> Sair da sessão</button>
-          <Practice items={session.items} reviews={reviews} recovery={session.recovery} onExit={exitSession}
+          <Practice session={session} attempts={progress.attempts} reviews={reviews} onEdit={change => checkpoints.edit(session, change)} onExit={exitSession}
             immersive={immersive} onImmersion={setImmersive} />
         </> : page === 'settings' ? <div className="standard-page"><Settings /></div> :
           page === 'exam' ? <div className="standard-page"><header className="page-heading"><h1>Edital e estratégia</h1></header><ExamGuide /></div> :
           page === 'performance' ? <PerformancePage reviews={reviews} attempts={progress.attempts} onDiscipline={openDiscipline} /> :
           page === 'map' ? <StudyMap reviews={reviews} disciplineId={discipline} onDiscipline={openDiscipline} onUnit={openUnit} /> :
           page === 'home' ? <StudyHome reviews={reviews} due={due} attempts={progress.attempts} onUnit={openUnit}
-            onDiscipline={openDiscipline} onReview={() => go('review')} onMap={() => go('map')} onPerformance={() => go('performance')} /> : null}
+            onDiscipline={openDiscipline} onPractice={openNavigation} onReview={() => go('review')} onMap={() => go('map')} onPerformance={() => go('performance')} /> : null}
       </main>
     </div>
   </div>;

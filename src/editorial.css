@@ -118,7 +118,8 @@ dialog.search-dialog { width: min(92vw, 560px); max-height: 78dvh; }
 .trail-dot { width: var(--node); height: var(--node); display: grid; place-items: center; border-radius: 50%; background: var(--base); color: var(--on-accent); border: 2px solid var(--muted); }
 .practiced .trail-dot { background: var(--accent); border-color: var(--accent); }
 [aria-current="step"] .trail-dot { background: var(--ornament); color: var(--base); border-color: var(--base); outline: 2px solid var(--ornament); }
-.trail-name { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; max-width: 100%; font-size: .86rem; }
+.trail-name { display: block; min-width: 0; max-width: 100%; overflow-wrap: anywhere; font-size: .86rem; line-height: 1.4; }
+.mobile-practice { display: none; }
 .trail-preview button:not([aria-current]) .trail-name { font-weight: 480; }
 .home-disciplines { margin-top: 9px; }
 .home-disciplines .section-head { margin-bottom: 2px; }
@@ -190,8 +191,9 @@ button, .file-button { transition: background-color .16s ease, border-color .16s
   .mission-facts { gap: 5px 8px; }
   .mission-facts li + li { padding-left: 6px; }
   .home-disciplines .discipline-list { grid-template-columns: 1fr; }
-  .trail-preview { overflow: auto; grid-template-columns: repeat(6, minmax(74px, 1fr)); }
-  .trail-preview::before { inset-inline: 36px auto; width: calc(max(100%, 444px) - 72px); }
+  .mobile-practice { display: flex; margin-block: 14px; }
+  .trail-preview { overflow: auto; grid-template-columns: repeat(6, minmax(108px, 1fr)); }
+  .trail-preview::before { inset-inline: 54px auto; width: calc(max(100%, 648px) - 108px); }
 }
 @media (prefers-reduced-motion: reduce) {
   button, .file-button { transition: none; }

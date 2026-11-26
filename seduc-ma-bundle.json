@@ -8661,7 +8661,7 @@
             "E": "a velocidade das notícias aumentou o tempo disponível para análise crítica."
           },
           "gabarito": "A",
-          "justificativa_gabarito": "A alternativa B constitui paráfrase fiel e precisa (compreensão textual) sem extrapolação nem restrição indevida.",
+          "justificativa_gabarito": "O trecho faz duas afirmações: a rapidez da circulação não garantiu, por si só, cidadãos mais bem informados, e muitas vezes encurtou o tempo para verificar os fatos. A paráfrase mantém as duas ideias e a frequência indicada por “muitas vezes”.",
           "analise_distratores": {
             "B": "Extrapolação absoluta ('destruíram completamente qualquer possibilidade').",
             "C": "Extrapolação: o texto não faz essa afirmação sobre o passado.",
@@ -8753,7 +8753,7 @@
             "E": "Os recursos tecnológicos demandam mediação pedagógica intencional para gerar avanços."
           },
           "gabarito": "D",
-          "justificativa_gabarito": "A alternativa C afirma exatamente o oposto do enunciado (que exige mediação docente como condição necessária — 'só... quando'). Todas as demais são paráfrases válidas.",
+          "justificativa_gabarito": "A expressão “só… quando” apresenta a mediação intencional do professor como condição necessária. A afirmação de que as ferramentas garantem avanços automaticamente e independentemente do professor contradiz essa condição.",
           "analise_distratores": {
             "A": "Paráfrase fiel.",
             "B": "Equivalência lógica fiel.",
@@ -9213,7 +9213,7 @@
             "E": "Fui bem na prova POR QUE revisei todas as questões."
           },
           "gabarito": "D",
-          "justificativa_gabarito": "Em A, 'o porquê' está substantivado (= o motivo), precedido de artigo, grafado corretamente junto e com acento.",
+          "justificativa_gabarito": "Em “o porquê de tanta pressa”, a palavra significa “o motivo”. O artigo “o” marca o uso substantivado, grafado numa só palavra e com acento circunflexo.",
           "analise_distratores": {
             "A": "Equivalente a 'pela qual' → 'por que'.",
             "B": "Em fim de frase interrogativa, usa-se 'por quê?'.",
@@ -9930,7 +9930,7 @@
             "E": "Precisam-se de docentes qualificados para o ensino médio."
           },
           "gabarito": "D",
-          "justificativa_gabarito": "Em C, 'analisar' é VTD + SE (pronome apassivador), concordando corretamente no plural com o sujeito paciente 'todos os critérios do edital'.",
+          "justificativa_gabarito": "Em “Analisaram-se todos os critérios”, o “se” é pronome apassivador. A frase equivale a “Todos os critérios foram analisados”. Como o sujeito paciente está no plural, o verbo também vai ao plural.",
           "analise_distratores": {
             "A": "VTI + SE (IIS): obrigatório no singular ('Trata-se de...').",
             "B": "'Haver' (existir) é impessoal e transmite a impessoalidade ao auxiliar: 'Deve haver...'.",
@@ -10013,7 +10013,7 @@
           "questao_id": "CG-POR-06-Q005",
           "origem": "inedita_padrao_fcc",
           "referencia_prova": "Inédita — padrão FCC / Edital SEDUC-MA 01/2026",
-          "enunciado": "Na frase 'Os professores assistiram ao documentário sobre o Maranhão', o verbo destacado apresenta a mesma regência que em:",
+          "enunciado": "Na frase 'Os professores assistiram ao documentário sobre o Maranhão', o verbo destacado tem o mesmo sentido e a mesma regência que em:",
           "alternativas": {
             "A": "Os socorristas assistiram o atleta ferido.",
             "B": "O técnico assistiu o funcionamento do equipamento.",
@@ -10022,12 +10022,12 @@
             "E": "O público assistiu à apresentação cultural em São Luís."
           },
           "gabarito": "E",
-          "justificativa_gabarito": "Tanto no enunciado quanto em B, 'assistir' tem sentido de 'ver/presenciar', sendo VTI com preposição 'a'.",
+          "justificativa_gabarito": "Em “assistiram ao documentário” e “assistiu à apresentação”, “assistir” significa ver ou presenciar e, na regência da norma-padrão cobrada, pede a preposição “a”. Em “à apresentação”, a preposição se funde com o artigo feminino.",
           "analise_distratores": {
             "A": "Sentido de prestar assistência/ajudar (VTD).",
-            "B": "Construção anômala / sentido de prestar assistência.",
+            "B": "No sentido de observar, a regência pedida é “assistiu ao funcionamento”.",
             "C": "Sentido de prestar assistência (VTD).",
-            "D": "Sentido de caber/pertencer (VTI, acepção jurídica diferente)."
+            "D": "O verbo também rege “a”, mas significa “caber” ou “pertencer”, em vez de “presenciar”."
           },
           "dificuldade": "intermediaria",
           "subtopico": "Regência nominal e verbal"
@@ -10292,7 +10292,7 @@
             "E": "O edital estabelece QUE A REDAÇÃO TENHA ENTRE 20 E 30 LINHAS."
           },
           "gabarito": "E",
-          "justificativa_gabarito": "Em A, a oração 'que a redação tenha entre 20 e 30 linhas' pode ser substituída por 'ISSO' ('O edital estabelece ISSO'), exercendo função de objeto direto (Subordinada Substantiva Objetiva Direta).",
+          "justificativa_gabarito": "“Que a redação tenha entre 20 e 30 linhas” completa diretamente o sentido de “estabelece”. O conjunto pode ser substituído por “isso”: “O edital estabelece isso”. A oração é subordinada substantiva objetiva direta.",
           "analise_distratores": {
             "A": "Oração Subordinada Adverbial Temporal.",
             "B": "Oração Subordinada Adjetiva Explicativa ('o qual foi publicado...').",
@@ -10529,11 +10529,11 @@
             "E": "O relatório que o diretor aludiu está sobre a mesa."
           },
           "gabarito": "C",
-          "justificativa_gabarito": "Em B, 'referir-se' exige preposição 'a', corretamente deslocada para antes do pronome relativo 'que' ('a que o documento se refere').",
+          "justificativa_gabarito": "“Referir-se” rege a preposição “a”. Como o relativo “que” retoma “a norma”, a preposição vem antes dele: “a norma a que o documento se refere”. A forma “se refere” é compatível com a próclise na oração relativa.",
           "analise_distratores": {
             "A": "Nunca se usa artigo após 'cujo' ('cujo cronograma').",
             "B": "'Estudar' não é pronominal aqui e 'onde' atrai o pronome se houvesse próclise.",
-            "D": "A vírgula/conjunção ou palavra negativa ('não') exige próclise: 'não se deve desistir'.",
+            "D": "A palavra negativa “não” atrai o pronome: “não se deve desistir”.",
             "E": "'Aludir' exige preposição 'a': 'a que o diretor aludiu'."
           },
           "dificuldade": "intermediaria",
@@ -12323,11 +12323,11 @@
             "E": "Desde a Antiguidade grega, o tempo sempre foi um tema discutido por muitos filósofos importantes."
           },
           "gabarito": "B",
-          "justificativa_gabarito": "A alternativa C avança sobre a ideia motivadora ao identificar o mecanismo estrutural (lógica produtivista colonizando o tempo livre) e a consequência social (erosão do descanso como direito/saúde), demonstrando autoria.",
+          "justificativa_gabarito": "O trecho motivador associa aceleração e culpa. A frase selecionada desenvolve uma causa, a lógica produtivista estendida ao tempo livre, e uma consequência, o repouso passar a ser tratado como improdutividade. Essa relação amplia o argumento em vez de apenas reformular o texto de apoio.",
           "analise_distratores": {
             "A": "Paráfrase pura com sinônimos.",
             "C": "Paráfrase explícita e superficial.",
-            "D": "Proposta de intervenção genérica estilo ENEM, sem problematização.",
+            "D": "A frase apresenta uma proposta de intervenção e não desenvolve a causa nem a consequência do problema.",
             "E": "Clichê genérico e tangencial que não dialoga com o recorte."
           },
           "dificuldade": "intermediaria",
@@ -12783,7 +12783,7 @@
           "questao_id": "RED-FCC-04-Q001",
           "origem": "inedita_padrao_fcc",
           "referencia_prova": "Inédita — padrão FCC / Edital SEDUC-MA 01/2026",
-          "enunciado": "Considere as normas de coesão referencial e morfossintaxe exigidas no item 10.4.2 do Edital SEAD/MA nº 01/2026. Assinale a frase redigida em plena conformidade com a norma-padrão formal escrita.",
+          "enunciado": "Considere a coesão referencial e a morfossintaxe. Assinale a frase redigida em conformidade com a norma-padrão formal escrita.",
           "alternativas": {
             "A": "Vivemos uma época onde houveram diversas transformações tecnológicas que implicam em novos desafios.",
             "B": "Para que se alcance à equidade educacional, é preciso investir à longo prazo.",
@@ -12792,7 +12792,7 @@
             "E": "Vivemos uma época em que houve diversas transformações tecnológicas que implicam novos desafios."
           },
           "gabarito": "E",
-          "justificativa_gabarito": "Em B, 'em que' substitui corretamente 'onde' (valor temporal), 'houve' (existir) está no singular impessoal e 'implicam' (acarretar) é usado como transitivo direto (sem preposição 'em').",
+          "justificativa_gabarito": "“Em que” retoma “época” com valor temporal. “Houve” significa “existiram” e fica no singular por ser impessoal. No sentido de “acarretar”, “implicam” liga-se diretamente a “novos desafios” na regência formal cobrada.",
           "analise_distratores": {
             "A": "Três erros: 'onde' temporal, 'houveram' impessoal no plural e 'implicam em'.",
             "B": "Crase indevida antes de objeto direto ('alcance a equidade') e antes de palavra masculina ('a longo prazo').",

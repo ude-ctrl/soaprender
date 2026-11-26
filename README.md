@@ -24,3 +24,10 @@ O conteúdo vem de `seduc-ma-bundle.json`. Tentativas e preferências ficam no n
 Em **Settings → Pages → Build and deployment**, selecione **GitHub Actions** como fonte. O workflow verifica PRs, testa e publica o build em pushes para `main`.
 
 https://ude-ctrl.github.io/soaprender/
+
+Para executar também as regressões de navegador após o build:
+
+```sh
+npx playwright install chromium
+npm run test:browser
+```

@@ -17,7 +17,7 @@ export function ReviewPage({ due, reviews, onPractice }: {
     <header className="page-heading"><h1>Revisões</h1>
       <p className="muted">Recupere o conteúdo no intervalo programado e retome os itens que errou.</p></header>
     <div className="actions unit-actions">
-      <button aria-pressed={tab === 'due'} onClick={() => setTab('due')}><CalendarClock size={17} /> Hoje ({due.length})</button>
+      <button aria-pressed={tab === 'due'} onClick={() => setTab('due')}><CalendarClock size={17} /> Disponíveis ({due.length})</button>
       <button aria-pressed={tab === 'errors'} onClick={() => setTab('errors')}><BookX size={17} /> Caderno de erros ({errors.length})</button>
     </div>
     {items.length ? <section className="panel review-list">

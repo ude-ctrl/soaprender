@@ -21,3 +21,21 @@ test('rejeita alternativas ausentes e referências divergentes do edital', () =>
   invalid.unidades[0].slug = 'outro-slug';
   expect(() => createCatalog(invalid)).toThrow(/Vínculo inconsistente/);
 });
+
+test.each([
+  ['CG-POR-01-Q001', 'A', 'frequência'],
+  ['CG-POR-01-Q005', 'D', 'condição necessária'],
+  ['CG-POR-03-Q003', 'D', 'uso substantivado'],
+  ['CG-POR-06-Q001', 'D', 'pronome apassivador'],
+  ['CG-POR-06-Q005', 'E', 'ver ou presenciar'],
+  ['CG-POR-07-Q005', 'E', 'objetiva direta'],
+  ['CG-POR-08-Q004', 'C', 'preposição vem antes'],
+  ['RED-FCC-02-Q003', 'B', 'uma causa'],
+  ['RED-FCC-04-Q001', 'E', 'fica no singular'],
+])('mantém o gabarito e a explicação revisada de %s', (id, letter, keyConcept) => {
+  const item = catalog.items.get(id);
+  if (item?.kind !== 'question') throw new Error(`Questão ausente: ${id}`);
+  expect(item.data.gabarito).toBe(letter);
+  expect(item.data.justificativa_gabarito).toContain(keyConcept);
+  expect(item.data.justificativa_gabarito).not.toMatch(/\b(?:alternativa|em)\s+[A-E]\b(?=[,.;:])/);
+});

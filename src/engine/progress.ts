@@ -1,6 +1,6 @@
 import { z } from 'zod';
 import { catalog, type Item } from '../content/catalog';
-import type { Unit } from '../content/schema';
+import { letters, type Unit } from '../content/schema';
 
 export const day = 86_400_000;
 export const ratings = ['again', 'hard', 'good', 'easy'] as const;
@@ -8,6 +8,8 @@ export type Rating = typeof ratings[number];
 
 const date = z.number().int().min(0).max(8_640_000_000_000_000);
 const attemptSchema = z.object({
+  submissionId: z.string().optional(),
+  choice: z.enum(letters).optional(),
   itemId: z.string().refine(id => catalog.items.has(id)),
   at: date,
   rating: z.enum(ratings),

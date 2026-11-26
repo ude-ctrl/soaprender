@@ -44,10 +44,10 @@ export function DisciplineList({ reviews, selected, onDiscipline }: {
   </ul>;
 }
 
-export function StudyHome({ reviews, due, attempts, onUnit, onDiscipline, onReview, onPerformance, onMap }: {
+export function StudyHome({ reviews, due, attempts, onUnit, onDiscipline, onReview, onPerformance, onMap, onPractice }: {
   reviews: Reviews; due: Item[]; attempts: readonly StudyAttempt[];
   onUnit: (id: string) => void; onDiscipline: (id: string) => void;
-  onReview: () => void; onPerformance: () => void; onMap: () => void;
+  onReview: () => void; onPerformance: () => void; onMap: () => void; onPractice: (kind: Item['kind']) => void;
 }) {
   const recent = attempts.reduce<StudyAttempt | undefined>((last, item) => !last || item.at >= last.at ? item : last, undefined);
   const previous = recent && catalog.items.get(recent.itemId)?.unit;
@@ -94,6 +94,10 @@ export function StudyHome({ reviews, due, attempts, onUnit, onDiscipline, onRevi
           </div>
         </div>
       </section>
+      <div className="mobile-practice actions" aria-label="Atalhos de prática">
+        <button onClick={() => onPractice('question')}><ListChecks size={17} /> Questões FCC</button>
+        <button onClick={() => onPractice('card')}><Layers3 size={17} /> Flashcards</button>
+      </div>
       <section className="home-trail" aria-label="Sua trilha no edital">
         <div className="section-head"><h2>Sua trilha no edital</h2>
           <span>{visited.size} de {catalog.units.size} unidades com prática</span></div>
