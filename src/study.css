@@ -22,13 +22,10 @@ dd small { display: block; color: var(--muted); }
 .reader-primary-tools { display: flex; align-items: center; gap: 4px; }
 .reader-primary-tools button { background: transparent; border-color: transparent; }
 .immerse-control { display: flex; justify-content: flex-end; margin-left: auto; }
-.reader-layout { --outline-width: 96px; --tools-width: 116px; display: grid; align-items: start;
-  grid-template-columns: var(--outline-width) minmax(0, 1fr) var(--tools-width); gap: clamp(16px, 2vw, 27px); }
-.reader-layout.with-outline { --outline-width: clamp(146px, 14vw, 195px); }
-.reader-layout.with-tools { --tools-width: clamp(154px, 15vw, 215px); }
-.reader-outline { grid-column: 1; grid-row: 1; }
-.reader-tools { grid-column: 3; grid-row: 1; }
-.reader-copy { grid-column: 2; grid-row: 1; width: 100%; max-width: 810px; justify-self: center; min-width: 0;
+.reader-layout { display: grid; align-items: start; grid-template-columns: minmax(0, 1fr) max-content; gap: clamp(16px, 2vw, 27px); }
+.reader-layout.with-tools { grid-template-columns: minmax(0, 1fr) minmax(245px, 34%); }
+.reader-tools { grid-column: 2; grid-row: 1; min-width: 0; }
+.reader-copy { grid-column: 1; grid-row: 1; width: 100%; max-width: 760px; justify-self: center; min-width: 0;
   --reading-size: clamp(17px, 1.35vw, 19px); }
 .reader-copy.type-compact { --reading-size: 17px; }
 .reader-copy.type-large { --reading-size: 22px; }
@@ -40,14 +37,9 @@ dd small { display: block; color: var(--muted); }
 .reader-copy :is(.prose, .theory-body) h2 { font-size: clamp(1.4rem, 2vw, 1.95rem); margin-top: 1.15em; }
 .reader-copy .theory-body .prose h2:first-child { margin-top: 0; }
 .reader-copy .prose h3 { font-family: var(--brand-font); font-size: 1.01rem; }
-.reader-panel { position: sticky; top: 112px; max-height: calc(100dvh - 128px); overflow: auto; border-top: 1px solid var(--line); min-width: 0; }
 .panel-toggle { width: 100%; justify-content: flex-start; border-color: transparent; background: transparent; padding-inline: 4px; text-align: left; color: var(--accent); }
 .panel-toggle span:last-child { margin-left: auto; font-size: 1.12rem; }
 .reader-panel-content { padding-bottom: 10px; }
-.reader-outline li + li { border-top: 1px solid var(--line); }
-.reader-outline li a { display: flex; align-items: center; min-height: 44px; color: var(--muted); font-size: .92rem; line-height: 1.3; padding: 7px 5px; text-decoration: none; }
-.reader-outline li a:hover { background: var(--accent-wash); color: var(--accent); }
-.reader-outline li a:focus-visible { outline-offset: -2px; }
 .reader-links { display: grid; }
 .reader-links button { justify-content: flex-start; background: transparent; border-color: transparent; padding-inline: 5px; }
 .reader-links button:hover { background: var(--subtle); }
@@ -58,7 +50,7 @@ dd small { display: block; color: var(--muted); }
 .concept-note strong, .concept-note p { font-size: .92rem; line-height: 1.4; overflow-wrap: anywhere; }
 .type-control { display: grid; gap: 5px; font-weight: 650; padding: 5px; }
 .type-control span { display: flex; align-items: center; gap: 6px; }
-.type-control select { justify-content: start; min-width: 0; }
+.type-control select { width: 100%; min-width: 0; }
 .reader-reset { border-color: transparent; background: transparent; padding-inline: 5px; margin: 4px; white-space: normal; }
 .concept-diagram { margin-block: 20px; background: var(--accent-wash); padding: clamp(10px, 2vw, 18px); border-radius: 7px; }
 .concept-diagram svg { width: 100%; max-width: 610px; margin-inline: auto; }
@@ -119,7 +111,7 @@ dd small { display: block; color: var(--muted); }
 .session-end { max-width: 700px; margin-inline: auto; }
 
 .app-shell.is-immersive { display: block; }
-.is-immersive :is(.site-sidebar, .topbar, .reader-panel, .reader-toolbar > :not(.immerse-control), .reader-domain, .reader-subtopics, .session-exit, .practice-review) { display: none; }
+.is-immersive :is(.mobile-reader-settings, .site-sidebar, .topbar, .reader-panel, .reader-toolbar > :not(.immerse-control), .reader-domain, .reader-subtopics, .session-exit, .practice-review) { display: none; }
 .is-immersive .reader-layout, .is-immersive .practice-layout { display: block; }
 .is-immersive .site-main { padding-top: 46px; }
 .is-immersive .reader-copy, .is-immersive .practice, .is-immersive .practice-feedback { margin-inline: auto; }
@@ -131,11 +123,10 @@ dd small { display: block; color: var(--muted); }
 @media (min-width: 1120px) {
   .practice-has-aside { grid-template-columns: minmax(0, 1fr) minmax(230px, 33%); }
 }
-@media (max-width: 1100px) {
-  .reader-layout { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
-  .reader-outline, .reader-tools { grid-column: auto; grid-row: 1; }
-  .reader-copy { grid-column: 1 / -1; grid-row: 2; }
-  .reader-panel { position: static; max-height: 55dvh; }
+@media (max-width: 1040px) {
+  .reader-layout, .reader-layout.with-tools { grid-template-columns: minmax(0, 1fr); gap: 12px; }
+  .reader-tools { grid-column: 1; grid-row: 1; }
+  .reader-copy { grid-row: 2; }
 }
 @media (max-width: 639px) {
   .reader-toolbar .back { font-size: .88rem; }
