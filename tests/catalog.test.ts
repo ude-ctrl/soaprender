@@ -73,3 +73,15 @@ test.each([
     for(let i=1;i<=6;i++) expect(catalog.items.has(id+'-FC'+String(i).padStart(3,'0'))).toBe(true);
   }
 });
+
+ test('Geografia Humana lote 2 preserva acervo e organiza as unidades', () => {
+ for (const id of ['CE-GEO-07','CE-GEO-08','CE-GEO-09']) {
+  const unit = catalog.units.get(id)!;
+  expect(unit.teoria_md.match(/^# .+/gm)).toHaveLength(8);
+  expect(unit.questoes).toHaveLength(13);
+  expect(unit.flashcards).toHaveLength(20);
+  expect(unit.status).toBe('em_auditoria');
+  for(let i=1;i<=5;i++) expect(catalog.items.has(id+'-Q'+String(i).padStart(3,'0'))).toBe(true);
+  for(let i=1;i<=6;i++) expect(catalog.items.has(id+'-FC'+String(i).padStart(3,'0'))).toBe(true);
+ }
+});
