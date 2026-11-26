@@ -39,3 +39,8 @@ A auditoria científica do acervo segue pendente. Sincronização entre disposit
 ## Geografia do Maranhão — conhecimentos gerais
 
 - CG-GHM-01 a 04 ampliadas em 24 missões, 52 questões e 80 flashcards; mantido em_auditoria. [Registro do lote](INTEGRACAO_MARANHAO_GERAIS.md). Próximo lote: História e cultura do Maranhão (CG-GHM-05 a 08).
+
+
+## Pensamento geográfico e metodologia
+
+- CE-GEO-01 e CE-GEO-15 ampliadas em oito missões por unidade, 26 questões e 40 flashcards no conjunto. Expansão editorial das 15 unidades específicas concluída, sem certificação científica. [Registro](INTEGRACAO_PENSAMENTO_METODOLOGIA.md). Próximo lote: CG-GHM-05 a 08.
