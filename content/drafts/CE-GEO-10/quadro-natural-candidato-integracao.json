@@ -1,0 +1,670 @@
+{
+  "schema_version": "2.0.0",
+  "topico_id": "CE-GEO-10",
+  "slug": "sociedade-natureza-quadro-natural",
+  "disciplina_id": "CE-GEO",
+  "titulo": "Relação Sociedade × Natureza e Quadro Natural Geral (Clima, Vegetação, Solos e Águas)",
+  "status": "em_auditoria",
+  "origem": "edital_explicito",
+  "tempo_leitura_min": 27,
+  "edital_subtopicos": [
+    "Clima, vegetação, relevo, geologia e solos",
+    "Hidrografia, águas continentais e oceânicas",
+    "Recursos naturais e aproveitamento econômico"
+  ],
+  "fontes_primarias": [
+    {
+      "referencia_abnt": "MARANHÃO. SEAD. Edital nº 01/2026 — SEAD/SEDUC-MA. São Luís: SEAD/FCC, 2026. p. 76.",
+      "tipo": "edital",
+      "nivel_autoridade": 1,
+      "url": "https://www.concursosfcc.com.br/concursos/seadm226/index.html"
+    },
+    {
+      "referencia_abnt": "AYOADE, J. O. Introdução à Climatologia para os Trópicos. 17. ed. Rio de Janeiro: Bertrand Brasil, 2013.",
+      "tipo": "bibliografia_academica",
+      "nivel_autoridade": 5
+    },
+    {
+      "referencia_abnt": "LEPSCH, Igo F. Formação e Conservação dos Solos. 2. ed. São Paulo: Oficina de Textos, 2010.",
+      "tipo": "bibliografia_academica",
+      "nivel_autoridade": 5
+    },
+    {
+      "referencia_abnt": "INMET. Normais climatológicas do Brasil.",
+      "tipo": "institucional",
+      "nivel_autoridade": 3,
+      "url": "https://portal.inmet.gov.br/normais"
+    },
+    {
+      "referencia_abnt": "EMBRAPA. Sistema Brasileiro de Classificação de Solos, 6ª edição, 2025.",
+      "tipo": "institucional",
+      "nivel_autoridade": 3,
+      "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/handle/doc/1176834"
+    },
+    {
+      "referencia_abnt": "ANA. As regiões hidrográficas.",
+      "tipo": "institucional",
+      "nivel_autoridade": 3,
+      "url": "https://www.gov.br/ana/pt-br/assuntos/gestao-das-aguas/panorama-das-aguas/regioes-hidrograficas/as-regioes-hidrograficas"
+    },
+    {
+      "referencia_abnt": "ANA. Região Hidrográfica Tocantins-Araguaia.",
+      "tipo": "institucional",
+      "nivel_autoridade": 3,
+      "url": "https://www.gov.br/ana/pt-br/assuntos/gestao-das-aguas/panorama-das-aguas/regioes-hidrograficas/regiao-hidrografica-tocantins-araguaia"
+    },
+    {
+      "referencia_abnt": "BRASIL. Lei 9.433/1997, texto consolidado.",
+      "tipo": "institucional",
+      "nivel_autoridade": 3,
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l9433.htm"
+    },
+    {
+      "referencia_abnt": "IBGE. Biomas e Sistema Costeiro-Marinho, cartografia de 2019.",
+      "tipo": "institucional",
+      "nivel_autoridade": 3,
+      "url": "https://geoftp.ibge.gov.br/informacoes_ambientais/estudos_ambientais/biomas/mapas/"
+    }
+  ],
+  "sintese_fcc": {
+    "conceitos_nucleares": [
+      {
+        "termo": "Maritimidade vs. Continentalidade",
+        "definicao_precisa": "Em condições comparáveis, maritimidade tende a moderar a amplitude térmica; continentalidade pode ampliá-la.",
+        "fonte": "AYOADE, 2013."
+      },
+      {
+        "termo": "El Niño vs. La Niña",
+        "definicao_precisa": "Tendências probabilísticas: menos chuva em partes do Norte/Nordeste e mais chuva em setores do Sul, dependendo de época e circulação.",
+        "fonte": "CPTEC/INPE."
+      },
+      {
+        "termo": "Lixiviação vs. Laterização",
+        "definicao_precisa": "Lixiviação: mobilização de substâncias dissolvidas pela água. Laterização: alteração intensa e enriquecimento residual/redistribuição de Fe e Al; crosta não é obrigatória.",
+        "fonte": "LEPSCH, 2010."
+      }
+    ],
+    "pegadinhas_fcc": [
+      {
+        "armadilha": "Confundir Efeito Estufa natural com Aquecimento Global antrópico",
+        "como_a_fcc_cobra": "Afirma que o efeito estufa é um fenômeno exclusivamente artificial criado pela Revolução Industrial.",
+        "como_desarmar": "O efeito estufa é natural e indispensável à vida (~15 °C médios na Terra); o problema atual é a sua intensificação antrópica."
+      },
+      {
+        "armadilha": "Inverter os efeitos do El Niño no Brasil",
+        "como_a_fcc_cobra": "Atribui secas ao Sul e chuvas torrenciais ao Semiárido nordestino durante El Niño forte.",
+        "como_desarmar": "Tendências probabilísticas: menos chuva em partes do Norte/Nordeste e mais chuva em setores do Sul, dependendo de época e circulação."
+      }
+    ],
+    "quadro_comparativo": [
+      {
+        "processo_solo": "Lixiviação",
+        "mecanismo": "Lavagem descendente de nutrientes pela água da chuva"
+      },
+      {
+        "processo_solo": "Laterização",
+        "mecanismo": "Alteração intensa e enriquecimento/redistribuição de Fe e Al; pode formar crosta."
+      },
+      {
+        "processo_solo": "Salinização",
+        "mecanismo": "Acúmulo de sais na superfície por evaporação em áreas irrigadas/secas"
+      },
+      {
+        "processo_solo": "Voçorocamento",
+        "mecanismo": "Incisão profunda e complexa; participação de água subterrânea pode ocorrer, sem critério universal."
+      }
+    ],
+    "checklist_revisao": [
+      "Sei diferenciar todos os fatores climáticos (latitude, altitude, maritimidade, correntes frias, relevo)?",
+      "Sei os efeitos típicos de El Niño e La Niña no Brasil?",
+      "Sei distinguir lixiviação, laterização, salinização e desertificação?"
+    ]
+  },
+  "questoes": [
+    {
+      "questao_id": "CE-GEO-10-Q001",
+      "origem": "inedita_padrao_fcc",
+      "referencia_prova": "Inédita — padrão FCC / Edital SEDUC-MA 01/2026",
+      "enunciado": "Duas cidades localizadas exatamente na mesma latitude e na mesma altitude apresentam comportamentos térmicos distintos: a cidade litorânea registra amplitude térmica anual de 4 °C, enquanto a cidade no interior continental registra amplitude de 18 °C. O fator climático responsável por essa diferença é a",
+      "alternativas": {
+        "A": "variação da latitude entre ambas.",
+        "B": "maritimidade na cidade costeira e a continentalidade na cidade interiorana.",
+        "C": "ocorrência exclusiva de permafrost no litoral.",
+        "D": "inversão magnética dos polos.",
+        "E": "ausência de radiação solar no interior dos continentes."
+      },
+      "gabarito": "B",
+      "justificativa_gabarito": "Em função do maior calor específico da água em relação às rochas/solos, a maritimidade ameniza as variações térmicas (menor amplitude), ao passo que a continentalidade acentua extremos de calor e frio.",
+      "analise_distratores": {
+        "A": "O enunciado informa que ambas têm a mesma latitude.",
+        "C": "Permafrost ocorre em altas latitudes polares/subpolares.",
+        "D": "Sem relação com amplitude térmica.",
+        "E": "Absurdo físico."
+      },
+      "dificuldade": "basica",
+      "subtopico": "Clima, vegetação, relevo, geologia e solos"
+    },
+    {
+      "questao_id": "CE-GEO-10-Q002",
+      "origem": "inedita_padrao_fcc",
+      "referencia_prova": "Inédita — padrão FCC / Edital SEDUC-MA 01/2026",
+      "enunciado": "Durante episódios intensos do fenômeno oceânico-atmosférico El Niño (aquecimento anômalo das águas superficiais do Oceano Pacífico Equatorial), observa-se com maior frequência no território brasileiro",
+      "alternativas": {
+        "A": "inversão completa: chuvas extremas no Semiárido nordestino e seca severa no Rio Grande do Sul.",
+        "B": "congelamento permanente da Bacia Amazônica.",
+        "C": "tendência de redução das chuvas (secas) em partes do Norte e do Nordeste e aumento expressivo da pluviosidade na Região Sul.",
+        "D": "extinção das massas de ar tropicais no Atlântico Sul.",
+        "E": "formação de geleiras na Chapada das Mesas."
+      },
+      "gabarito": "C",
+      "justificativa_gabarito": "El Niño modifica a circulação e pode elevar a probabilidade de redução de chuva em partes do Norte/Nordeste e aumento em setores do Sul. Impactos dependem de estação, região e outros sistemas.",
+      "analise_distratores": {
+        "A": "Descreve o padrão associado à La Niña, não ao El Niño.",
+        "B": "Absurdo climático.",
+        "D": "Falso.",
+        "E": "Absurdo climático."
+      },
+      "dificuldade": "basica",
+      "subtopico": "Clima, vegetação, relevo, geologia e solos"
+    },
+    {
+      "questao_id": "CE-GEO-10-Q003",
+      "origem": "inedita_padrao_fcc",
+      "referencia_prova": "Inédita — padrão FCC / Edital SEDUC-MA 01/2026",
+      "enunciado": "A formação de desertos costeiros hiperáridos em latitudes tropicais, como o Deserto do Atacama (Chile/Peru) e o Deserto do Namibe (África), está diretamente associada à ação de",
+      "alternativas": {
+        "A": "correntes marítimas quentes que provocam chuvas convectivas diárias.",
+        "B": "correntes marítimas frias (como Humboldt e Benguela), que contribuem para resfriar e estabilizar a baixa atmosfera, limitando a convecção profunda.",
+        "C": "ausência de insolação tropical durante o verão.",
+        "D": "degelo contínuo da Floresta Boreal.",
+        "E": "maritimidade úmida associada a monções de verão."
+      },
+      "gabarito": "B",
+      "justificativa_gabarito": "Correntes frias contribuem para inversões e estabilidade atmosférica; a aridez depende também da circulação subtropical e de outros controles. Nevoeiros costeiros podem ocorrer.",
+      "analise_distratores": {
+        "A": "Correntes quentes aumentam umidade e precipitação.",
+        "C": "São regiões de alta insolação.",
+        "D": "Sem relação.",
+        "E": "Monções trazem chuvas torrenciais no verão asiático."
+      },
+      "dificuldade": "intermediaria",
+      "subtopico": "Clima, vegetação, relevo, geologia e solos"
+    },
+    {
+      "questao_id": "CE-GEO-10-Q004",
+      "origem": "inedita_padrao_fcc",
+      "referencia_prova": "Inédita — padrão FCC / Edital SEDUC-MA 01/2026",
+      "enunciado": "Em solos tropicais submetidos a desmatamento e chuvas intensas, a perda de nutrientes solúveis carreados verticalmente pela água de infiltração denomina-se",
+      "alternativas": {
+        "A": "permafrost.",
+        "B": "salinização.",
+        "C": "lixiviação.",
+        "D": "subducção.",
+        "E": "eutrofização glacial."
+      },
+      "gabarito": "C",
+      "justificativa_gabarito": "Lixiviação é a lavagem dos nutrientes minerais do horizonte superficial do solo pela água de percolação.",
+      "analise_distratores": {
+        "A": "Solo permanentemente congelado de altas latitudes.",
+        "B": "Acúmulo de sais típico de irrigação mal drenada em climas secos.",
+        "D": "Processo tectônico.",
+        "E": "Termo inadequado."
+      },
+      "dificuldade": "basica",
+      "subtopico": "Clima, vegetação, relevo, geologia e solos"
+    },
+    {
+      "questao_id": "CE-GEO-10-Q005",
+      "origem": "inedita_padrao_fcc",
+      "referencia_prova": "Inédita — padrão FCC / Edital SEDUC-MA 01/2026",
+      "enunciado": "Sobre o fenômeno do Efeito Estufa, assinale a afirmação cientificamente correta.",
+      "alternativas": {
+        "A": "Trata-se de um mecanismo natural da atmosfera terrestre indispensável à manutenção da temperatura média adequada à vida, cujo agravamento antrópico pela queima de combustíveis fósseis e desmatamento intensifica o aquecimento global.",
+        "B": "Foi criado artificialmente no século XX pela indústria automobilística, não existindo antes da Revolução Industrial.",
+        "C": "É causado exclusivamente pelo buraco na camada de ozônio sobre a Antártida.",
+        "D": "Impede totalmente a entrada da radiação solar na superfície terrestre.",
+        "E": "Reduz a temperatura média global para abaixo de -18 °C."
+      },
+      "gabarito": "A",
+      "justificativa_gabarito": "Sem o efeito estufa natural, a temperatura média da Terra seria cerca de -18 °C; o problema contemporâneo é a intensificação antrópica pelo excesso de GEE.",
+      "analise_distratores": {
+        "B": "Confunde fenômeno natural com sua intensificação antrópica.",
+        "C": "Camada de ozônio (CFCs / UV) e efeito estufa (GEE / infravermelho) são fenômenos distintos.",
+        "D": "A atmosfera deixa passar radiação solar (ondas curtas) e retém parte do calor irradiado (infravermelho).",
+        "E": "-18 °C seria a temperatura SEM efeito estufa."
+      },
+      "dificuldade": "basica",
+      "subtopico": "Recursos naturais e aproveitamento econômico"
+    },
+    {
+      "questao_id": "CE-GEO-10-EXP-Q001",
+      "origem": "inedita_autoral_em_auditoria",
+      "referencia_prova": "SOaprender — inédita; não é questão oficial FCC",
+      "enunciado": "Uma estação registra 26 °C em um dia de julho. Para caracterizar o clima, deve-se",
+      "alternativas": {
+        "A": "usar apenas essa medida.",
+        "B": "considerar séries de longo prazo, variabilidade e sazonalidade.",
+        "C": "deduzir a latitude exata.",
+        "D": "confundir temperatura com altitude.",
+        "E": "usar somente a chuva de julho."
+      },
+      "gabarito": "B",
+      "justificativa_gabarito": "Clima é caracterização estatística, não observação isolada.",
+      "analise_distratores": {
+        "A": "Um dia descreve tempo.",
+        "C": "Temperatura isolada não determina latitude.",
+        "D": "Altitude é um fator, não temperatura.",
+        "E": "Uma variável mensal não descreve o clima."
+      },
+      "dificuldade": "intermediaria",
+      "subtopico": "Clima, vegetação, relevo, geologia e solos"
+    },
+    {
+      "questao_id": "CE-GEO-10-EXP-Q002",
+      "origem": "inedita_autoral_em_auditoria",
+      "referencia_prova": "SOaprender — inédita; não é questão oficial FCC",
+      "enunciado": "Em bacia sem transferências externas, P=100 mm, ET=40 mm e escoamento=45 mm no período. Qual é ΔS?",
+      "alternativas": {
+        "A": "−15 mm",
+        "B": "45 mm",
+        "C": "185 mm",
+        "D": "15 mm",
+        "E": "60 mm"
+      },
+      "gabarito": "D",
+      "justificativa_gabarito": "ΔS=100−40−45=15 mm.",
+      "analise_distratores": {
+        "A": "Inverte o sinal.",
+        "B": "Confunde saída com estoque.",
+        "C": "Soma entradas e saídas.",
+        "E": "Desconsidera escoamento."
+      },
+      "dificuldade": "intermediaria",
+      "subtopico": "Hidrografia, águas continentais e oceânicas"
+    },
+    {
+      "questao_id": "CE-GEO-10-EXP-Q003",
+      "origem": "inedita_autoral_em_auditoria",
+      "referencia_prova": "SOaprender — inédita; não é questão oficial FCC",
+      "enunciado": "Dois solos têm textura semelhante, mas um está compactado. A conclusão mais defensável é:",
+      "alternativas": {
+        "A": "A textura determina toda infiltração.",
+        "B": "Compactação necessariamente aumenta macroporos.",
+        "C": "Estrutura e compactação podem modificar infiltração mesmo com textura semelhante.",
+        "D": "Não há alteração física.",
+        "E": "A compactação constitui obrigatoriamente erosão linear."
+      },
+      "gabarito": "C",
+      "justificativa_gabarito": "Estrutura e conectividade dos poros influenciam a infiltração.",
+      "analise_distratores": {
+        "A": "Ignora estrutura.",
+        "B": "Compactação tende a reduzir macroporos.",
+        "D": "Compactação altera o arranjo.",
+        "E": "Degradação física não exige remoção."
+      },
+      "dificuldade": "intermediaria",
+      "subtopico": "Clima, vegetação, relevo, geologia e solos"
+    },
+    {
+      "questao_id": "CE-GEO-10-EXP-Q004",
+      "origem": "inedita_autoral_em_auditoria",
+      "referencia_prova": "SOaprender — inédita; não é questão oficial FCC",
+      "enunciado": "Em uma encosta hipotética, há suscetibilidade a deslizamentos, mas nenhuma ocupação. Em outra, de suscetibilidade semelhante, há casas vulneráveis. Qual distinção é correta?",
+      "alternativas": {
+        "A": "Suscetibilidade e risco são sinônimos.",
+        "B": "A segunda pode apresentar maior risco humano pela exposição e vulnerabilidade.",
+        "C": "A primeira tem necessariamente maior risco.",
+        "D": "Só a chuva define risco.",
+        "E": "A ocupação elimina a ameaça."
+      },
+      "gabarito": "B",
+      "justificativa_gabarito": "Risco depende da ameaça, exposição e vulnerabilidade.",
+      "analise_distratores": {
+        "A": "Não considera os elementos expostos.",
+        "C": "Não decorre dos dados.",
+        "D": "Ignora fatores sociais e físicos.",
+        "E": "A presença de moradias não elimina o processo."
+      },
+      "dificuldade": "intermediaria",
+      "subtopico": "Recursos naturais e aproveitamento econômico"
+    },
+    {
+      "questao_id": "CE-GEO-10-EXP-Q005",
+      "origem": "inedita_autoral_em_auditoria",
+      "referencia_prova": "SOaprender — inédita; não é questão oficial FCC",
+      "enunciado": "Uma zona costeira tem correntes frias, atmosfera estável e baixa chuva, mas nevoeiros frequentes. Qual conclusão é adequada?",
+      "alternativas": {
+        "A": "Corrente fria impede qualquer condensação.",
+        "B": "Nevoeiro demonstra chuva abundante.",
+        "C": "Toda costa fria é deserto.",
+        "D": "A estabilidade pode reduzir chuva convectiva mesmo havendo umidade e nevoeiro.",
+        "E": "A insolação é inexistente."
+      },
+      "gabarito": "D",
+      "justificativa_gabarito": "Estabilidade pode limitar ascensão profunda; umidade e precipitação não são equivalentes.",
+      "analise_distratores": {
+        "A": "Pode haver condensação.",
+        "B": "Nevoeiro não implica chuva intensa.",
+        "C": "Outros controles importam.",
+        "E": "A região pode receber insolação."
+      },
+      "dificuldade": "avancada",
+      "subtopico": "Clima, vegetação, relevo, geologia e solos"
+    },
+    {
+      "questao_id": "CE-GEO-10-EXP-Q006",
+      "origem": "inedita_autoral_em_auditoria",
+      "referencia_prova": "SOaprender — inédita; não é questão oficial FCC",
+      "enunciado": "Ao interpretar um evento El Niño, o procedimento cientificamente adequado é:",
+      "alternativas": {
+        "A": "prever toda chuva local pelo ENOS.",
+        "B": "tratar La Niña como inverso perfeito de todos os impactos.",
+        "C": "avaliar tendências probabilísticas, sazonalidade e outras circulações.",
+        "D": "definir ENOS como corrente do Atlântico.",
+        "E": "concluir que o clima mudou a partir de um evento."
+      },
+      "gabarito": "C",
+      "justificativa_gabarito": "Teleconexões alteram probabilidades e variam com região e época.",
+      "analise_distratores": {
+        "A": "Determinismo indevido.",
+        "B": "Respostas não são perfeitamente simétricas.",
+        "D": "ENOS envolve Pacífico tropical.",
+        "E": "Um episódio não define mudança estatística."
+      },
+      "dificuldade": "avancada",
+      "subtopico": "Clima, vegetação, relevo, geologia e solos"
+    },
+    {
+      "questao_id": "CE-GEO-10-EXP-Q007",
+      "origem": "inedita_autoral_em_auditoria",
+      "referencia_prova": "SOaprender — inédita; não é questão oficial FCC",
+      "enunciado": "A vegetação de duas regiões com temperatura semelhante é diferente. A interpretação mais adequada é:",
+      "alternativas": {
+        "A": "clima é irrelevante.",
+        "B": "solo, água, fogo, história ecológica e uso podem contribuir para diferenças.",
+        "C": "todo bioma possui uma única fisionomia.",
+        "D": "a latitude determina sozinha a cobertura.",
+        "E": "a vegetação natural é sempre homogênea."
+      },
+      "gabarito": "B",
+      "justificativa_gabarito": "A distribuição de vegetação resulta de múltiplos fatores.",
+      "analise_distratores": {
+        "A": "Clima é relevante.",
+        "C": "Biomas abrangem mosaicos.",
+        "D": "Latitude não determina isoladamente.",
+        "E": "Há diversidade interna."
+      },
+      "dificuldade": "avancada",
+      "subtopico": "Clima, vegetação, relevo, geologia e solos"
+    }
+  ],
+  "flashcards": [
+    {
+      "card_id": "CE-GEO-10-FC001",
+      "frente": "Qual a diferença entre Tempo Atmosférico e Clima?",
+      "verso": "Tempo: estado atmosférico em determinado momento. Clima: distribuição estatística de condições ao longo do tempo, incluindo variabilidade e extremos. Normais são referências, geralmente de 30 anos.",
+      "tipo": "conceito",
+      "tags": [
+        "climatologia"
+      ]
+    },
+    {
+      "card_id": "CE-GEO-10-FC002",
+      "frente": "Como Maritimidade e Continentalidade afetam a amplitude térmica?",
+      "verso": "Em condições comparáveis, maritimidade tende a moderar a amplitude térmica; continentalidade pode ampliá-la.",
+      "tipo": "comparacao",
+      "tags": [
+        "fatores-climaticos"
+      ]
+    },
+    {
+      "card_id": "CE-GEO-10-FC003",
+      "frente": "Quais os efeitos típicos do El Niño no Brasil?",
+      "verso": "Tendências probabilísticas: menos chuva em partes do Norte/Nordeste e mais chuva em setores do Sul, dependendo de época e circulação.",
+      "tipo": "conceito",
+      "tags": [
+        "el-nino",
+        "brasil"
+      ]
+    },
+    {
+      "card_id": "CE-GEO-10-FC004",
+      "frente": "Por que correntes marítimas frias favorecem desertos costeiros (Atacama, Namibe)?",
+      "verso": "Correntes frias favorecem estabilidade da baixa atmosfera, dificultando convecção profunda; outros controles e nevoeiros importam.",
+      "tipo": "conceito",
+      "tags": [
+        "correntes-maritimas"
+      ]
+    },
+    {
+      "card_id": "CE-GEO-10-FC005",
+      "frente": "Diferença entre Lixiviação e Laterização nos solos?",
+      "verso": "Lixiviação: mobilização de substâncias dissolvidas pela água. Laterização: alteração intensa e enriquecimento residual/redistribuição de Fe e Al; crosta não é obrigatória.",
+      "tipo": "comparacao",
+      "tags": [
+        "solos"
+      ]
+    },
+    {
+      "card_id": "CE-GEO-10-FC006",
+      "frente": "Qual a diferença entre Efeito Estufa e Destruição da Camada de Ozônio?",
+      "verso": "Efeito estufa envolve retenção de calor (infravermelho) por GEE (CO₂, CH₄); Camada de ozônio envolve filtragem de raios UV destruída por CFCs.",
+      "tipo": "pegadinha_fcc",
+      "tags": [
+        "ambiente",
+        "fcc"
+      ]
+    },
+    {
+      "card_id": "CE-GEO-10-EXP-FC001",
+      "frente": "Normal climatológica é previsão?",
+      "verso": "Não. É referência estatística de longo prazo.",
+      "tipo": "conceito",
+      "tags": [
+        "geografia-fisica"
+      ],
+      "status": "em_auditoria"
+    },
+    {
+      "card_id": "CE-GEO-10-EXP-FC002",
+      "frente": "O que diferencia albedo e efeito estufa?",
+      "verso": "Albedo é fração refletida da radiação incidente; efeito estufa envolve absorção e emissão de radiação infravermelha.",
+      "tipo": "conceito",
+      "tags": [
+        "geografia-fisica"
+      ],
+      "status": "em_auditoria"
+    },
+    {
+      "card_id": "CE-GEO-10-EXP-FC003",
+      "frente": "O que é inversão térmica?",
+      "verso": "Camada em que a temperatura aumenta com altura; pode reduzir mistura vertical.",
+      "tipo": "conceito",
+      "tags": [
+        "geografia-fisica"
+      ],
+      "status": "em_auditoria"
+    },
+    {
+      "card_id": "CE-GEO-10-EXP-FC004",
+      "frente": "Diferença entre textura e estrutura do solo?",
+      "verso": "Textura: areia, silte e argila; estrutura: arranjo das partículas e agregados.",
+      "tipo": "conceito",
+      "tags": [
+        "geografia-fisica"
+      ],
+      "status": "em_auditoria"
+    },
+    {
+      "card_id": "CE-GEO-10-EXP-FC005",
+      "frente": "O que é pedogênese?",
+      "verso": "Formação e diferenciação de solos pela interação de fatores e processos.",
+      "tipo": "conceito",
+      "tags": [
+        "geografia-fisica"
+      ],
+      "status": "em_auditoria"
+    },
+    {
+      "card_id": "CE-GEO-10-EXP-FC006",
+      "frente": "O que é erosividade?",
+      "verso": "Potencial da chuva de causar erosão; diferente da erodibilidade do solo.",
+      "tipo": "conceito",
+      "tags": [
+        "geografia-fisica"
+      ],
+      "status": "em_auditoria"
+    },
+    {
+      "card_id": "CE-GEO-10-EXP-FC007",
+      "frente": "O que significa ΔS=P−ET−Q?",
+      "verso": "Balanço simplificado de armazenamento em bacia; termos na mesma unidade e período.",
+      "tipo": "conceito",
+      "tags": [
+        "geografia-fisica"
+      ],
+      "status": "em_auditoria"
+    },
+    {
+      "card_id": "CE-GEO-10-EXP-FC008",
+      "frente": "Porosidade implica alta permeabilidade?",
+      "verso": "Não. Conectividade dos poros e fraturas importa.",
+      "tipo": "conceito",
+      "tags": [
+        "geografia-fisica"
+      ],
+      "status": "em_auditoria"
+    },
+    {
+      "card_id": "CE-GEO-10-EXP-FC009",
+      "frente": "Diferença entre onda, maré e corrente?",
+      "verso": "Onda propaga energia; maré oscila nível por forças gravitacionais; corrente é movimento da água.",
+      "tipo": "conceito",
+      "tags": [
+        "geografia-fisica"
+      ],
+      "status": "em_auditoria"
+    },
+    {
+      "card_id": "CE-GEO-10-EXP-FC010",
+      "frente": "Bioma e ecossistema são sinônimos?",
+      "verso": "Não. Bioma é recorte amplo; ecossistema enfatiza interações entre organismos e ambiente.",
+      "tipo": "conceito",
+      "tags": [
+        "geografia-fisica"
+      ],
+      "status": "em_auditoria"
+    },
+    {
+      "card_id": "CE-GEO-10-EXP-FC011",
+      "frente": "Suscetibilidade e risco são iguais?",
+      "verso": "Não. Risco envolve perigo, exposição e vulnerabilidade.",
+      "tipo": "conceito",
+      "tags": [
+        "geografia-fisica"
+      ],
+      "status": "em_auditoria"
+    },
+    {
+      "card_id": "CE-GEO-10-EXP-FC012",
+      "frente": "O que é eutrofização?",
+      "verso": "Enriquecimento por nutrientes, com possíveis alterações na biota e oxigênio.",
+      "tipo": "conceito",
+      "tags": [
+        "geografia-fisica"
+      ],
+      "status": "em_auditoria"
+    }
+  ],
+  "teoria_md": "# 1. Climatologia: tempo, energia e circulação\n\n## Tempo, clima e normais climatológicas\n\n**Tempo atmosférico** é o estado da atmosfera em determinado lugar e momento: temperatura, chuva, nebulosidade, vento, pressão e umidade observados agora ou em curto intervalo. **Clima** é a descrição estatística do comportamento dessas variáveis ao longo de períodos suficientemente longos, incluindo médias, sazonalidade, variabilidade e extremos.\n\nAs **normais climatológicas** funcionam como referência. No Brasil, o INMET publica normais de períodos de três décadas, como 1991–2020. Atenção: “normal” não significa “o que acontece todo ano”; é um valor de referência construído a partir de uma série histórica.\n\n**Elementos climáticos** são grandezas observadas: temperatura, pressão, umidade, precipitação, vento, radiação/insolação. **Fatores climáticos** ajudam a explicar por que esses elementos variam: latitude, altitude, relevo, maritimidade/continentalidade, massas de ar, correntes oceânicas, cobertura vegetal e uso do solo.\n\n**Distinção: ** Um fator não é “o clima” e um elemento não é necessariamente a causa. Altitude é fator; temperatura é elemento. Compare a natureza de cada variável antes de escolher uma alternativa.\n\nAtenção: Uma onda de frio, seca ou chuva extrema pode ser compatível com um clima conhecido e também sofrer influência de mudanças climáticas. O evento sozinho não prova que o clima mudou; é preciso analisar tendências, probabilidades e séries.\n\n## Radiação, balanço de energia e temperatura\n\nA fonte primária de energia do sistema climático é a **radiação solar**. Nem toda energia incidente aquece a superfície: parte é refletida por nuvens, aerossóis e pelo solo; parte é absorvida pela atmosfera e pela superfície. A fração refletida é expressa pelo **albedo**. Superfícies claras tendem a refletir mais; superfícies escuras, em geral, absorvem mais.\n\nA superfície aquecida emite radiação de onda longa. Gases de efeito estufa absorvem e reemitem parte dessa energia, mantendo a baixa atmosfera muito mais quente do que seria sem o **efeito estufa natural**. A mudança climática atual relaciona-se ao **reforço antrópico** desse efeito pelo aumento das concentrações de gases de efeito estufa.\n\nA **latitude** altera o ângulo de incidência solar e a duração do dia ao longo do ano. A **altitude** tende a reduzir a temperatura porque, na troposfera, o ar ascendente se expande e resfria em ambiente de menor pressão. Como regra didática, usa-se frequentemente um gradiente ambiental médio de cerca de **0,6–0,65 °C por 100 m**, mas ele não é uma constante universal.\n\n**Maritimidade** tende a moderar a amplitude térmica; **continentalidade** favorece maiores amplitudes, porque água e continente armazenam e liberam calor de modo diferente.\n\nAplicação ao treino autoral: Ela pode trocar “altitude” por “latitude”, ou afirmar que a temperatura cai exatamente 1 °C a cada 100 m. Desconfie de valores rígidos: o gradiente varia com estabilidade e umidade.\n\n## Pressão, ventos e circulação geral\n\nO aquecimento desigual da superfície gera diferenças de densidade e **pressão atmosférica**. Perto da superfície, o ar tende a mover-se de áreas de maior para menor pressão, mas sua trajetória é modificada pela **força de Coriolis**: desvio para a direita no Hemisfério Norte e para a esquerda no Hemisfério Sul. O efeito é muito fraco junto ao Equador.\n\nNa circulação idealizada, o forte aquecimento equatorial favorece **baixa pressão e ascensão**. Em altitude, o ar se desloca para os subtrópicos e desce em torno de 30°, formando cinturões de **alta pressão subtropical**. Na superfície, parte retorna ao Equador como **ventos alísios**: de nordeste no Hemisfério Norte e de sudeste no Hemisfério Sul.\n\nEsse circuito integra a **célula de Hadley**. Em latitudes médias predominam os ventos de oeste associados à célula de Ferrel; nas altas latitudes, a célula polar. O modelo de três células é uma simplificação útil: continentes, oceanos, estações e ondas atmosféricas tornam a circulação real muito mais irregular.\n\nMapa mental**Equador:** convergência + ascensão + baixa pressão → muita nebulosidade. **Subtrópicos:** subsidência + alta pressão → estabilidade relativa e muitas áreas áridas do planeta.\n\nAtenção: Alta pressão não significa “ar quente” por definição. Pode haver altas pressões frias ou quentes. O essencial é a dinâmica de subsidência/convergência e a estrutura da massa de ar.\n\n## Umidade, nuvens e tipos de chuva\n\nA **umidade relativa** compara a quantidade de vapor presente com a quantidade correspondente à saturação à mesma temperatura (com rigor, razão entre pressão parcial do vapor e pressão de saturação). Como a pressão de vapor de saturação aumenta com a temperatura, a umidade relativa pode cair durante a tarde mesmo sem perda de vapor.\n\nQuando uma parcela de ar ascende, encontra pressões menores, expande-se e tende a resfriar. Ao atingir a saturação, o vapor condensa sobre núcleos de condensação, formando gotículas e nuvens. O **ponto de orvalho** é a temperatura à qual o ar deve ser resfriado, mantendo aproximadamente o conteúdo de vapor, para atingir saturação.\n\nTrês mecanismos são básicos: **chuva convectiva** — forte aquecimento da superfície gera ascensão rápida, comum em ambientes tropicais; **orográfica** — o relevo força o ar úmido a subir, podendo criar sombra de chuva a sotavento; **frontal** — o encontro de massas de ar com propriedades diferentes favorece ascensão ao longo da frente.\n\n**Cuidado com a linguagem: ** “Ar quente sobe” é uma simplificação. O movimento vertical depende de flutuabilidade, estabilidade e forçantes. Em prova escolar, porém, o contraste térmico e a expansão adiabática são chaves.\n\nAtenção: Se uma encosta de barlavento é muito úmida e o sotavento é seco, pense em **chuva orográfica + sombra de chuva**.\n\n# 2. Climatologia: oceanos, variabilidade e classificação\n\n## Oceano–atmosfera: ENOS e Atlântico Tropical\n\nO **ENOS** (El Niño–Oscilação Sul) acopla oceano e atmosfera no Pacífico equatorial. No **El Niño**, ocorre aquecimento anômalo do Pacífico equatorial central/oriental e reorganização da circulação de Walker; em muitos episódios, os alísios enfraquecem. Na **La Niña**, predomina resfriamento anômalo nessas áreas e configuração oposta em vários aspectos.\n\nAs consequências no Brasil são **teleconexões**, isto é, tendências probabilísticas a distância. Em termos didáticos, El Niño costuma aumentar a chance de chuva no Sul e de condições mais secas em partes do Norte/Nordeste; La Niña frequentemente favorece tendências opostas. Porém, **não é uma regra automática**: intensidade, época do ano, Atlântico Tropical e outras circulações podem reforçar ou enfraquecer os impactos.\n\nNo **Atlântico Tropical**, o contraste de temperatura da superfície do mar entre os hemisférios ajuda a deslocar a ZCIT. Um Atlântico Norte relativamente mais quente pode favorecer posição mais ao norte; um Atlântico Sul tropical relativamente mais quente pode favorecer deslocamento mais ao sul, com implicações para chuva no Nordeste setentrional e Amazônia oriental.\n\nAtenção científica: Desconfie de frases como “há consenso de que o aquecimento global já alterou definitivamente a frequência do ENOS”. O conhecimento científico é mais nuançado: há incerteza sobre mudanças na frequência/amplitude do ENOS, embora a variabilidade de precipitação associada ao ENOS seja projetada para aumentar com o aquecimento.\n\n## Climogramas e classificações climáticas\n\nNum **climograma**, observe nesta ordem: (1) temperatura média e **amplitude térmica anual**; (2) total e distribuição da precipitação; (3) meses secos e úmidos; (4) mês mais quente/frio, como pista do hemisfério; (5) relação com latitude, altitude, continentalidade e sistemas atmosféricos.\n\nUma baixa amplitude térmica com temperaturas altas o ano inteiro e precipitação abundante tende a indicar clima equatorial/tropical muito úmido. Uma estação seca marcada e verão chuvoso sugere vários climas tropicais do interior. Chuvas bem distribuídas e maior amplitude térmica no Sul podem apontar para clima subtropical/temperado.\n\nAs **classificações climáticas** são modelos: escolhem critérios e limites. Köppen utiliza temperatura, precipitação e sazonalidade para agrupar grandes tipos; a classificação do IBGE/Nimer distingue zonas e tipos considerando temperatura e duração/intensidade do período seco/úmido. Logo, dois mapas podem usar nomes/limites diferentes sem que um esteja necessariamente “errado”.\n\nComo ler sem decorarPrimeiro descreva o padrão; depois atribua o tipo climático. Se você começa pelo rótulo, fica vulnerável a classificações com nomenclaturas diferentes.\n\n## Clima urbano: ilha de calor e inversão térmica\n\nA **ilha de calor urbana** é o aquecimento relativo de áreas urbanizadas em comparação com áreas rurais/periurbanas próximas. Entre as causas: substituição de vegetação por materiais impermeáveis, redução de sombra e evapotranspiração, propriedades térmicas do concreto/asfalto, geometria dos cânions urbanos e liberação de calor por veículos, edifícios e atividades humanas.\n\nA **inversão térmica** é uma condição de estabilidade vertical em que, numa camada, a temperatura aumenta com a altura em vez de diminuir. Isso dificulta a mistura vertical e pode **concentrar poluentes próximos à superfície**. A poluição não “cria” necessariamente a inversão; ela pode ser agravada por ela.\n\nVegetação urbana pode reduzir temperaturas por **sombreamento e evapotranspiração**, além de trazer outros benefícios. Superfícies de alto albedo podem reduzir absorção solar, mas o efeito urbano total depende do desenho, materiais, umidade, ventilação e escala.\n\nAplicação ao treino autoral: Ela apresenta cidade com pouca vegetação + asfalto/concreto e pergunta a causa principal. A resposta robusta combina **alteração da cobertura do solo + menor evapotranspiração + maior armazenamento de calor**.\n\n## Mudanças climáticas e eventos extremos\n\n**Variabilidade climática** inclui oscilações naturais em escalas sazonais, interanuais e decadais, como o ENOS. **Mudança climática** refere-se a alteração persistente no estado estatístico do clima. O aquecimento global recente é explicado principalmente pelo aumento antrópico dos gases de efeito estufa.\n\nUm evento extremo individual não “prova” sozinho a mudança climática. A **atribuição de eventos** pergunta se o aquecimento causado por humanos alterou a probabilidade ou intensidade do evento, comparando o clima atual com um mundo contrafactual sem aquela influência.\n\nO aquecimento aumenta a capacidade da atmosfera de conter vapor e favorece a **intensificação de precipitações extremas** em muitas regiões. Ondas de calor tornam-se mais frequentes/intensas com o aumento da temperatura média. Para secas, a resposta depende do tipo de seca e da região: maior demanda evaporativa pode agravar secas agrícolas/ecológicas mesmo onde a tendência de precipitação é incerta.\n\nSobre o **ENOS**, evite excesso de certeza. A ciência indica incerteza sobre como frequência/amplitude mudarão, enquanto há maior confiança de que a variabilidade de precipitação associada ao ENOS pode se intensificar em um mundo mais quente.\n\nAtenção: Palavras absolutas — “sempre”, “em toda região”, “consenso de que a frequência já mudou definitivamente” — são frequentemente o ponto fraco de uma alternativa.\n\n# 3. Solos: formação, perfil e propriedades\n\n## Solo: corpo natural e pedogênese\n\n**Pedogênese** é o conjunto de processos que forma e diferencia os solos. Os fatores clássicos são **material de origem, clima, organismos, relevo e tempo**. A ação humana pode alterar rapidamente propriedades e processos pedológicos.\n\nDurante a formação ocorrem **adições, perdas, translocações e transformações**: entrada de matéria orgânica; lixiviação; migração de argila/compostos; alteração mineral e formação de novos constituintes.\n\nCuidadoUm mesmo material de origem pode gerar solos diferentes sob clima, relevo, organismos e tempo distintos. E solos semelhantes podem ocorrer sobre materiais diferentes.\n\n## Perfil e horizontes do solo\n\nUm perfil pode apresentar horizontes **O, A, E, B, C** e contato com **R**, mas **nem todo solo possui todos eles**. O horizonte O é dominado por material orgânico; A é mineral com influência de matéria orgânica; E é frequentemente eluviado; B apresenta desenvolvimento pedogenético e pode concentrar materiais translocados; C é material pouco afetado pela pedogênese; R indica rocha consolidada.\n\nNo **SiBCS**, a classificação usa horizontes diagnósticos e atributos morfológicos, físicos, químicos e mineralógicos. Não basta olhar apenas a cor.\n\nAtenção: “Todo perfil tem O–A–E–B–C–R completo” é falso.\n\n## Textura, estrutura, porosidade e água\n\n**Textura** é a proporção relativa das frações granulométricas — principalmente areia, silte e argila. **Estrutura** é o modo como partículas e agregados se organizam.\n\nSolos mais arenosos tendem a ter maior presença de macroporos e drenagem rápida; solos com mais argila podem reter mais água e nutrientes devido à maior superfície específica, mas **permeabilidade e infiltração dependem também da estrutura, agregação e compactação**.\n\nA **compactação** costuma reduzir macroporosidade e infiltração, favorecendo escoamento superficial. Cobertura vegetal e matéria orgânica ajudam na estabilidade de agregados.\n\n## Acidez, fertilidade, CTC e calagem\n\nO **pH** expressa a reação ácido–base. Em muitos solos tropicais altamente intemperizados, a acidez, a baixa saturação por bases e o alumínio trocável podem limitar culturas sensíveis. A **CTC** indica a capacidade de reter/trocar cátions, mas seu valor e significado dependem dos coloides e das condições químicas.\n\n**Calagem** é uma prática de correção da acidez: pode elevar o pH, reduzir efeitos do Al e fornecer Ca e Mg. **Adubação** visa suprir nutrientes. A necessidade de ambas deve ser orientada por **análise de solo e recomendação técnica**.\n\nAtenção: Calcário não “substitui qualquer fertilizante”, nem todo solo ácido exige a mesma dose de corretivo.\n\n# 4. Erosão, conservação e movimentos de massa\n\n## Erosão: desagregação, transporte e deposição\n\nNa erosão hídrica, a chuva pode iniciar a **desagregação** pelo impacto das gotas; o escoamento remove e **transporta** partículas; quando perde energia ocorre **deposição**. Em condições naturais existe erosão geológica, mas uso inadequado pode acelerar muito as perdas.\n\nA retirada de cobertura, compactação, concentração artificial de fluxo e manejo incompatível com relevo/solo aumentam o risco erosivo. Os sedimentos podem causar **assoreamento** de canais e reservatórios.\n\nCadeia mentalImpacto → desagregação → escoamento → transporte → deposição.\n\n## Splash, laminar, sulcos, ravinas e voçorocas\n\n**Splash** é o destacamento e deslocamento inicial de partículas pelo impacto das gotas. A **erosão laminar** remove uma camada fina de forma difusa. Quando o fluxo se concentra, surgem **sulcos** e incisões maiores, como **ravinas** e **voçorocas**.\n\nEm literatura brasileira, voçorocas são formas erosivas lineares profundas e complexas, frequentemente com participação de fluxos subsuperficiais; algumas referências usam o contato com o lençol freático como marco evolutivo. **Os critérios geométricos e terminológicos podem variar**, portanto evite tratar um único limite de profundidade como universal.\n\nAtenção: A sequência didática splash → laminar → sulcos → ravinas → voçorocas ajuda a ordenar a intensificação, mas a evolução real não precisa seguir uma escada rígida em todo terreno.\n\n## O que controla a erosão hídrica?\n\nA erosão depende da interação entre **erosividade da chuva**, **erodibilidade do solo**, **comprimento e declividade da vertente**, **cobertura/manejo** e **práticas conservacionistas**. Esses grupos aparecem na lógica da **USLE/RUSLE**.\n\nA equação universal de perda de solo é frequentemente expressa como **A = R · K · LS · C · P**. Ela estima perdas médias por erosão laminar e em sulcos sob condições específicas; **não é modelo universal para voçorocas ou movimentos de massa**.\n\n| Fator | Ideia |\n| --- | --- |\n| R | erosividade da chuva |\n| K | erodibilidade do solo |\n| LS | comprimento + declividade |\n| C | cobertura e manejo |\n| P | práticas conservacionistas |\n\n## Conservação do solo: reduzir energia e organizar a água\n\nPráticas conservacionistas procuram **manter cobertura, aumentar infiltração, reduzir velocidade/concentração do escoamento e estabilizar o solo**. Entre elas: plantio em nível/contorno, terraceamento quando tecnicamente indicado, cobertura permanente, rotação de culturas, plantio direto bem manejado, faixas vegetadas e proteção de áreas ripárias.\n\n**Terraço** não é solução universal; mal dimensionado pode concentrar água e agravar erosão. Conservação exige planejamento da bacia/vertente, não apenas uma técnica isolada.\n\nAtenção: “Arar morro abaixo facilita drenagem e reduz erosão” costuma inverter a lógica: linhas no sentido da máxima declividade favorecem concentração e velocidade do escoamento.\n\n## Erosão eólica e degradação física\n\nA **erosão eólica** é favorecida por solo seco, pouco coberto, partículas suscetíveis e ventos capazes de mobilizá-las. Pode envolver **deflação** (remoção), transporte e deposição, além de abrasão.\n\nOutras formas de degradação incluem **compactação, selamento/crostamento, salinização, perda de matéria orgânica e contaminação**. Portanto, “degradação do solo” é categoria mais ampla que “erosão”.\n\nDistinçãoErosão implica remoção/transporte; compactação altera propriedades físicas sem necessariamente remover o solo.\n\n## Movimentos de massa: gravidade em ação\n\n**Movimentos de massa** são deslocamentos de solo, rocha e detritos encosta abaixo sob ação da gravidade. A água pode elevar pressão nos poros, aumentar peso e reduzir resistência, funcionando como importante condicionante ou gatilho.\n\n| Tipo | Traço geral |\n| --- | --- |\n| Quedas | desprendimento de blocos em encostas/escarpas |\n| Deslizamentos/escorregamentos | movimento ao longo de uma superfície de ruptura |\n| Corridas/fluxos | mistura muito móvel de água, solo e detritos, comportamento semelhante a fluido |\n\nCortes de talude, aterros, desmatamento, drenagem inadequada e ocupação precária podem aumentar instabilidade e vulnerabilidade.\n\n## Suscetibilidade, perigo, exposição, vulnerabilidade e risco\n\n**Suscetibilidade** é a propensão física de um terreno a determinado processo. **Perigo/ameaça** incorpora a possibilidade de ocorrência de um evento potencialmente danoso, com intensidade e, quando possível, probabilidade. **Exposição** indica pessoas, bens e infraestrutura presentes na área. **Vulnerabilidade** expressa a propensão a sofrer danos.\n\n**Risco** resulta da combinação entre ameaça/perigo, exposição e vulnerabilidade. Um **desastre** ocorre quando um evento produz impactos graves sobre uma sociedade, excedendo sua capacidade de resposta em determinado contexto.\n\nAtenção: Mapa de suscetibilidade não é automaticamente mapa de risco: é preciso considerar quem/o que está exposto e quão vulnerável é.\n\n## Leitura integrada: solo, uso e bacia hidrográfica\n\nUma análise geográfica completa relaciona **solo + relevo + chuva + cobertura + uso + drenagem + sociedade**. O efeito de uma prática agrícola ou urbana não termina no lote: água e sedimentos conectam vertentes, estradas, canais, rios e reservatórios.\n\n1 · Solo2 · Declive3 · Cobertura4 · Fluxo5 · Exposição\n\nAo interpretar um caso, pergunte: **qual material é suscetível? onde a água se concentra? o que foi alterado pelo uso? para onde vai o sedimento? quem está exposto?**\n\nPrática docenteUse uma encosta ou rua do bairro: identifique cobertura, declive, drenagem e sinais de erosão. O aluno deve propor intervenção e justificar o mecanismo, não apenas nomear a forma.\n\n# 5. Águas continentais: ciclo, drenagem e qualidade\n\n## Ciclo hidrológico e balanço de água\n\nO **ciclo hidrológico** descreve a circulação da água entre atmosfera, superfície, biosfera, solo, águas subterrâneas e oceanos. Os principais fluxos são **precipitação, evaporação, transpiração, infiltração, percolação e escoamento**.\n\nA água pode permanecer armazenada em oceanos, geleiras, lagos, reservatórios, solo, aquíferos, atmosfera e organismos. O ciclo não implica que toda molécula percorra todas as etapas na mesma ordem.\n\nPense em reservatórios e fluxos. A água não segue uma sequência fixa.\n\nEm uma bacia, um balanço simplificado pode ser pensado como **entrada por precipitação = saídas por evapotranspiração e escoamento ± variação do armazenamento**. Em intervalos curtos, a variação de armazenamento não deve ser ignorada.\n\n## Bacia hidrográfica: divisor, rede e exutório\n\n**Bacia hidrográfica** é a área drenada por um rio principal e seus tributários até um ponto de saída, o **exutório**. Em geral, seus limites superficiais são definidos por **divisores de águas** associados ao relevo.\n\nA rede de drenagem é formada por canais que convergem para o curso principal. **Montante** indica direção para as cabeceiras; **jusante**, direção para a foz/exutório.\n\nNão confunda**Bacia hidrográfica** é uma unidade física de drenagem. **Região hidrográfica**, no planejamento nacional, pode reunir bacias, grupos de bacias ou sub-bacias próximas com características naturais, sociais e econômicas similares.\n\n## Vazão, regime fluvial e hidrograma\n\n**Vazão (Q)** é o volume de água que atravessa uma seção por unidade de tempo, frequentemente expresso em m³/s. O **regime fluvial** descreve a variação sazonal das vazões.\n\nUm **hidrograma** mostra vazão ao longo do tempo. Após uma chuva efetiva, pode haver subida da vazão, **pico** e recessão. O tempo e a altura do pico dependem de chuva, área, forma da bacia, declividade, drenagem, solo, cobertura e urbanização.\n\nUrbanização tende a antecipar e elevar o pico quando aumenta a impermeabilização e reduz o armazenamento/infiltração.\n\n## Infiltração, escoamento e urbanização\n\n**Infiltração** é a entrada de água no solo. Parte pode ficar armazenada, ser utilizada pelas plantas ou **percolar** para níveis mais profundos. Quando a intensidade da chuva supera a capacidade de infiltração, ou quando o solo está muito saturado, o escoamento superficial pode aumentar.\n\nA urbanização modifica essa partição: telhados, pavimentos e drenagem artificial reduzem áreas infiltrantes e podem transferir água rapidamente para canais.\n\nAplicação ao treino autoral: Não use “impermeabilização = inundação automática”. Ela **aumenta a propensão** ao escoamento rápido, mas a ocorrência e magnitude do evento dependem de chuva, drenagem, topografia, ocupação da planície e condições antecedentes.\n\n## Água subterrânea e aquíferos\n\n**Aquífero** é uma formação geológica capaz de armazenar e transmitir água em quantidade relevante. A **porosidade** expressa o volume de vazios; a **permeabilidade** relaciona-se à capacidade de transmitir fluidos através de poros/fraturas conectados. Uma rocha pode ter porosidade e baixa permeabilidade se os poros não estiverem bem conectados.\n\nNo aquífero **livre**, o limite superior da zona saturada é o nível freático. No **confinado**, a água está sob pressão entre camadas menos permeáveis. **Recarga** é a entrada de água no sistema subterrâneo, geralmente associada à infiltração/percolação em áreas favoráveis.\n\nNo Brasil, a gestão e a autorização de uso das águas subterrâneas e poços são de competência dos **Estados**. A ANA produz estudos e promove integração entre águas superficiais e subterrâneas.\n\nParáEm cidades abastecidas por poços, a recarga, a proteção sanitária e o controle de captação precisam ser avaliados para o aquífero local; não se transfere automaticamente informação entre regiões.\n\n## Dinâmica fluvial: erosão, transporte e deposição\n\nRios erodem, transportam e depositam sedimentos. A capacidade de transporte varia com vazão, velocidade, declividade, forma do canal e características do material.\n\n**Meandros** podem apresentar maior erosão na margem externa e deposição relativa na margem interna, mas a dinâmica real depende do canal. **Planícies de inundação** são áreas adjacentes ao canal sujeitas a inundações periódicas e deposição de sedimentos.\n\nO **nível de base** condiciona a erosão vertical do rio; o nível do mar é o nível de base último para rios que nele desembocam.\n\n## Qualidade da água, poluição e eutrofização\n\nA qualidade da água depende do uso pretendido e de parâmetros físicos, químicos e biológicos. **Poluição pontual** tem fonte identificável, como um lançamento localizado; **difusa** provém de múltiplas fontes espalhadas, como parte do escoamento sobre áreas agrícolas e urbanas.\n\n**Eutrofização** é o enriquecimento do sistema aquático por nutrientes, sobretudo nitrogênio e fósforo, podendo favorecer proliferação de algas/cianobactérias e alterações de oxigênio, transparência e biota.\n\nA gestão deve integrar **quantidade e qualidade**. Um rio com muita água não está automaticamente adequado para qualquer uso.\n\n## Usos da água e conflitos\n\nOs usos podem ser **consuntivos**, quando parte da água retirada é consumida, incorporada a produtos, evapora ou não retorna ao sistema de origem no período considerado, e **não consuntivos**, quando a atividade depende da água sem consumo direto equivalente, como navegação e parte dos usos recreativos.\n\nNo Brasil, a **irrigação** é o principal uso em volume de retirada de água (verificar o ano de referência para comparações quantitativas). Abastecimento urbano e indústria também têm grande peso. Hidreletricidade depende do fluxo e do armazenamento, mas não deve ser tratada como “uso sem impacto”.\n\nPegadinha“Não consuntivo” ≠ “sem efeito ambiental”. Barragens e navegação podem alterar regime, conectividade, sedimentos e ecossistemas.\n\n## Cheias urbanas: inundação, alagamento e enxurrada\n\nO CEMADEN define **inundação** como submersão de áreas fora dos limites normais do curso d’água. **Alagamento** está ligado à superação da capacidade de drenagem e acúmulo de água em ruas e áreas rebaixadas. **Enxurradas** envolvem escoamento rápido e concentrado, com grande energia.\n\nA palavra **enchente/cheia** é usada com sentidos variados; em muitas abordagens didáticas indica elevação do nível no canal antes ou sem extravasamento. Em prova, siga a definição apresentada.\n\nMedidas de redução de risco podem ser **estruturais** (reservatórios, obras de drenagem, contenções) ou **não estruturais** (zoneamento, alerta, educação, planos de contingência). Infraestrutura verde — parques inundáveis, jardins de chuva, pavimentos permeáveis — busca reter/infiltrar água e reduzir picos.\n\n# 6. Oceanos, recursos e conflitos de uso\n\n## Oceanos: ondas, marés, correntes e circulação\n\n**Ondas** são transferências de energia; muitas ondas de superfície são geradas pelo vento, mas tsunamis têm outra origem. **Marés** são oscilações de longo período associadas principalmente às forças gravitacionais da Lua e do Sol, moduladas pela geometria das bacias e costas.\n\n**Correntes oceânicas** são movimentos dirigidos de água. Podem ser impulsionadas por ventos, marés e diferenças de densidade relacionadas a temperatura e salinidade. A **circulação termohalina** envolve contrastes de densidade; correntes superficiais redistribuem calor e influenciam climas.\n\n**Ressurgência (upwelling)** traz águas subsuperficiais frias e geralmente ricas em nutrientes para perto da superfície, favorecendo alta produtividade biológica em várias regiões.\n\nPegadinhaMaré não é sinônimo de corrente; ondas não transportam necessariamente a massa de água na mesma proporção da energia; e corrente quente/fria é relativa à água ao redor e à origem.\n\n## Leitura integrada: mapa, hidrograma e gestão\n\nEm uma questão integrada, siga uma ordem:\n\n- **Delimite a unidade**: parcela, bacia, região hidrográfica, aquífero ou oceano.\n- **Identifique entradas e saídas**: chuva, evapotranspiração, captação, vazão, recarga.\n- **Observe armazenamentos**: solo, reservatório, planície de inundação, aquífero.\n- **Localize agentes e usos**: abastecimento, irrigação, energia, navegação, ecossistemas.\n- **Escolha o instrumento**: plano, enquadramento, outorga, cobrança, informação.\n\n| Erro típico | Correção |\n| --- | --- |\n| “mais chuva = mais inundação sempre” | depende de bacia, uso do solo, drenagem e condições antecedentes |\n| “poroso = permeável” | conectividade dos poros importa |\n| “outorga = propriedade” | é direito de uso |\n| “não consuntivo = sem impacto” | impactos podem ocorrer |\n| “toda água urbana acumulada = inundação” | distinguir inundação, alagamento e enxurrada |\n\n# 7. Biomas, ecossistemas e biodiversidade\n\n## Bioma, ecossistema, domínio e vegetação\n\n**Bioma**, no recorte do IBGE, reúne tipos de vegetação contíguos e identificáveis regionalmente sob condições geoclimáticas semelhantes e história compartilhada de mudanças. **Ecossistema** enfatiza interações entre organismos e ambiente em uma unidade funcional, que pode ocorrer em várias escalas.\n\n**Domínio morfoclimático**, na tradição de Aziz Ab’Sáber, é uma grande unidade paisagística definida pela combinação de relevo, clima, solos, hidrografia e cobertura vegetal. Já **tipo de vegetação** descreve uma formação ou região fitoecológica e não equivale automaticamente a um bioma inteiro.\n\nAtenção: Um mesmo bioma contém vários ecossistemas e tipos de vegetação. E um domínio de Ab’Sáber não deve ser convertido mecanicamente em bioma do IBGE.\n\n## Grandes biomas mundiais: latitude, energia e água\n\nEm escala mundial, a distribuição de grandes formações relaciona-se sobretudo a **temperatura, disponibilidade de água, sazonalidade e latitude**, moduladas por altitude, continentalidade, correntes oceânicas e solos.\n\n| Formação | Âncora | Armadilha |\n| --- | --- | --- |\n| Tundra | frio intenso, curta estação de crescimento, ausência de árvores altas; permafrost frequente | confundir com taiga |\n| Taiga | floresta boreal, coníferas dominantes | dizer que é formação tropical |\n| Floresta tropical úmida | calor + alta disponibilidade hídrica | inferir solo naturalmente muito fértil |\n| Savana | gramíneas + componente lenhoso, forte sazonalidade em muitas regiões | sinônimo de deserto |\n| Deserto | aridez | defini-lo por calor |\n\n## Biodiversidade e serviços ecossistêmicos\n\nA Convenção sobre Diversidade Biológica abrange diversidade **dentro das espécies, entre espécies e de ecossistemas**. A conservação interessa não só pelo número de espécies, mas também por funções ecológicas, diversidade genética e resiliência.\n\n**Serviços ecossistêmicos** incluem benefícios como regulação climática, proteção hídrica, ciclagem de nutrientes e polinização. Eles não significam que a natureza exista apenas por sua utilidade econômica.\n\nAplicação ao treino autoral: Distinguir serviço ecossistêmico de ação humana de conservação. **Polinização** é serviço ecossistêmico; **restauração de mata ciliar** é uma ação que pode manter ou recuperar serviços.\n\n## Integração final: ler a paisagem sem misturar classificações\n\nPara resolver uma questão inédita, siga quatro passos: **① identifique o sistema classificatório; ② extraia os indicadores ambientais; ③ reconheça o processo dominante; ④ elimine alternativas que misturam escalas ou usam absolutos**.\n\n| Pergunta | Resposta mental |\n| --- | --- |\n| “Bioma?” | recorte IBGE / conjunto regional |\n| “Domínio?” | síntese paisagística de Ab’Sáber |\n| “Vegetação?” | fisionomia / região fitoecológica |\n| “Transição?” | contato e gradiente |\n| “Conservação?” | biodiversidade + território + manejo |\n\nRegra de ouroNão responda pelo nome mais familiar. Responda pelo **critério** que o enunciado está usando.\n\n# 8. Integração e aplicação\n\n## Exemplo: energia, chuva, solo e sociedade\nDuas superfícies recebem a mesma chuva: um parque vegetado e um estacionamento impermeável. Compare interceptação, infiltração, armazenamento, evapotranspiração e escoamento. O resultado depende de compactação, drenagem, chuva antecedente e intensidade; não conclua que toda área verde elimina inundações. Este raciocínio liga climatologia, solos e hidrologia.\n\n## Balanço hídrico, em unidades compatíveis\nEm uma bacia e período definidos, desprezando transferências e fluxos subterrâneos através dos limites: ΔS = P − ET − Q. P é precipitação; ET, evapotranspiração; Q, escoamento convertido em lâmina ou volume; ΔS, mudança de armazenamento. Se P=100 mm, ET=40 mm, Q=45 mm, ΔS=15 mm. Vazão em m³/s não se soma diretamente a lâmina em mm. Uma bacia exorreica drena ao oceano; endorreica possui drenagem interna. A recarga não é toda a água infiltrada.\n\n## Recursos, solos e degradação\nRecurso natural é um elemento ou processo apropriado socialmente para determinada finalidade; sua disponibilidade econômica depende de técnica, acesso, instituições e impactos. Renovável não significa inesgotável. Lixiviação é remoção e mobilização de substâncias dissolvidas pela água; laterização relaciona-se à alteração intensa e enriquecimento residual ou redistribuição de ferro e alumínio, sem crosta obrigatória. Salinização é acúmulo de sais, favorecido em certas situações por irrigação, evaporação e drenagem deficiente. Desertificação é degradação de terras secas, não expansão necessária de um deserto. Compare manejo, conservação, abastecimento, mineração e energia pela relação entre benefício, distribuição de impactos e capacidade de recuperação.",
+  "metadata_expansao": {
+    "status": "candidato_nao_publicado",
+    "review_date": "2026-11-26",
+    "source_sections": [
+      {
+        "title": "Climatologia: tempo, energia e circulação",
+        "ids": [
+          "climatologia-02",
+          "climatologia-03",
+          "climatologia-04",
+          "climatologia-05"
+        ]
+      },
+      {
+        "title": "Climatologia: oceanos, variabilidade e classificação",
+        "ids": [
+          "climatologia-08",
+          "climatologia-09",
+          "climatologia-12",
+          "climatologia-13"
+        ]
+      },
+      {
+        "title": "Solos: formação, perfil e propriedades",
+        "ids": [
+          "solos-02",
+          "solos-03",
+          "solos-04",
+          "solos-05"
+        ]
+      },
+      {
+        "title": "Erosão, conservação e movimentos de massa",
+        "ids": [
+          "solos-07",
+          "solos-08",
+          "solos-09",
+          "solos-10",
+          "solos-11",
+          "solos-12",
+          "solos-13",
+          "solos-15"
+        ]
+      },
+      {
+        "title": "Águas continentais: ciclo, drenagem e qualidade",
+        "ids": [
+          "hidrologia-02",
+          "hidrologia-03",
+          "hidrologia-04",
+          "hidrologia-05",
+          "hidrologia-06",
+          "hidrologia-07",
+          "hidrologia-08",
+          "hidrologia-09",
+          "hidrologia-13"
+        ]
+      },
+      {
+        "title": "Oceanos, recursos e conflitos de uso",
+        "ids": [
+          "hidrologia-15",
+          "hidrologia-16"
+        ]
+      },
+      {
+        "title": "Biomas, ecossistemas e biodiversidade",
+        "ids": [
+          "biomas-02",
+          "biomas-03",
+          "biomas-14",
+          "biomas-17"
+        ]
+      },
+      {
+        "title": "Integração e aplicação",
+        "ids": []
+      }
+    ],
+    "source_count": 35,
+    "source_blob_shas": [
+      "9b5f550b0fc334bbb9d56d23e5b02b6810e98dce",
+      "da90c0b79e636e9edf74048d1c3e3d6992408858",
+      "b728a33fce8dfe1104626417c7e888a24f1e4389",
+      "4f65f93baa36464faf22ed46784d45773bbf3afc",
+      "8eef084fbe39a3e3b4b012391d5b2f9b98804041"
+    ],
+    "review": "Leitura de seções-fonte, revisão inicial de conceitos, adaptação regional, conversão HTML para Markdown e correção de exemplos originais. 7 questões inéditas e 12 cartões novos por unidade. Referências institucionais confirmadas por busca (INMET, Embrapa, ANA, Planalto e catálogo IBGE).",
+    "limitations": "Conversão automatizada com correções dirigidas, não revisão independente integral do Markdown final. Verificar referências específicas, resíduos de HTML/FGV, distratores antigos, exemplos, questões e cartões legados reservados, mapas, diagramas, licenças e perfil FCC. Não incorporar fontes externas como se fossem imagens validadas. Não alterar bundle publicado."
+  }
+}

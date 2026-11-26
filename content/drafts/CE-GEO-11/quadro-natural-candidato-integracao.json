@@ -1,0 +1,660 @@
+{
+  "schema_version": "2.0.0",
+  "topico_id": "CE-GEO-11",
+  "slug": "brasil-fisico-ambiental",
+  "disciplina_id": "CE-GEO",
+  "titulo": "Espaço Geográfico Brasileiro: Relevo, Domínios Morfoclimáticos, Climas, Águas e Meio Ambiente",
+  "status": "em_auditoria",
+  "origem": "edital_explicito",
+  "tempo_leitura_min": 18,
+  "edital_subtopicos": [
+    "Estrutura física e geomorfológica do Brasil",
+    "Relevo, domínios morfoclimáticos, climatologia, hidrografia e pedologia",
+    "Recursos naturais, aproveitamento econômico e questões ambientais"
+  ],
+  "fontes_primarias": [
+    {
+      "referencia_abnt": "MARANHÃO. SEAD. Edital nº 01/2026 — SEAD/SEDUC-MA. São Luís: SEAD/FCC, 2026. p. 76.",
+      "tipo": "edital",
+      "nivel_autoridade": 1,
+      "url": "https://www.concursosfcc.com.br/concursos/seadm226/index.html"
+    },
+    {
+      "referencia_abnt": "AB'SÁBER, Aziz Nacib. Os Domínios de Natureza no Brasil: Potencialidades Paisagísticas. São Paulo: Ateliê Editorial, 2003.",
+      "tipo": "bibliografia_academica",
+      "nivel_autoridade": 5
+    },
+    {
+      "referencia_abnt": "ROSS, Jurandyr Luciano Sanches (org.). Geografia do Brasil. 6. ed. São Paulo: Edusp, 2011.",
+      "tipo": "bibliografia_academica",
+      "nivel_autoridade": 5
+    },
+    {
+      "referencia_abnt": "INMET. Normais climatológicas do Brasil.",
+      "tipo": "institucional",
+      "nivel_autoridade": 3,
+      "url": "https://portal.inmet.gov.br/normais"
+    },
+    {
+      "referencia_abnt": "EMBRAPA. Sistema Brasileiro de Classificação de Solos, 6ª edição, 2025.",
+      "tipo": "institucional",
+      "nivel_autoridade": 3,
+      "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/handle/doc/1176834"
+    },
+    {
+      "referencia_abnt": "ANA. As regiões hidrográficas.",
+      "tipo": "institucional",
+      "nivel_autoridade": 3,
+      "url": "https://www.gov.br/ana/pt-br/assuntos/gestao-das-aguas/panorama-das-aguas/regioes-hidrograficas/as-regioes-hidrograficas"
+    },
+    {
+      "referencia_abnt": "ANA. Região Hidrográfica Tocantins-Araguaia.",
+      "tipo": "institucional",
+      "nivel_autoridade": 3,
+      "url": "https://www.gov.br/ana/pt-br/assuntos/gestao-das-aguas/panorama-das-aguas/regioes-hidrograficas/regiao-hidrografica-tocantins-araguaia"
+    },
+    {
+      "referencia_abnt": "BRASIL. Lei 9.433/1997, texto consolidado.",
+      "tipo": "institucional",
+      "nivel_autoridade": 3,
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l9433.htm"
+    },
+    {
+      "referencia_abnt": "IBGE. Biomas e Sistema Costeiro-Marinho, cartografia de 2019.",
+      "tipo": "institucional",
+      "nivel_autoridade": 3,
+      "url": "https://geoftp.ibge.gov.br/informacoes_ambientais/estudos_ambientais/biomas/mapas/"
+    }
+  ],
+  "sintese_fcc": {
+    "conceitos_nucleares": [
+      {
+        "termo": "Classificação do Relevo (Jurandyr Ross)",
+        "definicao_precisa": "Na proposta histórica de Ross: 28 unidades (11 planaltos, 11 depressões, 6 planícies); distinta dos mapas oficiais contemporâneos.",
+        "fonte": "ROSS, 2011."
+      },
+      {
+        "termo": "6 Domínios Morfoclimáticos (Ab'Sáber)",
+        "definicao_precisa": "Amazônico, Cerrado, Mares de Morros, Caatinga, Araucárias e Pradarias — separados por faixas de transição (ex.: Mata dos Cocais e Pantanal).",
+        "fonte": "AB'SÁBER, 2003."
+      },
+      {
+        "termo": "Arenização vs. Desertificação",
+        "definicao_precisa": "Desertificação: clima semiárido/seco (Nordeste). Arenização: clima úmido com solos arenosos (Pampa gaúcho).",
+        "fonte": "ROSS, 2011."
+      }
+    ],
+    "pegadinhas_fcc": [
+      {
+        "armadilha": "Incluir o Pantanal ou a Mata dos Cocais entre os 6 domínios nucleares de Ab'Sáber",
+        "como_a_fcc_cobra": "Lista 'Pantanal' como um dos 6 domínios morfoclimáticos de Aziz Ab'Sáber.",
+        "como_desarmar": "Na classificação de Ab'Sáber, Pantanal e Mata dos Cocais são FAIXAS DE TRANSIÇÃO, não os 6 domínios nucleares!"
+      },
+      {
+        "armadilha": "Trocar a classificação de Aroldo de Azevedo pela de Jurandyr Ross",
+        "como_a_fcc_cobra": "Afirma que Jurandyr Ross dividiu o Brasil apenas em planaltos e planícies pela cota de 200 m.",
+        "como_desarmar": "200 m = Aroldo de Azevedo; 28 unidades com Depressões (RADAMBRASIL) = Jurandyr Ross."
+      }
+    ],
+    "quadro_comparativo": [
+      {
+        "autor": "Aroldo de Azevedo (1940s)",
+        "criterio": "Altimetria (200 m)",
+        "unidades": "8 unidades (4 planaltos, 4 planícies)"
+      },
+      {
+        "autor": "Aziz Ab'Sáber (1960s)",
+        "criterio": "Erosão vs. Deposição",
+        "unidades": "10 unidades (7 planaltos, 3 planícies)"
+      },
+      {
+        "autor": "Jurandyr Ross (1989/96)",
+        "criterio": "Morfoestrutura e morfoescultura; dados RADAMBRASIL.",
+        "unidades": "28 unidades (11 planaltos, 11 depressões, 6 planícies)"
+      }
+    ],
+    "checklist_revisao": [
+      "Sei diferenciar as classificações de Azevedo, Ab'Sáber e Ross?",
+      "Sei os 6 domínios morfoclimáticos de Ab'Sáber e o conceito de faixa de transição?",
+      "Sei distinguir arenização (Pampa úmido) de desertificação (Semiárido)?"
+    ]
+  },
+  "questoes": [
+    {
+      "questao_id": "CE-GEO-11-Q001",
+      "origem": "inedita_padrao_fcc",
+      "referencia_prova": "Inédita — padrão FCC / Edital SEDUC-MA 01/2026",
+      "enunciado": "Na classificação do relevo brasileiro proposta por Jurandyr Ross (com base no Projeto RADAMBRASIL), foi introduzida em destaque uma categoria geomorfológica ausente nas divisões clássicas de Aroldo de Azevedo e Aziz Ab'Sáber, resultando em 28 unidades agrupadas em",
+      "alternativas": {
+        "A": "10 cordilheiras, 10 planaltos e 8 planícies abissais.",
+        "B": "4 planaltos, 4 planícies e 2 dobramentos modernos.",
+        "C": "6 domínios morfoclimáticos e 3 faixas de transição.",
+        "D": "11 planaltos, 11 depressões e 6 planícies.",
+        "E": "5 mesorregiões e 22 regiões imediatas."
+      },
+      "gabarito": "D",
+      "justificativa_gabarito": "Jurandyr Ross sistematizou o relevo brasileiro em 28 unidades: 11 planaltos, 11 depressões (grande inovação da classificação) e 6 planícies.",
+      "analise_distratores": {
+        "A": "Inexistente.",
+        "B": "Não há dobramentos modernos no Brasil.",
+        "C": "Refere-se aos domínios morfoclimáticos de Ab'Sáber.",
+        "E": "Refere-se à divisão regional do IBGE no Maranhão."
+      },
+      "dificuldade": "basica",
+      "subtopico": "Estrutura física e geomorfológica do Brasil"
+    },
+    {
+      "questao_id": "CE-GEO-11-Q002",
+      "origem": "inedita_padrao_fcc",
+      "referencia_prova": "Inédita — padrão FCC / Edital SEDUC-MA 01/2026",
+      "enunciado": "Na obra 'Os Domínios de Natureza no Brasil', de Aziz Ab'Sáber, são definidos seis grandes domínios morfoclimáticos nucleares, separados por faixas de transição. Assinale a alternativa que apresenta APENAS domínios nucleares dessa classificação.",
+      "alternativas": {
+        "A": "Amazônico, Pantanal, Mata dos Cocais, Caatinga, Pampa e Manguezais.",
+        "B": "Amazônico, Cerrado, Mares de Morros, Caatinga, Araucárias e Pradarias.",
+        "C": "Cerrado, Pantanal, Caatinga, Mata Atlântica, Restinga e Campos.",
+        "D": "Amazônico, Mata dos Cocais, Mares de Morros, Araucárias, Manguezais e Agreste.",
+        "E": "Sertão, Zona da Mata, Meio-Norte, Agreste, Pantanal e Pampa."
+      },
+      "gabarito": "B",
+      "justificativa_gabarito": "Os 6 domínios morfoclimáticos de Ab'Sáber são exatamente: Amazônico, Cerrado, Mares de Morros, Caatinga, Araucárias e Pradarias (Pampas). Pantanal e Mata dos Cocais são faixas de transição.",
+      "analise_distratores": {
+        "A": "Pantanal e Mata dos Cocais são faixas de transição.",
+        "C": "Pantanal é faixa de transição.",
+        "D": "Mata dos Cocais é faixa de transição.",
+        "E": "Mistura sub-regiões do Nordeste com faixas de transição."
+      },
+      "dificuldade": "intermediaria",
+      "subtopico": "Relevo, domínios morfoclimáticos, climatologia, hidrografia e pedologia"
+    },
+    {
+      "questao_id": "CE-GEO-11-Q003",
+      "origem": "inedita_padrao_fcc",
+      "referencia_prova": "Inédita — padrão FCC / Edital SEDUC-MA 01/2026",
+      "enunciado": "Embora frequentemente confundidos, os processos de desertificação e arenização no Brasil ocorrem sob condições climáticas distintas. Enquanto a desertificação atinge áreas de clima semiárido/subúmido seco (como núcleos do Sertão nordestino), a arenização ocorre em",
+      "alternativas": {
+        "A": "regiões de clima úmido com depósitos arenosos suscetíveis à mobilização de sedimentos, como no sudoeste do Rio Grande do Sul, onde o uso do solo pode intensificar a dinâmica.",
+        "B": "áreas polares congeladas acima do Círculo Polar Antártico.",
+        "C": "topos vulcânicos ativos acima de 4.000 metros no Planalto Central.",
+        "D": "exclusivamente manguezais inundados por macromarés.",
+        "E": "zonas abissais do Oceano Atlântico."
+      },
+      "gabarito": "A",
+      "justificativa_gabarito": "Arenização no sudoeste gaúcho ocorre em clima úmido sobre materiais arenosos suscetíveis; o uso pode intensificar processos, sem ser a única causa.",
+      "analise_distratores": {
+        "B": "Inexistente no Brasil.",
+        "C": "Absurdo geográfico.",
+        "D": "Manguezais são ambientes lamosos salobros.",
+        "E": "Ambiente marinho profundo."
+      },
+      "dificuldade": "intermediaria",
+      "subtopico": "Recursos naturais, aproveitamento econômico e questões ambientais"
+    },
+    {
+      "questao_id": "CE-GEO-11-Q004",
+      "origem": "inedita_padrao_fcc",
+      "referencia_prova": "Inédita — padrão FCC / Edital SEDUC-MA 01/2026",
+      "enunciado": "Sobre a hidrografia brasileira e o aproveitamento econômico de suas bacias, assinale a afirmação correta.",
+      "alternativas": {
+        "A": "A Bacia Amazônica possui o menor volume de água doce do território nacional.",
+        "B": "A região hidrográfica do Paraná abriga grandes empreendimentos hidrelétricos, entre eles Itaipu.",
+        "C": "A Bacia do Tocantins-Araguaia pertence integralmente à Argentina e ao Uruguai.",
+        "D": "O Rio São Francisco seca completamente durante todo o ano em toda a sua extensão.",
+        "E": "O Brasil não possui aquíferos subterrâneos relevantes."
+      },
+      "gabarito": "B",
+      "justificativa_gabarito": "O aproveitamento hidrelétrico do Paraná inclui Itaipu; a comparação de capacidade instalada entre regiões requer fonte e data.",
+      "analise_distratores": {
+        "A": "É a maior bacia hidrográfica do mundo em vazão.",
+        "C": "É a maior bacia hidrográfica inteiramente brasileira.",
+        "D": "O São Francisco é um rio PERENE que corta o Semiárido.",
+        "E": "O Brasil abriga gigantes aquíferos como o Guarani e o Alter do Chão."
+      },
+      "dificuldade": "basica",
+      "subtopico": "Relevo, domínios morfoclimáticos, climatologia, hidrografia e pedologia"
+    },
+    {
+      "questao_id": "CE-GEO-11-Q005",
+      "origem": "inedita_padrao_fcc",
+      "referencia_prova": "Inédita — padrão FCC / Edital SEDUC-MA 01/2026",
+      "enunciado": "Qual domínio morfoclimático brasileiro é caracterizado por relevo de 'meias-laranjas' (morros mamelonares) em escudos cristalinos intensamente intemperizados pela umidade atlântica, originalmente recoberto pela Mata Atlântica e sujeito a escorregamentos de encostas em áreas urbanizadas?",
+      "alternativas": {
+        "A": "Domínio das Araucárias.",
+        "B": "Domínio da Caatinga.",
+        "C": "Domínio das Pradarias.",
+        "D": "Domínio dos Mares de Morros.",
+        "E": "Domínio do Cerrado."
+      },
+      "gabarito": "D",
+      "justificativa_gabarito": "O Domínio dos Mares de Morros (faixa atlântica/Sudeste) apresenta relevo mamelonar cristalino, forte intemperismo químico, Mata Atlântica e alta suscetibilidade a movimentos de massa (deslizamentos) quando desmatado/ocupado.",
+      "analise_distratores": {
+        "A": "Planaltos subtropicais com pinheiros.",
+        "B": "Depressões semiáridas.",
+        "C": "Coxilhas suaves herbáceas no Sul.",
+        "E": "Chapadões tropicais interiores."
+      },
+      "dificuldade": "basica",
+      "subtopico": "Relevo, domínios morfoclimáticos, climatologia, hidrografia e pedologia"
+    },
+    {
+      "questao_id": "CE-GEO-11-EXP-Q001",
+      "origem": "inedita_autoral_em_auditoria",
+      "referencia_prova": "SOaprender — inédita; não é questão oficial FCC",
+      "enunciado": "A comparação entre o mapa de biomas do IBGE e os domínios de Ab'Sáber exige reconhecer que",
+      "alternativas": {
+        "A": "ambos possuem necessariamente os mesmos limites.",
+        "B": "Pantanal é domínio clássico de Ab'Sáber.",
+        "C": "são recortes distintos, com critérios próprios.",
+        "D": "bioma significa apenas relevo.",
+        "E": "Mares de Morros é um dos seis biomas do IBGE."
+      },
+      "gabarito": "C",
+      "justificativa_gabarito": "Bioma e domínio são categorias de sistemas classificatórios distintos.",
+      "analise_distratores": {
+        "A": "Critérios não coincidem.",
+        "B": "Pantanal é área de transição na proposta clássica.",
+        "D": "Bioma integra características ecológicas.",
+        "E": "Mares de Morros é domínio."
+      },
+      "dificuldade": "intermediaria",
+      "subtopico": "Relevo, domínios morfoclimáticos, climatologia, hidrografia e pedologia"
+    },
+    {
+      "questao_id": "CE-GEO-11-EXP-Q002",
+      "origem": "inedita_autoral_em_auditoria",
+      "referencia_prova": "SOaprender — inédita; não é questão oficial FCC",
+      "enunciado": "Ao analisar mapas de cobertura e de biomas, o estudante observa uma área agrícola dentro do Cerrado. A conclusão adequada é:",
+      "alternativas": {
+        "A": "a agricultura muda automaticamente o limite oficial do bioma.",
+        "B": "o mapa de biomas representa apenas vegetação remanescente.",
+        "C": "não pode haver agricultura no Cerrado.",
+        "D": "o limite do bioma e a cobertura atual são informações distintas.",
+        "E": "o mapa de cobertura é uma projeção cartográfica."
+      },
+      "gabarito": "D",
+      "justificativa_gabarito": "O recorte biogeográfico não equivale ao uso e cobertura da terra em uma data.",
+      "analise_distratores": {
+        "A": "Uso não redefine automaticamente recorte.",
+        "B": "Não se restringe a remanescentes.",
+        "C": "A ocupação agrícola ocorre no bioma.",
+        "E": "Projeção é transformação geométrica."
+      },
+      "dificuldade": "intermediaria",
+      "subtopico": "Relevo, domínios morfoclimáticos, climatologia, hidrografia e pedologia"
+    },
+    {
+      "questao_id": "CE-GEO-11-EXP-Q003",
+      "origem": "inedita_autoral_em_auditoria",
+      "referencia_prova": "SOaprender — inédita; não é questão oficial FCC",
+      "enunciado": "Uma normal climatológica indica médias mensais de chuva diferentes entre duas estações maranhenses. Qual procedimento é correto?",
+      "alternativas": {
+        "A": "aplicar o valor de uma estação a todo estado.",
+        "B": "comparar períodos, localização e completude antes de interpretar diferenças.",
+        "C": "atribuir toda diferença exclusivamente ao ENOS.",
+        "D": "deduzir que a temperatura também difere na mesma proporção.",
+        "E": "tratar as médias como previsão de amanhã."
+      },
+      "gabarito": "B",
+      "justificativa_gabarito": "Comparabilidade das séries e controles regionais são essenciais.",
+      "analise_distratores": {
+        "A": "Há variação espacial.",
+        "C": "Não existe causa única automática.",
+        "D": "Variáveis têm relações diferentes.",
+        "E": "Normais não são previsão diária."
+      },
+      "dificuldade": "intermediaria",
+      "subtopico": "Relevo, domínios morfoclimáticos, climatologia, hidrografia e pedologia"
+    },
+    {
+      "questao_id": "CE-GEO-11-EXP-Q004",
+      "origem": "inedita_autoral_em_auditoria",
+      "referencia_prova": "SOaprender — inédita; não é questão oficial FCC",
+      "enunciado": "Segundo a divisão hidrográfica nacional, qual região é a maior totalmente contida no território brasileiro?",
+      "alternativas": {
+        "A": "Amazônica transnacional",
+        "B": "Paraná internacional",
+        "C": "Paraguai internacional",
+        "D": "Tocantins-Araguaia",
+        "E": "Uruguai internacional"
+      },
+      "gabarito": "D",
+      "justificativa_gabarito": "A ANA identifica Tocantins-Araguaia como maior região inteiramente brasileira.",
+      "analise_distratores": {
+        "A": "A bacia amazônica ultrapassa fronteiras.",
+        "B": "A bacia do Paraná é transnacional.",
+        "C": "O Paraguai integra sistema transnacional.",
+        "E": "O Uruguai integra sistema transnacional."
+      },
+      "dificuldade": "intermediaria",
+      "subtopico": "Relevo, domínios morfoclimáticos, climatologia, hidrografia e pedologia"
+    },
+    {
+      "questao_id": "CE-GEO-11-EXP-Q005",
+      "origem": "inedita_autoral_em_auditoria",
+      "referencia_prova": "SOaprender — inédita; não é questão oficial FCC",
+      "enunciado": "A exuberância de uma floresta amazônica em solo muito intemperizado pode ser compreendida pela",
+      "alternativas": {
+        "A": "fertilidade uniforme de todos os solos.",
+        "B": "ausência de ciclagem de nutrientes.",
+        "C": "ciclagem de nutrientes, dinâmica hídrica e diversidade de condições edáficas.",
+        "D": "inexistência de erosão após desmatamento.",
+        "E": "identidade entre solos de várzea e terra firme."
+      },
+      "gabarito": "C",
+      "justificativa_gabarito": "Produtividade não implica fertilidade mineral uniforme.",
+      "analise_distratores": {
+        "A": "Generalização indevida.",
+        "B": "Ciclagem é importante.",
+        "D": "Desmatamento pode aumentar perdas.",
+        "E": "Há regimes e propriedades distintos."
+      },
+      "dificuldade": "avancada",
+      "subtopico": "Relevo, domínios morfoclimáticos, climatologia, hidrografia e pedologia"
+    },
+    {
+      "questao_id": "CE-GEO-11-EXP-Q006",
+      "origem": "inedita_autoral_em_auditoria",
+      "referencia_prova": "SOaprender — inédita; não é questão oficial FCC",
+      "enunciado": "Em relação ao uso da água, a outorga tem a finalidade de",
+      "alternativas": {
+        "A": "transferir a propriedade do rio.",
+        "B": "eliminar a participação social.",
+        "C": "substituir qualquer licenciamento ambiental.",
+        "D": "conceder direito de uso sob condições, sem transferir domínio.",
+        "E": "garantir irrigação como prioridade em toda escassez."
+      },
+      "gabarito": "D",
+      "justificativa_gabarito": "Outorga regula direitos de uso; água é bem de domínio público.",
+      "analise_distratores": {
+        "A": "Não transfere domínio.",
+        "B": "Gestão prevê participação.",
+        "C": "Instrumentos têm funções distintas.",
+        "E": "Consumo humano e dessedentação animal são prioritários em escassez."
+      },
+      "dificuldade": "avancada",
+      "subtopico": "Recursos naturais, aproveitamento econômico e questões ambientais"
+    },
+    {
+      "questao_id": "CE-GEO-11-EXP-Q007",
+      "origem": "inedita_autoral_em_auditoria",
+      "referencia_prova": "SOaprender — inédita; não é questão oficial FCC",
+      "enunciado": "Uma paisagem campestre do sudoeste gaúcho apresenta areais em contexto úmido. A classificação mais adequada do processo é",
+      "alternativas": {
+        "A": "desertificação obrigatória.",
+        "B": "arenização, cuja dinâmica depende de sedimentos, água, vento e uso.",
+        "C": "permafrost.",
+        "D": "laterização exclusiva.",
+        "E": "orogênese ativa."
+      },
+      "gabarito": "B",
+      "justificativa_gabarito": "Arenização pode ocorrer em ambiente úmido, não se reduz a desertificação de terras secas.",
+      "analise_distratores": {
+        "A": "O contexto não corresponde à definição de desertificação.",
+        "C": "Permafrost é solo ou terreno permanentemente congelado.",
+        "D": "Não descreve o processo.",
+        "E": "Não corresponde à dinâmica sedimentar superficial."
+      },
+      "dificuldade": "avancada",
+      "subtopico": "Recursos naturais, aproveitamento econômico e questões ambientais"
+    }
+  ],
+  "flashcards": [
+    {
+      "card_id": "CE-GEO-11-FC001",
+      "frente": "Quantas unidades compõem a classificação do relevo de Jurandyr Ross?",
+      "verso": "28 unidades: 11 planaltos, 11 depressões e 6 planícies.",
+      "tipo": "legislacao_dado",
+      "tags": [
+        "relevo-brasil",
+        "ross"
+      ]
+    },
+    {
+      "card_id": "CE-GEO-11-FC002",
+      "frente": "Quais são os 6 domínios morfoclimáticos de Aziz Ab'Sáber?",
+      "verso": "Amazônico, Cerrado, Mares de Morros, Caatinga, Araucárias e Pradarias (Pantanal e Mata dos Cocais são faixas de transição).",
+      "tipo": "pegadinha_fcc",
+      "tags": [
+        "dominios",
+        "absaber"
+      ]
+    },
+    {
+      "card_id": "CE-GEO-11-FC003",
+      "frente": "Diferença entre Desertificação e Arenização no Brasil?",
+      "verso": "Desertificação: clima semiárido/seco (Nordeste). Arenização: clima úmido com solos arenosos (Pampa gaúcho).",
+      "tipo": "comparacao",
+      "tags": [
+        "meio-ambiente",
+        "solos"
+      ]
+    },
+    {
+      "card_id": "CE-GEO-11-FC004",
+      "frente": "Qual região hidrográfica é a maior totalmente contida no Brasil? Cite uma região com grandes hidrelétricas.",
+      "verso": "Tocantins-Araguaia é a maior inteiramente brasileira; Paraná abriga Itaipu e outras grandes usinas.",
+      "tipo": "conceito",
+      "tags": [
+        "hidrografia"
+      ]
+    },
+    {
+      "card_id": "CE-GEO-11-FC005",
+      "frente": "O que é a 'Amazônia Azul'?",
+      "verso": "Expressão para espaços marítimos de interesse e jurisdição brasileira; distingue mar territorial, ZEE e direitos sobre plataforma continental.",
+      "tipo": "conceito",
+      "tags": [
+        "aguas-oceanicas"
+      ]
+    },
+    {
+      "card_id": "CE-GEO-11-FC006",
+      "frente": "Por que o Brasil não possui dobramentos modernos?",
+      "verso": "O Brasil não apresenta uma cadeia orogênica jovem ativa comparável aos Andes; há crátons, cinturões antigos, bacias e sismicidade intraplaca.",
+      "tipo": "conceito",
+      "tags": [
+        "geologia-brasil"
+      ]
+    },
+    {
+      "card_id": "CE-GEO-11-EXP-FC001",
+      "frente": "Quantos biomas terrestres reconhece o IBGE?",
+      "verso": "Seis; o Sistema Costeiro-Marinho é recorte próprio.",
+      "tipo": "conceito",
+      "tags": [
+        "geografia-fisica"
+      ],
+      "status": "em_auditoria"
+    },
+    {
+      "card_id": "CE-GEO-11-EXP-FC002",
+      "frente": "Qual a edição do SiBCS consultada?",
+      "verso": "6ª edição, 2025, com treze ordens.",
+      "tipo": "conceito",
+      "tags": [
+        "geografia-fisica"
+      ],
+      "status": "em_auditoria"
+    },
+    {
+      "card_id": "CE-GEO-11-EXP-FC003",
+      "frente": "Latossolos e Argissolos: distinção inicial?",
+      "verso": "Latossolos têm horizonte B latossólico; Argissolos, B textural e outros critérios diagnósticos.",
+      "tipo": "conceito",
+      "tags": [
+        "geografia-fisica"
+      ],
+      "status": "em_auditoria"
+    },
+    {
+      "card_id": "CE-GEO-11-EXP-FC004",
+      "frente": "ZCIT e ZCAS: distinção?",
+      "verso": "ZCIT: convergência tropical; ZCAS: faixa persistente de chuva NW–SE, sobretudo no verão austral.",
+      "tipo": "conceito",
+      "tags": [
+        "geografia-fisica"
+      ],
+      "status": "em_auditoria"
+    },
+    {
+      "card_id": "CE-GEO-11-EXP-FC005",
+      "frente": "Mata dos Cocais é bioma oficial?",
+      "verso": "Não. É expressão de paisagens regionais de transição.",
+      "tipo": "conceito",
+      "tags": [
+        "geografia-fisica"
+      ],
+      "status": "em_auditoria"
+    },
+    {
+      "card_id": "CE-GEO-11-EXP-FC006",
+      "frente": "Por que várzea e terra firme diferem?",
+      "verso": "Várzea sofre inundação fluvial sazonal; terra firme não sofre inundação regular equivalente.",
+      "tipo": "conceito",
+      "tags": [
+        "geografia-fisica"
+      ],
+      "status": "em_auditoria"
+    },
+    {
+      "card_id": "CE-GEO-11-EXP-FC007",
+      "frente": "Qual diferença entre bacia e região hidrográfica?",
+      "verso": "Região é unidade de gestão que pode reunir bacias; bacia é unidade física de drenagem.",
+      "tipo": "conceito",
+      "tags": [
+        "geografia-fisica"
+      ],
+      "status": "em_auditoria"
+    },
+    {
+      "card_id": "CE-GEO-11-EXP-FC008",
+      "frente": "Outorga transfere propriedade da água?",
+      "verso": "Não. Concede direito de uso condicionado.",
+      "tipo": "conceito",
+      "tags": [
+        "geografia-fisica"
+      ],
+      "status": "em_auditoria"
+    },
+    {
+      "card_id": "CE-GEO-11-EXP-FC009",
+      "frente": "Qual prioridade de uso na escassez segundo Lei 9.433?",
+      "verso": "Consumo humano e dessedentação de animais.",
+      "tipo": "conceito",
+      "tags": [
+        "geografia-fisica"
+      ],
+      "status": "em_auditoria"
+    },
+    {
+      "card_id": "CE-GEO-11-EXP-FC010",
+      "frente": "Bioma é mapa de vegetação remanescente?",
+      "verso": "Não. Cobertura atual é outra informação.",
+      "tipo": "conceito",
+      "tags": [
+        "geografia-fisica"
+      ],
+      "status": "em_auditoria"
+    },
+    {
+      "card_id": "CE-GEO-11-EXP-FC011",
+      "frente": "Pantanal na classificação de Ab'Sáber?",
+      "verso": "Área de transição; no IBGE é um bioma.",
+      "tipo": "conceito",
+      "tags": [
+        "geografia-fisica"
+      ],
+      "status": "em_auditoria"
+    },
+    {
+      "card_id": "CE-GEO-11-EXP-FC012",
+      "frente": "Qual a diferença entre arenização e desertificação?",
+      "verso": "Arenização pode ocorrer em ambiente úmido; desertificação é degradação de terras secas.",
+      "tipo": "conceito",
+      "tags": [
+        "geografia-fisica"
+      ],
+      "status": "em_auditoria"
+    }
+  ],
+  "teoria_md": "# 1. Estrutura e classificação do relevo brasileiro\n\n## Estruturas geológicas e o território brasileiro\n\nEm escala continental, é útil distinguir **crátons/escudos cristalinos**, **cinturões orogênicos antigos** e **bacias sedimentares**. Escudos e crátons expõem ou sustentam terrenos muito antigos; bacias acumulam espessas sequências sedimentares; cinturões registram antigas colisões e deformações.\n\nO território brasileiro situa-se no interior da placa Sul-Americana e não possui cadeias de dobramentos modernos comparáveis aos Andes. Isso não significa estabilidade absoluta: há soerguimentos, falhas reativadas, erosão diferencial e sismicidade intraplaca.\n\nEm termos econômicos, muitos depósitos metálicos associam-se a terrenos cristalinos e cinturões antigos; grandes sistemas de petróleo e gás concentram-se em bacias sedimentares. Trate essas relações como tendências geológicas, não como regras sem exceção.\n\nAtenção: **Estrutura geológica não é forma de relevo.** Uma bacia sedimentar pode sustentar planaltos, chapadas, depressões ou planícies, dependendo da história geomorfológica.\n\n## Aroldo de Azevedo, Aziz Ab’Sáber e Jurandyr Ross\n\n| Autor | Chave de leitura | O que guardar |\n| --- | --- | --- |\n| Aroldo de Azevedo | critério fortemente altimétrico/hypsométrico | distinção clássica de planaltos e planícies com referência a cotas |\n| Aziz Ab’Sáber | processos geomorfológicos | planalto = erosão/denudação predominante; planície = sedimentação predominante |\n| Jurandyr Ross | síntese morfoestrutural e morfoescultural com dados do RADAMBRASIL | planaltos + depressões + planícies; maior detalhamento |\n\nA evolução dessas classificações mostra a passagem de uma leitura mais **altimétrica** para abordagens que integram **processos, estrutura e modelado**. As propostas são aprofundamento pertinente; responda conforme o **critério explicitado pelo autor**, e não misture sistemas.\n\nHoje o IBGE, o SGB e a comunidade geomorfológica trabalham na padronização de um **Sistema Brasileiro de Classificação de Relevo**. Isso não apaga o valor histórico e didático das classificações históricas estudadas.\n\nCuidado com a troca**Azevedo → altitude**; **Ab’Sáber → processos erosão/deposição**; **Ross → estrutura + modelado + processos, incluindo depressões como grande categoria.**\n\n## Relevo do Brasil: leitura integrada\n\nO Brasil combina **planaltos, depressões e planícies**, sobre estruturas cristalinas e sedimentares de idades variadas. A ausência de orogenias cenozoicas ativas dentro do território contrasta com a margem andina do continente, mas a modelagem externa continua intensa.\n\nAs **planícies fluviais** associam-se à acumulação recente; **chapadas** podem aparecer em áreas sedimentares; **serras e escarpas** podem refletir estrutura, erosão diferencial, falhamento e soerguimentos. Na Amazônia, não confunda a bacia sedimentar amazônica com “uma imensa planície”: há planaltos, depressões e planícies fluviais.\n\nO IBGE atualmente mapeia categorias como planícies, depressões, patamares, tabuleiros, chapadas, planaltos e serras em diferentes escalas. Isso reforça que o relevo é **hierárquico e multiescalar**.\n\nAtenção: **Amazônia ≠ toda plana**. O rio Amazonas ocupa grandes planícies fluviais, mas a região inclui depressões e planaltos extensos.\n\n# 2. Climas e sistemas atmosféricos do Brasil\n\n## Massas de ar e frentes no Brasil\n\nUma **massa de ar** é um grande volume atmosférico que adquire características relativamente homogêneas de temperatura e umidade em sua região de origem. Ao deslocar-se, modifica-se pelo contato com novas superfícies.\n\n| Massa | Origem/traço didático | Papel no Brasil |\n| --- | --- | --- |\n| mEc Equatorial Continental | Amazônia ocidental; quente e muito úmida | convecção e transporte de umidade; exceção importante à ideia “continental = seca” |\n| mEa Equatorial Atlântica | Atlântico equatorial; quente e úmida | atua no Norte e litoral setentrional |\n| mTa Tropical Atlântica | Atlântico Sul subtropical; quente e úmida | leste do Brasil, litoral e interior conforme circulação |\n| mTc Tropical Continental | região do Chaco/interior; quente e relativamente seca | centro-sul, especialmente na estação quente |\n| mPa Polar Atlântica | altas latitudes do Atlântico Sul; fria e úmida | frentes frias, quedas de temperatura e friagem |\n\nUma **frente** é a zona de transição entre massas com propriedades diferentes. Na frente fria, o ar frio avança e força o ar quente a subir. A passagem frontal pode produzir mudança rápida de vento, pressão, temperatura, nebulosidade e chuva.\n\nAtenção: A mEc é **continental e úmida**. Isso acontece pela intensa disponibilidade hídrica e evapotranspiração amazônica. Evite a regra simplista “massa continental é sempre seca”.\n\n## ZCIT, ZCAS e sistemas de convergência\n\nA **Zona de Convergência Intertropical (ZCIT)** é uma faixa de baixa pressão relativa, convergência dos alísios, forte convecção e nebulosidade. Ela migra sazonalmente para norte e sul acompanhando, de modo geral, o máximo de aquecimento e a configuração oceano-atmosfera. Sua posição influencia fortemente a estação chuvosa do extremo norte do Brasil e de partes do Nordeste.\n\nA **Zona de Convergência do Atlântico Sul (ZCAS)** é outra estrutura: uma banda persistente de nebulosidade e precipitação orientada aproximadamente de noroeste para sudeste, conectando a Amazônia ao Sudeste do Brasil e ao Atlântico Sul, sobretudo no verão austral. Ela é central para episódios prolongados de chuva no centro-sudeste.\n\nA **Alta Subtropical do Atlântico Sul (ASAS)** é uma circulação anticiclônica de grande escala associada à subsidência subtropical. Sua posição e intensidade modulam ventos, estabilidade e transporte de umidade. Bloqueios atmosféricos podem manter padrões persistentes de seca ou calor.\n\nCuidado com a troca**ZCIT:** faixa tropical quase zonal, convergência dos alísios, importante para Norte/Nordeste. **ZCAS:** corredor NW–SE de umidade/chuva Amazônia–Sudeste–Atlântico, típico do verão.\n\n## Climas do Brasil\n\nO Brasil é majoritariamente intertropical, por isso predominam climas quentes, mas a diversidade é grande. Em síntese didática:\n\n| Tipo | Traço dominante | Mecanismos/área de referência |\n| --- | --- | --- |\n| Equatorial | quente, baixa amplitude anual, muita umidade | Amazônia; convecção, umidade continental/oceânica, ZCIT em setores |\n| Tropical típico | verão chuvoso, inverno mais seco | Brasil central; sazonalidade da circulação tropical |\n| Semiárido | chuvas escassas e muito irregulares; alta evapotranspiração potencial | interior do Nordeste; múltiplos controles atmosféricos e oceânicos |\n| Tropical Atlântico/litorâneo | umidade marítima, relevo e sistemas costeiros | faixa leste, com grande variação latitudinal |\n| Tropical de altitude | altitude reduz médias térmicas; verão chuvoso em grande parte do Sudeste | planaltos/serras do Sudeste |\n| Subtropical | maior amplitude anual, frentes frequentes e chuva relativamente bem distribuída | Sul, ao sul do Trópico de Capricórnio |\n\nO mapa climático do IBGE trabalha com zonas como **Equatorial, Tropical Zona Equatorial, Tropical Nordeste Oriental, Tropical Brasil Central e Temperado**, além de classes de temperatura e umidade/duração do período seco.\n\nAtenção: Não trate “tropical” como sinônimo de “verão chuvoso e inverno seco” em qualquer ponto do país. O litoral leste, a Amazônia e áreas de transição têm regimes diferentes.\n\n## Amazônia e Maranhão: sazonalidade regional\n\nA Amazônia apresenta intensa reciclagem de umidade pela evapotranspiração, combinada à entrada de vapor oceânico e ao transporte atmosférico. Não existe um regime uniforme. No norte do Maranhão, a sazonalidade da chuva relaciona-se à migração da ZCIT e à circulação tropical atlântica; no sul e interior, o período seco e a influência de outros sistemas precisam ser examinados em séries locais. Compare normais do INMET de São Luís e de Balsas, observando estação, período, unidades e lacunas, sem antecipar valores. A friagem é exemplo de incursão polar em baixas latitudes, sobretudo no oeste e sul da Amazônia. Não transforme tendência regional em previsão municipal.\n\n# 3. Solos brasileiros e paisagens amazônicas\n\n## SiBCS e classes frequentes no Brasil\n\nO **Sistema Brasileiro de Classificação de Solos (SiBCS)** organiza os solos em níveis categóricos. a 6ª edição (2025), revisada e ampliada da Embrapa mantém **13 ordens**: Argissolos, Cambissolos, Chernossolos, Espodossolos, Gleissolos, Latossolos, Luvissolos, Neossolos, Nitossolos, Organossolos, Planossolos, Plintossolos e Vertissolos.\n\n| Classe | Ideia útil para prova |\n| --- | --- |\n| Latossolos | muito intemperizados; geralmente profundos; ampla ocorrência tropical |\n| Argissolos | horizonte B textural, com aumento de argila em subsuperfície |\n| Neossolos | pouco desenvolvimento pedogenético |\n| Gleissolos | forte influência de saturação por água/hidromorfia e gleização |\n\nLatossolos e Argissolos juntos ocupam grande parte do território brasileiro e são frequentemente muito intemperizados e ácidos, mas **há variação interna**.\n\n## Solos amazônicos e diversidade regional\n\nMuitos solos de terra firme amazônica são muito intemperizados e pobres em nutrientes disponíveis. A floresta depende de ciclagem de nutrientes e não demonstra fertilidade uniforme. Várzeas podem receber sedimentos; solos antropogênicos apresentam propriedades diferentes. A retirada de cobertura altera interceptação, evapotranspiração, erosão e ciclagem. No Maranhão, compare solos e cobertura com relevo, material de origem e uso, consultando mapas em escala adequada.\n\n# 4. Regiões hidrográficas e gestão da água\n\n## Lei 9.433: fundamentos e objetivos vigentes\n\nA Lei 9.433/1997 instituiu a **Política Nacional de Recursos Hídricos (PNRH)**. Entre seus fundamentos: água é bem de domínio público; recurso limitado com valor econômico; em escassez, prioridade para **consumo humano e dessedentação de animais**; gestão deve proporcionar usos múltiplos; a **bacia hidrográfica** é unidade territorial de implementação; e a gestão deve ser descentralizada e participativa.\n\nA Lei 15.269/2025 modificou a Lei 9.433/1997, incluindo referências à geração de energia elétrica e transporte aquaviário no objetivo de uso racional e integrado. Consulte a redação consolidada dos artigos 1º a 5º, em vez de memorizar uma versão anterior. **Atenção à atualização:**Não estude uma versão antiga da lei. Para prova, diferencie **fundamentos, objetivos, diretrizes e instrumentos**.\n\n## Instrumentos da PNRH: plano, enquadramento, outorga, cobrança e informação\n\nO art. 5º lista: **Planos de Recursos Hídricos; enquadramento dos corpos d’água em classes; outorga; cobrança; compensação a municípios; Sistema de Informações sobre Recursos Hídricos**.\n\n**Planos** orientam a gestão; **enquadramento** estabelece metas/classes conforme usos preponderantes; **outorga** controla direitos de uso; **cobrança** reconhece valor econômico, incentiva racionalização e financia ações; o **Sistema de Informações** organiza dados para a gestão.\n\nPegadinha jurídica“Compensação a municípios” permanece no rol do art. 5º, mas o **art. 24 foi vetado**. Outra armadilha: **outorga não transfere propriedade da água**; concede direito de uso sob condições.\n\n## SINGREH, comitês e gestão participativa\n\nO **SINGREH** coordena a gestão integrada das águas, arbitra administrativamente conflitos, implementa a PNRH e planeja/regula/controla os usos.\n\nIntegram o sistema: **Conselho Nacional de Recursos Hídricos, ANA, Conselhos Estaduais e do DF, Comitês de Bacia, órgãos públicos relacionados à gestão e Agências de Água**.\n\nOs **Comitês de Bacia** são fóruns participativos com representantes do poder público, usuários e sociedade civil. Entre suas competências estão promover debate, arbitrar conflitos em primeira instância administrativa, aprovar o plano da bacia e estabelecer mecanismos de cobrança/sugerir valores.\n\nNão confundaComitê não é “dono do rio” e não substitui automaticamente ANA ou órgãos estaduais. Competência depende do domínio da água e da função de cada ente.\n\n## Tocantins-Araguaia e a leitura regional\n\nA Região Hidrográfica Tocantins-Araguaia é a maior região hidrográfica totalmente inserida no Brasil, segundo a ANA. Abrange porções de Goiás, Tocantins, Pará, Maranhão, Mato Grosso e Distrito Federal. Diferencie a bacia transnacional Amazônica, a região hidrográfica usada na gestão nacional e o território estadual. Hidrelétricas, irrigação, navegação e abastecimento podem competir pelo uso da água; barragens também alteram conectividade e transporte de sedimentos. Compare as regiões Tocantins-Araguaia, Parnaíba e Atlântico Nordeste Ocidental no mapa oficial da ANA. O Maranhão não se limita a uma única bacia.\n\n# 5. Biomas brasileiros: diversidade e dinâmica\n\n## Os seis biomas brasileiros do IBGE\n\nO IBGE delimita seis biomas continentais: **Amazônia, Mata Atlântica, Caatinga, Cerrado, Pantanal e Pampa**. O Sistema Costeiro-Marinho é mapeado separadamente. Os limites servem como referência territorial e não significam que cada bioma tenha vegetação homogênea.\n\n| Norte | Centro | Leste/Interior | Sul |\n| --- | --- | --- | --- |\n| Amazônia | Cerrado + Pantanal | Caatinga + Mata Atlântica | Mata Atlântica + Pampa |\n\nEsquema de orientação, não substitui o mapa. [Abrir mapa oficial de biomas do IBGE ↗](https://atlasescolar.ibge.gov.br/images/mapas/pdf/brasil-diversidade-ambiental-biomas-continentais-p-108.pdf)\n\nLeitura de mapaObserve legenda, limites, escala e áreas de contato. Não transforme uma cor predominante em afirmação de homogeneidade ecológica.\n\n## Amazônia: mosaico florestal e águas\n\nO Bioma Amazônia abriga diferentes formações e ambientes. Uma distinção clássica é entre **terra firme**, que não sofre inundação fluvial sazonal regular; **várzea**, sujeita a inundações associadas em geral a rios de águas brancas com maior carga de sedimentos; e **igapó**, inundável e associado em muitos casos a águas pretas ou claras, mais pobres em sedimentos.\n\nA exuberância da floresta **não autoriza concluir alta fertilidade natural generalizada dos solos**. A rápida ciclagem de nutrientes na biomassa e na serapilheira é parte importante do funcionamento do sistema.\n\nCuidado“Amazônia = floresta uniforme = solo fértil” é uma sequência de simplificações erradas.\n\n## Cerrado: um mosaico de fitofisionomias\n\nA Embrapa organiza as fitofisionomias do Cerrado em **formações florestais, savânicas e campestres**. Entre os exemplos estão mata ciliar, mata de galeria, mata seca e cerradão; cerrado sentido restrito, parque de cerrado, palmeiral e vereda; campo sujo, campo rupestre e campo limpo.\n\nGrande parte dos solos do Cerrado é profundamente intemperizada, ácida e pobre em nutrientes disponíveis, com ocorrência de toxicidade por alumínio. A vegetação apresenta diferentes adaptações à sazonalidade, ao fogo e às condições edáficas.\n\nAplicação ao treino autoral: Classificar uma fisionomia a partir de **estrutura da vegetação**: dossel contínuo → florestal; árvores/arbustos sem dossel contínuo → savânica; predomínio herbáceo-arbustivo → campestre.\n\n## Caatinga: semiárido não é vazio biológico\n\nA **Caatinga** é o único bioma exclusivamente brasileiro. Predomina no semiárido e possui vegetação fortemente ajustada à sazonalidade hídrica: perda de folhas na estação seca em muitas espécies, presença de espinhos, tecidos de armazenamento e outras estratégias xeromórficas.\n\nNa classificação de vegetação do IBGE, grande parte de suas formações aparece como **Savana-Estépica**. Desertificação é processo de degradação de terras secas e não sinônimo de “existência natural de deserto”.\n\n## Mata Atlântica: diversidade, relevo e fragmentação\n\nA Mata Atlântica reúne diferentes formações florestais e ecossistemas associados ao longo de amplo gradiente latitudinal e altitudinal. No sistema do IBGE aparecem, entre outras, **Florestas Ombrófilas Densa e Mista** e **Florestas Estacionais**.\n\nO domínio dos **Mares de Morros** de Ab’Sáber tem forte relação espacial com áreas originalmente florestadas da fachada atlântica, mas **não é sinônimo cartográfico de Bioma Mata Atlântica**.\n\n## Pantanal: a água organiza a paisagem\n\nO Pantanal é uma vasta planície sujeita a **inundações sazonais**. A alternância entre fases de cheia e seca reorganiza habitats, deslocamento da fauna, produtividade e usos econômicos.\n\nSua vegetação expressa influências de formações vizinhas. Por isso, uma paisagem pantaneira não deve ser reduzida a um único “tipo de planta”. No mapa de biomas do IBGE ele é um bioma; na leitura clássica de Ab’Sáber, o Pantanal aparece como **área de transição**, e não um dos seis domínios principais.\n\n## Pampa: campos do Sul\n\nO **Pampa** brasileiro ocorre no Rio Grande do Sul e integra os Pampas sul-americanos. Sua paisagem é marcada por ampla presença de formações campestres, com elevada diversidade de gramíneas, herbáceas e outros componentes.\n\nNo sistema de vegetação do IBGE, **Estepe** corresponde aos campos do Sul do Brasil. No modelo de Ab’Sáber, o **Domínio das Pradarias** guarda relação com essas paisagens, mas novamente os recortes não devem ser convertidos em sinônimos automáticos.\n\n# 6. Domínios morfoclimáticos e transições\n\n## Ab’Sáber e os seis domínios morfoclimáticos\n\nNa formulação clássica de Aziz Ab’Sáber, o Brasil apresenta seis grandes domínios: **Amazônico, Cerrados, Caatingas, Mares de Morros, Araucárias e Pradarias**, separados e conectados por faixas de transição.\n\n| Domínio | Âncora paisagística |\n| --- | --- |\n| Amazônico | terras baixas, redes fluviais e florestas equatoriais |\n| Cerrados | chapadões tropicais e mosaico savânico |\n| Caatingas | depressões interplanálticas semiáridas |\n| Mares de Morros | mamelonização e fachada atlântica úmida |\n| Araucárias | planaltos subtropicais |\n| Pradarias | coxilhas/campos subtropicais |\n\n## Faixas de transição e tensão ecológica\n\n**Faixas de transição** são áreas onde características de grandes conjuntos paisagísticos se interpenetram. Na cartografia da vegetação do IBGE, contatos entre regiões fitoecológicas podem aparecer como **áreas de tensão ecológica**.\n\nEcótono, tensão ecológica e faixa de transição são conceitos próximos, mas o contexto classificatório importa. O erro de prova é imaginar uma “linha ecológica” perfeita, como uma fronteira política.\n\nExemplo brasileiroO Meio-Norte, com destaque para a Mata dos Cocais, é frequentemente estudado como transição entre conjuntos amazônicos, cerrados e caatingas. Use o exemplo para compreender gradiente, não para decorar uma linha fixa.\n\n## Vegetação segundo o IBGE\n\nO sistema fitogeográfico do IBGE diferencia grandes regiões e formações. **Floresta Ombrófila** associa-se a condições úmidas; **Floresta Estacional** apresenta sazonalidade com perda foliar em parte das árvores; **Savana** corresponde amplamente ao Cerrado; **Savana-Estépica** inclui formações como a Caatinga; **Estepe** corresponde aos campos do Sul; **Campinarana** ocorre principalmente na Amazônia em ambientes de solos muito pobres, frequentemente arenosos e hidromórficos.\n\nNão misture escalas“Savana” é categoria de vegetação; “Cerrado” pode nomear bioma e também aparecer em usos regionais/fitofisionômicos. Leia o enunciado.\n\n## Maranhão: biomas e áreas de contato\n\nO Maranhão contém áreas dos biomas Amazônia e Cerrado e formações de contato, além de ambientes costeiros. Mata dos Cocais é expressão regional de paisagens de transição, não um sétimo bioma oficial. Compare os limites do mapa de biomas do IBGE com a cobertura efetivamente observada: o limite do bioma não é mapa de vegetação remanescente. O estudo estadual detalhado será feito em CE-GEO-14. Não extrapole condições de municípios paraenses para o Maranhão.\n\n# 7. Recursos naturais e conservação\n\n## Unidades de conservação: o básico para este tema\n\nO SNUC organiza as unidades de conservação em dois grupos: **Proteção Integral** e **Uso Sustentável**. No primeiro, o objetivo básico é preservar a natureza e, como regra, admite-se uso indireto dos recursos; no segundo, busca-se compatibilizar conservação com uso sustentável de parcela dos recursos.\n\nAs categorias têm regras diferentes. Aqui, o essencial é compreender a lógica ecológica e territorial. A arquitetura legal completa do SNUC será retomada em **Ambiente e Energia**, evitando duplicação excessiva.\n\nPegadinhaUso Sustentável **não** significa “uso sem regras”; Proteção Integral tampouco significa ausência absoluta de presença humana em qualquer situação prevista em lei.\n\n# 8. Integração e aplicação\n\n## Mapa, processo e território\nA classificação de Ross, de 28 unidades (11 planaltos, 11 depressões e 6 planícies), é uma proposta histórica de compartimentação; não é sinônimo da cartografia oficial mais recente do IBGE. A proposta de Aroldo de Azevedo privilegia altimetria; Ab'Sáber enfatiza dinâmica geomorfológica; Ross integra estrutura e modelado. Não atribua percentuais fixos ao conjunto de escudos e bacias sem indicar fonte, recorte e classificação.\n\n## Águas brasileiras: uma leitura por funções\nA ANA apresenta doze regiões hidrográficas. Amazônica, Tocantins-Araguaia, Parnaíba, São Francisco, Paraná, Paraguai, Uruguai, Atlântico Nordeste Ocidental, Atlântico Nordeste Oriental, Atlântico Leste, Atlântico Sudeste e Atlântico Sul. A Região do Paraná abriga grandes usinas; a capacidade instalada é dado variável e requer série datada. São Francisco e Parnaíba conectam áreas de diferentes regimes climáticos e usos. No litoral, marés, correntes, estuários e manguezais condicionam atividades e ecossistemas. A chamada Amazônia Azul abrange espaços marítimos de interesse e jurisdição brasileira; distinguir mar territorial, zona econômica exclusiva e direitos relativos à plataforma continental. Evitar uma área total sem fonte e data.\n\n## Problemas ambientais: mecanismos e escalas\nDesertificação é degradação em terras áridas, semiáridas e subúmidas secas. Arenização, estudada no sudoeste gaúcho, ocorre em ambiente úmido sobre depósitos arenosos suscetíveis à mobilização por água e vento; uso do solo pode intensificar a dinâmica, mas não é sua única origem. Desmatamento, incêndios, assoreamento, contaminação, fragmentação e perda de biodiversidade exigem análise de processos, agentes, território e políticas. Não confunda floresta remanescente, bioma e Amazônia Legal. A conservação envolve proteção, restauração, manejo e participação social.",
+  "metadata_expansao": {
+    "status": "candidato_nao_publicado",
+    "review_date": "2026-11-26",
+    "source_sections": [
+      {
+        "title": "Estrutura e classificação do relevo brasileiro",
+        "ids": [
+          "tectonica-10",
+          "tectonica-12",
+          "tectonica-13"
+        ]
+      },
+      {
+        "title": "Climas e sistemas atmosféricos do Brasil",
+        "ids": [
+          "climatologia-06",
+          "climatologia-07",
+          "climatologia-10",
+          "climatologia-11"
+        ]
+      },
+      {
+        "title": "Solos brasileiros e paisagens amazônicas",
+        "ids": [
+          "solos-06",
+          "solos-14"
+        ]
+      },
+      {
+        "title": "Regiões hidrográficas e gestão da água",
+        "ids": [
+          "hidrologia-10",
+          "hidrologia-11",
+          "hidrologia-12",
+          "hidrologia-14"
+        ]
+      },
+      {
+        "title": "Biomas brasileiros: diversidade e dinâmica",
+        "ids": [
+          "biomas-04",
+          "biomas-05",
+          "biomas-06",
+          "biomas-07",
+          "biomas-08",
+          "biomas-09",
+          "biomas-10"
+        ]
+      },
+      {
+        "title": "Domínios morfoclimáticos e transições",
+        "ids": [
+          "biomas-11",
+          "biomas-12",
+          "biomas-13",
+          "biomas-16"
+        ]
+      },
+      {
+        "title": "Recursos naturais e conservação",
+        "ids": [
+          "biomas-15"
+        ]
+      },
+      {
+        "title": "Integração e aplicação",
+        "ids": []
+      }
+    ],
+    "source_count": 25,
+    "source_blob_shas": [
+      "9b5f550b0fc334bbb9d56d23e5b02b6810e98dce",
+      "da90c0b79e636e9edf74048d1c3e3d6992408858",
+      "b728a33fce8dfe1104626417c7e888a24f1e4389",
+      "4f65f93baa36464faf22ed46784d45773bbf3afc",
+      "8eef084fbe39a3e3b4b012391d5b2f9b98804041"
+    ],
+    "review": "Leitura de seções-fonte, revisão inicial de conceitos, adaptação regional, conversão HTML para Markdown e correção de exemplos originais. 7 questões inéditas e 12 cartões novos por unidade. Referências institucionais confirmadas por busca (INMET, Embrapa, ANA, Planalto e catálogo IBGE).",
+    "limitations": "Conversão automatizada com correções dirigidas, não revisão independente integral do Markdown final. Verificar referências específicas, resíduos de HTML/FGV, distratores antigos, exemplos, questões e cartões legados reservados, mapas, diagramas, licenças e perfil FCC. Não incorporar fontes externas como se fossem imagens validadas. Não alterar bundle publicado."
+  }
+}
