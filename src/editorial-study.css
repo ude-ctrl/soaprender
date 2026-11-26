@@ -1,0 +1,163 @@
+.sidebar-context .reader-panel { position: static; max-height: none; overflow: visible; border: 0; color: var(--rail-text); }
+.sidebar-context .panel-toggle { border: 0; border-radius: 8px; padding-inline: 12px; background: var(--accent-wash); color: var(--rail-text); font-weight: 700; }
+.sidebar-context .reader-panel-content { padding-block: 8px 0; }
+.outline-unit { padding: 5px 8px 11px; font-weight: 680; line-height: 1.22; }
+.sidebar-context .outline-unit { border-bottom: 1px solid var(--rail-line); color: var(--rail-muted); }
+.reader-outline li + li { border-top: 0; }
+.reader-outline li a { gap: 9px; min-height: 44px; border-radius: 5px; }
+.outline-dot { width: 11px; height: 11px; border: 1.5px solid currentColor; border-radius: 50%; }
+.reader-outline a[aria-current] { color: var(--accent); background: var(--accent-wash); font-weight: 700; }
+.reader-outline a[aria-current] .outline-dot { color: var(--ornament); background: currentColor; box-shadow: inset 0 0 0 2px var(--surface); }
+.sidebar-context .reader-outline li a { color: var(--rail-muted); padding-inline: 8px; min-height: 44px; }
+.sidebar-context .reader-outline li a:is([aria-current], :hover) { color: var(--rail-text); background: var(--accent-wash); }
+.sidebar-context .reader-outline li a[aria-current] .outline-dot { color: var(--rail-accent); }
+.reader-layout.outline-in-sidebar { grid-template-columns: minmax(0, 1fr) minmax(100px, 9%); }
+.reader-layout.outline-in-sidebar.with-tools { grid-template-columns: minmax(0, 1fr) minmax(245px, 37%); }
+.reader-layout.outline-in-sidebar .reader-copy { grid-column: 1; justify-self: start; }
+.reader-layout.outline-in-sidebar .reader-tools { grid-column: 2; }
+.reader-tools { border-top: 0; border-inline-start: 1px solid var(--line); padding-inline-start: clamp(9px, 1.4vw, 24px); }
+.reader-copy { max-width: 760px; }
+.reader-heading { padding-block: 7px 14px; border-bottom: 0; margin-bottom: 18px; }
+.reader-heading h1 { font-size: clamp(2rem, 3vw, 3.15rem); font-weight: 680; }
+.reader-heading::after { margin-top: 5px; }
+.reader-domain { font-size: .9rem; }
+.reader-subtopics { font-size: .92rem; }
+.reader-subtopics summary { padding-block: 6px; min-height: 44px; }
+.reader-links { display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 14px; padding: 3px; border: 1px solid var(--line); border-radius: 9px; }
+.reader-links button { flex: 1 1 auto; justify-content: center; padding-inline: 7px; }
+.reader-note, .concept-note { border: 1px solid var(--line); border-radius: 13px; padding: 13px 16px; margin-block: 0 13px; }
+.reader-note { background: var(--card); }
+.reader-note h3, .concept-note h3 { display: flex; align-items: center; gap: 8px; font: 680 1.18rem var(--serif); color: var(--text); margin: 0 0 8px; }
+.reader-note h3 svg, .concept-note h3 svg { color: var(--gold); }
+.reader-note ul { list-style: disc; padding-inline-start: 1em; }
+.reader-note li + li { margin-top: 5px; }
+.concept-note { background: var(--warm); }
+.concept-note strong { display: block; font: 660 1.18rem var(--serif); margin-bottom: 4px; }
+.concept-note p { font-size: 1rem; }
+.type-control { grid-template-columns: minmax(0, 1fr) auto; align-items: center; font-size: .91rem; }
+.reader-copy .prose { line-height: 1.65; }
+.concept-diagram { background: var(--card); border: 1px solid var(--line); border-radius: 13px; }
+
+.practice-main { padding-top: 10px; }
+.practice-shell { max-width: none; }
+.session-exit { margin-bottom: 2px; min-height: 44px; }
+.practice-toolbar { align-items: end; gap: 20px; padding-bottom: 13px; margin-bottom: 18px; border-bottom: 0; }
+.practice-heading { flex: 1 1 58%; min-width: 0; }
+.practice-heading h1 { font-size: clamp(2rem, 3.4vw, 3.45rem); font-weight: 680; margin-block: 3px; }
+.practice-heading > p:last-child { color: var(--muted); font-size: clamp(1rem, 1.4vw, 1.29rem); }
+.practice-tools { flex: 1 1 36%; min-width: 0; }
+.practice-meta { justify-content: flex-end; }
+.question-segments { display: flex; gap: 5px; margin-block: 5px 8px; }
+.question-segments span { flex: 1 1 0; border-radius: 10px; height: 9px; border: 1px solid transparent; background: var(--line); }
+.question-segments span.current { background: var(--base); border-color: var(--accent); }
+.question-segments span.answered { background: var(--accent); }
+.practice-column { min-width: 0; }
+.practice { max-width: none; }
+.question-layout:not(.practice-has-aside) .practice-column { width: min(100%, 760px); }
+.question-sheet, .practice-feedback, .practice-review { background: var(--card); border: 1px solid var(--line); border-radius: 15px; box-shadow: var(--lift); }
+.question-sheet { padding: clamp(14px, 1.6vw, 25px); gap: 13px; }
+.question-sheet .practice-context { padding-bottom: 8px; border-bottom: 1px solid var(--line); }
+.question-sheet .prompt-title { font: 560 clamp(1.22rem, 1.55vw, 1.58rem)/1.33 var(--serif); }
+.question-sheet .option-row { padding-inline-end: 6px; border-radius: 11px; background: var(--card); }
+.question-sheet .option-row:hover:not(:has(input:disabled)), .question-sheet .option-row:has(input:checked), .question-sheet .option-row.correct {
+  background: var(--accent-wash); border-color: var(--accent);
+}
+.question-sheet .option-row.wrong { background: var(--error-wash); border-color: var(--coral); }
+.question-sheet .option-text { font: 520 clamp(.99rem, 1.25vw, 1.2rem)/1.3 var(--serif); }
+.question-sheet .option .letter { border: 1px solid var(--line); border-radius: 50%; background: var(--surface); color: var(--text); flex-basis: 31px; height: 31px; }
+.question-sheet .option:has(input:checked) .letter, .question-sheet .correct .letter { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
+.question-sheet .wrong .option .letter { color: var(--coral); background: var(--error-wash); border-color: var(--coral); }
+.practice-feedback { padding: clamp(13px, 1.5vw, 24px); }
+.practice-feedback .panel-toggle { background: var(--accent-wash); padding: 8px 11px; border-radius: 9px; font: 680 1.24rem var(--serif); }
+.practice-feedback[data-result="incorrect"] .panel-toggle { background: var(--error-wash); color: var(--coral); }
+.feedback-copy { padding-inline: 0; }
+.feedback-copy h2 { display: flex; gap: 8px; align-items: center; padding-top: 10px; }
+.feedback-copy h2 svg { color: var(--accent); }
+.feedback-copy h3 { border-top: 1px solid var(--line); padding-top: 12px; }
+.feedback-copy dl > div { border-bottom: 1px solid var(--line); padding: 2px 0 7px; }
+.feedback-copy .prose { font: 1.07rem/1.55 var(--serif); }
+.next-action button { border-radius: 9px; min-width: 132px; }
+
+.flashcard-sheet { position: relative; isolation: isolate; overflow: hidden; min-height: clamp(350px, 48vh, 505px); padding: clamp(15px, 2.2vw, 34px);
+  background: var(--card); border: 1px solid var(--line); border-block: 2px solid var(--ornament); border-radius: 19px;
+  box-shadow: var(--lift); align-content: start; grid-template-rows: auto minmax(140px, 1fr) auto; text-align: center; }
+.card-art { position: absolute; width: 64%; inset: auto -19% -2% auto; z-index: -1; color: var(--accent); opacity: .18; pointer-events: none; }
+.flashcard-sheet .practice-context { margin: 0; align-items: center; justify-content: flex-start; gap: 7px; }
+.card-discipline, .card-position { border-radius: 100px; padding: 4px 11px; font-weight: 650; }
+.card-discipline { display: inline-flex; align-items: center; gap: 6px; background: var(--warm); color: var(--gold); }
+.card-position { margin-left: auto; background: var(--accent-wash); color: var(--accent); font: 680 1rem var(--serif); white-space: nowrap; }
+.flashcard-sheet .prompt-title { align-self: center; max-width: 28ch; margin-inline: auto;
+  font-size: clamp(1.62rem, 2.65vw, 2.75rem); font-weight: 620; padding-block: 10px 18px; }
+.flashcard-sheet .prompt-title::after { content: ''; display: block; width: 75px; height: 3px; background: var(--ornament); margin: 18px auto 0; border-radius: 5px; }
+.flashcard-sheet .card-answer { max-width: 64ch; margin-inline: auto; width: 100%; }
+.flashcard-sheet .ratings, .review-result { justify-content: center; }
+.flashcard-sheet .ratings button:hover { border-color: var(--accent); background: var(--accent-wash); }
+.card-reveal { justify-content: center; margin-top: 21px; }
+.card-reveal button { min-height: 52px; border-radius: 999px; min-width: min(90%, 275px); font: 660 1.15rem var(--serif); }
+.flashcard-aside { display: grid; gap: 13px; }
+.card-progress h2 { display: flex; align-items: center; gap: 8px; font-size: 1.3rem; }
+.card-tally { color: var(--muted); font-size: 1.12rem; margin-top: 7px; }
+.card-tally strong { color: var(--accent); font: 700 2.52rem/1 var(--serif); }
+.card-progress .muted { margin-top: 8px; }
+.flashcard-aside .practice-review .panel-toggle { font: 670 1.15rem var(--serif); }
+.flashcard-aside .practice-review .panel-toggle svg { color: var(--gold); }
+.is-immersive .flashcard-aside { display: none; }
+.is-immersive .practice-layout .practice-column { max-width: 760px; margin-inline: auto; }
+.is-immersive .practice-toolbar { display: block; }
+.is-immersive .practice-heading > p:last-child { display: none; }
+
+@media (min-width: 1120px) {
+  .practice-has-aside.question-layout { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .practice-has-aside.flashcard-layout { grid-template-columns: minmax(0, 1fr) minmax(220px, 28%); }
+}
+@media (max-width: 1100px) {
+  .reader-tools { border-top: 1px solid var(--line); border-inline-start: 0; padding-inline-start: 0; }
+}
+@media (max-width: 639px) {
+  .practice-toolbar { flex-wrap: wrap; gap: 5px; }
+  .practice-tools { flex: 1 1 100%; }
+  .practice-heading h1 { font-size: 2rem; }
+  .practice-main .practice-toolbar { margin-bottom: 9px; }
+  .flashcard-sheet { min-height: 340px; }
+  .flashcard-sheet .practice-context .editorial { order: 3; width: 100%; justify-content: center; }
+  .flashcard-sheet .card-discipline { font-size: .84rem; padding: 4px 6px; }
+  .type-control { display: grid; grid-template-columns: minmax(0, 1fr); }
+}
+
+.gis-diagram { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); align-items: center; gap: 14px; }
+.gis-diagram figcaption { margin: 0; font-size: .97rem; }
+.gis-diagram figcaption strong { display: flex; align-items: center; gap: 7px; font: 680 1.22rem var(--serif); color: var(--text); }
+.gis-diagram figcaption svg { width: 21px; color: var(--gold); }
+.gis-diagram figcaption ul { margin-block: 6px 0; }
+@media (max-width: 639px) {
+  .gis-diagram { grid-template-columns: minmax(0, 1fr); }
+  .gis-diagram > svg { max-width: 250px; }
+}
+
+.question-sheet .option-row { transition: background-color .16s ease, border-color .16s ease; }
+.practice-feedback { animation: feedback-in .19s ease-out; }
+@keyframes feedback-in { from { opacity: .5; transform: translateY(5px); } }
+@media (prefers-reduced-motion: reduce) {
+  .question-sheet .option-row { transition: none; }
+  .practice-feedback { animation: none; }
+}
+
+.practice-toolbar { scroll-margin-top: 66px; }
+.reader-recall { margin-block: 14px; }
+.reader-recall h3 { display: flex; align-items: center; gap: 8px; font: 680 1.18rem var(--serif); margin-bottom: 8px; }
+.reader-recall h3 svg { color: var(--accent); }
+.recall-card { display: grid; gap: 10px; padding: 11px 15px; border: 1px solid var(--line); border-radius: 12px;
+  font: 540 1.05rem/1.4 var(--serif); background: var(--card); box-shadow: var(--lift); }
+.recall-card button { justify-self: center; padding-inline: 10px; border-color: transparent; background: transparent; color: var(--gold); }
+.recall-card .prose { font: 1rem/1.5 var(--sans); }
+@media (min-width: 1120px) {
+  .practice-has-aside.question-layout { align-items: stretch; }
+  .practice-has-aside.question-layout .question-sheet { min-height: 100%; align-content: start; }
+}
+
+.practice-modes { display: flex; align-items: center; gap: 3px; padding: 2px; border: 1px solid var(--line);
+  border-radius: 999px; background: var(--card); }
+.practice-modes button { border-radius: 999px; padding-inline: 11px; background: transparent; border-color: transparent; }
+.practice-modes button[aria-pressed="true"] { border-color: var(--line); background: var(--accent-wash); color: var(--accent); }
+.practice-modes button:hover { background: var(--accent-wash); }
+.is-immersive .practice-modes { display: none; }
