@@ -23,3 +23,9 @@ A auditoria científica do acervo segue pendente. Sincronização entre disposit
 - Questões e flashcards retomam posições independentes por aba. Seleção, eliminação, revelação e resposta confirmada são recuperadas após recarga.
 - Revisão semântica dos nove itens sinalizados na auditoria. Em `CG-POR-06-Q005`, o enunciado agora exige o mesmo sentido e a mesma regência. Em `RED-FCC-04-Q001`, a questão foi formulada a partir da norma-padrão sem depender de um item de edital pendente de verificação.
 - **Edital pendente de fonte primária.** Consultas ao portal da FCC, à SEAD-MA, à SEDUC-MA e ao Diário Oficial retornaram bloqueio HTTP 403 na saída de rede. O PDF oficial e as retificações seguem sem confirmação. O próprio acervo informa DOE de 12/11/2026 e assinatura/publicação em 17/11/2026. Identificação, datas e pesos aguardam conferência. A interface indica a pendência e rotula o link como portal da FCC.
+
+
+## Geografia do Brasil — lote 1
+
+- Ampliação de CE-GEO-12 e CE-GEO-13, preservando IDs, gabaritos e estados editoriais. Ver [registro do lote](INTEGRACAO_GEOGRAFIA_BRASIL_LOTE1.md).
+- Página 76 da cópia do edital conferida; portal oficial da FCC indica publicação de 17/11/2026. Não havia retificações listadas no portal consultado; PDF direto inacessível, conferência geral segue pendente.
