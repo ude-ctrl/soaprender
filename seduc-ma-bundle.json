@@ -5,8 +5,8 @@
   "resumo_cobertura": {
     "total_unidades_edital": 45,
     "unidades_populadas": 45,
-    "total_questoes": 300,
-    "total_flashcards": 453
+    "total_questoes": 324,
+    "total_flashcards": 495
   },
   "edital": {
     "schema_version": "1.0.0",
@@ -6513,7 +6513,7 @@
       "titulo": "Geografia do Espaço Mundial, Ordens Geopolíticas, Blocos e Organismos Internacionais",
       "status": "em_auditoria",
       "origem": "edital_explicito",
-      "tempo_leitura_min": 35,
+      "tempo_leitura_min": 9,
       "edital_subtopicos": [
         "Ordem mundial, blocos econômicos, conflitos e tensões geopolíticas contemporâneas",
         "Corporações transnacionais e organismos internacionais"
@@ -6523,7 +6523,7 @@
           "referencia_abnt": "MARANHÃO. Secretaria de Estado da Administração. Edital nº 01/2026 — SEAD/SEDUC-MA (Código 17 — Professor de Geografia). São Luís: SEAD/FCC, 2026. p. 76.",
           "tipo": "edital",
           "nivel_autoridade": 1,
-          "url": "https://www.concursosfcc.com.br"
+          "url": "https://www.concursosfcc.com.br/concursos/seadm226/index.html"
         },
         {
           "referencia_abnt": "VESENTINI, José William. Novas Geopolíticas. 5. ed. São Paulo: Contexto, 2009.",
@@ -6534,6 +6534,60 @@
           "referencia_abnt": "MAGNOLI, Demétrio. Relações Internacionais: Teoria e História. São Paulo: Saraiva, 2004.",
           "tipo": "bibliografia_academica",
           "nivel_autoridade": 5
+        },
+        {
+          "referencia_abnt": "ONU. Carta das Nações Unidas, capítulo V.",
+          "url": "https://www.un.org/en/about-us/un-charter/chapter-5",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
+        },
+        {
+          "referencia_abnt": "ONU. Sistema de votação do Conselho de Segurança.",
+          "url": "https://main.un.org/securitycouncil/en/content/voting-system",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
+        },
+        {
+          "referencia_abnt": "Mercosul. Países e integração.",
+          "url": "https://www.mercosur.int/pt-br/sobre-o-mercosul/paises",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
+        },
+        {
+          "referencia_abnt": "União Europeia. Fatos e dados.",
+          "url": "https://european-union.europa.eu/principles-countries-history/facts-and-figures-european-union_en",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
+        },
+        {
+          "referencia_abnt": "USTR. USMCA.",
+          "url": "https://www.ustr.gov/trade-agreements/free-trade-agreements/united-states-mexico-canada-agreement",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
+        },
+        {
+          "referencia_abnt": "BRICS. Sobre o agrupamento.",
+          "url": "https://brics.br/pt-br/sobre-o-brics",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
+        },
+        {
+          "referencia_abnt": "ONU. Resolução A/RES/ES-11/1, 2022.",
+          "url": "https://digitallibrary.un.org/record/3965290?ln=en",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
+        },
+        {
+          "referencia_abnt": "ONU. Questões de estatuto final sobre a Palestina.",
+          "url": "https://www.un.org/unispal/permanent-status-issues/",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
+        },
+        {
+          "referencia_abnt": "Corte Permanente de Arbitragem. Caso Filipinas–China, 2016.",
+          "url": "https://pca-cpa.org/en/cases/7/",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
         }
       ],
       "sintese_fcc": {
@@ -6545,7 +6599,7 @@
           },
           {
             "termo": "Conselho de Segurança da ONU",
-            "definicao_precisa": "Órgão decisório de segurança com 5 membros permanentes com poder de veto: EUA, Rússia, China, França e Reino Unido.",
+            "definicao_precisa": "Quinze membros, cinco permanentes (EUA, Rússia, China, França, Reino Unido), com veto sobre questões substantivas, e dez eleitos.",
             "fonte": "Carta da ONU, 1945."
           },
           {
@@ -6557,20 +6611,20 @@
         "pegadinhas_fcc": [
           {
             "armadilha": "Classificar Mercosul como União Monetária ou USMCA como Mercado Comum",
-            "como_a_fcc_cobra": "Afirma que o USMCA garante livre circulação de trabalhadores ou que o Mercosul possui moeda única.",
+            "como_a_fcc_cobra": "Distrator de treino autoral: afirma que o USMCA garante livre circulação de trabalhadores ou que o Mercosul possui moeda única.",
             "como_desarmar": "USMCA = Zona de Livre Comércio; Mercosul = União Aduaneira imperfeita; União Monetária = Zona do Euro (UE)."
           },
           {
             "armadilha": "Incluir Brasil, Alemanha ou Japão entre os membros permanentes com veto da ONU",
-            "como_a_fcc_cobra": "Lista o Brasil ou a Alemanha como detentores de poder de veto no Conselho de Segurança.",
-            "como_desarmar": "Apenas os 5 vencedores da 2ª Guerra: EUA, Rússia, China, França e Reino Unido."
+            "como_a_fcc_cobra": "Distrator de treino autoral: lista o Brasil ou a Alemanha como detentores de poder de veto no Conselho de Segurança.",
+            "como_desarmar": "Os cinco permanentes são os definidos pela Carta: EUA, Rússia, China, França e Reino Unido."
           }
         ],
         "quadro_comparativo": [
           {
             "bloco": "USMCA (ex-NAFTA)",
             "estagio": "Zona de Livre Comércio",
-            "diferencial": "Circulação de mercadorias/capitais, sem livre circulação de pessoas"
+            "diferencial": "Liberalização comercial interna; regras tarifárias externas próprias, sem mercado comum."
           },
           {
             "bloco": "Mercosul",
@@ -6646,10 +6700,10 @@
             "B": "o fim da globalização financeira e o fechamento das fronteiras comerciais pelas corporações transnacionais.",
             "C": "a perda de relevância econômica da Ásia Oriental no comércio internacional.",
             "D": "a dissolução imediata da OTAN e do FMI após a queda do Muro de Berlim.",
-            "E": "a substituição da bipolaridade ideológica por uma ordem multipolar (ou unimultipolar), na qual ganham relevo a competição econômica/tecnológica e a clivagem socioeconômica Norte–Sul."
+            "E": "o fim da bipolaridade clássica e a reconfiguração desigual dos polos de poder, com competição econômica e tecnológica e destaque para assimetrias Norte–Sul."
           },
           "gabarito": "E",
-          "justificativa_gabarito": "Com o fim da URSS (1991), encerra-se a bipolaridade ideológica e emergem polos econômicos múltiplos (EUA, UE, Japão e, em seguida, China/emergentes), destacando-se a assimetria Norte–Sul.",
+          "justificativa_gabarito": "O fim da URSS encerrou a configuração bipolar clássica, seguido por forte preeminência dos EUA e emergência de múltiplos polos econômicos. A classificação da ordem varia segundo a dimensão de poder examinada.",
           "analise_distratores": {
             "A": "O Pacto de Varsóvia foi extinto em 1991.",
             "B": "Pós-1991 houve aceleração — e não fim — da globalização e das transnacionais.",
@@ -6695,7 +6749,7 @@
             "E": "submeter todas as decisões empresariais ao planejamento central estatal."
           },
           "gabarito": "D",
-          "justificativa_gabarito": "Cadeias globais de valor fragmentam a produção em escala mundial: P&D/gestão ficam nos polos centrais e a fabricação distribui-se por países conforme custos, infraestrutura e incentivos.",
+          "justificativa_gabarito": "Cadeias globais de valor distribuem etapas da produção entre lugares, coordenadas por redes e relações de comando. As funções estratégicas podem concentrar-se em determinados centros, mas não necessariamente nos mesmos países em toda cadeia.",
           "analise_distratores": {
             "A": "Descreve o oposto (verticalização local fechada).",
             "B": "Ocorre justamente o contrário: intensa penetração de investimentos diretos externos em emergentes.",
@@ -6704,6 +6758,190 @@
           },
           "dificuldade": "basica",
           "subtopico": "Corporações e organismos internacionais"
+        },
+        {
+          "questao_id": "CE-GEO-04-EXP-Q001",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino; não oficial FCC",
+          "enunciado": "Uma rede financeira opera em vários países, mas cada um regula instituições e circulação de capitais. O exemplo evidencia que",
+          "alternativas": {
+            "A": "a globalização extingue a soberania.",
+            "B": "soberania jurídica garante autonomia econômica absoluta.",
+            "C": "fronteiras e soberania são reconfiguradas pelas redes, sem desaparecer.",
+            "D": "o território deixou de ter função política.",
+            "E": "toda rede deve pertencer a um único Estado."
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "A interdependência modifica o exercício do poder estatal, sem eliminar autoridade e regulação.",
+          "analise_distratores": {
+            "A": "A circulação não extingue instituições.",
+            "B": "Interdependência pode restringir autonomia.",
+            "D": "O território continua central à regulação.",
+            "E": "Redes transnacionais podem atravessar diversos Estados."
+          },
+          "dificuldade": "basica",
+          "subtopico": "Ordem mundial, blocos econômicos, conflitos e tensões geopolíticas contemporâneas"
+        },
+        {
+          "questao_id": "CE-GEO-04-EXP-Q002",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino; não oficial FCC",
+          "enunciado": "Assinale a associação historicamente adequada entre autor e conceito.",
+          "alternativas": {
+            "A": "Mahan — Heartland.",
+            "B": "Mackinder — poder marítimo como conceito central.",
+            "C": "Spykman — Rimland.",
+            "D": "Nye — espaço vital.",
+            "E": "Kjellén — glocalização."
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "Spykman destacou a relevância estratégica da periferia eurasiática.",
+          "analise_distratores": {
+            "A": "Heartland associa-se a Mackinder.",
+            "B": "Poder marítimo associa-se a Mahan.",
+            "D": "Espaço vital associa-se a Ratzel.",
+            "E": "Kjellén é associado à sistematização da geopolítica."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Ordem mundial, blocos econômicos, conflitos e tensões geopolíticas contemporâneas"
+        },
+        {
+          "questao_id": "CE-GEO-04-EXP-Q003",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino; não oficial FCC",
+          "enunciado": "O Movimento dos Não Alinhados demonstra que, durante a Guerra Fria,",
+          "alternativas": {
+            "A": "não havia disputa entre EUA e URSS.",
+            "B": "todos os Estados pertenciam formalmente à OTAN.",
+            "C": "a descolonização ocorreu somente após 1991.",
+            "D": "a bipolaridade coexistiu com estratégias de autonomia e interesses próprios de outros países.",
+            "E": "o Pacto de Varsóvia foi uma união monetária."
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "A estrutura bipolar não impedia ações e coalizões relativamente autônomas.",
+          "analise_distratores": {
+            "A": "A rivalidade estruturava a ordem.",
+            "B": "Nem todos integravam a OTAN.",
+            "C": "A descolonização avançou durante a Guerra Fria.",
+            "E": "Era aliança militar."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Ordem mundial, blocos econômicos, conflitos e tensões geopolíticas contemporâneas"
+        },
+        {
+          "questao_id": "CE-GEO-04-EXP-Q004",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino; não oficial FCC",
+          "enunciado": "Em um acordo hipotético, dois países liberalizam o comércio interno, mantêm tarifas externas independentes e não instituem liberdade de circulação de trabalhadores. Trata-se de",
+          "alternativas": {
+            "A": "zona de livre comércio.",
+            "B": "união aduaneira plena.",
+            "C": "mercado comum pleno.",
+            "D": "união monetária.",
+            "E": "federação política."
+          },
+          "gabarito": "A",
+          "justificativa_gabarito": "A independência tarifária externa distingue o acordo da união aduaneira.",
+          "analise_distratores": {
+            "B": "Falta política tarifária externa comum.",
+            "C": "Não há integração livre dos fatores.",
+            "D": "Não há moeda comum.",
+            "E": "A integração comercial não cria um Estado federal."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Ordem mundial, blocos econômicos, conflitos e tensões geopolíticas contemporâneas"
+        },
+        {
+          "questao_id": "CE-GEO-04-EXP-Q005",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino; não oficial FCC",
+          "enunciado": "Em relação ao Conselho de Segurança da ONU, considere I. Possui cinco membros permanentes. II. Todos os quinze membros têm poder de veto. III. Os dez membros não permanentes são eleitos pela Assembleia Geral. Está correto o que se afirma em",
+          "alternativas": {
+            "A": "I apenas.",
+            "B": "II apenas.",
+            "C": "I e II apenas.",
+            "D": "II e III apenas.",
+            "E": "I e III apenas."
+          },
+          "gabarito": "E",
+          "justificativa_gabarito": "I e III correspondem à estrutura da Carta da ONU; o veto substantivo está associado aos membros permanentes.",
+          "analise_distratores": {
+            "A": "III também é verdadeira.",
+            "B": "II é falsa.",
+            "C": "Inclui II, que é falsa, e omite III.",
+            "D": "II é falsa e I é verdadeira."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Ordem mundial, blocos econômicos, conflitos e tensões geopolíticas contemporâneas"
+        },
+        {
+          "questao_id": "CE-GEO-04-EXP-Q006",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino; não oficial FCC",
+          "enunciado": "Ao comparar BRICS, Mercosul e ONU, a distinção mais adequada é",
+          "alternativas": {
+            "A": "BRICS é uma união monetária.",
+            "B": "Mercosul é um órgão do Conselho de Segurança.",
+            "C": "BRICS constitui fórum de cooperação, Mercosul processo de integração regional e ONU organização internacional de ampla atuação.",
+            "D": "Todos possuem idêntica estrutura supranacional.",
+            "E": "ONU é bloco tarifário."
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "As três iniciativas têm objetivos, instituições e formas de coordenação distintos.",
+          "analise_distratores": {
+            "A": "Não há moeda comum obrigatória.",
+            "B": "Mercosul não é órgão da ONU.",
+            "D": "Estruturas e competências são diferentes.",
+            "E": "A ONU não institui tarifa externa comum."
+          },
+          "dificuldade": "avancada",
+          "subtopico": "Corporações transnacionais e organismos internacionais"
+        },
+        {
+          "questao_id": "CE-GEO-04-EXP-Q007",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino; não oficial FCC",
+          "enunciado": "Dois países controlam etapas distintas da cadeia de baterias: um possui jazidas e outro domina refino e patentes. A conclusão mais defensável é",
+          "alternativas": {
+            "A": "o país minerador é necessariamente autônomo.",
+            "B": "a criticidade mineral é sinônimo de escassez geológica.",
+            "C": "a transição energética elimina disputas territoriais.",
+            "D": "a localização de jazidas não determina sozinha o controle da cadeia tecnológica.",
+            "E": "todo refino ocorre no país de extração."
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "Refino, propriedade intelectual, logística e capacidade industrial também condicionam o poder.",
+          "analise_distratores": {
+            "A": "Há dependência possível em etapas posteriores.",
+            "B": "Criticidade envolve risco de fornecimento e importância.",
+            "C": "A transição reorganiza dependências.",
+            "E": "Etapas podem localizar-se em países distintos."
+          },
+          "dificuldade": "avancada",
+          "subtopico": "Corporações transnacionais e organismos internacionais"
+        },
+        {
+          "questao_id": "CE-GEO-04-EXP-Q008",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino; não oficial FCC",
+          "enunciado": "A análise de um conflito territorial que combina reivindicações de soberania, deslocamentos populacionais e interesses externos deve",
+          "alternativas": {
+            "A": "explicá-lo por uma única identidade religiosa.",
+            "B": "distinguir atores, escalas, evidências documentadas e reivindicações.",
+            "C": "assumir que posse militar implica reconhecimento jurídico universal.",
+            "D": "desconsiderar a população civil.",
+            "E": "deduzir a solução exclusivamente da disponibilidade mineral."
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "A abordagem multiescalar distingue fatos, argumentos, direitos e processos territoriais.",
+          "analise_distratores": {
+            "A": "Uma causa isolada é insuficiente.",
+            "C": "Controle de fato e reconhecimento jurídico diferem.",
+            "D": "Impactos civis são centrais.",
+            "E": "Recursos não determinam isoladamente o conflito."
+          },
+          "dificuldade": "avancada",
+          "subtopico": "Ordem mundial, blocos econômicos, conflitos e tensões geopolíticas contemporâneas"
         }
       ],
       "flashcards": [
@@ -6760,15 +6998,155 @@
         {
           "card_id": "CE-GEO-04-FC006",
           "frente": "Como funcionam as cadeias globais de valor das transnacionais?",
-          "verso": "Fragmentam a produção pelo mundo: P&D e gestão nos centros estratégicos; manufatura distribuída conforme vantagens locacionais.",
+          "verso": "Etapas produtivas distribuídas e coordenadas por redes. Controle de tecnologia, finanças e gestão pode concentrar-se em determinados centros.",
           "tipo": "conceito",
           "tags": [
             "transnacionais",
             "globalizacao"
           ]
+        },
+        {
+          "card_id": "CE-GEO-04-EXP-FC001",
+          "frente": "Estado e nação são sinônimos?",
+          "verso": "Não. Estado é organização político-jurídica; nação envolve pertencimento histórico e político.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-04"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-04-EXP-FC002",
+          "frente": "Soberania jurídica implica autonomia econômica absoluta?",
+          "verso": "Não. Interdependências podem restringir autonomia efetiva.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-04"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-04-EXP-FC003",
+          "frente": "Qual a diferença entre fronteira e rede?",
+          "verso": "Fronteira delimita e regula; redes conectam lugares e podem atravessar fronteiras.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-04"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-04-EXP-FC004",
+          "frente": "Mahan, Mackinder e Spykman: associe.",
+          "verso": "Poder marítimo; Heartland; Rimland, respectivamente.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-04"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-04-EXP-FC005",
+          "frente": "Hard power e soft power?",
+          "verso": "Coerção e incentivos materiais versus capacidade de atração e influência.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-04"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-04-EXP-FC006",
+          "frente": "O que a bipolaridade não significa?",
+          "verso": "Que todos os países eram passivos ou formalmente vinculados aos dois blocos.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-04"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-04-EXP-FC007",
+          "frente": "Norte Global significa hemisfério norte?",
+          "verso": "Não. É uma categoria político-econômica e histórica.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-04"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-04-EXP-FC008",
+          "frente": "Qual elemento distingue união aduaneira de livre comércio?",
+          "verso": "Política tarifária externa comum, com possíveis exceções.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-04"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-04-EXP-FC009",
+          "frente": "UE e zona do euro são idênticas?",
+          "verso": "Não; nem todo membro da UE adota o euro.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-04"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-04-EXP-FC010",
+          "frente": "A abstenção de permanente é sempre veto?",
+          "verso": "Não. Veto é voto negativo de permanente em questão substantiva.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-04"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-04-EXP-FC011",
+          "frente": "BRICS é união aduaneira?",
+          "verso": "Não; é fórum de articulação e cooperação.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-04"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-04-EXP-FC012",
+          "frente": "Mineral crítico é necessariamente raro?",
+          "verso": "Não. Criticidade combina importância estratégica e risco de suprimento.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-04"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-04-EXP-FC013",
+          "frente": "Por que evitar causa única em conflitos?",
+          "verso": "Território, identidades, recursos, alianças, segurança e história podem interagir.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-04"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-04-EXP-FC014",
+          "frente": "Posse de recurso garante controle tecnológico?",
+          "verso": "Não; processamento, capital, conhecimento, propriedade intelectual e mercados também importam.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-04"
+          ]
         }
       ],
-      "teoria_md": "---\ntopico_id: CE-GEO-04\nslug: geografia-espaco-mundial-geopolitica\ntitulo: \"Geografia do Espaço Mundial, Ordens Geopolíticas, Blocos e Organismos Internacionais\"\nedital: SEDUC-MA-01-2026\nbanca: FCC\nstatus: em_auditoria\n---\n\n# 1. Delimitação no Edital (Camada A)\n- **Itens explícitos (p. 76):** *A Geografia do espaço mundial e sua geopolítica. Corporações e organismos internacionais.*\n- A FCC costuma cobrar rigor na distinção entre **estágios de integração de blocos econômicos**, **arquitetura da ONU/Bretton Woods** e **transições da ordem geopolítica**.\n\n# 2. Evolução das Ordens Geopolíticas Mundiais\n1. **Ordem Bipolar — Guerra Fria (1945–1991):** polarização político-ideológica e militar entre **EUA (OTAN / Plano Marshall / Bloco Capitalista)** e **URSS (Pacto de Varsóvia / COMECON / Bloco Socialista)**. Regionalização política em Primeiro, Segundo e Terceiro Mundos.\n2. **Nova Ordem Mundial — Pós-1991 (Multipolar / Unimultipolar):** colapso da URSS, aceleração da globalização neoliberal, hegemonia militar norte-americana combinada com multipolaridade econômica (EUA, União Europeia, Japão e, progressivamente, **China** e potências emergentes). Substituição do recorte Leste–Oeste pelo recorte socioeconômico **Norte–Sul** (ou Norte Global × Sul Global).\n3. **Geopolítica Contemporânea (Século XXI):** rivalidade estratégica, comercial e tecnológica **EUA × China** (semicondutores, IA, cadeias globais de valor, Nova Rota da Seda/*Belt and Road*), fortalecimento de arranjos do Sul Global (**BRICS** ampliado), guerra na Ucrânia (reconfiguração energética europeia e expansão da OTAN) e tensões no Oriente Médio e Mar do Sul da China.\n\n# 3. Blocos Econômicos e Estágios de Integração (Clássico da FCC!)\n\n| Estágio de Integração | Características Progressivas | Exemplo Principal |\n| :--- | :--- | :--- |\n| **1. Zona de Livre Comércio (ZLC)** | Redução ou eliminação de tarifas alfandegárias **entre os membros** | **USMCA** (ex-NAFTA: EUA, Canadá, México) |\n| **2. União Aduaneira** | ZLC + **Tarifa Externa Comum (TEC)** aplicada a países de fora do bloco | **Mercosul** (União Aduaneira imperfeita) |\n| **3. Mercado Comum** | União Aduaneira + **livre circulação de pessoas, capitais e serviços** | Mercado Único Europeu (etapa da UE) |\n| **4. União Econômica e Monetária** | Mercado Comum + **moeda única e Banco Central supranacional** | **União Europeia / Zona do Euro** (nem todos os membros da UE usam o Euro) |\n\n- **Pegadinha clássica:** O **Mercosul** é formalmente classificado como uma **União Aduaneira imperfeita** (possui TEC, mas com listas de exceção e sem moeda única). O **USMCA** é uma **Zona de Livre Comércio** (não possui livre circulação irrestrita de trabalhadores nem TEC).\n\n# 4. Organismos Internacionais e Corporações Transnacionais\n- **ONU (1945):** manutenção da paz e cooperação internacional. O **Conselho de Segurança** possui 15 membros, sendo **5 permanentes com poder de veto** (**EUA, Rússia, China, França e Reino Unido**) e 10 rotativos.\n- **Sistema de Bretton Woods (1944):** **FMI** (estabilidade monetária e empréstimos de ajuste a países com crise no balanço de pagamentos) e **Banco Mundial / BIRD** (financiamento de projetos de infraestrutura e desenvolvimento).\n- **OMC (1995, sucessora do GATT):** regulamentação do comércio multilateral e solução de controvérsias tarifárias.\n- **G7 vs. G20 vs. BRICS:** o **G7** reúne potências industrializadas tradicionais; o **G20** amplia a governança econômica para grandes economias emergentes (incluindo Brasil, China e Índia); o **BRICS** atua como fórum de cooperação política e financeira do Sul Global (com o Novo Banco de Desenvolvimento — NBD).\n- **Corporações Transnacionais (ETNs):** fragmentam a produção em escala planetária (cadeias globais de valor), mantendo P&D e decisões estratégicas nas sedes e deslocando manufatura conforme custos trabalhistas, fiscais, logísticos e ambientais.\n"
+      "teoria_md": "# 1. Estado, nação, território e poder\n\nImagine uma fronteira que permite a passagem de mercadorias, mas exige documentos para pessoas. Ela não desapareceu: seu funcionamento é seletivo. Estado é uma organização político-jurídica dotada de instituições, população e território, que reivindica autoridade soberana. Nação refere-se a pertencimento histórico, político e cultural; não é necessariamente coincidente com um Estado. Uma nação pode estar repartida entre Estados; um Estado pode reunir múltiplas identidades nacionais.\n\nTerritório é espaço apropriado e regulado por relações de poder. Soberania jurídica distingue-se de autonomia efetiva: a existência de um Estado não garante independência econômica, militar ou tecnológica absoluta. Fronteira pode ser limite jurídico e zona de interação; redes atravessam limites sem eliminar a regulação estatal.\n\nGeografia política estuda a espacialidade do poder, das instituições e das relações políticas; geopolítica enfatiza disputas e estratégias associadas ao espaço. São campos relacionados, de fronteiras conceituais não rígidas. Ao analisar qualquer conflito, identifique atores, objetivos, recursos, escalas, instrumentos de poder e consequências sobre populações.\n\n# 2. Clássicos da geopolítica e seus limites\n\n| Referência | Contribuição histórica | Como interpretar |\n|---|---|---|\n| Ratzel | Estado, espaço e expansão territorial | Contextualizar o pensamento organicista; evitar reduzi-lo a uma única fórmula |\n| Kjellén | Sistematização do termo geopolítica | Estado visto em chave organicista |\n| Mahan | Poder marítimo, comércio, frota e bases | Controle das conexões oceânicas |\n| Mackinder | Heartland, núcleo continental eurasiático | Relações entre poder terrestre e marítimo |\n| Spykman | Rimland, faixa periférica eurasiática | Relevância estratégica das margens continentais |\n\nEssas formulações são teorias históricas de poder, não leis naturais que autorizem expansão territorial. Ferrovia, aviação, armas nucleares, redes digitais e instituições alteram as relações entre localização e estratégia. Para interpretar Mackinder, por exemplo, pergunte por que a expansão das ferrovias no início do século XX parecia mudar a vantagem relativa do poder terrestre. Não deduza automaticamente o destino político de um país a partir da sua localização.\n\nJoseph Nye distingue poder de atração (soft power) de instrumentos de coerção e recompensa material (hard power). Diplomacia, cultura, assistência e tecnologia podem integrar estratégias combinadas. O mesmo recurso produz efeitos distintos conforme a relação entre atores e a legitimidade percebida.\n\n# 3. Da ordem bipolar às ordens do século XXI\n\nApós a Segunda Guerra Mundial, EUA e URSS estruturaram a competição da Guerra Fria. A OTAN foi criada em 1949; o Pacto de Varsóvia, em 1955. Plano Marshall, COMECON e alianças políticas e militares formavam arranjos distintos. A bipolaridade não eliminou conflitos regionais nem a autonomia dos países não alinhados. Descolonização, Conferência de Bandung (1955) e Movimento dos Não Alinhados mostram que nem toda disputa se explica pela escolha entre dois blocos.\n\nA queda do Muro de Berlim em 1989 e a dissolução da URSS em 1991 encerraram a configuração bipolar clássica. A década de 1990 foi caracterizada por forte preeminência norte-americana; depois, a ascensão econômica chinesa, a integração europeia e a atuação de potências médias tornaram o sistema mais complexo.\n\nUnipolaridade, bipolaridade e multipolaridade descrevem a distribuição relativa de poder. A conclusão pode mudar conforme o indicador: capacidade militar, PIB, tecnologia, moeda, alianças, influência diplomática. Não há uma data universal em que todos os aspectos da ordem mundial mudam juntos. Multipolaridade tampouco significa igualdade ou ausência de conflito.\n\n# 4. Regionalizações e desigualdades do espaço mundial\n\nO recorte Norte Global/Sul Global é político-econômico e histórico, não uma divisão pela Linha do Equador. A Austrália, no hemisfério sul, costuma integrar o Norte Global nesses modelos. A categoria Sul Global reúne trajetórias e interesses diversos; não pressupõe renda, regime político ou posição diplomática idênticos.\n\nNa abordagem centro–periferia, as relações entre economias são relevantes para explicar assimetrias: concentração de inovação, capacidade financeira, controle tecnológico, especializações produtivas e dependências. O sistema-mundo também considera posições intermediárias. Países e regiões podem mudar de posição, e diferentes funções podem coexistir dentro do mesmo Estado.\n\nDistinguir regionalização de classificação estatística: renda per capita, desenvolvimento humano, estrutura produtiva e poder político medem dimensões diferentes. PIB total não é PIB per capita. Índices compostos não capturam sozinhos desigualdades internas. Um território pode exportar muito e ainda apresentar carência de serviços públicos.\n\nExercício: compare duas economias hipotéticas, uma que exporta matéria-prima e outra que controla patentes e serviços industriais. Quem captura renda depende de preços, contratos, concorrência, produtividade, custos e poder de negociação; não basta observar o valor bruto exportado.\n\n# 5. Integração regional: dos acordos ao mercado comum\n\n![Escada de integração: livre comércio, união aduaneira, mercado comum e integração econômica e monetária.](./media/geografia-humana/integracao.svg)\n\n| Forma | Traço distintivo |\n|---|---|\n| Preferências comerciais | Redução seletiva de barreiras |\n| Zona de livre comércio | Liberalização interna com políticas tarifárias externas próprias |\n| União aduaneira | Liberalização interna e política comercial externa comum, incluindo TEC |\n| Mercado comum | Integração também dos fatores de produção |\n| União econômica/monetária | Coordenação econômica mais profunda; moeda comum quando instituída |\n\nA escada é um modelo analítico, não uma sequência obrigatória. Na prática, acordos têm exceções, períodos de transição, regras de origem e instituições particulares. O USMCA entrou em vigor em julho de 2020 e atualizou o NAFTA; permanece acordo de livre comércio, não moeda comum. O Mercosul foi concebido para aprofundar a integração até um mercado comum, mas apresenta características de união aduaneira com exceções. A UE possui mercado único e instituições supranacionais; a zona do euro não coincide com o conjunto dos membros da UE.\n\nAtalho: compare o tratamento de produtos provenientes de terceiros países e a liberdade de circulação dos fatores, em vez de memorizar apenas siglas. As composições e os acordos mudam: consultar os portais oficiais do Mercosul, UE e USTR, registrando o ano do dado.\n\n# 6. Governança global: ONU, instituições financeiras e comércio\n\nA ONU foi criada em 1945. Sua Assembleia Geral oferece representação a todos os Estados-membros, enquanto o Conselho de Segurança possui responsabilidade central pela paz e segurança internacionais. São quinze membros do Conselho: cinco permanentes (China, EUA, França, Reino Unido e Rússia) e dez eleitos para mandatos de dois anos. O veto de um permanente bloqueia a adoção de decisões substantivas; questões procedimentais seguem regra própria. A abstenção de permanente não equivale automaticamente a veto.\n\n| Instituição | Função predominante |\n|---|---|\n| FMI | Cooperação monetária, estabilidade financeira e assistência a dificuldades externas |\n| Banco Mundial | Financiamento e conhecimento voltados ao desenvolvimento |\n| OMC | Sistema de regras comerciais, negociação e solução de controvérsias entre membros |\n| ONU | Paz, segurança, direitos humanos e cooperação internacional |\n\nO FMI e o BIRD nasceram do arranjo de Bretton Woods de 1944; a expressão Banco Mundial abrange BIRD e AID. A OMC foi estabelecida em 1995, no desenvolvimento do sistema multilateral que tinha o GATT como base. G7 e G20 são fóruns de coordenação, não governos mundiais. BRICS constitui fórum de cooperação e articulação política de países do Sul Global, com expansão efetivada a partir de 2024. O Novo Banco de Desenvolvimento é uma instituição associada, distinta do fórum. Não confunda BRICS com aliança militar, união aduaneira ou moeda única. Consultar a composição por data no portal oficial.\n\n# 7. Conflitos territoriais: casos e escalas\n\nUma análise geográfica de conflitos deve distinguir o que está documentado, as reivindicações dos atores e as interpretações explicativas. Recursos estratégicos, soberania, identidade, segurança e alianças podem interagir; nenhum deles explica universalmente todas as guerras.\n\n**Ucrânia:** a invasão russa em larga escala iniciada em fevereiro de 2022 foi objeto da resolução ES-11/1 da Assembleia Geral da ONU, adotada em 2 de março de 2022, que reafirma a integridade territorial ucraniana. O caso articula fronteiras, segurança europeia, energia, deslocamentos populacionais e redes comerciais. Distinguir os fatos registrados das justificativas geopolíticas dos atores.\n\n**Israel e Palestina:** território, soberania, segurança, autodeterminação, Jerusalém, assentamentos e refugiados constituem dimensões centrais. Os acordos de Oslo de 1993 deixaram questões de estatuto final para negociações posteriores. A ONU reafirma a solução de dois Estados com base nas linhas anteriores a 1967. Uma interpretação geográfica não reduz a questão a antagonismo religioso nem confunde populações civis com governos ou grupos armados.\n\n**Mar do Sul da China:** disputas sobre direitos marítimos, recursos, rotas e feições insulares exemplificam a distinção entre soberania territorial e jurisdição marítima. A arbitragem Filipinas–China teve laudo em 12 de julho de 2016. Não confundir esse procedimento com solução de todas as controvérsias regionais.\n\nEsses marcos são históricos e datados; não representam boletim atual dos conflitos. Para dados recentes, usar documentos com data e fonte, sem transformar informações conjunturais em regra permanente.\n\n# 8. Recursos, corporações e soberania\n\nA energia liga territórios por cadeias de extração, processamento, transporte, distribuição e consumo. Estreitos e canais são gargalos de circulação; interrupções podem elevar custos logísticos e alterar rotas. A transição energética não elimina a dimensão geopolítica: acrescenta disputas por redes elétricas, capacidades de refino, tecnologia e materiais estratégicos.\n\nMineral crítico significa importância econômica ou estratégica combinada com risco de abastecimento, não necessariamente raridade natural. A presença de uma jazida não garante capacidade de fabricar baterias ou semicondutores. Uma corporação transnacional pode comandar etapas em diferentes Estados por contratos, investimentos, patentes, logística e informação. Isso gera interdependências, mas Estados mantêm instrumentos de regulação.\n\nNa Amazônia, a soberania envolve governança territorial, direitos das populações, ciência, fiscalização e políticas públicas. Bacias hidrográficas e problemas climáticos atravessam fronteiras, tornando a cooperação interestatal pertinente. A Organização do Tratado de Cooperação Amazônica (OTCA) é exemplo de arranjo regional. No Maranhão, analise o corredor Carajás como articulação de territórios paraenses e maranhenses, não como um sistema que gera desenvolvimento uniforme.\n\nRecuperação ativa: explique por que controle de infraestrutura e tecnologia pode ser tão relevante quanto posse de recursos naturais. Depois relacione com CE-GEO-05 e CE-GEO-06."
     },
     {
       "schema_version": "2.0.0",
@@ -6778,7 +7156,7 @@
       "titulo": "Geografia do Espaço Industrial: Fatores Locacionais, Revoluções Industriais e Modelos Produtivos",
       "status": "em_auditoria",
       "origem": "edital_explicito",
-      "tempo_leitura_min": 35,
+      "tempo_leitura_min": 9,
       "edital_subtopicos": [
         "Fatores locacionais e tipologia industrial",
         "Industrialização pioneira e tardia",
@@ -6789,7 +7167,7 @@
           "referencia_abnt": "MARANHÃO. Secretaria de Estado da Administração. Edital nº 01/2026 — SEAD/SEDUC-MA (Código 17 — Professor de Geografia). São Luís: SEAD/FCC, 2026. p. 76.",
           "tipo": "edital",
           "nivel_autoridade": 1,
-          "url": "https://www.concursosfcc.com.br"
+          "url": "https://www.concursosfcc.com.br/concursos/seadm226/index.html"
         },
         {
           "referencia_abnt": "SANTOS, Milton. Técnica, Espaço, Tempo: Globalização e Meio Técnico-Científico-Informacional. 5. ed. São Paulo: Edusp, 2008.",
@@ -6823,12 +7201,12 @@
         "pegadinhas_fcc": [
           {
             "armadilha": "Trocar características do Fordismo e do Toyotismo",
-            "como_a_fcc_cobra": "Afirma que o sistema just-in-time e a produção flexível pertencem ao Fordismo clássico do início do século XX.",
+            "como_a_fcc_cobra": "Distrator de treino autoral: afirma que o sistema just-in-time e a produção flexível pertencem ao Fordismo clássico do início do século XX.",
             "como_desarmar": "Fordismo = rigidez + estoques altos + produção em massa padronizada; Toyotismo = flexibilidade + just-in-time + polivalência."
           },
           {
             "armadilha": "Confundir fator locacional de indústria de base com tecnopolo",
-            "como_a_fcc_cobra": "Afirma que tecnopolos escolhem localização prioritariamente pela proximidade de jazidas de carvão ou mão de obra barata sem qualificação.",
+            "como_a_fcc_cobra": "Distrator de treino autoral: afirma que tecnopolos escolhem localização prioritariamente pela proximidade de jazidas de carvão ou mão de obra barata sem qualificação.",
             "como_desarmar": "Tecnopolos priorizam universidades, centros de P&D, mão de obra altamente qualificada e conectividade informacional."
           }
         ],
@@ -6949,7 +7327,7 @@
           "questao_id": "CE-GEO-05-Q005",
           "origem": "inedita_padrao_fcc",
           "referencia_prova": "Inédita — padrão FCC / Edital SEDUC-MA 01/2026",
-          "enunciado": "Para Milton Santos, a chamada Revolução Técnico-Científica-Informacional (3ª Revolução Industrial) inaugura uma nova etapa do espaço geográfico porque",
+          "enunciado": "Para Milton Santos, a constituição do meio técnico-científico-informacional configura uma nova etapa da produção do espaço geográfico porque",
           "alternativas": {
             "A": "elimina as desigualdades regionais ao distribuir a alta tecnologia igualmente por todos os lugares do planeta.",
             "B": "incorpora ciência, técnica e informação diretamente à produção e ao território de maneira seletiva, intensificando a fluidez de fluxos e as disparidades socioespaciais.",
@@ -6958,22 +7336,206 @@
             "E": "restringe-se ao setor agrícola de subsistência sem afetar a indústria ou os serviços."
           },
           "gabarito": "B",
-          "justificativa_gabarito": "No meio técnico-científico-informacional, ciência, técnica e informação imbricam-se seletivamente no território (espaços luminosos × espaços opacos), acelerando fluxos e aprofundando desigualdades.",
+          "justificativa_gabarito": "Ciência, técnica e informação articulam-se de forma seletiva no território, com densidades técnicas e acesso desiguais. O conceito não é sinônimo estrito da terceira revolução industrial.",
           "analise_distratores": {
             "A": "A difusão tecnológica é altamente seletiva e desigual.",
-            "C": "Absurdo histórico.",
+            "C": "As transformações contemporâneas incluem tecnologias digitais, sem exigir abandono exclusivo dos combustíveis industriais.",
             "D": "O meio informacional exige densas infraestruturas materiais (cabos, data centers, portos, redes elétricas).",
             "E": "Reorganiza indústria, serviços, finanças e o agronegócio moderno."
           },
           "dificuldade": "intermediaria",
           "subtopico": "Revoluções industriais e Revolução Técnico-Científica-Informacional"
+        },
+        {
+          "questao_id": "CE-GEO-05-EXP-Q001",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino; não oficial FCC",
+          "enunciado": "Uma empresa produz máquinas destinadas à fabricação de embalagens. Por destino predominante, essas máquinas são",
+          "alternativas": {
+            "A": "bens de consumo não duráveis.",
+            "B": "bens de capital.",
+            "C": "serviços terciários.",
+            "D": "insumos consumidos integralmente como matéria-prima.",
+            "E": "bens de consumo exclusivamente doméstico."
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "Máquinas produtivas constituem bens de capital.",
+          "analise_distratores": {
+            "A": "Não se destinam ao consumo imediato.",
+            "C": "São equipamentos industriais, não serviços.",
+            "D": "Máquinas não são a matéria-prima da embalagem.",
+            "E": "Destinam-se à produção, não ao uso doméstico."
+          },
+          "dificuldade": "basica",
+          "subtopico": "Fatores locacionais e tipologia industrial"
+        },
+        {
+          "questao_id": "CE-GEO-05-EXP-Q002",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino; não oficial FCC",
+          "enunciado": "Uma fábrica busca região com universidades e fornecedores especializados, apesar do solo caro. Isso exemplifica",
+          "alternativas": {
+            "A": "eliminação dos fatores locacionais.",
+            "B": "decisão exclusivamente determinada pelo clima.",
+            "C": "economias de aglomeração que podem compensar custos maiores.",
+            "D": "inexistência de deseconomias.",
+            "E": "impossibilidade de inovação fora de metrópoles."
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "Conhecimento, serviços e mão de obra podem gerar vantagens mesmo quando certos custos são altos.",
+          "analise_distratores": {
+            "A": "A localização continua sendo decisiva.",
+            "B": "A escolha envolve fatores econômicos e técnicos.",
+            "D": "O solo caro pode ser deseconomia.",
+            "E": "Inovação depende de várias condições, não exclusivamente de metrópoles."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Fatores locacionais e tipologia industrial"
+        },
+        {
+          "questao_id": "CE-GEO-05-EXP-Q003",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino; não oficial FCC",
+          "enunciado": "Sobre as revoluções industriais, considere I. Tecnologias de períodos diferentes podem coexistir. II. A eletrificação eliminou imediatamente o carvão e o vapor. III. A Indústria 4.0 envolve integração digital de sistemas produtivos. É correto o que se afirma em",
+          "alternativas": {
+            "A": "I e III apenas.",
+            "B": "I apenas.",
+            "C": "II apenas.",
+            "D": "II e III apenas.",
+            "E": "I, II e III."
+          },
+          "gabarito": "A",
+          "justificativa_gabarito": "I e III são válidas; transições técnicas são heterogêneas e cumulativas.",
+          "analise_distratores": {
+            "B": "III também é verdadeira.",
+            "C": "II é falsa.",
+            "D": "Inclui II e omite I.",
+            "E": "Inclui II, que é falsa."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Revoluções industriais e Revolução Técnico-Científica-Informacional"
+        },
+        {
+          "questao_id": "CE-GEO-05-EXP-Q004",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino; não oficial FCC",
+          "enunciado": "Uma indústria reduz estoques mediante entregas sincronizadas. Uma interrupção prolongada dos fornecedores pode",
+          "alternativas": {
+            "A": "aumentar automaticamente a produção.",
+            "B": "provar que o just-in-time dispensa redes.",
+            "C": "eliminar a necessidade de informação.",
+            "D": "garantir continuidade sem qualquer planejamento.",
+            "E": "afetar a produção pela redução da margem de segurança dos estoques."
+          },
+          "gabarito": "E",
+          "justificativa_gabarito": "A sincronização exige confiabilidade logística e capacidade de adaptação a interrupções.",
+          "analise_distratores": {
+            "A": "Atrasos podem interromper etapas.",
+            "B": "A produção sincronizada depende de redes.",
+            "C": "Informação é central.",
+            "D": "Continuidade depende de contingência e suprimento."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Industrialização pioneira e tardia"
+        },
+        {
+          "questao_id": "CE-GEO-05-EXP-Q005",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino; não oficial FCC",
+          "enunciado": "Uma montadora contrata outra empresa no mesmo país para prestar serviços de manutenção. O fato comprova",
+          "alternativas": {
+            "A": "offshoring obrigatório.",
+            "B": "substituição integral do trabalho por robôs.",
+            "C": "terceirização de uma função, sem necessariamente deslocá-la para outro país.",
+            "D": "fim da cadeia de fornecedores.",
+            "E": "industrialização por substituição de importações."
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "Terceirização é contratação externa; offshoring exige deslocamento internacional.",
+          "analise_distratores": {
+            "A": "Não houve deslocamento internacional.",
+            "B": "Não há informação sobre automação.",
+            "D": "A contratação forma ou altera relações com fornecedores.",
+            "E": "Não caracteriza política industrial de substituição de importações."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Industrialização pioneira e tardia"
+        },
+        {
+          "questao_id": "CE-GEO-05-EXP-Q006",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino; não oficial FCC",
+          "enunciado": "O valor adicionado industrial passa de 20 para 22, e o total da economia de 100 para 125, em valores correntes. É correto afirmar que",
+          "alternativas": {
+            "A": "a participação industrial aumentou.",
+            "B": "a participação caiu de 20% para 17,6%, embora o valor nominal industrial tenha aumentado.",
+            "C": "houve queda real comprovada de 10%.",
+            "D": "o dado isolado comprova desindustrialização estrutural.",
+            "E": "a produção industrial necessariamente desapareceu."
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "22/125=17,6%; não se infere evolução real nem tendência longa sem dados adicionais.",
+          "analise_distratores": {
+            "A": "A participação diminuiu.",
+            "C": "Os dados são nominais e não comprovam queda real.",
+            "D": "Diagnóstico estrutural exige série e contexto.",
+            "E": "O valor nominal industrial aumentou."
+          },
+          "dificuldade": "avancada",
+          "subtopico": "Industrialização pioneira e tardia"
+        },
+        {
+          "questao_id": "CE-GEO-05-EXP-Q007",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino; não oficial FCC",
+          "enunciado": "Uma planta migra da capital para outra região, mas a sede, engenharia e decisões de investimento permanecem na capital. O caso indica",
+          "alternativas": {
+            "A": "descentralização integral do comando.",
+            "B": "fim da hierarquia urbana.",
+            "C": "ausência de mudança produtiva.",
+            "D": "desconcentração da produção sem descentralização equivalente do comando.",
+            "E": "autarquia regional."
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "A localização da execução muda, mas funções estratégicas permanecem concentradas.",
+          "analise_distratores": {
+            "A": "Comando permanece na capital.",
+            "B": "A rede de comando preserva hierarquias.",
+            "C": "A planta mudou de local.",
+            "E": "As unidades continuam conectadas."
+          },
+          "dificuldade": "avancada",
+          "subtopico": "Industrialização pioneira e tardia"
+        },
+        {
+          "questao_id": "CE-GEO-05-EXP-Q008",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino; não oficial FCC",
+          "enunciado": "Para avaliar se um corredor de exportação contribui para desenvolvimento regional, a análise deve considerar",
+          "alternativas": {
+            "A": "somente volume exportado.",
+            "B": "apenas a extensão da ferrovia.",
+            "C": "exclusivamente o lucro da empresa.",
+            "D": "a inexistência de impactos em qualquer projeto industrial.",
+            "E": "encadeamentos locais, emprego, distribuição de renda, serviços e efeitos socioambientais."
+          },
+          "gabarito": "E",
+          "justificativa_gabarito": "Infraestrutura e exportações não garantem por si mesmas desenvolvimento territorial amplo.",
+          "analise_distratores": {
+            "A": "Volume não mede distribuição dos benefícios.",
+            "B": "Extensão física não mede encadeamentos.",
+            "C": "Lucro não representa todos os efeitos.",
+            "D": "Projetos podem gerar impactos positivos e negativos."
+          },
+          "dificuldade": "avancada",
+          "subtopico": "Industrialização pioneira e tardia"
         }
       ],
       "flashcards": [
         {
           "card_id": "CE-GEO-05-FC001",
           "frente": "Qual a diferença entre indústria de bens de produção (base), bens de capital e bens de consumo?",
-          "verso": "Base: transforma matéria-prima em insumo (aço, celulose); Capital: fabrica máquinas/equipamentos; Consumo: produto final (durável ou não durável).",
+          "verso": "Base/intermediários: insumos para outras atividades; capital: máquinas e equipamentos produtivos; consumo: bens finais duráveis ou não duráveis.",
           "tipo": "conceito",
           "tags": [
             "industria",
@@ -7012,7 +7574,7 @@
         {
           "card_id": "CE-GEO-05-FC005",
           "frente": "O que caracteriza a industrialização tardia por substituição de importações (ex.: Brasil)?",
-          "verso": "Forte atuação estatal em infraestrutura/base + entrada de multinacionais (dependência tecnológica/financeira) + urbanização acelerada.",
+          "verso": "Em exemplos latino-americanos, políticas estatais, demanda interna e capital estrangeiro podem combinar-se; não significa autarquia nem um modelo universal.",
           "tipo": "conceito",
           "tags": [
             "industrializacao-tardia"
@@ -7021,15 +7583,155 @@
         {
           "card_id": "CE-GEO-05-FC006",
           "frente": "A Revolução Técnico-Científica-Informacional homogeneizou o espaço mundial?",
-          "verso": "Não! Sua difusão é seletiva, criando 'espaços luminosos' (alta densidade técnica) e 'espaços opacos' (excluídos).",
+          "verso": "Não. A difusão da técnica e informação é seletiva, com densidades e acessos desiguais; não existem lugares absolutamente excluídos de todas as redes.",
           "tipo": "pegadinha_fcc",
           "tags": [
             "milton-santos",
             "fcc"
           ]
+        },
+        {
+          "card_id": "CE-GEO-05-EXP-FC001",
+          "frente": "Indústria extrativa e de transformação?",
+          "verso": "Extração retira recursos; transformação processa materiais.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-05"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-05-EXP-FC002",
+          "frente": "Bem de capital e bem intermediário?",
+          "verso": "Capital é equipamento produtivo; intermediário é insumo de outra produção.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-05"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-05-EXP-FC003",
+          "frente": "O que são economias de aglomeração?",
+          "verso": "Vantagens da proximidade entre empresas, serviços, trabalhadores e fornecedores.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-05"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-05-EXP-FC004",
+          "frente": "O que são deseconomias de aglomeração?",
+          "verso": "Custos da concentração, como congestionamento e solo caro.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-05"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-05-EXP-FC005",
+          "frente": "Qual a ideia central do modelo clássico de Weber?",
+          "verso": "Localização por minimização de custos sob hipóteses simplificadas, incluindo transporte, trabalho e aglomeração.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-05"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-05-EXP-FC006",
+          "frente": "Revoluções industriais substituem todas as tecnologias anteriores?",
+          "verso": "Não; coexistem tecnologias de diferentes períodos.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-05"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-05-EXP-FC007",
+          "frente": "Substituição de importações significa autarquia?",
+          "verso": "Não; podem continuar importações de máquinas, capital e tecnologia.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-05"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-05-EXP-FC008",
+          "frente": "Taylorismo e Fordismo são idênticos?",
+          "verso": "Não; racionalização de tarefas versus organização em linha, padronização e escala.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-05"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-05-EXP-FC009",
+          "frente": "Just-in-time elimina a necessidade de logística?",
+          "verso": "Não. Depende de sincronização e confiabilidade dos fluxos.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-05"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-05-EXP-FC010",
+          "frente": "Terceirização é sempre offshoring?",
+          "verso": "Não; offshoring desloca atividades para outro país.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-05"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-05-EXP-FC011",
+          "frente": "Desconcentração industrial e descentralização do comando?",
+          "verso": "Redistribuição de plantas versus redistribuição de decisões e funções estratégicas.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-05"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-05-EXP-FC012",
+          "frente": "Queda de participação industrial prova queda absoluta?",
+          "verso": "Não. Outros setores podem crescer mais.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-05"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-05-EXP-FC013",
+          "frente": "O que é reprimarização?",
+          "verso": "Aumento do peso relativo de produtos ou atividades primárias em um recorte.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-05"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-05-EXP-FC014",
+          "frente": "Por que a nuvem possui materialidade?",
+          "verso": "Depende de centros de dados, energia, cabos, equipamentos e trabalho.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-05"
+          ]
         }
       ],
-      "teoria_md": "---\ntopico_id: CE-GEO-05\nslug: geografia-espaco-industrial\ntitulo: \"Geografia do Espaço Industrial: Fatores Locacionais, Revoluções Industriais e Modelos Produtivos\"\nedital: SEDUC-MA-01-2026\nbanca: FCC\nstatus: em_auditoria\n---\n\n# 1. Delimitação no Edital (Camada A)\n- **Itens explícitos (p. 76):** *Geografia do espaço industrial: Fatores de localização e tipos de indústrias. Industrialização pioneira e tardia. As revoluções industriais. A revolução técnico-científica-informacional.*\n\n# 2. Tipologia Industrial e Fatores Locacionais\n- **Classificação dos tipos de indústria:**\n  1. **Indústrias de Bens de Produção (Base):** transformam matéria-prima bruta em insumos básicos para outras indústrias (siderúrgica, metalúrgica, petroquímica, celulose). Tendem a localizar-se próximas às fontes de matéria-prima, energia ou portos/ferrovias (ex.: Açailândia e São Luís no Maranhão).\n  2. **Indústrias de Bens de Capital (Intermediárias/Equipamentos):** produzem máquinas, equipamentos e peças para outras fábricas.\n  3. **Indústrias de Bens de Consumo:** voltadas diretamente ao consumidor final — **duráveis** (automóveis, eletrodomésticos, eletrônicos) e **não duráveis** (alimentos, bebidas, vestuário).\n- **Evolução dos Fatores Locacionais:**\n  - *Fase clássica (séculos XVIII–XIX):* proximidade física de **carvão mineral**, minério de ferro, rios e portos (modelo clássico de Alfred Weber: minimização de custos de transporte).\n  - *Fase contemporânea (desconcentração / guerra fiscal / redes):* redução de custos de transporte e telecomunicações permite desconcentração espacial — indústrias tradicionais buscam **incentivos fiscais, terrenos baratos e mão de obra menos onerosa**, enquanto indústrias de alta tecnologia concentram-se em **tecnopolos** (proximidade de universidades, centros de P&D, mão de obra altamente qualificada e infraestrutura digital — ex.: Vale do Silício, Campinas, São José dos Campos).\n\n# 3. As Revoluções Industriais e a Revolução Técnico-Científica-Informacional\n\n| Fase | Período / Centro | Energia & Tecnologia | Organização Espacial / Impacto |\n| :--- | :--- | :--- | :--- |\n| **1ª Revolução Industrial** | Séc. XVIII (~1760), Inglaterra | **Carvão mineral**, máquina a vapor, indústria têxtil e ferrovias | Concentração urbana junto às bacias carboníferas; capitalismo industrial |\n| **2ª Revolução Industrial** | Final séc. XIX–XX, EUA, Alemanha, Japão | **Petróleo, eletricidade**, aço, química, motor a combustão | Expansão imperialista, grandes corporações, **Taylorismo e Fordismo** |\n| **3ª Revolução (Técnico-Científica-Informacional)** | Pós-1970 (EUA, Japão, Europa Ocidental) | **Microeletrônica, informática, telecomunicações**, robótica, biotecnologia | **Meio técnico-científico-informacional** (Milton Santos); **Toyotismo** e cadeias globais |\n| **Indústria 4.0 (desdobramento atual)** | Século XXI | IA, IoT, Big Data, computação em nuvem, manufatura aditiva | Hiperautomação, integração ciberfísica e plataformização produtiva |\n\n# 4. Industrialização Clássica (Pioneira) vs. Tardia (Periférica)\n- **Industrialização Clássica / Pioneira (séculos XVIII–XIX):** Inglaterra, França, Alemanha, EUA e Japão. Baseada em acumulação interna de capitais, autonomia tecnológica, mercado interno consolidado e expansão imperialista/financeira.\n- **Industrialização Tardia / Substituição de Importações (século XX):** Brasil, México, Argentina (a partir da crise de 1929 e pós-1950). Forte participação do **Estado** em infraestrutura/indústria de base, dependência de **capital e tecnologia estrangeiros** (multinacionais), rápida urbanização desigual e endividamento externo.\n- **Industrialização Planificada:** URSS e Europa Oriental (controle estatal centralizado, foco em indústria pesada).\n- **Industrialização Voltada à Exportação (Tigres Asiáticos e China):** forte investimento em educação, P&D, plataformas de exportação e integração às cadeias globais de valor.\n\n# 5. Modelos Produtivos: Fordismo vs. Toyotismo (Acumulação Flexível)\n- **Taylorismo (gerência científica) + Fordismo (linha de montagem rígida):** produção em massa padronizada, trabalhadores hiperespecializados em tarefas repetitivas, grandes estoques (*just-in-case*), rigidez produtiva e forte sindicalização no pós-guerra (Estado de Bem-Estar).\n- **Toyotismo / Acumulação Flexível (pós-1970, Japão/global):** produção flexível sob demanda (**just-in-time**), estoques mínimos, **kanban** (controle visual de fluxo), controle de qualidade total, trabalhador polivalente/multifuncional, **terceirização** e flexibilização trabalhista.\n"
+      "teoria_md": "# 1. O que a Geografia Industrial investiga\n\nUma camiseta pode envolver algodão, fios, tecido, confecção, transporte, marca e comércio eletrônico em lugares diferentes. O objeto de estudo não é somente a fábrica: são as relações territoriais da produção, do trabalho, da circulação e do comando.\n\nIndústrias extrativas retiram recursos do ambiente; indústrias de transformação processam materiais. Na tipologia por destino, bens intermediários entram na produção de outros bens; bens de capital são máquinas e equipamentos produtivos; bens de consumo destinam-se ao uso final, podendo ser duráveis ou não duráveis. A expressão indústria de base costuma abranger segmentos que fornecem insumos fundamentais. Um mesmo produto pode ter usos diferentes; por isso a classificação depende da finalidade e da metodologia.\n\n| Produto ilustrativo | Destino predominante |\n|---|---|\n| Aço e celulose | Insumos intermediários |\n| Máquina-ferramenta | Bem de capital |\n| Geladeira doméstica | Consumo durável |\n| Alimento embalado | Consumo não durável |\n\nNo Maranhão, a celulose e as atividades siderúrgicas permitem observar vínculos entre matéria-prima, transformação, energia, logística e mercados. Não confunda extração de minério com metalurgia. Nem todo processamento industrial implica elevado conteúdo tecnológico ou grande retenção de renda local.\n\n# 2. Fatores locacionais: custo, acesso e aglomeração\n\nUma fábrica decide onde instalar-se avaliando custos e vantagens: matéria-prima, energia, água, trabalho, terreno, tributos, transporte, mercado, fornecedores, serviços técnicos, infraestrutura e regulação ambiental. O peso de cada fator muda conforme o produto e o momento histórico. O modelo clássico de Alfred Weber enfatiza minimização de custos, sobretudo transporte e trabalho, e efeitos de aglomeração sob hipóteses simplificadas. Não descreve toda decisão real.\n\nExemplo hipotético: uma indústria necessita de 4 toneladas de insumo por tonelada de produto. Se o transporte por tonelada custa o mesmo em ambos os trechos, aproximar-se da matéria-prima pode reduzir custos. Mas energia, mercado, água, restrições ambientais, necessidade de trabalhadores e transporte de retorno podem alterar a decisão.\n\nEconomias de aglomeração são vantagens da proximidade entre atividades: fornecedores, mercado de trabalho especializado, infraestrutura e circulação de conhecimentos. Deseconomias são custos adicionais, como congestionamento, solo caro e poluição. Tecnopolos e sistemas de inovação valorizam universidades, laboratórios e trabalho qualificado, mas também financiamento, serviços e redes. A digitalização muda a localização ótima, não torna o território irrelevante.\n\n# 3. Revoluções industriais: mudanças acumuladas\n\n| Fase convencional | Processos e tecnologias | Transformações territoriais |\n|---|---|---|\n| Primeira, desde o século XVIII | Mecanização, vapor, carvão e têxteis | Fábricas e urbanização industrial |\n| Segunda, desde o fim do XIX | Eletricidade, aço, química, petróleo e motores | Grandes plantas, redes, mercados ampliados |\n| Terceira, segunda metade do XX | Eletrônica, computação, automação e telecomunicações | Coordenação de cadeias distantes |\n| Indústria 4.0, século XXI | Sensores, dados, IA, sistemas ciberfísicos | Integração digital da produção |\n\nA periodização é didática, com datas e limites variáveis entre autores. Uma tecnologia nova não elimina automaticamente as antigas; carvão, motores a combustão, sistemas digitais e trabalho manual coexistem. A industrialização britânica relacionou-se a mudanças agrárias, acumulação de capitais, mercados, recursos energéticos, infraestrutura, instituições e relações imperiais. Nenhum fator isolado basta.\n\nA Segunda Revolução Industrial expandiu o uso da eletricidade e das redes de transporte, modificando a organização do trabalho. A Terceira favoreceu processamento de dados e automação. Indústria 4.0 é uma formulação sobre integração digital de processos, não prova de que todas as economias vivam uma quarta fase uniforme. A técnica é incorporada de modo desigual, dependendo de capital, conhecimento, energia, regulação e trabalho.\n\n# 4. Industrialização pioneira, tardia e estratégias nacionais\n\nIndustrialização pioneira costuma referir-se ao início britânico e aos processos de difusão do século XIX. Países como Alemanha e Japão tiveram trajetórias posteriores à britânica, com atuação estatal e instituições próprias. Não se deve equiparar industrialização tardia a um único modelo periférico.\n\nA substituição de importações busca produzir internamente bens antes importados, em diferentes combinações de proteção, demanda, investimentos e políticas industriais. Na América Latina, restrições externas e crises, como a de 1929, favoreceram mudanças produtivas. O Brasil já possuía atividade industrial antes de 1930; as décadas seguintes aprofundaram a industrialização. Vargas associou-se à expansão da infraestrutura e de indústrias de base; o Plano de Metas de JK ampliou bens duráveis, transportes e energia, com participação do capital estrangeiro.\n\nEconomias asiáticas combinaram, de maneiras diversas, exportações industriais, intervenção estatal, aprendizagem tecnológica e redes externas. O desenvolvimento industrial da China não se reduz ao modelo dos Tigres Asiáticos: trajetórias históricas e instituições são distintas. Na industrialização planificada soviética, a prioridade atribuída à indústria pesada relacionava-se à coordenação central do investimento.\n\nAtalho: compare origem do capital, função do Estado, mercado-alvo, dependência tecnológica e especialização. Industrialização tardia não significa atraso inevitável nem autonomia automática.\n\n# 5. Taylorismo, Fordismo e Toyotismo\n\n![Comparação de organização da produção: fluxo em linha de montagem e rede flexível de fornecedores.](./media/geografia-humana/producao.svg)\n\nTaylorismo racionaliza o trabalho por divisão e controle das tarefas, estudos de tempos e separação entre planejamento e execução. Fordismo associa linha de montagem, padronização e produção em massa; em leituras mais amplas, também se refere a formas de regulação social, consumo e organização econômica do século XX. Não atribua automaticamente estabilidade no emprego e proteção social a todas as fábricas fordistas.\n\nToyotismo desenvolveu-se a partir da experiência industrial japonesa. Just-in-time sincroniza etapas e entrega de componentes, buscando reduzir estoques; kanban é uma forma de sinalizar necessidades e controlar fluxos; qualidade, melhoria contínua, fornecedores e trabalho multifuncional integram o modelo. Estoques menores podem aumentar a vulnerabilidade a interrupções quando não há capacidade de adaptação.\n\n| Critério | Modelo de produção em massa | Produção flexível |\n|---|---|---|\n| Lotes | Grandes e padronizados | Podem variar conforme demanda |\n| Coordenação | Forte integração da linha | Sincronização de etapas e fornecedores |\n| Estoques | Podem servir de amortecimento | Busca de redução e controle |\n| Trabalho | Divisão e especialização | Multifuncionalidade em vários processos |\n\nDavid Harvey relaciona acumulação flexível à reorganização das práticas produtivas e financeiras. Taylorismo, Fordismo e práticas flexíveis podem coexistir na mesma cadeia.\n\n# 6. Reestruturação produtiva e cadeias de fornecedores\n\nReestruturação produtiva inclui automação, terceirização, mudanças logísticas e organização espacial das atividades. Terceirização é contratar outra empresa para realizar uma função; desverticalização é reduzir etapas feitas internamente; offshoring desloca funções para outro país; reshoring traz atividades de volta; nearshoring aproxima etapas de mercados relevantes. Terceirizar não implica necessariamente transferir a atividade internacionalmente.\n\nUma empresa pode reduzir emprego dentro da fábrica e ampliar serviços contratados de software, transporte, limpeza, manutenção e engenharia. O efeito sobre trabalho depende de funções, produtividade, remuneração, contratos e regulação. Não conclua que toda automação destrói todos os empregos nem que toda inovação cria empregos de qualidade.\n\nCadeias globais de valor distribuem etapas entre países e regiões. Patentes, engenharia, marca, logística e finanças podem concentrar captura de valor em alguns pontos; manufatura e extração também podem conter atividades sofisticadas. Comando e execução não ocupam sempre o mesmo lugar. Consulte CE-GEO-06 para a DIT, os fluxos de capital e a materialidade das redes.\n\n# 7. Desconcentração, desindustrialização e desenvolvimento\n\nDesconcentração industrial é a redistribuição espacial de plantas e atividades; descentralização do comando implica também redistribuição de sedes, decisões, pesquisa e finanças. Uma fábrica deslocada para o interior pode continuar sob comando de uma metrópole. No Brasil, custos urbanos, rodovias, incentivos, proximidade de mercados e novos polos produtivos contribuem para deslocamentos de plantas, sem eliminar desigualdades regionais.\n\nDesindustrialização costuma envolver queda persistente da participação da indústria de transformação no emprego ou no valor adicionado. É necessário examinar indicadores absolutos e relativos, produtividade, preços, período e composição setorial. Reprimarização indica aumento do peso relativo de atividades ou exportações primárias, não desaparecimento obrigatório da manufatura.\n\nExemplo hipotético: o valor adicionado industrial cresce de 20 para 22, enquanto o total da economia cresce de 100 para 125. A participação industrial passa de 20% para 17,6%, embora a produção medida nesse indicador aumente em valor absoluto. Se forem valores correntes, é preciso considerar preços para inferir evolução real. Uma única comparação não é diagnóstico suficiente.\n\nEncadeamentos produtivos ligam fornecedores, transformação, serviços, compradores e pesquisa. A qualidade dessas conexões influencia desenvolvimento regional mais diretamente que a simples presença de uma grande planta.\n\n# 8. Meio técnico-científico-informacional e indústria digital\n\nMilton Santos compreende a difusão combinada de ciência, técnica e informação como característica do meio técnico-científico-informacional. Trata-se de uma interpretação geográfica da produção do espaço, não mero nome alternativo para uma etapa industrial. Fixos e fluxos, sistemas de objetos e ações e seletividade territorial ajudam a compreender sua configuração.\n\nA chamada nuvem depende de centros de dados, cabos, energia, equipamentos, minerais, trabalhadores e normas. Sensores e robôs permitem monitoramento de máquinas e integração de dados. Plataformas podem concentrar poder sobre acesso a mercados, informação e padrões técnicos. A eficiência pode crescer sem que os benefícios sejam distribuídos igualmente.\n\nNo corredor Carajás, ferrovias, terminais, energia e redes informacionais conectam etapas de cadeias produtivas. O impacto territorial deve ser analisado considerando emprego, diversificação, serviços, tributação, conflitos e proteção ambiental. A existência de um corredor eficiente para exportações não assegura mobilidade ou bem-estar de todas as comunidades próximas.\n\nExercício de síntese: imagine uma planta que muda de localização devido ao custo de solo, mantém engenharia na capital e usa fornecedores externos. Identifique desconcentração produtiva, permanência do comando, fatores locacionais e dependência logística. Depois compare com a trajetória industrial brasileira aprofundada em CE-GEO-12."
     },
     {
       "schema_version": "2.0.0",
@@ -7039,7 +7741,7 @@
       "titulo": "Globalização, Fluxos Mundiais, Consumo e Matriz Energética",
       "status": "em_auditoria",
       "origem": "edital_explicito",
-      "tempo_leitura_min": 35,
+      "tempo_leitura_min": 10,
       "edital_subtopicos": [
         "Expansão atual do capitalismo e fluxos de capitais/transnacionais",
         "Fluxo de turistas e mundialização do consumo",
@@ -7050,7 +7752,7 @@
           "referencia_abnt": "MARANHÃO. Secretaria de Estado da Administração. Edital nº 01/2026 — SEAD/SEDUC-MA (Código 17 — Professor de Geografia). São Luís: SEAD/FCC, 2026. p. 76.",
           "tipo": "edital",
           "nivel_autoridade": 1,
-          "url": "https://www.concursosfcc.com.br"
+          "url": "https://www.concursosfcc.com.br/concursos/seadm226/index.html"
         },
         {
           "referencia_abnt": "SANTOS, Milton. Por uma outra globalização: do pensamento único à consciência universal. 19. ed. Rio de Janeiro: Record, 2010.",
@@ -7061,19 +7763,37 @@
           "referencia_abnt": "EMPRESA DE PESQUISA ENERGÉTICA (EPE). Balanço Energético Nacional — Matriz Energética e Elétrica. Brasília: MME/EPE, 2024.",
           "tipo": "institucional",
           "nivel_autoridade": 3
+        },
+        {
+          "referencia_abnt": "Banco Central do Brasil. Relatório sobre o investimento direto; critério estatístico.",
+          "url": "https://www.bcb.gov.br/detalhenoticia/256/noticia",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
+        },
+        {
+          "referencia_abnt": "EPE. Balanço Energético Nacional 2026, ano-base 2025, capítulo 1.",
+          "url": "https://dashboard.epe.gov.br/apps/livro-ben/livro/pt/capitulo_1.html",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
+        },
+        {
+          "referencia_abnt": "EPE. Relatório Síntese BEN 2026.",
+          "url": "https://www.epe.gov.br/pt/imprensa/noticias/epe-publica-o-relatorio-sintese-do-balanco-energetico-nacional-2026",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
         }
       ],
       "sintese_fcc": {
         "conceitos_nucleares": [
           {
             "termo": "Matriz Energética vs. Matriz Elétrica",
-            "definicao_precisa": "Matriz energética abrange toda a energia consumida (transportes, calor, eletricidade); matriz elétrica refere-se apenas à geração de eletricidade.",
+            "definicao_precisa": "Matriz energética engloba as fontes e formas de energia para todos os usos; matriz elétrica descreve fontes de eletricidade. Distinguir oferta interna, geração e consumo.",
             "fonte": "EPE / MME."
           },
           {
-            "termo": "Capital Produtivo vs. Especulativo",
-            "definicao_precisa": "IED gera ativos físicos/fábricas de longo prazo; capital especulativo busca ganho financeiro rápido em títulos, ações e câmbio.",
-            "fonte": "VESENTINI, 2009."
+            "termo": "Investimento direto, carteira e capital especulativo",
+            "definicao_precisa": "IED envolve influência duradoura (critério estatístico de pelo menos 10% dos votos); capital especulativo procura ganhos com variações financeiras, sem ser sinônimo de todo investimento em carteira.",
+            "fonte": "Banco Central do Brasil, metodologia de investimento direto."
           },
           {
             "termo": "Globalização (Milton Santos)",
@@ -7084,12 +7804,12 @@
         "pegadinhas_fcc": [
           {
             "armadilha": "Usar Matriz Energética como sinônimo de Matriz Elétrica",
-            "como_a_fcc_cobra": "Afirma que a matriz energética brasileira é majoritariamente hidrelétrica (quando na verdade a matriz ELÉTRICA é renovável/hidrelétrica, mas na ENERGÉTICA total o petróleo/derivados tem grande peso nos transportes).",
+            "como_a_fcc_cobra": "Distrator de treino autoral: afirma que a matriz energética brasileira é majoritariamente hidrelétrica (quando na verdade a matriz ELÉTRICA é renovável/hidrelétrica, mas na ENERGÉTICA total o petróleo/derivados tem grande peso nos transportes).",
             "como_desarmar": "Sempre separar: Elétrica = apenas eletricidade; Energética = tudo (inclui gasolina/diesel/biomassa)."
           },
           {
             "armadilha": "Confundir energia limpa/renovável com ausência total de impactos",
-            "como_a_fcc_cobra": "Afirma que hidrelétricas ou parques solares/eólicos têm impacto socioambiental zero.",
+            "como_a_fcc_cobra": "Distrator de treino autoral: afirma que hidrelétricas ou parques solares/eólicos têm impacto socioambiental zero.",
             "como_desarmar": "Toda fonte gera impactos: hidrelétricas alagam áreas e deslocam populações; eólica/solar têm intermitência e ocupação territorial."
           }
         ],
@@ -7097,8 +7817,8 @@
           {
             "fonte": "Carvão Mineral",
             "tipo": "Não renovável (fóssil)",
-            "vantagem": "Abundante e barato",
-            "desvantagem": "Maior emissor de CO₂ / chuva ácida"
+            "vantagem": "Fonte estocável; custos variáveis conforme jazida e mercado.",
+            "desvantagem": "Elevadas emissões por unidade de energia em muitas aplicações."
           },
           {
             "fonte": "Petróleo",
@@ -7109,14 +7829,14 @@
           {
             "fonte": "Hidrelétrica",
             "tipo": "Renovável",
-            "vantagem": "Baixa emissão direta / despachável",
+            "vantagem": "Baixa emissão operacional em muitos casos; reservatórios podem oferecer regularização.",
             "desvantagem": "Alagamentos e dependência de chuvas"
           },
           {
             "fonte": "Eólica / Solar",
             "tipo": "Renovável",
             "vantagem": "Baixíssima emissão / descentralizada",
-            "desvantagem": "Intermitência (depende de vento/sol)"
+            "desvantagem": "Geração variável; integração de sistema e impactos territoriais."
           }
         ],
         "checklist_revisao": [
@@ -7142,7 +7862,7 @@
           "justificativa_gabarito": "Matriz energética é o conceito amplo (todas as fontes para todos os usos, incluindo transportes); matriz elétrica é o recorte específico para geração de energia elétrica.",
           "analise_distratores": {
             "A": "Ambas incluem renováveis e não renováveis.",
-            "B": "A matriz elétrica brasileira é muito mais renovável que a média mundial (que ainda depende fortemente de carvão e gás).",
+            "B": "A premissa de predominância solar na China e EUA não sustenta essa comparação, nem matriz elétrica e energética são equivalentes.",
             "C": "O transporte rodoviário brasileiro depende fortemente de derivados de petróleo (diesel/gasolina) e biocombustíveis.",
             "E": "Usinas nucleares geram justamente eletricidade."
           },
@@ -7185,7 +7905,7 @@
             "E": "impossibilidade física de conexão ao Sistema Interligado Nacional (SIN)."
           },
           "gabarito": "D",
-          "justificativa_gabarito": "Solar e eólica são fontes variáveis/intermitentes, exigindo complementação de fontes despacháveis (como hidrelétricas ou térmicas), baterias e robustas linhas de transmissão.",
+          "justificativa_gabarito": "A geração eólica e solar varia com as condições naturais. Redes, gestão da demanda, previsão, armazenamento ou fontes complementares podem contribuir para o equilíbrio do sistema.",
           "analise_distratores": {
             "A": "Enxofre/chuva ácida associam-se ao carvão e derivados de petróleo.",
             "B": "São fontes renováveis independentes de carvão.",
@@ -7208,11 +7928,11 @@
             "E": "corresponde exclusivamente a remessas de trabalhadores migrantes para suas famílias."
           },
           "gabarito": "B",
-          "justificativa_gabarito": "Enquanto o IED imobiliza capital em plantas produtivas e infraestrutura, o capital especulativo ('hot money') busca ganhos rápidos em juros/câmbio/bolsas e pode evadir-se instantaneamente.",
+          "justificativa_gabarito": "Estratégias especulativas buscam ganhos com variações de preços, juros ou câmbio. Investimento direto caracteriza relação de influência ou controle duradouro; não exige construção de nova fábrica, e nem todo investimento em carteira é especulativo.",
           "analise_distratores": {
-            "A": "Descreve investimento produtivo/infraestrutura (IED).",
+            "A": "Investir em infraestrutura pode envolver capital de longo prazo, mas não define estratégias especulativas.",
             "C": "Depende integralmente das redes digitais globais.",
-            "D": "Pelo contrário, os anos 1990 marcaram forte liberalização da conta de capitais.",
+            "D": "Não há proibição universal. Regulação varia entre Estados e períodos.",
             "E": "Remessas de migrantes são transferências pessoais, não capital financeiro especulativo."
           },
           "dificuldade": "basica",
@@ -7240,6 +7960,190 @@
           },
           "dificuldade": "basica",
           "subtopico": "Fluxo de turistas e mundialização do consumo"
+        },
+        {
+          "questao_id": "CE-GEO-06-EXP-Q001",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino; não oficial FCC",
+          "enunciado": "Um grupo estrangeiro adquire 30% do poder de voto de uma empresa já existente, sem construir nova planta. Segundo a metodologia de investimento direto do Banco Central, a situação",
+          "alternativas": {
+            "A": "não pode ser investimento direto porque não houve construção.",
+            "B": "pode configurar relação de investimento direto pela participação no poder de voto.",
+            "C": "é obrigatoriamente remessa familiar.",
+            "D": "corresponde exclusivamente à exportação de mercadorias.",
+            "E": "é necessariamente investimento especulativo de curtíssimo prazo."
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "O critério estatístico considera influência duradoura, com referência de pelo menos 10% dos votos; não exige planta nova.",
+          "analise_distratores": {
+            "A": "Aquisição de empresa existente também pode configurar investimento direto.",
+            "C": "Não é transferência pessoal.",
+            "D": "Trata-se de relação de investimento.",
+            "E": "A participação não determina finalidade especulativa."
+          },
+          "dificuldade": "basica",
+          "subtopico": "Expansão atual do capitalismo e fluxos de capitais/transnacionais"
+        },
+        {
+          "questao_id": "CE-GEO-06-EXP-Q002",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino; não oficial FCC",
+          "enunciado": "Um país exporta um aparelho por 500 unidades monetárias, mas importa componentes e paga royalties. A informação isolada permite concluir que",
+          "alternativas": {
+            "A": "todo o valor exportado foi criado domesticamente.",
+            "B": "não houve participação do país na cadeia.",
+            "C": "a exportação bruta não é necessariamente igual ao valor adicionado doméstico.",
+            "D": "royalties são sempre transferências pessoais.",
+            "E": "o preço mede diretamente a autonomia tecnológica."
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "O valor bruto inclui etapas e insumos cujo valor pode ter sido criado em outros lugares.",
+          "analise_distratores": {
+            "A": "Há insumos e serviços de outras economias.",
+            "B": "O país participa da cadeia.",
+            "D": "Royalties remuneram direitos, não remessas familiares.",
+            "E": "Autonomia exige outros indicadores."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Expansão atual do capitalismo e fluxos de capitais/transnacionais"
+        },
+        {
+          "questao_id": "CE-GEO-06-EXP-Q003",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino; não oficial FCC",
+          "enunciado": "Um destino turístico recebe muitos visitantes em poucos meses; empresas externas concentram reservas e serviços. Para avaliar os efeitos territoriais, é adequado",
+          "alternativas": {
+            "A": "considerar apenas o número de visitantes.",
+            "B": "assumir que toda renda permanece no destino.",
+            "C": "ignorar a demanda por água e moradia.",
+            "D": "avaliar sazonalidade, retenção local de renda, emprego e impactos ambientais.",
+            "E": "concluir que turismo internacional é migração definitiva."
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "O turismo envolve redes e impactos distribuídos desigualmente.",
+          "analise_distratores": {
+            "A": "Quantidade não explica distribuição.",
+            "B": "Parte da renda pode sair da região.",
+            "C": "Recursos e moradia são dimensões territoriais.",
+            "E": "Visitas não equivalem necessariamente a mudança de residência."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Fluxo de turistas e mundialização do consumo"
+        },
+        {
+          "questao_id": "CE-GEO-06-EXP-Q004",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino; não oficial FCC",
+          "enunciado": "Um equipamento de potência constante de 2 kW funciona por 3 horas. A energia consumida é",
+          "alternativas": {
+            "A": "6 kWh.",
+            "B": "6 kW.",
+            "C": "2 kWh.",
+            "D": "0,67 kW.",
+            "E": "3 kW."
+          },
+          "gabarito": "A",
+          "justificativa_gabarito": "Energia = potência × tempo = 2 kW × 3 h = 6 kWh.",
+          "analise_distratores": {
+            "B": "kW mede potência, não energia.",
+            "C": "Desconsidera as três horas.",
+            "D": "A divisão não corresponde ao consumo.",
+            "E": "Não corresponde à potência nem à energia."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Energia: importância, conceitos, modelos e fontes"
+        },
+        {
+          "questao_id": "CE-GEO-06-EXP-Q005",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino; não oficial FCC",
+          "enunciado": "O BEN 2026 informa que 13,4% da geração elétrica nacional de 2025 veio de fontes não renováveis. A interpretação correta é",
+          "alternativas": {
+            "A": "13,4% de toda a energia usada no Brasil era fóssil.",
+            "B": "86,6% da geração nacional veio de renováveis, por complemento; esse percentual não equivale necessariamente ao da matriz energética total.",
+            "C": "86,6% da capacidade instalada era obrigatoriamente hidráulica.",
+            "D": "a eletricidade não renovável era inteiramente nuclear.",
+            "E": "a oferta interna e a geração nacional são sempre idênticas."
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "O complemento refere-se ao mesmo denominador (geração elétrica nacional); matriz energética é mais ampla.",
+          "analise_distratores": {
+            "A": "Troca o denominador e não renovável por fóssil.",
+            "C": "Capacidade e geração diferem; renováveis não são apenas hidráulicas.",
+            "D": "Há diversas fontes não renováveis.",
+            "E": "Importações/exportações podem alterar a oferta interna."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Energia: importância, conceitos, modelos e fontes"
+        },
+        {
+          "questao_id": "CE-GEO-06-EXP-Q006",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino; não oficial FCC",
+          "enunciado": "Uma usina apresenta 100 MW de potência instalada, mas gera quantidades diferentes de energia em meses distintos. A explicação adequada é",
+          "alternativas": {
+            "A": "MW e MWh são unidades iguais.",
+            "B": "a capacidade instalada varia necessariamente na mesma proporção.",
+            "C": "a energia gerada depende de potência efetivamente utilizada e tempo de operação.",
+            "D": "a capacidade é medida em quilômetros.",
+            "E": "geração anual independe de disponibilidade operacional."
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "Potência instalada expressa capacidade; energia é integral da potência ao longo do tempo.",
+          "analise_distratores": {
+            "A": "As unidades medem grandezas distintas.",
+            "B": "A produção pode variar com capacidade fixa.",
+            "D": "Capacidade elétrica é medida em potência.",
+            "E": "Disponibilidade e recurso afetam geração."
+          },
+          "dificuldade": "avancada",
+          "subtopico": "Energia: importância, conceitos, modelos e fontes"
+        },
+        {
+          "questao_id": "CE-GEO-06-EXP-Q007",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino; não oficial FCC",
+          "enunciado": "A substituição de carvão por gás natural em uma termelétrica deve ser avaliada considerando",
+          "alternativas": {
+            "A": "somente a cor do combustível.",
+            "B": "ausência total de emissões no gás.",
+            "C": "equivalência obrigatória entre todos os combustíveis.",
+            "D": "emissões na combustão, eficiência e possíveis fugas de metano ao longo da cadeia.",
+            "E": "a impossibilidade de produzir eletricidade com gás."
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "Avaliação de emissões requer fronteira e unidade comparáveis, inclusive perdas de metano.",
+          "analise_distratores": {
+            "A": "A cor não mede emissões.",
+            "B": "Gás é combustível fóssil.",
+            "C": "Intensidades variam.",
+            "E": "Termelétricas a gás geram eletricidade."
+          },
+          "dificuldade": "avancada",
+          "subtopico": "Energia: importância, conceitos, modelos e fontes"
+        },
+        {
+          "questao_id": "CE-GEO-06-EXP-Q008",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino; não oficial FCC",
+          "enunciado": "Uma região instala parques solares e eólicos e procura manter fornecimento quando a geração varia. A abordagem sistêmica mais adequada envolve",
+          "alternativas": {
+            "A": "dispensar toda infraestrutura elétrica.",
+            "B": "instalar obrigatoriamente bateria em cada painel.",
+            "C": "substituir a rede por petróleo em todas as situações.",
+            "D": "considerar as fontes renováveis invariáveis.",
+            "E": "combinar previsão, redes, gestão da demanda, armazenamento ou geração complementar conforme o sistema."
+          },
+          "gabarito": "E",
+          "justificativa_gabarito": "Flexibilidade sistêmica permite lidar com a variabilidade de oferta e demanda.",
+          "analise_distratores": {
+            "A": "As fontes dependem de integração física.",
+            "B": "Armazenamento pode ser coletivo ou complementado por outras soluções.",
+            "C": "Não há solução universal única.",
+            "D": "A geração varia com as condições naturais."
+          },
+          "dificuldade": "avancada",
+          "subtopico": "Energia: importância, conceitos, modelos e fontes"
         }
       ],
       "flashcards": [
@@ -7266,7 +8170,7 @@
         {
           "card_id": "CE-GEO-06-FC003",
           "frente": "Qual a diferença entre IED e capital especulativo?",
-          "verso": "IED instala ativos produtivos/fábricas de longo prazo; capital especulativo busca ganho rápido em bolsas/juros e sai rapidamente em crises.",
+          "verso": "IED envolve influência duradoura (critério estatístico de pelo menos 10% dos votos); capital especulativo procura ganhos com variações financeiras, sem ser sinônimo de todo investimento em carteira.",
           "tipo": "comparacao",
           "tags": [
             "capitais",
@@ -7276,7 +8180,7 @@
         {
           "card_id": "CE-GEO-06-FC004",
           "frente": "Qual o principal desafio técnico das energias solar e eólica?",
-          "verso": "A intermitência (dependência da variabilidade de ventos e insolação), exigindo redes de transmissão, armazenamento e fontes complementares.",
+          "verso": "Variabilidade de vento e radiação; integração de redes, previsão, flexibilidade, armazenamento e fontes complementares podem ajudar.",
           "tipo": "conceito",
           "tags": [
             "renovaveis",
@@ -7285,8 +8189,8 @@
         },
         {
           "card_id": "CE-GEO-06-FC005",
-          "frente": "Qual combustível fóssil mais emite CO₂ na geração elétrica global?",
-          "verso": "O carvão mineral (ainda muito utilizado na China, Índia e EUA).",
+          "frente": "Por que a geração a carvão costuma ter elevadas emissões de CO₂?",
+          "verso": "Pela composição do combustível e eficiência das usinas; comparar emissões por unidade de energia e fronteira de ciclo de vida.",
           "tipo": "conceito",
           "tags": [
             "carvao",
@@ -7302,9 +8206,149 @@
             "cultura",
             "consumo"
           ]
+        },
+        {
+          "card_id": "CE-GEO-06-EXP-FC001",
+          "frente": "Globalização elimina o território?",
+          "verso": "Não. Redes globais dependem de bases materiais, decisões e regulação territorial.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-06"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-06-EXP-FC002",
+          "frente": "Fixos e fluxos: exemplo.",
+          "verso": "Porto e ferrovia são fixos; mercadorias e informações em circulação são fluxos.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-06"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-06-EXP-FC003",
+          "frente": "Exportação bruta equivale ao valor adicionado doméstico?",
+          "verso": "Não. Inclui componentes e serviços de outros lugares.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-06"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-06-EXP-FC004",
+          "frente": "IED exige construção de uma fábrica?",
+          "verso": "Não. Aquisição de participação com influência também pode ser investimento direto.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-06"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-06-EXP-FC005",
+          "frente": "Qual a referência estatística de poder de voto para investimento direto?",
+          "verso": "Pelo menos 10% do poder de voto, conforme metodologia do Banco Central.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-06"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-06-EXP-FC006",
+          "frente": "Investimento em carteira é sempre especulativo?",
+          "verso": "Não. Pode envolver diferentes horizontes de investimento.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-06"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-06-EXP-FC007",
+          "frente": "Estoque e fluxo de capital?",
+          "verso": "Estoque: posição numa data; fluxo: transações durante um período.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-06"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-06-EXP-FC008",
+          "frente": "Por que avaliar sazonalidade turística?",
+          "verso": "A demanda e a pressão sobre serviços e recursos variam no tempo.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-06"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-06-EXP-FC009",
+          "frente": "kW e kWh: diferença?",
+          "verso": "kW mede potência; kWh mede energia.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-06"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-06-EXP-FC010",
+          "frente": "O que é fonte primária versus vetor energético?",
+          "verso": "Primária existe na natureza antes de transformação; vetor transporta ou disponibiliza energia após processos.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-06"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-06-EXP-FC011",
+          "frente": "Hidrogênio produzido é fonte primária?",
+          "verso": "Não. É vetor energético que exige produção.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-06"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-06-EXP-FC012",
+          "frente": "Renovável implica impacto zero?",
+          "verso": "Não. É preciso considerar ciclo de vida, uso do solo e efeitos sociais.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-06"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-06-EXP-FC013",
+          "frente": "Por que geração elétrica e oferta interna diferem?",
+          "verso": "A oferta interna pode incluir importações líquidas além da geração nacional.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-06"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-06-EXP-FC014",
+          "frente": "Qual percentual de geração elétrica nacional não renovável em 2025, segundo BEN 2026?",
+          "verso": "13,4%. O complemento renovável é 86,6% da geração, não da matriz energética total.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-06"
+          ]
         }
       ],
-      "teoria_md": "---\ntopico_id: CE-GEO-06\nslug: globalizacao-fluxos-energia\ntitulo: \"Globalização, Fluxos Mundiais, Consumo e Matriz Energética\"\nedital: SEDUC-MA-01-2026\nbanca: FCC\nstatus: em_auditoria\n---\n\n# 1. Delimitação no Edital (Camada A)\n- **Itens explícitos (p. 76):** *A Globalização e seus fluxos: A expansão atual do capitalismo. Fluxos de capitais e expansão das transnacionais. Fluxo de turistas. Mundialização da sociedade de consumo. Energia: importância; conceitos; modelos; fontes.*\n\n# 2. Globalização: Fluxos Materiais, Imateriais e Assimetrias\n- **Expansão atual do capitalismo:** aprofundamento da integração financeira, produtiva e informacional em escala planetária, apoiado em políticas de desregulamentação, abertura comercial e redes digitais.\n- **Fluxos de capitais e transnacionais:**\n  - *Capital produtivo (IED — Investimento Estrangeiro Direto):* instalação de fábricas, infraestrutura e filiais.\n  - *Capital especulativo/financeiro:* fluxos eletrônicos instantâneos de curto prazo em bolsas, títulos e moedas, sensíveis a juros e crises geopolíticas.\n- **Fluxos de turistas e mundialização do consumo:** o turismo consolidou-se como um dos maiores setores de serviços do mundo (concentrado na Europa, América do Norte e Ásia-Pacífico, com forte apelo cultural e ambiental). A **mundialização do consumo** difunde padrões culturais e marcas globais (*fast food*, streaming, eletrônicos), gerando tensões entre **homogeneização cultural** e **resistências/identidades locais** (*glocalização*).\n- **Globalização como fábula, perversidade e possibilidade (Milton Santos):** a mídia vende a globalização como aldeia global igualitária (*fábula*), mas na prática concentra riqueza, amplia desemprego estrutural e exclui territórios (*perversidade*), podendo ser reorientada por outra política (*possibilidade*).\n\n# 3. Energia: Conceitos, Modelos e Fontes\n- **Matriz Energética vs. Matriz Elétrica:**\n  - **Matriz Energética:** soma de toda a energia disponível para transporte, indústria, aquecimento e eletricidade (petróleo, carvão, gás natural, biomassa, hidráulica, solar, eólica etc.).\n  - **Matriz Elétrica:** subconjunto voltado especificamente à **geração de energia elétrica** (no Brasil, historicamente marcada pelo peso da fonte **hidráulica** e rápida expansão de **eólica** e **solar**; no mundo, ainda dominada por **carvão mineral e gás natural**).\n- **Fontes Não Renováveis (Fósseis e Nuclear):**\n  - *Petróleo:* principal combustível da matriz energética mundial e base da indústria petroquímica; forte peso geopolítico (OPEP, Oriente Médio, EUA, Rússia, Pré-Sal brasileiro).\n  - *Carvão mineral:* combustível fóssil mais poluente (elevada emissão de CO₂), ainda crucial na geração elétrica e siderurgia (China, Índia, EUA).\n  - *Gás natural:* fóssil menos emissor que carvão/petróleo; usado em termelétricas, indústria e aquecimento (no Maranhão, explorado na Bacia do Parnaíba).\n  - *Nuclear (Urânio):* baixíssima emissão de gases de efeito estufa na operação, alta densidade energética, mas alto custo, risco de acidentes e desafio de rejeitos radioativos.\n- **Fontes Renováveis e Transição Energética:**\n  - *Hidrelétrica:* limpa quanto a GEE diretos na geração, mas provoca alagamentos, deslocamento populacional e depende do regime de chuvas.\n  - *Eólica e Solar (Fotovoltaica):* crescimento acelerado, renováveis e descentralizáveis, porém **intermitentes** (exigem redes inteligentes, linhas de transmissão e armazenamento). No Nordeste brasileiro (inclusive litoral maranhense), o potencial eólico e solar é estratégico.\n  - *Biomassa / Biocombustíveis:* cana-de-açúcar (etanol/bagaço), biodiesel (soja/oleaginosas) e lenha; renovável, mas exige cuidado com uso do solo e desmatamento.\n  - *Hidrogênio Verde:* vetor energético produzido por eletrólise da água usando energia renovável (eólica/solar).\n"
+      "teoria_md": "# 1. Globalização como processo desigual\n\nUma compra pela internet pode ligar um consumidor a um armazém local, uma plataforma sediada no exterior, centros de dados, produtores de componentes e bancos. Globalização é intensificação e ampliação de relações entre lugares, envolvendo produção, comércio, capitais, informação, turismo e cultura. Não começou do zero no fim do século XX: possui antecedentes de longa duração, mas ganhou novas formas com integração financeira, transportes e telecomunicações.\n\nMilton Santos, em Por uma outra globalização, distingue três dimensões analíticas: a globalização apresentada como promessa de integração universal (fábula), a realidade desigual das relações econômicas e sociais (perversidade) e a possibilidade de uso alternativo das bases técnicas em benefício social. A crítica dirige-se às formas de apropriação política e econômica da técnica, não à tecnologia em si.\n\nFixos — ferrovias, portos, centros de dados — sustentam fluxos de bens, pessoas, dinheiro e informação. Horizontalidades remetem às relações de contiguidade e ao cotidiano; verticalidades, à articulação de pontos por redes e normas de comando. Ambas coexistem. Uma ferrovia de exportação pode integrar a economia global e, ao mesmo tempo, produzir barreiras e desigualdades locais.\n\n# 2. Divisão Internacional do Trabalho e corporações\n\nA Divisão Internacional do Trabalho (DIT) descreve especializações desiguais entre economias. Relações coloniais organizaram muitas trocas entre produção primária e manufatura metropolitana. Industrialização periférica e redes de produção transnacionais tornaram a configuração contemporânea mais complexa. Países podem combinar mineração, agricultura, manufatura, serviços avançados e inovação.\n\nUma cadeia global de valor fragmenta etapas e as coordena por contratos e redes. Pesquisa, design, fabricação de componentes, montagem, distribuição e pós-venda podem ocorrer em países distintos. Participação numa cadeia não equivale a controle de suas decisões ou captura proporcional de renda. Marcas, tecnologia e padrões podem dar poder a empresas líderes; fornecedores especializados também podem conquistar posições estratégicas.\n\nExemplo: um aparelho montado em um país é vendido por 500 unidades monetárias. Não se pode atribuir todo esse valor à economia montadora, porque componentes, royalties, logística e margens comerciais podem pertencer a agentes e lugares distintos. Exportação bruta e valor adicionado doméstico respondem a perguntas diferentes.\n\nTransnacionais não são Estados soberanos: operam em sistemas jurídicos e podem influenciar políticas, mas suas decisões dependem de infraestrutura, mercados, contratos, regulação e relações de poder.\n\n# 3. Capitais: investimento direto, carteira e instabilidade\n\nO investimento direto de uma economia em outra envolve relação duradoura de influência ou controle. Conforme o padrão estatístico descrito pelo Banco Central, participação de pelo menos 10% do poder de voto caracteriza relação de investimento direto. Não significa necessariamente instalar uma nova fábrica: aquisição de empresa existente, reinvestimento de lucros e operações financeiras intragrupo também podem integrar essa categoria.\n\nInvestimento em carteira inclui aplicações em títulos e participações sem relação de investimento direto. Pode buscar rendimento de longo prazo ou ganhos rápidos. Capital especulativo é expressão analítica para estratégias de busca de ganhos com variações de preços, juros e câmbio, não categoria idêntica a todo investimento em carteira. Empréstimos, créditos comerciais e remessas pessoais possuem naturezas diferentes.\n\n| Situação | Classificação inicial |\n|---|---|\n| Empresa estrangeira compra 30% dos votos de fabricante local | Relação de investimento direto |\n| Fundo compra ações sem influência relevante | Pode configurar investimento em carteira |\n| Trabalhador envia dinheiro à família | Transferência pessoal |\n\nFluxos financeiros podem financiar investimentos, gerar dependências e transmitir instabilidade. Taxa de juros, câmbio, expectativas e políticas afetam as decisões. A velocidade de circulação não elimina controles territoriais. Leia séries distinguindo estoque (posição numa data) e fluxo (variação/transações durante período).\n\n# 4. Turismo, mobilidade e mundialização do consumo\n\nFluxos de turistas dependem de renda, férias, conectividade, custo de transporte, vistos, câmbio, patrimônio e segurança. O turismo internacional implica deslocamento para fora do país de residência, conforme critérios estatísticos; turismo doméstico ocorre dentro do país. Não confunda turista com toda pessoa migrante: finalidade, duração e residência habitual importam. Turismo de negócios, lazer e outros motivos podem integrar as estatísticas, que têm definições próprias.\n\nO turismo gera demanda por hospedagem, transporte, alimentação, serviços e trabalho, mas seus efeitos são territorialmente diferenciados. Empregos, receitas e valorização imobiliária podem coexistir com pressão sobre água, resíduos, moradia e patrimônio. Sazonalidade cria picos de demanda. A renda pode vazar para operadores externos.\n\nNo Maranhão, o Centro Histórico de São Luís e os Lençóis Maranhenses permitem investigar patrimônio, acessibilidade, conservação, comunidades locais e redes de serviços. Não reduza turismo a número de visitantes. Analise quem organiza o fluxo e quem se beneficia.\n\nA mundialização do consumo envolve marcas, publicidade, produtos e hábitos difundidos em redes globais. Glocalização descreve adaptações e interações entre global e local: um produto pode manter marca global e mudar sabores ou usos conforme mercados. Isso não prova desaparecimento das culturas locais nem resistência automática. Consumo envolve também extração, logística, descarte e desigualdade de acesso.\n\n# 5. Energia: fontes, vetores e unidades\n\nEnergia é capacidade de produzir transformações físicas; potência é taxa de transferência ou uso de energia. Um aparelho de 1 kW ligado durante 2 horas consome 2 kWh. Quilowatt e quilowatt-hora não são sinônimos. Capacidade instalada, medida em MW, não equivale à quantidade gerada durante o ano, medida em MWh ou TWh.\n\nFontes primárias são encontradas na natureza antes de transformação, como petróleo bruto, carvão, vento e radiação solar. Energia elétrica, combustíveis refinados e hidrogênio produzido são vetores ou formas secundárias de energia. O hidrogênio não é fonte primária abundante pronta para uso: sua produção depende de processos e insumos energéticos.\n\nRenovabilidade refere-se à reposição natural em escalas relevantes de tempo; não significa impacto zero. Combustíveis fósseis e urânio são recursos não renováveis. Biomassa pode ser renovável quando o manejo e a reposição sustentam seu uso, mas sua produção pode gerar desmatamento, emissões ou competição pela terra.\n\nEficiência energética busca obter o mesmo serviço com menor energia. Transição energética envolve mudanças de fontes, infraestrutura, tecnologias, padrões de consumo e políticas. A eletrificação pode reduzir emissões quando a energia utilizada e o ciclo de vida são considerados; não basta trocar o nome da fonte.\n\n# 6. Matriz energética e matriz elétrica: leitura de dados\n\n![Comparação da geração elétrica brasileira em 2025: 86,6% renováveis e 13,4% não renováveis, por diferença do dado de não renováveis da EPE.](./media/geografia-humana/energia.svg)\n\nMatriz energética descreve o conjunto de fontes e formas que abastecem as atividades econômicas, incluindo combustíveis de transporte, calor industrial e eletricidade. Matriz elétrica focaliza as fontes que fornecem eletricidade. É importante distinguir produção interna, oferta interna (inclui intercâmbio líquido), capacidade instalada e consumo final.\n\nO Balanço Energético Nacional 2026, ano-base 2025, da EPE informa que fontes não renováveis responderam por 13,4% da geração nacional de eletricidade. Por complemento, renováveis responderam por 86,6% dessa geração. A oferta interna elétrica, que incorpora importações líquidas, foi 783,3 TWh. O consumo final foi 667,8 TWh. As parcelas de fontes na oferta interna podem diferir das parcelas na geração nacional; não misture denominadores.\n\nA notícia institucional do BEN 2026 registra renovabilidade da matriz energética total próxima de metade e participação conjunta de eólica e solar fotovoltaica de 26,4% na geração elétrica de 2025. Portanto, renovabilidade alta na eletricidade não significa que toda a energia consumida em transporte e indústria seja renovável.\n\nAtalho: identifique ano-base, grandeza, unidade, universo e denominador antes de comparar percentuais. Se uma questão fornece dados diferentes de uma série conhecida, use o recorte apresentado e avalie a consistência, em vez de aplicar um número decorado.\n\n# 7. Fontes de energia: benefícios, limites e sistemas\n\n| Fonte | Natureza | Uso ou característica | Limitação relevante |\n|---|---|---|---|\n| Petróleo | Fóssil | Transporte, indústria química | Emissões, preço e dependência |\n| Carvão mineral | Fóssil | Geração, siderurgia | Elevadas emissões de CO₂ por energia produzida em muitas aplicações |\n| Gás natural | Fóssil | Calor, indústria, geração flexível | CO₂ e fugas de metano |\n| Nuclear | Não renovável | Fissão, geração firme | Rejeitos, segurança e custos |\n| Hidráulica | Renovável | Eletricidade; regularização quando há reservatório | Regime hídrico, territórios inundados e impactos ecológicos |\n| Eólica e solar | Renováveis | Geração variável | Integração de redes, ocupação e materiais |\n| Biomassa | Potencialmente renovável | Calor, eletricidade e biocombustíveis | Uso do solo, manejo, emissões |\n\nBaixa emissão na operação não equivale a emissão zero no ciclo de vida. Hidrelétricas podem emitir gases de efeito estufa por processos em reservatórios; emissões variam. Gás natural frequentemente emite menos CO₂ na combustão que carvão por unidade de energia, mas fugas de metano e eficiência podem alterar comparações no ciclo de vida.\n\nEólica e solar variam com as condições naturais. Redes interligadas, previsão, gestão da demanda, armazenamento e geração complementar podem ajudar a equilibrar oferta e demanda. Armazenamento não é obrigatório em cada unidade geradora. Hidrelétricas a fio d'água têm capacidade limitada de regularização comparadas a certos reservatórios.\n\nA produção de hidrogênio por eletrólise alimentada por eletricidade renovável é uma possibilidade de redução de emissões em certos setores; comparar eficiência, água, custo, infraestrutura e uso final.\n\n# 8. Geopolítica da energia e transição no Maranhão\n\nA concentração geográfica de reservas, capacidade de processamento e rotas influencia segurança energética. OPEP articula países produtores de petróleo; OPEP+ inclui coordenação com produtores externos à organização. Estoques, diversidade de fornecedores e infraestrutura influenciam a vulnerabilidade. O petróleo não explica sozinho todas as disputas internacionais.\n\nNo Nordeste, radiação solar, ventos e redes de transmissão oferecem possibilidades para geração renovável. No Maranhão, atividades de energia, mineração, indústria e logística devem ser analisadas de forma territorial: potencial natural não basta sem viabilidade, licença, acesso à rede, financiamento e respeito a direitos. O aproveitamento de gás natural na Bacia do Parnaíba e projetos renováveis exemplificam combinações de recursos e infraestrutura, sem inferir capacidades atuais sem fonte datada.\n\nUma transição justa procura considerar distribuição de custos e benefícios, trabalho, acesso à energia, impactos locais e comunidades afetadas. Ela não é somente substituição técnica de combustível. Minerais críticos, reciclagem, dependência tecnológica e governança da água ganham relevância.\n\nAplicação integradora: uma região exporta insumos para baterias, mas importa equipamentos e carece de eletricidade confiável. Explique por que disponibilidade de recursos, autonomia tecnológica e acesso à energia são três dimensões diferentes. Relacione com CE-GEO-04 (poder e dependência) e CE-GEO-05 (cadeias e indústria)."
     },
     {
       "schema_version": "2.0.0",

@@ -61,3 +61,15 @@ test.each([
   }
   expect(catalog.units.get('CE-GEO-02')!.questoes).toHaveLength(58);
 });
+
+ test('Geografia Humana integra geopolítica, indústria e globalização sem alterar o lote anterior', () => {
+  for (const id of ['CE-GEO-04','CE-GEO-05','CE-GEO-06']) {
+    const unit = catalog.units.get(id)!;
+    expect(unit.teoria_md.match(/^# .+/gm)).toHaveLength(8);
+    expect(unit.questoes).toHaveLength(13);
+    expect(unit.flashcards).toHaveLength(20);
+    expect(unit.status).toBe('em_auditoria');
+    for(let i=1;i<=5;i++) expect(catalog.items.has(id+'-Q'+String(i).padStart(3,'0'))).toBe(true);
+    for(let i=1;i<=6;i++) expect(catalog.items.has(id+'-FC'+String(i).padStart(3,'0'))).toBe(true);
+  }
+});
