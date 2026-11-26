@@ -5,8 +5,8 @@
   "resumo_cobertura": {
     "total_unidades_edital": 45,
     "unidades_populadas": 45,
-    "total_questoes": 278,
-    "total_flashcards": 396
+    "total_questoes": 300,
+    "total_flashcards": 453
   },
   "edital": {
     "schema_version": "1.0.0",
@@ -5679,7 +5679,7 @@
       "titulo": "Estudo da Terra, Tectônica de Placas e Geomorfologia",
       "status": "em_auditoria",
       "origem": "edital_explicito",
-      "tempo_leitura_min": 35,
+      "tempo_leitura_min": 11,
       "edital_subtopicos": [
         "Composição e estrutura interna da Terra",
         "Tectônica de placas e agentes internos/externos",
@@ -5690,7 +5690,7 @@
           "referencia_abnt": "MARANHÃO. Secretaria de Estado da Administração. Edital nº 01/2026 — SEAD/SEDUC-MA (Código 17 — Professor de Geografia). São Luís: SEAD/FCC, 2026. p. 76.",
           "tipo": "edital",
           "nivel_autoridade": 1,
-          "url": "https://www.concursosfcc.com.br"
+          "url": "https://www.concursosfcc.com.br/concursos/seadm226/index.html"
         },
         {
           "referencia_abnt": "TEIXEIRA, Wilson et al. (orgs.). Decifrando a Terra. 2. ed. São Paulo: Companhia Editora Nacional, 2009.",
@@ -5701,6 +5701,18 @@
           "referencia_abnt": "ROSS, Jurandyr Luciano Sanches. Geomorfologia: Ambiente e Planejamento. São Paulo: Contexto, 2012.",
           "tipo": "bibliografia_academica",
           "nivel_autoridade": 5
+        },
+        {
+          "referencia_abnt": "SGB. Estrutura Interna da Terra.",
+          "tipo": "institucional",
+          "nivel_autoridade": 3,
+          "url": "https://www.sgb.gov.br/estrutura-interna-da-terra"
+        },
+        {
+          "referencia_abnt": "IBGE. Unidades de Relevo 1:5.000.000.",
+          "tipo": "institucional",
+          "nivel_autoridade": 3,
+          "url": "https://www.ibge.gov.br/geociencias/informacoes-ambientais/geomorfologia/15827-unidades-de-relevo.html"
         }
       ],
       "sintese_fcc": {
@@ -5722,7 +5734,7 @@
           },
           {
             "termo": "Intemperismo Químico vs. Físico",
-            "definicao_precisa": "Químico (decomposição pela água/calor) domina em climas tropicais úmidos; Físico (desagregação térmica/mecânica) domina em climas áridos e frios.",
+            "definicao_precisa": "Intemperismo químico transforma minerais por reações; físico fragmenta materiais. Água, temperatura, litologia, relevo e tempo influenciam a predominância.",
             "fonte": "TEIXEIRA et al., 2009."
           }
         ],
@@ -5735,12 +5747,12 @@
           {
             "armadilha": "Atribuir dobramentos modernos ao Brasil",
             "como_a_fcc_cobra": "Inclui dobramentos modernos terciários entre as estruturas geológicas do território brasileiro.",
-            "como_desarmar": "O Brasil situa-se no centro da Placa Sul-Americana e possui APENAS escudos cristalinos (crátons/dobramentos antigos) e bacias sedimentares."
+            "como_desarmar": "O Brasil não possui cadeia de orogenia jovem ativa comparável aos Andes, mas possui crátons, cinturões antigos, bacias e sismicidade intraplaca."
           },
           {
-            "armadilha": "Confundir Orogênese com Epirogênese",
-            "como_a_fcc_cobra": "Troca movimentos horizontais/rápidos (orogênese) por verticais/lentos (epirogênese).",
-            "como_desarmar": "Orogênese = horizontal, rápido, forma montanhas/dobras; Epirogênese = vertical, lento, soergue ou rebaixa continentes."
+            "armadilha": "Reduzir orogênese e epirogênese a direções e velocidades fixas",
+            "como_a_fcc_cobra": "Distrator autoral de treino: tratar a orogênese como exclusivamente horizontal e rápida.",
+            "como_desarmar": "Orogênese envolve formação de cadeias; epirogênese é termo tradicional para movimentos verticais regionais. Não são distinguidas apenas por rapidez."
           }
         ],
         "quadro_comparativo": [
@@ -5782,7 +5794,7 @@
           "gabarito": "E",
           "justificativa_gabarito": "Na divisão reológica, a litosfera engloba a crosta e o topo rígido do manto superior, fragmentando-se em placas tectônicas que se movem sobre a astenosfera (mais dúctil/plástica).",
           "analise_distratores": {
-            "A": "Na estrutura interna da Terra, mesosfera é o manto inferior rígido (não confundir com a camada atmosférica).",
+            "A": "Mesosfera, em uma nomenclatura mecânica simplificada do interior terrestre, refere-se a regiões profundas do manto, não à camada gasosa da atmosfera.",
             "B": "Descreve o núcleo externo (líquido, NiFe, campo magnético), não a astenosfera.",
             "C": "Placas tectônicas incluem crosta continental e/ou oceânica e movem-se continuamente.",
             "D": "Gutenberg separa manto e núcleo externo; crosta/manto é a descontinuidade de Mohorovičić (Moho)."
@@ -5807,8 +5819,8 @@
           "analise_distratores": {
             "A": "Inverte convergente e divergente.",
             "B": "Inverte divergente e transformante.",
-            "C": "Ordem incorreta.",
-            "E": "Ordem incorreta."
+            "C": "Andes são convergentes; San Andreas é transformante.",
+            "E": "Andes são convergentes, Dorsal é divergente e San Andreas é transformante."
           },
           "dificuldade": "basica",
           "subtopico": "Tectônica de placas e agentes internos/externos"
@@ -5826,9 +5838,9 @@
             "E": "na ocorrência de dobramentos modernos nas áreas de planície costeira."
           },
           "gabarito": "A",
-          "justificativa_gabarito": "A definição geomorfológica moderna adota o critério genético-dinâmico: planalto = predomínio da erosão; planície = predomínio da deposição sedimentar.",
+          "justificativa_gabarito": "Na tradição classificatória citada, a distinção privilegia processos geomorfológicos e não somente altitude.",
           "analise_distratores": {
-            "B": "Critério altimétrico antigo (Aroldo de Azevedo), superado por Ab'Sáber e Ross.",
+            "B": "O critério altimétrico pertence a outra proposta classificatória; não é o critério processual solicitado.",
             "C": "Não há vulcanismo ativo no Brasil e planaltos podem ser sedimentares ou cristalinos.",
             "D": "Planaltos podem ser sedimentares (ex.: Bacia do Parnaíba) e planícies são sedimentares.",
             "E": "Não há dobramentos modernos no Brasil."
@@ -5849,7 +5861,7 @@
             "E": "tectonismo orogenético de subducção continental."
           },
           "gabarito": "C",
-          "justificativa_gabarito": "Água em abundância e temperaturas elevadas intensificam reações como hidrólise, oxidação e dissolução, tornando o intemperismo químico o agente dominante nos trópicos úmidos.",
+          "justificativa_gabarito": "Água e temperatura favorecem hidrólise, oxidação e dissolução; a profundidade e classe de solo também dependem de outros fatores.",
           "analise_distratores": {
             "A": "Crioclastia ocorre em climas frios/de alta montanha.",
             "B": "Ação eólica predomina em áreas áridas/semiáridas ou costeiras arenosas, não na formação de Latossolos profundos úmidos.",
@@ -5868,19 +5880,203 @@
             "A": "os escudos cristalinos pré-cambrianos concentram as principais reservas de combustíveis fósseis (petróleo e carvão mineral).",
             "B": "as rochas magmáticas intrusivas são formadas pela compactação de sedimentos marinhos ricos em fósseis.",
             "C": "os dobramentos modernos brasileiros são os principais produtores de minério de ferro da Serra dos Carajás.",
-            "D": "as bacias sedimentares abrigam depósitos de combustíveis fósseis (petróleo, gás natural e carvão) e aquíferos, enquanto os escudos cristalinos concentram minerais metálicos (como ferro e manganês).",
+            "D": "Bacias sedimentares podem abrigar combustíveis fósseis e aquíferos, enquanto muitos depósitos metálicos associam-se a terrenos cristalinos antigos.",
             "E": "a epirogênese corresponde a choques horizontais bruscos que originam grandes cadeias de montanhas jovens."
           },
           "gabarito": "D",
-          "justificativa_gabarito": "Escudos cristalinos (rochas antigas magmáticas/metamórficas) concentram minerais metálicos; bacias sedimentares concentram combustíveis fósseis e água subterrânea.",
+          "justificativa_gabarito": "Essas associações são frequentes, mas não exclusivas: minérios podem ocorrer em ambientes sedimentares e água subterrânea também em rochas fraturadas.",
           "analise_distratores": {
             "A": "Inverte exatamente a associação econômica.",
             "B": "Descreve rochas sedimentares, não magmáticas intrusivas.",
             "C": "Carajás está em escudo cristalino pré-cambriano; o Brasil não possui dobramentos modernos.",
-            "E": "Descreve orogênese, não epirogênese (que é vertical e lenta)."
+            "E": "Epirogênese é um termo tradicional para movimentos verticais regionais; não corresponde à colisão de placas."
           },
           "dificuldade": "intermediaria",
           "subtopico": "Composição e estrutura interna da Terra"
+        },
+        {
+          "questao_id": "CE-GEO-03-EXP-Q001",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — inédita; não é questão oficial FCC",
+          "enunciado": "Em uma sucessão sedimentar não invertida, uma intrusão corta as camadas A e B, e uma falha corta a intrusão. A interpretação relativa correta é:",
+          "alternativas": {
+            "A": "A falha é anterior à deposição das duas camadas.",
+            "B": "A intrusão é mais recente que a falha.",
+            "C": "A intrusão é posterior às camadas e anterior à falha.",
+            "D": "A idade numérica da intrusão é determinada pela espessura das camadas.",
+            "E": "A relação de corte prova que as camadas são cenozoicas."
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "Pelo princípio das relações de corte, a estrutura que corta é posterior à estrutura cortada.",
+          "analise_distratores": {
+            "A": "A falha corta uma intrusão posterior às camadas.",
+            "B": "Inverte a sequência observada.",
+            "D": "Espessura não fornece idade numérica por si só.",
+            "E": "Relações relativas não datam a era."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Composição e estrutura interna da Terra"
+        },
+        {
+          "questao_id": "CE-GEO-03-EXP-Q002",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — inédita; não é questão oficial FCC",
+          "enunciado": "Dados sísmicos indicam fossa oceânica, focos sísmicos que se aprofundam em direção ao continente e arco magmático. O conjunto é mais coerente com:",
+          "alternativas": {
+            "A": "limite divergente continental.",
+            "B": "limite transformante puro.",
+            "C": "ponto quente sem interação entre placas.",
+            "D": "subducção de litosfera oceânica sob margem continental.",
+            "E": "sedimentação fluvial em margem passiva."
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "O conjunto é compatível com uma placa descendente e magmatismo associado à subducção.",
+          "analise_distratores": {
+            "A": "Rifte não explica o plano sísmico profundo e a fossa.",
+            "B": "Deslocamento lateral não explica o conjunto.",
+            "C": "Hotspot não exige fossa nem placa descendente.",
+            "E": "Deposição fluvial não explica a sismicidade profunda."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Tectônica de placas e agentes internos/externos"
+        },
+        {
+          "questao_id": "CE-GEO-03-EXP-Q003",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — inédita; não é questão oficial FCC",
+          "enunciado": "Ao comparar a magnitude de um terremoto com as intensidades registradas em dois bairros, é correto afirmar:",
+          "alternativas": {
+            "A": "A magnitude é uma estimativa do tamanho do evento; intensidades podem variar com local e condições.",
+            "B": "A intensidade é idêntica em todos os bairros.",
+            "C": "A magnitude depende apenas do número de edifícios danificados.",
+            "D": "O epicentro corresponde ao ponto de ruptura em profundidade.",
+            "E": "A presença de sismos prova que a região está numa margem de placas."
+          },
+          "gabarito": "A",
+          "justificativa_gabarito": "A magnitude caracteriza o evento; a intensidade descreve efeitos locais.",
+          "analise_distratores": {
+            "B": "Efeitos variam espacialmente.",
+            "C": "Danos não definem sozinhos magnitude.",
+            "D": "O ponto em profundidade é o hipocentro.",
+            "E": "Há sismos intraplaca."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Tectônica de placas e agentes internos/externos"
+        },
+        {
+          "questao_id": "CE-GEO-03-EXP-Q004",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — inédita; não é questão oficial FCC",
+          "enunciado": "Sobre os mecanismos de geração de magma, considere I. A descompressão pode provocar fusão parcial do manto ascendente em dorsais. II. Voláteis liberados pela placa subductada podem favorecer fusão no manto sobrejacente. III. Todo o manto é líquido. Está correto o que se afirma em:",
+          "alternativas": {
+            "A": "I apenas.",
+            "B": "II apenas.",
+            "C": "III apenas.",
+            "D": "I e III apenas.",
+            "E": "I e II apenas."
+          },
+          "gabarito": "E",
+          "justificativa_gabarito": "I e II descrevem mecanismos de fusão parcial; o manto é predominantemente sólido.",
+          "analise_distratores": {
+            "A": "Omite II.",
+            "B": "Omite I.",
+            "C": "III é falsa.",
+            "D": "Inclui III e omite II."
+          },
+          "dificuldade": "avancada",
+          "subtopico": "Tectônica de placas e agentes internos/externos"
+        },
+        {
+          "questao_id": "CE-GEO-03-EXP-Q005",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — inédita; não é questão oficial FCC",
+          "enunciado": "Um pesquisador identifica mármore derivado de calcário em uma área de metamorfismo regional. A relação entre essas rochas demonstra:",
+          "alternativas": {
+            "A": "fusão completa seguida de cristalização obrigatória.",
+            "B": "transformação mineralógica e textural predominantemente no estado sólido.",
+            "C": "deposição de areia seguida de cimentação.",
+            "D": "intemperismo mecânico sem alteração mineral.",
+            "E": "formação exclusiva por precipitação no oceano."
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "O mármore resulta de metamorfismo de rocha carbonática.",
+          "analise_distratores": {
+            "A": "Fusão completa seguida de cristalização origina material ígneo.",
+            "C": "Esse processo é associado a arenito sedimentar.",
+            "D": "Intemperismo superficial não explica metamorfismo regional.",
+            "E": "Precipitação pode originar o protólito, não explica a transformação."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Composição e estrutura interna da Terra"
+        },
+        {
+          "questao_id": "CE-GEO-03-EXP-Q006",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — inédita; não é questão oficial FCC",
+          "enunciado": "Uma área apresenta uma superfície relativamente baixa em relação às vizinhas, a 350 m acima do nível do mar. A conclusão defensável é:",
+          "alternativas": {
+            "A": "trata-se necessariamente de planície porque é baixa.",
+            "B": "trata-se de depressão absoluta.",
+            "C": "pode corresponder a depressão relativa; sua gênese exige evidências adicionais.",
+            "D": "a altitude prova que se trata de dobramento moderno.",
+            "E": "a superfície pertence necessariamente a uma bacia sedimentar."
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "Depressão relativa é definida por posição topográfica em relação ao entorno, não pelo nível do mar.",
+          "analise_distratores": {
+            "A": "Planície exige contexto processual.",
+            "B": "Depressão absoluta fica abaixo do nível médio do mar.",
+            "D": "Altitude não identifica estrutura tectônica.",
+            "E": "Uma forma pode ocorrer em diferentes estruturas."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Geomorfologia geral"
+        },
+        {
+          "questao_id": "CE-GEO-03-EXP-Q007",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — inédita; não é questão oficial FCC",
+          "enunciado": "Um perfil usa escala horizontal 1:50.000 e vertical 1:10.000. Entre dois pontos há 40 m de desnível em 200 m horizontais. A relação correta é:",
+          "alternativas": {
+            "A": "exagero vertical 0,2 e declividade 20%.",
+            "B": "exagero vertical 5 e declividade 100%.",
+            "C": "exagero vertical 5 e inclinação 20°.",
+            "D": "exagero vertical 5 e declividade 20%.",
+            "E": "exagero vertical 1 e declividade 5%."
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "O exagero é 50.000/10.000=5; a declividade é 40/200×100=20%.",
+          "analise_distratores": {
+            "A": "Inverte a razão.",
+            "B": "Confunde inclinação aparente e real.",
+            "C": "Porcentagem não é medida angular.",
+            "E": "Escalas distintas geram exagero; a declividade não é 5%."
+          },
+          "dificuldade": "avancada",
+          "subtopico": "Geomorfologia geral"
+        },
+        {
+          "questao_id": "CE-GEO-03-EXP-Q008",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — inédita; não é questão oficial FCC",
+          "enunciado": "Ao explicar a formação de uma cadeia montanhosa por colisão continental, um professor deve considerar:",
+          "alternativas": {
+            "A": "orogênese como movimento exclusivamente horizontal e instantâneo.",
+            "B": "ausência de deformação crustal em toda colisão.",
+            "C": "obducção como sinônimo obrigatório de qualquer colisão.",
+            "D": "inexistência de erosão durante soerguimento.",
+            "E": "deformação, espessamento crustal, soerguimento e interação com processos superficiais."
+          },
+          "gabarito": "E",
+          "justificativa_gabarito": "Orogênese envolve processos complexos que coexistem com denudação e erosão.",
+          "analise_distratores": {
+            "A": "Reduz indevidamente a dinâmica.",
+            "B": "Colisão costuma gerar deformação.",
+            "C": "Obducção é um processo específico.",
+            "D": "Erosão pode atuar simultaneamente."
+          },
+          "dificuldade": "avancada",
+          "subtopico": "Tectônica de placas e agentes internos/externos"
         }
       ],
       "flashcards": [
@@ -5917,7 +6113,7 @@
         {
           "card_id": "CE-GEO-03-FC004",
           "frente": "Qual a diferença entre Orogênese e Epirogênese?",
-          "verso": "Orogênese: movimento horizontal rápido (forma dobramentos/falhas); Epirogênese: movimento vertical lento de soerguimento/subsidência.",
+          "verso": "Orogênese: processos de formação de cadeias montanhosas. Epirogênese: movimentos verticais regionais de grande extensão; não se distinguem apenas por velocidade.",
           "tipo": "comparacao",
           "tags": [
             "agentes-endogenos"
@@ -5926,7 +6122,7 @@
         {
           "card_id": "CE-GEO-03-FC005",
           "frente": "Onde ocorrem minerais metálicos vs. combustíveis fósseis?",
-          "verso": "Minerais metálicos (ferro, manganês, ouro) em Escudos Cristalinos; petróleo, gás e carvão em Bacias Sedimentares.",
+          "verso": "Muitos depósitos metálicos associam-se a terrenos cristalinos; combustíveis fósseis, a bacias sedimentares. São tendências, não exclusividades.",
           "tipo": "conceito",
           "tags": [
             "geologia",
@@ -5936,15 +6132,378 @@
         {
           "card_id": "CE-GEO-03-FC006",
           "frente": "Qual tipo de intemperismo domina em climas tropicais úmidos?",
-          "verso": "Intemperismo químico (hidrólise/decomposição mineral pela água e calor), gerando solos profundos.",
+          "verso": "Condições quentes e úmidas favorecem alteração química. Profundidade e fertilidade também dependem de material, drenagem, organismos e tempo.",
           "tipo": "conceito",
           "tags": [
             "intemperismo",
             "solos"
           ]
+        },
+        {
+          "card_id": "CE-GEO-03-LEG-GF-tectonica-FC3",
+          "frente": "Núcleo externo?",
+          "verso": "Núcleo externo líquido: não transmite ondas S de cisalhamento; ondas P mudam velocidade e trajetória.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-fisica",
+            "tectonica"
+          ],
+          "status": "em_auditoria"
+        },
+        {
+          "card_id": "CE-GEO-03-LEG-GF-tectonica-FC4",
+          "frente": "Núcleo interno?",
+          "verso": "Parte central sólida, dominada por ferro e níquel.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-fisica",
+            "tectonica"
+          ],
+          "status": "em_auditoria"
+        },
+        {
+          "card_id": "CE-GEO-03-LEG-GF-tectonica-FC5",
+          "frente": "Descontinuidade de Moho?",
+          "verso": "Limite sísmico entre crosta e manto.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-fisica",
+            "tectonica"
+          ],
+          "status": "em_auditoria"
+        },
+        {
+          "card_id": "CE-GEO-03-LEG-GF-tectonica-FC6",
+          "frente": "Ondas P?",
+          "verso": "Compressionais; mais rápidas; atravessam sólidos e líquidos.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-fisica",
+            "tectonica"
+          ],
+          "status": "em_auditoria"
+        },
+        {
+          "card_id": "CE-GEO-03-LEG-GF-tectonica-FC7",
+          "frente": "Ondas S?",
+          "verso": "Cisalhamento; não atravessam líquidos.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-fisica",
+            "tectonica"
+          ],
+          "status": "em_auditoria"
+        },
+        {
+          "card_id": "CE-GEO-03-LEG-GF-tectonica-FC8",
+          "frente": "Datação relativa?",
+          "verso": "Ordena eventos sem fornecer idade numérica absoluta.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-fisica",
+            "tectonica"
+          ],
+          "status": "em_auditoria"
+        },
+        {
+          "card_id": "CE-GEO-03-LEG-GF-tectonica-FC9",
+          "frente": "Relação de corte?",
+          "verso": "Estrutura que corta outra é posterior à estrutura cortada.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-fisica",
+            "tectonica"
+          ],
+          "status": "em_auditoria"
+        },
+        {
+          "card_id": "CE-GEO-03-LEG-GF-tectonica-FC13",
+          "frente": "Rifte continental?",
+          "verso": "Estiramento da litosfera continental; pode anteceder abertura oceânica, mas nem todo rifte evolui para oceano.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-fisica",
+            "tectonica"
+          ],
+          "status": "em_auditoria"
+        },
+        {
+          "card_id": "CE-GEO-03-LEG-GF-tectonica-FC14",
+          "frente": "Subducção?",
+          "verso": "Mergulho de uma placa, geralmente oceânica e mais densa, sob outra.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-fisica",
+            "tectonica"
+          ],
+          "status": "em_auditoria"
+        },
+        {
+          "card_id": "CE-GEO-03-LEG-GF-tectonica-FC15",
+          "frente": "Andes: mecanismo-chave?",
+          "verso": "Subducção da placa de Nazca sob a placa Sul-Americana.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-fisica",
+            "tectonica"
+          ],
+          "status": "em_auditoria"
+        },
+        {
+          "card_id": "CE-GEO-03-LEG-GF-tectonica-FC16",
+          "frente": "Himalaia: mecanismo-chave?",
+          "verso": "Colisão continente–continente e espessamento crustal.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-fisica",
+            "tectonica"
+          ],
+          "status": "em_auditoria"
+        },
+        {
+          "card_id": "CE-GEO-03-LEG-GF-tectonica-FC17",
+          "frente": "Hipocentro?",
+          "verso": "Ponto em profundidade onde começa a ruptura sísmica.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-fisica",
+            "tectonica"
+          ],
+          "status": "em_auditoria"
+        },
+        {
+          "card_id": "CE-GEO-03-LEG-GF-tectonica-FC18",
+          "frente": "Epicentro?",
+          "verso": "Projeção do hipocentro na superfície.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-fisica",
+            "tectonica"
+          ],
+          "status": "em_auditoria"
+        },
+        {
+          "card_id": "CE-GEO-03-LEG-GF-tectonica-FC19",
+          "frente": "Magnitude x intensidade?",
+          "verso": "Magnitude = tamanho/energia; intensidade = efeitos observados localmente.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-fisica",
+            "tectonica"
+          ],
+          "status": "em_auditoria"
+        },
+        {
+          "card_id": "CE-GEO-03-LEG-GF-tectonica-FC21",
+          "frente": "Hotspot?",
+          "verso": "Anomalia térmica e/ou fonte mantélica persistente associada a vulcanismo; não necessariamente imóvel.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-fisica",
+            "tectonica"
+          ],
+          "status": "em_auditoria"
+        },
+        {
+          "card_id": "CE-GEO-03-LEG-GF-tectonica-FC22",
+          "frente": "Fusão em dorsal?",
+          "verso": "Descompressão do manto ascendente favorece fusão parcial.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-fisica",
+            "tectonica"
+          ],
+          "status": "em_auditoria"
+        },
+        {
+          "card_id": "CE-GEO-03-LEG-GF-tectonica-FC23",
+          "frente": "Fusão em subducção?",
+          "verso": "Voláteis da placa descendente reduzem o ponto de fusão do manto.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-fisica",
+            "tectonica"
+          ],
+          "status": "em_auditoria"
+        },
+        {
+          "card_id": "CE-GEO-03-LEG-GF-tectonica-FC24",
+          "frente": "Mineral x rocha?",
+          "verso": "Mineral tem composição/estrutura próprias; rocha é agregado de minerais/material.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-fisica",
+            "tectonica"
+          ],
+          "status": "em_auditoria"
+        },
+        {
+          "card_id": "CE-GEO-03-LEG-GF-tectonica-FC25",
+          "frente": "Granito?",
+          "verso": "Rocha ígnea intrusiva, de resfriamento lento.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-fisica",
+            "tectonica"
+          ],
+          "status": "em_auditoria"
+        },
+        {
+          "card_id": "CE-GEO-03-LEG-GF-tectonica-FC26",
+          "frente": "Basalto?",
+          "verso": "Rocha ígnea extrusiva, comum em derrames e crosta oceânica.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-fisica",
+            "tectonica"
+          ],
+          "status": "em_auditoria"
+        },
+        {
+          "card_id": "CE-GEO-03-LEG-GF-tectonica-FC27",
+          "frente": "Arenito?",
+          "verso": "Rocha sedimentar clástica litificada a partir de areia.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-fisica",
+            "tectonica"
+          ],
+          "status": "em_auditoria"
+        },
+        {
+          "card_id": "CE-GEO-03-LEG-GF-tectonica-FC28",
+          "frente": "Calcário?",
+          "verso": "Rocha sedimentar carbonática, química e/ou biogênica.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-fisica",
+            "tectonica"
+          ],
+          "status": "em_auditoria"
+        },
+        {
+          "card_id": "CE-GEO-03-LEG-GF-tectonica-FC29",
+          "frente": "Gnaisse?",
+          "verso": "Rocha metamórfica frequentemente bandada, de metamorfismo elevado.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-fisica",
+            "tectonica"
+          ],
+          "status": "em_auditoria"
+        },
+        {
+          "card_id": "CE-GEO-03-LEG-GF-tectonica-FC30",
+          "frente": "Metamorfismo?",
+          "verso": "Transformação no estado sólido por pressão, temperatura e fluidos.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-fisica",
+            "tectonica"
+          ],
+          "status": "em_auditoria"
+        },
+        {
+          "card_id": "CE-GEO-03-LEG-GF-tectonica-FC31",
+          "frente": "Intemperismo?",
+          "verso": "Alteração/desagregação da rocha in situ.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-fisica",
+            "tectonica"
+          ],
+          "status": "em_auditoria"
+        },
+        {
+          "card_id": "CE-GEO-03-LEG-GF-tectonica-FC32",
+          "frente": "Erosão?",
+          "verso": "Remoção e transporte de material por agentes externos.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-fisica",
+            "tectonica"
+          ],
+          "status": "em_auditoria"
+        },
+        {
+          "card_id": "CE-GEO-03-LEG-GF-tectonica-FC33",
+          "frente": "Sedimentação?",
+          "verso": "Deposição e acumulação de material conforme as condições de transporte e do meio.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-fisica",
+            "tectonica"
+          ],
+          "status": "em_auditoria"
+        },
+        {
+          "card_id": "CE-GEO-03-LEG-GF-tectonica-FC34",
+          "frente": "Intemperismo químico em clima quente/úmido?",
+          "verso": "Em geral é favorecido por água e temperaturas elevadas.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-fisica",
+            "tectonica"
+          ],
+          "status": "em_auditoria"
+        },
+        {
+          "card_id": "CE-GEO-03-LEG-GF-tectonica-FC41",
+          "frente": "Depressão relativa?",
+          "verso": "Área rebaixada em relação ao entorno, ainda que acima do nível do mar.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-fisica",
+            "tectonica"
+          ],
+          "status": "em_auditoria"
+        },
+        {
+          "card_id": "CE-GEO-03-LEG-GF-tectonica-FC42",
+          "frente": "Depressão absoluta?",
+          "verso": "Área situada abaixo do nível médio do mar.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-fisica",
+            "tectonica"
+          ],
+          "status": "em_auditoria"
+        },
+        {
+          "card_id": "CE-GEO-03-LEG-GF-tectonica-FC43",
+          "frente": "Chapada?",
+          "verso": "Topo relativamente plano, bordas escarpadas; muitas chapadas associam-se a estruturas sedimentares.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-fisica",
+            "tectonica"
+          ],
+          "status": "em_auditoria"
+        },
+        {
+          "card_id": "CE-GEO-03-LEG-GF-tectonica-FC44",
+          "frente": "Cuesta?",
+          "verso": "Relevo assimétrico: frente íngreme e reverso suave em camadas inclinadas.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-fisica",
+            "tectonica"
+          ],
+          "status": "em_auditoria"
+        },
+        {
+          "card_id": "CE-GEO-03-LEG-GF-tectonica-FC49",
+          "frente": "Perfil topográfico: primeiro passo?",
+          "verso": "Descrever geometria e posição antes de nomear a forma.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-fisica",
+            "tectonica"
+          ],
+          "status": "em_auditoria"
         }
       ],
-      "teoria_md": "---\ntopico_id: CE-GEO-03\nslug: estudo-da-terra-geomorfologia\ntitulo: \"Estudo da Terra, Tectônica de Placas e Geomorfologia\"\nedital: SEDUC-MA-01-2026\nbanca: FCC\nstatus: em_auditoria\n---\n\n# 1. Delimitação no Edital (Camada A)\n- **Itens explícitos (p. 76):** *Estudo da Terra: Considerações gerais, composição e estrutura da Terra. Tectônica de placas. Geomorfologia.*\n- Base física essencial que se conecta diretamente a `CE-GEO-10` (Quadro Natural Geral) e `CE-GEO-11` (Geomorfologia e Domínios do Brasil).\n\n# 2. Estrutura Interna da Terra (Modelo Químico vs. Modelo Físico/Reológico)\nA FCC costuma diferenciar a divisão **composicional (química)** da divisão **mecânica/reológica (física)**:\n\n| Modelo Composicional (Químico) | Modelo Mecânico / Reológico (Físico) | Características-Chave |\n| :--- | :--- | :--- |\n| **Crosta** (continental granítica / SiAl; oceânica basáltica / SiMa) | **Litosfera** (Crosta + topo rígido do Manto Superior) | Camada rígida fragmentada em **placas tectônicas** |\n| **Manto** (superior e inferior — silicatos de Fe e Mg) | **Astenosfera** (porção plástica/dúctil do manto superior) + **Mesosfera** | Correntes de **convecção** na astenosfera/manto movem as placas |\n| **Núcleo** (NiFe — ferro e níquel) | **Núcleo Externo** (líquido) e **Núcleo Interno** (sólido) | O núcleo externo líquido gera o campo magnético terrestre |\n\n- **Descontinuidades sísmicas clássicas:** **Mohorovičić (Moho)** separa crosta e manto; **Gutenberg** separa manto e núcleo externo; **Lehmann** separa núcleo externo e núcleo interno.\n\n# 3. Tectônica de Placas e Limites Tectônicos\nEvoluindo da *Deriva Continental* (Alfred Wegener, 1912) para a **Tectônica de Placas** (década de 1960), explica a dinâmica crustal por meio de três tipos de limites:\n1. **Limites Divergentes (Construtivos):** placas se afastam; ascensão de magma forma nova crosta oceânica (**dorsais meso-oceânicas**, ex.: Dorsal Mesoatlântica) ou vales em rifte continentais (*Rift Valley* africano).\n2. **Limites Convergentes (Destrutivos):** placas colidem.\n   - *Oceânica × Continental* (ou *Oceânica × Oceânica*): **subducção** da placa mais densa (oceânica), gerando fossas abissais, vulcanismo intenso e dobramentos modernos (ex.: Cordilheira dos Andes — Placa de Nazca sob a Sul-Americana).\n   - *Continental × Continental:* **obducção/colisão**, formando cadeias altíssimas sem subducção profunda (ex.: Himalaia — Placa Indiana × Euro-Asiática).\n3. **Limites Transformantes (Conservativos):** placas deslizam lateralmente sem criação nem destruição de crosta, gerando terremotos rasos e intensos (ex.: Falha de San Andreas, EUA).\n\n# 4. Ciclo das Rochas e Grandes Estruturas Geológicas\n- **Rochas Magmáticas (Ígneas):** resfriamento do magma — **intrusivas/plutônicas** (resfriamento lento em profundidade, cristais visíveis, ex.: granito) e **extrusivas/vulcânicas** (resfriamento rápido na superfície, ex.: basalto).\n- **Rochas Sedimentares:** compactação e cimentação (**diagênese**) de sedimentos ou precipitação química/orgânica (ex.: arenito, calcário, folhelho); abrigam fósseis e combustíveis fósseis.\n- **Rochas Metamórficas:** transformação de rochas pré-existentes sob alta pressão e/ou temperatura sem fusão total (ex.: calcário → mármore; granito → gnaisse; arenito → quartzito).\n- **Três grandes estruturas da crosta:**\n  1. **Escudos Cristalinos (Crátons):** rochas magmáticas e metamórficas pré-cambrianas muito antigas e estáveis, ricas em minerais metálicos (ferro, manganês, ouro — ex.: Carajás).\n  2. **Bacias Sedimentares:** áreas deprimidas preenchidas por sedimentos (paleozoicos a cenozoicos), ricas em petróleo, gás natural, carvão e aquíferos (ex.: Bacia do Parnaíba no Maranhão).\n  3. **Dobramentos Modernos (Cinturões Orogênicos):** cadeias terciárias recentes em bordas convergentes (Andes, Alpes, Himalaia) — **inexistentes no território brasileiro**.\n\n# 5. Geomorfologia: Agentes Endógenos vs. Exógenos e Formas de Relevo\nO relevo resulta da interação permanente entre:\n- **Agentes Endógenos (Internos — construtores/estruturadores):** tectonismo (**orogênese** = movimentos horizontais rápidos que geram dobramentos/falhas; **epirogênese** = movimentos verticais lentos de soerguimento/subsidência), vulcanismo e abalos sísmicos.\n- **Agentes Exógenos (Externos — modeladores/escultores):** **intemperismo** (físico/desagregação mecânica em climas áridos/frios; químico/decomposição mineral dominante em climas quentes e úmidos; biológico) + **erosão, transporte e deposição** (pluvial, fluvial, marinha/abrasão, eólica, glacial).\n- **Macroformas do relevo (classificação estrutural/morfoclimática):** **Planaltos** (predomínio de erosão sobre deposição), **Planícies** (predomínio de deposição/sedimentação sobre erosão), **Depressões** (áreas rebaixadas por erosão em relação ao entorno — relativas ou absolutas) e **Montanhas**.\n"
+      "teoria_md": "# 1. A Terra por dentro\n\n![Crosta, manto, núcleo externo líquido e núcleo interno sólido; esquema composicional sem escala.](./media/geografia-fisica/terra.svg)\n\nImagine um pêssego cortado: casca, polpa e caroço ajudam a visualizar camadas, mas a Terra não tem uma correspondência mecânica simples com a fruta. A profundidade modifica pressão, temperatura, composição e comportamento dos materiais.\n\n| Modelo composicional | Características aproximadas |\n|---|---|\n| Crosta | Camada externa; oceânica geralmente mais fina e máfica; continental mais espessa e heterogênea. |\n| Manto | Predominam silicatos ricos em magnésio e ferro; em grande parte sólido, capaz de deformação lenta. |\n| Núcleo | Predomina ferro com outros elementos, incluindo níquel; externo líquido, interno sólido. |\n\nA crosta continental não é toda granito nem a oceânica toda basalto. Os antigos termos SiAl e SiMa são simplificações históricas, não descrições completas.\n\nO modelo mecânico distingue litosfera rígida (crosta e parte superior do manto), astenosfera de menor resistência mecânica e regiões mais profundas. A astenosfera é majoritariamente sólida; pequenas frações de fusão podem ocorrer localmente. Não é um mar de magma. O núcleo externo líquido participa do geodínamo por movimentos do fluido eletricamente condutor, em conjunto com a rotação.\n\n**Como sabemos?** Ondas sísmicas mudam velocidade e trajetória ao atravessar materiais distintos. O Moho separa crosta e manto; Gutenberg, manto e núcleo externo; o limite entre os núcleos externo e interno é associado à descoberta de Inge Lehmann. Ondas P são compressionais; ondas S, de cisalhamento, não se propagam em líquidos como ondas de corpo. A interpretação combina várias evidências, não uma única ausência de sinal.\n\n**Atalho:** placa = litosfera, não crosta. A rigidez depende das escalas de tempo e condições físicas.\n\n# 2. Tempo geológico e evidências\n\nUma rua asfaltada pode recobrir rochas de milhões de anos. A idade da rocha não equivale à idade da paisagem atual. A Terra formou-se há cerca de 4,54 bilhões de anos. Hadeano, Arqueano e Proterozoico antecedem o Fanerozoico, que se divide em Paleozoico, Mesozoico e Cenozoico. O conjunto anterior ao Fanerozoico é frequentemente chamado Pré-Cambriano.\n\nNa datação relativa, uma camada sedimentar em sequência não invertida tende a ser mais antiga que a camada sobrejacente; uma intrusão que corta camadas é posterior a elas. A datação numérica estima idades por métodos como decaimento radioativo. Cada método tem condições de aplicação, incerteza e evento datado próprios.\n\n**Exemplo:** se uma intrusão corta camadas A e B, mas é cortada por uma falha, a intrusão é posterior às camadas e anterior à falha. Não é possível calcular uma idade absoluta somente dessas relações.\n\nA abertura do Atlântico Sul e o magmatismo associado à Bacia do Paraná no Mesozoico mostram a conexão entre tempo, tectônica e história regional. O desenvolvimento andino é longo e continua atualmente. Evite tratar grandes eventos como instantâneos.\n\n# 3. Da deriva continental à tectônica de placas\n\n![Movimentos divergente, convergente e transformante; setas indicam deslocamento relativo.](./media/geografia-fisica/placas.svg)\n\nObserve um mapa do Atlântico: a semelhança entre margens continentais é uma pista, não prova isolada. Wegener propôs a deriva continental no início do século XX, apoiada por correspondências geológicas, fósseis e paleoclimáticas. O desenvolvimento da expansão do assoalho oceânico, estudos magnéticos, distribuição de sismos e medições geodésicas contribuiu para a teoria da tectônica de placas consolidada nos anos 1960.\n\nAs placas se movem relativamente umas às outras em velocidades geralmente da ordem de centímetros por ano. A dinâmica envolve gravidade, diferenças de densidade, tração de placas subductadas, forças relacionadas às dorsais e interação com o fluxo mantélico. Não reduza tudo a esteiras de convecção abaixo da crosta.\n\n| Limite | Movimento relativo | Processo típico |\n|---|---|---|\n| Divergente | Afastamento | Rifte e formação de litosfera oceânica em dorsais. |\n| Convergente | Aproximação | Subducção ou colisão; deformação e sismicidade. |\n| Transformante | Deslocamento lateral | Falhas e sismos; sem criação/destruição sistemática de litosfera no limite. |\n\n**Atalho:** dorsal → divergência; fossa + sismos em plano inclinado → subducção; deslocamento lateral → transformante. São evidências combinadas, não regras para qualquer feição isolada.\n\n# 4. Subducção, colisão e montanhas\n\nEm uma margem oceano-continente, a litosfera oceânica pode mergulhar sob outra placa. A placa descendente libera voláteis, favorecendo fusão parcial no manto sobrejacente. Fossa, arco magmático e sismos em profundidades variadas são evidências frequentes. Os Andes exemplificam a subducção de Nazca sob a América do Sul.\n\nEm convergências oceano-oceano, podem surgir arcos insulares. Em colisões continentais, o encurtamento e o espessamento crustal contribuem para cadeias como o Himalaia. A colisão não deve ser chamada automaticamente de obducção: obducção é o alojamento de porções de litosfera oceânica sobre uma margem continental. Também não exclui toda subducção continental.\n\nOrogênese é o conjunto de processos de formação e evolução de cadeias montanhosas, frequentemente associado a convergência, deformação, magmatismo, metamorfismo e soerguimento. Epirogênese é um termo tradicional para movimentos verticais de grande extensão regional, sem necessariamente formar cadeias por encurtamento intenso. Não se distinguem de modo rigoroso por uma regra de rapidez ou por direções exclusivamente horizontais e verticais.\n\n**Conexão:** o relevo montanhoso não resulta só da tectônica; erosão e denudação alteram sua evolução.\n\n# 5. Terremotos, falhas e evidências sísmicas\n\nUma régua flexionada acumula energia elástica; quando cede, libera parte dessa energia. A analogia ajuda a entender o deslizamento súbito em falhas, sem reproduzir toda a física de uma ruptura geológica.\n\nO hipocentro é onde a ruptura começa em profundidade, e o epicentro é sua projeção na superfície. Ondas P e S são ondas de corpo; ondas superficiais podem produzir movimentos intensos. Magnitude estima o tamanho do evento (por exemplo, magnitude de momento); intensidade descreve os efeitos em cada local. Não confunda uma magnitude com uma intensidade única para toda a área.\n\nFalhas normais associam-se frequentemente à extensão; inversas, à compressão; transcorrentes, a deslocamento predominantemente lateral. A geometria real pode combinar componentes.\n\nO Brasil, situado predominantemente no interior da placa Sul-Americana, apresenta sismicidade intraplaca. Estruturas preexistentes e tensões atuais podem participar da ocorrência de sismos. Ausência de margem convergente ativa no território não significa ausência de terremotos.\n\n**Aplicação:** dois bairros à mesma distância do epicentro podem sofrer danos diferentes por condições do terreno, construções e propagação das ondas.\n\n# 6. Magma e vulcanismo\n\nMagma é material rochoso parcialmente ou totalmente fundido, podendo conter cristais e gases. Lava é magma extravasado. O manto não precisa estar globalmente líquido para produzir magmas.\n\nNas dorsais, o manto ascendente pode fundir parcialmente pela redução de pressão. Nas subducções, voláteis podem reduzir a temperatura necessária à fusão parcial do manto. Em pontos quentes, anomalias térmicas e processos mantélicos podem sustentar vulcanismo, inclusive intraplaca.\n\nCadeias como Havaí permitem investigar deslocamento das placas ao comparar idades e posições vulcânicas. Pontos quentes não são necessariamente imóveis. A viscosidade, a composição, os gases e as condições de ascensão influenciam o estilo eruptivo.\n\nNo Brasil, grandes derrames basálticos antigos associados à Bacia do Paraná testemunham episódios magmáticos pretéritos. Não confunda a presença de rochas vulcânicas com atividade vulcânica contemporânea.\n\n**Atalho:** dorsal → descompressão; subducção → participação de voláteis; hotspot → não exige limite de placas.\n\n# 7. Minerais, rochas e ciclo geológico\n\nO granito de uma bancada e a areia da praia ilustram materiais em diferentes condições do ciclo geológico. Mineral é uma substância natural com estrutura e composição características, geralmente cristalina e inorgânica. Rocha é um agregado natural de minerais ou outros materiais geológicos.\n\n| Classe | Formação | Exemplos |\n|---|---|---|\n| Ígnea | Solidificação de magma ou lava | Granito, basalto |\n| Sedimentar | Acumulação e litificação de sedimentos, precipitação ou formação biogênica | Arenito, calcário |\n| Metamórfica | Transformação predominantemente no estado sólido por temperatura, pressão, deformação e fluidos | Gnaisse, mármore, quartzito |\n\nResfriamento lento tende a favorecer cristais maiores, mas textura também depende de composição e história de cristalização. Sedimentos podem ser transportados e depositados; nem toda rocha sedimentar exige compactação e cimentação. Metamorfismo não é simplesmente fusão: quando há fusão parcial, podem coexistir material fundido e resíduo sólido.\n\nO ciclo não é uma sequência obrigatória. Uma rocha ígnea pode sofrer metamorfismo sem passar por uma etapa sedimentar. Qualquer rocha exposta pode sofrer alteração superficial. Fósseis são mais comuns em rochas sedimentares, não exclusivos de qualquer litologia.\n\n**Recuperação ativa:** explique por que mármore e calcário podem ter composição semelhante, mas pertencem a classes distintas.\n\n# 8. Intemperismo, erosão e deposição\n\nUma pedra exposta à chuva pode sofrer transformação química sem sair do lugar. Já partículas deslocadas pela enxurrada sofreram remoção e transporte. Deposição ocorre quando o material se acumula.\n\nIntemperismo físico fragmenta material; químico transforma minerais por reações como hidrólise, dissolução e oxidação. Organismos podem favorecer ambos. Temperatura e água influenciam as reações, mas litologia, relevo, drenagem e tempo são importantes. Em condições quentes e úmidas, a alteração química costuma ser favorecida; isso não implica que todos os solos sejam profundos ou férteis.\n\nErosão e transporte envolvem agentes como água, vento, gelo e gravidade; movimentos de massa são deslocamentos gravitacionais, que podem ocorrer sem transporte por um fluxo de água. Sedimentação depende de condições de transporte e deposição, incluindo tamanho de grão e dinâmica do meio.\n\n**Exemplo:** retirar vegetação de uma encosta pode aumentar a exposição do solo às gotas e o escoamento. O risco para moradores depende também de ocupação, vulnerabilidade e infraestrutura. Não trate qualquer deslizamento como consequência exclusiva do desmatamento.\n\n**Conexão:** aprofunde pedogênese e conservação de solos em CE-GEO-10.\n\n# 9. Formas de relevo e estrutura\n\nUma chapada com topo plano pode estar a centenas de metros de altitude. A forma plana não torna uma superfície automaticamente planície.\n\nGeomorfologia examina formas, processos, materiais, estrutura e evolução do relevo. Na tradição escolar brasileira, planaltos são associados ao predomínio de denudação; planícies, à acumulação sedimentar; depressões, a superfícies rebaixadas em relação ao entorno. Esses critérios são introdutórios e devem ser interpretados no sistema classificatório adotado.\n\nDepressão relativa pode estar acima do nível médio do mar; absoluta está abaixo. Chapadas apresentam topos relativamente planos e bordas escarpadas, muitas vezes ligadas a estruturas sedimentares. Cuestas têm vertentes assimétricas ligadas a camadas inclinadas e resistência diferencial.\n\nCrátons são porções continentais antigas relativamente estáveis; escudos são áreas em que embasamento cristalino antigo aflora. Bacias sedimentares acumulam sedimentos ao longo de sua história. Cinturões orogênicos registram deformações e processos associados à construção de montanhas. Estrutura geológica não é sinônimo de relevo.\n\n**Recursos:** muitos depósitos metálicos relacionam-se a terrenos cristalinos e cinturões antigos; petróleo, gás e carvão são frequentemente associados a bacias sedimentares. Não são associações exclusivas. Aquíferos podem ocorrer tanto em materiais porosos quanto em rochas fraturadas.\n\n# 10. Leitura de perfis e integração\n\nComece pela observação, não pelo nome. Em um perfil, examine altitudes, rupturas de declive, forma das vertentes e posição dos vales. Depois formule hipóteses e confronte-as com litologia, drenagem, processos e história. O perfil sozinho não prova a gênese de uma forma.\n\n| Evidência observável | Hipótese | Informação adicional |\n|---|---|---|\n| Topo plano e bordas escarpadas | Chapada | Estrutura das camadas e história erosiva |\n| Vertente abrupta e reverso suave | Cuesta | Inclinação e resistência das camadas |\n| Superfície rebaixada entre áreas altas | Depressão | Contexto regional e evolução |\n| Vale amplo com depósitos recentes | Planície fluvial | Sedimentos e regime de inundação |\n\nSe o perfil possui escala horizontal 1:50.000 e vertical 1:10.000, o exagero vertical é 5. Um desnível de 40 m em 200 m horizontais corresponde a 20% de declividade, independentemente do exagero visual. Em graus, a inclinação é aproximadamente 11,3°.\n\n**Roteiro de prova:** estrutura → processo → forma → evidência. Aplique-o sem tratar o encadeamento como causa única. As classificações de Aroldo de Azevedo, Ab'Sáber e Ross e os mapas oficiais do Brasil serão aprofundados em CE-GEO-11."
     },
     {
       "schema_version": "2.0.0",
@@ -7545,7 +8104,7 @@
       "titulo": "Relação Sociedade × Natureza e Quadro Natural Geral (Clima, Vegetação, Solos e Águas)",
       "status": "em_auditoria",
       "origem": "edital_explicito",
-      "tempo_leitura_min": 30,
+      "tempo_leitura_min": 27,
       "edital_subtopicos": [
         "Clima, vegetação, relevo, geologia e solos",
         "Hidrografia, águas continentais e oceânicas",
@@ -7556,7 +8115,7 @@
           "referencia_abnt": "MARANHÃO. SEAD. Edital nº 01/2026 — SEAD/SEDUC-MA. São Luís: SEAD/FCC, 2026. p. 76.",
           "tipo": "edital",
           "nivel_autoridade": 1,
-          "url": "https://www.concursosfcc.com.br"
+          "url": "https://www.concursosfcc.com.br/concursos/seadm226/index.html"
         },
         {
           "referencia_abnt": "AYOADE, J. O. Introdução à Climatologia para os Trópicos. 17. ed. Rio de Janeiro: Bertrand Brasil, 2013.",
@@ -7567,23 +8126,59 @@
           "referencia_abnt": "LEPSCH, Igo F. Formação e Conservação dos Solos. 2. ed. São Paulo: Oficina de Textos, 2010.",
           "tipo": "bibliografia_academica",
           "nivel_autoridade": 5
+        },
+        {
+          "referencia_abnt": "INMET. Normais climatológicas do Brasil.",
+          "tipo": "institucional",
+          "nivel_autoridade": 3,
+          "url": "https://portal.inmet.gov.br/normais"
+        },
+        {
+          "referencia_abnt": "EMBRAPA. Sistema Brasileiro de Classificação de Solos, 6ª edição, 2025.",
+          "tipo": "institucional",
+          "nivel_autoridade": 3,
+          "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/handle/doc/1176834"
+        },
+        {
+          "referencia_abnt": "ANA. As regiões hidrográficas.",
+          "tipo": "institucional",
+          "nivel_autoridade": 3,
+          "url": "https://www.gov.br/ana/pt-br/assuntos/gestao-das-aguas/panorama-das-aguas/regioes-hidrograficas/as-regioes-hidrograficas"
+        },
+        {
+          "referencia_abnt": "ANA. Região Hidrográfica Tocantins-Araguaia.",
+          "tipo": "institucional",
+          "nivel_autoridade": 3,
+          "url": "https://www.gov.br/ana/pt-br/assuntos/gestao-das-aguas/panorama-das-aguas/regioes-hidrograficas/regiao-hidrografica-tocantins-araguaia"
+        },
+        {
+          "referencia_abnt": "BRASIL. Lei 9.433/1997, texto consolidado.",
+          "tipo": "institucional",
+          "nivel_autoridade": 3,
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l9433.htm"
+        },
+        {
+          "referencia_abnt": "IBGE. Biomas e Sistema Costeiro-Marinho, cartografia de 2019.",
+          "tipo": "institucional",
+          "nivel_autoridade": 3,
+          "url": "https://geoftp.ibge.gov.br/informacoes_ambientais/estudos_ambientais/biomas/mapas/"
         }
       ],
       "sintese_fcc": {
         "conceitos_nucleares": [
           {
             "termo": "Maritimidade vs. Continentalidade",
-            "definicao_precisa": "Maritimidade reduz a amplitude térmica diária/anual; continentalidade amplia a amplitude térmica.",
+            "definicao_precisa": "Em condições comparáveis, maritimidade tende a moderar a amplitude térmica; continentalidade pode ampliá-la.",
             "fonte": "AYOADE, 2013."
           },
           {
             "termo": "El Niño vs. La Niña",
-            "definicao_precisa": "El Niño (aquecimento do Pacífico Equatorial) tende a provocar seca no Norte/Nordeste do Brasil e chuvas intensas no Sul; La Niña gera efeito oposto.",
+            "definicao_precisa": "Tendências probabilísticas: menos chuva em partes do Norte/Nordeste e mais chuva em setores do Sul, dependendo de época e circulação.",
             "fonte": "CPTEC/INPE."
           },
           {
             "termo": "Lixiviação vs. Laterização",
-            "definicao_precisa": "Lixiviação é a lavagem de nutrientes solúveis pela infiltração da água; Laterização é o acúmulo superficial de óxidos de ferro e alumínio formando canga/crosta ferruginosa.",
+            "definicao_precisa": "Lixiviação: mobilização de substâncias dissolvidas pela água. Laterização: alteração intensa e enriquecimento residual/redistribuição de Fe e Al; crosta não é obrigatória.",
             "fonte": "LEPSCH, 2010."
           }
         ],
@@ -7596,7 +8191,7 @@
           {
             "armadilha": "Inverter os efeitos do El Niño no Brasil",
             "como_a_fcc_cobra": "Atribui secas ao Sul e chuvas torrenciais ao Semiárido nordestino durante El Niño forte.",
-            "como_desarmar": "El Niño = Sul mais chuvoso, Norte/Nordeste mais seco."
+            "como_desarmar": "Tendências probabilísticas: menos chuva em partes do Norte/Nordeste e mais chuva em setores do Sul, dependendo de época e circulação."
           }
         ],
         "quadro_comparativo": [
@@ -7606,7 +8201,7 @@
           },
           {
             "processo_solo": "Laterização",
-            "mecanismo": "Concentração de óxidos de Fe/Al formando crosta rígida"
+            "mecanismo": "Alteração intensa e enriquecimento/redistribuição de Fe e Al; pode formar crosta."
           },
           {
             "processo_solo": "Salinização",
@@ -7614,7 +8209,7 @@
           },
           {
             "processo_solo": "Voçorocamento",
-            "mecanismo": "Erosão profunda que atinge o lençol freático"
+            "mecanismo": "Incisão profunda e complexa; participação de água subterrânea pode ocorrer, sem critério universal."
           }
         ],
         "checklist_revisao": [
@@ -7660,7 +8255,7 @@
             "E": "formação de geleiras na Chapada das Mesas."
           },
           "gabarito": "C",
-          "justificativa_gabarito": "No Brasil, o El Niño altera a circulação atmosférica (célula de Walker e jato subtropical), tendendo a inibir chuvas na Amazônia/Nordeste e intensificar frentes/chuvas na Região Sul.",
+          "justificativa_gabarito": "El Niño modifica a circulação e pode elevar a probabilidade de redução de chuva em partes do Norte/Nordeste e aumento em setores do Sul. Impactos dependem de estação, região e outros sistemas.",
           "analise_distratores": {
             "A": "Descreve o padrão associado à La Niña, não ao El Niño.",
             "B": "Absurdo climático.",
@@ -7677,13 +8272,13 @@
           "enunciado": "A formação de desertos costeiros hiperáridos em latitudes tropicais, como o Deserto do Atacama (Chile/Peru) e o Deserto do Namibe (África), está diretamente associada à ação de",
           "alternativas": {
             "A": "correntes marítimas quentes que provocam chuvas convectivas diárias.",
-            "B": "correntes marítimas frias (como Humboldt e Benguela), que reduzem a evaporação oceânica e estabilizam o ar próximo à costa.",
+            "B": "correntes marítimas frias (como Humboldt e Benguela), que contribuem para resfriar e estabilizar a baixa atmosfera, limitando a convecção profunda.",
             "C": "ausência de insolação tropical durante o verão.",
             "D": "degelo contínuo da Floresta Boreal.",
             "E": "maritimidade úmida associada a monções de verão."
           },
           "gabarito": "B",
-          "justificativa_gabarito": "Correntes marítimas frias resfriam a camada inferior da atmosfera costeira, diminuindo a evaporação e inibindo a formação de nuvens de chuva (aridez costeira).",
+          "justificativa_gabarito": "Correntes frias contribuem para inversões e estabilidade atmosférica; a aridez depende também da circulação subtropical e de outros controles. Nevoeiros costeiros podem ocorrer.",
           "analise_distratores": {
             "A": "Correntes quentes aumentam umidade e precipitação.",
             "C": "São regiões de alta insolação.",
@@ -7738,13 +8333,174 @@
           },
           "dificuldade": "basica",
           "subtopico": "Recursos naturais e aproveitamento econômico"
+        },
+        {
+          "questao_id": "CE-GEO-10-EXP-Q001",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — inédita; não é questão oficial FCC",
+          "enunciado": "Uma estação registra 26 °C em um dia de julho. Para caracterizar o clima, deve-se",
+          "alternativas": {
+            "A": "usar apenas essa medida.",
+            "B": "considerar séries de longo prazo, variabilidade e sazonalidade.",
+            "C": "deduzir a latitude exata.",
+            "D": "confundir temperatura com altitude.",
+            "E": "usar somente a chuva de julho."
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "Clima é caracterização estatística, não observação isolada.",
+          "analise_distratores": {
+            "A": "Um dia descreve tempo.",
+            "C": "Temperatura isolada não determina latitude.",
+            "D": "Altitude é um fator, não temperatura.",
+            "E": "Uma variável mensal não descreve o clima."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Clima, vegetação, relevo, geologia e solos"
+        },
+        {
+          "questao_id": "CE-GEO-10-EXP-Q002",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — inédita; não é questão oficial FCC",
+          "enunciado": "Em bacia sem transferências externas, P=100 mm, ET=40 mm e escoamento=45 mm no período. Qual é ΔS?",
+          "alternativas": {
+            "A": "−15 mm",
+            "B": "45 mm",
+            "C": "185 mm",
+            "D": "15 mm",
+            "E": "60 mm"
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "ΔS=100−40−45=15 mm.",
+          "analise_distratores": {
+            "A": "Inverte o sinal.",
+            "B": "Confunde saída com estoque.",
+            "C": "Soma entradas e saídas.",
+            "E": "Desconsidera escoamento."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Hidrografia, águas continentais e oceânicas"
+        },
+        {
+          "questao_id": "CE-GEO-10-EXP-Q003",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — inédita; não é questão oficial FCC",
+          "enunciado": "Dois solos têm textura semelhante, mas um está compactado. A conclusão mais defensável é:",
+          "alternativas": {
+            "A": "A textura determina toda infiltração.",
+            "B": "Compactação necessariamente aumenta macroporos.",
+            "C": "Estrutura e compactação podem modificar infiltração mesmo com textura semelhante.",
+            "D": "Não há alteração física.",
+            "E": "A compactação constitui obrigatoriamente erosão linear."
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "Estrutura e conectividade dos poros influenciam a infiltração.",
+          "analise_distratores": {
+            "A": "Ignora estrutura.",
+            "B": "Compactação tende a reduzir macroporos.",
+            "D": "Compactação altera o arranjo.",
+            "E": "Degradação física não exige remoção."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Clima, vegetação, relevo, geologia e solos"
+        },
+        {
+          "questao_id": "CE-GEO-10-EXP-Q004",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — inédita; não é questão oficial FCC",
+          "enunciado": "Em uma encosta hipotética, há suscetibilidade a deslizamentos, mas nenhuma ocupação. Em outra, de suscetibilidade semelhante, há casas vulneráveis. Qual distinção é correta?",
+          "alternativas": {
+            "A": "Suscetibilidade e risco são sinônimos.",
+            "B": "A segunda pode apresentar maior risco humano pela exposição e vulnerabilidade.",
+            "C": "A primeira tem necessariamente maior risco.",
+            "D": "Só a chuva define risco.",
+            "E": "A ocupação elimina a ameaça."
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "Risco depende da ameaça, exposição e vulnerabilidade.",
+          "analise_distratores": {
+            "A": "Não considera os elementos expostos.",
+            "C": "Não decorre dos dados.",
+            "D": "Ignora fatores sociais e físicos.",
+            "E": "A presença de moradias não elimina o processo."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Recursos naturais e aproveitamento econômico"
+        },
+        {
+          "questao_id": "CE-GEO-10-EXP-Q005",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — inédita; não é questão oficial FCC",
+          "enunciado": "Uma zona costeira tem correntes frias, atmosfera estável e baixa chuva, mas nevoeiros frequentes. Qual conclusão é adequada?",
+          "alternativas": {
+            "A": "Corrente fria impede qualquer condensação.",
+            "B": "Nevoeiro demonstra chuva abundante.",
+            "C": "Toda costa fria é deserto.",
+            "D": "A estabilidade pode reduzir chuva convectiva mesmo havendo umidade e nevoeiro.",
+            "E": "A insolação é inexistente."
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "Estabilidade pode limitar ascensão profunda; umidade e precipitação não são equivalentes.",
+          "analise_distratores": {
+            "A": "Pode haver condensação.",
+            "B": "Nevoeiro não implica chuva intensa.",
+            "C": "Outros controles importam.",
+            "E": "A região pode receber insolação."
+          },
+          "dificuldade": "avancada",
+          "subtopico": "Clima, vegetação, relevo, geologia e solos"
+        },
+        {
+          "questao_id": "CE-GEO-10-EXP-Q006",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — inédita; não é questão oficial FCC",
+          "enunciado": "Ao interpretar um evento El Niño, o procedimento cientificamente adequado é:",
+          "alternativas": {
+            "A": "prever toda chuva local pelo ENOS.",
+            "B": "tratar La Niña como inverso perfeito de todos os impactos.",
+            "C": "avaliar tendências probabilísticas, sazonalidade e outras circulações.",
+            "D": "definir ENOS como corrente do Atlântico.",
+            "E": "concluir que o clima mudou a partir de um evento."
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "Teleconexões alteram probabilidades e variam com região e época.",
+          "analise_distratores": {
+            "A": "Determinismo indevido.",
+            "B": "Respostas não são perfeitamente simétricas.",
+            "D": "ENOS envolve Pacífico tropical.",
+            "E": "Um episódio não define mudança estatística."
+          },
+          "dificuldade": "avancada",
+          "subtopico": "Clima, vegetação, relevo, geologia e solos"
+        },
+        {
+          "questao_id": "CE-GEO-10-EXP-Q007",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — inédita; não é questão oficial FCC",
+          "enunciado": "A vegetação de duas regiões com temperatura semelhante é diferente. A interpretação mais adequada é:",
+          "alternativas": {
+            "A": "clima é irrelevante.",
+            "B": "solo, água, fogo, história ecológica e uso podem contribuir para diferenças.",
+            "C": "todo bioma possui uma única fisionomia.",
+            "D": "a latitude determina sozinha a cobertura.",
+            "E": "a vegetação natural é sempre homogênea."
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "A distribuição de vegetação resulta de múltiplos fatores.",
+          "analise_distratores": {
+            "A": "Clima é relevante.",
+            "C": "Biomas abrangem mosaicos.",
+            "D": "Latitude não determina isoladamente.",
+            "E": "Há diversidade interna."
+          },
+          "dificuldade": "avancada",
+          "subtopico": "Clima, vegetação, relevo, geologia e solos"
         }
       ],
       "flashcards": [
         {
           "card_id": "CE-GEO-10-FC001",
           "frente": "Qual a diferença entre Tempo Atmosférico e Clima?",
-          "verso": "Tempo = estado momentâneo da atmosfera; Clima = sucessão habitual dos estados do tempo analisada em série longa (≥ 30 anos).",
+          "verso": "Tempo: estado atmosférico em determinado momento. Clima: distribuição estatística de condições ao longo do tempo, incluindo variabilidade e extremos. Normais são referências, geralmente de 30 anos.",
           "tipo": "conceito",
           "tags": [
             "climatologia"
@@ -7753,7 +8509,7 @@
         {
           "card_id": "CE-GEO-10-FC002",
           "frente": "Como Maritimidade e Continentalidade afetam a amplitude térmica?",
-          "verso": "Maritimidade reduz a amplitude térmica; Continentalidade amplia a amplitude térmica.",
+          "verso": "Em condições comparáveis, maritimidade tende a moderar a amplitude térmica; continentalidade pode ampliá-la.",
           "tipo": "comparacao",
           "tags": [
             "fatores-climaticos"
@@ -7762,7 +8518,7 @@
         {
           "card_id": "CE-GEO-10-FC003",
           "frente": "Quais os efeitos típicos do El Niño no Brasil?",
-          "verso": "Tendência de seca no Norte/Nordeste e aumento de chuvas na Região Sul.",
+          "verso": "Tendências probabilísticas: menos chuva em partes do Norte/Nordeste e mais chuva em setores do Sul, dependendo de época e circulação.",
           "tipo": "conceito",
           "tags": [
             "el-nino",
@@ -7772,7 +8528,7 @@
         {
           "card_id": "CE-GEO-10-FC004",
           "frente": "Por que correntes marítimas frias favorecem desertos costeiros (Atacama, Namibe)?",
-          "verso": "Resfriam o ar junto à costa, reduzem a evaporação oceânica e inibem a formação de chuvas.",
+          "verso": "Correntes frias favorecem estabilidade da baixa atmosfera, dificultando convecção profunda; outros controles e nevoeiros importam.",
           "tipo": "conceito",
           "tags": [
             "correntes-maritimas"
@@ -7781,7 +8537,7 @@
         {
           "card_id": "CE-GEO-10-FC005",
           "frente": "Diferença entre Lixiviação e Laterização nos solos?",
-          "verso": "Lixiviação = lavagem de nutrientes pela chuva; Laterização = acúmulo superficial de óxidos de ferro/alumínio formando crosta dura.",
+          "verso": "Lixiviação: mobilização de substâncias dissolvidas pela água. Laterização: alteração intensa e enriquecimento residual/redistribuição de Fe e Al; crosta não é obrigatória.",
           "tipo": "comparacao",
           "tags": [
             "solos"
@@ -7796,9 +8552,129 @@
             "ambiente",
             "fcc"
           ]
+        },
+        {
+          "card_id": "CE-GEO-10-EXP-FC001",
+          "frente": "Normal climatológica é previsão?",
+          "verso": "Não. É referência estatística de longo prazo.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-fisica"
+          ],
+          "status": "em_auditoria"
+        },
+        {
+          "card_id": "CE-GEO-10-EXP-FC002",
+          "frente": "O que diferencia albedo e efeito estufa?",
+          "verso": "Albedo é fração refletida da radiação incidente; efeito estufa envolve absorção e emissão de radiação infravermelha.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-fisica"
+          ],
+          "status": "em_auditoria"
+        },
+        {
+          "card_id": "CE-GEO-10-EXP-FC003",
+          "frente": "O que é inversão térmica?",
+          "verso": "Camada em que a temperatura aumenta com altura; pode reduzir mistura vertical.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-fisica"
+          ],
+          "status": "em_auditoria"
+        },
+        {
+          "card_id": "CE-GEO-10-EXP-FC004",
+          "frente": "Diferença entre textura e estrutura do solo?",
+          "verso": "Textura: areia, silte e argila; estrutura: arranjo das partículas e agregados.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-fisica"
+          ],
+          "status": "em_auditoria"
+        },
+        {
+          "card_id": "CE-GEO-10-EXP-FC005",
+          "frente": "O que é pedogênese?",
+          "verso": "Formação e diferenciação de solos pela interação de fatores e processos.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-fisica"
+          ],
+          "status": "em_auditoria"
+        },
+        {
+          "card_id": "CE-GEO-10-EXP-FC006",
+          "frente": "O que é erosividade?",
+          "verso": "Potencial da chuva de causar erosão; diferente da erodibilidade do solo.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-fisica"
+          ],
+          "status": "em_auditoria"
+        },
+        {
+          "card_id": "CE-GEO-10-EXP-FC007",
+          "frente": "O que significa ΔS=P−ET−Q?",
+          "verso": "Balanço simplificado de armazenamento em bacia; termos na mesma unidade e período.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-fisica"
+          ],
+          "status": "em_auditoria"
+        },
+        {
+          "card_id": "CE-GEO-10-EXP-FC008",
+          "frente": "Porosidade implica alta permeabilidade?",
+          "verso": "Não. Conectividade dos poros e fraturas importa.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-fisica"
+          ],
+          "status": "em_auditoria"
+        },
+        {
+          "card_id": "CE-GEO-10-EXP-FC009",
+          "frente": "Diferença entre onda, maré e corrente?",
+          "verso": "Onda propaga energia; maré oscila nível por forças gravitacionais; corrente é movimento da água.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-fisica"
+          ],
+          "status": "em_auditoria"
+        },
+        {
+          "card_id": "CE-GEO-10-EXP-FC010",
+          "frente": "Bioma e ecossistema são sinônimos?",
+          "verso": "Não. Bioma é recorte amplo; ecossistema enfatiza interações entre organismos e ambiente.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-fisica"
+          ],
+          "status": "em_auditoria"
+        },
+        {
+          "card_id": "CE-GEO-10-EXP-FC011",
+          "frente": "Suscetibilidade e risco são iguais?",
+          "verso": "Não. Risco envolve perigo, exposição e vulnerabilidade.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-fisica"
+          ],
+          "status": "em_auditoria"
+        },
+        {
+          "card_id": "CE-GEO-10-EXP-FC012",
+          "frente": "O que é eutrofização?",
+          "verso": "Enriquecimento por nutrientes, com possíveis alterações na biota e oxigênio.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-fisica"
+          ],
+          "status": "em_auditoria"
         }
       ],
-      "teoria_md": "---\ntopico_id: CE-GEO-10\nslug: sociedade-natureza-quadro-natural\ntitulo: \"Relação Sociedade × Natureza e Quadro Natural Geral (Clima, Vegetação, Solos e Águas)\"\nedital: SEDUC-MA-01-2026\nbanca: FCC\nstatus: em_auditoria\n---\n\n# 1. Delimitação no Edital (Camada A)\n- **Itens explícitos (p. 76):** *A relação sociedade X natureza. Quadro natural: clima, vegetação, relevo, geologia, solos, hidrografia, águas continentais e oceânicas. Recursos naturais e aproveitamento econômico.*\n\n# 2. Climatologia Geral: Tempo × Clima, Fatores e Dinâmica Atmosférica\n- **Tempo atmosférico** (estado momentâneo da atmosfera) vs. **Clima** (sucessão habitual dos estados do tempo analisada em série histórica ≥ 30 anos — OMM).\n- **Fatores Climáticos:**\n  1. **Latitude:** menor latitude (Equador) → maior incidência solar; maior latitude (polos) → menor temperatura média.\n  2. **Altitude:** quanto maior a altitude, menor a pressão atmosférica e menor a temperatura média (~0,6 °C a menos a cada 100 m na troposfera).\n  3. **Maritimidade × Continentalidade:** a água aquece e esfria mais devagar que o continente; regiões litorâneas têm **menor amplitude térmica** (maritimidade), enquanto regiões interiores têm **maior amplitude térmica** (continentalidade).\n  4. **Correntes Marítimas:** correntes quentes aumentam evaporação/chuvas; correntes frias (ex.: Humboldt/Benguela) reduzem a umidade costeira, favorecendo desertos (Atacama, Namibe).\n  5. **Massas de Ar e Relevo:** cadeias montanhosas atuam como barreiras orográficas (**chuvas orográficas** a barlavento e **sombra de chuva** a sotavento).\n- **Fenômenos climáticos globais:** **Efeito Estufa** (fenômeno natural essencial à vida, intensificado por emissões antrópicas de CO₂, CH₄, N₂O → aquecimento global); **El Niño** (aquecimento anômalo das águas do Pacífico Equatorial → secas no Norte/Nordeste do Brasil e excesso de chuvas no Sul) vs. **La Niña** (resfriamento anômalo → efeito inverso).\n\n# 3. Grandes Biomas Mundiais, Solos e Águas\n- **Grandes Biomas:** *Tundra* (altas latitudes, permafrost, líquens/musgos), *Taiga/Floresta Boreal* (coníferas aciculifoliadas), *Floresta Temperada* (caducifólias), *Estepes/Pradarias*, *Desertos*, *Savanas* (duas estações, árvores retorcidas) e *Florestas Tropicais/Equatoriaiss* (latifoliadas, perenifólias, altíssima biodiversidade).\n- **Pedologia (Solos):** resultam da interação entre rocha matriz, clima, relevo, organismos e tempo. Principais processos de degradação: **erosão laminar e em ravinas/voçorocas**, **lixiviação** (lavagem de nutrientes pela chuva), **laterização** (concentração superficial de óxidos de ferro/alumínio formando crosta dura), **salinização** (irrigação mal manejada em clima seco) e **desertificação** (degradação em áreas áridas, semiáridas e subúmidas secas).\n- **Águas Continentais e Oceânicas:** ciclo hidrológico; bacias hidrográficas (exorreicas deságuam no mar; endorreicas deságuam em lagos/mares interiores); aquíferos; gestão integrada de recursos hídricos e conflitos geopolíticos pela água (ex.: Nilo, Tigre–Eufrates, Jordão).\n"
+      "teoria_md": "# 1. Climatologia: tempo, energia e circulação\n\n## Tempo, clima e normais climatológicas\n\n**Tempo atmosférico** é o estado da atmosfera em determinado lugar e momento: temperatura, chuva, nebulosidade, vento, pressão e umidade observados agora ou em curto intervalo. **Clima** é a descrição estatística do comportamento dessas variáveis ao longo de períodos suficientemente longos, incluindo médias, sazonalidade, variabilidade e extremos.\n\nAs **normais climatológicas** funcionam como referência. No Brasil, o INMET publica normais de períodos de três décadas, como 1991–2020. Atenção: “normal” não significa “o que acontece todo ano”; é um valor de referência construído a partir de uma série histórica.\n\n**Elementos climáticos** são grandezas observadas: temperatura, pressão, umidade, precipitação, vento, radiação/insolação. **Fatores climáticos** ajudam a explicar por que esses elementos variam: latitude, altitude, relevo, maritimidade/continentalidade, massas de ar, correntes oceânicas, cobertura vegetal e uso do solo.\n\n**Distinção: ** Um fator não é “o clima” e um elemento não é necessariamente a causa. Altitude é fator; temperatura é elemento. Compare a natureza de cada variável antes de escolher uma alternativa.\n\nAtenção: Uma onda de frio, seca ou chuva extrema pode ser compatível com um clima conhecido e também sofrer influência de mudanças climáticas. O evento sozinho não prova que o clima mudou; é preciso analisar tendências, probabilidades e séries.\n\n## Radiação, balanço de energia e temperatura\n\nA fonte primária de energia do sistema climático é a **radiação solar**. Nem toda energia incidente aquece a superfície: parte é refletida por nuvens, aerossóis e pelo solo; parte é absorvida pela atmosfera e pela superfície. A fração refletida é expressa pelo **albedo**. Superfícies claras tendem a refletir mais; superfícies escuras, em geral, absorvem mais.\n\nA superfície aquecida emite radiação de onda longa. Gases de efeito estufa absorvem e reemitem parte dessa energia, mantendo a baixa atmosfera muito mais quente do que seria sem o **efeito estufa natural**. A mudança climática atual relaciona-se ao **reforço antrópico** desse efeito pelo aumento das concentrações de gases de efeito estufa.\n\nA **latitude** altera o ângulo de incidência solar e a duração do dia ao longo do ano. A **altitude** costuma associar-se a menores temperaturas médias na troposfera, mas o gradiente ambiental varia. Uma parcela que ascende pode esfriar por expansão adiabática; o gradiente ambiental não é necessariamente o mesmo que o da parcela. Cerca de 0,65 °C por 100 m é referência da atmosfera padrão, não uma constante universal.\n\n**Maritimidade** tende a moderar a amplitude térmica; **continentalidade** favorece maiores amplitudes, porque água e continente armazenam e liberam calor de modo diferente.\n\nNo treino, compare “altitude” por “latitude”, ou afirmar que a temperatura cai exatamente 1 °C a cada 100 m. Desconfie de valores rígidos: o gradiente varia com estabilidade e umidade.\n\n## Pressão, ventos e circulação geral\n\nO aquecimento desigual da superfície gera diferenças de densidade e **pressão atmosférica**. Perto da superfície, o ar tende a mover-se de áreas de maior para menor pressão, mas sua trajetória é modificada pela **força de Coriolis**: desvio para a direita no Hemisfério Norte e para a esquerda no Hemisfério Sul. O efeito é muito fraco junto ao Equador.\n\nNa circulação idealizada, o forte aquecimento equatorial favorece **baixa pressão e ascensão**. Em altitude, o ar se desloca para os subtrópicos e desce em torno de 30°, formando cinturões de **alta pressão subtropical**. Na superfície, parte retorna ao Equador como **ventos alísios**: de nordeste no Hemisfério Norte e de sudeste no Hemisfério Sul.\n\nEsse circuito integra a **célula de Hadley**. Em latitudes médias predominam os ventos de oeste associados à célula de Ferrel; nas altas latitudes, a célula polar. O modelo de três células é uma simplificação útil: continentes, oceanos, estações e ondas atmosféricas tornam a circulação real muito mais irregular.\n\n**Mapa mental:** Equador:** convergência + ascensão + baixa pressão → muita nebulosidade. **Subtrópicos:** subsidência + alta pressão → estabilidade relativa e muitas áreas áridas do planeta.\n\nAtenção: Alta pressão não significa “ar quente” por definição. Pode haver altas pressões frias ou quentes. O essencial é a dinâmica de subsidência/convergência e a estrutura da massa de ar.\n\n## Umidade, nuvens e tipos de chuva\n\nA **umidade relativa** compara a quantidade de vapor presente com a quantidade correspondente à saturação à mesma temperatura (com rigor, razão entre pressão parcial do vapor e pressão de saturação). Como a pressão de vapor de saturação aumenta com a temperatura, a umidade relativa pode cair durante a tarde mesmo sem perda de vapor.\n\nQuando uma parcela de ar ascende, encontra pressões menores, expande-se e tende a resfriar. Ao atingir a saturação, o vapor condensa sobre núcleos de condensação, formando gotículas e nuvens. O **ponto de orvalho** é a temperatura à qual o ar deve ser resfriado, mantendo aproximadamente o conteúdo de vapor, para atingir saturação.\n\nTrês mecanismos são básicos: **chuva convectiva** — forte aquecimento da superfície gera ascensão rápida, comum em ambientes tropicais; **orográfica** — o relevo força o ar úmido a subir, podendo criar sombra de chuva a sotavento; **frontal** — o encontro de massas de ar com propriedades diferentes favorece ascensão ao longo da frente.\n\n**cuidado com a linguagem:** “Ar quente sobe” é uma simplificação. O movimento vertical depende de flutuabilidade, estabilidade e forçantes. Em prova escolar, porém, o contraste térmico e a expansão adiabática são chaves.\n\nAtenção: Se uma encosta de barlavento é muito úmida e o sotavento é seco, pense em **chuva orográfica + sombra de chuva**.\n\n# 2. Climatologia: oceanos, variabilidade e classificação\n\n## Oceano–atmosfera: ENOS e Atlântico Tropical\n\nO **ENOS** (El Niño–Oscilação Sul) acopla oceano e atmosfera no Pacífico equatorial. No **El Niño**, ocorre aquecimento anômalo do Pacífico equatorial central/oriental e reorganização da circulação de Walker; em muitos episódios, os alísios enfraquecem. Na **La Niña**, predomina resfriamento anômalo nessas áreas e configuração oposta em vários aspectos.\n\nAs consequências no Brasil são **teleconexões**, isto é, tendências probabilísticas a distância. Em termos didáticos, El Niño costuma aumentar a chance de chuva no Sul e de condições mais secas em partes do Norte/Nordeste; La Niña frequentemente favorece tendências opostas. Porém, **não é uma regra automática**: intensidade, época do ano, Atlântico Tropical e outras circulações podem reforçar ou enfraquecer os impactos.\n\nNo **Atlântico Tropical**, o contraste de temperatura da superfície do mar entre os hemisférios ajuda a deslocar a ZCIT. Um Atlântico Norte relativamente mais quente pode favorecer posição mais ao norte; um Atlântico Sul tropical relativamente mais quente pode favorecer deslocamento mais ao sul, com implicações para chuva no Nordeste setentrional e Amazônia oriental.\n\nAtenção científica: Desconfie de frases como “há consenso de que o aquecimento global já alterou definitivamente a frequência do ENOS”. O conhecimento científico é mais nuançado: há incerteza sobre mudanças na frequência/amplitude do ENOS, embora a variabilidade de precipitação associada ao ENOS seja projetada para aumentar com o aquecimento.\n\n## Climogramas e classificações climáticas\n\nNum **climograma**, observe nesta ordem: (1) temperatura média e **amplitude térmica anual**; (2) total e distribuição da precipitação; (3) meses secos e úmidos; (4) mês mais quente/frio, como pista do hemisfério; (5) relação com latitude, altitude, continentalidade e sistemas atmosféricos.\n\nUma baixa amplitude térmica com temperaturas altas o ano inteiro e precipitação abundante tende a indicar clima equatorial/tropical muito úmido. Uma estação seca marcada e verão chuvoso sugere vários climas tropicais do interior. Chuvas bem distribuídas e maior amplitude térmica no Sul podem apontar para clima subtropical/temperado.\n\nAs **classificações climáticas** são modelos: escolhem critérios e limites. Köppen utiliza temperatura, precipitação e sazonalidade para agrupar grandes tipos; a classificação do IBGE/Nimer distingue zonas e tipos considerando temperatura e duração/intensidade do período seco/úmido. Logo, dois mapas podem usar nomes/limites diferentes sem que um esteja necessariamente “errado”.\n\n**Como ler:** primeiro descreva o padrão; depois atribua o tipo climático. Se você começa pelo rótulo, fica vulnerável a classificações com nomenclaturas diferentes.\n\n## Clima urbano: ilha de calor e inversão térmica\n\nA **ilha de calor urbana** é o aquecimento relativo de áreas urbanizadas em comparação com áreas rurais/periurbanas próximas. Entre as causas: substituição de vegetação por materiais impermeáveis, redução de sombra e evapotranspiração, propriedades térmicas do concreto/asfalto, geometria dos cânions urbanos e liberação de calor por veículos, edifícios e atividades humanas.\n\nA **inversão térmica** é uma condição de estabilidade vertical em que, numa camada, a temperatura aumenta com a altura em vez de diminuir. Isso dificulta a mistura vertical e pode **concentrar poluentes próximos à superfície**. A poluição não “cria” necessariamente a inversão; ela pode ser agravada por ela.\n\nVegetação urbana pode reduzir temperaturas por **sombreamento e evapotranspiração**, além de trazer outros benefícios. Superfícies de alto albedo podem reduzir absorção solar, mas o efeito urbano total depende do desenho, materiais, umidade, ventilação e escala.\n\nExemplo: uma cidade com pouca vegetação + asfalto/concreto e pergunta a causa principal. A resposta robusta combina **alteração da cobertura do solo + menor evapotranspiração + maior armazenamento de calor**.\n\n## Mudanças climáticas e eventos extremos\n\n**Variabilidade climática** inclui oscilações naturais em escalas sazonais, interanuais e decadais, como o ENOS. **Mudança climática** refere-se a alteração persistente no estado estatístico do clima. O aquecimento global recente é explicado principalmente pelo aumento antrópico dos gases de efeito estufa.\n\nUm evento extremo individual não “prova” sozinho a mudança climática. A **atribuição de eventos** pergunta se o aquecimento causado por humanos alterou a probabilidade ou intensidade do evento, comparando o clima atual com um mundo contrafactual sem aquela influência.\n\nO Aquecimento eleva a pressão de vapor de saturação e favorece a **intensificação de precipitações extremas** em muitas regiões. Ondas de calor tornam-se mais frequentes/intensas com o aumento da temperatura média. Para secas, a resposta depende do tipo de seca e da região: maior demanda evaporativa pode agravar secas agrícolas/ecológicas mesmo onde a tendência de precipitação é incerta.\n\nSobre o **ENOS**, evite excesso de certeza. A ciência indica incerteza sobre como frequência/amplitude mudarão, enquanto há maior confiança de que a variabilidade de precipitação associada ao ENOS pode se intensificar em um mundo mais quente.\n\nAtenção: Palavras absolutas — “sempre”, “em toda região”, “consenso de que a frequência já mudou definitivamente” — são frequentemente o ponto fraco de uma alternativa.\n\n# 3. Solos: formação, perfil e propriedades\n\n## Solo: corpo natural e pedogênese\n\n**Pedogênese** é o conjunto de processos que forma e diferencia os solos. Os fatores clássicos são **material de origem, clima, organismos, relevo e tempo**. A ação humana pode alterar rapidamente propriedades e processos pedológicos.\n\nDurante a formação ocorrem **adições, perdas, translocações e transformações**: entrada de matéria orgânica; lixiviação; migração de argila/compostos; alteração mineral e formação de novos constituintes.\n\n**Cuidado:** um mesmo material de origem pode gerar solos diferentes sob clima, relevo, organismos e tempo distintos. E solos semelhantes podem ocorrer sobre materiais diferentes.\n\n## Perfil e horizontes do solo\n\n![Horizontes hipotéticos O, A, E, B, C e rocha R; nem todos ocorrem em todos os solos.](./media/geografia-fisica/solo.svg)\n\nUm perfil pode apresentar horizontes **O, A, E, B, C** e contato com **R**, mas **nem todo solo possui todos eles**. O horizonte O é dominado por material orgânico; A é mineral com influência de matéria orgânica; E é frequentemente eluviado; B apresenta desenvolvimento pedogenético e pode concentrar materiais translocados; C é material pouco afetado pela pedogênese; R indica rocha consolidada.\n\nNo **SiBCS**, a classificação usa horizontes diagnósticos e atributos morfológicos, físicos, químicos e mineralógicos. Não basta olhar apenas a cor.\n\nAtenção: “Todo perfil tem O–A–E–B–C–R completo” é falso.\n\n## Textura, estrutura, porosidade e água\n\n**Textura** é a proporção relativa das frações granulométricas — principalmente areia, silte e argila. **Estrutura** é o modo como partículas e agregados se organizam.\n\nSolos mais arenosos tendem a ter maior presença de macroporos e drenagem rápida; solos com mais argila podem reter mais água e nutrientes devido à maior superfície específica, mas **permeabilidade e infiltração dependem também da estrutura, agregação e compactação**.\n\nA **compactação** costuma reduzir macroporosidade e infiltração, favorecendo escoamento superficial. Cobertura vegetal e matéria orgânica ajudam na estabilidade de agregados.\n\n## Acidez, fertilidade, CTC e calagem\n\nO **pH** expressa a reação ácido–base. Em muitos solos tropicais altamente intemperizados, a acidez, a baixa saturação por bases e o alumínio trocável podem limitar culturas sensíveis. A **CTC** indica a capacidade de reter/trocar cátions, mas seu valor e significado dependem dos coloides e das condições químicas.\n\n**Calagem** é uma prática de correção da acidez: pode elevar o pH, reduzir efeitos do Al e fornecer Ca e Mg. **Adubação** visa suprir nutrientes. A necessidade de ambas deve ser orientada por **análise de solo e recomendação técnica**.\n\nAtenção: Calcário não “substitui qualquer fertilizante”, nem todo solo ácido exige a mesma dose de corretivo.\n\n# 4. Erosão, conservação e movimentos de massa\n\n## Erosão: desagregação, transporte e deposição\n\nNa erosão hídrica, a chuva pode iniciar a **desagregação** pelo impacto das gotas; o escoamento remove e **transporta** partículas; quando perde energia ocorre **deposição**. Em condições naturais existe erosão geológica, mas uso inadequado pode acelerar muito as perdas.\n\nA retirada de cobertura, compactação, concentração artificial de fluxo e manejo incompatível com relevo/solo aumentam o risco erosivo. Os sedimentos podem causar **assoreamento** de canais e reservatórios.\n\n**Cadeia mental:** impacto → desagregação → escoamento → transporte → deposição.\n\n## Splash, laminar, sulcos, ravinas e voçorocas\n\n**Splash** é o destacamento e deslocamento inicial de partículas pelo impacto das gotas. A **erosão laminar** remove uma camada fina de forma difusa. Quando o fluxo se concentra, surgem **sulcos** e incisões maiores, como **ravinas** e **voçorocas**.\n\nEm literatura brasileira, voçorocas são formas erosivas lineares profundas e complexas, frequentemente com participação de fluxos subsuperficiais; algumas referências usam o contato com o lençol freático como marco evolutivo. **Os critérios geométricos e terminológicos podem variar**, portanto evite tratar um único limite de profundidade como universal.\n\nAtenção: A sequência didática splash → laminar → sulcos → ravinas → voçorocas ajuda a ordenar a intensificação, mas a evolução real não precisa seguir uma escada rígida em todo terreno.\n\n## O que controla a erosão hídrica?\n\nA erosão depende da interação entre **erosividade da chuva**, **erodibilidade do solo**, **comprimento e declividade da vertente**, **cobertura/manejo** e **práticas conservacionistas**. Esses grupos aparecem na lógica da **USLE/RUSLE**.\n\nA equação universal de perda de solo é frequentemente expressa como **A = R · K · LS · C · P**. Ela estima perdas médias por erosão laminar e em sulcos sob condições específicas; **não é modelo universal para voçorocas ou movimentos de massa**.\n\n| Fator | Ideia |\n| --- | --- |\n| R | erosividade da chuva |\n| K | erodibilidade do solo |\n| LS | comprimento + declividade |\n| C | cobertura e manejo |\n| P | práticas conservacionistas |\n\n## Conservação do solo: reduzir energia e organizar a água\n\nPráticas conservacionistas procuram **manter cobertura, aumentar infiltração, reduzir velocidade/concentração do escoamento e estabilizar o solo**. Entre elas: plantio em nível/contorno, terraceamento quando tecnicamente indicado, cobertura permanente, rotação de culturas, plantio direto bem manejado, faixas vegetadas e proteção de áreas ripárias.\n\n**Terraço** não é solução universal; mal dimensionado pode concentrar água e agravar erosão. Conservação exige planejamento da bacia/vertente, não apenas uma técnica isolada.\n\nAtenção: “Arar morro abaixo facilita drenagem e reduz erosão” costuma inverter a lógica: linhas no sentido da máxima declividade favorecem concentração e velocidade do escoamento.\n\n## Erosão eólica e degradação física\n\nA **erosão eólica** é favorecida por solo seco, pouco coberto, partículas suscetíveis e ventos capazes de mobilizá-las. Pode envolver **deflação** (remoção), transporte e deposição, além de abrasão.\n\nOutras formas de degradação incluem **compactação, selamento/crostamento, salinização, perda de matéria orgânica e contaminação**. Portanto, “degradação do solo” é categoria mais ampla que “erosão”.\n\n**Distinção:** erosão implica remoção/transporte; compactação altera propriedades físicas sem necessariamente remover o solo.\n\n## Movimentos de massa: gravidade em ação\n\n**Movimentos de massa** são deslocamentos de solo, rocha e detritos encosta abaixo sob ação da gravidade. A água pode elevar pressão nos poros, aumentar peso e reduzir resistência, funcionando como importante condicionante ou gatilho.\n\n| Tipo | Traço geral |\n| --- | --- |\n| Quedas | desprendimento de blocos em encostas/escarpas |\n| Deslizamentos/escorregamentos | movimento ao longo de uma superfície de ruptura |\n| Corridas/fluxos | mistura muito móvel de água, solo e detritos, comportamento semelhante a fluido |\n\nCortes de talude, aterros, desmatamento, drenagem inadequada e ocupação precária podem aumentar instabilidade e vulnerabilidade.\n\n## Suscetibilidade, perigo, exposição, vulnerabilidade e risco\n\n**Suscetibilidade** é a propensão física de um terreno a determinado processo. **Perigo/ameaça** incorpora a possibilidade de ocorrência de um evento potencialmente danoso, com intensidade e, quando possível, probabilidade. **Exposição** indica pessoas, bens e infraestrutura presentes na área. **Vulnerabilidade** expressa a propensão a sofrer danos.\n\n**Risco** resulta da combinação entre ameaça/perigo, exposição e vulnerabilidade. Um **desastre** ocorre quando um evento produz impactos graves sobre uma sociedade, excedendo sua capacidade de resposta em determinado contexto.\n\nAtenção: Mapa de suscetibilidade não é automaticamente mapa de risco: é preciso considerar quem/o que está exposto e quão vulnerável é.\n\n## Leitura integrada: solo, uso e bacia hidrográfica\n\nUma análise geográfica completa relaciona **solo + relevo + chuva + cobertura + uso + drenagem + sociedade**. O efeito de uma prática agrícola ou urbana não termina no lote: água e sedimentos conectam vertentes, estradas, canais, rios e reservatórios.\n\n1 · Solo2 · Declive3 · Cobertura4 · Fluxo5 · Exposição\n\nAo interpretar um caso, pergunte: **qual material é suscetível? onde a água se concentra? o que foi alterado pelo uso? para onde vai o sedimento? quem está exposto?**\n\nPrática docenteUse uma encosta ou rua do bairro: identifique cobertura, declive, drenagem e sinais de erosão. O aluno deve propor intervenção e justificar o mecanismo, não apenas nomear a forma.\n\n# 5. Águas continentais: ciclo, drenagem e qualidade\n\n## Ciclo hidrológico e balanço de água\n\nO **ciclo hidrológico** descreve a circulação da água entre atmosfera, superfície, biosfera, solo, águas subterrâneas e oceanos. Os principais fluxos são **precipitação, evaporação, transpiração, infiltração, percolação e escoamento**.\n\nA água pode permanecer armazenada em oceanos, geleiras, lagos, reservatórios, solo, aquíferos, atmosfera e organismos. O ciclo não implica que toda molécula percorra todas as etapas na mesma ordem.\n\nPense em reservatórios e fluxos. A água não segue uma sequência fixa.\n\nEm uma bacia, um balanço simplificado pode ser pensado como **entrada por precipitação = saídas por evapotranspiração e escoamento ± variação do armazenamento**. Em intervalos curtos, a variação de armazenamento não deve ser ignorada.\n\n## Bacia hidrográfica: divisor, rede e exutório\n\n**Bacia hidrográfica** é a área drenada por um rio principal e seus tributários até um ponto de saída, o **exutório**. Em geral, seus limites superficiais são definidos por **divisores de águas** associados ao relevo.\n\nA rede de drenagem é formada por canais que convergem para o curso principal. **Montante** indica direção para as cabeceiras; **jusante**, direção para a foz/exutório.\n\nNão confunda**Bacia hidrográfica** é uma unidade física de drenagem. **Região hidrográfica**, no planejamento nacional, pode reunir bacias, grupos de bacias ou sub-bacias próximas com características naturais, sociais e econômicas similares.\n\n## Vazão, regime fluvial e hidrograma\n\n**Vazão (Q)** é o volume de água que atravessa uma seção por unidade de tempo, frequentemente expresso em m³/s. O **regime fluvial** descreve a variação sazonal das vazões.\n\nUm **hidrograma** mostra vazão ao longo do tempo. Após uma chuva efetiva, pode haver subida da vazão, **pico** e recessão. O tempo e a altura do pico dependem de chuva, área, forma da bacia, declividade, drenagem, solo, cobertura e urbanização.\n\nUrbanização tende a antecipar e elevar o pico quando aumenta a impermeabilização e reduz o armazenamento/infiltração.\n\n## Infiltração, escoamento e urbanização\n\n**Infiltração** é a entrada de água no solo. Parte pode ficar armazenada, ser utilizada pelas plantas ou **percolar** para níveis mais profundos. Quando a intensidade da chuva supera a capacidade de infiltração, ou quando o solo está muito saturado, o escoamento superficial pode aumentar.\n\nA urbanização modifica essa partição: telhados, pavimentos e drenagem artificial reduzem áreas infiltrantes e podem transferir água rapidamente para canais.\n\nAplicação ao treino autoral: Não use “impermeabilização = inundação automática”. Ela **aumenta a propensão** ao escoamento rápido, mas a ocorrência e magnitude do evento dependem de chuva, drenagem, topografia, ocupação da planície e condições antecedentes.\n\n## Água subterrânea e aquíferos\n\n**Aquífero** é uma formação geológica capaz de armazenar e transmitir água em quantidade relevante. A **porosidade** expressa o volume de vazios; a **permeabilidade** relaciona-se à capacidade de transmitir fluidos através de poros/fraturas conectados. Uma rocha pode ter porosidade e baixa permeabilidade se os poros não estiverem bem conectados.\n\nNo aquífero **livre**, o limite superior da zona saturada é o nível freático. No **confinado**, a água está sob pressão entre camadas menos permeáveis. **Recarga** é a entrada de água no sistema subterrâneo, geralmente associada à infiltração/percolação em áreas favoráveis.\n\nNo Brasil, a gestão e a autorização de uso das águas subterrâneas e poços são de competência dos **Estados**. A ANA produz estudos e promove integração entre águas superficiais e subterrâneas.\n\nEm cidades abastecidas por poços, a recarga, a proteção sanitária e o controle de captação precisam ser avaliados para o aquífero local; não se transfere automaticamente informação entre regiões.\n\n## Dinâmica fluvial: erosão, transporte e deposição\n\nRios erodem, transportam e depositam sedimentos. A capacidade de transporte varia com vazão, velocidade, declividade, forma do canal e características do material.\n\n**Meandros** podem apresentar maior erosão na margem externa e deposição relativa na margem interna, mas a dinâmica real depende do canal. **Planícies de inundação** são áreas adjacentes ao canal sujeitas a inundações periódicas e deposição de sedimentos.\n\nO **nível de base** condiciona a erosão vertical do rio; o nível do mar é o nível de base último para rios que nele desembocam.\n\n## Qualidade da água, poluição e eutrofização\n\nA qualidade da água depende do uso pretendido e de parâmetros físicos, químicos e biológicos. **Poluição pontual** tem fonte identificável, como um lançamento localizado; **difusa** provém de múltiplas fontes espalhadas, como parte do escoamento sobre áreas agrícolas e urbanas.\n\n**Eutrofização** é o enriquecimento do sistema aquático por nutrientes, sobretudo nitrogênio e fósforo, podendo favorecer proliferação de algas/cianobactérias e alterações de oxigênio, transparência e biota.\n\nA gestão deve integrar **quantidade e qualidade**. Um rio com muita água não está automaticamente adequado para qualquer uso.\n\n## Usos da água e conflitos\n\nOs usos podem ser **consuntivos**, quando parte da água retirada é consumida, incorporada a produtos, evapora ou não retorna ao sistema de origem no período considerado, e **não consuntivos**, quando a atividade depende da água sem consumo direto equivalente, como navegação e parte dos usos recreativos.\n\nNo Brasil, a **irrigação** é o principal uso em volume de retirada de água (verificar o ano de referência para comparações quantitativas). Abastecimento urbano e indústria também têm grande peso. Hidreletricidade depende do fluxo e do armazenamento, mas não deve ser tratada como “uso sem impacto”.\n\nPegadinha“Não consuntivo” ≠ “sem efeito ambiental”. Barragens e navegação podem alterar regime, conectividade, sedimentos e ecossistemas.\n\n## Cheias urbanas: inundação, alagamento e enxurrada\n\nO CEMADEN define **inundação** como submersão de áreas fora dos limites normais do curso d’água. **Alagamento** está ligado à superação da capacidade de drenagem e acúmulo de água em ruas e áreas rebaixadas. **Enxurradas** envolvem escoamento rápido e concentrado, com grande energia.\n\nA palavra **enchente/cheia** é usada com sentidos variados; em muitas abordagens didáticas indica elevação do nível no canal antes ou sem extravasamento. Em prova, siga a definição apresentada.\n\nMedidas de redução de risco podem ser **estruturais** (reservatórios, obras de drenagem, contenções) ou **não estruturais** (zoneamento, alerta, educação, planos de contingência). Infraestrutura verde — parques inundáveis, jardins de chuva, pavimentos permeáveis — busca reter/infiltrar água e reduzir picos.\n\n# 6. Oceanos, recursos e conflitos de uso\n\n## Oceanos: ondas, marés, correntes e circulação\n\n**Ondas** são transferências de energia; muitas ondas de superfície são geradas pelo vento, mas tsunamis têm outra origem. **Marés** são oscilações de longo período associadas principalmente às forças gravitacionais da Lua e do Sol, moduladas pela geometria das bacias e costas.\n\n**Correntes oceânicas** são movimentos dirigidos de água. Podem ser impulsionadas por ventos, marés e diferenças de densidade relacionadas a temperatura e salinidade. A **circulação termohalina** envolve contrastes de densidade; correntes superficiais redistribuem calor e influenciam climas.\n\n**Ressurgência (upwelling)** traz águas subsuperficiais frias e geralmente ricas em nutrientes para perto da superfície, favorecendo alta produtividade biológica em várias regiões.\n\nPegadinhaMaré não é sinônimo de corrente; ondas não transportam necessariamente a massa de água na mesma proporção da energia; e corrente quente/fria é relativa à água ao redor e à origem.\n\n## Leitura integrada: mapa, hidrograma e gestão\n\nEm uma questão integrada, siga uma ordem:\n\n- **Delimite a unidade**: parcela, bacia, região hidrográfica, aquífero ou oceano.\n- **Identifique entradas e saídas**: chuva, evapotranspiração, captação, vazão, recarga.\n- **Observe armazenamentos**: solo, reservatório, planície de inundação, aquífero.\n- **Localize agentes e usos**: abastecimento, irrigação, energia, navegação, ecossistemas.\n- **Escolha o instrumento**: plano, enquadramento, outorga, cobrança, informação.\n\n| Erro típico | Correção |\n| --- | --- |\n| “mais chuva = mais inundação sempre” | depende de bacia, uso do solo, drenagem e condições antecedentes |\n| “poroso = permeável” | conectividade dos poros importa |\n| “outorga = propriedade” | é direito de uso |\n| “não consuntivo = sem impacto” | impactos podem ocorrer |\n| “toda água urbana acumulada = inundação” | distinguir inundação, alagamento e enxurrada |\n\n# 7. Biomas, ecossistemas e biodiversidade\n\n## Bioma, ecossistema, domínio e vegetação\n\n**Bioma**, no recorte do IBGE, reúne tipos de vegetação contíguos e identificáveis regionalmente sob condições geoclimáticas semelhantes e história compartilhada de mudanças. **Ecossistema** enfatiza interações entre organismos e ambiente em uma unidade funcional, que pode ocorrer em várias escalas.\n\n**Domínio morfoclimático**, na tradição de Aziz Ab’Sáber, é uma grande unidade paisagística definida pela combinação de relevo, clima, solos, hidrografia e cobertura vegetal. Já **tipo de vegetação** descreve uma formação ou região fitoecológica e não equivale automaticamente a um bioma inteiro.\n\nAtenção: Um mesmo bioma contém vários ecossistemas e tipos de vegetação. E um domínio de Ab’Sáber não deve ser convertido mecanicamente em bioma do IBGE.\n\n## Grandes biomas mundiais: latitude, energia e água\n\nEm escala mundial, a distribuição de grandes formações relaciona-se sobretudo a **temperatura, disponibilidade de água, sazonalidade e latitude**, moduladas por altitude, continentalidade, correntes oceânicas e solos.\n\n| Formação | Âncora | Armadilha |\n| --- | --- | --- |\n| Tundra | frio intenso, curta estação de crescimento, ausência de árvores altas; permafrost frequente | confundir com taiga |\n| Taiga | floresta boreal, coníferas dominantes | dizer que é formação tropical |\n| Floresta tropical úmida | calor + alta disponibilidade hídrica | inferir solo naturalmente muito fértil |\n| Savana | gramíneas + componente lenhoso, forte sazonalidade em muitas regiões | sinônimo de deserto |\n| Deserto | aridez | defini-lo por calor |\n\n## Biodiversidade e serviços ecossistêmicos\n\nA Convenção sobre Diversidade Biológica abrange diversidade **dentro das espécies, entre espécies e de ecossistemas**. A conservação interessa não só pelo número de espécies, mas também por funções ecológicas, diversidade genética e resiliência.\n\n**Serviços ecossistêmicos** incluem benefícios como regulação climática, proteção hídrica, ciclagem de nutrientes e polinização. Eles não significam que a natureza exista apenas por sua utilidade econômica.\n\nAplicação ao treino autoral: Distinguir serviço ecossistêmico de ação humana de conservação. **Polinização** é serviço ecossistêmico; **restauração de mata ciliar** é uma ação que pode manter ou recuperar serviços.\n\n## Integração final: ler a paisagem sem misturar classificações\n\nPara resolver uma questão inédita, siga quatro passos: **① identifique o sistema classificatório; ② extraia os indicadores ambientais; ③ reconheça o processo dominante; ④ elimine alternativas que misturam escalas ou usam absolutos**.\n\n| Pergunta | Resposta mental |\n| --- | --- |\n| “Bioma?” | recorte IBGE / conjunto regional |\n| “Domínio?” | síntese paisagística de Ab’Sáber |\n| “Vegetação?” | fisionomia / região fitoecológica |\n| “Transição?” | contato e gradiente |\n| “Conservação?” | biodiversidade + território + manejo |\n\nRegra de ouroNão responda pelo nome mais familiar. Responda pelo **critério** que o enunciado está usando.\n\n# 8. Integração e aplicação\n\n## Exemplo: energia, chuva, solo e sociedade\nDuas superfícies recebem a mesma chuva: um parque vegetado e um estacionamento impermeável. Compare interceptação, infiltração, armazenamento, evapotranspiração e escoamento. O resultado depende de compactação, drenagem, chuva antecedente e intensidade; não conclua que toda área verde elimina inundações. Este raciocínio liga climatologia, solos e hidrologia.\n\n## Balanço hídrico, em unidades compatíveis\n\n![Precipitação 100 mm menos evapotranspiração 40 mm e escoamento 45 mm resulta em aumento de armazenamento de 15 mm.](./media/geografia-fisica/balanco.svg)\nEm uma bacia e período definidos, desprezando transferências e fluxos subterrâneos através dos limites: ΔS = P − ET − Q. P é precipitação; ET, evapotranspiração; Q, escoamento convertido em lâmina ou volume; ΔS, mudança de armazenamento. Se P=100 mm, ET=40 mm, Q=45 mm, ΔS=15 mm. Vazão em m³/s não se soma diretamente a lâmina em mm. Uma bacia exorreica drena ao oceano; endorreica possui drenagem interna. A recarga não é toda a água infiltrada.\n\n## Recursos, solos e degradação\nRecurso natural é um elemento ou processo apropriado socialmente para determinada finalidade; sua disponibilidade econômica depende de técnica, acesso, instituições e impactos. Renovável não significa inesgotável. Lixiviação é remoção e mobilização de substâncias dissolvidas pela água; laterização relaciona-se à alteração intensa e enriquecimento residual ou redistribuição de ferro e alumínio, sem crosta obrigatória. Salinização é acúmulo de sais, favorecido em certas situações por irrigação, evaporação e drenagem deficiente. Desertificação é degradação de terras secas, não expansão necessária de um deserto. Compare manejo, conservação, abastecimento, mineração e energia pela relação entre benefício, distribuição de impactos e capacidade de recuperação."
     },
     {
       "schema_version": "2.0.0",
@@ -7808,7 +8684,7 @@
       "titulo": "Espaço Geográfico Brasileiro: Relevo, Domínios Morfoclimáticos, Climas, Águas e Meio Ambiente",
       "status": "em_auditoria",
       "origem": "edital_explicito",
-      "tempo_leitura_min": 35,
+      "tempo_leitura_min": 18,
       "edital_subtopicos": [
         "Estrutura física e geomorfológica do Brasil",
         "Relevo, domínios morfoclimáticos, climatologia, hidrografia e pedologia",
@@ -7819,7 +8695,7 @@
           "referencia_abnt": "MARANHÃO. SEAD. Edital nº 01/2026 — SEAD/SEDUC-MA. São Luís: SEAD/FCC, 2026. p. 76.",
           "tipo": "edital",
           "nivel_autoridade": 1,
-          "url": "https://www.concursosfcc.com.br"
+          "url": "https://www.concursosfcc.com.br/concursos/seadm226/index.html"
         },
         {
           "referencia_abnt": "AB'SÁBER, Aziz Nacib. Os Domínios de Natureza no Brasil: Potencialidades Paisagísticas. São Paulo: Ateliê Editorial, 2003.",
@@ -7830,13 +8706,49 @@
           "referencia_abnt": "ROSS, Jurandyr Luciano Sanches (org.). Geografia do Brasil. 6. ed. São Paulo: Edusp, 2011.",
           "tipo": "bibliografia_academica",
           "nivel_autoridade": 5
+        },
+        {
+          "referencia_abnt": "INMET. Normais climatológicas do Brasil.",
+          "tipo": "institucional",
+          "nivel_autoridade": 3,
+          "url": "https://portal.inmet.gov.br/normais"
+        },
+        {
+          "referencia_abnt": "EMBRAPA. Sistema Brasileiro de Classificação de Solos, 6ª edição, 2025.",
+          "tipo": "institucional",
+          "nivel_autoridade": 3,
+          "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/handle/doc/1176834"
+        },
+        {
+          "referencia_abnt": "ANA. As regiões hidrográficas.",
+          "tipo": "institucional",
+          "nivel_autoridade": 3,
+          "url": "https://www.gov.br/ana/pt-br/assuntos/gestao-das-aguas/panorama-das-aguas/regioes-hidrograficas/as-regioes-hidrograficas"
+        },
+        {
+          "referencia_abnt": "ANA. Região Hidrográfica Tocantins-Araguaia.",
+          "tipo": "institucional",
+          "nivel_autoridade": 3,
+          "url": "https://www.gov.br/ana/pt-br/assuntos/gestao-das-aguas/panorama-das-aguas/regioes-hidrograficas/regiao-hidrografica-tocantins-araguaia"
+        },
+        {
+          "referencia_abnt": "BRASIL. Lei 9.433/1997, texto consolidado.",
+          "tipo": "institucional",
+          "nivel_autoridade": 3,
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l9433.htm"
+        },
+        {
+          "referencia_abnt": "IBGE. Biomas e Sistema Costeiro-Marinho, cartografia de 2019.",
+          "tipo": "institucional",
+          "nivel_autoridade": 3,
+          "url": "https://geoftp.ibge.gov.br/informacoes_ambientais/estudos_ambientais/biomas/mapas/"
         }
       ],
       "sintese_fcc": {
         "conceitos_nucleares": [
           {
             "termo": "Classificação do Relevo (Jurandyr Ross)",
-            "definicao_precisa": "28 unidades: 11 Planaltos, 11 Depressões e 6 Planícies (usando dados do Projeto RADAMBRASIL).",
+            "definicao_precisa": "Na proposta histórica de Ross: 28 unidades (11 planaltos, 11 depressões, 6 planícies); distinta dos mapas oficiais contemporâneos.",
             "fonte": "ROSS, 2011."
           },
           {
@@ -7846,7 +8758,7 @@
           },
           {
             "termo": "Arenização vs. Desertificação",
-            "definicao_precisa": "Desertificação ocorre em clima árido/semiárido/subúmido seco (ex.: Caatinga); Arenização ocorre em clima úmido sobre solos arenosos (ex.: Pampa gaúcho).",
+            "definicao_precisa": "Desertificação: clima semiárido/seco (Nordeste). Arenização: clima úmido com solos arenosos (Pampa gaúcho).",
             "fonte": "ROSS, 2011."
           }
         ],
@@ -7875,7 +8787,7 @@
           },
           {
             "autor": "Jurandyr Ross (1989/96)",
-            "criterio": "Morfoclimático-estrutural (RADAMBRASIL)",
+            "criterio": "Morfoestrutura e morfoescultura; dados RADAMBRASIL.",
             "unidades": "28 unidades (11 planaltos, 11 depressões, 6 planícies)"
           }
         ],
@@ -7890,7 +8802,7 @@
           "questao_id": "CE-GEO-11-Q001",
           "origem": "inedita_padrao_fcc",
           "referencia_prova": "Inédita — padrão FCC / Edital SEDUC-MA 01/2026",
-          "enunciado": "Na classificação oficial mais recente do relevo brasileiro proposta por Jurandyr Ross (com base no Projeto RADAMBRASIL), foi introduzida em destaque uma categoria geomorfológica ausente nas divisões clássicas de Aroldo de Azevedo e Aziz Ab'Sáber, resultando em 28 unidades agrupadas em",
+          "enunciado": "Na classificação do relevo brasileiro proposta por Jurandyr Ross (com base no Projeto RADAMBRASIL), foi introduzida em destaque uma categoria geomorfológica ausente nas divisões clássicas de Aroldo de Azevedo e Aziz Ab'Sáber, resultando em 28 unidades agrupadas em",
           "alternativas": {
             "A": "10 cordilheiras, 10 planaltos e 8 planícies abissais.",
             "B": "4 planaltos, 4 planícies e 2 dobramentos modernos.",
@@ -7901,7 +8813,7 @@
           "gabarito": "D",
           "justificativa_gabarito": "Jurandyr Ross sistematizou o relevo brasileiro em 28 unidades: 11 planaltos, 11 depressões (grande inovação da classificação) e 6 planícies.",
           "analise_distratores": {
-            "A": "Inexistente.",
+            "A": "Essas não são as categorias nem as quantidades da proposta de Ross.",
             "B": "Não há dobramentos modernos no Brasil.",
             "C": "Refere-se aos domínios morfoclimáticos de Ab'Sáber.",
             "E": "Refere-se à divisão regional do IBGE no Maranhão."
@@ -7938,17 +8850,17 @@
           "referencia_prova": "Inédita — padrão FCC / Edital SEDUC-MA 01/2026",
           "enunciado": "Embora frequentemente confundidos, os processos de desertificação e arenização no Brasil ocorrem sob condições climáticas distintas. Enquanto a desertificação atinge áreas de clima semiárido/subúmido seco (como núcleos do Sertão nordestino), a arenização ocorre em",
           "alternativas": {
-            "A": "regiões de clima úmido com solos arenosos friáveis submetidos a manejo agropecuário inadequado, como no sudoeste do Rio Grande do Sul (Domínio das Pradarias/Pampa).",
+            "A": "regiões de clima úmido com depósitos arenosos suscetíveis à mobilização de sedimentos, como no sudoeste do Rio Grande do Sul, onde o uso do solo pode intensificar a dinâmica.",
             "B": "áreas polares congeladas acima do Círculo Polar Antártico.",
             "C": "topos vulcânicos ativos acima de 4.000 metros no Planalto Central.",
             "D": "exclusivamente manguezais inundados por macromarés.",
             "E": "zonas abissais do Oceano Atlântico."
           },
           "gabarito": "A",
-          "justificativa_gabarito": "Arenização (estudada por Dirce Suertegaray) é a formação de areais em região de clima ÚMIDO (chuvas > 1.200 mm/ano) sobre depósitos arenosos no Pampa gaúcho, não devendo ser chamada de desertificação.",
+          "justificativa_gabarito": "Arenização no sudoeste gaúcho ocorre em clima úmido sobre materiais arenosos suscetíveis; o uso pode intensificar processos, sem ser a única causa.",
           "analise_distratores": {
-            "B": "Inexistente no Brasil.",
-            "C": "Absurdo geográfico.",
+            "B": "A arenização discutida ocorre em ambiente úmido temperado, não em ambiente polar.",
+            "C": "O sudoeste gaúcho não apresenta vulcanismo ativo de altitude como o descrito.",
             "D": "Manguezais são ambientes lamosos salobros.",
             "E": "Ambiente marinho profundo."
           },
@@ -7962,16 +8874,16 @@
           "enunciado": "Sobre a hidrografia brasileira e o aproveitamento econômico de suas bacias, assinale a afirmação correta.",
           "alternativas": {
             "A": "A Bacia Amazônica possui o menor volume de água doce do território nacional.",
-            "B": "A Bacia do Paraná concentra a maior capacidade hidrelétrica instalada do país, com usinas de grande porte como Itaipu.",
+            "B": "A região hidrográfica do Paraná abriga grandes empreendimentos hidrelétricos, entre eles Itaipu.",
             "C": "A Bacia do Tocantins-Araguaia pertence integralmente à Argentina e ao Uruguai.",
             "D": "O Rio São Francisco seca completamente durante todo o ano em toda a sua extensão.",
             "E": "O Brasil não possui aquíferos subterrâneos relevantes."
           },
           "gabarito": "B",
-          "justificativa_gabarito": "A Bacia do Paraná (rios de planalto próximos ao centro econômico Sudeste-Sul) possui o maior aproveitamento hidrelétrico instalado (Itaipu, Ilha Solteira, Furnas).",
+          "justificativa_gabarito": "O aproveitamento hidrelétrico do Paraná inclui Itaipu; a comparação de capacidade instalada entre regiões requer fonte e data.",
           "analise_distratores": {
             "A": "É a maior bacia hidrográfica do mundo em vazão.",
-            "C": "É a maior bacia hidrográfica inteiramente brasileira.",
+            "C": "Tocantins-Araguaia é a maior região hidrográfica inteiramente brasileira, não integra Argentina ou Uruguai.",
             "D": "O São Francisco é um rio PERENE que corta o Semiárido.",
             "E": "O Brasil abriga gigantes aquíferos como o Guarani e o Alter do Chão."
           },
@@ -8000,6 +8912,167 @@
           },
           "dificuldade": "basica",
           "subtopico": "Relevo, domínios morfoclimáticos, climatologia, hidrografia e pedologia"
+        },
+        {
+          "questao_id": "CE-GEO-11-EXP-Q001",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — inédita; não é questão oficial FCC",
+          "enunciado": "A comparação entre o mapa de biomas do IBGE e os domínios de Ab'Sáber exige reconhecer que",
+          "alternativas": {
+            "A": "ambos possuem necessariamente os mesmos limites.",
+            "B": "Pantanal é domínio clássico de Ab'Sáber.",
+            "C": "são recortes distintos, com critérios próprios.",
+            "D": "bioma significa apenas relevo.",
+            "E": "Mares de Morros é um dos seis biomas do IBGE."
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "Bioma e domínio são categorias de sistemas classificatórios distintos.",
+          "analise_distratores": {
+            "A": "Critérios não coincidem.",
+            "B": "Pantanal é área de transição na proposta clássica.",
+            "D": "Bioma integra características ecológicas.",
+            "E": "Mares de Morros é domínio."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Relevo, domínios morfoclimáticos, climatologia, hidrografia e pedologia"
+        },
+        {
+          "questao_id": "CE-GEO-11-EXP-Q002",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — inédita; não é questão oficial FCC",
+          "enunciado": "Ao analisar mapas de cobertura e de biomas, o estudante observa uma área agrícola dentro do Cerrado. A conclusão adequada é:",
+          "alternativas": {
+            "A": "a agricultura muda automaticamente o limite oficial do bioma.",
+            "B": "o mapa de biomas representa apenas vegetação remanescente.",
+            "C": "não pode haver agricultura no Cerrado.",
+            "D": "o limite do bioma e a cobertura atual são informações distintas.",
+            "E": "o mapa de cobertura é uma projeção cartográfica."
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "O recorte biogeográfico não equivale ao uso e cobertura da terra em uma data.",
+          "analise_distratores": {
+            "A": "Uso não redefine automaticamente recorte.",
+            "B": "Não se restringe a remanescentes.",
+            "C": "A ocupação agrícola ocorre no bioma.",
+            "E": "Projeção é transformação geométrica."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Relevo, domínios morfoclimáticos, climatologia, hidrografia e pedologia"
+        },
+        {
+          "questao_id": "CE-GEO-11-EXP-Q003",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — inédita; não é questão oficial FCC",
+          "enunciado": "Uma normal climatológica indica médias mensais de chuva diferentes entre duas estações maranhenses. Qual procedimento é correto?",
+          "alternativas": {
+            "A": "aplicar o valor de uma estação a todo estado.",
+            "B": "comparar períodos, localização e completude antes de interpretar diferenças.",
+            "C": "atribuir toda diferença exclusivamente ao ENOS.",
+            "D": "deduzir que a temperatura também difere na mesma proporção.",
+            "E": "tratar as médias como previsão de amanhã."
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "Comparabilidade das séries e controles regionais são essenciais.",
+          "analise_distratores": {
+            "A": "Há variação espacial.",
+            "C": "Não existe causa única automática.",
+            "D": "Variáveis têm relações diferentes.",
+            "E": "Normais não são previsão diária."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Relevo, domínios morfoclimáticos, climatologia, hidrografia e pedologia"
+        },
+        {
+          "questao_id": "CE-GEO-11-EXP-Q004",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — inédita; não é questão oficial FCC",
+          "enunciado": "Segundo a divisão hidrográfica nacional, qual região é a maior totalmente contida no território brasileiro?",
+          "alternativas": {
+            "A": "Amazônica transnacional",
+            "B": "Paraná internacional",
+            "C": "Paraguai internacional",
+            "D": "Tocantins-Araguaia",
+            "E": "Uruguai internacional"
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "A ANA identifica Tocantins-Araguaia como maior região inteiramente brasileira.",
+          "analise_distratores": {
+            "A": "A bacia amazônica ultrapassa fronteiras.",
+            "B": "A bacia do Paraná é transnacional.",
+            "C": "O Paraguai integra sistema transnacional.",
+            "E": "O Uruguai integra sistema transnacional."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Relevo, domínios morfoclimáticos, climatologia, hidrografia e pedologia"
+        },
+        {
+          "questao_id": "CE-GEO-11-EXP-Q005",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — inédita; não é questão oficial FCC",
+          "enunciado": "A exuberância de uma floresta amazônica em solo muito intemperizado pode ser compreendida pela",
+          "alternativas": {
+            "A": "fertilidade uniforme de todos os solos.",
+            "B": "ausência de ciclagem de nutrientes.",
+            "C": "ciclagem de nutrientes, dinâmica hídrica e diversidade de condições edáficas.",
+            "D": "inexistência de erosão após desmatamento.",
+            "E": "identidade entre solos de várzea e terra firme."
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "Produtividade não implica fertilidade mineral uniforme.",
+          "analise_distratores": {
+            "A": "Generalização indevida.",
+            "B": "Ciclagem é importante.",
+            "D": "Desmatamento pode aumentar perdas.",
+            "E": "Há regimes e propriedades distintos."
+          },
+          "dificuldade": "avancada",
+          "subtopico": "Relevo, domínios morfoclimáticos, climatologia, hidrografia e pedologia"
+        },
+        {
+          "questao_id": "CE-GEO-11-EXP-Q006",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — inédita; não é questão oficial FCC",
+          "enunciado": "Em relação ao uso da água, a outorga tem a finalidade de",
+          "alternativas": {
+            "A": "transferir a propriedade do rio.",
+            "B": "eliminar a participação social.",
+            "C": "substituir qualquer licenciamento ambiental.",
+            "D": "conceder direito de uso sob condições, sem transferir domínio.",
+            "E": "garantir irrigação como prioridade em toda escassez."
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "Outorga regula direitos de uso; água é bem de domínio público.",
+          "analise_distratores": {
+            "A": "Não transfere domínio.",
+            "B": "Gestão prevê participação.",
+            "C": "Instrumentos têm funções distintas.",
+            "E": "Consumo humano e dessedentação animal são prioritários em escassez."
+          },
+          "dificuldade": "avancada",
+          "subtopico": "Recursos naturais, aproveitamento econômico e questões ambientais"
+        },
+        {
+          "questao_id": "CE-GEO-11-EXP-Q007",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — inédita; não é questão oficial FCC",
+          "enunciado": "Uma paisagem campestre do sudoeste gaúcho apresenta areais em contexto úmido. A classificação mais adequada do processo é",
+          "alternativas": {
+            "A": "desertificação obrigatória.",
+            "B": "arenização, cuja dinâmica depende de sedimentos, água, vento e uso.",
+            "C": "permafrost.",
+            "D": "laterização exclusiva.",
+            "E": "orogênese ativa."
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "Arenização pode ocorrer em ambiente úmido, não se reduz a desertificação de terras secas.",
+          "analise_distratores": {
+            "A": "O contexto não corresponde à definição de desertificação.",
+            "C": "Permafrost é solo ou terreno permanentemente congelado.",
+            "D": "Não descreve o processo.",
+            "E": "Não corresponde à dinâmica sedimentar superficial."
+          },
+          "dificuldade": "avancada",
+          "subtopico": "Recursos naturais, aproveitamento econômico e questões ambientais"
         }
       ],
       "flashcards": [
@@ -8035,8 +9108,8 @@
         },
         {
           "card_id": "CE-GEO-11-FC004",
-          "frente": "Qual bacia hidrográfica tem a maior capacidade hidrelétrica instalada e qual a maior 100% brasileira?",
-          "verso": "Maior instalada: Paraná (Itaipu). Maior 100% brasileira: Tocantins-Araguaia.",
+          "frente": "Qual região hidrográfica é a maior totalmente contida no Brasil? Cite uma região com grandes hidrelétricas.",
+          "verso": "Tocantins-Araguaia é a maior inteiramente brasileira; Paraná abriga Itaipu e outras grandes usinas.",
           "tipo": "conceito",
           "tags": [
             "hidrografia"
@@ -8045,7 +9118,7 @@
         {
           "card_id": "CE-GEO-11-FC005",
           "frente": "O que é a 'Amazônia Azul'?",
-          "verso": "Zona marítima sob jurisdição brasileira (~5,7 milhões de km²), estratégica por recursos energéticos (Pré-Sal), pesca e comércio.",
+          "verso": "Expressão para espaços marítimos de interesse e jurisdição brasileira; distingue mar territorial, ZEE e direitos sobre plataforma continental.",
           "tipo": "conceito",
           "tags": [
             "aguas-oceanicas"
@@ -8054,14 +9127,134 @@
         {
           "card_id": "CE-GEO-11-FC006",
           "frente": "Por que o Brasil não possui dobramentos modernos?",
-          "verso": "Porque seu território situa-se no centro estável da Placa Sul-Americana, formado apenas por escudos cristalinos e bacias sedimentares.",
+          "verso": "O Brasil não apresenta uma cadeia orogênica jovem ativa comparável aos Andes; há crátons, cinturões antigos, bacias e sismicidade intraplaca.",
           "tipo": "conceito",
           "tags": [
             "geologia-brasil"
           ]
+        },
+        {
+          "card_id": "CE-GEO-11-EXP-FC001",
+          "frente": "Quantos biomas terrestres reconhece o IBGE?",
+          "verso": "Seis; o Sistema Costeiro-Marinho é recorte próprio.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-fisica"
+          ],
+          "status": "em_auditoria"
+        },
+        {
+          "card_id": "CE-GEO-11-EXP-FC002",
+          "frente": "Qual a edição do SiBCS consultada?",
+          "verso": "6ª edição, 2025, com treze ordens.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-fisica"
+          ],
+          "status": "em_auditoria"
+        },
+        {
+          "card_id": "CE-GEO-11-EXP-FC003",
+          "frente": "Latossolos e Argissolos: distinção inicial?",
+          "verso": "Latossolos têm horizonte B latossólico; Argissolos, B textural e outros critérios diagnósticos.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-fisica"
+          ],
+          "status": "em_auditoria"
+        },
+        {
+          "card_id": "CE-GEO-11-EXP-FC004",
+          "frente": "ZCIT e ZCAS: distinção?",
+          "verso": "ZCIT: convergência tropical; ZCAS: faixa persistente de chuva NW–SE, sobretudo no verão austral.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-fisica"
+          ],
+          "status": "em_auditoria"
+        },
+        {
+          "card_id": "CE-GEO-11-EXP-FC005",
+          "frente": "Mata dos Cocais é bioma oficial?",
+          "verso": "Não. É expressão de paisagens regionais de transição.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-fisica"
+          ],
+          "status": "em_auditoria"
+        },
+        {
+          "card_id": "CE-GEO-11-EXP-FC006",
+          "frente": "Por que várzea e terra firme diferem?",
+          "verso": "Várzea sofre inundação fluvial sazonal; terra firme não sofre inundação regular equivalente.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-fisica"
+          ],
+          "status": "em_auditoria"
+        },
+        {
+          "card_id": "CE-GEO-11-EXP-FC007",
+          "frente": "Qual diferença entre bacia e região hidrográfica?",
+          "verso": "Região é unidade de gestão que pode reunir bacias; bacia é unidade física de drenagem.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-fisica"
+          ],
+          "status": "em_auditoria"
+        },
+        {
+          "card_id": "CE-GEO-11-EXP-FC008",
+          "frente": "Outorga transfere propriedade da água?",
+          "verso": "Não. Concede direito de uso condicionado.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-fisica"
+          ],
+          "status": "em_auditoria"
+        },
+        {
+          "card_id": "CE-GEO-11-EXP-FC009",
+          "frente": "Qual prioridade de uso na escassez segundo Lei 9.433?",
+          "verso": "Consumo humano e dessedentação de animais.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-fisica"
+          ],
+          "status": "em_auditoria"
+        },
+        {
+          "card_id": "CE-GEO-11-EXP-FC010",
+          "frente": "Bioma é mapa de vegetação remanescente?",
+          "verso": "Não. Cobertura atual é outra informação.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-fisica"
+          ],
+          "status": "em_auditoria"
+        },
+        {
+          "card_id": "CE-GEO-11-EXP-FC011",
+          "frente": "Pantanal na classificação de Ab'Sáber?",
+          "verso": "Área de transição; no IBGE é um bioma.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-fisica"
+          ],
+          "status": "em_auditoria"
+        },
+        {
+          "card_id": "CE-GEO-11-EXP-FC012",
+          "frente": "Qual a diferença entre arenização e desertificação?",
+          "verso": "Arenização pode ocorrer em ambiente úmido; desertificação é degradação de terras secas.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-fisica"
+          ],
+          "status": "em_auditoria"
         }
       ],
-      "teoria_md": "---\ntopico_id: CE-GEO-11\nslug: brasil-fisico-ambiental\ntitulo: \"Espaço Geográfico Brasileiro: Relevo, Domínios Morfoclimáticos, Climas, Águas e Meio Ambiente\"\nedital: SEDUC-MA-01-2026\nbanca: FCC\nstatus: em_auditoria\n---\n\n# 1. Delimitação no Edital (Camada A)\n- **Itens explícitos (p. 76):** *O espaço geográfico brasileiro: características físicas, estrutura física e geomorfológica. Relevo, domínios morfoclimáticos, climatologia, hidrografia, pedologia, águas continentais e oceânicas. Recursos naturais e aproveitamento econômico. Questões ambientais.*\n\n# 2. Estrutura Geológica e Classificação do Relevo Brasileiro\n- **Estrutura geológica:** o Brasil situa-se no interior estável da Placa Sul-Americana — possui **Escudos Cristalinos** (~36% do território, pré-cambrianos, ricos em minerais metálicos) e **Bacias Sedimentares** (~64%, ricas em petróleo, gás, carvão e aquíferos), **sem dobramentos modernos**.\n- **Classificação Vigente do Relevo — Jurandyr Ross (1989/1996, baseada no Projeto RADAMBRASIL):**\n  - Critério **morfoclimático-estrutural** (erosão vs. deposição + gênese): identificou **28 unidades** divididas em:\n    - **11 Planaltos** (predomínio de processos erosivos),\n    - **11 Depressões** (rebaixadas por erosão em bordas de bacias sedimentares ou áreas cristalinas),\n    - **6 Planícies** (predomínio de deposição sedimentar recente — ex.: Planície Amazônica, Pantanal, Litorânea).\n  - *Evolução histórica:* Aroldo de Azevedo (1940s, critério altimétrico de 200 m, 8 unidades) → Aziz Ab'Sáber (1960s, critério erosão vs. deposição, 10 unidades) → Jurandyr Ross (28 unidades, incluindo as **Depressões**).\n\n# 3. Os 6 Domínios Morfoclimáticos Brasileiros (Aziz Ab'Sáber)\nAb'Sáber integrou relevo, clima, solo, hidrografia e vegetação em **6 domínios nucleares** separados por **faixas de transição** (como a **Mata dos Cocais** e o **Pantanal**):\n1. **Amazônico:** terras baixas florestadas equatoriais, clima quente e úmido, Latossolos/Argissolos, drenagem exorreica densa.\n2. **Cerrado:** chapadões tropicais interiores, clima tropical típico (verão chuvoso, inverno seco), solos ácidos (calagem para agronegócio), vegetação tropófila/caducifólia adaptada ao fogo.\n3. **Mares de Morros:** relevo mamelonar/meias-laranjas cristalinas no Sudeste/litoral atlântico, Mata Atlântica, intensa erosão/deslizamentos em encostas.\n4. **Caatinga:** depressões interplanálticas semiáridas no Nordeste, chuvas irregulares, rios intermitentes (exceto São Francisco e Parnaíba), vegetação xerófila.\n5. **Araucárias:** planaltos subtropicais do Sul, clima subtropical úmido, pinheiro-do-paraná e solos férteis (terra roxa em áreas basálticas).\n6. **Pradarias (Pampas/Campanha Gaúcha):** coxilhas subtropicais no RS, vegetação campestre/herbácea, risco de **arenização** por uso pastoril/agrícola intensivo.\n\n# 4. Climas, Bacias Hidrográficas e Questões Ambientais no Brasil\n- **Climas do Brasil:** Equatorial Úmido, Tropical Típico (Semiúmido), Tropical Atlântico/Litorâneo, Tropical de Altitude, Semiárido e Subtropical (único fora da zona intertropical, com chuvas bem distribuídas e maior amplitude térmica).\n- **Principais Bacias Hidrográficas:** **Amazônica** (maior do mundo em extensão/vazão), **Tocantins-Araguaia** (maior totalmente brasileira, UHE Tucuruí/Estreito), **Paraná** (maior potencial hidrelétrico instalado — Itaipu), **São Francisco** (\"rio da integração nacional\", transposição no Semiárido), **Parnaíba** (divisa MA/PI) e **Atlântico Sul/Sudeste/Leste/Nordeste**.\n- **Amazônia Azul:** zona marítima sob jurisdição brasileira (~5,7 milhões de km², incluindo ZEE e Plataforma Continental estendida), estratégica pelo Pré-Sal, pesca, rotas comerciais e biodiversidade.\n"
+      "teoria_md": "# 1. Estrutura e classificação do relevo brasileiro\n\n## Estruturas geológicas e o território brasileiro\n\nEm escala continental, é útil distinguir **crátons/escudos cristalinos**, **cinturões orogênicos antigos** e **bacias sedimentares**. Escudos e crátons expõem ou sustentam terrenos muito antigos; bacias acumulam espessas sequências sedimentares; cinturões registram antigas colisões e deformações.\n\nO território brasileiro situa-se no interior da placa Sul-Americana e não possui cadeias de dobramentos modernos comparáveis aos Andes. Isso não significa estabilidade absoluta: há soerguimentos, falhas reativadas, erosão diferencial e sismicidade intraplaca.\n\nEm termos econômicos, muitos depósitos metálicos associam-se a terrenos cristalinos e cinturões antigos; grandes sistemas de petróleo e gás concentram-se em bacias sedimentares. Trate essas relações como tendências geológicas, não como regras sem exceção.\n\nAtenção: **Estrutura geológica não é forma de relevo.** Uma bacia sedimentar pode sustentar planaltos, chapadas, depressões ou planícies, dependendo da história geomorfológica.\n\n## Aroldo de Azevedo, Aziz Ab’Sáber e Jurandyr Ross\n\n| Autor | Chave de leitura | O que guardar |\n| --- | --- | --- |\n| Aroldo de Azevedo | critério fortemente altimétrico/hypsométrico | distinção clássica de planaltos e planícies com referência a cotas |\n| Aziz Ab’Sáber | processos geomorfológicos | planalto = erosão/denudação predominante; planície = sedimentação predominante |\n| Jurandyr Ross | síntese morfoestrutural e morfoescultural com dados do RADAMBRASIL | planaltos + depressões + planícies; maior detalhamento |\n\nA evolução dessas classificações mostra a passagem de uma leitura mais **altimétrica** para abordagens que integram **processos, estrutura e modelado**. As propostas são aprofundamento pertinente; responda conforme o **critério explicitado pelo autor**, e não misture sistemas.\n\nHoje o IBGE, o SGB e a comunidade geomorfológica trabalham na padronização de um **Sistema Brasileiro de Classificação de Relevo**. Isso não apaga o valor histórico e didático das classificações históricas estudadas.\n\nCuidado com a troca**Azevedo → altitude**; **Ab’Sáber → processos erosão/deposição**; **Ross → estrutura + modelado + processos, incluindo depressões como grande categoria.**\n\n## Relevo do Brasil: leitura integrada\n\nO Brasil combina **planaltos, depressões e planícies**, sobre estruturas cristalinas e sedimentares de idades variadas. A ausência de orogenias cenozoicas ativas dentro do território contrasta com a margem andina do continente, mas a modelagem externa continua intensa.\n\nAs **planícies fluviais** associam-se à acumulação recente; **chapadas** podem aparecer em áreas sedimentares; **serras e escarpas** podem refletir estrutura, erosão diferencial, falhamento e soerguimentos. Na Amazônia, não confunda a bacia sedimentar amazônica com “uma imensa planície”: há planaltos, depressões e planícies fluviais.\n\nO IBGE atualmente mapeia categorias como planícies, depressões, patamares, tabuleiros, chapadas, planaltos e serras em diferentes escalas. Isso reforça que o relevo é **hierárquico e multiescalar**.\n\nAtenção: **Amazônia ≠ toda plana**. O rio Amazonas ocupa grandes planícies fluviais, mas a região inclui depressões e planaltos extensos.\n\n# 2. Climas e sistemas atmosféricos do Brasil\n\n## Massas de ar e frentes no Brasil\n\nUma **massa de ar** é um grande volume atmosférico que adquire características relativamente homogêneas de temperatura e umidade em sua região de origem. Ao deslocar-se, modifica-se pelo contato com novas superfícies.\n\n| Massa | Origem/traço didático | Papel no Brasil |\n| --- | --- | --- |\n| mEc Equatorial Continental | Amazônia ocidental; quente e muito úmida | convecção e transporte de umidade; exceção importante à ideia “continental = seca” |\n| mEa Equatorial Atlântica | Atlântico equatorial; quente e úmida | atua no Norte e litoral setentrional |\n| mTa Tropical Atlântica | Atlântico Sul subtropical; quente e úmida | leste do Brasil, litoral e interior conforme circulação |\n| mTc Tropical Continental | região do Chaco/interior; quente e relativamente seca | centro-sul, especialmente na estação quente |\n| mPa Polar Atlântica | altas latitudes do Atlântico Sul; fria e úmida | frentes frias, quedas de temperatura e friagem |\n\nUma **frente** é a zona de transição entre massas com propriedades diferentes. Na frente fria, o ar frio avança e força o ar quente a subir. A passagem frontal pode produzir mudança rápida de vento, pressão, temperatura, nebulosidade e chuva.\n\nAtenção: A mEc é **continental e úmida**. Isso acontece pela intensa disponibilidade hídrica e evapotranspiração amazônica. Evite a regra simplista “massa continental é sempre seca”.\n\n## ZCIT, ZCAS e sistemas de convergência\n\nA **Zona de Convergência Intertropical (ZCIT)** é uma faixa de baixa pressão relativa, convergência dos alísios, forte convecção e nebulosidade. Ela migra sazonalmente para norte e sul acompanhando, de modo geral, o máximo de aquecimento e a configuração oceano-atmosfera. Sua posição influencia fortemente a estação chuvosa do extremo norte do Brasil e de partes do Nordeste.\n\nA **Zona de Convergência do Atlântico Sul (ZCAS)** é outra estrutura: uma banda persistente de nebulosidade e precipitação orientada aproximadamente de noroeste para sudeste, conectando a Amazônia ao Sudeste do Brasil e ao Atlântico Sul, sobretudo no verão austral. Ela é central para episódios prolongados de chuva no centro-sudeste.\n\nA **Alta Subtropical do Atlântico Sul (ASAS)** é uma circulação anticiclônica de grande escala associada à subsidência subtropical. Sua posição e intensidade modulam ventos, estabilidade e transporte de umidade. Bloqueios atmosféricos podem manter padrões persistentes de seca ou calor.\n\nCuidado com a troca**ZCIT:** faixa tropical quase zonal, convergência dos alísios, importante para Norte/Nordeste. **ZCAS:** corredor NW–SE de umidade/chuva Amazônia–Sudeste–Atlântico, típico do verão.\n\n## Climas do Brasil\n\nO Brasil é majoritariamente intertropical, por isso predominam climas quentes, mas a diversidade é grande. Em síntese didática:\n\n| Tipo | Traço dominante | Mecanismos/área de referência |\n| --- | --- | --- |\n| Equatorial | quente, baixa amplitude anual, muita umidade | Amazônia; convecção, umidade continental/oceânica, ZCIT em setores |\n| Tropical típico | verão chuvoso, inverno mais seco | Brasil central; sazonalidade da circulação tropical |\n| Semiárido | chuvas escassas e muito irregulares; alta evapotranspiração potencial | interior do Nordeste; múltiplos controles atmosféricos e oceânicos |\n| Tropical Atlântico/litorâneo | umidade marítima, relevo e sistemas costeiros | faixa leste, com grande variação latitudinal |\n| Tropical de altitude | altitude reduz médias térmicas; verão chuvoso em grande parte do Sudeste | planaltos/serras do Sudeste |\n| Subtropical | maior amplitude anual, frentes frequentes e chuva relativamente bem distribuída | Sul e áreas adjacentes, com limites dependentes da classificação |\n\nO mapa climático do IBGE trabalha com zonas como **Equatorial, Tropical Zona Equatorial, Tropical Nordeste Oriental, Tropical Brasil Central e Temperado**, além de classes de temperatura e umidade/duração do período seco.\n\nAtenção: Não trate “tropical” como sinônimo de “verão chuvoso e inverno seco” em qualquer ponto do país. O litoral leste, a Amazônia e áreas de transição têm regimes diferentes.\n\n## Amazônia e Maranhão: sazonalidade regional\n\nA Amazônia apresenta intensa reciclagem de umidade pela evapotranspiração, combinada à entrada de vapor oceânico e ao transporte atmosférico. Não existe um regime uniforme. No norte do Maranhão, a sazonalidade da chuva relaciona-se à migração da ZCIT e à circulação tropical atlântica; no sul e interior, o período seco e a influência de outros sistemas precisam ser examinados em séries locais. Compare normais do INMET de São Luís e de Balsas, observando estação, período, unidades e lacunas, sem antecipar valores. A friagem é exemplo de incursão polar em baixas latitudes, sobretudo no oeste e sul da Amazônia. Não transforme tendência regional em previsão municipal.\n\n# 3. Solos brasileiros e paisagens amazônicas\n\n## SiBCS e classes frequentes no Brasil\n\nO **Sistema Brasileiro de Classificação de Solos (SiBCS)** organiza os solos em níveis categóricos. A 6ª edição (2025), revisada e ampliada, da Embrapa mantém **13 ordens**: Argissolos, Cambissolos, Chernossolos, Espodossolos, Gleissolos, Latossolos, Luvissolos, Neossolos, Nitossolos, Organossolos, Planossolos, Plintossolos e Vertissolos.\n\n| Classe | Ideia útil para prova |\n| --- | --- |\n| Latossolos | muito intemperizados; geralmente profundos; ampla ocorrência tropical |\n| Argissolos | horizonte B textural, com aumento de argila em subsuperfície |\n| Neossolos | pouco desenvolvimento pedogenético |\n| Gleissolos | forte influência de saturação por água/hidromorfia e gleização |\n\nLatossolos e Argissolos juntos ocupam grande parte do território brasileiro e são frequentemente muito intemperizados e ácidos, mas **há variação interna**.\n\n## Solos amazônicos e diversidade regional\n\nMuitos solos de terra firme amazônica são muito intemperizados e pobres em nutrientes disponíveis. A floresta depende de ciclagem de nutrientes e não demonstra fertilidade uniforme. Várzeas podem receber sedimentos; solos antropogênicos apresentam propriedades diferentes. A retirada de cobertura altera interceptação, evapotranspiração, erosão e ciclagem. No Maranhão, compare solos e cobertura com relevo, material de origem e uso, consultando mapas em escala adequada.\n\n# 4. Regiões hidrográficas e gestão da água\n\n## Lei 9.433: fundamentos e objetivos vigentes\n\nA Lei 9.433/1997 instituiu a **Política Nacional de Recursos Hídricos (PNRH)**. Entre seus fundamentos: água é bem de domínio público; recurso limitado com valor econômico; em escassez, prioridade para **consumo humano e dessedentação de animais**; gestão deve proporcionar usos múltiplos; a **bacia hidrográfica** é unidade territorial de implementação; e a gestão deve ser descentralizada e participativa.\n\nConsulte a redação consolidada da Lei 9.433/1997, observando o marco temporal definido pelo edital; não memorize uma versão antiga sem conferir as alterações. **Atenção à atualização:** não estude uma versão antiga da lei. Para prova, diferencie **fundamentos, objetivos, diretrizes e instrumentos**.\n\n## Instrumentos da PNRH: plano, enquadramento, outorga, cobrança e informação\n\nO art. 5º lista: **Planos de Recursos Hídricos; enquadramento dos corpos d’água em classes; outorga; cobrança; compensação a municípios; Sistema de Informações sobre Recursos Hídricos**.\n\n**Planos** orientam a gestão; **enquadramento** estabelece metas/classes conforme usos preponderantes; **outorga** controla direitos de uso; **cobrança** reconhece valor econômico, incentiva racionalização e financia ações; o **Sistema de Informações** organiza dados para a gestão.\n\n**Atenção jurídica:** “Compensação a municípios” permanece no rol do art. 5º, mas o **art. 24 foi vetado**. Outra armadilha: **outorga não transfere propriedade da água**; concede direito de uso sob condições.\n\n## SINGREH, comitês e gestão participativa\n\nO **SINGREH** coordena a gestão integrada das águas, arbitra administrativamente conflitos, implementa a PNRH e planeja/regula/controla os usos.\n\nIntegram o sistema: **Conselho Nacional de Recursos Hídricos, ANA, Conselhos Estaduais e do DF, Comitês de Bacia, órgãos públicos relacionados à gestão e Agências de Água**.\n\nOs **Comitês de Bacia** são fóruns participativos com representantes do poder público, usuários e sociedade civil. Entre suas competências estão promover debate, arbitrar conflitos em primeira instância administrativa, aprovar o plano da bacia e estabelecer mecanismos de cobrança/sugerir valores.\n\n**Não confunda:** comitê não é “dono do rio” e não substitui automaticamente ANA ou órgãos estaduais. Competência depende do domínio da água e da função de cada ente.\n\n## Tocantins-Araguaia e a leitura regional\n\nA Região Hidrográfica Tocantins-Araguaia é a maior região hidrográfica totalmente inserida no Brasil, segundo a ANA. Abrange porções de Goiás, Tocantins, Pará, Maranhão, Mato Grosso e Distrito Federal. Diferencie a bacia transnacional Amazônica, a região hidrográfica usada na gestão nacional e o território estadual. Hidrelétricas, irrigação, navegação e abastecimento podem competir pelo uso da água; barragens também alteram conectividade e transporte de sedimentos. Compare as regiões Tocantins-Araguaia, Parnaíba e Atlântico Nordeste Ocidental no mapa oficial da ANA. O Maranhão não se limita a uma única bacia.\n\n# 5. Biomas brasileiros: diversidade e dinâmica\n\n## Os seis biomas brasileiros do IBGE\n\nO IBGE delimita seis biomas continentais: **Amazônia, Mata Atlântica, Caatinga, Cerrado, Pantanal e Pampa**. O Sistema Costeiro-Marinho é mapeado separadamente. Os limites servem como referência territorial e não significam que cada bioma tenha vegetação homogênea.\n\n| Norte | Centro | Leste/Interior | Sul |\n| --- | --- | --- | --- |\n| Amazônia | Cerrado + Pantanal | Caatinga + Mata Atlântica | Mata Atlântica + Pampa |\n\nEsquema de orientação, não substitui o mapa. [Abrir mapa oficial de biomas do IBGE ↗](https://atlasescolar.ibge.gov.br/images/mapas/pdf/brasil-diversidade-ambiental-biomas-continentais-p-108.pdf)\n\n**Leitura de mapa:** observe legenda, limites, escala e áreas de contato. Não transforme uma cor predominante em afirmação de homogeneidade ecológica.\n\n## Amazônia: mosaico florestal e águas\n\nO Bioma Amazônia abriga diferentes formações e ambientes. Uma distinção clássica é entre **terra firme**, que não sofre inundação fluvial sazonal regular; **várzea**, sujeita a inundações associadas em geral a rios de águas brancas com maior carga de sedimentos; e **igapó**, inundável e associado em muitos casos a águas pretas ou claras, mais pobres em sedimentos.\n\nA exuberância da floresta **não autoriza concluir alta fertilidade natural generalizada dos solos**. A rápida ciclagem de nutrientes na biomassa e na serapilheira é parte importante do funcionamento do sistema.\n\n**Cuidado:** “Amazônia = floresta uniforme = solo fértil” é uma sequência de simplificações erradas.\n\n## Cerrado: um mosaico de fitofisionomias\n\nA Embrapa organiza as fitofisionomias do Cerrado em **formações florestais, savânicas e campestres**. Entre os exemplos estão mata ciliar, mata de galeria, mata seca e cerradão; cerrado sentido restrito, parque de cerrado, palmeiral e vereda; campo sujo, campo rupestre e campo limpo.\n\nGrande parte dos solos do Cerrado é profundamente intemperizada, ácida e pobre em nutrientes disponíveis, com ocorrência de toxicidade por alumínio. A vegetação apresenta diferentes adaptações à sazonalidade, ao fogo e às condições edáficas.\n\nAplicação ao treino autoral: Classificar uma fisionomia a partir de **estrutura da vegetação**: dossel contínuo → florestal; árvores/arbustos sem dossel contínuo → savânica; predomínio herbáceo-arbustivo → campestre.\n\n## Caatinga: semiárido não é vazio biológico\n\nA **Caatinga** é um bioma de ocorrência essencialmente brasileira. Predomina no semiárido e possui vegetação fortemente ajustada à sazonalidade hídrica: perda de folhas na estação seca em muitas espécies, presença de espinhos, tecidos de armazenamento e outras estratégias xeromórficas.\n\nNa classificação de vegetação do IBGE, grande parte de suas formações aparece como **Savana-Estépica**. Desertificação é processo de degradação de terras secas e não sinônimo de “existência natural de deserto”.\n\n## Mata Atlântica: diversidade, relevo e fragmentação\n\nA Mata Atlântica reúne diferentes formações florestais e ecossistemas associados ao longo de amplo gradiente latitudinal e altitudinal. No sistema do IBGE aparecem, entre outras, **Florestas Ombrófilas Densa e Mista** e **Florestas Estacionais**.\n\nO domínio dos **Mares de Morros** de Ab’Sáber tem forte relação espacial com áreas originalmente florestadas da fachada atlântica, mas **não é sinônimo cartográfico de Bioma Mata Atlântica**.\n\n## Pantanal: a água organiza a paisagem\n\nO Pantanal é uma vasta planície sujeita a **inundações sazonais**. A alternância entre fases de cheia e seca reorganiza habitats, deslocamento da fauna, produtividade e usos econômicos.\n\nSua vegetação expressa influências de formações vizinhas. Por isso, uma paisagem pantaneira não deve ser reduzida a um único “tipo de planta”. No mapa de biomas do IBGE ele é um bioma; na leitura clássica de Ab’Sáber, o Pantanal aparece como **área de transição**, e não um dos seis domínios principais.\n\n## Pampa: campos do Sul\n\nO **Pampa** brasileiro ocorre no Rio Grande do Sul e integra os Pampas sul-americanos. Sua paisagem é marcada por ampla presença de formações campestres, com elevada diversidade de gramíneas, herbáceas e outros componentes.\n\nNo sistema de vegetação do IBGE, **Estepe** corresponde aos campos do Sul do Brasil. No modelo de Ab’Sáber, o **Domínio das Pradarias** guarda relação com essas paisagens, mas novamente os recortes não devem ser convertidos em sinônimos automáticos.\n\n# 6. Domínios morfoclimáticos e transições\n\n## Ab’Sáber e os seis domínios morfoclimáticos\n\n![Comparação conceitual entre bioma, domínio morfoclimático e cobertura da terra.](./media/geografia-fisica/recortes.svg)\n\nNa formulação clássica de Aziz Ab’Sáber, o Brasil apresenta seis grandes domínios: **Amazônico, Cerrados, Caatingas, Mares de Morros, Araucárias e Pradarias**, separados e conectados por faixas de transição.\n\n| Domínio | Âncora paisagística |\n| --- | --- |\n| Amazônico | terras baixas, redes fluviais e florestas equatoriais |\n| Cerrados | chapadões tropicais e mosaico savânico |\n| Caatingas | depressões interplanálticas semiáridas |\n| Mares de Morros | mamelonização e fachada atlântica úmida |\n| Araucárias | planaltos subtropicais |\n| Pradarias | coxilhas/campos subtropicais |\n\n## Faixas de transição e tensão ecológica\n\n**Faixas de transição** são áreas onde características de grandes conjuntos paisagísticos se interpenetram. Na cartografia da vegetação do IBGE, contatos entre regiões fitoecológicas podem aparecer como **áreas de tensão ecológica**.\n\nEcótono, tensão ecológica e faixa de transição são conceitos próximos, mas o contexto classificatório importa. O erro de prova é imaginar uma “linha ecológica” perfeita, como uma fronteira política.\n\n**Exemplo brasileiro:** o Meio-Norte, com destaque para a Mata dos Cocais, é frequentemente estudado como transição entre conjuntos amazônicos, cerrados e caatingas. Use o exemplo para compreender gradiente, não para decorar uma linha fixa.\n\n## Vegetação segundo o IBGE\n\nO sistema fitogeográfico do IBGE diferencia grandes regiões e formações. **Floresta Ombrófila** associa-se a condições úmidas; **Floresta Estacional** apresenta sazonalidade com perda foliar em parte das árvores; **Savana** corresponde amplamente ao Cerrado; **Savana-Estépica** inclui formações como a Caatinga; **Estepe** corresponde aos campos do Sul; **Campinarana** ocorre principalmente na Amazônia em ambientes de solos muito pobres, frequentemente arenosos e hidromórficos.\n\n**Não misture escalas:** “Savana” é categoria de vegetação; “Cerrado” pode nomear bioma e também aparecer em usos regionais/fitofisionômicos. Leia o enunciado.\n\n## Maranhão: biomas e áreas de contato\n\nO Maranhão contém áreas dos biomas Amazônia e Cerrado e formações de contato, além de ambientes costeiros. Mata dos Cocais é expressão regional de paisagens de transição, não um sétimo bioma oficial. Compare os limites do mapa de biomas do IBGE com a cobertura efetivamente observada: o limite do bioma não é mapa de vegetação remanescente. O estudo estadual detalhado será feito em CE-GEO-14. Não extrapole condições de municípios paraenses para o Maranhão.\n\n# 7. Recursos naturais e conservação\n\n## Unidades de conservação: o básico para este tema\n\nO SNUC organiza as unidades de conservação em dois grupos: **Proteção Integral** e **Uso Sustentável**. No primeiro, o objetivo básico é preservar a natureza e, como regra, admite-se uso indireto dos recursos; no segundo, busca-se compatibilizar conservação com uso sustentável de parcela dos recursos.\n\nAs categorias têm regras diferentes. Aqui, o essencial é compreender a lógica ecológica e territorial. Consulte a Lei 9.985/2000 para categorias e regras específicas; aprofunde o contexto ambiental em CE-GEO-14.\n\n**Atenção:** Uso Sustentável **não** significa “uso sem regras”; Proteção Integral tampouco significa ausência absoluta de presença humana em qualquer situação prevista em lei.\n\n# 8. Integração e aplicação\n\n## Mapa, processo e território\nA classificação de Ross, de 28 unidades (11 planaltos, 11 depressões e 6 planícies), é uma proposta histórica de compartimentação; não é sinônimo da cartografia oficial mais recente do IBGE. A proposta de Aroldo de Azevedo privilegia altimetria; Ab'Sáber enfatiza dinâmica geomorfológica; Ross integra estrutura e modelado. Não atribua percentuais fixos ao conjunto de escudos e bacias sem indicar fonte, recorte e classificação.\n\n## Águas brasileiras: uma leitura por funções\nA ANA apresenta doze regiões hidrográficas. Amazônica, Tocantins-Araguaia, Parnaíba, São Francisco, Paraná, Paraguai, Uruguai, Atlântico Nordeste Ocidental, Atlântico Nordeste Oriental, Atlântico Leste, Atlântico Sudeste e Atlântico Sul. A Região do Paraná abriga grandes usinas; a capacidade instalada é dado variável e requer série datada. São Francisco e Parnaíba conectam áreas de diferentes regimes climáticos e usos. No litoral, marés, correntes, estuários e manguezais condicionam atividades e ecossistemas. A chamada Amazônia Azul abrange espaços marítimos de interesse e jurisdição brasileira; distinguir mar territorial, zona econômica exclusiva e direitos relativos à plataforma continental. Evitar uma área total sem fonte e data.\n\n## Problemas ambientais: mecanismos e escalas\nDesertificação é degradação em terras áridas, semiáridas e subúmidas secas. Arenização, estudada no sudoeste gaúcho, ocorre em ambiente úmido sobre depósitos arenosos suscetíveis à mobilização por água e vento; uso do solo pode intensificar a dinâmica, mas não é sua única origem. Desmatamento, incêndios, assoreamento, contaminação, fragmentação e perda de biodiversidade exigem análise de processos, agentes, território e políticas. Não confunda floresta remanescente, bioma e Amazônia Legal. A conservação envolve proteção, restauração, manejo e participação social."
     },
     {
       "schema_version": "2.0.0",
