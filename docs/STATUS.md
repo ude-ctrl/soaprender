@@ -64,3 +64,9 @@ A auditoria científica do acervo segue pendente. Sincronização entre disposit
 ## Informática
 
 - CG-INF-01 a 05 ampliadas em 30 missões, 65 questões e 100 flashcards. Atualização LGPD (Lei 15.352/2026) e escopo de governo digital. [Registro](INTEGRACAO_INFORMATICA.md). Mantido em_auditoria. Próximo lote: Redação FCC.
+
+
+## Redação FCC e fechamento editorial
+
+- RED-FCC-01 a 04 ampliadas em 26 missões, 52 questões e 80 flashcards, propostas e oficinas de escrita. Conferência visual do capítulo 10, p. 31–33 da cópia do edital. [Registro](INTEGRACAO_REDACAO_FCC.md).
+- 45/45 unidades aprofundadas; 628 questões e 1.027 flashcards. Todos os lotes implementados, sem declarar auditoria científica concluída. Próxima etapa: auditoria independente integral e verificação de publicação.

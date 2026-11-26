@@ -5,8 +5,8 @@
   "resumo_cobertura": {
     "total_unidades_edital": 45,
     "unidades_populadas": 45,
-    "total_questoes": 596,
-    "total_flashcards": 971
+    "total_questoes": 628,
+    "total_flashcards": 1027
   },
   "edital": {
     "schema_version": "1.0.0",
@@ -30226,96 +30226,82 @@
       "titulo": "Recorte Temático, Autoria e Projeto de Texto na Redação FCC (2,00 pts)",
       "status": "em_auditoria",
       "origem": "edital_explicito",
-      "tempo_leitura_min": 25,
+      "tempo_leitura_min": 35,
       "edital_subtopicos": [
         "Leitura do comando e delimitação estrita do recorte",
         "Evitar tangenciamento e repertório decorado/artificial"
       ],
       "fontes_primarias": [
         {
-          "referencia_abnt": "MARANHÃO. Secretaria de Estado da Administração. Edital nº 01/2026 — SEAD/SEDUC-MA (Capítulo 10 — Da Prova Discursiva – Redação). São Luís: SEAD/FCC, 2026. pp. 30-33.",
+          "referencia_abnt": "MARANHÃO. SEAD. Edital nº 01/2026, 17 nov. 2026, cap. 10, p. 31–33. Cópia do documento conferida visualmente em 26 nov. 2026; verificar retificações na FCC.",
           "tipo": "edital",
           "nivel_autoridade": 1,
-          "url": "https://www.concursosfcc.com.br"
-        },
-        {
-          "referencia_abnt": "PORTAL CONCURSOS. Redação da FCC: critérios de correção e o que zera a prova. 2026.",
-          "tipo": "prova_fcc",
-          "nivel_autoridade": 4,
-          "url": "https://cursosdoportal.com.br/noticias/redacao-da-fcc-criterios-de-correcao-e-o-que-zera-a-prova"
+          "url": "https://dhg1h5j42swfq.cloudfront.net/2026/11/18082120/seadm226_edital_de_abertura_1_17_11_26_publicado-1.pdf"
         }
       ],
       "sintese_fcc": {
         "conceitos_nucleares": [
           {
-            "termo": "Recorte Temático (2,00 pts)",
-            "definicao_precisa": "Fidelidade estrita à problematização proposta com projeto de texto claro e autoral, sem tangenciamento.",
-            "fonte": "Edital SEAD/MA nº 01/2026, item 10.4.1.a."
+            "termo": "Recorte",
+            "definicao_precisa": "Relação precisa solicitada",
+            "fonte": "Edital 01/2026, capítulo 10; síntese didática autoral."
           },
           {
-            "termo": "Avaliação Integrada FCC",
-            "definicao_precisa": "Os critérios de Tema (7,00) e Norma-Padrão (3,00) são avaliados em estreita correlação; tangenciar o tema derruba a nota global.",
-            "fonte": "Edital SEAD/MA nº 01/2026, item 10.4."
+            "termo": "Autoria",
+            "definicao_precisa": "Argumentação própria e pertinente",
+            "fonte": "Edital 01/2026, capítulo 10; síntese didática autoral."
           },
           {
-            "termo": "Penalização de Repertório Decorado",
-            "definicao_precisa": "O texto pode ser prejudicado se se apoiar predominantemente na citação de autores consagrados e produtos culturais.",
-            "fonte": "Edital SEAD/MA nº 01/2026, item 10.4.1.a (Observação)."
+            "termo": "Projeto",
+            "definicao_precisa": "Tese e razões organizadas",
+            "fonte": "Edital 01/2026, capítulo 10; síntese didática autoral."
+          },
+          {
+            "termo": "Regras materiais",
+            "definicao_precisa": "20–30 linhas; conferir capítulo 10",
+            "fonte": "Edital 01/2026, capítulo 10; síntese didática autoral."
           }
         ],
         "pegadinhas_fcc": [
           {
-            "armadilha": "Modelo pronto de cursinho/ENEM",
-            "como_a_fcc_cobra": "Candidato abre com 'Segundo Zygmunt Bauman...' e fecha com 'Portanto, cabe ao Ministério X...'.",
-            "como_desarmar": "Substituir citações coringa por análise autoral articulada aos textos de apoio e concluir retomando os próprios argumentos."
+            "armadilha": "Modelo pronto",
+            "como_a_fcc_cobra": "Exemplo didático: Copiar introduções decoradas",
+            "como_desarmar": "Produzir formulação própria; observar 10.10.j/k."
           },
           {
-            "armadilha": "Paráfrase disfarçada dos textos de apoio",
-            "como_a_fcc_cobra": "Reescrever com sinônimos o que já está no texto motivador sem acrescentar leitura crítica.",
-            "como_desarmar": "Usar os textos de apoio como ponto de partida para problematizar causas, limites ou implicações não ditas."
+            "armadilha": "Tema amplo",
+            "como_a_fcc_cobra": "Exemplo didático: Qualquer discussão próxima serve",
+            "como_desarmar": "Delimitar a tensão do comando."
           },
           {
-            "armadilha": "Sinal de recuo de parágrafo e rasuras",
-            "como_a_fcc_cobra": "Item 10.9 proíbe sinais gráficos para indicar recuo de parágrafo; item 10.8 desconsidera trechos rasurados.",
-            "como_desarmar": "Usar apenas o espaço em branco de recuo; riscar o mínimo possível (ou zero) com rascunho bem planejado."
+            "armadilha": "Repertório",
+            "como_a_fcc_cobra": "Exemplo didático: Citação garante nota",
+            "como_desarmar": "Explicar a contribuição do conhecimento."
           }
         ],
         "quadro_comparativo": [
           {
-            "criterio": "Recorte Temático",
-            "pontos": 2,
-            "bloco": "Tema (7,00)"
+            "conceito": "Recorte",
+            "criterio": "Relação precisa solicitada"
           },
           {
-            "criterio": "Interpretação Crítica dos Textos de Apoio",
-            "pontos": 2,
-            "bloco": "Tema (7,00)"
+            "conceito": "Autoria",
+            "criterio": "Argumentação própria e pertinente"
           },
           {
-            "criterio": "Progressão Textual",
-            "pontos": 3,
-            "bloco": "Tema (7,00)"
+            "conceito": "Projeto",
+            "criterio": "Tese e razões organizadas"
           },
           {
-            "criterio": "Coesão Textual",
-            "pontos": 1.6,
-            "bloco": "Norma-Padrão (3,00)"
-          },
-          {
-            "criterio": "Propriedade Vocabular",
-            "pontos": 0.8,
-            "bloco": "Norma-Padrão (3,00)"
-          },
-          {
-            "criterio": "Morfossintaxe",
-            "pontos": 0.6,
-            "bloco": "Norma-Padrão (3,00)"
+            "conceito": "Regras materiais",
+            "criterio": "20–30 linhas; conferir capítulo 10"
           }
         ],
         "checklist_revisao": [
-          "Minha introdução apresenta tese autoral e delimita exatamente o recorte do comando?",
-          "Evitei citações artificiais/decoradas e evitei parafrasear os textos de apoio?",
-          "Meu texto ficou entre 20 e 30 linhas, sem sinais de recuo e sem rasuras?"
+          "Consigo aplicar recorte ao meu próprio texto?",
+          "Consigo aplicar autoria ao meu próprio texto?",
+          "Consigo aplicar projeto ao meu próprio texto?",
+          "Consigo aplicar regras materiais ao meu próprio texto?"
         ]
       },
       "questoes": [
@@ -30337,7 +30323,7 @@
             "A": "Contraria diretamente a observação oficial do edital (item 10.4.1.a).",
             "B": "Impacta diretamente o bloco de Tema (Recorte e Progressão), não apenas Morfossintaxe.",
             "D": "Prejudica a nota, mas não consta entre as hipóteses taxativas de nota zero do item 10.10.",
-            "E": "Erro clássico de quem aplica fórmula de ENEM em prova discursiva da FCC."
+            "E": "O edital não impõe a grade de intervenção do ENEM."
           },
           "dificuldade": "basica",
           "subtopico": "Evitar tangenciamento e repertório decorado/artificial"
@@ -30381,9 +30367,9 @@
           "justificativa_gabarito": "O item 10.10.i estabelece expressamente nota ZERO à redação que apresentar até 7 (sete) linhas escritas (além de fuga ao tema, texto em branco, assinatura fora do local etc.).",
           "analise_distratores": {
             "A": "22 linhas está dentro do intervalo válido (20 a 30 linhas).",
-            "B": "A FCC não exige proposta de intervenção estilo ENEM.",
+            "B": "O item 10.4.1.c exige conclusão articulada, não fórmula de intervenção.",
             "D": "Problematizar criticamente os textos de apoio é incentivado no item 10.4.1.b.",
-            "E": "A FCC valoriza autoria e chega a alertar contra excesso de citações de autores."
+            "E": "Citação não é requisito; predomínio de citações pode prejudicar."
           },
           "dificuldade": "basica",
           "subtopico": "Leitura do comando e delimitação estrita do recorte"
@@ -30433,13 +30419,197 @@
           },
           "dificuldade": "intermediaria",
           "subtopico": "Evitar tangenciamento e repertório decorado/artificial"
+        },
+        {
+          "questao_id": "RED-FCC-01-EXP-Q001",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — exercício autoral de redação, não questão oficial FCC",
+          "enunciado": "Proposta: discutir a relação entre rapidez de comunicação e qualidade da informação. Qual tese delimita melhor essa relação?",
+          "alternativas": {
+            "A": "A tecnologia modifica a sociedade.",
+            "B": "Informações são importantes desde tempos antigos.",
+            "C": "A rapidez amplia a circulação, mas sua utilidade depende de critérios de verificação.",
+            "D": "A internet é uma ferramenta que tem vantagens.",
+            "E": "A sociedade enfrenta vários desafios."
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "A tese relaciona rapidez, qualidade e condição de verificação.",
+          "analise_distratores": {
+            "A": "Tema amplo sem tensão.",
+            "B": "Generalidade histórica.",
+            "D": "Não trata da qualidade.",
+            "E": "Não apresenta a relação solicitada."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Leitura do comando e delimitação estrita do recorte"
+        },
+        {
+          "questao_id": "RED-FCC-01-EXP-Q002",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — exercício autoral de redação, não questão oficial FCC",
+          "enunciado": "Em uma proposta sobre conveniência digital e inclusão, um texto discute exclusivamente a história dos computadores. O principal problema é",
+          "alternativas": {
+            "A": "a falta de citação de filósofos.",
+            "B": "o deslocamento do recorte para outro tema.",
+            "C": "o emprego de linguagem formal.",
+            "D": "a inexistência de solução estatal.",
+            "E": "o uso de uma perspectiva histórica em qualquer contexto."
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "A história do computador não responde por si à tensão do comando.",
+          "analise_distratores": {
+            "A": "Citação não é obrigatória.",
+            "C": "Formalidade é compatível.",
+            "D": "Proposta estatal não é exigida.",
+            "E": "Perspectiva histórica pode ser pertinente se articulada."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Leitura do comando e delimitação estrita do recorte"
+        },
+        {
+          "questao_id": "RED-FCC-01-EXP-Q003",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — exercício autoral de redação, não questão oficial FCC",
+          "enunciado": "Qual emprego de repertório é mais produtivo em uma redação sobre mobilidade e acesso a serviços?",
+          "alternativas": {
+            "A": "Citar nomes de três autores sem explicar seus conceitos.",
+            "B": "Atribuir uma frase inventada a um pesquisador.",
+            "C": "Inserir estatística sem fonte sobre todas as cidades.",
+            "D": "Explicar como distâncias e horários de transporte condicionam o acesso, com exemplo delimitado.",
+            "E": "Apresentar uma citação decorada sobre assunto diferente."
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "O repertório deve sustentar o mecanismo argumentativo.",
+          "analise_distratores": {
+            "A": "Nomes não substituem razões.",
+            "B": "Atribuição falsa compromete confiabilidade.",
+            "C": "Dado não verificado é inadequado.",
+            "E": "Desloca o tema."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Evitar tangenciamento e repertório decorado/artificial"
+        },
+        {
+          "questao_id": "RED-FCC-01-EXP-Q004",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — exercício autoral de redação, não questão oficial FCC",
+          "enunciado": "Na etapa de planejamento, a tese tem a função de",
+          "alternativas": {
+            "A": "expressar posição que os argumentos irão sustentar.",
+            "B": "repetir literalmente o comando.",
+            "C": "enumerar qualquer assunto próximo.",
+            "D": "introduzir obrigatoriamente uma estatística.",
+            "E": "substituir a conclusão."
+          },
+          "gabarito": "A",
+          "justificativa_gabarito": "Tese orienta a defesa do ponto de vista.",
+          "analise_distratores": {
+            "B": "Repetição não expressa posição.",
+            "C": "Temas próximos podem desviar.",
+            "D": "Estatística não é requisito.",
+            "E": "Fechamento tem função própria."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Leitura do comando e delimitação estrita do recorte"
+        },
+        {
+          "questao_id": "RED-FCC-01-EXP-Q005",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — exercício autoral de redação, não questão oficial FCC",
+          "enunciado": "O item 10.10.j do edital de abertura prevê nota zero quando se identifica cópia de modelo pronto de acesso público, inclusive em parte. A prática adequada no estudo é",
+          "alternativas": {
+            "A": "memorizar um texto universal.",
+            "B": "copiar trechos alterando nomes de instituições.",
+            "C": "usar a mesma redação em concursos diferentes.",
+            "D": "decorar introduções públicas para inserção literal.",
+            "E": "analisar estratégias e elaborar texto próprio para cada proposta."
+          },
+          "gabarito": "E",
+          "justificativa_gabarito": "O treino deve desenvolver autonomia, não reprodução de modelos.",
+          "analise_distratores": {
+            "A": "Modelo pronto pode zerar.",
+            "B": "Trocas superficiais não garantem autoria.",
+            "C": "Reutilização idêntica é hipótese prevista também no item k para cargos diferentes.",
+            "D": "Inserção literal pode configurar cópia."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Evitar tangenciamento e repertório decorado/artificial"
+        },
+        {
+          "questao_id": "RED-FCC-01-EXP-Q006",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — exercício autoral de redação, não questão oficial FCC",
+          "enunciado": "Diante de uma proposta de interesse geral sobre autonomia, o candidato a professor de Geografia deve",
+          "alternativas": {
+            "A": "transformar toda discussão em descrição de relevo.",
+            "B": "responder como se fosse uma questão objetiva.",
+            "C": "construir posição pertinente ao comando, usando conhecimentos específicos apenas se relevantes.",
+            "D": "evitar exemplos escolares em todos os casos.",
+            "E": "obrigatoriamente inserir dados do Maranhão."
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "O item 10.3 não restringe tema ao conhecimento específico.",
+          "analise_distratores": {
+            "A": "Desloca recorte.",
+            "B": "Gênero é dissertativo-argumentativo.",
+            "D": "Exemplos escolares podem ajudar.",
+            "E": "Não há essa exigência."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Leitura do comando e delimitação estrita do recorte"
+        },
+        {
+          "questao_id": "RED-FCC-01-EXP-Q007",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — exercício autoral de redação, não questão oficial FCC",
+          "enunciado": "Segundo a cópia do edital, uma redação de 19 linhas e outra de sete linhas estão sujeitas, quanto à extensão, respectivamente, a",
+          "alternativas": {
+            "A": "zero automático em ambos os casos.",
+            "B": "risco de perda de pontos e nota zero.",
+            "C": "nota máxima e risco de perda.",
+            "D": "nenhuma consequência e nota máxima.",
+            "E": "zero e nota máxima."
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "10.12 exige 20–30 linhas; 10.10.i prevê zero até sete.",
+          "analise_distratores": {
+            "A": "19 não é hipótese de zero apenas pela extensão.",
+            "C": "19 está fora da faixa; sete é zero.",
+            "D": "Há regras de extensão.",
+            "E": "Inverte as consequências."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Leitura do comando e delimitação estrita do recorte"
+        },
+        {
+          "questao_id": "RED-FCC-01-EXP-Q008",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — exercício autoral de redação, não questão oficial FCC",
+          "enunciado": "Qual projeto apresenta dois argumentos distintos para a tese de que a digitalização não garante inclusão?",
+          "alternativas": {
+            "A": "D1: inclusão é importante; D2: incluir é necessário.",
+            "B": "D1: tecnologia existe; D2: a internet existe.",
+            "C": "D1: citar filósofo; D2: citar outro filósofo.",
+            "D": "D1: barreiras materiais de conexão; D2: dificuldades de uso mesmo quando existe conexão.",
+            "E": "D1: história dos computadores; D2: classificação de rochas."
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "Os eixos distinguem infraestrutura de habilidades e sustentam a tese.",
+          "analise_distratores": {
+            "A": "Repete avaliação.",
+            "B": "Não explica desigualdade.",
+            "C": "Citações não são argumentos por si.",
+            "E": "Desloca recorte."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Evitar tangenciamento e repertório decorado/artificial"
         }
       ],
       "flashcards": [
         {
           "card_id": "RED-FCC-01-FC001",
-          "frente": "Qual o peso real da Redação na Nota Final (sem títulos) da SEDUC-MA 2026?",
-          "verso": "50,00% (10,00 pontos de 20,00 — o mesmo peso de toda a Prova Objetiva somada).",
+          "frente": "Qual a nota máxima e a nota mínima de habilitação da redação?",
+          "verso": "Máxima 10; mínima 6, conforme 10.13 e 10.13.1 da cópia do edital.",
           "tipo": "legislacao_dado",
           "tags": [
             "pesos",
@@ -30495,9 +30665,149 @@
             "regras-formais",
             "linhas"
           ]
+        },
+        {
+          "card_id": "RED-FCC-01-EXP-FC001",
+          "frente": "Tema × recorte",
+          "verso": "Tema é assunto amplo; recorte delimita relação específica.",
+          "tipo": "conceito",
+          "tags": [
+            "redacao-fcc",
+            "red-fcc-01"
+          ]
+        },
+        {
+          "card_id": "RED-FCC-01-EXP-FC002",
+          "frente": "Problema × tese",
+          "verso": "Pergunta argumentativa × posição defendida.",
+          "tipo": "conceito",
+          "tags": [
+            "redacao-fcc",
+            "red-fcc-01"
+          ]
+        },
+        {
+          "card_id": "RED-FCC-01-EXP-FC003",
+          "frente": "Tese genérica",
+          "verso": "Serve para muitos temas e não responde à tensão proposta.",
+          "tipo": "conceito",
+          "tags": [
+            "redacao-fcc",
+            "red-fcc-01"
+          ]
+        },
+        {
+          "card_id": "RED-FCC-01-EXP-FC004",
+          "frente": "Projeto de texto",
+          "verso": "Organiza tese, razões e fechamento.",
+          "tipo": "conceito",
+          "tags": [
+            "redacao-fcc",
+            "red-fcc-01"
+          ]
+        },
+        {
+          "card_id": "RED-FCC-01-EXP-FC005",
+          "frente": "Dois eixos",
+          "verso": "Devem cumprir funções distintas e sustentar a tese.",
+          "tipo": "conceito",
+          "tags": [
+            "redacao-fcc",
+            "red-fcc-01"
+          ]
+        },
+        {
+          "card_id": "RED-FCC-01-EXP-FC006",
+          "frente": "Repertório pertinente",
+          "verso": "Conhecimento ligado ao mecanismo ou razão defendida.",
+          "tipo": "conceito",
+          "tags": [
+            "redacao-fcc",
+            "red-fcc-01"
+          ]
+        },
+        {
+          "card_id": "RED-FCC-01-EXP-FC007",
+          "frente": "Citação obrigatória?",
+          "verso": "Não. Predomínio de citações pode prejudicar.",
+          "tipo": "conceito",
+          "tags": [
+            "redacao-fcc",
+            "red-fcc-01"
+          ]
+        },
+        {
+          "card_id": "RED-FCC-01-EXP-FC008",
+          "frente": "Modelos públicos prontos",
+          "verso": "Cópia total ou parcial pode zerar, item 10.10.j.",
+          "tipo": "conceito",
+          "tags": [
+            "redacao-fcc",
+            "red-fcc-01"
+          ]
+        },
+        {
+          "card_id": "RED-FCC-01-EXP-FC009",
+          "frente": "Tema necessariamente Geografia?",
+          "verso": "Não. Interesse geral, item 10.3.",
+          "tipo": "conceito",
+          "tags": [
+            "redacao-fcc",
+            "red-fcc-01"
+          ]
+        },
+        {
+          "card_id": "RED-FCC-01-EXP-FC010",
+          "frente": "Tangenciar",
+          "verso": "Discutir tema próximo sem desenvolver a relação pedida.",
+          "tipo": "conceito",
+          "tags": [
+            "redacao-fcc",
+            "red-fcc-01"
+          ]
+        },
+        {
+          "card_id": "RED-FCC-01-EXP-FC011",
+          "frente": "19 linhas",
+          "verso": "Fora da faixa exigida; risco de perda de pontos por extensão.",
+          "tipo": "conceito",
+          "tags": [
+            "redacao-fcc",
+            "red-fcc-01"
+          ]
+        },
+        {
+          "card_id": "RED-FCC-01-EXP-FC012",
+          "frente": "Sete linhas",
+          "verso": "Hipótese expressa de zero.",
+          "tipo": "conceito",
+          "tags": [
+            "redacao-fcc",
+            "red-fcc-01"
+          ]
+        },
+        {
+          "card_id": "RED-FCC-01-EXP-FC013",
+          "frente": "Folha válida",
+          "verso": "Resposta definitiva, não rascunho.",
+          "tipo": "conceito",
+          "tags": [
+            "redacao-fcc",
+            "red-fcc-01"
+          ]
+        },
+        {
+          "card_id": "RED-FCC-01-EXP-FC014",
+          "frente": "Planejamento de quatro parágrafos",
+          "verso": "Possibilidade didática, não regra oficial.",
+          "tipo": "conceito",
+          "tags": [
+            "redacao-fcc",
+            "red-fcc-01"
+          ]
         }
       ],
-      "teoria_md": "---\ntopico_id: RED-FCC-01\nslug: recorte-tematico-projeto-texto\ntitulo: \"Recorte Temático, Autoria e Projeto de Texto na Redação FCC (2,00 pts)\"\nedital: SEDUC-MA-01-2026\nbanca: FCC\nstatus: em_auditoria\n---\n\n# 1. Por Que Esta Unidade Vale Metade da Sua Aprovação (Camada A)\nNo Edital SEAD/MA nº 01/2026 (item 13.1), a Redação vale **10,00 pontos** — exatamente o mesmo peso de **toda a Prova Objetiva somada**. Para quem não possui títulos (0,00/2,30), a Redação representa **50% da nota máxima alcançável**.\n\n- **Nota mínima para não ser eliminado:** `6,00` (item 10.13.1).\n- **Extensão obrigatória:** mínimo de **20 linhas** e máximo de **30 linhas** (até 7 linhas = nota ZERO, item 10.10.i).\n- **Tema:** assunto de **interesse geral**, não necessariamente ligado à Geografia (item 10.3).\n\n# 2. O Que a FCC Avalia no Critério \"Recorte Temático\" (2,00 de 7,00 pts do Tema)\nDiferentemente de bancas que operam com grades mecânicas, a FCC declara expressamente (item 10.4) que **o texto constitui uma unidade avaliada em estreita correlação** — ou seja, um erro no recorte temático derruba a nota em **todos os demais critérios** ([Portal Concursos — Redação FCC](https://cursosdoportal.com.br/noticias/redacao-da-fcc-criterios-de-correcao-e-o-que-zera-a-prova)).\n\n### As 3 Regras de Ouro do Edital (Item 10.4.1.a)\n1. **Consistência do recorte:** responder exatamente à problematização proposta, sem diluir o tema em generalidades.\n2. **Projeto de texto claro e autoral:** o leitor precisa perceber, desde a introdução, qual tese você defende e qual caminho argumentativo vai percorrer.\n3. **Alerta anti-ENEM expresso no edital:** *o texto pode ser prejudicado caso se detenha predominantemente na citação de autores consagrados e produtos culturais* (ex.: jogar Bauman, Kant, Constituição ou séries da Netflix de forma decorada e descolada do argumento).\n\n# 3. Diferença Crítica: Redação Padrão ENEM × Redação Padrão FCC\n\n| Dimensão | Padrão ENEM / Cursinho Genérico | Padrão FCC (Edital SEDUC-MA 01/2026) |\n| :--- | :--- | :--- |\n| **Foco temático** | Problema social brasileiro concreto | Tema reflexivo/filosófico-social de interesse geral |\n| **Repertório** | Citações \"coringa\" quase obrigatórias | **Penaliza** excesso de citações artificiais; premia **autoria e raciocínio próprio** |\n| **Textos de apoio** | Apenas motivadores (não copiar) | **Avaliados em critério próprio (2,00 pts)**: exige leitura crítica e problematização sem paráfrase |\n| **Conclusão** | Proposta de intervenção (agente, ação, meio, efeito) | **Proíbe implicitamente** soluções desarticuladas; exige **fechamento lógico dos argumentos** |\n\n# 4. Método Prático de 4 Passos para Montar o Projeto de Texto (15 minutos)\n1. **Desmonte o comando em 3 núcleos:** (a) Objeto central; (b) Tensão/conflito filosófico ou social; (c) Posicionamento exigido.\n2. **Mapeie a tese dos textos de apoio:** anote em 1 linha o que cada texto defende e onde você pode aprofundar ou tensionar aquela ideia (sem parafrasear).\n3. **Defina 1 Tese Central + 2 Argumentos Próprios (D1 e D2):**\n   - **Introdução (5–6 linhas):** contextualização autoral + apresentação clara da tese + antecipação dos dois eixos.\n   - **Desenvolvimento 1 (7–8 linhas):** causa/dimensão estrutural do problema + análise crítica própria.\n   - **Desenvolvimento 2 (7–8 linhas):** consequência/tensão contemporânea + diálogo crítico com o recorte.\n   - **Conclusão (5–6 linhas):** síntese argumentativa que amarre D1 e D2 à tese, sem \"receita de bolo\" ministerial.\n4. **Checagem de tangenciamento:** releia sua tese e pergunte: *\"Esta frase só serve para ESTE tema ou serviria para qualquer redação?\"* Se servir para qualquer tema, reescreva até ficar cirúrgica.\n"
+      "teoria_md": "# 1. Conhecer a avaliação antes de escrever\n\nA redação do edital de abertura SEDUC-MA 01/2026 exige dissertação argumentativa de autoria do candidato, sobre tema geral. O capítulo 10, páginas 31–33 da cópia conferida em 26/11/2026, estabelece nota de 0 a 10, habilitação a partir de 6 e extensão de 20 a 30 linhas. Confira retificações no portal da FCC antes da prova.\n\n| Critério | Pontos máximos |\n|---|---:|\n| Recorte temático | 2,00 |\n| Interpretação crítica dos textos de apoio | 2,00 |\n| Progressão textual | 3,00 |\n| Propriedade vocabular | 0,80 |\n| Coesão textual | 1,60 |\n| Morfossintaxe | 0,60 |\n\nOs critérios se relacionam; a distribuição não é uma fórmula de desconto por palavra ou erro. A extensão fora da faixa pode reduzir a nota; até sete linhas é hipótese expressa de zero. A folha definitiva é a única corrigida. A reprodução de modelos prontos, inclusive parcial, pode zerar a prova (10.10.j/k). Todo exemplo deste curso é material de análise, nunca texto a decorar ou reproduzir.\n\n# 2. Tema, recorte, problema e tese\n\nTema é a área de discussão. Recorte determina a relação específica a examinar. Problema transforma essa relação em pergunta; tese oferece resposta argumentável. Em \"Os limites da rapidez na circulação de informações\", o tema amplo é informação, o recorte é a relação entre rapidez e limites, e o problema pode ser: por que rapidez não assegura qualidade? Uma tese possível sustenta que agilidade só é útil quando acompanhada de verificação e responsabilidade.\n\nNão basta repetir a proposta com sinônimos. \"A rapidez informacional é importante nos dias atuais\" não identifica a tensão. \"A rapidez amplia o acesso, mas pode fragilizar a confiança quando a checagem fica em segundo plano\" estabelece uma posição. Tese não é necessariamente radical: pode reconhecer condições e exceções.\n\n# 3. Autoria e repertório pertinente\n\nAutoria consiste em selecionar, relacionar e interpretar razões em defesa de uma posição. Conhecimento escolar, observação do cotidiano, exemplos hipotéticos, conceitos e dados confiáveis podem servir à argumentação. A citação só se justifica se desempenhar função no raciocínio. Não invente estatísticas, frases de pensadores ou leis. O edital adverte contra o predomínio de referências a autores e produtos culturais.\n\nExemplo de exercício: uma redação sobre convivência e divergência pode explorar regras comuns de diálogo e condições de escuta, sem citar nenhum filósofo. A precisão da relação entre esses elementos vale mais que a lista de nomes. Evite transformar qualquer tema em uma aula de Geografia: a proposta pode exigir reflexão de interesse geral.\n\n# 4. Planejar antes de redigir\n\nLeia comando e apoio; anote objeto, relação e restrições. Formule uma tese em uma frase. Escolha dois argumentos que desempenhem funções distintas e escreva uma explicação para cada um. Verifique se ambos conduzem à tese. Em seguida, planeje o fechamento.\n\n| Etapa | Pergunta de controle |\n|---|---|\n| Recorte | Qual tensão preciso discutir? |\n| Tese | Que posição defenderei? |\n| Argumento 1 | Qual razão sustenta a tese? |\n| Argumento 2 | Que dimensão diferente amplia a análise? |\n| Conclusão | Que consequência decorre das razões? |\n\nQuatro parágrafos podem ser um bom exercício de organização, não uma imposição da banca. Distribua tempo e espaço considerando sua letra e capacidade de revisão. Uma folha real com 30 linhas é melhor referência de extensão que uma contagem de palavras na tela.\n\n# 5. Oficina: autonomia e tecnologia\n\nTexto de apoio autoral A: Uma ferramenta que sugere caminhos pode facilitar decisões. Quando a sugestão substitui a reflexão, a pessoa deixa de avaliar por que escolheu determinado caminho.\n\nTexto de apoio autoral B: Nem toda delegação diminui a autonomia. Uma calculadora, por exemplo, pode liberar atenção para interpretar um problema, desde que o usuário compreenda o que precisa calcular.\n\nProposta inédita: discuta em que condições a assistência tecnológica fortalece ou enfraquece a autonomia de decisão.\n\nAntes de escrever, liste as condições de ganho e de perda. Evite restringir a discussão a uma marca de aplicativo. Produza duas teses distintas, uma centrada em formação crítica e outra em responsabilidade. Escolha uma e formule dois argumentos com mecanismo e consequência. Escreva a introdução e compare com a proposta, sem copiar os apoios.\n\n# 6. Prática de recorte e autoavaliação\n\nProposta de treino inédita: discuta a tensão entre a conveniência de serviços digitais e a inclusão de pessoas com diferentes condições de acesso.\n\nApoio autoral: a possibilidade de resolver uma demanda a distância reduz deslocamentos para parte da população; para quem não dispõe de conexão, dispositivo ou habilidade digital, a mesma mudança pode criar novas barreiras.\n\nAtividade: faça um projeto em cinco frases (recorte, tese, dois argumentos e fechamento); depois redija 20 a 30 linhas em papel. Verifique se discute conveniência E inclusão, se diferencia os argumentos e se a conclusão deriva deles. Marque a passagem em que cada argumento é explicado. Reescreva a parte mais genérica.\n\nRecupere sem consulta: os seis critérios; a diferença entre recorte e tema; o papel do repertório; a regra contra modelos; por que uma tese deve ser específica."
     },
     {
       "schema_version": "2.0.0",
@@ -30507,72 +30817,82 @@
       "titulo": "Interpretação Crítica dos Textos de Apoio na Redação FCC (2,00 pts)",
       "status": "em_auditoria",
       "origem": "edital_explicito",
-      "tempo_leitura_min": 25,
+      "tempo_leitura_min": 35,
       "edital_subtopicos": [
         "Problematização crítica sem paráfrase mecânica",
         "Construção de ponto de vista original a partir dos motivadores"
       ],
       "fontes_primarias": [
         {
-          "referencia_abnt": "MARANHÃO. Secretaria de Estado da Administração. Edital nº 01/2026 — SEAD/SEDUC-MA (Capítulo 10, itens 10.4.1.b e 10.7). São Luís: SEAD/FCC, 2026. pp. 31-32.",
+          "referencia_abnt": "MARANHÃO. SEAD. Edital nº 01/2026, 17 nov. 2026, cap. 10, p. 31–33. Cópia do documento conferida visualmente em 26 nov. 2026; verificar retificações na FCC.",
           "tipo": "edital",
           "nivel_autoridade": 1,
-          "url": "https://www.concursosfcc.com.br"
-        },
-        {
-          "referencia_abnt": "PORTAL CONCURSOS. Redação da FCC: critérios de correção e o que zera a prova. 2026.",
-          "tipo": "prova_fcc",
-          "nivel_autoridade": 4,
-          "url": "https://cursosdoportal.com.br/noticias/redacao-da-fcc-criterios-de-correcao-e-o-que-zera-a-prova"
+          "url": "https://dhg1h5j42swfq.cloudfront.net/2026/11/18082120/seadm226_edital_de_abertura_1_17_11_26_publicado-1.pdf"
         }
       ],
       "sintese_fcc": {
         "conceitos_nucleares": [
           {
-            "termo": "Interpretação Crítica (2,00 pts)",
-            "definicao_precisa": "Discutir e problematizar sob perspectiva original as ideias dos textos de apoio, sem predomínio de paráfrase.",
-            "fonte": "Edital SEAD/MA nº 01/2026, item 10.4.1.b."
+            "termo": "Leitura crítica",
+            "definicao_precisa": "Interpretar e problematizar",
+            "fonte": "Edital 01/2026, capítulo 10; síntese didática autoral."
           },
           {
-            "termo": "Vedação de Reprodução (Item 10.7)",
-            "definicao_precisa": "Copiar trechos dos textos ou questões da prova prejudica a nota em TODOS os critérios.",
-            "fonte": "Edital SEAD/MA nº 01/2026, item 10.7."
+            "termo": "Paráfrase",
+            "definicao_precisa": "Reformulação sem avanço necessário",
+            "fonte": "Edital 01/2026, capítulo 10; síntese didática autoral."
+          },
+          {
+            "termo": "Mecanismo",
+            "definicao_precisa": "Explicação de condições e efeitos",
+            "fonte": "Edital 01/2026, capítulo 10; síntese didática autoral."
+          },
+          {
+            "termo": "Evidência",
+            "definicao_precisa": "Exemplo ou dado pertinente e delimitado",
+            "fonte": "Edital 01/2026, capítulo 10; síntese didática autoral."
           }
         ],
         "pegadinhas_fcc": [
           {
-            "armadilha": "Confundir paráfrase com interpretação crítica",
-            "como_a_fcc_cobra": "Candidato reescreve com sinônimos o argumento do texto motivador achando que está dialogando com ele.",
-            "como_desarmar": "Usar o texto de apoio como degrau: identificar o dilema e acrescentar causa estrutural, limite ou implicação não explícita."
+            "armadilha": "Paráfrase",
+            "como_a_fcc_cobra": "Exemplo didático: Trocar sinônimos já é crítica",
+            "como_desarmar": "Acrescentar mecanismo ou condição."
           },
           {
-            "armadilha": "Ignorar os textos de apoio por medo de copiar",
-            "como_a_fcc_cobra": "Candidato escreve um texto totalmente desconectado do recorte trazido pelos motivadores.",
-            "como_desarmar": "Extrair o eixo problemático dos motivadores e construir uma tese própria que responda diretamente a ele."
+            "armadilha": "Apoio",
+            "como_a_fcc_cobra": "Exemplo didático: Discordar exige ignorá-lo",
+            "como_desarmar": "Representar e discutir razões."
+          },
+          {
+            "armadilha": "Exemplo",
+            "como_a_fcc_cobra": "Exemplo didático: Caso hipotético prova frequência",
+            "como_desarmar": "Distinguir ilustração e evidência empírica."
           }
         ],
         "quadro_comparativo": [
           {
-            "postura": "Cópia literal",
-            "efeito_fcc": "Penalização em todos os critérios (item 10.7)"
+            "conceito": "Leitura crítica",
+            "criterio": "Interpretar e problematizar"
           },
           {
-            "postura": "Paráfrase mecânica",
-            "efeito_fcc": "Penalização em Interpretação Crítica (item 10.4.1.b)"
+            "conceito": "Paráfrase",
+            "criterio": "Reformulação sem avanço necessário"
           },
           {
-            "postura": "Ignorar motivadores",
-            "efeito_fcc": "Risco de tangenciamento e perda em Recorte + Interpretação"
+            "conceito": "Mecanismo",
+            "criterio": "Explicação de condições e efeitos"
           },
           {
-            "postura": "Problematização original",
-            "efeito_fcc": "Pontuação máxima em 10.4.1.b (2,00 pts)"
+            "conceito": "Evidência",
+            "criterio": "Exemplo ou dado pertinente e delimitado"
           }
         ],
         "checklist_revisao": [
-          "Identifiquei o paradoxo/tese central de cada texto de apoio antes de rascunhar?",
-          "Meus parágrafos avançam além dos textos de apoio em vez de apenas parafraseá-los?",
-          "Eliminei qualquer cópia literal de frases dos textos motivadores?"
+          "Consigo aplicar leitura crítica ao meu próprio texto?",
+          "Consigo aplicar paráfrase ao meu próprio texto?",
+          "Consigo aplicar mecanismo ao meu próprio texto?",
+          "Consigo aplicar evidência ao meu próprio texto?"
         ]
       },
       "questoes": [
@@ -30594,7 +30914,7 @@
             "B": "Confunde paráfrase mecânica com leitura crítica.",
             "C": "Falso; a FCC exige problematização sob perspectiva original.",
             "D": "Penaliza diretamente o bloco de Tema (Interpretação Crítica — 2,00 pts).",
-            "E": "Penaliza fortemente a nota, mas não é fuga ao gênero dissertativo."
+            "E": "Predomínio de paráfrase é penalizado; não equivale automaticamente à fuga completa do gênero."
           },
           "dificuldade": "basica",
           "subtopico": "Problematização crítica sem paráfrase mecânica"
@@ -30672,7 +30992,7 @@
           "questao_id": "RED-FCC-02-Q005",
           "origem": "inedita_padrao_fcc",
           "referencia_prova": "Inédita — padrão FCC / Edital SEDUC-MA 01/2026",
-          "enunciado": "Somando-se os subcritérios 'Recorte Temático' e 'Interpretação Crítica dos Textos de Apoio' no Edital SEAD/MA nº 01/2026, qual fração da nota total da Redação (0 a 10,00) depende diretamente da leitura rigorosa da proposta e dos motivadores?",
+          "enunciado": "Qual percentual do máximo de 10 pontos corresponde à soma dos valores máximos de Recorte Temático e Interpretação Crítica dos Textos de Apoio?",
           "alternativas": {
             "A": "10% (1,00 ponto).",
             "B": "20% (2,00 pontos).",
@@ -30681,7 +31001,7 @@
             "E": "40% (4,00 pontos)."
           },
           "gabarito": "E",
-          "justificativa_gabarito": "Recorte Temático (2,00 pts) + Interpretação Crítica dos Textos de Apoio (2,00 pts) somam 4,00 pontos de 10,00 — ou seja, 40% da nota total da redação (além de condicionarem os demais critérios na avaliação integrada).",
+          "justificativa_gabarito": "2+2=4 pontos, ou 40% do máximo. Os critérios são avaliados em conjunto; não se presume proporcionalidade automática.",
           "analise_distratores": {
             "A": "Valor incorreto.",
             "B": "Corresponde a apenas um dos dois subcritérios isoladamente.",
@@ -30689,6 +31009,190 @@
             "D": "7,00 pontos inclui também Progressão Textual (3,00 pts)."
           },
           "dificuldade": "basica",
+          "subtopico": "Construção de ponto de vista original a partir dos motivadores"
+        },
+        {
+          "questao_id": "RED-FCC-02-EXP-Q001",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — exercício autoral de redação, não questão oficial FCC",
+          "enunciado": "Apoio: muitas informações não garantem compreensão. Qual desenvolvimento acrescenta um mecanismo próprio?",
+          "alternativas": {
+            "A": "Ter informações não significa compreender.",
+            "B": "O apoio diz que informação não garante compreensão.",
+            "C": "Sem critérios para comparar fontes, o leitor pode acumular dados contraditórios sem saber avaliá-los.",
+            "D": "A compreensão é importante e existem muitas informações.",
+            "E": "Desde sempre, a sociedade discute informação."
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "Explica como falta de critérios limita compreensão.",
+          "analise_distratores": {
+            "A": "Paráfrase.",
+            "B": "Repete apoio.",
+            "D": "Generalidade.",
+            "E": "Não desenvolve relação."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Problematização crítica sem paráfrase mecânica"
+        },
+        {
+          "questao_id": "RED-FCC-02-EXP-Q002",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — exercício autoral de redação, não questão oficial FCC",
+          "enunciado": "Apoio: a flexibilidade de horários pode ampliar autonomia quando há escolha. Qual interpretação respeita a ressalva?",
+          "alternativas": {
+            "A": "Flexibilidade sempre reduz autonomia.",
+            "B": "O benefício depende da possibilidade real de escolher os horários.",
+            "C": "Qualquer horário flexível garante liberdade.",
+            "D": "O apoio afirma que toda tecnologia é nociva.",
+            "E": "O apoio comprova estatisticamente o aumento da autonomia."
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "A condição expressa limita o alcance.",
+          "analise_distratores": {
+            "A": "Inverte a posição.",
+            "C": "Ignora a condição.",
+            "D": "Generalização não sustentada.",
+            "E": "Não apresenta estatística."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Problematização crítica sem paráfrase mecânica"
+        },
+        {
+          "questao_id": "RED-FCC-02-EXP-Q003",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — exercício autoral de redação, não questão oficial FCC",
+          "enunciado": "Um apoio enfatiza ampliação de vozes no debate; outro, necessidade de escuta. Qual tese articula ambos?",
+          "alternativas": {
+            "A": "Toda divergência deve ser proibida.",
+            "B": "Escutar dispensa participação.",
+            "C": "A quantidade de opiniões garante compreensão.",
+            "D": "A participação amplia perspectivas, mas requer escuta para produzir diálogo.",
+            "E": "O debate público não possui relação com opiniões."
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "A tese relaciona participação e qualidade do diálogo.",
+          "analise_distratores": {
+            "A": "Nega participação.",
+            "B": "Apaga a primeira dimensão.",
+            "C": "Confunde quantidade com qualidade.",
+            "E": "Contradiz o assunto."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Construção de ponto de vista original a partir dos motivadores"
+        },
+        {
+          "questao_id": "RED-FCC-02-EXP-Q004",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — exercício autoral de redação, não questão oficial FCC",
+          "enunciado": "Uma redação reproduz integralmente frases do caderno de prova em seus desenvolvimentos. Conforme o item 10.7, a consequência prevista é",
+          "alternativas": {
+            "A": "prejuízo na nota em todos os critérios.",
+            "B": "bônus de fidelidade ao apoio.",
+            "C": "desconto fixo de 0,10 ponto.",
+            "D": "nenhuma perda quando há aspas.",
+            "E": "perda apenas de vocabulário."
+          },
+          "gabarito": "A",
+          "justificativa_gabarito": "A regra prevê prejuízo global, sem fixar valor mecânico.",
+          "analise_distratores": {
+            "B": "Não há bônus.",
+            "C": "Não fixa desconto.",
+            "D": "Aspas não anulam a regra.",
+            "E": "Não se limita ao vocabulário."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Problematização crítica sem paráfrase mecânica"
+        },
+        {
+          "questao_id": "RED-FCC-02-EXP-Q005",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — exercício autoral de redação, não questão oficial FCC",
+          "enunciado": "Um exemplo hipotético de família sem internet é empregado para explicar barreiras de agendamento digital. Sua função adequada é",
+          "alternativas": {
+            "A": "demonstrar a porcentagem real de famílias excluídas.",
+            "B": "provar que todos os serviços digitais são inacessíveis.",
+            "C": "substituir qualquer explicação de causa.",
+            "D": "confirmar automaticamente um dado estatístico.",
+            "E": "ilustrar um mecanismo possível sem pretender medir sua frequência."
+          },
+          "gabarito": "E",
+          "justificativa_gabarito": "Exemplo hipotético ilustra mecanismo, não prevalência.",
+          "analise_distratores": {
+            "A": "Não mede frequência.",
+            "B": "Generalização indevida.",
+            "C": "Exemplo precisa de análise.",
+            "D": "Não confirma estatística."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Construção de ponto de vista original a partir dos motivadores"
+        },
+        {
+          "questao_id": "RED-FCC-02-EXP-Q006",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — exercício autoral de redação, não questão oficial FCC",
+          "enunciado": "Qual atitude caracteriza leitura crítica diante de um texto de apoio que defende tese diferente da sua?",
+          "alternativas": {
+            "A": "Ignorar o texto.",
+            "B": "Distorcer a posição para refutá-la facilmente.",
+            "C": "Reconhecer o argumento e discutir seus limites com razões pertinentes.",
+            "D": "Copiar o texto para demonstrar concordância.",
+            "E": "Discordar sem oferecer razões."
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "Crítica exige fidelidade e fundamentação.",
+          "analise_distratores": {
+            "A": "Perde diálogo.",
+            "B": "Cria falsa oposição.",
+            "D": "Cópia não é análise.",
+            "E": "Não sustenta posição."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Construção de ponto de vista original a partir dos motivadores"
+        },
+        {
+          "questao_id": "RED-FCC-02-EXP-Q007",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — exercício autoral de redação, não questão oficial FCC",
+          "enunciado": "Apoio: a preservação de tradições não exige imobilidade. Qual passagem amplia o argumento?",
+          "alternativas": {
+            "A": "Preservar não significa deixar tudo imóvel.",
+            "B": "A participação dos praticantes permite atualizar formas de transmissão sem apagar o significado da tradição.",
+            "C": "Tradições existem há muito tempo.",
+            "D": "A preservação deve preservar.",
+            "E": "Apoios são textos de leitura."
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "Introduz mecanismo: participação e transmissão.",
+          "analise_distratores": {
+            "A": "Paráfrase.",
+            "C": "Generalidade.",
+            "D": "Circularidade.",
+            "E": "Metacomentário irrelevante."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Problematização crítica sem paráfrase mecânica"
+        },
+        {
+          "questao_id": "RED-FCC-02-EXP-Q008",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — exercício autoral de redação, não questão oficial FCC",
+          "enunciado": "Ao usar dado de pesquisa em redação, a melhor conduta é",
+          "alternativas": {
+            "A": "inventar número preciso para parecer informado.",
+            "B": "atribuir qualquer número a um instituto conhecido.",
+            "C": "usar dado de contexto diferente como prova universal.",
+            "D": "utilizar informação verificável e delimitar seu contexto ou dispensar o número se não houver segurança.",
+            "E": "tratar previsão como resultado observado."
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "Evidência exige confiabilidade e pertinência.",
+          "analise_distratores": {
+            "A": "Invenção é indevida.",
+            "B": "Atribuição não garante validade.",
+            "C": "Extrapolação.",
+            "E": "Previsão não é observação."
+          },
+          "dificuldade": "intermediaria",
           "subtopico": "Construção de ponto de vista original a partir dos motivadores"
         }
       ],
@@ -30750,9 +31254,149 @@
           "tags": [
             "autoria"
           ]
+        },
+        {
+          "card_id": "RED-FCC-02-EXP-FC001",
+          "frente": "Paráfrase",
+          "verso": "Reformulação de sentido, sem necessariamente acrescentar análise.",
+          "tipo": "conceito",
+          "tags": [
+            "redacao-fcc",
+            "red-fcc-02"
+          ]
+        },
+        {
+          "card_id": "RED-FCC-02-EXP-FC002",
+          "frente": "Problematizar",
+          "verso": "Examinar causas, condições, efeitos e limites.",
+          "tipo": "conceito",
+          "tags": [
+            "redacao-fcc",
+            "red-fcc-02"
+          ]
+        },
+        {
+          "card_id": "RED-FCC-02-EXP-FC003",
+          "frente": "Mecanismo",
+          "verso": "Explica como um fator produz ou condiciona um efeito.",
+          "tipo": "conceito",
+          "tags": [
+            "redacao-fcc",
+            "red-fcc-02"
+          ]
+        },
+        {
+          "card_id": "RED-FCC-02-EXP-FC004",
+          "frente": "Exemplo hipotético",
+          "verso": "Ilustra possibilidade, não comprova frequência.",
+          "tipo": "conceito",
+          "tags": [
+            "redacao-fcc",
+            "red-fcc-02"
+          ]
+        },
+        {
+          "card_id": "RED-FCC-02-EXP-FC005",
+          "frente": "Causalidade × associação",
+          "verso": "Associação isolada não demonstra causa.",
+          "tipo": "conceito",
+          "tags": [
+            "redacao-fcc",
+            "red-fcc-02"
+          ]
+        },
+        {
+          "card_id": "RED-FCC-02-EXP-FC006",
+          "frente": "Concordância crítica",
+          "verso": "Reconhecer e fundamentar, acrescentando análise.",
+          "tipo": "conceito",
+          "tags": [
+            "redacao-fcc",
+            "red-fcc-02"
+          ]
+        },
+        {
+          "card_id": "RED-FCC-02-EXP-FC007",
+          "frente": "Discordância crítica",
+          "verso": "Representar fielmente a posição e oferecer razões.",
+          "tipo": "conceito",
+          "tags": [
+            "redacao-fcc",
+            "red-fcc-02"
+          ]
+        },
+        {
+          "card_id": "RED-FCC-02-EXP-FC008",
+          "frente": "Dois textos de apoio",
+          "verso": "Identificar convergência, tensão ou dimensões distintas.",
+          "tipo": "conceito",
+          "tags": [
+            "redacao-fcc",
+            "red-fcc-02"
+          ]
+        },
+        {
+          "card_id": "RED-FCC-02-EXP-FC009",
+          "frente": "Ressalva",
+          "verso": "Limita ou qualifica uma afirmação.",
+          "tipo": "conceito",
+          "tags": [
+            "redacao-fcc",
+            "red-fcc-02"
+          ]
+        },
+        {
+          "card_id": "RED-FCC-02-EXP-FC010",
+          "frente": "Reprodução do caderno",
+          "verso": "Prejuízo em todos os critérios, item 10.7.",
+          "tipo": "conceito",
+          "tags": [
+            "redacao-fcc",
+            "red-fcc-02"
+          ]
+        },
+        {
+          "card_id": "RED-FCC-02-EXP-FC011",
+          "frente": "Dado estatístico incerto",
+          "verso": "Não inventar; usar evidência verificável ou exemplo identificado.",
+          "tipo": "conceito",
+          "tags": [
+            "redacao-fcc",
+            "red-fcc-02"
+          ]
+        },
+        {
+          "card_id": "RED-FCC-02-EXP-FC012",
+          "frente": "Originalidade",
+          "verso": "Nova relação ou análise, não vocabulário rebuscado.",
+          "tipo": "conceito",
+          "tags": [
+            "redacao-fcc",
+            "red-fcc-02"
+          ]
+        },
+        {
+          "card_id": "RED-FCC-02-EXP-FC013",
+          "frente": "Teste de avanço",
+          "verso": "O que expliquei além do apoio?",
+          "tipo": "conceito",
+          "tags": [
+            "redacao-fcc",
+            "red-fcc-02"
+          ]
+        },
+        {
+          "card_id": "RED-FCC-02-EXP-FC014",
+          "frente": "Interpretação crítica",
+          "verso": "Até 2 pontos; avaliação integrada.",
+          "tipo": "conceito",
+          "tags": [
+            "redacao-fcc",
+            "red-fcc-02"
+          ]
         }
       ],
-      "teoria_md": "---\ntopico_id: RED-FCC-02\nslug: leitura-critica-textos-apoio\ntitulo: \"Interpretação Crítica dos Textos de Apoio na Redação FCC (2,00 pts)\"\nedital: SEDUC-MA-01-2026\nbanca: FCC\nstatus: em_auditoria\n---\n\n# 1. Delimitação no Edital (Camada A)\n- **Item 10.4.1.b (2,00 de 10,00 pontos totais):** Avalia a interpretação crítica do(s) texto(s) de apoio no cumprimento do recorte temático. O edital avisa expressamente que **será penalizado o desenvolvimento em que se observe predomínio da paráfrase ou compreensão superficial do(s) texto(s) de apoio**, e verifica se a redação **discute as ideias presentes nos textos de apoio, problematizando de forma crítica as questões propostas, sob uma perspectiva original**.\n- **Item 10.7:** Será prejudicada em **todos os critérios** a nota das redações que reproduzirem, em todo ou em parte, textos e/ou questões apresentados na prova.\n\n# 2. Os 3 Erros Mais Comuns (e Como a FCC Penaliza Cada Um)\n1. **Cópia / Colagem (Item 10.7):** transcrever frases dos textos motivadores (mesmo entre aspas sem função analítica) derruba a pontuação global.\n2. **Paráfrase disfarçada:** trocar as palavras do texto de apoio por sinônimos e repetir exatamente a mesma ideia — a banca identifica imediatamente como \"compreensão superficial\".\n3. **Abandono total dos textos de apoio:** ignorar a tensão trazida pelos textos motivadores e escrever um texto genérico sobre o tema amplo (resulta em tangenciamento e perda dupla em `10.4.1.a` e `10.4.1.b`).\n\n# 3. Técnica da Leitura Crítica Produtiva (Protocolo de 3 Perguntas)\nAo ler os textos de apoio da FCC (frequentemente crônicas, ensaios filosóficos, trechos jornalísticos ou citações literárias curtas), execute este protocolo antes de escrever:\n1. **Qual é a tese implícita ou o paradoxo central do texto motivador?** (Ex.: *a tecnologia prometeu libertar o tempo humano, mas intensificou a sensação de exaustão*).\n2. **O que o texto de apoio NÃO explicou (causa profunda, consequência social ou contradição estrutural)?** É exatamente nessa lacuna que nasce a sua **perspectiva original**.\n3. **Como dialogar sem copiar?** Retome o **conceito ou dilema** do texto motivador (nunca a frase literal) e **avance um degrau analítico** (causa → mecanismo → implicação coletiva).\n\n### Exemplo prático: Paráfrase (Nota baixa) × Problematização Crítica (Nota alta)\n- *Ideia do texto de apoio:* \"A hiperconectividade digital reduziu fronteiras, mas ampliou a intolerância nos debates públicos.\"\n- **Paráfrase (EVITAR):** *Como se vê na atualidade, a internet encurtou distâncias, porém aumentou os conflitos e a falta de tolerância nas discussões.* (Apenas trocou palavras.)\n- **Problematização crítica (PADRÃO FCC):** *Embora a ampliação do acesso às redes digitais tenha democratizado o direito de fala, a arquitetura algorítmica voltada à retenção de atenção converteu o dissenso democrático em polarização afetiva, fragilizando a escuta necessária à vida pública.* (Avança para o mecanismo estrutural e a consequência política!)\n"
+      "teoria_md": "# 1. Ler o apoio sem depender dele\n\nO item 10.4.1.b atribui até 2 pontos à interpretação crítica do apoio. A leitura orienta o recorte e a construção de uma perspectiva própria. O predomínio de paráfrase ou uma interpretação rasa prejudicam esse critério; copiar material da prova prejudica a avaliação global (10.7).\n\nLeia cada texto distinguindo afirmação, fundamento, exemplo e ressalva. Identifique a voz que enuncia e o grau de certeza. Um texto pode apresentar uma hipótese, não um fato comprovado. Dois apoios podem convergir, divergir ou enfatizar aspectos distintos; não force uma oposição inexistente.\n\n# 2. Da compreensão ao argumento\n\nParáfrase é reformulação de sentido; pode ajudar a compreender, mas não basta para sustentar um argumento próprio. Problematizar é perguntar pelas condições, causas, mecanismos, efeitos, limites e implicações do que foi lido.\n\nApoio autoral: a abundância de informações não garante compreensão. Uma paráfrase seria afirmar que ter muitas informações não significa entender mais. Um avanço argumentativo consiste em explicar que informações dispersas podem ser difíceis de comparar quando o leitor não possui critérios para distinguir fontes, o que limita a capacidade de tomar decisões.\n\nNão basta adicionar vocabulário sofisticado. A contribuição deve aparecer na relação lógica nova. Pergunte: o que expliquei que o apoio apenas enunciava?\n\n# 3. Confrontar perspectivas\n\nApoio autoral A: espaços de discussão pública permitem a circulação de pontos de vista que antes encontravam poucas oportunidades de expressão.\n\nApoio autoral B: visibilidade de uma opinião não garante que seus fundamentos sejam examinados; interlocutores podem conversar apenas com quem já concorda com eles.\n\nO primeiro enfatiza ampliação de participação; o segundo, qualidade da interação. Uma tese pode defender que acesso à expressão é necessário, mas insuficiente para produzir deliberação. O primeiro argumento explica inclusão de vozes; o segundo examina escuta e critérios de avaliação. A relação entre os dois deve ser explicitada.\n\nConcordar criticamente, discordar ou qualificar é possível. Discordar não significa negar automaticamente tudo o que o texto afirma.\n\n# 4. Mecanismos, evidências e limites\n\nUma relação causal exige explicação de como um fator pode produzir um efeito. Exemplo: mudanças na rotina de trabalho podem reduzir convivência familiar quando horários se tornam imprevisíveis. O mecanismo é a dificuldade de coordenar tempos, e o efeito depende de condições. Evite tratar associação como prova de causalidade universal.\n\nUm exemplo hipotético ilustra um mecanismo, não comprova sua prevalência. Um dado real requer fonte e recorte confiáveis. Uma analogia ajuda quando a semelhança é relevante, mas não torna dois fenômenos idênticos. A ressalva torna a tese mais precisa quando reconhece uma condição que altera o resultado.\n\n# 5. Oficina: tempo, produtividade e descanso\n\nApoio autoral A: tecnologias de comunicação tornaram possível resolver tarefas em momentos antes reservados a outras atividades.\n\nApoio autoral B: flexibilidade pode ser vantajosa quando o indivíduo escolhe seus horários; expectativas de disponibilidade permanente podem reduzir essa liberdade.\n\nProposta inédita: examine a relação entre flexibilidade tecnológica e preservação do tempo de descanso.\n\nAtividade 1: resuma cada apoio em até uma frase, para uso apenas no planejamento. Atividade 2: formule a tensão que os reúne. Atividade 3: escreva um parágrafo explicando como regras de disponibilidade influenciam a autonomia, com exemplo hipotético. Atividade 4: elabore um segundo eixo sobre efeitos coletivos ou institucionais. Evite afirmar que toda tecnologia causa adoecimento.\n\n# 6. Oficina: memória e mudança\n\nApoio autoral: preservar lugares e práticas de memória pode fortalecer o pertencimento. Contudo, preservação não significa impedir que comunidades transformem suas formas de viver.\n\nProposta inédita: discuta como a preservação da memória coletiva pode conviver com mudanças sociais.\n\nEscreva uma tese e dois parágrafos de desenvolvimento. Depois sublinhe o trecho que apenas recupera a ideia do apoio e destaque sua contribuição original. Compare as funções dos parágrafos: um explica o valor da memória, outro examina a necessidade de participação das comunidades nas mudanças. Essas são possibilidades, não respostas obrigatórias.\n\nRecupere: diferença entre paráfrase e problematização; mecanismo e exemplo; condição e causalidade; como trabalhar dois apoios sem copiar; como defender posição própria sem ignorar ressalvas."
     },
     {
       "schema_version": "2.0.0",
@@ -30762,72 +31406,82 @@
       "titulo": "Progressão Textual, Argumentação e Conclusão Articulada na FCC (3,00 pts)",
       "status": "em_auditoria",
       "origem": "edital_explicito",
-      "tempo_leitura_min": 25,
+      "tempo_leitura_min": 35,
       "edital_subtopicos": [
         "Introdução estratégica e avanço argumentativo",
         "Conclusão decorrente dos argumentos (sem proposta de intervenção artificial)"
       ],
       "fontes_primarias": [
         {
-          "referencia_abnt": "MARANHÃO. Secretaria de Estado da Administração. Edital nº 01/2026 — SEAD/SEDUC-MA (Capítulo 10, item 10.4.1.c). São Luís: SEAD/FCC, 2026. pp. 31-32.",
+          "referencia_abnt": "MARANHÃO. SEAD. Edital nº 01/2026, 17 nov. 2026, cap. 10, p. 31–33. Cópia do documento conferida visualmente em 26 nov. 2026; verificar retificações na FCC.",
           "tipo": "edital",
           "nivel_autoridade": 1,
-          "url": "https://www.concursosfcc.com.br"
-        },
-        {
-          "referencia_abnt": "PORTAL CONCURSOS. Redação da FCC: critérios de correção e o que zera a prova. 2026.",
-          "tipo": "prova_fcc",
-          "nivel_autoridade": 4,
-          "url": "https://cursosdoportal.com.br/noticias/redacao-da-fcc-criterios-de-correcao-e-o-que-zera-a-prova"
+          "url": "https://dhg1h5j42swfq.cloudfront.net/2026/11/18082120/seadm226_edital_de_abertura_1_17_11_26_publicado-1.pdf"
         }
       ],
       "sintese_fcc": {
         "conceitos_nucleares": [
           {
-            "termo": "Progressão Textual (3,00 pts)",
-            "definicao_precisa": "Maior subcritério da Redação FCC: avalia introdução estratégica, avanço real das ideias, manutenção temática e nexo lógico até a conclusão.",
-            "fonte": "Edital SEAD/MA nº 01/2026, item 10.4.1.c."
+            "termo": "Progressão",
+            "definicao_precisa": "Avanço de ideias",
+            "fonte": "Edital 01/2026, capítulo 10; síntese didática autoral."
           },
           {
-            "termo": "Conclusão Articulada FCC",
-            "definicao_precisa": "Deve decorrer necessariamente dos argumentos desenvolvidos, sem se reduzir a propostas de solução desarticuladas.",
-            "fonte": "Edital SEAD/MA nº 01/2026, item 10.4.1.c (Observação)."
+            "termo": "Introdução",
+            "definicao_precisa": "Exposição estratégica",
+            "fonte": "Edital 01/2026, capítulo 10; síntese didática autoral."
+          },
+          {
+            "termo": "Desenvolvimento",
+            "definicao_precisa": "Razões explicadas",
+            "fonte": "Edital 01/2026, capítulo 10; síntese didática autoral."
+          },
+          {
+            "termo": "Conclusão",
+            "definicao_precisa": "Fechamento consequente",
+            "fonte": "Edital 01/2026, capítulo 10; síntese didática autoral."
           }
         ],
         "pegadinhas_fcc": [
           {
-            "armadilha": "Circularidade argumentativa",
-            "como_a_fcc_cobra": "D1 e D2 repetem a mesma ideia com palavras diferentes, travando a progressão textual.",
-            "como_desarmar": "Usar eixos distintos e complementares (ex.: Causa Estrutural em D1 → Impacto Público/Contradição em D2)."
+            "armadilha": "Circularidade",
+            "como_a_fcc_cobra": "Exemplo didático: Repetição garante coerência",
+            "como_desarmar": "Dar função diferente aos eixos."
           },
           {
-            "armadilha": "Conclusão estilo ENEM desconectada",
-            "como_a_fcc_cobra": "Candidato fecha um tema filosófico com 'Portanto, o MEC deve fazer campanhas nas escolas...'.",
-            "como_desarmar": "Fechar com síntese lógica que amarre os argumentos de D1 e D2 à tese."
+            "armadilha": "Conclusão",
+            "como_a_fcc_cobra": "Exemplo didático: Sempre exige intervenção",
+            "como_desarmar": "Relacionar fechamento aos argumentos."
+          },
+          {
+            "armadilha": "Estrutura",
+            "como_a_fcc_cobra": "Exemplo didático: Quatro parágrafos garantem nota",
+            "como_desarmar": "Organização é estratégia, não fórmula."
           }
         ],
         "quadro_comparativo": [
           {
-            "parte": "Introdução (5–6 linhas)",
-            "funcao_progressao": "Apresentar tese clara e antecipar os dois eixos (D1 e D2)"
+            "conceito": "Progressão",
+            "criterio": "Avanço de ideias"
           },
           {
-            "parte": "Desenvolvimento 1 (7–8 linhas)",
-            "funcao_progressao": "Desenvolver eixo 1 com explicação causal e fechamento"
+            "conceito": "Introdução",
+            "criterio": "Exposição estratégica"
           },
           {
-            "parte": "Desenvolvimento 2 (7–8 linhas)",
-            "funcao_progressao": "Avançar para eixo 2 complementar (sem repetir D1)"
+            "conceito": "Desenvolvimento",
+            "criterio": "Razões explicadas"
           },
           {
-            "parte": "Conclusão (5–6 linhas)",
-            "funcao_progressao": "Sintetizar D1 + D2 confirmando a tese, sem solução artificial"
+            "conceito": "Conclusão",
+            "criterio": "Fechamento consequente"
           }
         ],
         "checklist_revisao": [
-          "Minha introdução antecipa claramente os dois eixos que serão desenvolvidos?",
-          "D2 realmente avança o raciocínio em relação a D1 (zero circularidade)?",
-          "Minha conclusão deriva diretamente de D1 e D2 sem recorrer a 'receita de bolo'?"
+          "Consigo aplicar progressão ao meu próprio texto?",
+          "Consigo aplicar introdução ao meu próprio texto?",
+          "Consigo aplicar desenvolvimento ao meu próprio texto?",
+          "Consigo aplicar conclusão ao meu próprio texto?"
         ]
       },
       "questoes": [
@@ -30892,7 +31546,7 @@
           "gabarito": "C",
           "justificativa_gabarito": "Circularidade é girar em torno da mesma afirmação sem aprofundamento ou acréscimo analítico, o que impede o 'avanço das ideias' cobrado no item 10.4.1.c.",
           "analise_distratores": {
-            "A": "Boa prática que garante progressão.",
+            "A": "Eixos complementares favorecem progressão, sem garantir nota.",
             "B": "Boa prática exigida na conclusão FCC.",
             "D": "Desenvolvimento estratégico da introdução, valorizado no item 10.4.1.c.",
             "E": "Boa prática de coesão e progressão."
@@ -30904,7 +31558,7 @@
           "questao_id": "RED-FCC-03-Q004",
           "origem": "inedita_padrao_fcc",
           "referencia_prova": "Inédita — padrão FCC / Edital SEDUC-MA 01/2026",
-          "enunciado": "Em uma redação de 26 a 28 linhas para a FCC, qual distribuição estrutural melhor equilibra clareza, profundidade analítica e gestão de espaço dentro do limite de 20 a 30 linhas?",
+          "enunciado": "Entre as estratégias abaixo, qual constitui um planejamento didático razoável de quatro parágrafos para treinar uma redação de 26 a 28 linhas, sem representar exigência oficial de quantidade de parágrafos?",
           "alternativas": {
             "A": "1 parágrafo único de 28 linhas para evitar quebras de raciocínio.",
             "B": "4 parágrafos proporcionais: Introdução estratégica (5–6 linhas), Desenvolvimento 1 (7–8 linhas), Desenvolvimento 2 (7–8 linhas) e Conclusão articulada (5–6 linhas).",
@@ -30913,7 +31567,7 @@
             "E": "Introdução de 2 linhas e conclusão de 14 linhas com propostas governamentais."
           },
           "gabarito": "B",
-          "justificativa_gabarito": "Quatro parágrafos equilibrados (~6 / 8 / 8 / 6 = 28 linhas) garantem espaço adequado para introdução estratégica, dois eixos de avanço argumentativo e conclusão articulada dentro do teto de 30 linhas.",
+          "justificativa_gabarito": "A distribuição proposta é uma possibilidade de planejamento, não garantia de qualidade ou exigência de quatro parágrafos. Exemplo: 6+8+8+6=28.",
           "analise_distratores": {
             "A": "Bloco monolítico destrói a organização paragráfica e a progressão.",
             "C": "Desproporcional; introdução maior que o desenvolvimento compromete a argumentação.",
@@ -30945,6 +31599,190 @@
           },
           "dificuldade": "basica",
           "subtopico": "Introdução estratégica e avanço argumentativo"
+        },
+        {
+          "questao_id": "RED-FCC-03-EXP-Q001",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — exercício autoral de redação, não questão oficial FCC",
+          "enunciado": "Qual par de desenvolvimentos evita circularidade em um texto sobre acesso desigual a serviços?",
+          "alternativas": {
+            "A": "Acesso é desigual; desigualdade existe.",
+            "B": "Serviços são necessários; serviços são importantes.",
+            "C": "Distâncias elevam custos de deslocamento; horários incompatíveis com o trabalho restringem atendimento mesmo em locais próximos.",
+            "D": "O problema é grave; a gravidade é alta.",
+            "E": "A sociedade tem problemas; problemas afetam a sociedade."
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "Os argumentos explicam mecanismos diferentes.",
+          "analise_distratores": {
+            "A": "Repete diagnóstico.",
+            "B": "Repete avaliação.",
+            "D": "Não explica causas.",
+            "E": "Circularidade."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Introdução estratégica e avanço argumentativo"
+        },
+        {
+          "questao_id": "RED-FCC-03-EXP-Q002",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — exercício autoral de redação, não questão oficial FCC",
+          "enunciado": "Qual introdução anuncia posição argumentável sobre informação e decisão?",
+          "alternativas": {
+            "A": "Desde os primórdios, o mundo enfrenta desafios.",
+            "B": "A abundância informacional favorece escolhas quando acompanhada de critérios de seleção e verificação.",
+            "C": "A informação é informação.",
+            "D": "O tema é muito relevante e será discutido.",
+            "E": "Portanto, os órgãos devem agir."
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "Delimita relação e condição.",
+          "analise_distratores": {
+            "A": "Genérica.",
+            "C": "Circular.",
+            "D": "Não apresenta posição.",
+            "E": "Antecipação desconectada."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Introdução estratégica e avanço argumentativo"
+        },
+        {
+          "questao_id": "RED-FCC-03-EXP-Q003",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — exercício autoral de redação, não questão oficial FCC",
+          "enunciado": "Em 'A falta de conexão dificulta o acesso a serviços', qual desdobramento explica o mecanismo?",
+          "alternativas": {
+            "A": "A dificuldade é difícil.",
+            "B": "É um assunto importante.",
+            "C": "A conexão é uma palavra recorrente.",
+            "D": "Se o agendamento é exclusivamente on-line, quem não possui conexão depende de terceiros para iniciar o atendimento.",
+            "E": "O governo deve melhorar tudo."
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "Especifica condição e processo que produzem barreira.",
+          "analise_distratores": {
+            "A": "Circularidade.",
+            "B": "Avaliação sem mecanismo.",
+            "C": "Metalinguagem irrelevante.",
+            "E": "Solução genérica sem análise."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Introdução estratégica e avanço argumentativo"
+        },
+        {
+          "questao_id": "RED-FCC-03-EXP-Q004",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — exercício autoral de redação, não questão oficial FCC",
+          "enunciado": "D1 discute infraestrutura; D2, letramento digital. Qual conclusão é compatível?",
+          "alternativas": {
+            "A": "A inclusão digital requer tanto acesso material quanto condições de uso autônomo.",
+            "B": "O problema decorre apenas de falta de hospitais.",
+            "C": "A infraestrutura não importa.",
+            "D": "A tecnologia deve ser abandonada em qualquer caso.",
+            "E": "É preciso copiar a introdução literalmente."
+          },
+          "gabarito": "A",
+          "justificativa_gabarito": "A conclusão integra os dois eixos.",
+          "analise_distratores": {
+            "B": "Tema novo.",
+            "C": "Contradiz D1.",
+            "D": "Extrapola.",
+            "E": "Repetição não sintetiza o avanço."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Conclusão decorrente dos argumentos (sem proposta de intervenção artificial)"
+        },
+        {
+          "questao_id": "RED-FCC-03-EXP-Q005",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — exercício autoral de redação, não questão oficial FCC",
+          "enunciado": "Uma objeção pertinente à tese de que digitalizar basta para democratizar o acesso é",
+          "alternativas": {
+            "A": "ninguém usa serviços.",
+            "B": "todo dado é falso.",
+            "C": "a palavra digital possui sete letras.",
+            "D": "a tecnologia jamais é útil.",
+            "E": "a digitalização pode reduzir deslocamentos, mas excluir pessoas sem conexão ou habilidade de uso."
+          },
+          "gabarito": "E",
+          "justificativa_gabarito": "Objeção reconhece benefício e limita suficiência.",
+          "analise_distratores": {
+            "A": "Generalização sem base.",
+            "B": "Não se relaciona.",
+            "C": "Irrelevante.",
+            "D": "Absoluto não sustentado."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Introdução estratégica e avanço argumentativo"
+        },
+        {
+          "questao_id": "RED-FCC-03-EXP-Q006",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — exercício autoral de redação, não questão oficial FCC",
+          "enunciado": "Segundo o item 10.4.1.c, uma proposta de solução na conclusão",
+          "alternativas": {
+            "A": "é sempre proibida.",
+            "B": "é obrigatória com cinco elementos fixos.",
+            "C": "deve estar ligada aos argumentos, caso apresentada.",
+            "D": "deve substituir todos os desenvolvimentos.",
+            "E": "pode tratar de assunto diferente."
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "O edital exige fechamento articulado, não fórmula de intervenção.",
+          "analise_distratores": {
+            "A": "Não proíbe propostas pertinentes.",
+            "B": "Não exige esse formato.",
+            "D": "Desenvolvimentos são necessários.",
+            "E": "Desconexão prejudica progressão."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Conclusão decorrente dos argumentos (sem proposta de intervenção artificial)"
+        },
+        {
+          "questao_id": "RED-FCC-03-EXP-Q007",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — exercício autoral de redação, não questão oficial FCC",
+          "enunciado": "Qual método de revisão permite verificar avanço argumentativo?",
+          "alternativas": {
+            "A": "Contar conectivos, independentemente do sentido.",
+            "B": "Resumir a função de cada parágrafo e verificar se acrescenta uma razão pertinente.",
+            "C": "Repetir o tópico frasal em cada conclusão.",
+            "D": "Substituir todos os termos por sinônimos raros.",
+            "E": "Eliminar toda ressalva."
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "Identificar funções detecta repetição e lacunas.",
+          "analise_distratores": {
+            "A": "Quantidade não garante avanço.",
+            "C": "A repetição pode ser circular.",
+            "D": "Pode alterar sentido.",
+            "E": "Ressalvas podem fortalecer precisão."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Introdução estratégica e avanço argumentativo"
+        },
+        {
+          "questao_id": "RED-FCC-03-EXP-Q008",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — exercício autoral de redação, não questão oficial FCC",
+          "enunciado": "Se o texto argumenta sobre memória coletiva e participação comunitária, qual fechamento introduz uma tese sem sustentação prévia?",
+          "alternativas": {
+            "A": "Preservar memória requer atenção às práticas das comunidades.",
+            "B": "A participação permite relacionar continuidade e transformação.",
+            "C": "A valorização da memória depende de decisões que incluam seus detentores.",
+            "D": "Logo, o principal obstáculo nacional é o preço dos combustíveis.",
+            "E": "A preservação física deve dialogar com os significados coletivos."
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "O tema do combustível não decorre dos argumentos informados.",
+          "analise_distratores": {
+            "A": "Retoma o tema.",
+            "B": "Integra os eixos.",
+            "C": "Retoma participação.",
+            "E": "Relaciona patrimônio e memória."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Conclusão decorrente dos argumentos (sem proposta de intervenção artificial)"
         }
       ],
       "flashcards": [
@@ -30978,8 +31816,8 @@
         },
         {
           "card_id": "RED-FCC-03-FC004",
-          "frente": "Por que uma conclusão estilo ENEM pode derrubar sua nota na FCC?",
-          "verso": "Porque o item 10.4.1.c alerta que a conclusão não deve se reduzir a propostas de solução desarticuladas dos argumentos desenvolvidos.",
+          "frente": "O que torna uma proposta de solução inadequada na conclusão?",
+          "verso": "Desconexão dos argumentos. Não é proibido sugerir solução pertinente.",
           "tipo": "pegadinha_fcc",
           "tags": [
             "conclusao",
@@ -30988,8 +31826,8 @@
         },
         {
           "card_id": "RED-FCC-03-FC005",
-          "frente": "Qual a proporção ideal de 4 parágrafos para ficar entre 25 e 29 linhas?",
-          "verso": "Introdução (5–6 linhas) + D1 (7–8 linhas) + D2 (7–8 linhas) + Conclusão (5–6 linhas).",
+          "frente": "Qual exemplo de divisão de linhas para treinar quatro parágrafos?",
+          "verso": "6+8+8+6=28 linhas. Sugestão ajustável, não exigência da banca.",
           "tipo": "redacao",
           "tags": [
             "estrutura",
@@ -31004,9 +31842,149 @@
           "tags": [
             "paragrafo"
           ]
+        },
+        {
+          "card_id": "RED-FCC-03-EXP-FC001",
+          "frente": "Progressão",
+          "verso": "Avanço lógico de ideias pertinentes.",
+          "tipo": "conceito",
+          "tags": [
+            "redacao-fcc",
+            "red-fcc-03"
+          ]
+        },
+        {
+          "card_id": "RED-FCC-03-EXP-FC002",
+          "frente": "Circularidade",
+          "verso": "Repetição da mesma ideia sem aprofundamento.",
+          "tipo": "conceito",
+          "tags": [
+            "redacao-fcc",
+            "red-fcc-03"
+          ]
+        },
+        {
+          "card_id": "RED-FCC-03-EXP-FC003",
+          "frente": "Introdução",
+          "verso": "Delimita problema, posição e organização da discussão.",
+          "tipo": "conceito",
+          "tags": [
+            "redacao-fcc",
+            "red-fcc-03"
+          ]
+        },
+        {
+          "card_id": "RED-FCC-03-EXP-FC004",
+          "frente": "Tópico frasal",
+          "verso": "Apresenta ideia central do parágrafo.",
+          "tipo": "conceito",
+          "tags": [
+            "redacao-fcc",
+            "red-fcc-03"
+          ]
+        },
+        {
+          "card_id": "RED-FCC-03-EXP-FC005",
+          "frente": "Explicação",
+          "verso": "Mostra por que a ideia sustenta a tese.",
+          "tipo": "conceito",
+          "tags": [
+            "redacao-fcc",
+            "red-fcc-03"
+          ]
+        },
+        {
+          "card_id": "RED-FCC-03-EXP-FC006",
+          "frente": "Evidência",
+          "verso": "Fundamenta ou ilustra a razão com pertinência.",
+          "tipo": "conceito",
+          "tags": [
+            "redacao-fcc",
+            "red-fcc-03"
+          ]
+        },
+        {
+          "card_id": "RED-FCC-03-EXP-FC007",
+          "frente": "Segundo desenvolvimento",
+          "verso": "Acrescenta dimensão distinta e conectada.",
+          "tipo": "conceito",
+          "tags": [
+            "redacao-fcc",
+            "red-fcc-03"
+          ]
+        },
+        {
+          "card_id": "RED-FCC-03-EXP-FC008",
+          "frente": "Objeção",
+          "verso": "Razão contrária relevante, examinada com justiça.",
+          "tipo": "conceito",
+          "tags": [
+            "redacao-fcc",
+            "red-fcc-03"
+          ]
+        },
+        {
+          "card_id": "RED-FCC-03-EXP-FC009",
+          "frente": "Conclusão",
+          "verso": "Síntese consequente dos argumentos.",
+          "tipo": "conceito",
+          "tags": [
+            "redacao-fcc",
+            "red-fcc-03"
+          ]
+        },
+        {
+          "card_id": "RED-FCC-03-EXP-FC010",
+          "frente": "Proposta de intervenção",
+          "verso": "Pode aparecer se articulada; não há fórmula obrigatória.",
+          "tipo": "conceito",
+          "tags": [
+            "redacao-fcc",
+            "red-fcc-03"
+          ]
+        },
+        {
+          "card_id": "RED-FCC-03-EXP-FC011",
+          "frente": "Coerência",
+          "verso": "Compatibilidade lógica das ideias.",
+          "tipo": "conceito",
+          "tags": [
+            "redacao-fcc",
+            "red-fcc-03"
+          ]
+        },
+        {
+          "card_id": "RED-FCC-03-EXP-FC012",
+          "frente": "Coesão",
+          "verso": "Mecanismos linguísticos de ligação e retomada.",
+          "tipo": "conceito",
+          "tags": [
+            "redacao-fcc",
+            "red-fcc-03"
+          ]
+        },
+        {
+          "card_id": "RED-FCC-03-EXP-FC013",
+          "frente": "Teste dos parágrafos",
+          "verso": "Resumir a função de cada um e procurar repetição.",
+          "tipo": "conceito",
+          "tags": [
+            "redacao-fcc",
+            "red-fcc-03"
+          ]
+        },
+        {
+          "card_id": "RED-FCC-03-EXP-FC014",
+          "frente": "Progressão: máximo",
+          "verso": "3 pontos no item 10.4.1.c.",
+          "tipo": "conceito",
+          "tags": [
+            "redacao-fcc",
+            "red-fcc-03"
+          ]
         }
       ],
-      "teoria_md": "---\ntopico_id: RED-FCC-03\nslug: progressao-textual-conclusao\ntitulo: \"Progressão Textual, Argumentação e Conclusão Articulada na FCC (3,00 pts)\"\nedital: SEDUC-MA-01-2026\nbanca: FCC\nstatus: em_auditoria\n---\n\n# 1. O Subcritério Mais Valioso de Toda a Redação (Camada A)\nNo Edital SEAD/MA nº 01/2026 (item 10.4.1.c), **Progressão Textual vale 3,00 pontos** — é o maior subcritério isolado de toda a Prova Discursiva (30% da nota da Redação!).\n\nO edital detalha exatamente os 4 elementos examinados:\n1. **Desenvolvimento estratégico da introdução**, com exposição clara das ideias a serem abordadas.\n2. **Avanço das ideias** (coerência e clareza no desenvolvimento — sem \"andar em círculos\" repetindo o mesmo argumento com outras palavras).\n3. **Manutenção da referência temática** e **nexos de sentido** (conexão lógica entre introdução, desenvolvimento e conclusão).\n4. **Regra explícita sobre a conclusão (Observação do item 10.4.1.c):** *a conclusão deve, necessariamente, estar relacionada aos argumentos apresentados ao longo do texto, sem se reduzir a propostas de solução desarticuladas da discussão desenvolvida.*\n\n# 2. Como Construir Avanço Argumentativo Real (Sem Circularidade)\nUm texto sem progressão diz a mesma coisa em D1 e D2 (ex.: D1 diz que o problema é ruim; D2 diz que o problema prejudica a sociedade). Para garantir os 3,00 pontos na FCC, use uma **arquitetura de dois eixos complementares**:\n\n- **Modelo Causa → Consequência / Implicação:**\n  - *D1:* analisa a **raiz estrutural/histórica** do fenômeno.\n  - *D2:* analisa o **efeito contemporâneo ou a contradição prática** gerada por essa raiz.\n- **Modelo Dimensão Individual → Dimensão Coletiva/Institucional:**\n  - *D1:* examina como o dilema afeta a subjetividade ou a convivência cotidiana.\n  - *D2:* amplia para o impacto na esfera pública, na democracia ou nas instituições.\n\n# 3. Anatomia do Parágrafo Argumentativo Padrão FCC (7–8 linhas)\n1. **Tópico frasal (1–2 linhas):** declara diretamente o eixo anunciado na introdução.\n2. **Desdobramento analítico (3–4 linhas):** explica o *porquê* (mecanismo causal) com precisão conceitual e sem jargões vazios.\n3. **Fechamento articulador (1–2 linhas):** conecta a análise de volta à tese central, preparando a transição lógica para o próximo parágrafo.\n\n# 4. A Conclusão Padrão FCC (5–6 linhas)\nDiferente da conclusão-receita do ENEM, a conclusão da FCC funciona como **síntese consequente**:\n- **Retomada articulada da tese** (com outra formulação lexical, nunca cópia da introdução).\n- **Amarramento explícito de D1 + D2** (mostrando que a conclusão decorre logicamente do que foi provado).\n- **Perspectiva crítica de fechamento:** se sugerir algum caminho ou exigência ética/institucional, ele precisa nascer **diretamente** dos obstáculos analisados em D1 e D2 — nunca uma \"solução mágica\" genérica.\n"
+      "teoria_md": "# 1. Progressão como construção do raciocínio\n\nO critério de progressão textual vale até 3 pontos no item 10.4.1.c. A introdução organiza a discussão, os desenvolvimentos fazem a tese avançar e a conclusão fecha o encadeamento. Coesão ajuda a sinalizar relações; coerência diz respeito à compatibilidade do raciocínio. Um texto pode conter muitos conectivos e continuar circular.\n\nCompare: \"O acesso digital é desigual. Essa desigualdade é um problema. Portanto, o acesso é desigual.\" O texto repete o diagnóstico. Para avançar, explique como a diferença de infraestrutura produz barreiras e como a falta de formação dificulta o uso mesmo quando há conexão. Os eixos são relacionados, mas não idênticos.\n\n# 2. Introdução estratégica\n\nUma introdução funcional situa o problema, delimita o recorte e apresenta a posição. Antecipar os eixos pode facilitar a organização, mas enumerá-los mecanicamente não basta. Não há obrigação de iniciar com citação, pergunta retórica ou definição de dicionário.\n\nExemplo fragmentário para análise: diante de serviços que migram para plataformas digitais, a redução de custos de acesso pode coexistir com a exclusão de pessoas sem conectividade ou habilidade de uso. Assim, conveniência e inclusão exigem examinar condições materiais e mediação humana. O fragmento anuncia duas dimensões discutíveis; não é fórmula a copiar.\n\n# 3. Desenvolver com mecanismo e consequência\n\nUm parágrafo pode conter tópico frasal, explicação, evidência ou exemplo e ligação com a tese. Não é obrigatório que todos tenham exatamente o mesmo número de frases. O tópico frasal define a ideia; a explicação mostra por que ela é pertinente; a exemplificação torna a relação concreta.\n\nExercício: \"A falta de acesso à internet dificulta o uso de serviços digitais.\" Acrescente mecanismo: se a única etapa de agendamento é feita on-line, o cidadão sem conexão depende de terceiros para iniciar o atendimento. Acrescente consequência: o custo e a perda de autonomia podem neutralizar a conveniência prometida. O exemplo é hipotético e não representa todos os serviços.\n\n# 4. Encadear e qualificar\n\nAs relações entre parágrafos podem ser de causa e consequência, contraste, complemento, comparação de escalas ou condição. Um segundo argumento deve acrescentar dimensão relevante, não trocar apenas palavras. Uma objeção pertinente pode enriquecer o texto quando respondida de modo justo.\n\nConsidere a afirmação: \"Preservar um edifício histórico garante a preservação da memória.\" Uma objeção é que memórias também dependem de práticas e acesso das comunidades. A resposta pode reconhecer a relevância do edifício e mostrar por que a participação social complementa a preservação física. Evite criar uma objeção caricatural apenas para refutá-la.\n\n# 5. Conclusão consequente\n\nA conclusão deve retomar o núcleo da tese à luz do que foi demonstrado. Pode incluir implicação, condição ou caminho de enfrentamento coerente com o desenvolvimento. O edital não exige uma fórmula de intervenção com cinco elementos. Não condena propostas em si; adverte contra propostas desconectadas dos argumentos.\n\nSe os parágrafos demonstraram barreiras de conexão e de letramento digital, concluir apenas que é preciso construir mais hospitais não responde aos argumentos. Uma conclusão coerente relacionaria oferta digital acessível, assistência e alternativas de atendimento. Não introduza uma nova tese que não teve sustentação.\n\n# 6. Oficina de análise de texto autoral\n\nProposta inédita: discuta os desafios de equilibrar rapidez de comunicação e responsabilidade com a qualidade da informação.\n\nFragmento de análise 1 (introdução): \"A facilidade de transmitir mensagens reduz distâncias, mas também permite que afirmações não verificadas circulem rapidamente. A utilidade da comunicação depende, portanto, de critérios de verificação e de responsabilidade de quem compartilha informações.\"\n\nFragmento 2 (desenvolvimento): \"Quando a urgência de responder reduz o tempo de conferir uma fonte, o leitor pode confundir uma informação incompleta com uma conclusão definitiva. Em um grupo escolar, por exemplo, divulgar um horário sem consultar o comunicado original pode mobilizar famílias desnecessariamente.\"\n\nFragmento 3 (fechamento): \"A velocidade deve ser avaliada pelo benefício que oferece sem comprometer a confiabilidade do que circula.\"\n\nAnálise: o primeiro fragmento apresenta dois eixos; o segundo explica apenas o da verificação; o terceiro sintetiza parcialmente. Falta desenvolver a responsabilidade de quem compartilha, sem repetir o primeiro eixo. Sua tarefa é produzir esse parágrafo e reescrever o fechamento de modo a contemplar os dois argumentos. Não reproduza os fragmentos em provas.\n\n# 7. Simulado e revisão da progressão\n\nTema autoral: a convivência em espaços públicos diante de interesses diferentes.\n\nApoio: um espaço pode ser utilizado simultaneamente para trabalho, descanso, circulação e manifestações culturais; organizar os usos exige compatibilizar necessidades que nem sempre coincidem.\n\nPlaneje em papel e escreva 20 a 30 linhas. Escolha dois conflitos relevantes e explique os mecanismos envolvidos. Leia cada parágrafo isoladamente e anote sua função. Se dois cumprem exatamente a mesma função, reestruture um deles. Confira se a conclusão responde à tensão do comando. Faça nova versão depois da devolutiva ou da autoanálise.\n\nRecupere: funções da introdução, parágrafo e conclusão; progressão versus circularidade; objeção e resposta; o que torna uma proposta pertinente."
     },
     {
       "schema_version": "2.0.0",
@@ -31016,7 +31994,7 @@
       "titulo": "Domínio da Norma-Padrão FCC: Coesão Textual (1,60), Vocabulário (0,80) e Morfossintaxe (0,60)",
       "status": "em_auditoria",
       "origem": "edital_explicito",
-      "tempo_leitura_min": 25,
+      "tempo_leitura_min": 35,
       "edital_subtopicos": [
         "Conectivos, referenciação e elipses (maior peso na norma)",
         "Precisão lexical, concordância, regência, crase e pontuação",
@@ -31024,70 +32002,86 @@
       ],
       "fontes_primarias": [
         {
-          "referencia_abnt": "MARANHÃO. Secretaria de Estado da Administração. Edital nº 01/2026 — SEAD/SEDUC-MA (Capítulo 10, itens 10.4.2, 10.4.3 e 10.5). São Luís: SEAD/FCC, 2026. p. 32.",
+          "referencia_abnt": "MARANHÃO. SEAD. Edital nº 01/2026, 17 nov. 2026, cap. 10, p. 31–33. Cópia do documento conferida visualmente em 26 nov. 2026; verificar retificações na FCC.",
           "tipo": "edital",
           "nivel_autoridade": 1,
-          "url": "https://www.concursosfcc.com.br"
+          "url": "https://dhg1h5j42swfq.cloudfront.net/2026/11/18082120/seadm226_edital_de_abertura_1_17_11_26_publicado-1.pdf"
         },
         {
-          "referencia_abnt": "PORTAL CONCURSOS. Redação da FCC: critérios de correção e o que zera a prova. 2026.",
-          "tipo": "prova_fcc",
-          "nivel_autoridade": 4,
-          "url": "https://cursosdoportal.com.br/noticias/redacao-da-fcc-criterios-de-correcao-e-o-que-zera-a-prova"
+          "referencia_abnt": "BECHARA, Evanildo. Moderna Gramática Portuguesa. 39. ed. Rio de Janeiro: Nova Fronteira, 2019. Bibliografia para auditoria.",
+          "tipo": "bibliografia_academica",
+          "nivel_autoridade": 5
+        },
+        {
+          "referencia_abnt": "BRASIL. Decreto 6.583/2008. Acordo Ortográfico.",
+          "tipo": "legislacao",
+          "nivel_autoridade": 3,
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/decreto/d6583.htm"
         }
       ],
       "sintese_fcc": {
         "conceitos_nucleares": [
           {
-            "termo": "Peso da Coesão Textual (1,60 / 3,00)",
-            "definicao_precisa": "Mais da metade do bloco de Norma-Padrão avalia conectivos, referenciação (pronomes, retomadas), conjunções, substituições e elipses.",
-            "fonte": "Edital SEAD/MA nº 01/2026, item 10.4.2.b."
+            "termo": "Coesão",
+            "definicao_precisa": "Referência e nexos",
+            "fonte": "Edital 01/2026, capítulo 10; síntese didática autoral."
           },
           {
-            "termo": "Propriedade Vocabular (0,80 pt)",
-            "definicao_precisa": "Seleção lexical que contribui para clareza e objetividade — nunca rebuscamento artificial ou clichês.",
-            "fonte": "Edital SEAD/MA nº 01/2026, item 10.4.2.a."
+            "termo": "Vocabulário",
+            "definicao_precisa": "Precisão e clareza",
+            "fonte": "Edital 01/2026, capítulo 10; síntese didática autoral."
           },
           {
-            "termo": "Morfossintaxe (0,60 pt)",
-            "definicao_precisa": "Ortografia (Acordo Ortográfico vigente), acentuação, concordância, regência, flexão, tempos/modos verbais e crase.",
-            "fonte": "Edital SEAD/MA nº 01/2026, itens 10.4.2.c e 10.5."
+            "termo": "Morfossintaxe",
+            "definicao_precisa": "Norma-padrão em contexto",
+            "fonte": "Edital 01/2026, capítulo 10; síntese didática autoral."
+          },
+          {
+            "termo": "Revisão",
+            "definicao_precisa": "Conteúdo, linguagem e regras materiais",
+            "fonte": "Edital 01/2026, capítulo 10; síntese didática autoral."
           }
         ],
         "pegadinhas_fcc": [
           {
-            "armadilha": "Uso de 'onde' sem valor locativo",
-            "como_a_fcc_cobra": "Candidato escreve 'a época onde' ou 'o cenário onde' perdendo pontos em Coesão e Morfossintaxe.",
-            "como_desarmar": "Usar 'onde' APENAS para lugar físico; nos demais casos, usar 'em que' ou 'no qual / na qual'."
+            "armadilha": "Coesão",
+            "como_a_fcc_cobra": "Exemplo didático: Mais conectivos significam mais qualidade",
+            "como_desarmar": "Verificar relação real."
           },
           {
-            "armadilha": "Verbo 'implicar em' e 'haver' no plural",
-            "como_a_fcc_cobra": "Erros clássicos de regência/concordância em textos dissertativos.",
-            "como_desarmar": "'Implicar' (acarretar) é VTD ('implica perdas'); 'Haver' (existir) é impessoal ('há soluções')."
+            "armadilha": "Crase",
+            "como_a_fcc_cobra": "Exemplo didático: Decorar proibições absolutas",
+            "como_desarmar": "Identificar fusão e contexto."
+          },
+          {
+            "armadilha": "Extensão",
+            "como_a_fcc_cobra": "Exemplo didático: 27 linhas garantem nota",
+            "como_desarmar": "Revisar todos os critérios."
           }
         ],
         "quadro_comparativo": [
           {
-            "relacao": "Concessão / Contraste",
-            "conectivos_ouro": "Embora, ainda que, entretanto, todavia, contudo"
+            "conceito": "Coesão",
+            "criterio": "Referência e nexos"
           },
           {
-            "relacao": "Causa / Consequência",
-            "conectivos_ouro": "Uma vez que, haja vista, por conseguinte, desse modo"
+            "conceito": "Vocabulário",
+            "criterio": "Precisão e clareza"
           },
           {
-            "relacao": "Adição argumentativa",
-            "conectivos_ouro": "Ademais, além disso, somado a isso"
+            "conceito": "Morfossintaxe",
+            "criterio": "Norma-padrão em contexto"
           },
           {
-            "relacao": "Retomada anafórica",
-            "conectivos_ouro": "Esse cenário, tal contradição, essa dinâmica"
+            "conceito": "Revisão",
+            "criterio": "Conteúdo, linguagem e regras materiais"
           }
         ],
         "checklist_revisao": [
-          "Revisei conectivos de transição entre todos os 4 parágrafos?",
-          "Eliminei 'onde' não-locativo, vírgula entre sujeito e verbo e 'haver' no plural?",
-          "Mantive períodos claros (2 a 4 linhas) e vocabulário preciso sem clichês?"
+          "Consigo aplicar coesão ao meu próprio texto?",
+          "Consigo aplicar vocabulário ao meu próprio texto?",
+          "Consigo aplicar morfossintaxe ao meu próprio texto?",
+          "Consigo aplicar revisão ao meu próprio texto?"
         ]
       },
       "questoes": [
@@ -31106,7 +32100,7 @@
           "gabarito": "E",
           "justificativa_gabarito": "“Em que” retoma “época” com valor temporal. “Houve” significa “existiram” e fica no singular por ser impessoal. No sentido de “acarretar”, “implicam” liga-se diretamente a “novos desafios” na regência formal cobrada.",
           "analise_distratores": {
-            "A": "Três erros: 'onde' temporal, 'houveram' impessoal no plural e 'implicam em'.",
+            "A": "Houveram, com valor existencial, é inadequado; em que é mais preciso para referência temporal. A construção implicar mudanças segue a regência tradicional.",
             "B": "Crase indevida antes de objeto direto ('alcance a equidade') e antes de palavra masculina ('a longo prazo').",
             "C": "Vírgula proibida entre sujeito e verbo ('digitais, trouxe') e crase proibida antes de pronome indefinido masculino ('à todos').",
             "D": "'Fazem' indicando tempo decorrido deve ficar no singular ('Faz dez anos')."
@@ -31127,7 +32121,7 @@
             "E": "concessão."
           },
           "gabarito": "E",
-          "justificativa_gabarito": "'Embora' é conjunção subordinativa concessiva, introduzindo um fato verdadeiro que não impede a ocorrência da oração principal — recurso de alto valor argumentativo na FCC.",
+          "justificativa_gabarito": "Embora introduz concessão: uma circunstância que não impede a realização da oração principal.",
           "analise_distratores": {
             "A": "Causa seria 'porque', 'visto que', 'já que'.",
             "B": "Consequência seria 'de modo que', 'tanto que'.",
@@ -31164,7 +32158,7 @@
           "questao_id": "RED-FCC-04-Q004",
           "origem": "inedita_padrao_fcc",
           "referencia_prova": "Inédita — padrão FCC / Edital SEDUC-MA 01/2026",
-          "enunciado": "Assinale a alternativa em que o emprego do pronome demonstrativo respeita a norma culta de referenciação anafórica (retomada de ideia já apresentada no parágrafo anterior).",
+          "enunciado": "Considerando a convenção didática que prefere esse/isso para retomada anafórica e este/isto para anúncio catafórico, qual frase segue essa preferência ao retomar ideia anterior?",
           "alternativas": {
             "A": "Este cenário mencionado acima evidencia a desigualdade estrutural.",
             "B": "Isso que será explicado na próxima frase já ocorreu.",
@@ -31173,12 +32167,12 @@
             "E": "Isto anteriormente citado prejudica a coesão."
           },
           "gabarito": "D",
-          "justificativa_gabarito": "Na norma-padrão de coesão referencial, 'esse/essa/isso' retomam elemento já citado (anáfora), enquanto 'este/esta/isto' anunciam elemento que ainda será citado (catáfora).",
+          "justificativa_gabarito": "Esse retoma informação anterior conforme a convenção especificada. O uso efetivo dos demonstrativos é mais flexível; não se trata de condenação absoluta de este anafórico.",
           "analise_distratores": {
-            "A": "Usa 'este' para retomar ideia anterior ('mencionado acima').",
-            "B": "Usa 'isso' para anunciar (catáfora exige 'isto').",
-            "C": "Usa 'aquele' para anunciar ideia seguinte (deveria ser 'este').",
-            "E": "Usa 'isto' para retomar elemento anterior (anáfora exige 'isso')."
+            "A": "Não segue a preferência anafórica especificada.",
+            "B": "Anuncia informação seguinte; na convenção, preferir isto.",
+            "C": "Aquele não é a forma preferida no anúncio imediato.",
+            "E": "Não segue a preferência anafórica especificada."
           },
           "dificuldade": "intermediaria",
           "subtopico": "Conectivos, referenciação e elipses (maior peso na norma)"
@@ -31196,15 +32190,199 @@
             "E": "Refiro-me à ela quando analiso a questão social."
           },
           "gabarito": "D",
-          "justificativa_gabarito": "O verbo 'visar' (no sentido de objetivar) exige preposição 'a', que se funde ao artigo feminino 'a' de 'formação' → 'visa à formação'.",
+          "justificativa_gabarito": "Visar, na acepção de objetivar, admite regência com a; na construção, a preposição e o artigo formam à.",
           "analise_distratores": {
             "A": "Crase proibida antes de artigo indefinido masculino ('a um').",
             "B": "Crase proibida antes de verbo ('promover').",
-            "C": "Crase proibida quando 'a' no singular antecede palavra no plural ('a pessoas' ou 'às pessoas').",
+            "C": "Não ocorre crase nessa construção: beneficiar pessoas é uso direto e à não corresponde ao plural.",
             "E": "Crase proibida antes de pronome pessoal ('a ela')."
           },
           "dificuldade": "basica",
           "subtopico": "Precisão lexical, concordância, regência, crase e pontuação"
+        },
+        {
+          "questao_id": "RED-FCC-04-EXP-Q001",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — exercício autoral de redação, não questão oficial FCC",
+          "enunciado": "Em 'Embora a plataforma facilite consultas, nem todos conseguem utilizá-la', embora introduz",
+          "alternativas": {
+            "A": "causa.",
+            "B": "finalidade.",
+            "C": "concessão.",
+            "D": "conclusão.",
+            "E": "consequência."
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "Reconhece circunstância que não impede a principal.",
+          "analise_distratores": {
+            "A": "Não explica motivo.",
+            "B": "Não indica objetivo.",
+            "D": "Não conclui inferência.",
+            "E": "Não indica resultado."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Conectivos, referenciação e elipses (maior peso na norma)"
+        },
+        {
+          "questao_id": "RED-FCC-04-EXP-Q002",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — exercício autoral de redação, não questão oficial FCC",
+          "enunciado": "Em 'A diretora entregou à professora seu relatório', se o relatório pertence à professora, qual reescrita resolve a ambiguidade?",
+          "alternativas": {
+            "A": "A diretora entregou seu relatório à professora.",
+            "B": "A diretora entregou à professora o relatório da professora.",
+            "C": "A professora entregou o relatório à diretora.",
+            "D": "Seu relatório foi entregue.",
+            "E": "A diretora entregou à professora o relatório da diretora."
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "Explicita possuidora e mantém participantes.",
+          "analise_distratores": {
+            "A": "Possuidor ainda ambíguo.",
+            "C": "Inverte a ação.",
+            "D": "O referente permanece incerto.",
+            "E": "Troca possuidor."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Conectivos, referenciação e elipses (maior peso na norma)"
+        },
+        {
+          "questao_id": "RED-FCC-04-EXP-Q003",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — exercício autoral de redação, não questão oficial FCC",
+          "enunciado": "Qual frase está adequada à norma-padrão?",
+          "alternativas": {
+            "A": "Fazem dois anos que o projeto começou.",
+            "B": "Houveram mudanças importantes.",
+            "C": "Os documentos, foram conferidos.",
+            "D": "Faz dois anos que houve mudanças importantes.",
+            "E": "Devem haver soluções imediatas."
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "Fazer temporal e haver existencial ficam no singular.",
+          "analise_distratores": {
+            "A": "Faz é impessoal.",
+            "B": "Houve é impessoal.",
+            "C": "Vírgula indevida entre sujeito e verbo.",
+            "E": "Deve haver, no singular."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Precisão lexical, concordância, regência, crase e pontuação"
+        },
+        {
+          "questao_id": "RED-FCC-04-EXP-Q004",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — exercício autoral de redação, não questão oficial FCC",
+          "enunciado": "Qual alternativa contém emprego adequado de crase?",
+          "alternativas": {
+            "A": "O relatório se refere àquela medida.",
+            "B": "A equipe começou à estudar.",
+            "C": "O texto se refere à ela.",
+            "D": "O acesso ocorre à pé.",
+            "E": "A medida beneficia à muitos."
+          },
+          "gabarito": "A",
+          "justificativa_gabarito": "A preposição a funde-se com aquela.",
+          "analise_distratores": {
+            "B": "Não ocorre antes de infinitivo.",
+            "C": "Pronome pessoal não admite artigo.",
+            "D": "A pé, sem acento.",
+            "E": "Não há artigo feminino singular."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Precisão lexical, concordância, regência, crase e pontuação"
+        },
+        {
+          "questao_id": "RED-FCC-04-EXP-Q005",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — exercício autoral de redação, não questão oficial FCC",
+          "enunciado": "Qual revisão melhora a precisão lexical sem acrescentar dado não demonstrado à frase 'O agendamento ficou mais rápido'?",
+          "alternativas": {
+            "A": "O tempo de espera caiu 80%.",
+            "B": "Todos os cidadãos foram atendidos.",
+            "C": "O sistema eliminou integralmente as filas.",
+            "D": "O governo solucionou todos os problemas.",
+            "E": "O procedimento de agendamento tornou-se mais ágil."
+          },
+          "gabarito": "E",
+          "justificativa_gabarito": "Preserva a ideia sem fabricar número ou universalidade.",
+          "analise_distratores": {
+            "A": "Inventa percentual.",
+            "B": "Acrescenta universalização.",
+            "C": "Afirma eliminação não demonstrada.",
+            "D": "Amplia indevidamente o sentido."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Precisão lexical, concordância, regência, crase e pontuação"
+        },
+        {
+          "questao_id": "RED-FCC-04-EXP-Q006",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — exercício autoral de redação, não questão oficial FCC",
+          "enunciado": "Em 'Ana revisou os mapas; Bruno, os gráficos', a vírgula após Bruno indica",
+          "alternativas": {
+            "A": "vocativo.",
+            "B": "separação arbitrária do sujeito.",
+            "C": "elipse do verbo revisou.",
+            "D": "aposto explicativo.",
+            "E": "erro obrigatório."
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "O verbo é recuperável do primeiro segmento.",
+          "analise_distratores": {
+            "A": "Não é chamamento.",
+            "B": "Marca omissão.",
+            "D": "Não explica Bruno.",
+            "E": "É uso legítimo."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Conectivos, referenciação e elipses (maior peso na norma)"
+        },
+        {
+          "questao_id": "RED-FCC-04-EXP-Q007",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — exercício autoral de redação, não questão oficial FCC",
+          "enunciado": "Segundo os itens 10.8 e 10.11 da cópia do edital, é correto afirmar que",
+          "alternativas": {
+            "A": "o rascunho substitui a resposta definitiva.",
+            "B": "trecho ilegível pode ser desconsiderado, e o rascunho não é corrigido.",
+            "C": "qualquer trecho fora do espaço é pontuado normalmente.",
+            "D": "sinais de identificação são recomendados.",
+            "E": "é obrigatório preencher o rascunho."
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "Somente o definitivo é avaliado; a regra prevê desconsideração de trechos.",
+          "analise_distratores": {
+            "A": "Rascunho não é avaliado.",
+            "C": "Trecho fora do espaço pode ser desconsiderado.",
+            "D": "Identificação pode zerar.",
+            "E": "Rascunho é facultativo."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Controle rigoroso de 20 a 30 linhas"
+        },
+        {
+          "questao_id": "RED-FCC-04-EXP-Q008",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — exercício autoral de redação, não questão oficial FCC",
+          "enunciado": "Uma redação de 27 linhas atende ao requisito de extensão, mas apresenta argumentos repetidos e conclusão desconectada. Qual procedimento é adequado?",
+          "alternativas": {
+            "A": "Considerar a nota máxima garantida pela extensão.",
+            "B": "Acrescentar frases até completar 30 linhas sem revisar.",
+            "C": "Trocar apenas o tamanho das letras.",
+            "D": "Revisar a progressão e o fechamento, mantendo a extensão exigida.",
+            "E": "Copiar um modelo público para resolver o problema."
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "Extensão é apenas uma condição; conteúdo exige revisão.",
+          "analise_distratores": {
+            "A": "Não garante nota.",
+            "B": "Preenchimento não corrige argumentos.",
+            "C": "Não resolve coerência.",
+            "E": "Cópia pode zerar."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Controle rigoroso de 20 a 30 linhas"
         }
       ],
       "flashcards": [
@@ -31221,7 +32399,7 @@
         {
           "card_id": "RED-FCC-04-FC002",
           "frente": "Quando usar 'esse/isso' vs. 'este/isto' na coesão textual?",
-          "verso": "'Esse/isso' retomam o que já foi dito (anáfora); 'este/isto' anunciam o que ainda será dito (catáfora).",
+          "verso": "Convenção didática: esse/isso retomam; este/isto podem anunciar. O uso é flexível; priorize referência clara.",
           "tipo": "conceito",
           "tags": [
             "coesao",
@@ -31231,7 +32409,7 @@
         {
           "card_id": "RED-FCC-04-FC003",
           "frente": "Qual a regra de ouro para o pronome relativo 'onde' na redação?",
-          "verso": "Usar 'onde' APENAS para lugar físico; para tempo, ideias ou situações, usar 'em que' ou 'no qual / na qual'.",
+          "verso": "Onde tem valor locativo. Em referentes temporais ou abstratos, prefira em que/no qual na escrita formal.",
           "tipo": "pegadinha_fcc",
           "tags": [
             "coesao",
@@ -31241,7 +32419,7 @@
         {
           "card_id": "RED-FCC-04-FC004",
           "frente": "Como empregar corretamente os verbos 'haver' (existir) e 'implicar' (acarretar)?",
-          "verso": "'Haver' (existir) fica sempre no singular ('há desafios'); 'implicar' (acarretar) não leva 'em' ('implica mudanças').",
+          "verso": "Haver existencial fica no singular. Implicar mudanças é a regência tradicional de acarretar; há variantes registradas.",
           "tipo": "conceito",
           "tags": [
             "morfossintaxe",
@@ -31250,8 +32428,8 @@
         },
         {
           "card_id": "RED-FCC-04-FC005",
-          "frente": "Cite 4 casos proibidos de crase que geram desconto na redação.",
-          "verso": "Antes de verbo, antes de palavra masculina, antes de pronome pessoal/indefinido e 'a' singular antes de palavra no plural.",
+          "frente": "Dê quatro exemplos de ausência de crase.",
+          "verso": "A estudar; a ela; a pé; a pessoas (sem artigo plural). Analise a fusão, não proibições absolutas.",
           "tipo": "conceito",
           "tags": [
             "crase",
@@ -31267,9 +32445,149 @@
             "edital",
             "fcc"
           ]
+        },
+        {
+          "card_id": "RED-FCC-04-EXP-FC001",
+          "frente": "Coesão referencial",
+          "verso": "Retoma ou anuncia referentes de modo identificável.",
+          "tipo": "conceito",
+          "tags": [
+            "redacao-fcc",
+            "red-fcc-04"
+          ]
+        },
+        {
+          "card_id": "RED-FCC-04-EXP-FC002",
+          "frente": "Coesão sequencial",
+          "verso": "Conecta ideias e relações de sentido.",
+          "tipo": "conceito",
+          "tags": [
+            "redacao-fcc",
+            "red-fcc-04"
+          ]
+        },
+        {
+          "card_id": "RED-FCC-04-EXP-FC003",
+          "frente": "Embora",
+          "verso": "Concessão.",
+          "tipo": "conceito",
+          "tags": [
+            "redacao-fcc",
+            "red-fcc-04"
+          ]
+        },
+        {
+          "card_id": "RED-FCC-04-EXP-FC004",
+          "frente": "Contudo",
+          "verso": "Contraste.",
+          "tipo": "conceito",
+          "tags": [
+            "redacao-fcc",
+            "red-fcc-04"
+          ]
+        },
+        {
+          "card_id": "RED-FCC-04-EXP-FC005",
+          "frente": "Por conseguinte",
+          "verso": "Consequência/conclusão conforme contexto.",
+          "tipo": "conceito",
+          "tags": [
+            "redacao-fcc",
+            "red-fcc-04"
+          ]
+        },
+        {
+          "card_id": "RED-FCC-04-EXP-FC006",
+          "frente": "Possessivo ambíguo",
+          "verso": "Explicitar o possuidor quando necessário.",
+          "tipo": "conceito",
+          "tags": [
+            "redacao-fcc",
+            "red-fcc-04"
+          ]
+        },
+        {
+          "card_id": "RED-FCC-04-EXP-FC007",
+          "frente": "Elipse",
+          "verso": "Omissão de elemento recuperável.",
+          "tipo": "conceito",
+          "tags": [
+            "redacao-fcc",
+            "red-fcc-04"
+          ]
+        },
+        {
+          "card_id": "RED-FCC-04-EXP-FC008",
+          "frente": "Propriedade vocabular",
+          "verso": "Seleção lexical clara e precisa.",
+          "tipo": "conceito",
+          "tags": [
+            "redacao-fcc",
+            "red-fcc-04"
+          ]
+        },
+        {
+          "card_id": "RED-FCC-04-EXP-FC009",
+          "frente": "Houve problemas",
+          "verso": "Haver existencial impessoal.",
+          "tipo": "conceito",
+          "tags": [
+            "redacao-fcc",
+            "red-fcc-04"
+          ]
+        },
+        {
+          "card_id": "RED-FCC-04-EXP-FC010",
+          "frente": "Faz dois anos",
+          "verso": "Fazer temporal impessoal.",
+          "tipo": "conceito",
+          "tags": [
+            "redacao-fcc",
+            "red-fcc-04"
+          ]
+        },
+        {
+          "card_id": "RED-FCC-04-EXP-FC011",
+          "frente": "Àquela medida",
+          "verso": "Fusão de preposição a com aquela.",
+          "tipo": "conceito",
+          "tags": [
+            "redacao-fcc",
+            "red-fcc-04"
+          ]
+        },
+        {
+          "card_id": "RED-FCC-04-EXP-FC012",
+          "frente": "Vírgula entre sujeito e verbo",
+          "verso": "Não usar isoladamente; intercalação pode justificar par de vírgulas.",
+          "tipo": "conceito",
+          "tags": [
+            "redacao-fcc",
+            "red-fcc-04"
+          ]
+        },
+        {
+          "card_id": "RED-FCC-04-EXP-FC013",
+          "frente": "Revisão em duas passagens",
+          "verso": "Conteúdo primeiro; linguagem e regras materiais depois.",
+          "tipo": "conceito",
+          "tags": [
+            "redacao-fcc",
+            "red-fcc-04"
+          ]
+        },
+        {
+          "card_id": "RED-FCC-04-EXP-FC014",
+          "frente": "Correção automatizada",
+          "verso": "Pode auxiliar análise, não equivale a nota oficial da FCC.",
+          "tipo": "conceito",
+          "tags": [
+            "redacao-fcc",
+            "red-fcc-04"
+          ]
         }
       ],
-      "teoria_md": "---\ntopico_id: RED-FCC-04\nslug: coesao-vocabulario-morfossintaxe\ntitulo: \"Domínio da Norma-Padrão FCC: Coesão Textual (1,60), Vocabulário (0,80) e Morfossintaxe (0,60)\"\nedital: SEDUC-MA-01-2026\nbanca: FCC\nstatus: em_auditoria\n---\n\n# 1. Arquitetura do Bloco de Norma-Padrão (3,00 pts — Item 10.4.2)\nMuitos candidatos estudam apenas ortografia e acentuação achando que isso domina a nota de gramática. Na FCC (item 10.4.2), a distribuição real é:\n- **Coesão Textual:** **1,60 ponto** (53,3% de todo o bloco de Norma-Padrão!).\n- **Propriedade Vocabular:** **0,80 ponto** (26,7%).\n- **Morfossintaxe:** **0,60 ponto** (20,0% — ortografia, acentuação, concordância, regência, flexão, tempos/modos verbais e crase).\n- **Regra integrada (Item 10.4.3):** a Norma-Padrão não é corrigida de modo estanque ou mecânico, mas em **estreita correlação com o conteúdo desenvolvido**.\n\n# 2. Coesão Textual (1,60 pt) — O Motor da Nota em Expressão\nA FCC avalia se os mecanismos coesivos **fazem a argumentação avançar** (não apenas enfeitam o início dos parágrafos):\n1. **Coesão Referencial (evitar repetição seca):** uso preciso de pronomes demonstrativos (*esse/essa/isso* para retomar o que já foi dito; *este/esta/isto* para anunciar o que virá), pronomes relativos (*o qual, cujo, onde* — só para lugar físico!), elipses e expressões nominais resumidoras (ex.: *\"Esse cenário...\"*, *\"Tal contradição...\"*).\n2. **Coesão Sequencial (conectivos estratégicos):**\n   - *Oposição/concessão (ouro na FCC!):* **embora, ainda que, conquanto, entretanto, todavia, contudo**.\n   - *Causa e consequência:* **uma vez que, haja vista, por conseguinte, desse modo, em decorrência disso**.\n   - *Adição argumentativa:* **ademais, além disso, somado a isso**.\n   - *Conclusão:* **portanto, logo, diante do exposto**.\n3. **Erro mortal em coesão:** usar *\"onde\"* para retomar ideias abstratas (ex.: *\"a situação onde...\"* → ERRADO; use **\"em que\"** ou **\"na qual\"**) ou usar *\"porém\"* sem contraste real.\n\n# 3. Propriedade Vocabular (0,80 pt) e Morfossintaxe (0,60 pt)\n- **Propriedade Vocabular:** clareza, precisão e objetividade. Evite palavras \"rebuscadas\" fora de sentido, clichês (*\"nos dias atuais\"*, *\"desde os primórdios\"*, *\"a sociedade como um todo\"*) e coloquialismos (*\"a gente\"*, *\"coisa\"*, *\"tipo\"*).\n- **Morfossintaxe — Top 5 descontos evitáveis:**\n  1. **Vírgula entre sujeito e verbo** (nunca separar o sujeito do seu predicado por vírgula única!).\n  2. **Crase:** ocorre na fusão de preposição `a` + artigo/pronome feminino (`à`, `às`, `àquele`); **nunca** antes de verbo, palavra masculina ou pronome indefinido/pessoal.\n  3. **Concordância com verbo impessoal:** *\"haver\"* no sentido de existir e *\"fazer\"* indicando tempo decorrido ficam sempre no **singular** (*\"Há desafios\"*, *\"Faz anos\"*).\n  4. **Regência verbal clássica:** *visar a* (objetivar), *implicar* (acarretar — transitivo direto, sem \"em\": *\"implica mudanças\"*), *assistir a* (presenciar).\n  5. **Acordo Ortográfico vigente** (Decreto nº 6.583/2008 e Decreto nº 7.875/2012 — citado expressamente no item 10.5).\n\n# 4. Checklist Cirúrgico de Revisão (Últimos 5 Minutos no Rascunho)\nAntes de passar a limpo para a folha definitiva (sem sinais de recuo e sem rasuras):\n1. O texto tem entre **24 e 29 linhas** (margem segura dentro de 20–30)?\n2. Todos os períodos têm no máximo **3 a 4 linhas** (evitando frases labirínticas sem pontuação)?\n3. Troquei todo *\"onde\"* indevido por *\"em que\"* e revisei crases e concordâncias?\n"
+      "teoria_md": "# 1. Escrever com precisão e conexão\n\nA norma-padrão vale até 3 pontos no item 10.4.2: vocabulário 0,80, coesão 1,60 e morfossintaxe 0,60. A avaliação relaciona expressão e conteúdo; não se presume desconto fixo por desvio. O Acordo Ortográfico vigente é referência do item 10.5.\n\nCoesão referencial liga expressões a entidades ou ideias; coesão sequencial organiza relações entre segmentos. Coerência requer sentido global. Repetir uma palavra-chave pode ser melhor que substituí-la por um termo de significado diferente.\n\n# 2. Referenciação e elipse\n\nEm \"A escola ampliou o horário da biblioteca. Essa medida facilitou a consulta\", essa medida retoma uma ação inteira. Na convenção didática tradicional, esse/isso retomam informação anterior e este/isto podem anunciar informação seguinte; o uso real é mais flexível. Priorize referente inequívoco, em vez de classificar toda ocorrência anafórica de este como erro absoluto.\n\nEm \"A professora entregou à coordenadora seu relatório\", o possessivo pode referir-se a duas pessoas. Se o relatório pertence à professora, explicite isso. Cujo expressa relação possessiva e concorda com o termo seguinte, sem artigo imediatamente posterior: \"o projeto cujos resultados foram publicados\".\n\nOnde tem valor locativo; em referências temporais ou abstratas em escrita formal, prefira em que ou no qual. Elipse omite termo recuperável: \"Ana revisou os mapas; Bruno, os gráficos.\" A vírgula indica a omissão de revisou.\n\n# 3. Conectivos segundo a relação\n\n| Relação | Exemplo de conector |\n|---|---|\n| Adição | além disso |\n| Contraste | contudo |\n| Concessão | embora |\n| Causa | porque |\n| Consequência | por conseguinte |\n| Condição | se |\n| Finalidade | para que |\n\nEm \"Embora a rede alcance muitos lugares, parte da população não possui acesso\", a concessão reconhece um fator que não impede o segundo fato. Trocar embora por porque muda a relação. Não comece todo parágrafo com portanto; só use conclusão quando houver uma inferência. Uma passagem também pode avançar sem conectivo explícito, por continuidade lexical e lógica.\n\n# 4. Vocabulário, sintaxe e revisão dirigida\n\nPrefira verbo preciso a expressão vaga: \"A medida reduziu o tempo de espera\" em vez de \"A medida fez coisas positivas\". Não use palavras difíceis sem dominar sentido e regência. Defina termos quando necessário.\n\nEm \"Houve mudanças\", haver existencial fica no singular; existir concorda: \"Existiram mudanças\". Fazer em tempo decorrido é impessoal: \"Faz dois anos\". Crase exige condições de fusão: \"referiu-se à medida\", \"referiu-se àquela medida\", mas \"começou a revisar\", \"referiu-se a ela\". Não declare que toda palavra masculina impede crase: existem construções com elipse de à moda de. Em regência, examine a acepção e a norma adotada; \"implicar mudanças\" é construção tradicional de acarretar, sem negar variantes registradas.\n\nNão separe sujeito e verbo por vírgula isolada. Em \"Os documentos, enviados ontem, foram conferidos\", as duas vírgulas isolam uma informação intercalada. Revise períodos complexos para evitar ambiguidade.\n\n# 5. Oficina de correção\n\nTrecho autoral com problemas: \"Fazem dois anos que a escola, oferece atividades digitais. Isso possibilitou à muitos alunos o acesso, porém o sistema falha porque a conexão é instável.\"\n\nRevisão possível: \"Faz dois anos que a escola oferece atividades digitais. A iniciativa facilitou o acesso de muitos alunos; contudo, o sistema ainda falha devido à instabilidade da conexão.\"\n\nJustificativa: fazer temporal no singular; retirada da vírgula indevida; construção sem crase diante de muitos; referência mais específica; contraste marcado. A versão muda a estrutura para favorecer clareza e conserva o sentido central. Outras revisões podem ser igualmente válidas. Exercite corrigir uma passagem de sua própria redação, registrando regra e motivo, não só a forma final.\n\n# 6. Controle material e rotina de treino\n\nNa cópia do edital, a faixa exigida é 20–30 linhas; até sete linhas configura zero. Marcas identificadoras, cópia de modelos e outras situações do item 10.10 também podem zerar a prova. Trechos ilegíveis, rasurados ou fora do campo definitivo podem ser desconsiderados (10.8). Não use sinais para marcar recuos (10.9). Leia as instruções do caderno, escreva legivelmente e deixe tempo para transcrição. Não conte linhas por palavras na tela: pratique com folha pautada.\n\nRotina sugerida: planejar, redigir, revisar conteúdo, revisar linguagem e reescrever. Faça duas passagens de revisão: primeiro recorte, tese, argumentos e conclusão; depois referentes, conectivos, léxico, concordância, regência, crase, flexão, ortografia e pontuação. Reserve tempo compatível com o restante da prova, sem tratar um cronograma fixo como norma oficial.\n\n# 7. Simulado integrado e devolutiva\n\nProposta inédita: discuta as condições para que o acesso a informações contribua para decisões responsáveis.\n\nApoio autoral A: ampliar o acesso a informações permite conhecer alternativas antes ignoradas. Apoio autoral B: escolher entre alternativas exige avaliar a qualidade dos dados e reconhecer o que ainda não se sabe.\n\nRedija de 20 a 30 linhas. Use a grade do capítulo 10 como referência de análise, não como calculadora oficial de nota. Para cada critério, registre evidência concreta no seu texto e uma melhoria possível: recorte (responde à tensão?), leitura crítica (avança além do apoio?), progressão (argumentos distintos e fechamento?), vocabulário (precisão?), coesão (referência e relação?), morfossintaxe (norma-padrão?). Identifique primeiro os dois problemas de maior impacto. Reescreva e compare as versões.\n\nRecupere: diferença entre coesão e coerência; referentes ambíguos; relações semânticas; crase e impessoalidade; regras materiais e revisão."
     }
   ]
 }
