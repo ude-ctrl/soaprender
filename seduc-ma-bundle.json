@@ -5,8 +5,8 @@
   "resumo_cobertura": {
     "total_unidades_edital": 45,
     "unidades_populadas": 45,
-    "total_questoes": 324,
-    "total_flashcards": 495
+    "total_questoes": 348,
+    "total_flashcards": 537
   },
   "edital": {
     "schema_version": "1.0.0",
@@ -8358,7 +8358,7 @@
       "titulo": "Geografia do Espaço Agrário Mundial: Sistemas Agrícolas, Revolução Verde e Complexos Agroindustriais",
       "status": "em_auditoria",
       "origem": "edital_explicito",
-      "tempo_leitura_min": 30,
+      "tempo_leitura_min": 9,
       "edital_subtopicos": [
         "Histórico, relações de produção e sistemas agrícolas",
         "Modernização agrícola e Revolução Verde",
@@ -8380,18 +8380,24 @@
           "referencia_abnt": "OLIVEIRA, Ariovaldo Umbelino de. Modo de Produção Capitalista, Agricultura e Reforma Agrária. São Paulo: Labur Edições, 2007.",
           "tipo": "bibliografia_academica",
           "nivel_autoridade": 5
+        },
+        {
+          "referencia_abnt": "BRASIL. Lei 11.326/2006 — agricultura familiar.",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11326.htm",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
         }
       ],
       "sintese_fcc": {
         "conceitos_nucleares": [
           {
             "termo": "Agricultura Intensiva vs. Extensiva",
-            "definicao_precisa": "Intensiva: alto aporte de capital, tecnologia e produtividade por área; Extensiva: baixo aporte tecnológico e menor rendimento por hectare.",
+            "definicao_precisa": "Emprego relativo de trabalho, capital e insumos por área, considerando o sistema; não apenas tamanho ou mecanização.",
             "fonte": "GRAZIANO DA SILVA, 1996."
           },
           {
             "termo": "Revolução Verde",
-            "definicao_precisa": "Pacote tecnológico (sementes de alto rendimento, mecanização, fertilizantes, agrotóxicos) que elevou a produção, mas agravou concentração fundiária e impactos ambientais.",
+            "definicao_precisa": "Variedades melhoradas, fertilizantes, irrigação, proteção de plantas e pesquisa; aumento de rendimentos em muitos contextos, com efeitos sociais e ambientais variáveis.",
             "fonte": "OLIVEIRA, 2007."
           },
           {
@@ -8403,13 +8409,13 @@
         "pegadinhas_fcc": [
           {
             "armadilha": "Associar 'intensiva' exclusivamente a pequenas propriedades e 'extensiva' a grandes fazendas",
-            "como_a_fcc_cobra": "Afirma que grandes fazendas mecanizadas de soja são 'extensivas' apenas por ocuparem muitos hectares.",
-            "como_desarmar": "O critério é capital/tecnologia por área: soja mecanizada com biotecnologia é agricultura INTENSIVA em capital."
+            "como_a_fcc_cobra": "Exemplo de distrator autoral: afirma que grandes fazendas mecanizadas de soja são 'extensivas' apenas por ocuparem muitos hectares.",
+            "como_desarmar": "Examine trabalho, capital e insumos por unidade de área; tamanho e mecanização isolados não bastam."
           },
           {
             "armadilha": "Dizer que países centrais praticam livre-mercado agrícola sem proteção estatal",
-            "como_a_fcc_cobra": "Afirma que EUA e União Europeia não subsidiam seus produtores rurais.",
-            "como_desarmar": "EUA (Farm Bill) e UE (PAC) mantêm pesados subsídios agrícolas e barreiras não tarifárias."
+            "como_a_fcc_cobra": "Exemplo de distrator autoral: afirma que EUA e União Europeia não subsidiam seus produtores rurais.",
+            "como_desarmar": "Subsídios e medidas comerciais podem alterar concorrência; avaliar desenho e aplicação, sem tratar toda medida sanitária como ilegítima."
           }
         ],
         "quadro_comparativo": [
@@ -8431,7 +8437,7 @@
           }
         ],
         "checklist_revisao": [
-          "Sei diferenciar agricultura intensiva vs. extensiva pelo critério de capital/produtividade?",
+          "Sei distinguir intensidade, produção total e rendimento por área?",
           "Sei os efeitos positivos e as contradições socioambientais da Revolução Verde?",
           "Sei explicar o papel dos subsídios (PAC/Farm Bill) nas disputas comerciais entre Norte e Sul?"
         ]
@@ -8450,7 +8456,7 @@
             "E": "impediu a expansão da fronteira agrícola sobre biomas tropicais como o Cerrado."
           },
           "gabarito": "A",
-          "justificativa_gabarito": "A Revolução Verde aumentou a oferta de grãos via pacote químico-mecânico-genético, porém exigiu alto capital, expulsando pequenos produtores, concentrando terras e gerando impactos ambientais.",
+          "justificativa_gabarito": "O pacote de variedades melhoradas, insumos, pesquisa e irrigação elevou rendimentos em muitos contextos. Em estruturas desiguais, pôde favorecer concentração de recursos e mudanças no trabalho, além de impactos ambientais; efeitos não são universais.",
           "analise_distratores": {
             "B": "A fome persistiu por desigualdade de acesso e renda, não apenas por volume produtivo.",
             "C": "Pelo contrário: baseou-se intensamente em fertilizantes sintéticos e agrotóxicos.",
@@ -8467,18 +8473,18 @@
           "enunciado": "Na classificação técnica dos sistemas agrícolas, a distinção entre agricultura intensiva e agricultura extensiva fundamenta-se",
           "alternativas": {
             "A": "exclusivamente na extensão em hectares do imóvel rural, sendo extensiva toda fazenda com mais de 100 hectares.",
-            "B": "no grau de capitalização, emprego de tecnologia, insumos e rendimento obtido por unidade de área cultivada.",
+            "B": "no emprego relativo de trabalho, capital e insumos por unidade de área, considerando os rendimentos e o contexto do sistema.",
             "C": "apenas no tipo de cultura plantada, sendo o milho sempre extensivo e o café sempre intensivo.",
             "D": "na localização hemisférica, ocorrendo agricultura intensiva somente no Hemisfério Norte.",
             "E": "na presença ou ausência de cercas elétricas na propriedade."
           },
           "gabarito": "B",
-          "justificativa_gabarito": "Sistemas intensivos concentram capital/trabalho/tecnologia por área para obter alta produtividade por hectare; sistemas extensivos utilizam baixo aporte técnico e dependem de grandes áreas com menor rendimento unitário.",
+          "justificativa_gabarito": "Intensidade refere-se ao uso relativo de fatores por área, incluindo trabalho e capital. Rendimento é indicador relacionado, mas não define sozinho a intensidade.",
           "analise_distratores": {
             "A": "Armadilha clássica: tamanho da propriedade não define sozinho se o sistema é intensivo ou extensivo.",
             "C": "Qualquer cultura pode ser conduzida em sistema intensivo ou extensivo.",
-            "D": "O agronegócio brasileiro no Sul Global é altamente intensivo em capital e tecnologia.",
-            "E": "Critério irrelevante."
+            "D": "Sistemas intensivos existem em ambos os hemisférios.",
+            "E": "Cercas não medem o emprego relativo dos fatores por unidade de área."
           },
           "dificuldade": "basica",
           "subtopico": "Histórico, relações de produção e sistemas agrícolas"
@@ -8500,7 +8506,7 @@
           "analise_distratores": {
             "A": "Refere-se à criação extensiva de gado.",
             "B": "Plantation baseia-se em latifúndio monocultor de exportação.",
-            "C": "Coivara usa queimada e pousio, com baixa produtividade e baixa densidade demográfica.",
+            "C": "Cultivos itinerantes incluem períodos de pousio e não se definem pelo uso intensivo de parcelas irrigadas permanentes.",
             "E": "Técnica de conservação de umidade em regiões semiáridas temperadas."
           },
           "dificuldade": "basica",
@@ -8516,15 +8522,15 @@
             "B": "do fim completo da Política Agrícola Comum (PAC) na União Europeia na década de 1960.",
             "C": "da recusa dos países periféricos em exportar commodities agrícolas.",
             "D": "da proibição de exportação de soja pelo Brasil desde 1995.",
-            "E": "da manutenção de expressivos subsídios agrícolas internos e barreiras protecionistas (tarifárias e fitossanitárias) pelos países centrais, que distorcem os preços internacionais."
+            "E": "de subsídios e medidas comerciais que, conforme o desenho e a aplicação, podem alterar as condições de concorrência internacional."
           },
           "gabarito": "E",
-          "justificativa_gabarito": "Políticas como a PAC (UE) e a Farm Bill (EUA) concedem pesados subsídios aos produtores dos países centrais, reduzindo artificialmente preços externos e dificultando a competição de países em desenvolvimento.",
+          "justificativa_gabarito": "Apoios públicos e medidas comerciais podem influenciar custos, renda e concorrência. Medidas fitossanitárias não são automaticamente ilegítimas; é necessário avaliar suas características.",
           "analise_distratores": {
             "A": "EUA e UE são gigantes produtores e exportadores agrícolas.",
             "B": "A PAC foi criada justamente na década de 1960 e segue ativa.",
             "C": "Países periféricos/emergentes dependem fortemente da exportação de commodities.",
-            "D": "O Brasil é o maior exportador mundial de soja."
+            "D": "Não existe proibição geral de exportação de soja pelo Brasil desde 1995."
           },
           "dificuldade": "intermediaria",
           "subtopico": "Agropecuária em países centrais e periféricos; complexos agroindustriais"
@@ -8539,10 +8545,10 @@
             "B": "restringe a produção agrícola exclusivamente ao autoconsumo familiar.",
             "C": "elimina o trabalho assalariado urbano e restaura relações feudais de servidão.",
             "D": "impede a atuação de empresas tradings na comercialização de grãos.",
-            "E": "integra a produção agropecuária a cadeias industriais a montante (insumos/equipamentos) e a jusante (processamento/distribuição), subordinando o ritmo do campo ao capital industrial e financeiro."
+            "E": "articula a produção agropecuária a insumos, equipamentos, processamento, distribuição, crédito e logística, reorganizando as relações campo–cidade."
           },
           "gabarito": "E",
-          "justificativa_gabarito": "Nos CAIs, o campo perde autonomia isolada e passa a funcionar como elo de uma cadeia integrada à indústria de insumos, à agroindústria processadora, ao sistema financeiro e à logística global.",
+          "justificativa_gabarito": "Complexos agroindustriais integram etapas antes, durante e após a produção, com relações de coordenação e poder variáveis.",
           "analise_distratores": {
             "A": "Descreve o oposto: dependência máxima de insumos industriais e crédito.",
             "B": "Voltado prioritariamente ao mercado e à indústria.",
@@ -8551,13 +8557,197 @@
           },
           "dificuldade": "basica",
           "subtopico": "Agropecuária em países centrais e periféricos; complexos agroindustriais"
+        },
+        {
+          "questao_id": "CE-GEO-07-EXP-Q001",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino; não oficial FCC",
+          "enunciado": "Uma fazenda de 100 ha produz 300 t e outra de 20 ha produz 80 t. A afirmação correta é",
+          "alternativas": {
+            "A": "a maior possui maior rendimento por hectare.",
+            "B": "ambas possuem rendimento igual.",
+            "C": "a menor possui rendimento de 4 t/ha e produção total inferior.",
+            "D": "a menor produz 300 t.",
+            "E": "área determina sozinha a intensidade do sistema."
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "80/20=4 t/ha; 300/100=3 t/ha. A produção total da menor é inferior.",
+          "analise_distratores": {
+            "A": "3 é menor que 4 t/ha.",
+            "B": "Os rendimentos diferem.",
+            "D": "A menor produz 80 t.",
+            "E": "Intensidade depende do uso de fatores por área."
+          },
+          "dificuldade": "basica",
+          "subtopico": "Histórico, relações de produção e sistemas agrícolas"
+        },
+        {
+          "questao_id": "CE-GEO-07-EXP-Q002",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino; não oficial FCC",
+          "enunciado": "Uma horta com trabalho intensivo em pequena área e poucos equipamentos exemplifica que",
+          "alternativas": {
+            "A": "só mecanização define intensidade.",
+            "B": "um sistema pode ser intensivo em trabalho, mesmo com pouco capital mecanizado.",
+            "C": "pequena área é sempre extensiva.",
+            "D": "toda horta é autoconsumo.",
+            "E": "rendimento é o total produzido sem considerar área."
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "A intensidade deve ser especificada conforme fatores de produção utilizados.",
+          "analise_distratores": {
+            "A": "Trabalho também pode ser fator intensivo.",
+            "C": "Tamanho não é critério suficiente.",
+            "D": "Pode produzir para o mercado.",
+            "E": "Rendimento da terra é quantidade por área."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Histórico, relações de produção e sistemas agrícolas"
+        },
+        {
+          "questao_id": "CE-GEO-07-EXP-Q003",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino; não oficial FCC",
+          "enunciado": "Sobre a Revolução Verde, considere I. variedades melhoradas e insumos elevaram rendimentos em muitos contextos. II. todo aumento de produção elimina fome. III. difusão tecnológica depende de acesso a recursos. Está correto o que se afirma em",
+          "alternativas": {
+            "A": "I apenas.",
+            "B": "II apenas.",
+            "C": "I e II apenas.",
+            "D": "I e III apenas.",
+            "E": "I, II e III."
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "I e III são válidas; acesso a alimentos não decorre apenas da oferta total.",
+          "analise_distratores": {
+            "A": "III também é verdadeira.",
+            "B": "II é falsa.",
+            "C": "Inclui II, que é falsa, e omite III.",
+            "E": "Inclui II, que é falsa."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Modernização agrícola e Revolução Verde"
+        },
+        {
+          "questao_id": "CE-GEO-07-EXP-Q004",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino; não oficial FCC",
+          "enunciado": "Uma cooperativa familiar vende leite a uma indústria de processamento. A relação demonstra que",
+          "alternativas": {
+            "A": "organização familiar pode coexistir com integração agroindustrial.",
+            "B": "agricultura familiar é necessariamente autoconsumo.",
+            "C": "processamento é sempre atividade a montante.",
+            "D": "cooperativa não participa de mercados.",
+            "E": "toda agroindústria possui a terra dos fornecedores."
+          },
+          "gabarito": "A",
+          "justificativa_gabarito": "Organização da unidade e inserção na cadeia são critérios diferentes.",
+          "analise_distratores": {
+            "B": "Produção familiar pode ser comercial.",
+            "C": "Processamento ocorre a jusante.",
+            "D": "Cooperativas podem comercializar.",
+            "E": "Contratos não implicam propriedade comum da terra."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Agropecuária em países centrais e periféricos; complexos agroindustriais"
+        },
+        {
+          "questao_id": "CE-GEO-07-EXP-Q005",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino; não oficial FCC",
+          "enunciado": "A produção aumenta de 100 para 150 t, e a área de 20 para 30 ha. O resultado indica",
+          "alternativas": {
+            "A": "rendimento dobrou.",
+            "B": "rendimento caiu para 3 t/ha.",
+            "C": "área diminuiu.",
+            "D": "crescimento físico decorreu necessariamente de mecanização.",
+            "E": "aumento da produção com rendimento constante de 5 t/ha."
+          },
+          "gabarito": "E",
+          "justificativa_gabarito": "100/20=150/30=5 t/ha.",
+          "analise_distratores": {
+            "A": "O rendimento permaneceu constante.",
+            "B": "O rendimento é 5 t/ha.",
+            "C": "A área cresceu.",
+            "D": "Não há informação que comprove o papel da mecanização."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Histórico, relações de produção e sistemas agrícolas"
+        },
+        {
+          "questao_id": "CE-GEO-07-EXP-Q006",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino; não oficial FCC",
+          "enunciado": "Uma política sanitária restringe um produto agrícola importado. Para avaliar se é barreira protecionista indevida, deve-se",
+          "alternativas": {
+            "A": "considerar toda restrição sanitária ilegal.",
+            "B": "examinar justificativa, evidência, regras e aplicação da medida.",
+            "C": "assumir que apenas países periféricos subsidiam.",
+            "D": "ignorar risco à saúde.",
+            "E": "concluir que comércio agrícola dispensa instituições."
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "Medidas sanitárias podem ter finalidade legítima; seu desenho e aplicação determinam avaliação.",
+          "analise_distratores": {
+            "A": "Há medidas de proteção sanitária legítimas.",
+            "C": "Subsídios ocorrem em diferentes economias.",
+            "D": "Risco sanitário é relevante.",
+            "E": "Comércio possui regras e instituições."
+          },
+          "dificuldade": "avancada",
+          "subtopico": "Agropecuária em países centrais e periféricos; complexos agroindustriais"
+        },
+        {
+          "questao_id": "CE-GEO-07-EXP-Q007",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino; não oficial FCC",
+          "enunciado": "A abertura de corredor logístico em uma fronteira agrícola pode",
+          "alternativas": {
+            "A": "eliminar toda disputa fundiária.",
+            "B": "demonstrar ausência de moradores anteriores.",
+            "C": "alterar custos, preços da terra e relações entre agentes territoriais.",
+            "D": "impedir toda expansão de lavouras.",
+            "E": "produzir benefícios iguais para todos."
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "Infraestrutura reorganiza acessibilidade e valorização, com efeitos desiguais.",
+          "analise_distratores": {
+            "A": "Conflitos podem persistir ou mudar.",
+            "B": "Fronteiras não são espaços vazios.",
+            "D": "Menor custo pode incentivar expansão.",
+            "E": "Os efeitos variam entre agentes."
+          },
+          "dificuldade": "avancada",
+          "subtopico": "Agropecuária em países centrais e periféricos; complexos agroindustriais"
+        },
+        {
+          "questao_id": "CE-GEO-07-EXP-Q008",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino; não oficial FCC",
+          "enunciado": "Um país aumenta exportações de grãos enquanto parte da população enfrenta insegurança alimentar. Essa situação",
+          "alternativas": {
+            "A": "é impossível se a produção aumenta.",
+            "B": "prova inexistência de agricultura familiar.",
+            "C": "demonstra que alimentos não têm valor econômico.",
+            "D": "mostra que oferta agregada e acesso aos alimentos são dimensões distintas.",
+            "E": "implica que exportar é sempre a causa exclusiva da fome."
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "Renda, preços, abastecimento e políticas mediam o acesso.",
+          "analise_distratores": {
+            "A": "Oferta pode coexistir com privação.",
+            "B": "Não há informação sobre organização familiar.",
+            "C": "Alimentos têm valor econômico e social.",
+            "E": "A causalidade depende de múltiplos fatores."
+          },
+          "dificuldade": "avancada",
+          "subtopico": "Agropecuária em países centrais e periféricos; complexos agroindustriais"
         }
       ],
       "flashcards": [
         {
           "card_id": "CE-GEO-07-FC001",
           "frente": "Qual o critério real que distingue agricultura intensiva de extensiva?",
-          "verso": "Capital, tecnologia e produtividade por unidade de área (não o tamanho da fazenda em hectares).",
+          "verso": "Emprego relativo de trabalho, capital e insumos por área, considerando o sistema; não apenas tamanho ou mecanização.",
           "tipo": "pegadinha_fcc",
           "tags": [
             "sistemas-agricolas"
@@ -8566,7 +8756,7 @@
         {
           "card_id": "CE-GEO-07-FC002",
           "frente": "Quais os pilares tecnológicos e os efeitos contraditórios da Revolução Verde?",
-          "verso": "Pilares: sementes selecionadas, fertilizantes, agrotóxicos e mecanização. Efeitos: aumento de safras, porém concentração fundiária, êxodo rural e impactos ambientais.",
+          "verso": "Variedades melhoradas, fertilizantes, irrigação, proteção de plantas e pesquisa; aumento de rendimentos em muitos contextos, com efeitos sociais e ambientais variáveis.",
           "tipo": "conceito",
           "tags": [
             "revolucao-verde"
@@ -8585,7 +8775,7 @@
         {
           "card_id": "CE-GEO-07-FC004",
           "frente": "O que é agricultura de jardinagem e onde predomina?",
-          "verso": "Sistema intensivo em mão de obra, pequenas parcelas, terraços e altíssima produtividade de arroz no Sul e Sudeste Asiático.",
+          "verso": "Expressão didática associada a cultivo intensivo em trabalho em pequenas parcelas, muitas vezes com arroz irrigado em partes da Ásia.",
           "tipo": "conceito",
           "tags": [
             "sistemas-agricolas",
@@ -8595,7 +8785,7 @@
         {
           "card_id": "CE-GEO-07-FC005",
           "frente": "Por que países centrais geram atritos agrícolas na OMC com o Sul Global?",
-          "verso": "Por manterem altos subsídios estatais (PAC na UE e Farm Bill nos EUA) e barreiras protecionistas.",
+          "verso": "Subsídios e medidas comerciais podem alterar concorrência; avaliar desenho e aplicação, sem tratar toda medida sanitária como ilegítima.",
           "tipo": "conceito",
           "tags": [
             "comercio-agricola",
@@ -8610,9 +8800,149 @@
           "tags": [
             "plantation"
           ]
+        },
+        {
+          "card_id": "CE-GEO-07-EXP-FC001",
+          "frente": "Estrutura fundiária e relações de produção?",
+          "verso": "Distribuição e organização da terra versus organização do trabalho, controle e apropriação do produto.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-07"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-07-EXP-FC002",
+          "frente": "Intensidade depende apenas da tecnologia?",
+          "verso": "Não. Especifique trabalho, capital ou insumos por área e contexto.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-07"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-07-EXP-FC003",
+          "frente": "Produção e rendimento da terra?",
+          "verso": "Quantidade total versus quantidade por unidade de área.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-07"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-07-EXP-FC004",
+          "frente": "Como calcular rendimento de 80 t em 20 ha?",
+          "verso": "80/20 = 4 t/ha.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-07"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-07-EXP-FC005",
+          "frente": "Qual função do pousio?",
+          "verso": "Permitir recuperação de condições ecológicas e produtivas, conforme duração e contexto.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-07"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-07-EXP-FC006",
+          "frente": "Revolução Verde equivale a transgenia?",
+          "verso": "Não. Seu núcleo histórico inclui variedades melhoradas convencionais, insumos, irrigação e assistência.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-07"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-07-EXP-FC007",
+          "frente": "Modernização conservadora?",
+          "verso": "Mudanças produtivas e técnicas sem redistribuição fundiária equivalente.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-07"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-07-EXP-FC008",
+          "frente": "Agricultura familiar é sinônimo de subsistência?",
+          "verso": "Não; pode integrar mercados, cooperativas e agroindústrias.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-07"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-07-EXP-FC009",
+          "frente": "Commodity?",
+          "verso": "Mercadoria relativamente padronizada e negociada em mercados amplos.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-07"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-07-EXP-FC010",
+          "frente": "Por que uma política agrícola pode afetar comércio?",
+          "verso": "Pode alterar custos, renda, incentivos e condições concorrenciais.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-07"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-07-EXP-FC011",
+          "frente": "Fronteira agrícola é espaço vazio?",
+          "verso": "Não. É expansão e reorganização de cadeias e territórios já dotados de relações sociais.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-07"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-07-EXP-FC012",
+          "frente": "Módulo fiscal tem área fixa nacional?",
+          "verso": "Não; é definido por município.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-07"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-07-EXP-FC013",
+          "frente": "Segurança alimentar equivale à produção total?",
+          "verso": "Não. Depende de acesso, renda, qualidade e regularidade.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-07"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-07-EXP-FC014",
+          "frente": "Intensificação garante redução da área cultivada?",
+          "verso": "Não. Demanda, preços e estratégias econômicas podem estimular expansão.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-07"
+          ]
         }
       ],
-      "teoria_md": "---\ntopico_id: CE-GEO-07\nslug: geografia-espaco-agrario-geral\ntitulo: \"Geografia do Espaço Agrário Mundial: Sistemas Agrícolas, Revolução Verde e Complexos Agroindustriais\"\nedital: SEDUC-MA-01-2026\nbanca: FCC\nstatus: em_auditoria\n---\n\n# 1. Delimitação no Edital (Camada A)\n- **Itens explícitos (p. 76):** *Geografia do espaço agrário: Histórico e relações. Sistemas agrícolas. Modernização. Revolução Verde. Agropecuária em países centrais e periféricos. Complexos agroindustriais.*\n\n# 2. Sistemas Agrícolas e Relações de Produção\n- **Critério Técnico-Produtivo (Intensivo × Extensivo):**\n  - **Agricultura Intensiva:** alto emprego de capital, tecnologia, insumos químicos, irrigação, seleção genética e elevada produtividade por hectare (ex.: cinturões agrícolas dos EUA — *belts* —, Europa Ocidental, soja no Centro-Oeste/MATOPIBA).\n  - **Agricultura Extensiva:** baixa incorporação tecnológica, reduzido investimento por área, forte dependência das condições naturais e produtividade menor por hectare (ex.: pecuária extensiva tradicional, roças de subsistência sem mecanização).\n  - *Alerta FCC:* \"intensivo vs. extensivo\" mede o **grau de capitalização/tecnologia e produtividade por área**, e não simplesmente o tamanho da propriedade!\n- **Sistemas Tradicionais Clássicos:**\n  - *Agricultura Itinerante (de coivara/roça tropical):* derrubada e queimada da vegetação, cultivo temporário e pousio após esgotamento do solo.\n  - *Jardinagem (Sudeste e Sul da Ásia):* uso intensivo de mão de obra em pequenas propriedades (rizicultura irrigada em terraços/várzeas), com altíssima produtividade por área.\n  - *Plantation (herança colonial):* latifúndio, monocultura voltada à exportação e uso histórico de trabalho escravo ou precarizado.\n\n# 3. Revolução Verde e Complexos Agroindustriais (CAIs)\n- **Revolução Verde (décadas de 1950–1970):** pacote tecnológico baseado em **sementes geneticamente selecionadas/híbridas de alto rendimento**, mecanização pesada, **fertilizantes sintéticos (NPK)**, **agrotóxicos** e irrigação intensiva.\n  - *Resultados positivos:* forte aumento da produção global de grãos (trigo, milho, arroz).\n  - *Contradições socioambientais:* concentração fundiária, expulsão de pequenos produtores (êxodo rural), dependência tecnológica de transnacionais de sementes/insumos, perda de biodiversidade (erosão genética), contaminação hídrica e salinização/compactação dos solos.\n- **Complexos Agroindustriais (CAIs):** integração sistêmica entre **indústria a montante** (máquinas, sementes, fertilizantes), **produção agropecuária padronizada**, **indústria a jusante** (beneficiamento, frigoríficos, esmagamento, celulose) e **logística/finanças** (tradings, ferrovias, portos). Reduz a fronteira clássica entre \"rural\" e \"urbano\".\n\n# 4. Agropecuária em Países Centrais vs. Países Periféricos\n- **Países Centrais (EUA, União Europeia, Japão):** agricultura altamente tecnificada, integrada a serviços e P&D, e **fortemente protegida por subsídios estatais** (ex.: *Farm Bill* nos EUA e Política Agrícola Comum — PAC — na União Europeia) e barreiras tarifárias/fitossanitárias que dificultam a concorrência de exportadores do Sul Global.\n- **Países Periféricos e Emergentes:** convivência dual entre um **agronegócio exportador hipermoderno** (commodities como soja, carne, milho, café, açúcar) e uma **agricultura familiar/camponesa** responsável por grande parte do abastecimento alimentar interno, frequentemente marcada por conflitos fundiários e menor acesso a crédito e assistência técnica.\n"
+      "teoria_md": "# 1. Espaço agrário e relações de produção\n\nO pão que chega à mesa conecta terras cultivadas, trabalhadores, máquinas, moinhos, crédito, transporte e comércio. A Geografia Agrária estuda como a terra é apropriada, como se organiza o trabalho, como se produz e para quem se destina a produção. Espaço rural é mais amplo que agricultura: inclui moradia, serviços, conservação, turismo e diversas atividades.\n\nA agricultura desenvolveu-se em diferentes regiões e épocas, com domesticação de plantas e animais e transformação de paisagens. Sistemas coloniais de produção para exportação articularam terras, trabalho compulsório, comércio e poder. A industrialização ampliou mercados de insumos e alimentos, sem eliminar as formas anteriores de produção. Não existe uma sequência obrigatória de agricultura tradicional para moderna.\n\nEstrutura fundiária descreve distribuição e organização da posse e propriedade da terra. Relações de produção dizem respeito à organização do trabalho, controle dos meios de produção, apropriação do produto e distribuição da renda. Uma mesma cultura pode envolver agricultores familiares, arrendatários, cooperativas, assalariados e empresas. Arrendamento é cessão de uso da terra mediante remuneração; parceria envolve repartição de resultados e riscos nas condições contratuais. Trabalho familiar e comercialização podem coexistir.\n\nPergunte sempre: quem controla a terra, como produz, quem trabalha, onde vende e quais relações territoriais resultam?\n\n# 2. Intensidade, rendimento e sistemas agrícolas\n\nIntensivo e extensivo são conceitos relativos ao uso dos fatores de produção por área, não rótulos automáticos pelo tamanho da fazenda. Uma horticultura pequena com muito trabalho por hectare pode ser intensiva em trabalho; uma lavoura mecanizada pode ser intensiva em capital, mas com pouco trabalho por hectare. O rendimento depende do sistema, da cultura e das condições locais.\n\n| Indicador | Significado |\n|---|---|\n| Produção | Quantidade total obtida |\n| Produtividade da terra | Produção dividida pela área de referência |\n| Produtividade do trabalho | Produção por unidade de trabalho |\n| Intensidade | Quantidade de insumos, trabalho ou capital por área, conforme o critério |\n\nUma área de 20 hectares produz 80 toneladas: rendimento de 4 t/ha. Outra de 100 hectares produz 300 toneladas: 3 t/ha. A segunda produz mais, mas rende menos por hectare. Para avaliar eficiência econômica ou ambiental, seriam necessários custos, preços, água, energia e outros dados.\n\nIntensificação não garante sustentabilidade: pode reduzir a necessidade de área por unidade produzida, mas também estimular expansão quando os lucros e a demanda aumentam. Extensivo não significa necessariamente atrasado; pastoreio adaptado a condições áridas, por exemplo, pode exigir baixa lotação para evitar degradação.\n\n# 3. Sistemas tradicionais e especialização regional\n\n| Sistema ou expressão | Características frequentes | Cuidado |\n|---|---|---|\n| Cultivo itinerante/coivara | Cultivo por período limitado, seguido de pousio | Tempo de recuperação depende do contexto ecológico |\n| Jardinagem asiática | Pequenas parcelas, uso intensivo de trabalho e, em muitos casos, irrigação | Não se reduz a terraços nem ocorre em toda Ásia |\n| Plantation histórica | Grande propriedade, especialização para exportação, coerção laboral em contextos coloniais | Não equivale a toda agricultura comercial moderna |\n| Pastoreio móvel | Deslocamento de rebanhos segundo disponibilidade de água e pastagens | Pode ser adaptado à sazonalidade |\n| Belts | Especialização agrícola regional | Limites e culturas mudam com mercados e técnica |\n\nCoivara é uma prática de manejo envolvendo corte e queima em determinados sistemas agrícolas. O pousio pode permitir recomposição da vegetação e fertilidade, dependendo da duração e intensidade de uso. Não confunda manejo tradicional com qualquer desmatamento por fogo.\n\nA agricultura de jardinagem, expressão didática, ilustra formas de uso intensivo de pequenas áreas, frequentemente com arroz irrigado em partes da Ásia. A monocultura de exportação colonial ligou economias a mercados externos, com exploração de trabalhadores e concentração fundiária. Hoje há sistemas de monocultura em escalas variadas, com relações de trabalho diferentes das coloniais.\n\nA especialização resulta de condições naturais, infraestrutura, técnica, história e preços. A disponibilidade de solo e clima favoráveis não determina por si só a localização de uma cultura.\n\n# 4. Revolução Verde e modernização desigual\n\nA Revolução Verde difundiu variedades melhoradas de alto rendimento, especialmente de trigo e arroz, associadas a fertilizantes, irrigação, proteção de plantas, pesquisa, crédito e assistência técnica. A mecanização acompanhou processos de modernização agrícola, com intensidade variável. O núcleo histórico da Revolução Verde não deve ser confundido com transgenia contemporânea: melhoramento convencional e híbridos existiam antes dos organismos geneticamente modificados.\n\nVariedades responsivas a insumos podem aumentar rendimentos quando água, nutrientes e manejo são adequados. Esse ganho não é automático em qualquer ambiente. A difusão depende de acesso à terra, financiamento, extensão rural, mercados e infraestrutura. A produção pode crescer sem resolver a fome, que depende também de acesso, renda e distribuição.\n\nOs efeitos sociais são heterogêneos. Em estruturas fundiárias concentradas, crédito e máquinas podem favorecer produtores com mais recursos e modificar empregos, estimulando deslocamentos populacionais. No Brasil, modernização conservadora é uma interpretação da expansão das forças produtivas sem redistribuição equivalente da terra. Não significa que todo agricultor familiar tenha sido excluído.\n\nRiscos ambientais incluem erosão, contaminação, salinização quando irrigação e drenagem são inadequadas, perda de diversidade e pressão sobre habitats. Boas práticas, controle de insumos e políticas ambientais podem alterar os resultados. Relacione com a pedologia e o balanço hídrico de CE-GEO-10.\n\n# 5. Complexos agroindustriais e poder nas cadeias\n\n![Cadeia agroindustrial: insumos, produção, processamento e distribuição; crédito, informação e logística conectam as etapas.](./media/geografia-humana/agroindustria.svg)\n\nA montante da produção estão fornecedores de máquinas, sementes, fertilizantes, pesquisa, serviços e crédito. Dentro da unidade produtiva ocorrem cultivo e criação. A jusante localizam-se armazenamento, beneficiamento, processamento, comercialização e distribuição. Complexos agroindustriais articulam essas atividades; agronegócio é uma expressão ampla para o conjunto de negócios vinculados à agropecuária.\n\nCommodity é mercadoria relativamente padronizada, negociada em mercados amplos. Nem todo produto agrícola é commodity; uma cooperativa familiar também pode participar desse mercado. O poder econômico pode concentrar-se em empresas de insumos, processadoras, tradings, bancos ou redes de varejo, dependendo da cadeia. Contratos e padrões de qualidade podem oferecer mercado e financiamento, mas também criar dependências.\n\nExemplo: uma cooperativa produz leite, vende a uma indústria e utiliza crédito bancário. A atividade é familiar na organização da unidade e integrada à agroindústria no mercado. Portanto, agricultura familiar e agronegócio não são necessariamente categorias mutuamente exclusivas.\n\nNo Maranhão, a produção de grãos e as redes portuárias permitem estudar conexões entre áreas produtoras, cidades de serviços, armazéns, ferrovias e mercados. A presença de uma cadeia exportadora não demonstra, isoladamente, distribuição ampla da renda.\n\n# 6. Agricultura mundial, comércio e políticas públicas\n\nNos países industrializados, é comum a coexistência de pesquisa agrícola, mecanização, cooperativas, crédito, seguros e políticas de apoio. A Política Agrícola Comum europeia e instrumentos da política agrícola dos Estados Unidos ilustram o papel do Estado. Apoios variam por produto, período e instrumento; nem toda política pública possui os mesmos efeitos sobre o comércio.\n\nSubsídios podem reduzir custos, estabilizar renda ou incentivar produção e, em certos desenhos, alterar preços e condições de concorrência. Medidas sanitárias e fitossanitárias podem proteger a saúde humana, animal e vegetal; não são automaticamente protecionismo ilegítimo. É necessário examinar sua justificativa e aplicação. A OMC oferece regras e arenas de negociação sobre agricultura.\n\nEconomias do Sul Global não formam um conjunto agrícola uniforme. Convivem agricultura de autoconsumo, produção familiar comercial, empresas agroexportadoras, cadeias de alto conteúdo técnico e diferentes formas de trabalho. Economias centrais também abrigam pequenos produtores e desigualdades rurais.\n\nCompare a capacidade de produzir, de financiar riscos e de capturar valor em mercados. Produtividade elevada não é sinônimo de soberania tecnológica: sementes, fertilizantes, máquinas, preços, redes de distribuição e propriedade intelectual influenciam relações de dependência.\n\n# 7. Terra, agricultura familiar e fronteiras\n\nNo Brasil, a Lei 11.326/2006 estabelece critérios para agricultor familiar, incluindo dimensão da área em módulos fiscais, trabalho predominantemente familiar, requisito de renda e direção familiar do estabelecimento, com hipóteses e regras próprias. O módulo fiscal é definido por município, não uma medida nacional fixa. Não confunda tamanho, organização familiar e destino da produção.\n\nFronteira agrícola refere-se à expansão e reorganização territorial de atividades agropecuárias, mercados de terra e infraestrutura. Não significa ocupar um espaço vazio. Territórios indígenas, comunidades quilombolas, extrativistas, assentamentos e áreas protegidas possuem relações territoriais próprias. A expansão pode gerar produção e renda, mas também disputas fundiárias e ambientais.\n\nMATOPIBA é uma denominação regional associada a partes de Maranhão, Tocantins, Piauí e Bahia. O território inclui diferentes paisagens, sistemas produtivos e agentes sociais. Evite confundir a sigla com toda a área dos quatro estados ou com um bioma único.\n\nA reforma agrária, regularização fundiária e políticas de crédito são instrumentos distintos: redistribuição e transformação do acesso à terra; definição da situação jurídica; e financiamento, respectivamente. A questão fundiária brasileira será aprofundada em CE-GEO-13, incluindo fontes e recortes nacionais.\n\n# 8. Segurança alimentar, ambiente e leitura integrada\n\nSegurança alimentar envolve acesso regular a alimentos adequados, em quantidade e qualidade, não somente volume nacional produzido. Soberania alimentar é uma perspectiva que enfatiza capacidade de decidir políticas e sistemas alimentares. Exportar grandes quantidades pode coexistir com insegurança alimentar.\n\nAgroecologia reúne abordagens ecológicas e sociais da produção. Plantio direto, rotação de culturas, recuperação de pastagens, integração lavoura-pecuária-floresta e manejo de água podem contribuir para conservação quando adequadamente planejados. Nenhuma técnica garante benefício em todos os contextos.\n\nEm uma questão sobre expansão de soja, separe produção, produtividade, valor de produção e área. Se a produção passa de 100 para 150 toneladas e a área de 20 para 30 hectares, o rendimento continua 5 t/ha. Se o preço aumenta, o valor da produção pode crescer sem aumento físico. Identifique sempre unidade, período, fonte e denominador.\n\nRecuperação ativa: explique como modernização pode elevar rendimento sem alterar concentração da terra; depois mostre como essa atividade reorganiza uma cidade regional, a logística e os fluxos mundiais. Conecte CE-GEO-08 e CE-GEO-09."
     },
     {
       "schema_version": "2.0.0",
@@ -8622,7 +8952,7 @@
       "titulo": "Geografia Urbana e Regional Geral: Urbanização, Hierarquia, Redes e Segregação Socioespacial",
       "status": "em_auditoria",
       "origem": "edital_explicito",
-      "tempo_leitura_min": 30,
+      "tempo_leitura_min": 9,
       "edital_subtopicos": [
         "Formação, dinâmicas, características e transformações das cidades",
         "Economia e serviços"
@@ -8643,13 +8973,37 @@
           "referencia_abnt": "CARLOS, Ana Fani Alessandri. A Cidade. 9. ed. São Paulo: Contexto, 2011.",
           "tipo": "bibliografia_academica",
           "nivel_autoridade": 5
+        },
+        {
+          "referencia_abnt": "IBGE. Regiões de Influência das Cidades 2018.",
+          "url": "https://www.ibge.gov.br/geociencias/todos-os-produtos-geociencias/15798-regioes-de-influencia-das-cidades.html",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
+        },
+        {
+          "referencia_abnt": "IBGE. Censo 2022: população urbana e rural.",
+          "url": "https://educa.ibge.gov.br/jovens/materias-especiais/22550-87-da-populacao-brasileira-vivia-em-areas-urbanas.html",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
+        },
+        {
+          "referencia_abnt": "ONU. World Urbanization Prospects: glossário.",
+          "url": "https://population.un.org/wup/glossary-demographic-terms",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
+        },
+        {
+          "referencia_abnt": "BRASIL. Lei 13.089/2015 — Estatuto da Metrópole.",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13089.htm",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
         }
       ],
       "sintese_fcc": {
         "conceitos_nucleares": [
           {
             "termo": "Megacidade vs. Cidade Global",
-            "definicao_precisa": "Megacidade é critério demográfico (> 10 milhões de hab.); Cidade Global é critério funcional/qualitativo (centro de comando financeiro e informacional mundial).",
+            "definicao_precisa": "Megacidade = 10 milhões ou mais de habitantes no recorte urbano; cidade global = funções de comando econômico.",
             "fonte": "ONU / SASSEN."
           },
           {
@@ -8659,19 +9013,19 @@
           },
           {
             "termo": "Gentrificação",
-            "definicao_precisa": "Requalificação e valorização imobiliária de áreas urbanas antigas/centrais que expulsa a população residente de menor renda.",
+            "definicao_precisa": "Valorização e reinvestimento ligados a mudanças na composição social e pressão de deslocamento de grupos de menor renda.",
             "fonte": "CARLOS, 2011."
           }
         ],
         "pegadinhas_fcc": [
           {
             "armadilha": "Usar 'Megacidade' e 'Cidade Global' como sinônimos",
-            "como_a_fcc_cobra": "Afirma que toda cidade com mais de 10 milhões de habitantes é automaticamente uma cidade global, ou que Zurique/Genebra são megacidades.",
-            "como_desarmar": "Megacidade = tamanho (>10M hab., ex.: Lagos, Dhaka). Cidade Global = poder de comando global (mesmo com menos de 10M, ex.: Zurique, Frankfurt)."
+            "como_a_fcc_cobra": "Exemplo de distrator autoral: afirma que toda cidade com mais de 10 milhões de habitantes é automaticamente uma cidade global, ou que Zurique/Genebra são megacidades.",
+            "como_desarmar": "Megacidade = 10 milhões ou mais de habitantes no recorte urbano; cidade global = funções de comando econômico."
           },
           {
             "armadilha": "Confundir Sítio Urbano com Posição Urbana",
-            "como_a_fcc_cobra": "Troca as características topográficas locais (sítio) pela articulação regional/rodoviária (posição).",
+            "como_a_fcc_cobra": "Exemplo de distrator autoral: troca as características topográficas locais (sítio) pela articulação regional/rodoviária (posição).",
             "como_desarmar": "Sítio = relevo/chão local (ilha, colina, planície); Posição = inserção na rede de fluxos."
           }
         ],
@@ -8682,7 +9036,7 @@
           },
           {
             "conceito": "Megacidade",
-            "criterio": "Quantitativo: > 10 milhões de habitantes"
+            "criterio": "Quantitativo: 10 milhões ou mais de habitantes"
           },
           {
             "conceito": "Cidade Global",
@@ -8706,14 +9060,14 @@
           "referencia_prova": "Inédita — padrão FCC / Edital SEDUC-MA 01/2026",
           "enunciado": "Na Geografia Urbana contemporânea, a distinção entre os conceitos de 'megacidade' e 'cidade global' baseia-se em critérios diferentes. Assinale a alternativa correta.",
           "alternativas": {
-            "A": "Megacidade refere-se exclusivamente ao critério demográfico (aglomerações com mais de 10 milhões de habitantes), enquanto cidade global define-se pelo papel funcional de comando econômico, financeiro e informacional na rede mundial.",
-            "B": "Cidade global é toda cidade com mais de 10 milhões de habitantes, independentemente de sua relevância financeira internacional.",
+            "A": "Megacidade refere-se exclusivamente ao critério demográfico (aglomerações com 10 milhões ou mais de habitantes), enquanto cidade global define-se pelo papel funcional de comando econômico, financeiro e informacional na rede mundial.",
+            "B": "Cidade global é toda cidade com 10 milhões ou mais de habitantes, independentemente de sua relevância financeira internacional.",
             "C": "Megacidade designa apenas cidades europeias com menos de 1 milhão de habitantes.",
             "D": "Ambos os termos são sinônimos perfeitos e exigem população superior a 20 milhões de pessoas.",
             "E": "Cidade global refere-se unicamente à extensão territorial física da zona rural do município."
           },
           "gabarito": "A",
-          "justificativa_gabarito": "Megacidade é conceito quantitativo (ONU: >10 milhões de habitantes); Cidade Global (Saskia Sassen) é conceito qualitativo ligado à concentração de sedes transnacionais, finanças e serviços avançados.",
+          "justificativa_gabarito": "Megacidade é conceito quantitativo (ONU: 10 milhões ou mais de habitantes); Cidade Global (Saskia Sassen) é conceito qualitativo ligado à concentração de sedes transnacionais, finanças e serviços avançados.",
           "analise_distratores": {
             "B": "Confunde os dois conceitos.",
             "C": "Falso; a maioria das megacidades hoje está na Ásia, América Latina e África.",
@@ -8736,7 +9090,7 @@
             "E": "desmetropolização reversa."
           },
           "gabarito": "D",
-          "justificativa_gabarito": "Gentrificação (gentrification) designa exatamente a 'elitização' de áreas urbanas degradadas/antigas após valorização imobiliária, expulsando a população original de menor renda.",
+          "justificativa_gabarito": "Gentrificação envolve valorização, reinvestimento, mudança de composição social e pressão de deslocamento de grupos de menor renda; não é toda restauração.",
           "analise_distratores": {
             "A": "Fenômeno atmosférico.",
             "B": "Êxodo urbano é a saída da cidade para o campo.",
@@ -8750,18 +9104,18 @@
           "questao_id": "CE-GEO-08-Q003",
           "origem": "inedita_padrao_fcc",
           "referencia_prova": "Inédita — padrão FCC / Edital SEDUC-MA 01/2026",
-          "enunciado": "Comparando o processo histórico de urbanização dos países centrais (como Reino Unido e França) com o dos países periféricos e emergentes (como Brasil e México), verifica-se que nos países periféricos a urbanização ocorreu de modo",
+          "enunciado": "Comparando trajetórias históricas de urbanização do Reino Unido e da França com as do Brasil e do México, verifica-se que, em muitos contextos latino-americanos, a urbanização ocorreu de modo",
           "alternativas": {
             "A": "lento ao longo de três séculos, precedida por ampla reforma agrária.",
             "B": "restrito exclusivamente a cidades pequenas abaixo de 20 mil habitantes.",
             "C": "desprovido de êxodo rural e com plena universalização do saneamento básico antes da chegada dos migrantes.",
-            "D": "tardio, muito acelerado (especialmente pós-1950) e concentrado em grandes aglomerações, gerando macrocefalia urbana, déficits de infraestrutura e hipertrofia do setor terciário informal.",
+            "D": "relativamente tardio e acelerado, especialmente no século XX, com concentração metropolitana e expansão desigual de serviços, habitação e infraestrutura.",
             "E": "independente da industrialização e da concentração fundiária."
           },
           "gabarito": "D",
-          "justificativa_gabarito": "A urbanização periférica foi veloz e tardia (segunda metade do séc. XX), impulsionada por êxodo rural intenso sem infraestrutura urbana correspondente, gerando periferização e informalidade.",
+          "justificativa_gabarito": "Em muitos países latino-americanos, urbanização acelerada, migrações, mudanças rurais e concentração de atividades coexistiram com déficits de infraestrutura; não é regra universal.",
           "analise_distratores": {
-            "A": "Descreve características dos países centrais.",
+            "A": "As trajetórias latino-americanas não correspondem a uma sequência universal de reforma agrária prévia e urbanização lenta.",
             "B": "Gerou justamente grandes metrópoles e macrocefalia.",
             "C": "Houve intenso êxodo rural e grave déficit de saneamento/moradia.",
             "E": "Esteve diretamente ligada à industrialização concentrada e à concentração de terras."
@@ -8805,7 +9159,7 @@
             "E": "ausência total de circulação monetária nas cidades."
           },
           "gabarito": "A",
-          "justificativa_gabarito": "Milton Santos distingue o circuito superior (moderno, capital-intensivo, corporativo) do circuito inferior (pequeno comércio, serviços pessoais e trabalho informal intensivo em mão de obra).",
+          "justificativa_gabarito": "Os circuitos se diferenciam por escala, capital, técnica, crédito e organização, mas são articulados; informalidade não é sinônimo perfeito de circuito inferior.",
           "analise_distratores": {
             "B": "Descreve o circuito superior da economia urbana.",
             "C": "Pertence ao circuito superior / finanças globais.",
@@ -8814,13 +9168,197 @@
           },
           "dificuldade": "intermediaria",
           "subtopico": "Economia e serviços"
+        },
+        {
+          "questao_id": "CE-GEO-08-EXP-Q001",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino; não oficial FCC",
+          "enunciado": "A população urbana cresce de 40 para 45 mil e a total de 100 para 120 mil. Ocorre",
+          "alternativas": {
+            "A": "urbanização de 5 pontos percentuais.",
+            "B": "crescimento urbano e redução da proporção urbana.",
+            "C": "redução absoluta da população urbana.",
+            "D": "urbanização obrigatória por aumento urbano.",
+            "E": "manutenção da proporção de 40%."
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "A proporção diminui de 40% para 37,5%, embora o total urbano aumente.",
+          "analise_distratores": {
+            "A": "A proporção diminui 2,5 pontos.",
+            "C": "A população urbana aumenta.",
+            "D": "Crescimento absoluto não equivale a urbanização.",
+            "E": "A proporção passa a 37,5%."
+          },
+          "dificuldade": "basica",
+          "subtopico": "Formação, dinâmicas, características e transformações das cidades"
+        },
+        {
+          "questao_id": "CE-GEO-08-EXP-Q002",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino; não oficial FCC",
+          "enunciado": "Uma cidade situada em uma ilha conecta-se a mercados por um porto. Ilha e conexão portuária exemplificam, respectivamente,",
+          "alternativas": {
+            "A": "situação e sítio.",
+            "B": "rede e densidade.",
+            "C": "sítio e situação.",
+            "D": "gentrificação e conurbação.",
+            "E": "metropolização e ruralização."
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "Sítio é o suporte físico; situação expressa relações com redes e lugares.",
+          "analise_distratores": {
+            "A": "A ordem está invertida.",
+            "B": "Não são medidas de rede e densidade.",
+            "D": "Não há mudança social nem junção de manchas descritas.",
+            "E": "O caso trata de posição e suporte físico."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Formação, dinâmicas, características e transformações das cidades"
+        },
+        {
+          "questao_id": "CE-GEO-08-EXP-Q003",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino; não oficial FCC",
+          "enunciado": "Duas cidades sem continuidade construída compartilham intensa mobilidade e serviços. Isso permite afirmar que",
+          "alternativas": {
+            "A": "integração funcional pode ocorrer sem conurbação.",
+            "B": "toda integração é conurbação.",
+            "C": "não há rede urbana.",
+            "D": "formam necessariamente uma região metropolitana por força da mobilidade.",
+            "E": "os limites municipais foram extintos."
+          },
+          "gabarito": "A",
+          "justificativa_gabarito": "Fluxos funcionais não requerem continuidade física.",
+          "analise_distratores": {
+            "B": "Conurbação exige continuidade da mancha.",
+            "C": "Os fluxos demonstram articulação.",
+            "D": "Região metropolitana institucional requer criação legal.",
+            "E": "Limites administrativos podem permanecer."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Formação, dinâmicas, características e transformações das cidades"
+        },
+        {
+          "questao_id": "CE-GEO-08-EXP-Q004",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino; não oficial FCC",
+          "enunciado": "Na REGIC 2018, a hierarquia urbana é definida considerando principalmente",
+          "alternativas": {
+            "A": "apenas área territorial do município.",
+            "B": "somente latitude.",
+            "C": "exclusivamente população residente.",
+            "D": "funções de gestão, oferta de bens e serviços e relações de influência.",
+            "E": "quantidade de praias."
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "A centralidade expressa funções e relações entre centros.",
+          "analise_distratores": {
+            "A": "Área não define influência.",
+            "B": "Latitude não é critério central.",
+            "C": "População isolada não determina hierarquia.",
+            "E": "Atratividade depende de um conjunto de funções."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Economia e serviços"
+        },
+        {
+          "questao_id": "CE-GEO-08-EXP-Q005",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino; não oficial FCC",
+          "enunciado": "Uma cidade com população inferior a dez milhões exerce importante comando financeiro mundial. Ela",
+          "alternativas": {
+            "A": "não pode participar de redes globais.",
+            "B": "é megacidade por definição funcional.",
+            "C": "é necessariamente centro local na REGIC.",
+            "D": "não pode ser metrópole.",
+            "E": "pode ser cidade global sem ser megacidade."
+          },
+          "gabarito": "E",
+          "justificativa_gabarito": "Cidade global é categoria funcional, megacidade é demográfica.",
+          "analise_distratores": {
+            "A": "Comando demonstra integração global.",
+            "B": "Megacidade tem limiar populacional.",
+            "C": "REGIC é classificação brasileira específica, não decorrente do dado.",
+            "D": "Metrópole envolve centralidade, não limiar universal."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Economia e serviços"
+        },
+        {
+          "questao_id": "CE-GEO-08-EXP-Q006",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino; não oficial FCC",
+          "enunciado": "Um projeto de restauração melhora um bairro, mantém moradia acessível e não altera significativamente a composição social. Conclui-se que",
+          "alternativas": {
+            "A": "toda restauração é gentrificação.",
+            "B": "a restauração por si só não comprova gentrificação.",
+            "C": "houve conurbação.",
+            "D": "ocorreu inversão térmica.",
+            "E": "a valorização sempre implica expulsão imediata."
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "Gentrificação envolve transformação social e pressão de deslocamento, não qualquer melhoria.",
+          "analise_distratores": {
+            "A": "Melhoria não basta para caracterizar o processo.",
+            "C": "Não há junção física de cidades.",
+            "D": "É fenômeno atmosférico.",
+            "E": "Deslocamento depende das condições de permanência."
+          },
+          "dificuldade": "avancada",
+          "subtopico": "Formação, dinâmicas, características e transformações das cidades"
+        },
+        {
+          "questao_id": "CE-GEO-08-EXP-Q007",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino; não oficial FCC",
+          "enunciado": "Um pequeno comerciante usa pagamento digital, mas possui pouco capital e depende do trabalho familiar. Na análise dos circuitos de Milton Santos,",
+          "alternativas": {
+            "A": "o pagamento digital define sozinho circuito superior.",
+            "B": "o uso de tecnologia extingue o circuito inferior.",
+            "C": "é necessário analisar escala, capital, organização e articulação entre circuitos.",
+            "D": "atividade familiar não é econômica.",
+            "E": "os circuitos não mantêm relações."
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "Um recurso tecnológico isolado não determina a posição no circuito.",
+          "analise_distratores": {
+            "A": "Outras dimensões importam.",
+            "B": "O circuito inferior pode apropriar-se de tecnologia.",
+            "D": "Trabalho familiar pode gerar renda.",
+            "E": "Circuitos são articulados."
+          },
+          "dificuldade": "avancada",
+          "subtopico": "Economia e serviços"
+        },
+        {
+          "questao_id": "CE-GEO-08-EXP-Q008",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino; não oficial FCC",
+          "enunciado": "Uma nova via aumenta a velocidade dos carros, mas dificulta travessia de pedestres e acesso ao hospital. A avaliação adequada distingue",
+          "alternativas": {
+            "A": "sítio de latitude apenas.",
+            "B": "urbanização de fecundidade.",
+            "C": "conurbação de gentrificação exclusivamente.",
+            "D": "mobilidade e acessibilidade, considerando diferentes grupos de usuários.",
+            "E": "megacidade de fonte energética."
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "Maior velocidade de deslocamento para uns não garante acesso de todos às oportunidades.",
+          "analise_distratores": {
+            "A": "A questão trata de acesso.",
+            "B": "Não envolve mudança da proporção urbana.",
+            "C": "Os processos descritos não são esses.",
+            "E": "Tamanho urbano e energia não explicam diretamente a barreira."
+          },
+          "dificuldade": "avancada",
+          "subtopico": "Formação, dinâmicas, características e transformações das cidades"
         }
       ],
       "flashcards": [
         {
           "card_id": "CE-GEO-08-FC001",
           "frente": "Qual a diferença entre Megacidade e Cidade Global?",
-          "verso": "Megacidade = critério demográfico (>10 milhões de hab.); Cidade Global = critério funcional (comando financeiro, sedes de transnacionais e serviços avançados).",
+          "verso": "Megacidade = 10 milhões ou mais de habitantes no recorte urbano; cidade global = funções de comando econômico.",
           "tipo": "pegadinha_fcc",
           "tags": [
             "urbana",
@@ -8839,7 +9377,7 @@
         {
           "card_id": "CE-GEO-08-FC003",
           "frente": "O que é Gentrificação?",
-          "verso": "Requalificação e valorização imobiliária de bairros antigos/centrais que expulsa os moradores tradicionais de baixa renda.",
+          "verso": "Valorização e reinvestimento ligados a mudanças na composição social e pressão de deslocamento de grupos de menor renda.",
           "tipo": "conceito",
           "tags": [
             "gentrificacao",
@@ -8859,7 +9397,7 @@
         {
           "card_id": "CE-GEO-08-FC005",
           "frente": "Como Milton Santos divide a economia urbana nos países subdesenvolvidos?",
-          "verso": "Circuito Superior (capital-intensivo, alta tecnologia, bancos/corporações) e Circuito Inferior (pequena escala, trabalho intensivo, informalidade).",
+          "verso": "Superior: maior escala, capital e organização; inferior: menor escala e capital, trabalho intensivo; circuitos articulados, não idênticos a formal/informal.",
           "tipo": "conceito",
           "tags": [
             "milton-santos",
@@ -8868,15 +9406,155 @@
         },
         {
           "card_id": "CE-GEO-08-FC006",
-          "frente": "Por que a urbanização periférica gerou macrocefalia urbana?",
-          "verso": "Porque foi tardia e muito acelerada (êxodo rural intenso pós-1950), concentrando população em poucas metrópoles sem infraestrutura equivalente.",
+          "frente": "Por que muitas trajetórias de urbanização latino-americana apresentaram macrocefalia urbana?",
+          "verso": "Concentração histórica de empregos, serviços, investimento e migrações em poucos centros, com expansão desigual da infraestrutura.",
           "tipo": "conceito",
           "tags": [
             "urbanizacao-periferica"
           ]
+        },
+        {
+          "card_id": "CE-GEO-08-EXP-FC001",
+          "frente": "Urbanização exige mais de 50% de população urbana?",
+          "verso": "Não. É aumento da proporção urbana.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-08"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-08-EXP-FC002",
+          "frente": "Crescimento urbano e expansão física?",
+          "verso": "Aumento absoluto de população urbana versus expansão da área construída.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-08"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-08-EXP-FC003",
+          "frente": "Centralidade urbana?",
+          "verso": "Capacidade de atrair e organizar fluxos e funções.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-08"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-08-EXP-FC004",
+          "frente": "Rede urbana e hierarquia?",
+          "verso": "Conjunto de centros articulados versus diferenciação do alcance e das funções desses centros.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-08"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-08-EXP-FC005",
+          "frente": "Cinco níveis da REGIC 2018?",
+          "verso": "Metrópoles, capitais regionais, centros sub-regionais, centros de zona e centros locais.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-08"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-08-EXP-FC006",
+          "frente": "Metropolização exige conurbação?",
+          "verso": "Não. Integração funcional pode ultrapassar áreas construídas contínuas.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-08"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-08-EXP-FC007",
+          "frente": "Região metropolitana formal é criada como?",
+          "verso": "Por lei complementar estadual, conforme regime constitucional.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-08"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-08-EXP-FC008",
+          "frente": "Megacidade e megalópole?",
+          "verso": "Limiar demográfico de dez milhões ou mais versus extensa região de metrópoles articuladas.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-08"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-08-EXP-FC009",
+          "frente": "Periferia é sempre pobre?",
+          "verso": "Não. Há periferias social e funcionalmente heterogêneas.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-08"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-08-EXP-FC010",
+          "frente": "Toda revitalização é gentrificação?",
+          "verso": "Não. Avalie transformação social, valorização e pressão de deslocamento.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-08"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-08-EXP-FC011",
+          "frente": "Circuitos superior e inferior são isolados?",
+          "verso": "Não. São formas articuladas da economia urbana.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-08"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-08-EXP-FC012",
+          "frente": "Mobilidade e acessibilidade?",
+          "verso": "Deslocamentos versus possibilidade de alcançar oportunidades.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-08"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-08-EXP-FC013",
+          "frente": "Ilha de calor e inversão térmica?",
+          "verso": "Aquecimento urbano relativo versus camada atmosférica com temperatura crescente com altura.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-08"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-08-EXP-FC014",
+          "frente": "Qual a proporção urbana brasileira no Censo 2022?",
+          "verso": "87,4%, segundo a classificação utilizada pelo IBGE.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-08"
+          ]
         }
       ],
-      "teoria_md": "---\ntopico_id: CE-GEO-08\nslug: geografia-urbana-regional-geral\ntitulo: \"Geografia Urbana e Regional Geral: Urbanização, Hierarquia, Redes e Segregação Socioespacial\"\nedital: SEDUC-MA-01-2026\nbanca: FCC\nstatus: em_auditoria\n---\n\n# 1. Delimitação no Edital (Camada A)\n- **Itens explícitos (p. 76):** *Geografia urbana e regional: Formação, dinâmicas, características e transformações das cidades. Economia e serviços.*\n\n# 2. Urbanização Mundial: Países Centrais × Países Periféricos\n- **Critério demográfico:** urbanização ocorre quando o crescimento da população urbana supera o da população rural (taxa de urbanização > 50%). Desde 2007/2008, mais da metade da população mundial vive em cidades.\n- **Urbanização nos Países Centrais (Europa, EUA):** processo **lento e gradual** (séculos XVIII–XX), acompanhado pela industrialização, pela absorção paulatina do trabalho urbano e pela construção de infraestrutura de saneamento, transporte e habitação.\n- **Urbanização nos Países Periféricos / Emergentes (América Latina, Ásia, África):** processo **tardio, acelerado e concentrado** (pós-1950), movido por forte êxodo rural e concentração fundiária, sem infraestrutura equivalente — gerando **macrocefalia urbana**, **hipertrofia do setor terciário** (informalidade/subemprego) e **favelização/periferização**.\n\n# 3. Conceitos Urbanos Fundamentais (Altíssima Incidência na FCC!)\n- **Sítio Urbano vs. Posição (Situação) Urbana:**\n  - *Sítio:* suporte físico local onde a cidade se assenta (planície, colina, ilha — ex.: São Luís na Ilha de Upaon-Açu).\n  - *Posição/Situação:* localização estratégica da cidade em relação a rotas regionais/nacionais/globais (ex.: São Luís no Golfão Maranhense; Imperatriz às margens do Tocantins e da BR-010).\n- **Conurbação:** junção física/espacial das manchas urbanas de dois ou mais municípios vizinhos, formando um tecido contínuo (ex.: São Luís + São José de Ribamar + Paço do Lumiar).\n- **Região Metropolitana:** unidade institucional/legal (criada por lei complementar estadual) composta por municípios limítrofes com forte integração funcional que exige gestão compartilhada de transporte, saneamento e uso do solo.\n- **Megalópole:** vasta região urbanizada formada pela conurbação/articulação funcional de múltiplas metrópoles (ex.: *BosWash* nos EUA; *Tokaido* no Japão; eixo Rio–São Paulo em formação).\n- **Megacidade:** critério **quantitativo/demográfico** (ONU) — aglomeração urbana com **mais de 10 milhões de habitantes** (ex.: Tóquio, Délhi, Xangai, São Paulo, Cidade do México).\n- **Cidade Global (Saskia Sassen):** critério **qualitativo/funcional** — centro de comando da economia mundial que concentra sedes de transnacionais, bolsas de valores, serviços avançados (consultoria, finanças, P&D) e alta conectividade aérea/digital (ex.: Nova York, Londres, Tóquio, Paris; São Paulo como cidade global emergente/alfa). *Nem toda megacidade é cidade global!*\n\n# 4. Problemas Urbanos, Economia e Segregação Socioespacial\n- **Segregação Socioespacial:** distribuição desigual das classes sociais no espaço urbano (autossegregação em condomínios fechados de alta renda × periferias e áreas de risco/favelas com déficit de infraestrutura).\n- **Gentrificação (*gentrification*):** processo de valorização imobiliária e requalificação de áreas centrais/históricas que eleva o custo de vida e expulsa moradores tradicionais de baixa renda.\n- **Economia Urbana e Terciarização:** nas metrópoles contemporâneas, o setor de **serviços e comércio (terciário)** responde pela maior fatia do PIB e do emprego, polarizado entre o **circuito superior** (serviços financeiros, TI, corporativos — *quaternário*) e o **circuito inferior** (comércio informal, trabalho precário de plataforma, bicos — Milton Santos).\n- **Ilhas de Calor e Inversão Térmica:** microclimas urbanos gerados por impermeabilização do solo, verticalização, redução de áreas verdes e poluentes atmosféricos.\n"
+      "teoria_md": "# 1. Cidade, urbano e urbanização\n\nCidade é uma forma socioespacial com concentração de população, atividades, construções e funções, também definida por critérios administrativos em muitos países. O urbano compreende relações econômicas, culturais e sociais que podem ultrapassar a mancha construída. As definições estatísticas de urbano variam, portanto comparações internacionais requerem método explícito.\n\nUrbanização, em sentido demográfico, é aumento da proporção de habitantes urbanos em relação ao total. Crescimento urbano é aumento absoluto do número de habitantes urbanos. Expansão urbana física é crescimento da superfície construída. Nenhum dos conceitos exige que uma população ultrapasse 50% de urbanização.\n\n![Exemplo hipotético: população urbana cresce de 40 para 45 mil, mas a proporção cai de 40% para 37,5%.](./media/geografia-humana/urbanizacao.svg)\n\nUma região tinha 100 mil habitantes, 40 mil urbanos. Depois passou a 120 mil, 45 mil urbanos. A população urbana cresceu 5 mil, mas sua participação diminuiu de 40% para 37,5%. Não houve urbanização demográfica nesse intervalo. O inverso também pode acontecer: proporção urbana cresce mesmo que a população urbana diminua, se a população rural cair ainda mais.\n\nSegundo o IBGE, no Censo 2022, 87,4% dos habitantes do Brasil estavam em áreas urbanas. O dado refere-se ao recorte censitário utilizado; não demonstra acesso universal a serviços. Não compare diretamente a categoria cidades da metodologia internacional DEGURBA com percentuais nacionais de população urbana sem harmonização.\n\n# 2. Formação histórica das cidades e urbanização mundial\n\nCidades antecedem a indústria moderna: existiram centros administrativos, religiosos, mercantis e militares em diferentes civilizações. A industrialização britânica e sua difusão no século XIX ampliaram concentração de fábricas, trabalhadores e mercados. O processo foi acompanhado por conflitos sociais e graves problemas sanitários; infraestrutura não surgiu automaticamente com o crescimento.\n\nEm muitos países latino-americanos, africanos e asiáticos, a urbanização acelerou no século XX, associada a migrações, concentração de serviços, industrialização desigual, modernização rural e crescimento natural urbano. Há grandes diferenças entre trajetórias nacionais e regionais. Não trate a urbanização periférica como processo exclusivamente industrial ou toda cidade de país rico como plenamente planejada.\n\nNo Brasil, concentração industrial e investimentos urbanos, mudanças nas relações rurais, transporte e migrações reorganizaram a distribuição populacional. Mais tarde, cidades médias e novas centralidades ganharam importância, sem extinguir a centralidade metropolitana. Macrocefalia urbana designa forte concentração de funções e população em um ou poucos centros em relação ao restante da rede; não é sinônimo de qualquer cidade populosa.\n\nA urbanização pode reorganizar áreas rurais próximas, elevar preços da terra, criar deslocamentos diários e expandir serviços. O campo e a cidade estão relacionados por fluxos de alimentos, insumos, pessoas e informação.\n\n# 3. Sítio, situação e produção do espaço urbano\n\nSítio urbano é o suporte físico local da ocupação: relevo, hidrografia, ilha, planície ou vale. Situação (posição) é a relação locacional com rotas, outras cidades, mercados e redes. São Luís, na ilha de Upaon-Açu, oferece exemplo de sítio; sua articulação portuária e com o Golfão Maranhense exemplifica situação. Imperatriz, junto ao Tocantins e à BR-010, permite analisar conexões regionais, sem reduzir sua importância a um único eixo.\n\nO espaço urbano é produzido por agentes com interesses diferentes: poder público, proprietários fundiários, incorporadores, empresas, moradores, movimentos sociais e usuários dos serviços. Preço da terra depende de localização, infraestrutura, regulação, expectativas e demanda. Investimentos podem gerar valorização imobiliária apropriada de maneira desigual.\n\nCentralidade é capacidade de atrair fluxos e funções. Uma cidade pode ter centro histórico, centros comerciais, polos de saúde, universidades, terminais e áreas de emprego em vários pontos. A expansão policêntrica não significa que todos os centros tenham o mesmo poder.\n\nUso do solo, acessibilidade e densidade relacionam-se. Uma via de alta velocidade pode melhorar certas conexões e criar barreiras para pedestres. Uma localização próxima em distância pode ser pouco acessível por falta de transporte.\n\n# 4. Redes urbanas e hierarquia funcional\n\nA rede urbana é o conjunto de centros conectados por relações de gestão, comércio, serviços e deslocamentos. Hierarquia urbana expressa a diferenciação de funções e alcance de influência, não apenas quantidade de moradores. Hospitais especializados, universidades, serviços empresariais e órgãos de gestão podem atrair pessoas de outros municípios.\n\nNa REGIC 2018 do IBGE, a classificação possui cinco grandes níveis: metrópoles, capitais regionais, centros sub-regionais, centros de zona e centros locais. A pesquisa combina hierarquia e áreas de influência. Seu recorte de cidade pode corresponder a arranjos populacionais que reúnem municípios integrados, e não apenas ao município isolado.\n\nImagine três cidades: A oferece cirurgia especializada e gestão regional; B atrai moradores vizinhos para compras e serviços intermediários; C atende principalmente a demanda local. As três podem ter fluxos recíprocos; A pode possuir centralidade mais elevada sem que todas as viagens passem por ela. Redes digitais e serviços especializados podem produzir relações não lineares.\n\nCidade média é noção funcional e relacional em muitos estudos, não faixa de população universal. Cidade global, na abordagem de Saskia Sassen, concentra funções de coordenação da economia global e serviços avançados. Tamanho populacional e comando econômico são critérios diferentes. A hierarquia nacional do IBGE não equivale a ranking de cidades globais.\n\n# 5. Aglomerações, metropolização e escalas de gestão\n\n![Esquema hipotético: duas manchas construídas contíguas em municípios diferentes; uma terceira cidade ligada por fluxos, mas sem continuidade física.](./media/geografia-humana/conurbacao.svg)\n\nConurbação é continuidade ou junção física das manchas urbanizadas, frequentemente ultrapassando limites municipais. Metropolização envolve expansão das relações funcionais e do comando de uma metrópole, podendo alcançar espaços sem continuidade construída. Região metropolitana é também um recorte institucional criado por lei complementar estadual, cuja gestão deve considerar funções públicas de interesse comum. Não basta haver conurbação para existir região metropolitana formal.\n\nO Estatuto da Metrópole, Lei 13.089/2015, estabelece diretrizes de planejamento e governança interfederativa para funções comuns. Transporte, saneamento e uso do solo podem exigir coordenação entre municípios. Um município isolado não controla todos os efeitos de decisões que atravessam fronteiras administrativas.\n\nMegacidade é categoria demográfica: a ONU utiliza 10 milhões ou mais de habitantes, conforme seu recorte urbano. Megalópole é uma extensa região de metrópoles articuladas, frequentemente com corredores urbanizados, sem exigir fusão física de toda a região. Cidade global é função econômica; uma cidade pode pertencer a mais de uma categoria, ou somente a uma.\n\nCompare: continuidade espacial (conurbação), integração funcional (metropolização), instituição legal (região metropolitana), escala populacional (megacidade) e comando global (cidade global).\n\n# 6. Segregação, moradia e gentrificação\n\nSegregação socioespacial é a distribuição desigual de grupos e oportunidades no espaço urbano, produzida por renda, mercado imobiliário, discriminação, políticas públicas e outros processos. Pode assumir formas de exclusão involuntária ou concentração residencial voluntária de grupos com maior renda. Periferia não é sinônimo obrigatório de pobreza: há periferias heterogêneas e áreas de alta renda fora dos centros.\n\nGentrificação envolve reinvestimento e valorização de um lugar, associados à mudança da composição social e à pressão de deslocamento de moradores ou atividades de menor renda. Nem toda reforma de praça ou restauração histórica gera gentrificação. O mecanismo decisivo inclui mudanças no acesso, nos preços e na possibilidade de permanência.\n\nFavelas e comunidades urbanas são territórios diversos, com história, organização social e condições de acesso heterogêneas. Evite defini-las somente pela ausência ou carência. Habitação adequada envolve localização, segurança da posse, serviços, custo e acessibilidade.\n\nDireito à cidade, associado a Henri Lefebvre, enfatiza participação na produção e transformação do espaço urbano, além do acesso a serviços e oportunidades. Políticas de habitação, transporte e uso do solo podem reduzir ou reproduzir desigualdades, conforme seu desenho.\n\n# 7. Economia e serviços: circuitos urbanos\n\nTerciarização é aumento relativo do peso das atividades de comércio e serviços, mas não implica que a indústria desapareça. Serviços podem ser simples ou especializados, públicos ou privados, presenciais ou digitais. A distribuição das oportunidades econômicas depende de centralidades, transporte e qualificação.\n\nMilton Santos formulou os circuitos superior e inferior da economia urbana para compreender formas articuladas de organização econômica nos países periféricos. O superior caracteriza-se, em termos gerais, por maior organização empresarial, capital, técnica e crédito institucional; o inferior por pequena escala, trabalho intensivo e recursos limitados. São circuitos interdependentes, não dois mundos isolados. Formalidade e informalidade não são equivalências perfeitas das categorias.\n\nUm vendedor de alimentos pode utilizar pagamento digital e comprar de grandes atacadistas. Sua inserção tecnológica não basta para classificá-lo no circuito superior: escala, capital, organização, crédito e relação com mercados também importam. Plataformas podem conectar pequenos prestadores a empresas globais, com distribuição desigual de poder e renda.\n\nA economia urbana conecta trabalho, moradia, deslocamento, consumo e infraestrutura. O tempo gasto para chegar ao emprego integra os custos sociais da organização espacial.\n\n# 8. Planejamento urbano, ambiente e acessibilidade\n\nMobilidade refere-se aos deslocamentos; acessibilidade, à possibilidade de alcançar oportunidades. Uma cidade pode registrar muitos deslocamentos porque moradia e emprego estão distantes, sem oferecer boa acessibilidade. Transporte coletivo, calçadas, ciclovias, integração tarifária e localização de serviços influenciam o acesso.\n\nImpermeabilização e drenagem insuficiente podem aumentar escoamento e alagamentos. Ilhas de calor relacionam-se à cobertura do solo, materiais, sombra, evapotranspiração e calor antropogênico. Inversão térmica é uma condição atmosférica que pode restringir dispersão de poluentes; não é criada necessariamente pela verticalização. Recupere os mecanismos em CE-GEO-10.\n\nPlanejamento não é apenas construir obras. Envolve diagnóstico, participação, regulação, financiamento, implementação e avaliação. Soluções de saneamento, habitação, arborização e transporte precisam considerar manutenção, população atendida e efeitos distributivos.\n\nExercício: uma nova linha de transporte reduz o tempo de viagem, mas os aluguéis sobem e famílias de baixa renda têm dificuldade de permanecer. Identifique ganhos de acessibilidade, valorização e possíveis mecanismos de deslocamento. Não conclua que a obra seja inevitavelmente prejudicial nem que todos os benefícios sejam igualmente distribuídos."
     },
     {
       "schema_version": "2.0.0",
@@ -8886,7 +9564,7 @@
       "titulo": "Geografia da População, Teorias Demográficas, Migrações e Redes de Transportes",
       "status": "em_auditoria",
       "origem": "edital_explicito",
-      "tempo_leitura_min": 30,
+      "tempo_leitura_min": 10,
       "edital_subtopicos": [
         "Dinâmica, crescimento, distribuição, estrutura e teorias demográficas",
         "Movimentos migratórios",
@@ -8908,13 +9586,31 @@
           "referencia_abnt": "CASTELLS, Manuel. A Sociedade em Rede. São Paulo: Paz e Terra, 1999.",
           "tipo": "bibliografia_academica",
           "nivel_autoridade": 5
+        },
+        {
+          "referencia_abnt": "ACNUR Brasil. Refugiados.",
+          "url": "https://www.acnur.org/br/sobre-o-acnur/quem-ajudamos/refugiados",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
+        },
+        {
+          "referencia_abnt": "ACNUR Brasil. Deslocados internos.",
+          "url": "https://www.acnur.org/br/sobre-o-acnur/quem-ajudamos/deslocados-internos",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
+        },
+        {
+          "referencia_abnt": "BRASIL. Lei 9.611/1998 — transporte multimodal.",
+          "url": "https://planalto.gov.br/ccivil_03/leis/l9611.htm",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
         }
       ],
       "sintese_fcc": {
         "conceitos_nucleares": [
           {
             "termo": "Neomalthusiana vs. Reformista",
-            "definicao_precisa": "Neomalthusiana: explosão demográfica CAUSA pobreza (solução = controle de natalidade). Reformista: pobreza/desigualdade CAUSA alta natalidade (solução = reformas sociais e educação).",
+            "definicao_precisa": "Neomalthusianismo enfatiza crescimento populacional como obstáculo; abordagens reformistas enfatizam condições sociais e desigualdades na explicação da fecundidade.",
             "fonte": "DAMIANI, 2006."
           },
           {
@@ -8924,26 +9620,26 @@
           },
           {
             "termo": "Modais de Transporte",
-            "definicao_precisa": "Aquaviário e ferroviário têm menor custo por tonelada em longas distâncias; rodoviário tem flexibilidade porta a porta para curtas distâncias.",
+            "definicao_precisa": "Ferrovias e hidrovias podem oferecer escala em grandes volumes; rodovias têm capilaridade. Custos dependem das condições da operação.",
             "fonte": "Geografia dos Transportes."
           }
         ],
         "pegadinhas_fcc": [
           {
             "armadilha": "Trocar a relação de causa e efeito entre Neomalthusianos e Reformistas",
-            "como_a_fcc_cobra": "Afirma que os reformistas defendem esterilização obrigatória ou que os neomalthusianos priorizam distribuição de renda.",
-            "como_desarmar": "Neomalthusiano = culpa o nº de filhos e quer controle natalista; Reformista = culpa a desigualdade e quer educação/renda."
+            "como_a_fcc_cobra": "Exemplo de distrator autoral: afirma que os reformistas defendem esterilização obrigatória ou que os neomalthusianos priorizam distribuição de renda.",
+            "como_desarmar": "Neomalthusianismo enfatiza crescimento populacional como obstáculo; abordagens reformistas enfatizam condições sociais e desigualdades na explicação da fecundidade."
           },
           {
             "armadilha": "Confundir Migração Pendular com Transumância",
-            "como_a_fcc_cobra": "Troca deslocamento diário trabalho/estudo (pendular) por deslocamento sazonal (transumância).",
-            "como_desarmar": "Pendular = vai e volta todo dia; Sazonal/Transumância = muda por estações/safras."
+            "como_a_fcc_cobra": "Exemplo de distrator autoral: troca deslocamento diário trabalho/estudo (pendular) por deslocamento sazonal (transumância).",
+            "como_desarmar": "Pendular: deslocamento recorrente sem mudança residencial; transumância: deslocamento periódico de rebanhos e pastores."
           }
         ],
         "quadro_comparativo": [
           {
             "modal": "Aquaviário",
-            "perfil": "Maior capacidade, menor custo/km, mais lento (exportação intercontinental)"
+            "perfil": "Maior capacidade, potencial de menor custo unitário, mais lento (exportação intercontinental)"
           },
           {
             "modal": "Ferroviário",
@@ -8951,7 +9647,7 @@
           },
           {
             "modal": "Rodoviário",
-            "perfil": "Alta capilaridade porta a porta, econômico apenas em curtas distâncias"
+            "perfil": "Alta capilaridade porta a porta, frequentemente vantajoso em curtas distâncias e cargas fracionadas"
           },
           {
             "modal": "Aeroviário",
@@ -8973,12 +9669,12 @@
           "alternativas": {
             "A": "Sustenta que a população cresce em progressão geométrica e os alimentos em progressão aritmética, exigindo abstinência moral.",
             "B": "Afirma que o elevado número de filhos é a causa direta da pobreza no Sul Global, defendendo controle rígido da natalidade.",
-            "C": "Compreende que a desigualdade social e a falta de acesso à educação e à saúde são a causa das altas taxas de natalidade, defendendo reformas socioeconômicas como caminho para a redução natural da fecundidade.",
+            "C": "enfatiza a influência da desigualdade social e das condições de acesso à educação, saúde e direitos sobre a fecundidade, defendendo reformas socioeconômicas.",
             "D": "Defende que apenas o esgotamento imediato dos recursos naturais determina o número de habitantes de um país.",
             "E": "Propõe a proibição legal de migrações internacionais para conter o crescimento urbano."
           },
           "gabarito": "C",
-          "justificativa_gabarito": "A teoria Reformista inverte o diagnóstico neomalthusiano: a pobreza não é causada pela natalidade alta, mas sim a causa dela; portanto, investimentos sociais reduzem naturalmente o crescimento populacional.",
+          "justificativa_gabarito": "Abordagens reformistas criticam a causalidade neomalthusiana e enfatizam condições sociais e desigualdades na explicação da fecundidade; não é causalidade universal única.",
           "analise_distratores": {
             "A": "Descreve a teoria Malthusiana clássica (1798).",
             "B": "Descreve a teoria Neomalthusiana.",
@@ -9015,7 +9711,7 @@
           "questao_id": "CE-GEO-09-Q003",
           "origem": "inedita_padrao_fcc",
           "referencia_prova": "Inédita — padrão FCC / Edital SEDUC-MA 01/2026",
-          "enunciado": "Milhares de moradores de Paço do Lumiar e São José de Ribamar deslocam-se diariamente pela manhã para trabalhar ou estudar em São Luís, retornando às suas residências no fim do dia. Na Geografia da População, esse movimento é classificado como migração",
+          "enunciado": "Imagine moradores de Paço do Lumiar e São José de Ribamar deslocam-se diariamente pela manhã para trabalhar ou estudar em São Luís, retornando às suas residências no fim do dia. Na Geografia da População, esse deslocamento cotidiano é classificado como movimento",
           "alternativas": {
             "A": "êxodo rural.",
             "B": "de transumância.",
@@ -9024,10 +9720,10 @@
             "E": "migração de retorno definitiva."
           },
           "gabarito": "C",
-          "justificativa_gabarito": "Migração pendular (ou movimento pendular) é o deslocamento cotidiano casa–trabalho/estudo–casa dentro de áreas metropolitanas ou aglomerações urbanas.",
+          "justificativa_gabarito": "Movimento pendular é deslocamento recorrente entre residência e trabalho/estudo sem mudança de residência habitual.",
           "analise_distratores": {
-            "A": "Êxodo rural é mudança definitiva do campo para a cidade.",
-            "B": "Transumância é migração sazonal (por estações/safras).",
+            "A": "Êxodo rural é migração do campo para a cidade.",
+            "B": "Transumância designa classicamente deslocamento periódico de rebanhos e pastores.",
             "D": "Emigração de profissionais altamente qualificados para outros países.",
             "E": "Retorno definitivo à região de origem."
           },
@@ -9038,16 +9734,16 @@
           "questao_id": "CE-GEO-09-Q004",
           "origem": "inedita_padrao_fcc",
           "referencia_prova": "Inédita — padrão FCC / Edital SEDUC-MA 01/2026",
-          "enunciado": "Considerando a eficiência econômica e energética dos diferentes modais de transporte de cargas, para o escoamento de grandes volumes de commodities (como soja e minério de ferro) por distâncias continentais terrestres superiores a 800 km até um porto exportador, o modal tecnicamente mais indicado em termos de custo por tonelada transportada é o",
+          "enunciado": "Para transportar grande volume de granéis por longa distância terrestre, supondo infraestrutura disponível e alta utilização da capacidade, tende a apresentar economia de escala o modal",
           "alternativas": {
             "A": "rodoviário, por ser sempre mais barato que o ferroviário acima de 1.000 km.",
-            "B": "ferroviário (ou hidroviário, quando disponível), em função da elevada capacidade de carga e menor custo operacional por tonelada-quilômetro em longas distâncias.",
+            "B": "ferroviário, pela capacidade de transportar grandes volumes; a hidrovia também pode ser vantajosa onde disponível.",
             "C": "aeroviário, pelo baixo custo energético por tonelada transportada.",
             "D": "transporte individual por motocicletas.",
             "E": "dutoviário, exclusivo para grãos sólidos secos sem uso de fluidos."
           },
           "gabarito": "B",
-          "justificativa_gabarito": "Ferrovias e hidrovias oferecem grande economia de escala para granéis em médias e longas distâncias; o rodoviário torna-se oneroso e ineficiente acima de ~400–500 km para commodities de baixo valor específico.",
+          "justificativa_gabarito": "Ferrovias e hidrovias frequentemente oferecem economia de escala para granéis. A comparação depende de distância, terminais, utilização, transbordo e outros custos; não existe limiar universal.",
           "analise_distratores": {
             "A": "O rodoviário é mais competitivo em curtas distâncias e cargas fracionadas.",
             "C": "Aeroviário tem o maior custo por tonelada.",
@@ -9064,13 +9760,13 @@
           "enunciado": "O termo 'fuga de cérebros' (brain drain) nos estudos sobre migrações internacionais contemporâneas designa",
           "alternativas": {
             "A": "o retorno em massa de trabalhadores rurais aposentados ao campo.",
-            "B": "a emigração de pesquisadores, cientistas e profissionais altamente qualificados de países periféricos ou emergentes para centros econômicos centrais em busca de melhores salários e infraestrutura de pesquisa.",
+            "B": "a saída de pesquisadores e profissionais altamente qualificados de um território em direção a outros, frequentemente em busca de oportunidades profissionais ou científicas.",
             "C": "o deslocamento forçado exclusivamente de populações atingidas por terremotos.",
             "D": "a circulação diária de estudantes entre bairros vizinhos.",
             "E": "a substituição de redes de fibra óptica por telégrafos."
           },
           "gabarito": "B",
-          "justificativa_gabarito": "Brain drain refere-se à perda de capital humano altamente qualificado por países em desenvolvimento para países centrais (EUA, Europa, etc.).",
+          "justificativa_gabarito": "Fuga de cérebros refere-se à saída de pessoas qualificadas e aos possíveis efeitos sobre capacidades do território de origem, não apenas a fluxos Sul–Norte.",
           "analise_distratores": {
             "A": "Não envolve qualificação científica internacional.",
             "C": "Refere-se a deslocados ambientais.",
@@ -9079,13 +9775,197 @@
           },
           "dificuldade": "basica",
           "subtopico": "Movimentos migratórios"
+        },
+        {
+          "questao_id": "CE-GEO-09-EXP-Q001",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino; não oficial FCC",
+          "enunciado": "Uma região tem 1.500 nascimentos, 800 óbitos, 300 entradas e 1.200 saídas. Sua variação populacional é",
+          "alternativas": {
+            "A": "−200 habitantes.",
+            "B": "+700 habitantes.",
+            "C": "−900 habitantes.",
+            "D": "+1.600 habitantes.",
+            "E": "+200 habitantes."
+          },
+          "gabarito": "A",
+          "justificativa_gabarito": "Crescimento natural 700, saldo migratório −900; total −200.",
+          "analise_distratores": {
+            "B": "Considera só crescimento natural.",
+            "C": "Considera só migração.",
+            "D": "Soma inadequadamente parcelas.",
+            "E": "Inverte o sinal do resultado."
+          },
+          "dificuldade": "basica",
+          "subtopico": "Dinâmica, crescimento, distribuição, estrutura e teorias demográficas"
+        },
+        {
+          "questao_id": "CE-GEO-09-EXP-Q002",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino; não oficial FCC",
+          "enunciado": "Uma população possui 200 mil habitantes e área de 2 mil km². A densidade média é",
+          "alternativas": {
+            "A": "10 hab./km².",
+            "B": "100 hab./km².",
+            "C": "1.000 hab./km².",
+            "D": "200 hab./km².",
+            "E": "100 mil hab./km²."
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "D=P/A=200.000/2.000=100 hab./km².",
+          "analise_distratores": {
+            "A": "Divisão incorreta.",
+            "C": "Divisão incorreta por fator dez.",
+            "D": "Não corresponde a P/A.",
+            "E": "Confunde ordem de grandeza."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Dinâmica, crescimento, distribuição, estrutura e teorias demográficas"
+        },
+        {
+          "questao_id": "CE-GEO-09-EXP-Q003",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino; não oficial FCC",
+          "enunciado": "A base de uma pirâmide etária estreita-se, mas a população continua crescendo. Essa situação pode decorrer de",
+          "alternativas": {
+            "A": "impossibilidade matemática.",
+            "B": "ausência obrigatória de idosos.",
+            "C": "inércia demográfica e composição etária.",
+            "D": "aumento necessário da fecundidade.",
+            "E": "extinção de nascimentos."
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "Coortes adultas numerosas podem sustentar nascimentos apesar de menor fecundidade.",
+          "analise_distratores": {
+            "A": "É possível.",
+            "B": "A estrutura pode envelhecer simultaneamente.",
+            "D": "O estreitamento pode refletir queda de fecundidade.",
+            "E": "Pode haver nascimentos com base relativamente estreita."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Dinâmica, crescimento, distribuição, estrutura e teorias demográficas"
+        },
+        {
+          "questao_id": "CE-GEO-09-EXP-Q004",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino; não oficial FCC",
+          "enunciado": "Com 20% de jovens de 0–14, 65% de pessoas de 15–64 e 15% de idosos de 65+, a razão de dependência nessa convenção é aproximadamente",
+          "alternativas": {
+            "A": "35 dependentes por 100 pessoas de 15–64.",
+            "B": "65 dependentes por 100 pessoas de 15–64.",
+            "C": "15 dependentes por 100 pessoas de 15–64.",
+            "D": "53,8 dependentes potenciais por 100 pessoas de 15–64.",
+            "E": "100 dependentes por 100 pessoas de 15–64."
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "(20+15)/65×100≈53,8.",
+          "analise_distratores": {
+            "A": "35% é a parcela dependente do total, não a razão.",
+            "B": "65% é a parcela em idade potencialmente ativa.",
+            "C": "Considera somente idosos.",
+            "E": "Numerador e denominador são diferentes."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Dinâmica, crescimento, distribuição, estrutura e teorias demográficas"
+        },
+        {
+          "questao_id": "CE-GEO-09-EXP-Q005",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino; não oficial FCC",
+          "enunciado": "Uma pessoa atravessa municípios diariamente para trabalhar, sem mudar de residência. O conceito mais adequado é",
+          "alternativas": {
+            "A": "emigração definitiva.",
+            "B": "fuga de cérebros.",
+            "C": "refúgio.",
+            "D": "migração de retorno.",
+            "E": "movimento pendular."
+          },
+          "gabarito": "E",
+          "justificativa_gabarito": "A mobilidade recorrente sem mudança de residência caracteriza deslocamento pendular.",
+          "analise_distratores": {
+            "A": "Não mudou residência.",
+            "B": "Não há informação de saída de qualificados.",
+            "C": "Não há situação jurídica de refúgio descrita.",
+            "D": "Não houve mudança para local de origem."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Movimentos migratórios"
+        },
+        {
+          "questao_id": "CE-GEO-09-EXP-Q006",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino; não oficial FCC",
+          "enunciado": "Uma família perde a moradia após inundação e se desloca dentro de seu país. A conclusão correta é",
+          "alternativas": {
+            "A": "toda pessoa deslocada por desastre é juridicamente refugiada.",
+            "B": "pode tratar-se de deslocamento interno forçado, sem reconhecimento automático como refugiado.",
+            "C": "é necessariamente migração internacional.",
+            "D": "não há mobilidade populacional.",
+            "E": "a perda de moradia implica mudança de nacionalidade."
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "Deslocamento interno não cruza fronteira internacional; refúgio tem critérios jurídicos próprios.",
+          "analise_distratores": {
+            "A": "Desastre não gera automaticamente estatuto de refugiado.",
+            "C": "Permanece no país.",
+            "D": "Houve deslocamento.",
+            "E": "Nacionalidade não muda automaticamente."
+          },
+          "dificuldade": "avancada",
+          "subtopico": "Movimentos migratórios"
+        },
+        {
+          "questao_id": "CE-GEO-09-EXP-Q007",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino; não oficial FCC",
+          "enunciado": "Uma operação de carga utiliza caminhão e ferrovia sob um único contrato com operador responsável. Conforme a Lei 9.611/1998, o exemplo caracteriza",
+          "alternativas": {
+            "A": "transporte exclusivamente rodoviário.",
+            "B": "movimento pendular.",
+            "C": "transporte multimodal de cargas.",
+            "D": "ausência de logística.",
+            "E": "transporte exclusivamente ferroviário."
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "Dois ou mais modais, contrato único e responsabilidade do operador caracterizam multimodalidade jurídica.",
+          "analise_distratores": {
+            "A": "Utiliza também ferrovia.",
+            "B": "Pendular é deslocamento recorrente de pessoas.",
+            "D": "A operação requer coordenação logística.",
+            "E": "Utiliza também caminhão."
+          },
+          "dificuldade": "avancada",
+          "subtopico": "Transportes, comunicações e geografia das redes"
+        },
+        {
+          "questao_id": "CE-GEO-09-EXP-Q008",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino; não oficial FCC",
+          "enunciado": "Duas localidades possuem a mesma distância geométrica até um hospital, mas apenas uma dispõe de transporte confiável. O caso indica que",
+          "alternativas": {
+            "A": "distância geométrica determina integralmente acessibilidade.",
+            "B": "redes eliminam desigualdades.",
+            "C": "acessibilidade depende exclusivamente de população absoluta.",
+            "D": "infraestrutura e organização dos fluxos influenciam o acesso a oportunidades.",
+            "E": "o hospital não é um nó da rede."
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "Acessibilidade depende de tempo, custo, disponibilidade e condições de deslocamento.",
+          "analise_distratores": {
+            "A": "A distância não basta.",
+            "B": "Redes podem ser seletivas.",
+            "C": "População não explica isoladamente acesso.",
+            "E": "O hospital pode exercer centralidade na rede."
+          },
+          "dificuldade": "avancada",
+          "subtopico": "Transportes, comunicações e geografia das redes"
         }
       ],
       "flashcards": [
         {
           "card_id": "CE-GEO-09-FC001",
           "frente": "Qual a diferença central entre as teorias Neomalthusiana e Reformista?",
-          "verso": "Neomalthusiana: natalidade alta CAUSA pobreza (quer controle natalista). Reformista: pobreza/desigualdade CAUSA natalidade alta (quer educação e reformas sociais).",
+          "verso": "Neomalthusianismo enfatiza crescimento populacional como obstáculo; abordagens reformistas enfatizam condições sociais e desigualdades na explicação da fecundidade.",
           "tipo": "pegadinha_fcc",
           "tags": [
             "demografia",
@@ -9104,7 +9984,7 @@
         {
           "card_id": "CE-GEO-09-FC003",
           "frente": "Qual a diferença entre Migração Pendular e Transumância?",
-          "verso": "Pendular: deslocamento diário casa–trabalho/estudo. Transumância: deslocamento sazonal (por estações/safras).",
+          "verso": "Pendular: deslocamento recorrente sem mudança residencial; transumância: deslocamento periódico de rebanhos e pastores.",
           "tipo": "comparacao",
           "tags": [
             "migracoes"
@@ -9113,7 +9993,7 @@
         {
           "card_id": "CE-GEO-09-FC004",
           "frente": "Qual o nível aproximado de fecundidade de reposição populacional?",
-          "verso": "Cerca de 2,1 filhos por mulher.",
+          "verso": "Cerca de 2,1 em populações de baixa mortalidade; não é universal nem garante crescimento zero imediato.",
           "tipo": "legislacao_dado",
           "tags": [
             "fecundidade"
@@ -9122,7 +10002,7 @@
         {
           "card_id": "CE-GEO-09-FC005",
           "frente": "O que é 'bônus demográfico' (janela demográfica)?",
-          "verso": "Fase transitória em que a população em idade ativa (15–64 anos) supera proporcionalmente a população dependente (crianças + idosos).",
+          "verso": "Janela em que a estrutura etária se torna relativamente favorável pelo maior peso potencialmente ativo e menor dependência relativa; aproveitamento depende de condições sociais.",
           "tipo": "conceito",
           "tags": [
             "estrutura-etaria"
@@ -9131,14 +10011,154 @@
         {
           "card_id": "CE-GEO-09-FC006",
           "frente": "Quando o modal ferroviário supera o rodoviário?",
-          "verso": "Em grandes volumes de carga (granéis) e médias/longas distâncias terrestres.",
+          "verso": "Frequentemente para granéis em longas distâncias com capacidade utilizada; depende da infraestrutura, custos e transbordos.",
           "tipo": "conceito",
           "tags": [
             "transportes"
           ]
+        },
+        {
+          "card_id": "CE-GEO-09-EXP-FC001",
+          "frente": "População absoluta e densidade?",
+          "verso": "Total de habitantes versus população dividida pela área.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-09"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-09-EXP-FC002",
+          "frente": "Crescimento natural absoluto?",
+          "verso": "Nascimentos menos óbitos.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-09"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-09-EXP-FC003",
+          "frente": "Variação total da população?",
+          "verso": "Crescimento natural mais saldo migratório.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-09"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-09-EXP-FC004",
+          "frente": "Fecundidade e natalidade?",
+          "verso": "Fecundidade estima filhos por mulher sob taxas observadas; natalidade relaciona nascimentos à população.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-09"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-09-EXP-FC005",
+          "frente": "Reposição de 2,1 é universal?",
+          "verso": "Não. É aproximação sob baixa mortalidade; varia com condições demográficas.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-09"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-09-EXP-FC006",
+          "frente": "Malthus: hipótese clássica?",
+          "verso": "Tendência potencial geométrica da população frente ao crescimento aritmético dos meios de subsistência.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-09"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-09-EXP-FC007",
+          "frente": "Inércia demográfica?",
+          "verso": "Efeito da composição etária sobre crescimento futuro após mudanças de fecundidade.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-09"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-09-EXP-FC008",
+          "frente": "Envelhecimento implica declínio total?",
+          "verso": "Não. A participação dos idosos pode aumentar enquanto a população total cresce.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-09"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-09-EXP-FC009",
+          "frente": "Razão de dependência na convenção 0–14 e 65+?",
+          "verso": "Soma desses grupos / população 15–64 × 100.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-09"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-09-EXP-FC010",
+          "frente": "Idade ativa equivale a emprego?",
+          "verso": "Não. É faixa demográfica; situação no mercado de trabalho é outro indicador.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-09"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-09-EXP-FC011",
+          "frente": "Refugiado e deslocado interno?",
+          "verso": "Refúgio envolve proteção internacional e critérios legais; deslocado interno permanece no país.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-09"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-09-EXP-FC012",
+          "frente": "Transumância?",
+          "verso": "Deslocamento periódico de rebanhos e pastores segundo ciclos de pastagens.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-09"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-09-EXP-FC013",
+          "frente": "Multimodalidade jurídica no Brasil?",
+          "verso": "Dois ou mais modais sob contrato único e responsabilidade de operador.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-09"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-09-EXP-FC014",
+          "frente": "Redes digitais não têm materialidade?",
+          "verso": "Têm: cabos, antenas, servidores, energia, equipamentos e trabalho.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-humana",
+            "ce-geo-09"
+          ]
         }
       ],
-      "teoria_md": "---\ntopico_id: CE-GEO-09\nslug: geografia-populacao-transportes-redes\ntitulo: \"Geografia da População, Teorias Demográficas, Migrações e Redes de Transportes\"\nedital: SEDUC-MA-01-2026\nbanca: FCC\nstatus: em_auditoria\n---\n\n# 1. Delimitação no Edital (Camada A)\n- **Itens explícitos (p. 76):** *Geografia da População: Dinâmica, crescimento, distribuição e estrutura da população. Teorias demográficas. Movimentos migratórios. A Geografia dos transportes: Transportes e comunicação no mundo atual. A Geografia das redes.*\n\n# 2. Conceitos Demográficos e Transição Demográfica\n- **Crescimento Vegetativo (Natural):** diferença entre a **Taxa de Natalidade** e a **Taxa de Mortalidade**.\n- **Crescimento Demográfico (Total):** crescimento vegetativo + **Saldo Migratório** (imigração − emigração).\n- **Taxa de Fecundidade Total:** número médio de filhos por mulher em idade fértil (nível de reposição populacional ≈ **2,1 filhos/mulher**).\n- **Fases da Transição Demográfica:**\n  1. *Fase 1 (Pré-transição):* natalidade alta + mortalidade alta → crescimento lento.\n  2. *Fase 2 (Aceleração/Explosão):* mortalidade cai rapidamente (saneamento, vacinas, antibióticos), natalidade segue alta → **alto crescimento vegetativo**.\n  3. *Fase 3 (Desaceleração):* urbanização, escolarização feminina, acesso a contraceptivos e custo de criação dos filhos derrubam a natalidade → redução do crescimento.\n  4. *Fase 4 (Pós-transição / Envelhecimento):* natalidade e mortalidade baixas → estagnação ou declínio populacional e aumento da proporção de idosos (ex.: Europa Ocidental, Japão).\n- **Bônus (Janela) Demográfico:** período transitório em que a proporção da **População em Idade Ativa (PIA, 15–64 anos)** é maior que a de dependentes (crianças e idosos).\n\n# 3. Teorias Demográficas (Clássico da FCC!)\n\n| Teoria | Contexto / Autores | Tese Central | Crítica / Solução Proposta |\n| :--- | :--- | :--- | :--- |\n| **Malthusiana** | Thomas Malthus (1798, Inglaterra) | População cresce em **PG** e alimentos em **PA**, gerando fome inevitável | Defendia \"sujeição moral\" (casamento tardio/castidade), ignorando avanços tecnológicos agrícolas |\n| **Neomalthusiana** | Pós-1945 (Guerra Fria) | Alto crescimento populacional nos países pobres **causa o subdesenvolvimento** | Defende **controle rígido de natalidade** (esterilização/anticoncepcionais em massa) |\n| **Reformista (Marxista)** | Pós-1945 (crítica aos neomalthusianos) | O **subdesenvolvimento e a desigualdade** são a causa da alta natalidade | Defende **reformas sociais, educação, saúde e distribuição de renda** para reduzir naturalmente a natalidade |\n| **Ecomalthusiana** | Final séc. XX | O crescimento populacional pressiona o esgotamento dos recursos naturais | Ignora que o maior consumo per capita de recursos ocorre nos países ricos, menos populosos |\n\n# 4. Movimentos Migratórios e Geografia dos Transportes/Redes\n- **Migrações:** classificadas quanto ao espaço (internas: êxodo rural, urbano-urbano, pendular, sazonal/transumância; externas/internacionais), à duração (definitivas × temporárias) e à motivação (econômicas, refugiados políticos/ambientais, **fuga de cérebros / *brain drain***).\n- **Modais de Transporte (Custo × Eficiência):**\n  - *Aquaviário (marítimo/fluvial):* menor custo por tonelada/km para grandes volumes e longas distâncias; menor velocidade.\n  - *Ferroviário:* ideal para grandes cargas (minérios, grãos) em médias/longas distâncias terrestres (ex.: EFC e Norte-Sul no Maranhão).\n  - *Rodoviário:* alta flexibilidade porta a porta e competitivo em **curtas distâncias**, porém caro, poluente e ineficiente para granéis de longa distância.\n  - *Dutoviário:* contínuo e seguro para fluidos/gás (oleodutos, gasodutos).\n  - *Aeroviário:* altíssima velocidade e maior custo; voltado a passageiros e cargas leves de alto valor agregado.\n- **Geografia das Redes (Milton Santos / Manuel Castells):** espaço estruturado por **nós** (cidades, portos, data centers) e **fluxos** (materiais e informacionais), operando de forma seletiva e hierárquica.\n"
+      "teoria_md": "# 1. População absoluta, densidade e distribuição\n\nPopulação absoluta é o número de habitantes de um território em uma data. Densidade demográfica é a razão entre população e área, geralmente em hab./km². Uma área com 200 mil habitantes e 2 mil km² tem densidade média de 100 hab./km².\n\nEssa média não indica onde as pessoas se concentram. Uma região extensa pode ter cidades densas, áreas agrícolas e espaços de baixa densidade. Mapas de densidade, distribuição e população absoluta respondem a perguntas diferentes. Um mapa de totais por município não equivale a mapa de densidade.\n\nA distribuição populacional relaciona-se a processos históricos, empregos, acesso à terra, infraestrutura, condições ambientais, políticas e redes familiares. Não há determinismo climático simples: diferentes sociedades e técnicas permitem ocupações variadas.\n\nCenso é levantamento de população e domicílios em referência definida; estimativa e projeção utilizam métodos estatísticos e hipóteses. Projeção demográfica não é previsão infalível. Compare a data e metodologia das informações antes de calcular tendências. Os indicadores brasileiros e maranhenses serão detalhados nos módulos regionais.\n\n# 2. Crescimento, taxas e fecundidade\n\nO crescimento natural absoluto é nascimentos menos óbitos. O saldo migratório é entradas menos saídas. Em um intervalo, a variação total da população resulta da soma dessas parcelas, quando os limites territoriais são mantidos e as medidas são coerentes.\n\n| Indicador | Cálculo ou significado |\n|---|---|\n| Taxa bruta de natalidade | Nascidos vivos / população média × 1.000 |\n| Taxa bruta de mortalidade | Óbitos / população média × 1.000 |\n| Crescimento natural | Nascimentos − óbitos (ou diferença das taxas, na mesma base) |\n| Saldo migratório | Imigrantes − emigrantes |\n| Taxa de fecundidade total | Número médio de filhos de uma coorte hipotética sob taxas de fecundidade por idade observadas |\n\nExemplo: 1.500 nascimentos, 800 óbitos, 300 entradas e 1.200 saídas. Crescimento natural = 700; saldo migratório = −900; variação total = −200. Se o estoque inicial era 100 mil habitantes, o final será 99.800, desprezados ajustes estatísticos.\n\nFecundidade difere de natalidade: a taxa bruta de natalidade também depende da estrutura etária. A reposição geracional é aproximadamente 2,1 filhos por mulher em populações de baixa mortalidade, sem migração, mas varia com mortalidade e razão de sexo ao nascer. Não é garantia de crescimento zero imediato por causa da estrutura etária e da migração.\n\n# 3. Teorias demográficas: hipóteses e críticas\n\n| Corrente | Argumento histórico | Limite ou contraponto |\n|---|---|---|\n| Malthusiana | População tende a crescer mais depressa que meios de subsistência se não limitada | Tecnologia, distribuição, instituições e comportamento alteram relações |\n| Neomalthusiana | Crescimento elevado é visto como obstáculo ao desenvolvimento | Causalidade não é simples; políticas podem violar direitos |\n| Reformista/crítica | Desigualdade e condições de vida influenciam fecundidade e pobreza | Não constitui lei causal única para todos os lugares |\n| Ecomalthusiana | Pressão populacional sobre recursos e ambiente | Consumo per capita, tecnologias e distribuição também importam |\n\nMalthus, no Ensaio de 1798, propôs uma tendência de crescimento potencial geométrico da população e aritmético dos meios de subsistência. Trata-se de formulação teórica histórica, não de taxas empiricamente fixas. Correntes neomalthusianas do século XX defenderam redução da fecundidade com diferentes políticas, algumas coercitivas. O estudo dessas políticas deve distinguir descrição histórica de defesa normativa.\n\nAbordagens críticas enfatizam que acesso a educação, saúde, renda, previdência e direitos reprodutivos influencia decisões familiares. Não atribua pobreza exclusivamente a tamanho da família nem reduza fecundidade a uma única causa.\n\nPressão ambiental depende do número de pessoas, padrões de consumo, tecnologia, políticas e distribuição. Duas populações de tamanho igual podem produzir impactos diferentes. A transição demográfica é modelo descritivo de mudanças nas taxas, não uma teoria de controle populacional.\n\n# 4. Transição demográfica: da mortalidade à fecundidade\n\n![Modelo esquemático de quatro fases da transição: mortalidade cai antes da natalidade; o intervalo entre curvas representa crescimento natural.](./media/geografia-humana/transicao.svg)\n\n| Fase didática | Natalidade | Mortalidade | Crescimento natural |\n|---|---|---|---|\n| 1 | Alta | Alta | Geralmente baixo, com oscilações |\n| 2 | Ainda elevada | Em queda | Acelera |\n| 3 | Em queda | Baixa | Desacelera |\n| 4 | Baixa | Baixa | Reduzido; pode tornar-se negativo |\n\nA mortalidade diminui em muitos contextos com melhor alimentação, saneamento, vacinação, controle de doenças e atendimento médico. A fecundidade pode cair depois, associada à escolarização, mudanças familiares, acesso a contracepção e condições de vida. A diferença temporal abre um período de crescimento acelerado.\n\nO modelo simplifica trajetórias: crises, guerras, migração, políticas e desigualdades alteram ritmos. Alguns modelos acrescentam fase de crescimento natural negativo, mas não há quinta fase universal. Taxa bruta de mortalidade pode subir com envelhecimento mesmo quando a sobrevivência em idades específicas melhora.\n\nInércia demográfica ocorre quando a composição por idades sustenta crescimento ou declínio durante algum tempo após mudança da fecundidade. Uma população jovem pode manter muitos nascimentos ainda que a fecundidade por mulher diminua.\n\n# 5. Estrutura etária, pirâmides e janela demográfica\n\nUma pirâmide etária apresenta população por idade e geralmente por sexo. Base larga sugere maior peso das coortes jovens; estreitamento da base pode indicar redução recente da fecundidade. O topo reflete sobrevivência e tamanho das gerações mais velhas. Migrações e eventos históricos também alteram o formato. Identifique se o eixo mostra números ou percentuais.\n\nRazão de dependência demográfica é uma relação entre faixas etárias potencialmente dependentes e em idade potencialmente ativa. Exemplo de convenção: (0–14 + 65 ou mais) / população de 15–64 × 100. Em uma população com 20% jovens, 65% em idade ativa e 15% idosos, a razão é 35/65 × 100 ≈ 53,8 dependentes potenciais por 100 pessoas de 15–64. Os limites variam conforme instituição; idade ativa não equivale a emprego.\n\nBônus demográfico é janela em que a estrutura etária se torna relativamente favorável pelo maior peso da população em idade de trabalhar e menor dependência relativa. Não resulta simplesmente de adultos superarem dependentes, nem garante crescimento econômico. Emprego, educação, produtividade, saúde e inclusão determinam o aproveitamento da janela.\n\nEnvelhecimento é aumento do peso relativo das idades mais avançadas. Pode ocorrer simultaneamente ao crescimento populacional. Suas implicações incluem previdência, cuidados, saúde, acessibilidade urbana e mudanças na demanda por serviços.\n\n# 6. Migrações, mobilidade e proteção internacional\n\nMigração envolve mudança de residência habitual, segundo o recorte e critérios adotados. Imigração é entrada e emigração saída; ambos dependem do território de referência. Uma pessoa que vai do Maranhão para São Paulo é emigrante em relação ao Maranhão e imigrante em relação ao destino.\n\nMovimento pendular é deslocamento recorrente entre residência e trabalho ou estudo, normalmente sem mudança de residência. Deslocamentos sazonais acompanham períodos de trabalho, turismo ou ciclos ambientais. Transumância refere-se classicamente ao deslocamento periódico de rebanhos e pastores conforme disponibilidade de pastagens; não equivale a toda migração de safra.\n\nMigração de retorno é mudança para local de origem ou residência anterior. Fuga de cérebros é saída de pessoas qualificadas, podendo ocorrer entre economias de diferentes níveis de renda. Circulação e retorno também podem transferir conhecimento e estabelecer redes científicas.\n\nRefúgio é uma categoria jurídica de proteção internacional. Segundo o ACNUR, relaciona-se a pessoas que não podem permanecer ou retornar ao país de origem em razão de perseguição ou outras condições reconhecidas pelas normas aplicáveis, incluindo grave e generalizada violação de direitos humanos na lei brasileira. Deslocados internos não cruzam fronteira internacional. Desastre ambiental pode provocar deslocamento forçado, mas não configura automaticamente o estatuto jurídico de refugiado.\n\nMigrações são multicausais: trabalho, moradia, família, conflitos, educação, desastres e políticas podem interagir. Não suponha que todo movimento seja voluntário ou definitivo.\n\n# 7. Transportes, logística e modais\n\nTransporte é deslocamento de pessoas ou cargas. Logística inclui planejamento, transporte, armazenamento, estoques, informação, terminais e distribuição. Uma rota eficiente em distância pode não ser a melhor em custo total, confiabilidade ou prazo.\n\n| Modal | Vantagens frequentes | Condicionantes |\n|---|---|---|\n| Rodoviário | Capilaridade e serviço porta a porta | Congestionamento, manutenção, volume e distância |\n| Ferroviário | Escala para granéis e longos percursos | Investimento em via, terminais e utilização |\n| Aquaviário | Capacidade para volumes elevados | Navegabilidade, portos, tempo e transbordo |\n| Aeroviário | Rapidez, bens urgentes ou de alto valor relativo | Custo e capacidade |\n| Dutoviário | Fluxos contínuos de líquidos, gases e algumas polpas | Rede fixa e tipo de material |\n\nCustos variam com infraestrutura, relevo, distância, ocupação, combustível, transbordo e retorno de carga. Não existe limite quilométrico universal que determine o modal mais econômico. Intermodalidade combina modais; no sentido jurídico brasileiro, transporte multimodal de cargas utiliza dois ou mais modais sob um único contrato e responsabilidade de operador, conforme Lei 9.611/1998.\n\nNo Maranhão, a Estrada de Ferro Carajás conecta áreas mineradoras do Pará ao litoral maranhense; a Ferrovia Norte-Sul articula redes de transporte nacionais. O Porto do Itaqui é nó logístico regional. Não confunda terminais portuários distintos nem assuma que toda carga utiliza a mesma rota. A análise envolve áreas de influência, conexão com outras redes, custos e efeitos territoriais.\n\n# 8. Comunicações, redes e desigualdades territoriais\n\nRedes geográficas articulam nós, conexões e fluxos. Portos, cidades, terminais, antenas e centros de dados são exemplos de nós e estruturas; mercadorias, pessoas, energia, capital e informação circulam por conexões. A qualidade das infraestruturas condiciona velocidade, alcance e confiabilidade.\n\nMilton Santos destaca a seletividade dos fixos e fluxos e a interação entre sistemas de objetos e ações. Manuel Castells analisa a sociedade em rede e o espaço de fluxos. Ambos permitem refletir sobre relações distantes articuladas por redes, sem igualar suas teorias. Conectividade não extingue lugares nem relações de poder.\n\nA internet depende de cabos, fibras, antenas, satélites, centros de dados, eletricidade, equipamentos e trabalho. Desigualdade digital envolve qualidade, custo, habilidades e condições de uso, não somente presença de sinal. Redes de transporte e comunicação influenciam acesso a serviços e integração de mercados.\n\nExemplo: duas comunidades estão à mesma distância de uma cidade, mas uma dispõe de estrada pavimentada e internet confiável; outra depende de via sazonal e sinal instável. A distância geométrica é igual, mas a acessibilidade e a possibilidade de participar de fluxos diferem.\n\nRecuperação ativa: calcule um saldo demográfico, explique a diferença entre movimento pendular e migração, e escolha um modal para carga hipotética explicitando as condições. Relacione os três raciocínios com a hierarquia urbana de CE-GEO-08."
     },
     {
       "schema_version": "2.0.0",
