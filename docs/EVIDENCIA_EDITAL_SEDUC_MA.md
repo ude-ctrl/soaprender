@@ -1,0 +1,9 @@
+# Evidência do edital SEAD/SEDUC-MA 01/2026 — consulta em 25/11/2026
+- Comunicado oficial SEDUC de 18/11/2026: https://www.educacao.ma.gov.br/governo-anuncia-concurso-publico-para-a-educacao-com-mais-de-2-mil-vagas/
+- Página oficial FCC, atualizada em 18/11/2026 às 07:02: https://www.concursosfcc.com.br/concursos/seadm226/index.html . Confirma publicação na edição do DOE de 17/11/2026. Na consulta, apenas edital de abertura listado.
+- PDF vinculado pela FCC: https://www.concursosfcc.com.br/concursos/seadm226/seadm226_edital_de_abertura_1_17_11_26_publicado.pdf . O visualizador oficial abriu, mas o arquivo direto não foi recuperado pela ferramenta.
+- Cópia integral do documento em veículo terceiro, aberta em texto, com páginas 1 e 76 conferidas visualmente: https://jcconcursos.com.br/media/uploads/anexos/concurso-unificado-maranhao-edital-1-2026.pdf .
+- A menção ao DOE nº 204 de 12/11/2026 no preâmbulo refere-se à substituição da autoridade administrativa; não é a data de publicação do edital. Assinatura 17/11/2026 (p. 42, texto extraído; screenshot dessa página indisponível). Publicação 17/11/2026 confirmada pela FCC.
+- Anexo V p. 76, cargo 17 Professor Geografia: confirmação do escopo de CE-GEO-03 (estrutura terrestre, placas, geomorfologia), CE-GEO-10 (quadro natural geral, sociedade e natureza, recursos) e CE-GEO-11 (quadro físico brasileiro, domínios, águas e questões ambientais). Autores específicos de classificação do relevo não são nominalmente exigidos no trecho; são aprofundamento pertinente.
+- Ajustar `edital.identificacao.site_oficial` para a página específica da FCC e `diario_oficial` para edição de 17/11/2026, sem inventar número da edição. Preservar a referência a 12/11 apenas como contexto do preâmbulo. Não declarar conferência de todo o edital, pesos ou retificações futuras com base nesta inspeção.
+- Antes de publicar o próximo bundle, conciliar com main atual e verificar retificações na página oficial.

@@ -1,0 +1,846 @@
+{
+  "schema_version": "2.0.0",
+  "topico_id": "CE-GEO-03",
+  "slug": "estudo-da-terra-geomorfologia",
+  "disciplina_id": "CE-GEO",
+  "titulo": "Estudo da Terra, Tectônica de Placas e Geomorfologia",
+  "status": "em_auditoria",
+  "origem": "edital_explicito",
+  "tempo_leitura_min": 30,
+  "edital_subtopicos": [
+    "Composição e estrutura interna da Terra",
+    "Tectônica de placas e agentes internos/externos",
+    "Geomorfologia geral"
+  ],
+  "fontes_primarias": [
+    {
+      "referencia_abnt": "MARANHÃO. Secretaria de Estado da Administração. Edital nº 01/2026 — SEAD/SEDUC-MA (Código 17 — Professor de Geografia). São Luís: SEAD/FCC, 2026. p. 76.",
+      "tipo": "edital",
+      "nivel_autoridade": 1,
+      "url": "https://www.concursosfcc.com.br/concursos/seadm226/index.html"
+    },
+    {
+      "referencia_abnt": "TEIXEIRA, Wilson et al. (orgs.). Decifrando a Terra. 2. ed. São Paulo: Companhia Editora Nacional, 2009.",
+      "tipo": "bibliografia_academica",
+      "nivel_autoridade": 5
+    },
+    {
+      "referencia_abnt": "ROSS, Jurandyr Luciano Sanches. Geomorfologia: Ambiente e Planejamento. São Paulo: Contexto, 2012.",
+      "tipo": "bibliografia_academica",
+      "nivel_autoridade": 5
+    },
+    {
+      "referencia_abnt": "SGB. Estrutura Interna da Terra.",
+      "tipo": "institucional",
+      "nivel_autoridade": 3,
+      "url": "https://www.sgb.gov.br/estrutura-interna-da-terra"
+    },
+    {
+      "referencia_abnt": "IBGE. Unidades de Relevo 1:5.000.000.",
+      "tipo": "institucional",
+      "nivel_autoridade": 3,
+      "url": "https://www.ibge.gov.br/geociencias/informacoes-ambientais/geomorfologia/15827-unidades-de-relevo.html"
+    }
+  ],
+  "sintese_fcc": {
+    "conceitos_nucleares": [
+      {
+        "termo": "Litosfera vs. Astenosfera",
+        "definicao_precisa": "Litosfera é a camada rígida (crosta + topo do manto superior) dividida em placas; Astenosfera é a zona plástica subjacente que permite o deslocamento das placas.",
+        "fonte": "TEIXEIRA et al., 2009."
+      },
+      {
+        "termo": "Limites Tectônicos",
+        "definicao_precisa": "Divergentes (afastamento/dorsais), Convergentes (colisão/subducção/orogênese) e Transformantes (deslizamento lateral/falhas).",
+        "fonte": "TEIXEIRA et al., 2009."
+      },
+      {
+        "termo": "Planalto vs. Planície (Critério Dinâmico — Aziz Ab'Sáber / Jurandyr Ross)",
+        "definicao_precisa": "Planalto: predominam processos erosivos; Planície: predominam processos de deposição/acumulação sedimentar (não depende apenas de altitude!).",
+        "fonte": "ROSS, 2012."
+      },
+      {
+        "termo": "Intemperismo Químico vs. Físico",
+        "definicao_precisa": "Intemperismo químico transforma minerais por reações; físico fragmenta materiais. Água, temperatura, litologia, relevo e tempo influenciam a predominância.",
+        "fonte": "TEIXEIRA et al., 2009."
+      }
+    ],
+    "pegadinhas_fcc": [
+      {
+        "armadilha": "Definir Planície apenas por 'terreno plano e baixo'",
+        "como_a_fcc_cobra": "Afirma que toda superfície plana acima de 300 m é planície ou que planalto é sempre montanhoso.",
+        "como_desarmar": "Na Geomorfologia moderna (Ab'Sáber/Ross), o critério é o balanço morfogenético: Planalto = erosão > deposição; Planície = deposição > erosão."
+      },
+      {
+        "armadilha": "Atribuir dobramentos modernos ao Brasil",
+        "como_a_fcc_cobra": "Inclui dobramentos modernos terciários entre as estruturas geológicas do território brasileiro.",
+        "como_desarmar": "O Brasil não possui cadeia de orogenia jovem ativa comparável aos Andes, mas possui crátons, cinturões antigos, bacias e sismicidade intraplaca."
+      },
+      {
+        "armadilha": "Reduzir orogênese e epirogênese a direções e velocidades fixas",
+        "como_a_fcc_cobra": "Distrator autoral de treino: tratar a orogênese como exclusivamente horizontal e rápida.",
+        "como_desarmar": "Orogênese envolve formação de cadeias; epirogênese é termo tradicional para movimentos verticais regionais. Não são distinguidas apenas por rapidez."
+      }
+    ],
+    "quadro_comparativo": [
+      {
+        "limite": "Divergente",
+        "movimento": "Afastamento",
+        "feicao_tipica": "Dorsal Mesoatlântica / Rift Valley"
+      },
+      {
+        "limite": "Convergente",
+        "movimento": "Colisão / Subducção",
+        "feicao_tipica": "Cordilheira dos Andes / Himalaia / Fossas"
+      },
+      {
+        "limite": "Transformante",
+        "movimento": "Deslizamento lateral",
+        "feicao_tipica": "Falha de San Andreas"
+      }
+    ],
+    "checklist_revisao": [
+      "Sei diferenciar modelo químico (crosta/manto/núcleo) do reológico (litosfera/astenosfera) e as descontinuidades (Moho/Gutenberg)?",
+      "Sei associar cada tipo de limite tectônico às suas feições e ao porquê de o Brasil não ter dobramentos modernos?",
+      "Domino o ciclo das rochas e o critério erosão vs. deposição para planaltos e planícies?"
+    ]
+  },
+  "questoes": [
+    {
+      "questao_id": "CE-GEO-03-Q001",
+      "origem": "inedita_padrao_fcc",
+      "referencia_prova": "Inédita — padrão FCC / Edital SEDUC-MA 01/2026",
+      "enunciado": "No estudo da estrutura interna da Terra, a distinção entre o modelo composicional e o modelo reológico (mecânico) é fundamental para compreender a Tectônica de Placas. Nesse sentido, as placas tectônicas correspondem à",
+      "alternativas": {
+        "A": "mesosfera, porção exclusivamente gasosa situada acima da crosta terrestre.",
+        "B": "astenosfera, camada líquida de ferro e níquel responsável pela geração do campo magnético terrestre.",
+        "C": "crosta oceânica isolada, uma vez que a crosta continental permanece imóvel sobre o núcleo interno.",
+        "D": "descontinuidade de Gutenberg, que separa a crosta continental do manto superior.",
+        "E": "litosfera, camada rígida composta pela crosta terrestre e pela porção superior rígida do manto, que se desloca sobre a astenosfera plástica."
+      },
+      "gabarito": "E",
+      "justificativa_gabarito": "Na divisão reológica, a litosfera engloba a crosta e o topo rígido do manto superior, fragmentando-se em placas tectônicas que se movem sobre a astenosfera (mais dúctil/plástica).",
+      "analise_distratores": {
+        "A": "Mesosfera, em uma nomenclatura mecânica simplificada do interior terrestre, refere-se a regiões profundas do manto, não à camada gasosa da atmosfera.",
+        "B": "Descreve o núcleo externo (líquido, NiFe, campo magnético), não a astenosfera.",
+        "C": "Placas tectônicas incluem crosta continental e/ou oceânica e movem-se continuamente.",
+        "D": "Gutenberg separa manto e núcleo externo; crosta/manto é a descontinuidade de Mohorovičić (Moho)."
+      },
+      "dificuldade": "basica",
+      "subtopico": "Composição e estrutura interna da Terra"
+    },
+    {
+      "questao_id": "CE-GEO-03-Q002",
+      "origem": "inedita_padrao_fcc",
+      "referencia_prova": "Inédita — padrão FCC / Edital SEDUC-MA 01/2026",
+      "enunciado": "A Cordilheira dos Andes, a Dorsal Mesoatlântica e a Falha de San Andreas exemplificam, respectivamente, feições geomorfológicas associadas a limites de placas tectônicas do tipo",
+      "alternativas": {
+        "A": "divergente, convergente e transformante.",
+        "B": "convergente, transformante e divergente.",
+        "C": "transformante, divergente e convergente.",
+        "D": "convergente, divergente e transformante.",
+        "E": "divergente, transformante e convergente."
+      },
+      "gabarito": "D",
+      "justificativa_gabarito": "Andes = limite convergente (subducção da Placa de Nazca sob a Sul-Americana); Dorsal Mesoatlântica = limite divergente; Falha de San Andreas = limite transformante.",
+      "analise_distratores": {
+        "A": "Inverte convergente e divergente.",
+        "B": "Inverte divergente e transformante.",
+        "C": "Andes são convergentes; San Andreas é transformante.",
+        "E": "Andes são convergentes, Dorsal é divergente e San Andreas é transformante."
+      },
+      "dificuldade": "basica",
+      "subtopico": "Tectônica de placas e agentes internos/externos"
+    },
+    {
+      "questao_id": "CE-GEO-03-Q003",
+      "origem": "inedita_padrao_fcc",
+      "referencia_prova": "Inédita — padrão FCC / Edital SEDUC-MA 01/2026",
+      "enunciado": "Na Geomorfologia brasileira contemporânea (a partir das contribuições de Aziz Ab'Sáber e Jurandyr Ross), a diferenciação técnica entre planaltos e planícies fundamenta-se prioritariamente",
+      "alternativas": {
+        "A": "no balanço entre processos morfogenéticos: nos planaltos predominam os processos erosivos sobre os de sedimentação, enquanto nas planícies predominam os processos de deposição/acumulação sedimentar.",
+        "B": "no critério puramente altimétrico, sendo planície qualquer terreno abaixo de 200 metros e planalto qualquer terreno acima dessa cota.",
+        "C": "na idade do vulcanismo ativo, presente em todos os planaltos e ausente nas planícies.",
+        "D": "na presença exclusiva de rochas metamórficas nos planaltos e rochas magmáticas nas planícies.",
+        "E": "na ocorrência de dobramentos modernos nas áreas de planície costeira."
+      },
+      "gabarito": "A",
+      "justificativa_gabarito": "Na tradição classificatória citada, a distinção privilegia processos geomorfológicos e não somente altitude.",
+      "analise_distratores": {
+        "B": "O critério altimétrico pertence a outra proposta classificatória; não é o critério processual solicitado.",
+        "C": "Não há vulcanismo ativo no Brasil e planaltos podem ser sedimentares ou cristalinos.",
+        "D": "Planaltos podem ser sedimentares (ex.: Bacia do Parnaíba) e planícies são sedimentares.",
+        "E": "Não há dobramentos modernos no Brasil."
+      },
+      "dificuldade": "intermediaria",
+      "subtopico": "Geomorfologia geral"
+    },
+    {
+      "questao_id": "CE-GEO-03-Q004",
+      "origem": "inedita_padrao_fcc",
+      "referencia_prova": "Inédita — padrão FCC / Edital SEDUC-MA 01/2026",
+      "enunciado": "Em regiões de clima tropical quente e úmido, como grande parte do território brasileiro e do noroeste maranhense, a alteração das rochas e a formação de solos profundos (como Latossolos) são conduzidas predominantemente pelo",
+      "alternativas": {
+        "A": "intemperismo físico por crioclastia (congelamento de água nas fissuras).",
+        "B": "intemperismo puramente eólico, típico de climas hiperáridos.",
+        "C": "intemperismo químico, favorecido pela abundância de água e temperaturas elevadas que aceleram a decomposição dos minerais.",
+        "D": "metamorfismo regional de alta pressão na superfície do solo.",
+        "E": "tectonismo orogenético de subducção continental."
+      },
+      "gabarito": "C",
+      "justificativa_gabarito": "Água e temperatura favorecem hidrólise, oxidação e dissolução; a profundidade e classe de solo também dependem de outros fatores.",
+      "analise_distratores": {
+        "A": "Crioclastia ocorre em climas frios/de alta montanha.",
+        "B": "Ação eólica predomina em áreas áridas/semiáridas ou costeiras arenosas, não na formação de Latossolos profundos úmidos.",
+        "D": "Metamorfismo ocorre em profundidade na crosta, não na superfície pedológica.",
+        "E": "Orogênese é agente endógeno construtor, não decomposição superficial de rochas."
+      },
+      "dificuldade": "basica",
+      "subtopico": "Geomorfologia geral"
+    },
+    {
+      "questao_id": "CE-GEO-03-Q005",
+      "origem": "inedita_padrao_fcc",
+      "referencia_prova": "Inédita — padrão FCC / Edital SEDUC-MA 01/2026",
+      "enunciado": "Relacionando estruturas geológicas e potencial econômico mineral, é correto afirmar que",
+      "alternativas": {
+        "A": "os escudos cristalinos pré-cambrianos concentram as principais reservas de combustíveis fósseis (petróleo e carvão mineral).",
+        "B": "as rochas magmáticas intrusivas são formadas pela compactação de sedimentos marinhos ricos em fósseis.",
+        "C": "os dobramentos modernos brasileiros são os principais produtores de minério de ferro da Serra dos Carajás.",
+        "D": "Bacias sedimentares podem abrigar combustíveis fósseis e aquíferos, enquanto muitos depósitos metálicos associam-se a terrenos cristalinos antigos.",
+        "E": "a epirogênese corresponde a choques horizontais bruscos que originam grandes cadeias de montanhas jovens."
+      },
+      "gabarito": "D",
+      "justificativa_gabarito": "Essas associações são frequentes, mas não exclusivas: minérios podem ocorrer em ambientes sedimentares e água subterrânea também em rochas fraturadas.",
+      "analise_distratores": {
+        "A": "Inverte exatamente a associação econômica.",
+        "B": "Descreve rochas sedimentares, não magmáticas intrusivas.",
+        "C": "Carajás está em escudo cristalino pré-cambriano; o Brasil não possui dobramentos modernos.",
+        "E": "Epirogênese é um termo tradicional para movimentos verticais regionais; não corresponde à colisão de placas."
+      },
+      "dificuldade": "intermediaria",
+      "subtopico": "Composição e estrutura interna da Terra"
+    },
+    {
+      "questao_id": "CE-GEO-03-EXP-Q001",
+      "origem": "inedita_autoral_em_auditoria",
+      "referencia_prova": "SOaprender — inédita; não é questão oficial FCC",
+      "enunciado": "Em uma sucessão sedimentar não invertida, uma intrusão corta as camadas A e B, e uma falha corta a intrusão. A interpretação relativa correta é:",
+      "alternativas": {
+        "A": "A falha é anterior à deposição das duas camadas.",
+        "B": "A intrusão é mais recente que a falha.",
+        "C": "A intrusão é posterior às camadas e anterior à falha.",
+        "D": "A idade numérica da intrusão é determinada pela espessura das camadas.",
+        "E": "A relação de corte prova que as camadas são cenozoicas."
+      },
+      "gabarito": "C",
+      "justificativa_gabarito": "Pelo princípio das relações de corte, a estrutura que corta é posterior à estrutura cortada.",
+      "analise_distratores": {
+        "A": "A falha corta uma intrusão posterior às camadas.",
+        "B": "Inverte a sequência observada.",
+        "D": "Espessura não fornece idade numérica por si só.",
+        "E": "Relações relativas não datam a era."
+      },
+      "dificuldade": "intermediaria",
+      "subtopico": "Composição e estrutura interna da Terra"
+    },
+    {
+      "questao_id": "CE-GEO-03-EXP-Q002",
+      "origem": "inedita_autoral_em_auditoria",
+      "referencia_prova": "SOaprender — inédita; não é questão oficial FCC",
+      "enunciado": "Dados sísmicos indicam fossa oceânica, focos sísmicos que se aprofundam em direção ao continente e arco magmático. O conjunto é mais coerente com:",
+      "alternativas": {
+        "A": "limite divergente continental.",
+        "B": "limite transformante puro.",
+        "C": "ponto quente sem interação entre placas.",
+        "D": "subducção de litosfera oceânica sob margem continental.",
+        "E": "sedimentação fluvial em margem passiva."
+      },
+      "gabarito": "D",
+      "justificativa_gabarito": "O conjunto é compatível com uma placa descendente e magmatismo associado à subducção.",
+      "analise_distratores": {
+        "A": "Rifte não explica o plano sísmico profundo e a fossa.",
+        "B": "Deslocamento lateral não explica o conjunto.",
+        "C": "Hotspot não exige fossa nem placa descendente.",
+        "E": "Deposição fluvial não explica a sismicidade profunda."
+      },
+      "dificuldade": "intermediaria",
+      "subtopico": "Tectônica de placas e agentes internos/externos"
+    },
+    {
+      "questao_id": "CE-GEO-03-EXP-Q003",
+      "origem": "inedita_autoral_em_auditoria",
+      "referencia_prova": "SOaprender — inédita; não é questão oficial FCC",
+      "enunciado": "Ao comparar a magnitude de um terremoto com as intensidades registradas em dois bairros, é correto afirmar:",
+      "alternativas": {
+        "A": "A magnitude é uma estimativa do tamanho do evento; intensidades podem variar com local e condições.",
+        "B": "A intensidade é idêntica em todos os bairros.",
+        "C": "A magnitude depende apenas do número de edifícios danificados.",
+        "D": "O epicentro corresponde ao ponto de ruptura em profundidade.",
+        "E": "A presença de sismos prova que a região está numa margem de placas."
+      },
+      "gabarito": "A",
+      "justificativa_gabarito": "A magnitude caracteriza o evento; a intensidade descreve efeitos locais.",
+      "analise_distratores": {
+        "B": "Efeitos variam espacialmente.",
+        "C": "Danos não definem sozinhos magnitude.",
+        "D": "O ponto em profundidade é o hipocentro.",
+        "E": "Há sismos intraplaca."
+      },
+      "dificuldade": "intermediaria",
+      "subtopico": "Tectônica de placas e agentes internos/externos"
+    },
+    {
+      "questao_id": "CE-GEO-03-EXP-Q004",
+      "origem": "inedita_autoral_em_auditoria",
+      "referencia_prova": "SOaprender — inédita; não é questão oficial FCC",
+      "enunciado": "Sobre os mecanismos de geração de magma, considere I. A descompressão pode provocar fusão parcial do manto ascendente em dorsais. II. Voláteis liberados pela placa subductada podem favorecer fusão no manto sobrejacente. III. Todo o manto é líquido. Está correto o que se afirma em:",
+      "alternativas": {
+        "A": "I apenas.",
+        "B": "II apenas.",
+        "C": "III apenas.",
+        "D": "I e III apenas.",
+        "E": "I e II apenas."
+      },
+      "gabarito": "E",
+      "justificativa_gabarito": "I e II descrevem mecanismos de fusão parcial; o manto é predominantemente sólido.",
+      "analise_distratores": {
+        "A": "Omite II.",
+        "B": "Omite I.",
+        "C": "III é falsa.",
+        "D": "Inclui III e omite II."
+      },
+      "dificuldade": "avancada",
+      "subtopico": "Tectônica de placas e agentes internos/externos"
+    },
+    {
+      "questao_id": "CE-GEO-03-EXP-Q005",
+      "origem": "inedita_autoral_em_auditoria",
+      "referencia_prova": "SOaprender — inédita; não é questão oficial FCC",
+      "enunciado": "Um pesquisador identifica mármore derivado de calcário em uma área de metamorfismo regional. A relação entre essas rochas demonstra:",
+      "alternativas": {
+        "A": "fusão completa seguida de cristalização obrigatória.",
+        "B": "transformação mineralógica e textural predominantemente no estado sólido.",
+        "C": "deposição de areia seguida de cimentação.",
+        "D": "intemperismo mecânico sem alteração mineral.",
+        "E": "formação exclusiva por precipitação no oceano."
+      },
+      "gabarito": "B",
+      "justificativa_gabarito": "O mármore resulta de metamorfismo de rocha carbonática.",
+      "analise_distratores": {
+        "A": "Fusão completa seguida de cristalização origina material ígneo.",
+        "C": "Esse processo é associado a arenito sedimentar.",
+        "D": "Intemperismo superficial não explica metamorfismo regional.",
+        "E": "Precipitação pode originar o protólito, não explica a transformação."
+      },
+      "dificuldade": "intermediaria",
+      "subtopico": "Composição e estrutura interna da Terra"
+    },
+    {
+      "questao_id": "CE-GEO-03-EXP-Q006",
+      "origem": "inedita_autoral_em_auditoria",
+      "referencia_prova": "SOaprender — inédita; não é questão oficial FCC",
+      "enunciado": "Uma área apresenta uma superfície relativamente baixa em relação às vizinhas, a 350 m acima do nível do mar. A conclusão defensável é:",
+      "alternativas": {
+        "A": "trata-se necessariamente de planície porque é baixa.",
+        "B": "trata-se de depressão absoluta.",
+        "C": "pode corresponder a depressão relativa; sua gênese exige evidências adicionais.",
+        "D": "a altitude prova que se trata de dobramento moderno.",
+        "E": "a superfície pertence necessariamente a uma bacia sedimentar."
+      },
+      "gabarito": "C",
+      "justificativa_gabarito": "Depressão relativa é definida por posição topográfica em relação ao entorno, não pelo nível do mar.",
+      "analise_distratores": {
+        "A": "Planície exige contexto processual.",
+        "B": "Depressão absoluta fica abaixo do nível médio do mar.",
+        "D": "Altitude não identifica estrutura tectônica.",
+        "E": "Uma forma pode ocorrer em diferentes estruturas."
+      },
+      "dificuldade": "intermediaria",
+      "subtopico": "Geomorfologia geral"
+    },
+    {
+      "questao_id": "CE-GEO-03-EXP-Q007",
+      "origem": "inedita_autoral_em_auditoria",
+      "referencia_prova": "SOaprender — inédita; não é questão oficial FCC",
+      "enunciado": "Um perfil usa escala horizontal 1:50.000 e vertical 1:10.000. Entre dois pontos há 40 m de desnível em 200 m horizontais. A relação correta é:",
+      "alternativas": {
+        "A": "exagero vertical 0,2 e declividade 20%.",
+        "B": "exagero vertical 5 e declividade 100%.",
+        "C": "exagero vertical 5 e inclinação 20°.",
+        "D": "exagero vertical 5 e declividade 20%.",
+        "E": "exagero vertical 1 e declividade 5%."
+      },
+      "gabarito": "D",
+      "justificativa_gabarito": "O exagero é 50.000/10.000=5; a declividade é 40/200×100=20%.",
+      "analise_distratores": {
+        "A": "Inverte a razão.",
+        "B": "Confunde inclinação aparente e real.",
+        "C": "Porcentagem não é medida angular.",
+        "E": "Escalas distintas geram exagero; a declividade não é 5%."
+      },
+      "dificuldade": "avancada",
+      "subtopico": "Geomorfologia geral"
+    },
+    {
+      "questao_id": "CE-GEO-03-EXP-Q008",
+      "origem": "inedita_autoral_em_auditoria",
+      "referencia_prova": "SOaprender — inédita; não é questão oficial FCC",
+      "enunciado": "Ao explicar a formação de uma cadeia montanhosa por colisão continental, um professor deve considerar:",
+      "alternativas": {
+        "A": "orogênese como movimento exclusivamente horizontal e instantâneo.",
+        "B": "ausência de deformação crustal em toda colisão.",
+        "C": "obducção como sinônimo obrigatório de qualquer colisão.",
+        "D": "inexistência de erosão durante soerguimento.",
+        "E": "deformação, espessamento crustal, soerguimento e interação com processos superficiais."
+      },
+      "gabarito": "E",
+      "justificativa_gabarito": "Orogênese envolve processos complexos que coexistem com denudação e erosão.",
+      "analise_distratores": {
+        "A": "Reduz indevidamente a dinâmica.",
+        "B": "Colisão costuma gerar deformação.",
+        "C": "Obducção é um processo específico.",
+        "D": "Erosão pode atuar simultaneamente."
+      },
+      "dificuldade": "avancada",
+      "subtopico": "Tectônica de placas e agentes internos/externos"
+    }
+  ],
+  "flashcards": [
+    {
+      "card_id": "CE-GEO-03-FC001",
+      "frente": "O que compõe a Litosfera e sobre qual camada ela se move?",
+      "verso": "Litosfera = crosta + topo rígido do manto superior; desloca-se sobre a Astenosfera (zona plástica/dúctil).",
+      "tipo": "conceito",
+      "tags": [
+        "estrutura-terra",
+        "tectonica"
+      ]
+    },
+    {
+      "card_id": "CE-GEO-03-FC002",
+      "frente": "Quais são os 3 tipos de limites tectônicos e um exemplo clássico de cada?",
+      "verso": "Divergente (Dorsal Mesoatlântica), Convergente (Andes / Himalaia) e Transformante (Falha de San Andreas).",
+      "tipo": "comparacao",
+      "tags": [
+        "placas",
+        "tectonica"
+      ]
+    },
+    {
+      "card_id": "CE-GEO-03-FC003",
+      "frente": "Qual o critério geomorfológico moderno para diferenciar Planalto e Planície?",
+      "verso": "Planalto: erosão > deposição; Planície: deposição sedimentar > erosão.",
+      "tipo": "pegadinha_fcc",
+      "tags": [
+        "geomorfologia",
+        "ross"
+      ]
+    },
+    {
+      "card_id": "CE-GEO-03-FC004",
+      "frente": "Qual a diferença entre Orogênese e Epirogênese?",
+      "verso": "Orogênese: processos de formação de cadeias montanhosas. Epirogênese: movimentos verticais regionais de grande extensão; não se distinguem apenas por velocidade.",
+      "tipo": "comparacao",
+      "tags": [
+        "agentes-endogenos"
+      ]
+    },
+    {
+      "card_id": "CE-GEO-03-FC005",
+      "frente": "Onde ocorrem minerais metálicos vs. combustíveis fósseis?",
+      "verso": "Muitos depósitos metálicos associam-se a terrenos cristalinos; combustíveis fósseis, a bacias sedimentares. São tendências, não exclusividades.",
+      "tipo": "conceito",
+      "tags": [
+        "geologia",
+        "recursos"
+      ]
+    },
+    {
+      "card_id": "CE-GEO-03-FC006",
+      "frente": "Qual tipo de intemperismo domina em climas tropicais úmidos?",
+      "verso": "Condições quentes e úmidas favorecem alteração química. Profundidade e fertilidade também dependem de material, drenagem, organismos e tempo.",
+      "tipo": "conceito",
+      "tags": [
+        "intemperismo",
+        "solos"
+      ]
+    },
+    {
+      "card_id": "CE-GEO-03-LEG-GF-tectonica-FC3",
+      "frente": "Núcleo externo?",
+      "verso": "Núcleo externo líquido: não transmite ondas S de cisalhamento; ondas P mudam velocidade e trajetória.",
+      "tipo": "conceito",
+      "tags": [
+        "geografia-fisica",
+        "tectonica"
+      ],
+      "status": "em_auditoria"
+    },
+    {
+      "card_id": "CE-GEO-03-LEG-GF-tectonica-FC4",
+      "frente": "Núcleo interno?",
+      "verso": "Parte central sólida, dominada por ferro e níquel.",
+      "tipo": "conceito",
+      "tags": [
+        "geografia-fisica",
+        "tectonica"
+      ],
+      "status": "em_auditoria"
+    },
+    {
+      "card_id": "CE-GEO-03-LEG-GF-tectonica-FC5",
+      "frente": "Descontinuidade de Moho?",
+      "verso": "Limite sísmico entre crosta e manto.",
+      "tipo": "conceito",
+      "tags": [
+        "geografia-fisica",
+        "tectonica"
+      ],
+      "status": "em_auditoria"
+    },
+    {
+      "card_id": "CE-GEO-03-LEG-GF-tectonica-FC6",
+      "frente": "Ondas P?",
+      "verso": "Compressionais; mais rápidas; atravessam sólidos e líquidos.",
+      "tipo": "conceito",
+      "tags": [
+        "geografia-fisica",
+        "tectonica"
+      ],
+      "status": "em_auditoria"
+    },
+    {
+      "card_id": "CE-GEO-03-LEG-GF-tectonica-FC7",
+      "frente": "Ondas S?",
+      "verso": "Cisalhamento; não atravessam líquidos.",
+      "tipo": "conceito",
+      "tags": [
+        "geografia-fisica",
+        "tectonica"
+      ],
+      "status": "em_auditoria"
+    },
+    {
+      "card_id": "CE-GEO-03-LEG-GF-tectonica-FC8",
+      "frente": "Datação relativa?",
+      "verso": "Ordena eventos sem fornecer idade numérica absoluta.",
+      "tipo": "conceito",
+      "tags": [
+        "geografia-fisica",
+        "tectonica"
+      ],
+      "status": "em_auditoria"
+    },
+    {
+      "card_id": "CE-GEO-03-LEG-GF-tectonica-FC9",
+      "frente": "Relação de corte?",
+      "verso": "Estrutura que corta outra é posterior à estrutura cortada.",
+      "tipo": "conceito",
+      "tags": [
+        "geografia-fisica",
+        "tectonica"
+      ],
+      "status": "em_auditoria"
+    },
+    {
+      "card_id": "CE-GEO-03-LEG-GF-tectonica-FC13",
+      "frente": "Rifte continental?",
+      "verso": "Estiramento da litosfera continental; pode anteceder abertura oceânica, mas nem todo rifte evolui para oceano.",
+      "tipo": "conceito",
+      "tags": [
+        "geografia-fisica",
+        "tectonica"
+      ],
+      "status": "em_auditoria"
+    },
+    {
+      "card_id": "CE-GEO-03-LEG-GF-tectonica-FC14",
+      "frente": "Subducção?",
+      "verso": "Mergulho de uma placa, geralmente oceânica e mais densa, sob outra.",
+      "tipo": "conceito",
+      "tags": [
+        "geografia-fisica",
+        "tectonica"
+      ],
+      "status": "em_auditoria"
+    },
+    {
+      "card_id": "CE-GEO-03-LEG-GF-tectonica-FC15",
+      "frente": "Andes: mecanismo-chave?",
+      "verso": "Subducção da placa de Nazca sob a placa Sul-Americana.",
+      "tipo": "conceito",
+      "tags": [
+        "geografia-fisica",
+        "tectonica"
+      ],
+      "status": "em_auditoria"
+    },
+    {
+      "card_id": "CE-GEO-03-LEG-GF-tectonica-FC16",
+      "frente": "Himalaia: mecanismo-chave?",
+      "verso": "Colisão continente–continente e espessamento crustal.",
+      "tipo": "conceito",
+      "tags": [
+        "geografia-fisica",
+        "tectonica"
+      ],
+      "status": "em_auditoria"
+    },
+    {
+      "card_id": "CE-GEO-03-LEG-GF-tectonica-FC17",
+      "frente": "Hipocentro?",
+      "verso": "Ponto em profundidade onde começa a ruptura sísmica.",
+      "tipo": "conceito",
+      "tags": [
+        "geografia-fisica",
+        "tectonica"
+      ],
+      "status": "em_auditoria"
+    },
+    {
+      "card_id": "CE-GEO-03-LEG-GF-tectonica-FC18",
+      "frente": "Epicentro?",
+      "verso": "Projeção do hipocentro na superfície.",
+      "tipo": "conceito",
+      "tags": [
+        "geografia-fisica",
+        "tectonica"
+      ],
+      "status": "em_auditoria"
+    },
+    {
+      "card_id": "CE-GEO-03-LEG-GF-tectonica-FC19",
+      "frente": "Magnitude x intensidade?",
+      "verso": "Magnitude = tamanho/energia; intensidade = efeitos observados localmente.",
+      "tipo": "conceito",
+      "tags": [
+        "geografia-fisica",
+        "tectonica"
+      ],
+      "status": "em_auditoria"
+    },
+    {
+      "card_id": "CE-GEO-03-LEG-GF-tectonica-FC21",
+      "frente": "Hotspot?",
+      "verso": "Anomalia térmica e/ou fonte mantélica persistente associada a vulcanismo; não necessariamente imóvel.",
+      "tipo": "conceito",
+      "tags": [
+        "geografia-fisica",
+        "tectonica"
+      ],
+      "status": "em_auditoria"
+    },
+    {
+      "card_id": "CE-GEO-03-LEG-GF-tectonica-FC22",
+      "frente": "Fusão em dorsal?",
+      "verso": "Descompressão do manto ascendente favorece fusão parcial.",
+      "tipo": "conceito",
+      "tags": [
+        "geografia-fisica",
+        "tectonica"
+      ],
+      "status": "em_auditoria"
+    },
+    {
+      "card_id": "CE-GEO-03-LEG-GF-tectonica-FC23",
+      "frente": "Fusão em subducção?",
+      "verso": "Voláteis da placa descendente reduzem o ponto de fusão do manto.",
+      "tipo": "conceito",
+      "tags": [
+        "geografia-fisica",
+        "tectonica"
+      ],
+      "status": "em_auditoria"
+    },
+    {
+      "card_id": "CE-GEO-03-LEG-GF-tectonica-FC24",
+      "frente": "Mineral x rocha?",
+      "verso": "Mineral tem composição/estrutura próprias; rocha é agregado de minerais/material.",
+      "tipo": "conceito",
+      "tags": [
+        "geografia-fisica",
+        "tectonica"
+      ],
+      "status": "em_auditoria"
+    },
+    {
+      "card_id": "CE-GEO-03-LEG-GF-tectonica-FC25",
+      "frente": "Granito?",
+      "verso": "Rocha ígnea intrusiva, de resfriamento lento.",
+      "tipo": "conceito",
+      "tags": [
+        "geografia-fisica",
+        "tectonica"
+      ],
+      "status": "em_auditoria"
+    },
+    {
+      "card_id": "CE-GEO-03-LEG-GF-tectonica-FC26",
+      "frente": "Basalto?",
+      "verso": "Rocha ígnea extrusiva, comum em derrames e crosta oceânica.",
+      "tipo": "conceito",
+      "tags": [
+        "geografia-fisica",
+        "tectonica"
+      ],
+      "status": "em_auditoria"
+    },
+    {
+      "card_id": "CE-GEO-03-LEG-GF-tectonica-FC27",
+      "frente": "Arenito?",
+      "verso": "Rocha sedimentar clástica litificada a partir de areia.",
+      "tipo": "conceito",
+      "tags": [
+        "geografia-fisica",
+        "tectonica"
+      ],
+      "status": "em_auditoria"
+    },
+    {
+      "card_id": "CE-GEO-03-LEG-GF-tectonica-FC28",
+      "frente": "Calcário?",
+      "verso": "Rocha sedimentar carbonática, química e/ou biogênica.",
+      "tipo": "conceito",
+      "tags": [
+        "geografia-fisica",
+        "tectonica"
+      ],
+      "status": "em_auditoria"
+    },
+    {
+      "card_id": "CE-GEO-03-LEG-GF-tectonica-FC29",
+      "frente": "Gnaisse?",
+      "verso": "Rocha metamórfica frequentemente bandada, de metamorfismo elevado.",
+      "tipo": "conceito",
+      "tags": [
+        "geografia-fisica",
+        "tectonica"
+      ],
+      "status": "em_auditoria"
+    },
+    {
+      "card_id": "CE-GEO-03-LEG-GF-tectonica-FC30",
+      "frente": "Metamorfismo?",
+      "verso": "Transformação no estado sólido por pressão, temperatura e fluidos.",
+      "tipo": "conceito",
+      "tags": [
+        "geografia-fisica",
+        "tectonica"
+      ],
+      "status": "em_auditoria"
+    },
+    {
+      "card_id": "CE-GEO-03-LEG-GF-tectonica-FC31",
+      "frente": "Intemperismo?",
+      "verso": "Alteração/desagregação da rocha in situ.",
+      "tipo": "conceito",
+      "tags": [
+        "geografia-fisica",
+        "tectonica"
+      ],
+      "status": "em_auditoria"
+    },
+    {
+      "card_id": "CE-GEO-03-LEG-GF-tectonica-FC32",
+      "frente": "Erosão?",
+      "verso": "Remoção e transporte de material por agentes externos.",
+      "tipo": "conceito",
+      "tags": [
+        "geografia-fisica",
+        "tectonica"
+      ],
+      "status": "em_auditoria"
+    },
+    {
+      "card_id": "CE-GEO-03-LEG-GF-tectonica-FC33",
+      "frente": "Sedimentação?",
+      "verso": "Deposição e acumulação de material conforme as condições de transporte e do meio.",
+      "tipo": "conceito",
+      "tags": [
+        "geografia-fisica",
+        "tectonica"
+      ],
+      "status": "em_auditoria"
+    },
+    {
+      "card_id": "CE-GEO-03-LEG-GF-tectonica-FC34",
+      "frente": "Intemperismo químico em clima quente/úmido?",
+      "verso": "Em geral é favorecido por água e temperaturas elevadas.",
+      "tipo": "conceito",
+      "tags": [
+        "geografia-fisica",
+        "tectonica"
+      ],
+      "status": "em_auditoria"
+    },
+    {
+      "card_id": "CE-GEO-03-LEG-GF-tectonica-FC41",
+      "frente": "Depressão relativa?",
+      "verso": "Área rebaixada em relação ao entorno, ainda que acima do nível do mar.",
+      "tipo": "conceito",
+      "tags": [
+        "geografia-fisica",
+        "tectonica"
+      ],
+      "status": "em_auditoria"
+    },
+    {
+      "card_id": "CE-GEO-03-LEG-GF-tectonica-FC42",
+      "frente": "Depressão absoluta?",
+      "verso": "Área situada abaixo do nível médio do mar.",
+      "tipo": "conceito",
+      "tags": [
+        "geografia-fisica",
+        "tectonica"
+      ],
+      "status": "em_auditoria"
+    },
+    {
+      "card_id": "CE-GEO-03-LEG-GF-tectonica-FC43",
+      "frente": "Chapada?",
+      "verso": "Topo relativamente plano, bordas escarpadas; muitas chapadas associam-se a estruturas sedimentares.",
+      "tipo": "conceito",
+      "tags": [
+        "geografia-fisica",
+        "tectonica"
+      ],
+      "status": "em_auditoria"
+    },
+    {
+      "card_id": "CE-GEO-03-LEG-GF-tectonica-FC44",
+      "frente": "Cuesta?",
+      "verso": "Relevo assimétrico: frente íngreme e reverso suave em camadas inclinadas.",
+      "tipo": "conceito",
+      "tags": [
+        "geografia-fisica",
+        "tectonica"
+      ],
+      "status": "em_auditoria"
+    },
+    {
+      "card_id": "CE-GEO-03-LEG-GF-tectonica-FC49",
+      "frente": "Perfil topográfico: primeiro passo?",
+      "verso": "Descrever geometria e posição antes de nomear a forma.",
+      "tipo": "conceito",
+      "tags": [
+        "geografia-fisica",
+        "tectonica"
+      ],
+      "status": "em_auditoria"
+    }
+  ],
+  "teoria_md": "# 1. A Terra por dentro\n\nImagine um pêssego cortado: casca, polpa e caroço ajudam a visualizar camadas, mas a Terra não tem uma correspondência mecânica simples com a fruta. A profundidade modifica pressão, temperatura, composição e comportamento dos materiais.\n\n| Modelo composicional | Características aproximadas |\n|---|---|\n| Crosta | Camada externa; oceânica geralmente mais fina e máfica; continental mais espessa e heterogênea. |\n| Manto | Predominam silicatos ricos em magnésio e ferro; em grande parte sólido, capaz de deformação lenta. |\n| Núcleo | Predomina ferro com outros elementos, incluindo níquel; externo líquido, interno sólido. |\n\nA crosta continental não é toda granito nem a oceânica toda basalto. Os antigos termos SiAl e SiMa são simplificações históricas, não descrições completas.\n\nO modelo mecânico distingue litosfera rígida (crosta e parte superior do manto), astenosfera de menor resistência mecânica e regiões mais profundas. A astenosfera é majoritariamente sólida; pequenas frações de fusão podem ocorrer localmente. Não é um mar de magma. O núcleo externo líquido participa do geodínamo por movimentos do fluido eletricamente condutor, em conjunto com a rotação.\n\n**Como sabemos?** Ondas sísmicas mudam velocidade e trajetória ao atravessar materiais distintos. O Moho separa crosta e manto; Gutenberg, manto e núcleo externo; o limite entre os núcleos externo e interno é associado à descoberta de Inge Lehmann. Ondas P são compressionais; ondas S, de cisalhamento, não se propagam em líquidos como ondas de corpo. A interpretação combina várias evidências, não uma única ausência de sinal.\n\n**Atalho:** placa = litosfera, não crosta. A rigidez depende das escalas de tempo e condições físicas.\n\n# 2. Tempo geológico e evidências\n\nUma rua asfaltada pode recobrir rochas de milhões de anos. A idade da rocha não equivale à idade da paisagem atual. A Terra formou-se há cerca de 4,54 bilhões de anos. Hadeano, Arqueano e Proterozoico antecedem o Fanerozoico, que se divide em Paleozoico, Mesozoico e Cenozoico. O conjunto anterior ao Fanerozoico é frequentemente chamado Pré-Cambriano.\n\nNa datação relativa, uma camada sedimentar em sequência não invertida tende a ser mais antiga que a camada sobrejacente; uma intrusão que corta camadas é posterior a elas. A datação numérica estima idades por métodos como decaimento radioativo. Cada método tem condições de aplicação, incerteza e evento datado próprios.\n\n**Exemplo:** se uma intrusão corta camadas A e B, mas é cortada por uma falha, a intrusão é posterior às camadas e anterior à falha. Não é possível calcular uma idade absoluta somente dessas relações.\n\nA abertura do Atlântico Sul e o magmatismo associado à Bacia do Paraná no Mesozoico mostram a conexão entre tempo, tectônica e história regional. O desenvolvimento andino é longo e continua atualmente. Evite tratar grandes eventos como instantâneos.\n\n# 3. Da deriva continental à tectônica de placas\n\nObserve um mapa do Atlântico: a semelhança entre margens continentais é uma pista, não prova isolada. Wegener propôs a deriva continental no início do século XX, apoiada por correspondências geológicas, fósseis e paleoclimáticas. O desenvolvimento da expansão do assoalho oceânico, estudos magnéticos, distribuição de sismos e medições geodésicas contribuiu para a teoria da tectônica de placas consolidada nos anos 1960.\n\nAs placas se movem relativamente umas às outras em velocidades geralmente da ordem de centímetros por ano. A dinâmica envolve gravidade, diferenças de densidade, tração de placas subductadas, forças relacionadas às dorsais e interação com o fluxo mantélico. Não reduza tudo a esteiras de convecção abaixo da crosta.\n\n| Limite | Movimento relativo | Processo típico |\n|---|---|---|\n| Divergente | Afastamento | Rifte e formação de litosfera oceânica em dorsais. |\n| Convergente | Aproximação | Subducção ou colisão; deformação e sismicidade. |\n| Transformante | Deslocamento lateral | Falhas e sismos; sem criação/destruição sistemática de litosfera no limite. |\n\n**Atalho:** dorsal → divergência; fossa + sismos em plano inclinado → subducção; deslocamento lateral → transformante. São evidências combinadas, não regras para qualquer feição isolada.\n\n# 4. Subducção, colisão e montanhas\n\nEm uma margem oceano-continente, a litosfera oceânica pode mergulhar sob outra placa. A placa descendente libera voláteis, favorecendo fusão parcial no manto sobrejacente. Fossa, arco magmático e sismos em profundidades variadas são evidências frequentes. Os Andes exemplificam a subducção de Nazca sob a América do Sul.\n\nEm convergências oceano-oceano, podem surgir arcos insulares. Em colisões continentais, o encurtamento e o espessamento crustal contribuem para cadeias como o Himalaia. A colisão não deve ser chamada automaticamente de obducção: obducção é o alojamento de porções de litosfera oceânica sobre uma margem continental. Também não exclui toda subducção continental.\n\nOrogênese é o conjunto de processos de formação e evolução de cadeias montanhosas, frequentemente associado a convergência, deformação, magmatismo, metamorfismo e soerguimento. Epirogênese é um termo tradicional para movimentos verticais de grande extensão regional, sem necessariamente formar cadeias por encurtamento intenso. Não se distinguem de modo rigoroso por uma regra de rapidez ou por direções exclusivamente horizontais e verticais.\n\n**Conexão:** o relevo montanhoso não resulta só da tectônica; erosão e denudação alteram sua evolução.\n\n# 5. Terremotos, falhas e evidências sísmicas\n\nUma régua flexionada acumula energia elástica; quando cede, libera parte dessa energia. A analogia ajuda a entender o deslizamento súbito em falhas, sem reproduzir toda a física de uma ruptura geológica.\n\nO hipocentro é onde a ruptura começa em profundidade, e o epicentro é sua projeção na superfície. Ondas P e S são ondas de corpo; ondas superficiais podem produzir movimentos intensos. Magnitude estima o tamanho do evento (por exemplo, magnitude de momento); intensidade descreve os efeitos em cada local. Não confunda uma magnitude com uma intensidade única para toda a área.\n\nFalhas normais associam-se frequentemente à extensão; inversas, à compressão; transcorrentes, a deslocamento predominantemente lateral. A geometria real pode combinar componentes.\n\nO Brasil, situado predominantemente no interior da placa Sul-Americana, apresenta sismicidade intraplaca. Estruturas preexistentes e tensões atuais podem participar da ocorrência de sismos. Ausência de margem convergente ativa no território não significa ausência de terremotos.\n\n**Aplicação:** dois bairros à mesma distância do epicentro podem sofrer danos diferentes por condições do terreno, construções e propagação das ondas.\n\n# 6. Magma e vulcanismo\n\nMagma é material rochoso parcialmente ou totalmente fundido, podendo conter cristais e gases. Lava é magma extravasado. O manto não precisa estar globalmente líquido para produzir magmas.\n\nNas dorsais, o manto ascendente pode fundir parcialmente pela redução de pressão. Nas subducções, voláteis podem reduzir a temperatura necessária à fusão parcial do manto. Em pontos quentes, anomalias térmicas e processos mantélicos podem sustentar vulcanismo, inclusive intraplaca.\n\nCadeias como Havaí permitem investigar deslocamento das placas ao comparar idades e posições vulcânicas. Pontos quentes não são necessariamente imóveis. A viscosidade, a composição, os gases e as condições de ascensão influenciam o estilo eruptivo.\n\nNo Brasil, grandes derrames basálticos antigos associados à Bacia do Paraná testemunham episódios magmáticos pretéritos. Não confunda a presença de rochas vulcânicas com atividade vulcânica contemporânea.\n\n**Atalho:** dorsal → descompressão; subducção → participação de voláteis; hotspot → não exige limite de placas.\n\n# 7. Minerais, rochas e ciclo geológico\n\nO granito de uma bancada e a areia da praia ilustram materiais em diferentes condições do ciclo geológico. Mineral é uma substância natural com estrutura e composição características, geralmente cristalina e inorgânica. Rocha é um agregado natural de minerais ou outros materiais geológicos.\n\n| Classe | Formação | Exemplos |\n|---|---|---|\n| Ígnea | Solidificação de magma ou lava | Granito, basalto |\n| Sedimentar | Acumulação e litificação de sedimentos, precipitação ou formação biogênica | Arenito, calcário |\n| Metamórfica | Transformação predominantemente no estado sólido por temperatura, pressão, deformação e fluidos | Gnaisse, mármore, quartzito |\n\nResfriamento lento tende a favorecer cristais maiores, mas textura também depende de composição e história de cristalização. Sedimentos podem ser transportados e depositados; nem toda rocha sedimentar exige compactação e cimentação. Metamorfismo não é simplesmente fusão: quando há fusão parcial, podem coexistir material fundido e resíduo sólido.\n\nO ciclo não é uma sequência obrigatória. Uma rocha ígnea pode sofrer metamorfismo sem passar por uma etapa sedimentar. Qualquer rocha exposta pode sofrer alteração superficial. Fósseis são mais comuns em rochas sedimentares, não exclusivos de qualquer litologia.\n\n**Recuperação ativa:** explique por que mármore e calcário podem ter composição semelhante, mas pertencem a classes distintas.\n\n# 8. Intemperismo, erosão e deposição\n\nUma pedra exposta à chuva pode sofrer transformação química sem sair do lugar. Já partículas deslocadas pela enxurrada sofreram remoção e transporte. Deposição ocorre quando o material se acumula.\n\nIntemperismo físico fragmenta material; químico transforma minerais por reações como hidrólise, dissolução e oxidação. Organismos podem favorecer ambos. Temperatura e água influenciam as reações, mas litologia, relevo, drenagem e tempo são importantes. Em condições quentes e úmidas, a alteração química costuma ser favorecida; isso não implica que todos os solos sejam profundos ou férteis.\n\nErosão e transporte envolvem agentes como água, vento, gelo e gravidade; movimentos de massa são deslocamentos gravitacionais, que podem ocorrer sem transporte por um fluxo de água. Sedimentação depende de condições de transporte e deposição, incluindo tamanho de grão e dinâmica do meio.\n\n**Exemplo:** retirar vegetação de uma encosta pode aumentar a exposição do solo às gotas e o escoamento. O risco para moradores depende também de ocupação, vulnerabilidade e infraestrutura. Não trate qualquer deslizamento como consequência exclusiva do desmatamento.\n\n**Conexão:** aprofunde pedogênese e conservação de solos em CE-GEO-10.\n\n# 9. Formas de relevo e estrutura\n\nUma chapada com topo plano pode estar a centenas de metros de altitude. A forma plana não torna uma superfície automaticamente planície.\n\nGeomorfologia examina formas, processos, materiais, estrutura e evolução do relevo. Na tradição escolar brasileira, planaltos são associados ao predomínio de denudação; planícies, à acumulação sedimentar; depressões, a superfícies rebaixadas em relação ao entorno. Esses critérios são introdutórios e devem ser interpretados no sistema classificatório adotado.\n\nDepressão relativa pode estar acima do nível médio do mar; absoluta está abaixo. Chapadas apresentam topos relativamente planos e bordas escarpadas, muitas vezes ligadas a estruturas sedimentares. Cuestas têm vertentes assimétricas ligadas a camadas inclinadas e resistência diferencial.\n\nCrátons são porções continentais antigas relativamente estáveis; escudos são áreas em que embasamento cristalino antigo aflora. Bacias sedimentares acumulam sedimentos ao longo de sua história. Cinturões orogênicos registram deformações e processos associados à construção de montanhas. Estrutura geológica não é sinônimo de relevo.\n\n**Recursos:** muitos depósitos metálicos relacionam-se a terrenos cristalinos e cinturões antigos; petróleo, gás e carvão são frequentemente associados a bacias sedimentares. Não são associações exclusivas. Aquíferos podem ocorrer tanto em materiais porosos quanto em rochas fraturadas.\n\n# 10. Leitura de perfis e integração\n\nComece pela observação, não pelo nome. Em um perfil, examine altitudes, rupturas de declive, forma das vertentes e posição dos vales. Depois formule hipóteses e confronte-as com litologia, drenagem, processos e história. O perfil sozinho não prova a gênese de uma forma.\n\n| Evidência observável | Hipótese | Informação adicional |\n|---|---|---|\n| Topo plano e bordas escarpadas | Chapada | Estrutura das camadas e história erosiva |\n| Vertente abrupta e reverso suave | Cuesta | Inclinação e resistência das camadas |\n| Superfície rebaixada entre áreas altas | Depressão | Contexto regional e evolução |\n| Vale amplo com depósitos recentes | Planície fluvial | Sedimentos e regime de inundação |\n\nSe o perfil possui escala horizontal 1:50.000 e vertical 1:10.000, o exagero vertical é 5. Um desnível de 40 m em 200 m horizontais corresponde a 20% de declividade, independentemente do exagero visual. Em graus, a inclinação é aproximadamente 11,3°.\n\n**Roteiro de prova:** estrutura → processo → forma → evidência. Aplique-o sem tratar o encadeamento como causa única. As classificações de Aroldo de Azevedo, Ab'Sáber e Ross e os mapas oficiais do Brasil serão aprofundados em CE-GEO-11.",
+  "metadata_expansao": {
+    "status": "candidato_nao_publicado",
+    "source": "8eef084fbe39a3e3b4b012391d5b2f9b98804041",
+    "review": "Leitura das 14 seções da fonte tectônica e dos 5 itens de desafio, 50 cartões legados e 5 questões e 6 cartões originais. Reescrita das 10 missões gerais, seleção de cartões, correções e 8 questões inéditas. SGB e IBGE consultados por busca; demais referências científicas e visuais pendentes. Não é auditoria integral independente.",
+    "excluded": "Questões de quatro alternativas e itens de classificação brasileira reservados; demais conteúdos de CE-GEO-11 permanecem no lote.",
+    "pending": [
+      "Revisar todas as referências específicas e validar figuras",
+      "Calibrar aderência FCC com provas reais",
+      "Revisar cartões reservados e questões de quatro alternativas",
+      "Testar integração e preservar IDs"
+    ]
+  }
+}
