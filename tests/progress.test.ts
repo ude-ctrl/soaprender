@@ -15,8 +15,12 @@ describe('evidência e revisão', () => {
     const first = attempt(question, 'good');
     const fast = attempt(question, 'good', start + 1);
     const delayed = attempt(question, 'good', start + 1 + day);
-    expect(mastery(unit, reviewIndex([first, fast, attempt(card, 'easy')]))).toBe(10);
-    expect(mastery(unit, reviewIndex([first, fast, delayed]))).toBe(20);
+    const fixedUnit = { ...unit, questoes: unit.questoes.slice(0, 5) };
+    expect(fixedUnit.questoes).toHaveLength(5);
+    expect(mastery(fixedUnit, reviewIndex([first, fast, attempt(card, 'easy')]))).toBe(10);
+    expect(mastery(fixedUnit, reviewIndex([first, fast, delayed]))).toBe(20);
+    expect(mastery(unit, reviewIndex([first, fast, attempt(card, 'easy')]))).toBe(Math.round(50 / unit.questoes.length));
+    expect(mastery(unit, reviewIndex([first, fast, delayed]))).toBe(Math.round(100 / unit.questoes.length));
     expect(mastery(unit, reviewIndex([first, fast, delayed, { ...delayed, confidence: 'guess' }]))).toBe(0);
     expect(mastery(unit, reviewIndex([first, fast, delayed, attempt(question, 'again', start + 2 * day)]))).toBe(0);
     expect(stats([first, fast]).xp).toBe(20);
