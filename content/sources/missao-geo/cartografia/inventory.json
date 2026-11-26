@@ -1,0 +1,127 @@
+{
+  "source_repo": "ude-ctrl/Estudo-para-Concurso",
+  "source_ref": "main",
+  "target_unit": "CE-GEO-02",
+  "status": "em_auditoria",
+  "notes": "Originais preservados como candidatos. Versão 1.0.2 tem revisão temporal de 24/11/2026 limitada a SEDUC-PA/FGV; não houve nova auditoria integral nem homologação humana. Consultar audit.json, audit.md, provenance.json e review.md no diretório de origem. Não importar HTML bruto, métricas ou rótulos de aprovação; validar segurança, fontes, direitos, pertinência SEDUC-MA/FCC, duplicatas e precisão antes de integração. Manter IDs atuais do SOaprender.",
+  "packages": [
+    {
+      "name": "cartografia-fundamentos",
+      "source": "base-conhecimento/cartografia/cartografia-fundamentos/1.0.2/content.json",
+      "blob_sha": "f7906bfeeac77dc2a4913e4fd9b811389d821e09",
+      "legacy_status": "APROVADA_CANONICA",
+      "soap_status": "candidato_em_auditoria",
+      "missions": [
+        {
+          "id": "linguagem-cartografica",
+          "title": "Linguagem e leitura de mapas",
+          "sections": 3
+        },
+        {
+          "id": "orientacao-azimute",
+          "title": "Orientação e azimute",
+          "sections": 1
+        },
+        {
+          "id": "coordenadas-gms",
+          "title": "Coordenadas e conversão GMS",
+          "sections": 6
+        },
+        {
+          "id": "fusos-utc-data",
+          "title": "Fusos, UTC e mudança de data",
+          "sections": 4
+        },
+        {
+          "id": "escalas-e-medidas",
+          "title": "Escalas e medidas",
+          "sections": 5
+        }
+      ],
+      "questions": 60,
+      "cards": 54
+    },
+    {
+      "name": "cartografia-representacao",
+      "source": "base-conhecimento/cartografia/cartografia-representacao/1.0.2/content.json",
+      "blob_sha": "5f40a68a6adb8c85224c3adde95a3e85a38d1fff",
+      "legacy_status": "APROVADA_CANONICA",
+      "soap_status": "candidato_em_auditoria",
+      "missions": [
+        {
+          "id": "projecoes-propriedades",
+          "title": "Projeções e propriedades",
+          "sections": 5
+        },
+        {
+          "id": "mercator-peters-utm",
+          "title": "Mercator, Gall-Peters e UTM",
+          "sections": 2
+        },
+        {
+          "id": "semiologia-tematica",
+          "title": "Semiologia e mapas temáticos",
+          "sections": 3
+        },
+        {
+          "id": "graficos-perfis-relevo",
+          "title": "Gráficos, perfis e relevo",
+          "sections": 3
+        },
+        {
+          "id": "leitura-critica-integrada",
+          "title": "Leitura crítica e decisão técnica",
+          "sections": 1
+        }
+      ],
+      "questions": 49,
+      "cards": 31
+    },
+    {
+      "name": "geotecnologias",
+      "source": "base-conhecimento/cartografia/geotecnologias/1.0.2/content.json",
+      "blob_sha": "e70a647007266d1fdece80b716d6e3df21be3055",
+      "legacy_status": "APROVADA_CANONICA",
+      "soap_status": "candidato_em_auditoria",
+      "missions": [
+        {
+          "id": "sensores-espectro",
+          "title": "Sensores e espectro",
+          "sections": 4
+        },
+        {
+          "id": "resolucoes-indices-classificacao",
+          "title": "Resoluções, índices e classificação",
+          "sections": 4
+        },
+        {
+          "id": "gnss-referenciais",
+          "title": "GNSS e referenciais geodésicos",
+          "sections": 2
+        },
+        {
+          "id": "sig-modelos-operacoes",
+          "title": "SIG: modelos e operações",
+          "sections": 3
+        },
+        {
+          "id": "geoprocessamento-dados-digitais",
+          "title": "Geoprocessamento e dados digitais",
+          "sections": 1
+        },
+        {
+          "id": "amazonia-monitoramento",
+          "title": "Monitoramento na Amazônia e no Pará",
+          "sections": 2
+        },
+        {
+          "id": "cartografia-escolar",
+          "title": "Cartografia escolar",
+          "sections": 1
+        }
+      ],
+      "questions": 52,
+      "cards": 35
+    }
+  ]
+}
