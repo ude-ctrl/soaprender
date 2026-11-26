@@ -20744,7 +20744,7 @@
             "E": "a velocidade das notícias aumentou o tempo disponível para análise crítica."
           },
           "gabarito": "A",
-          "justificativa_gabarito": "A alternativa preserva a ausência de garantia automática e a redução do tempo disponível para checagem.",
+          "justificativa_gabarito": "O texto nega uma garantia automática de melhor informação e afirma, com a marca de frequência 'muitas vezes', que a rapidez reduziu o tempo disponível para checagem. A paráfrase preserva tanto o alcance quanto essa frequência.",
           "analise_distratores": {
             "B": "Extrapolação absoluta ('destruíram completamente qualquer possibilidade').",
             "C": "Extrapolação: o texto não faz essa afirmação sobre o passado.",
@@ -24442,7 +24442,7 @@
             "E": "A equipe espera QUE O RELATÓRIO SEJA APROVADO."
           },
           "gabarito": "E",
-          "justificativa_gabarito": "A oração funciona como objeto direto de espera: a equipe espera isso.",
+          "justificativa_gabarito": "A oração subordinada substantiva objetiva direta funciona como objeto direto de espera: a equipe espera isso.",
           "analise_distratores": {
             "A": "Oração Subordinada Adverbial Temporal.",
             "B": "Oração Subordinada Adjetiva Explicativa ('o qual foi publicado...').",
