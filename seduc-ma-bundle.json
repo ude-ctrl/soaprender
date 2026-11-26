@@ -5,8 +5,8 @@
   "resumo_cobertura": {
     "total_unidades_edital": 45,
     "unidades_populadas": 45,
-    "total_questoes": 420,
-    "total_flashcards": 663
+    "total_questoes": 452,
+    "total_flashcards": 719
   },
   "edital": {
     "schema_version": "1.0.0",
@@ -16854,7 +16854,7 @@
       "titulo": "Povos Originários, França Equinocial, Estado do Maranhão e Economia Algodoeira Colonial",
       "status": "em_auditoria",
       "origem": "edital_explicito",
-      "tempo_leitura_min": 30,
+      "tempo_leitura_min": 25,
       "edital_subtopicos": [
         "Povos originários e colonização",
         "França Equinocial e ocupação portuguesa",
@@ -16878,69 +16878,94 @@
           "referencia_abnt": "BOTELHO, Joan. Conhecendo e Debatendo a História do Maranhão. São Luís: Fort Gráfica, 2007.",
           "tipo": "bibliografia_academica",
           "nivel_autoridade": 5
+        },
+        {
+          "referencia_abnt": "Arquivo Nacional. MAPA. Governador-geral do Estado do Maranhão.",
+          "url": "https://mapa.arquivonacional.gov.br/index.php/assuntos/15-dicionario/57-dicionario-da-administracao-publica-brasileira-do-periodo-colonial/194-governador-geral-do-estado-do-maranhao",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
+        },
+        {
+          "referencia_abnt": "UFF. Impressões Rebeldes: Revolta de Beckman.",
+          "url": "https://www.historia.uff.br/impressoesrebeldes/revolta/revolta-de-beckman/",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
+        },
+        {
+          "referencia_abnt": "Biblioteca Nacional. Projeto Resgate: escravidão negra, Maranhão (catálogo).",
+          "url": "https://www.gov.br/bn/pt-br/central-de-conteudos/projeto-resgate/catalogos-tematicos/escravidao-negra-resgate/maranhao",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
+        },
+        {
+          "referencia_abnt": "Iphan. Maranhão, patrimônio cultural.",
+          "url": "https://www.gov.br/iphan/pt-br/superintendencias/maranhao",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
         }
       ],
       "sintese_fcc": {
         "conceitos_nucleares": [
           {
-            "termo": "França Equinocial (1612–1615)",
-            "definicao_precisa": "Tentativa colonial francesa na Ilha de Upaon-Açu liderada por Daniel de La Touche (La Ravardière), fundando São Luís (08/09/1612); derrotada na Batalha de Guaxenduba (1614) e capitulação em 1615.",
-            "fonte": "MEIRELES, 2001."
+            "termo": "França Equinocial",
+            "definicao_precisa": "Projeto francês no Maranhão, 1612–1615.",
+            "fonte": "Arquivo Nacional."
           },
           {
-            "termo": "Estado do Maranhão (1621)",
-            "definicao_precisa": "Unidade político-administrativa separada do Estado do Brasil, subordinada diretamente a Lisboa devido às dificuldades de navegação costeira.",
-            "fonte": "MEIRELES, 2001."
+            "termo": "Estado do Maranhão",
+            "definicao_precisa": "Organização administrativa colonial, convencionalmente datada de 1621.",
+            "fonte": "MAPA."
           },
           {
-            "termo": "Revolta de Beckman / Bequimão (1684)",
-            "definicao_precisa": "Revolta nativista em São Luís liderada por Manuel Beckman contra o monopólio abusivo da Companhia de Comércio (Estanco) e a proibição da escravização indígena defendida pelos jesuítas.",
-            "fonte": "BOTELHO, 2007."
+            "termo": "Beckman",
+            "definicao_precisa": "Contestação de monopólio e disputas sobre trabalho indígena, 1684.",
+            "fonte": "UFF."
           },
           {
-            "termo": "Boom Algodoeiro Pombalino (séc. XVIII)",
-            "definicao_precisa": "Impulsionado pela Companhia Geral do Grão-Pará e Maranhão (1755), pela Revolução Industrial inglesa e pela Guerra de Independência dos EUA, com massiva escravidão africana.",
-            "fonte": "MEIRELES, 2001."
+            "termo": "Expansão algodoeira",
+            "definicao_precisa": "Companhia de 1755, trabalho escravizado e redes atlânticas.",
+            "fonte": "Biblioteca Nacional."
           }
         ],
         "pegadinhas_fcc": [
           {
-            "armadilha": "Confundir França Equinocial (MA, 1612) com França Antártica (RJ, 1555)",
-            "como_a_fcc_cobra": "Troca o nome do empreendimento francês no Maranhão por 'França Antártica' ou atribui sua liderança a Villegagnon.",
-            "como_desarmar": "França Antártica = Rio de Janeiro (1555, Villegagnon). França Equinocial = Maranhão (1612, Daniel de La Touche / La Ravardière)."
+            "armadilha": "Fundação × ocupação",
+            "como_a_fcc_cobra": "Distrator autoral: A história começa em 1612.",
+            "como_desarmar": "Reconhecer territorialidades indígenas anteriores."
           },
           {
-            "armadilha": "Atribuir caráter abolicionista à Revolta de Beckman (1684)",
-            "como_a_fcc_cobra": "Afirma que Manuel Beckman lutou pela liberdade dos indígenas e contra a escravidão.",
-            "como_desarmar": "Pelo contrário: os colonos revoltosos queriam acesso à mão de obra escrava (indígena ou africana) e expulsaram os jesuítas justamente porque estes se opunham à escravização indígena pelos colonos!"
+            "armadilha": "Companhias",
+            "como_a_fcc_cobra": "Distrator autoral: 1682 e 1755 são uma só companhia.",
+            "como_desarmar": "Distinguir contexto e datas."
+          },
+          {
+            "armadilha": "Revolta × abolição",
+            "como_a_fcc_cobra": "Distrator autoral: Beckman defendia fim da escravidão.",
+            "como_desarmar": "Demandas de colonos incluíam trabalho escravizado."
           }
         ],
         "quadro_comparativo": [
           {
-            "marco": "1612–1615",
-            "evento": "França Equinocial e Batalha de Guaxenduba",
-            "protagonistas": "La Ravardière × Jerônimo de Albuquerque / Alexandre de Moura"
+            "marco": "1612",
+            "significado": "França Equinocial"
           },
           {
             "marco": "1621",
-            "evento": "Criação do Estado do Maranhão",
-            "protagonistas": "Coroa Ibérica (administração separada do Brasil)"
+            "significado": "Estado colonial"
           },
           {
             "marco": "1684",
-            "evento": "Revolta de Beckman (Bequimão)",
-            "protagonistas": "Manuel e Tomás Beckman × Estanco / Jesuítas"
+            "significado": "Beckman"
           },
           {
-            "marco": "1755–séc. XVIII",
-            "evento": "Companhia Geral (Pombal) e Boom do Algodão",
-            "protagonistas": "Marquês de Pombal / escravidão africana / demanda inglesa"
+            "marco": "1755",
+            "significado": "Companhia Geral"
           }
         ],
         "checklist_revisao": [
-          "Sei diferenciar França Equinocial (MA, 1612) de França Antártica (RJ, 1555) e lembrar de Guaxenduba (1614)?",
-          "Sei explicar por que o Estado do Maranhão (1621) era subordinado diretamente a Lisboa?",
-          "Sei as causas reais da Revolta de Beckman (1684) e os fatores externos do boom algodoeiro do século XVIII?"
+          "Diferencio frentes coloniais e ocupação indígena?",
+          "Relaciono companhias e conflitos?",
+          "Explico a expansão algodoeira sem monocausalidade?"
         ]
       },
       "questoes": [
@@ -16971,7 +16996,7 @@
           "questao_id": "CG-GHM-05-Q002",
           "origem": "inedita_padrao_fcc",
           "referencia_prova": "Inédita — padrão FCC / Edital SEDUC-MA 01/2026",
-          "enunciado": "Em 1621, a Coroa determinou a criação do Estado do Maranhão, separado administrativamente do Estado do Brasil e subordinado diretamente a Lisboa. Um fator geográfico-estratégico decisivo para essa separação foi",
+          "enunciado": "Na organização do Estado colonial do Maranhão, convencionalmente datada de 1621, um fator geográfico importante para a separação administrativa do Estado do Brasil foi",
           "alternativas": {
             "A": "a descoberta imediata de grandes jazidas de ouro na Baixada Maranhense em 1620.",
             "B": "o regime de ventos e correntes marítimas do litoral norte, que tornava mais fácil e rápida a comunicação de São Luís com Lisboa do que com Salvador.",
@@ -16980,7 +17005,7 @@
             "E": "a construção da Estrada de Ferro Carajás ligando São Luís à Bahia."
           },
           "gabarito": "B",
-          "justificativa_gabarito": "Ventos alísios e correntes costeiras dificultavam a navegação de São Luís para Salvador (sede do Estado do Brasil), tornando mais viável a ligação direta com Lisboa, além da necessidade de defesa militar da região amazônica/norte.",
+          "justificativa_gabarito": "As condições de navegação e comunicação entre litoral setentrional, Salvador e Lisboa contribuíram para a organização colonial, ao lado de defesa e administração.",
           "analise_distratores": {
             "A": "Não houve ciclo aurífero na Baixada em 1620.",
             "C": "Tratado de Petrópolis é de 1903 (Acre).",
@@ -17022,11 +17047,11 @@
             "A": "da substituição do algodão pela soja mecanizada no MATOPIBA durante o governo colonial.",
             "B": "da descoberta de reservas de petróleo e gás natural na Bacia do Parnaíba no século XVIII.",
             "C": "da abolição da escravidão decretada pelo Marquês de Pombal para os africanos no Maranhão em 1755.",
-            "D": "da criação da Companhia Geral de Comércio do Grão-Pará e Maranhão (1755), da introdução massiva de escravizados africanos e da alta demanda internacional por algodão estimulada pela Revolução Industrial inglesa e pela Guerra de Independência dos EUA.",
+            "D": "da articulação entre a Companhia Geral de Comércio do Grão-Pará e Maranhão (1755), trabalho escravizado, redes mercantis e demanda internacional por algodão.",
             "E": "do fechamento dos portos maranhenses ao comércio atlântico."
           },
           "gabarito": "D",
-          "justificativa_gabarito": "A combinação entre o crédito/tráfico negreiro da Companhia pombalina (1755), a Revolução Industrial inglesa e a interrupção do algodão norte-americano (1776) gerou o grande ciclo algodoeiro e arrozeiro do Maranhão colonial.",
+          "justificativa_gabarito": "A expansão envolveu fatores internos e externos, incluindo a companhia, trabalho escravizado e mercados atlânticos.",
           "analise_distratores": {
             "A": "Anacronismo.",
             "B": "Exploração de gás natural no Parnaíba é fenômeno do século XXI.",
@@ -17058,13 +17083,197 @@
           },
           "dificuldade": "basica",
           "subtopico": "França Equinocial e ocupação portuguesa"
+        },
+        {
+          "questao_id": "CG-GHM-05-EXP-Q001",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "A interpretação da ocupação do Maranhão anterior à colonização europeia deve reconhecer",
+          "alternativas": {
+            "A": "ausência de territorialidades.",
+            "B": "existência de uma única sociedade indígena homogênea.",
+            "C": "diversidade de povos, conhecimentos e relações territoriais anteriores à conquista.",
+            "D": "origem exclusivamente portuguesa da ocupação.",
+            "E": "ausência de agência indígena nas alianças."
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "A diversidade e a agência indígena antecedem a conquista.",
+          "analise_distratores": {
+            "A": "Havia territorialidades.",
+            "B": "Povos eram diversos.",
+            "D": "A ocupação é anterior.",
+            "E": "Houve negociação e resistência."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Povos originários e colonização"
+        },
+        {
+          "questao_id": "CG-GHM-05-EXP-Q002",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "A distinção entre França Equinocial e França Antártica consiste em que a primeira se relaciona",
+          "alternativas": {
+            "A": "à Bahia no século XVIII.",
+            "B": "à ocupação neerlandesa de Pernambuco.",
+            "C": "à fundação de Belém em 1616.",
+            "D": "ao Maranhão no início do século XVII, enquanto a segunda se liga à Guanabara no XVI.",
+            "E": "à criação da companhia de 1755."
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "São iniciativas francesas diferentes quanto a lugar e período.",
+          "analise_distratores": {
+            "A": "Não é seu local.",
+            "B": "São agentes diferentes.",
+            "C": "Belém tem outro contexto.",
+            "E": "A companhia é portuguesa e posterior."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "França Equinocial e ocupação portuguesa"
+        },
+        {
+          "questao_id": "CG-GHM-05-EXP-Q003",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "A fundação colonial francesa de São Luís em 1612 e a arquitetura portuguesa do centro histórico",
+          "alternativas": {
+            "A": "são necessariamente incompatíveis.",
+            "B": "correspondem a etapas históricas distintas da formação urbana.",
+            "C": "provam ausência de domínio português.",
+            "D": "demonstram ocupação inicial da ilha apenas no XVII.",
+            "E": "ocorreram integralmente em 1612."
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "A cidade passou por diferentes processos de formação.",
+          "analise_distratores": {
+            "A": "Não há contradição.",
+            "C": "O domínio português consolidou-se depois.",
+            "D": "Povos indígenas antecederam a colonização.",
+            "E": "A arquitetura é de períodos posteriores."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Fundação e formação de São Luís"
+        },
+        {
+          "questao_id": "CG-GHM-05-EXP-Q004",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "A criação do Estado colonial do Maranhão, convencionalmente datada de 1621, significou",
+          "alternativas": {
+            "A": "independência nacional.",
+            "B": "extinção da Coroa portuguesa.",
+            "C": "formação da atual federação.",
+            "D": "transferência da soberania à França.",
+            "E": "organização administrativa separada do Estado do Brasil, subordinada à metrópole."
+          },
+          "gabarito": "E",
+          "justificativa_gabarito": "Separação administrativa não equivale a independência.",
+          "analise_distratores": {
+            "A": "Continuou colonial.",
+            "B": "A Coroa permaneceu.",
+            "C": "Federação é posterior.",
+            "D": "O domínio era português."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "França Equinocial e ocupação portuguesa"
+        },
+        {
+          "questao_id": "CG-GHM-05-EXP-Q005",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "A Revolta de Beckman apresenta uma contradição que deve ser reconhecida na análise histórica:",
+          "alternativas": {
+            "A": "a contestação de monopólios coloniais coexistiu com demandas de colonos por mão de obra escravizada.",
+            "B": "a oposição ao estanco implicou abolição.",
+            "C": "o movimento aboliu a colonização.",
+            "D": "todos os revoltosos defendiam igualdade política.",
+            "E": "a revolta ocorreu contra o Império brasileiro."
+          },
+          "gabarito": "A",
+          "justificativa_gabarito": "Contestação da política comercial não equivalia a luta abolicionista.",
+          "analise_distratores": {
+            "B": "Não aboliu escravidão.",
+            "C": "Não encerrou a colonização.",
+            "D": "Interesses eram distintos.",
+            "E": "O Império é posterior."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Economia e sociedade colonial; escravidão indígena e africana"
+        },
+        {
+          "questao_id": "CG-GHM-05-EXP-Q006",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "A Companhia de Comércio do Maranhão de 1682 e a Companhia Geral do Grão-Pará e Maranhão de 1755",
+          "alternativas": {
+            "A": "eram uma única instituição criada em 1612.",
+            "B": "foram iniciativas da República.",
+            "C": "foram instituições distintas, ligadas a momentos diferentes da política comercial colonial.",
+            "D": "não se relacionavam ao tráfico de escravizados.",
+            "E": "foram criadas pela França."
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "Datas e contextos administrativos são distintos.",
+          "analise_distratores": {
+            "A": "Confunde instituições.",
+            "B": "São coloniais.",
+            "D": "Tinham relações com o tráfico.",
+            "E": "Foram iniciativas portuguesas."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Produção algodoeira e transformações econômicas"
+        },
+        {
+          "questao_id": "CG-GHM-05-EXP-Q007",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "A expansão algodoeira maranhense na segunda metade do século XVIII deve ser explicada pela",
+          "alternativas": {
+            "A": "demanda externa isoladamente, sem condições internas.",
+            "B": "articulação de demanda atlântica, redes mercantis, crédito, terras e trabalho escravizado.",
+            "C": "abolição imediata do trabalho compulsório.",
+            "D": "substituição de toda produção por mineração.",
+            "E": "ausência de comércio marítimo."
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "O crescimento exportador teve fatores internos e externos.",
+          "analise_distratores": {
+            "A": "Explicação monocausal é insuficiente.",
+            "C": "A escravidão sustentava produção.",
+            "D": "Algodão e arroz eram relevantes.",
+            "E": "A navegação era central."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Produção algodoeira e transformações econômicas"
+        },
+        {
+          "questao_id": "CG-GHM-05-EXP-Q008",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "Casarões associados ao enriquecimento de grupos mercantis em São Luís não autorizam concluir que",
+          "alternativas": {
+            "A": "a arquitetura registra relações históricas.",
+            "B": "a cidade integrou redes comerciais.",
+            "C": "a escravidão sustentou parte da riqueza.",
+            "D": "a prosperidade se distribuiu igualmente por toda a sociedade colonial.",
+            "E": "o patrimônio pode ser estudado criticamente."
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "Riqueza de determinados grupos não comprova igualdade.",
+          "analise_distratores": {
+            "A": "É uma leitura pertinente.",
+            "B": "Havia redes.",
+            "C": "O trabalho escravizado foi central.",
+            "E": "Patrimônio admite análise social."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Economia e sociedade colonial; escravidão indígena e africana"
         }
       ],
       "flashcards": [
         {
           "card_id": "CG-GHM-05-FC001",
-          "frente": "Quem fundou São Luís em 08/09/1612 e qual o nome do empreendimento colonial?",
-          "verso": "Daniel de La Touche (Senhor de La Ravardière), no projeto da França Equinocial (1612–1615).",
+          "frente": "Qual a data tradicional da fundação colonial de São Luís e o empreendimento francês?",
+          "verso": "8 de setembro de 1612, França Equinocial, associada a La Ravardière e alianças indígenas.",
           "tipo": "conceito",
           "tags": [
             "franca-equinocial",
@@ -17119,9 +17328,149 @@
             "fcc",
             "franca-equinocial"
           ]
+        },
+        {
+          "card_id": "CG-GHM-05-EXP-FC001",
+          "frente": "A história do Maranhão começa em 1612?",
+          "verso": "Não. Povos indígenas ocupavam e organizavam o território anteriormente.",
+          "tipo": "conceito",
+          "tags": [
+            "historia-maranhao",
+            "cg-ghm-05"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-05-EXP-FC002",
+          "frente": "Qual contexto dinástico abrange 1612?",
+          "verso": "União Ibérica (1580–1640).",
+          "tipo": "conceito",
+          "tags": [
+            "historia-maranhao",
+            "cg-ghm-05"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-05-EXP-FC003",
+          "frente": "Qual povo se associa às alianças francesas no Maranhão?",
+          "verso": "Tupinambá, sem pressupor posição única de todos os grupos.",
+          "tipo": "conceito",
+          "tags": [
+            "historia-maranhao",
+            "cg-ghm-05"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-05-EXP-FC004",
+          "frente": "Quando ocorreu a capitulação francesa?",
+          "verso": "1615.",
+          "tipo": "conceito",
+          "tags": [
+            "historia-maranhao",
+            "cg-ghm-05"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-05-EXP-FC005",
+          "frente": "Qual a data tradicional de criação do Estado colonial do Maranhão?",
+          "verso": "1621; há divergências bibliográficas entre 1620 e 1621.",
+          "tipo": "conceito",
+          "tags": [
+            "historia-maranhao",
+            "cg-ghm-05"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-05-EXP-FC006",
+          "frente": "Estado colonial do Maranhão era soberano?",
+          "verso": "Não. Era administração colonial subordinada à metrópole.",
+          "tipo": "conceito",
+          "tags": [
+            "historia-maranhao",
+            "cg-ghm-05"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-05-EXP-FC007",
+          "frente": "Quando ocorreu ocupação neerlandesa de São Luís?",
+          "verso": "1641–1644.",
+          "tipo": "conceito",
+          "tags": [
+            "historia-maranhao",
+            "cg-ghm-05"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-05-EXP-FC008",
+          "frente": "Quando foi criada a primeira Companhia de Comércio do Maranhão?",
+          "verso": "1682.",
+          "tipo": "conceito",
+          "tags": [
+            "historia-maranhao",
+            "cg-ghm-05"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-05-EXP-FC009",
+          "frente": "Qual o ano da Revolta de Beckman?",
+          "verso": "1684, com repressão em 1685.",
+          "tipo": "conceito",
+          "tags": [
+            "historia-maranhao",
+            "cg-ghm-05"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-05-EXP-FC010",
+          "frente": "Beckman foi revolta abolicionista?",
+          "verso": "Não. Demandas de colonos incluíam acesso a mão de obra escravizada.",
+          "tipo": "conceito",
+          "tags": [
+            "historia-maranhao",
+            "cg-ghm-05"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-05-EXP-FC011",
+          "frente": "Quando foi criada a Companhia Geral do Grão-Pará e Maranhão?",
+          "verso": "1755, nas reformas pombalinas.",
+          "tipo": "conceito",
+          "tags": [
+            "historia-maranhao",
+            "cg-ghm-05"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-05-EXP-FC012",
+          "frente": "Quais produtos destacaram-se na agroexportação colonial?",
+          "verso": "Algodão e arroz.",
+          "tipo": "conceito",
+          "tags": [
+            "historia-maranhao",
+            "cg-ghm-05"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-05-EXP-FC013",
+          "frente": "Quais fatores internos sustentaram a expansão algodoeira?",
+          "verso": "Terras, crédito, redes comerciais e trabalho escravizado.",
+          "tipo": "conceito",
+          "tags": [
+            "historia-maranhao",
+            "cg-ghm-05"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-05-EXP-FC014",
+          "frente": "Riqueza de casarões coloniais demonstra igualdade social?",
+          "verso": "Não. Deve ser analisada em relação à concentração de riqueza e à escravidão.",
+          "tipo": "conceito",
+          "tags": [
+            "historia-maranhao",
+            "cg-ghm-05"
+          ]
         }
       ],
-      "teoria_md": "---\ntopico_id: CG-GHM-05\nslug: historia-colonial-franca-equinocial-sao-luis\ntitulo: \"Povos Originários, França Equinocial, Estado do Maranhão e Economia Algodoeira Colonial\"\nedital: SEDUC-MA-01-2026\nbanca: FCC\nstatus: em_auditoria\n---\n\n# 1. Delimitação no Edital (Camada A)\n- **Itens explícitos (p. 60):** *Formação histórica do Maranhão. Povos originários e colonização. França Equinocial e ocupação portuguesa. Fundação e formação de São Luís. Economia e sociedade colonial. Escravidão indígena e africana. Produção algodoeira e transformações econômicas.*\n\n# 2. Povos Originários e Primeiras Tentativas Portuguesas (Século XVI)\nAntes da presença europeia, o território maranhense era densamente ocupado por povos indígenas de diferentes troncos linguísticos: **Tupinambá** (na Ilha de Upaon-Açu/Maranhão e litoral próximo), **Tremembé** (faixa costeira oriental), **Guajajara/Tenetehara** e povos **Jê/Timbira** (interior).\n- Nas Capitanias Hereditárias (1534), a Capitania do Maranhão foi doada a João de Barros, Aires da Cunha e Fernão Álvares de Andrade, mas as expedições portuguesas iniciais fracassaram por naufrágios e resistência indígena.\n\n# 3. A França Equinocial (1612–1615) e a Fundação de São Luís\nNo contexto da União Ibérica (1580–1640) e das disputas coloniais europeias, os franceses — aliados aos **Tupinambá** — estabeleceram a **França Equinocial** na Ilha de Upaon-Açu:\n- **8 de setembro de 1612:** expedição liderada por **Daniel de La Touche (Senhor de La Ravardière)** fundou o Forte de **São Luís** (em homenagem ao rei Luís XIII da França e a São Luís IX), acompanhada por missionários capuchinhos (Claude d'Abbeville e Yves d'Évreux, cujas crônicas são fontes históricas primárias).\n- **Expulsão dos Franceses (1614–1615):** a Coroa luso-espanhola organizou a reação militar liderada por **Jerônimo de Albuquerque** (com apoio decisivo de indígenas aliados) na **Batalha de Guaxenduba (19/11/1614)**. Em novembro de 1615, com reforços de **Alexandre de Moura**, La Ravardière capitulou definitivamente, consolidando o domínio português.\n\n# 4. Estado do Maranhão (1621), Invasão Holandesa e Revolta de Beckman (1684)\n- **Estado do Maranhão (1621):** devido às correntes marítimas e ventos que dificultavam a comunicação entre São Luís e Salvador (sede do Estado do Brasil), a Coroa criou uma unidade administrativa **autônoma**, ligada diretamente a Lisboa — o **Estado do Maranhão** (depois Estado do Maranhão e Grão-Pará), com capital inicialmente em São Luís.\n- **Invasão Holandesa (1641–1644):** tropas da Companhia das Índias Ocidentais (WIC) ocuparam São Luís em 1641, sendo expulsas em 1644 após resistência de colonos liderados por Antônio Teixeira de Melo e Antônio Muniz Barreiros.\n- **Escravidão Indígena × Jesuítas e a Revolta de Beckman (1684):**\n  - No século XVII, a economia maranhense era pobre em capitais, dependente de *drogas do sertão*, cana e roças, recorrendo maciçamente à **mão de obra indígena** (o que gerava choque direto com os **jesuítas**, como o Padre Antônio Vieira, defensores do aldeamento missionário e contrários à escravização direta pelos colonos).\n  - Para resolver a crise, Portugal criou a **Companhia de Comércio do Maranhão (Estanco, 1682)**, com monopólio comercial e promessa de fornecer escravizados africanos (que não foi cumprida adequadamente, enquanto vendia mercadorias caras e deterioradas).\n  - Em **1684**, os irmãos **Manuel Beckman (Bequimão)** e Tomás Beckman lideraram a **Revolta de Beckman** em São Luís: depuseram autoridades, aboliram o Estanco e expulsaram os jesuítas. Em 1685, o governador Gomes Freire de Andrade reprimiu o movimento e condenou Manuel Beckman à forca (embora a Coroa tenha extinguido a impopular Companhia do Estanco).\n\n# 5. Reformas Pombalinas e o Boom Algodoeiro (Segunda Metade do Século XVIII)\nA virada econômica do Maranhão ocorreu no período pombalino:\n- **1755 — Companhia Geral de Comércio do Grão-Pará e Maranhão** (criada pelo **Marquês de Pombal**): injetou crédito, navios e grande volume de **africanos escravizados**, integrando o Maranhão ao mercado atlântico.\n- **Conjuntura Internacional Favorável:** a **1ª Revolução Industrial inglesa** (alta demanda por fibra têxtil) somada à **Guerra de Independência dos EUA (1776)** (que interrompeu o fornecimento de algodão norte-americano à Inglaterra) transformou o Maranhão em grande exportador mundial de **algodão** (além de **arroz**).\n- **Transformações Socioespaciais:** florescimento do Vale do Itapecuru (Caxias, Rosário, Itapecuru-Mirim), Alcântara e **São Luís**, que viveu seu auge arquitetônico (casarões de azulejos) e cultural, ao mesmo tempo em que consolidou uma sociedade profundamente escravista (base demográfica que explica a expressiva presença afrodescendente e quilombola no estado até hoje).\n"
+      "teoria_md": "# 1. Povos originários e territorialidades\n\nA história maranhense não começa em 1612. Povos indígenas ocupavam e transformavam ambientes costeiros, rios, florestas e sertões muito antes da expansão colonial. Tupinambá, Tremembé e povos associados a diferentes tradições linguísticas e territoriais são referências para compreender essa diversidade. Não projete automaticamente a distribuição atual dos povos sobre o século XVI: deslocamentos, epidemias, guerras, alianças e políticas coloniais alteraram territorialidades.\n\nAs capitanias hereditárias constituíram tentativa portuguesa de organizar a ocupação e defesa do litoral. As primeiras iniciativas no Maranhão encontraram dificuldades de navegação, abastecimento e resistência indígena. Concessão jurídica de terras não significava controle efetivo do território. Grupos indígenas negociaram alianças, resistiram à conquista e buscaram preservar interesses próprios; não eram meros auxiliares passivos dos europeus.\n\nAs crônicas missionárias e documentos administrativos são fontes para o período, mas registram perspectivas situadas. Uma fonte europeia não representa automaticamente a experiência de todos os grupos. É necessário confrontar testemunhos, arqueologia, tradições orais e estudos históricos, evitando generalizações.\n\n# 2. França Equinocial e domínio português\n\nDurante a União Ibérica (1580–1640), a Coroa portuguesa integrava a monarquia hispânica, e a costa setentrional era disputada por diferentes potências. A França Equinocial estabeleceu-se no Maranhão em 1612, com liderança de Daniel de La Touche, senhor de La Ravardière, e alianças com grupos Tupinambá. A data tradicional de fundação colonial de São Luís é 8 de setembro de 1612. Ela não representa a primeira ocupação humana da ilha.\n\nA Batalha de Guaxenduba, em 1614, é referência da disputa pelo domínio colonial. A capitulação francesa ocorreu em 1615. O domínio português consolidou-se progressivamente, não sem resistência e negociação. Em contraste, a França Antártica foi uma iniciativa colonial francesa na região da atual baía de Guanabara, no século XVI. Não confunda local, período e contexto.\n\nA formação de São Luís está ligada às funções militares, administrativas, portuárias e comerciais da ilha. O traçado urbano colonial português e a arquitetura desenvolvida posteriormente constituem parte da paisagem histórica. A fundação francesa e o patrimônio arquitetônico predominantemente luso-brasileiro não são afirmações contraditórias.\n\n# 3. Estado do Maranhão e disputas no século XVII\n\nA separação administrativa do norte em relação ao Estado do Brasil é convencionalmente datada de 1621; o dicionário MAPA do Arquivo Nacional registra divergências bibliográficas entre datas de 1620 e 1621. O Estado do Maranhão não era independente de Portugal: constituía unidade administrativa colonial subordinada à metrópole. As condições de navegação, a defesa e a administração de um território amplo ajudaram a motivar essa organização.\n\nSão Luís exerceu função de sede administrativa em etapas dessa história; mudanças de denominação, sede e configuração ocorreram ao longo do período. Não se deve confundir o Estado colonial com a atual unidade federativa. A ocupação neerlandesa de São Luís entre 1641 e 1644 integra o quadro de disputas atlânticas pela região.\n\n![Linha do tempo colonial, da França Equinocial ao comércio pombalino.](./media/historia-maranhao/colonial.svg)\n\n# 4. Sociedade colonial, trabalho compulsório e Beckman\n\nA economia colonial combinava lavouras, criação animal, coleta de produtos florestais, comércio e trabalho compulsório. A escravização indígena e a africana coexistiram; não ocorreu uma substituição completa e instantânea. A legislação colonial sobre indígenas variou e foi marcada por conflitos e violações. Aldeamentos missionários também organizavam trabalho e controle territorial; não equivalem automaticamente à autonomia indígena.\n\nA Companhia de Comércio do Maranhão, instituída em 1682, tinha privilégios comerciais e obrigações relativas ao fornecimento de mercadorias e de trabalhadores africanos escravizados. Queixas de colonos sobre preços, abastecimento, monopólio e restrições à escravização indígena contribuíram para a Revolta de Beckman, em 1684. Manuel e Tomás Beckman são associados ao movimento. A Coroa reprimiu a revolta em 1685.\n\nA oposição ao monopólio não deve ser confundida com defesa da igualdade ou da abolição. Parte dos revoltosos desejava ampliar o acesso à mão de obra escravizada. Compreender interesses dos participantes exige distinguir resistência a determinadas políticas metropolitanas de ruptura com o sistema colonial como um todo.\n\n# 5. Reformas pombalinas e expansão algodoeira\n\nEm 1755, a Companhia Geral de Comércio do Grão-Pará e Maranhão foi criada no contexto das reformas pombalinas. Seus privilégios comerciais, conexões marítimas e participação no tráfico atlântico contribuíram para a expansão da economia exportadora. Trata-se de instituição diferente da Companhia de Comércio do Maranhão de 1682.\n\nA demanda internacional por algodão cresceu com transformações da indústria têxtil britânica. Mudanças nos circuitos comerciais atlânticos, inclusive as guerras de independência norte-americanas, abriram oportunidades comerciais, mas não explicam sozinhas a expansão. Crédito, disponibilidade de terras, trabalho escravizado e redes mercantis também foram decisivos. Algodão e arroz destacaram-se na produção exportadora. O Vale do Itapecuru e centros como São Luís, Alcântara e Caxias participaram de redes comerciais e produtivas.\n\nA riqueza material de determinados grupos financiou construções, serviços e circulação de bens, enquanto a escravidão sustentou relações profundamente desiguais. Pessoas escravizadas desenvolveram estratégias de resistência, constituição de famílias, negociação, fuga e formação de comunidades. A história das territorialidades quilombolas deve ser compreendida a partir de trajetórias diversas, não como consequência mecânica de um único ciclo econômico.\n\n# 6. Comparação e recuperação ativa\n\n| Marco | Referência histórica |\n|---|---|\n| 1612–1615 | França Equinocial e consolidação do domínio português |\n| 1621 | Separação administrativa convencional do Estado do Maranhão |\n| 1641–1644 | Ocupação neerlandesa de São Luís |\n| 1682–1685 | Companhia de Comércio do Maranhão e Revolta de Beckman |\n| 1755 | Companhia Geral do Grão-Pará e Maranhão |\n\nUse a cronologia para identificar processos, não apenas datas. Explique a diferença entre fundação colonial e ocupação originária; entre administração colonial e soberania; entre as duas companhias comerciais; entre contestação de monopólio e defesa da liberdade. Relacione a expansão algodoeira à economia atlântica e às desigualdades do trabalho escravizado."
     },
     {
       "schema_version": "2.0.0",
@@ -17131,7 +17480,7 @@
       "titulo": "Independência, Balaiada (1838–1841) e Primeira República no Maranhão",
       "status": "em_auditoria",
       "origem": "edital_explicito",
-      "tempo_leitura_min": 30,
+      "tempo_leitura_min": 25,
       "edital_subtopicos": [
         "Adesão do Maranhão à Independência e formação da província",
         "Balaiada: contexto, causas, personagens, desenvolvimento e consequências",
@@ -17153,60 +17502,94 @@
           "referencia_abnt": "ASSUNÇÃO, Matthias Röhrig. De caboclos a bem-te-vis: formação do campesinato numa sociedade escravista (Maranhão, 1800–1850). São Paulo: Annablume, 2015.",
           "tipo": "bibliografia_academica",
           "nivel_autoridade": 5
+        },
+        {
+          "referencia_abnt": "Arquivo Nacional. Longe das margens do Ipiranga: a independência do Maranhão.",
+          "url": "https://www.gov.br/arquivonacional/pt-br/sites_eventos/sites-tematicos-1/brasil-oitocentista/especial-bicentenario-da-independencia/longe-das-margens-do-ipiranga-a-independencia-do-maranhao-1/",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
+        },
+        {
+          "referencia_abnt": "APEM. Exposição Adesão do Maranhão à Independência.",
+          "url": "https://apem.cultura.ma.gov.br/expo/adesao_maranhao/",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
+        },
+        {
+          "referencia_abnt": "UFF. Impressões Rebeldes: Negro Cosme.",
+          "url": "https://www.historia.uff.br/impressoesrebeldes/pessoa/negro-cosme/",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
+        },
+        {
+          "referencia_abnt": "Prefeitura de Caxias. Exposição Balaiada, 2018.",
+          "url": "https://caxias.ma.gov.br/2018/06/06/cultura-exposicao-balaiada-a-luta-sem-fim-recebe-grande-publico-em-brasilia-df/",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
         }
       ],
       "sintese_fcc": {
         "conceitos_nucleares": [
           {
-            "termo": "Adesão do Maranhão à Independência (28/07/1823)",
-            "definicao_precisa": "Adesão tardia ocorrida quase um ano após o 7 de Setembro, após cerco em Caxias e pressão naval de Lord Cochrane em São Luís.",
-            "fonte": "MEIRELES, 2001."
+            "termo": "Adesão",
+            "definicao_precisa": "28 de julho de 1823, processo regional conflituoso.",
+            "fonte": "Arquivo Nacional/APEM."
           },
           {
-            "termo": "Balaiada (1838–1841)",
-            "definicao_precisa": "Revolta regencial no Maranhão que combinou disputa política (Bem-te-vis × Cabanos) com levante popular e quilombola (Raimundo Gomes, Manoel Balaio e Cosme Bento das Chagas).",
-            "fonte": "ASSUNÇÃO, 2015."
+            "termo": "Balaiada",
+            "definicao_precisa": "Revolta regencial, 1838–1841, com dimensões políticas e sociais.",
+            "fonte": "UFF."
           },
           {
-            "termo": "Duque de Caxias na Balaiada",
-            "definicao_precisa": "Luís Alves de Lima e Silva comandou a pacificação imperial (1840–1841), usando anistia para dividir livres e repressão severa aos quilombolas.",
-            "fonte": "MEIRELES, 2001."
+            "termo": "Negro Cosme",
+            "definicao_precisa": "Liderança ligada à resistência à escravidão.",
+            "fonte": "UFF."
+          },
+          {
+            "termo": "Coronelismo",
+            "definicao_precisa": "Relações entre chefias locais e poderes republicanos.",
+            "fonte": "Bibliografia de história."
           }
         ],
         "pegadinhas_fcc": [
           {
-            "armadilha": "Confundir Bem-te-vis e Cabanos no Maranhão com a Cabanagem do Pará",
-            "como_a_fcc_cobra": "Troca os nomes dos partidos provinciais ou confunde a Balaiada (MA) com a Cabanagem (PA).",
-            "como_desarmar": "No Maranhão da Balaiada: Bem-te-vis = liberais; Cabanos = conservadores. O nome 'Balaiada' vem de Manoel Francisco dos Anjos Ferreira ('Balaio')."
+            "armadilha": "Independência × abolição",
+            "como_a_fcc_cobra": "Distrator autoral: 1823 extinguiu a escravidão.",
+            "como_desarmar": "A abolição ocorreu em 1888."
           },
           {
-            "armadilha": "Dizer que o Maranhão aderiu imediatamente em 07/09/1822",
-            "como_a_fcc_cobra": "Afirma que São Luís rompeu pacificamente com Lisboa logo em setembro de 1822.",
-            "como_desarmar": "A adesão foi tardia e militarmente pressionada, concretizada em 28 de julho de 1823."
+            "armadilha": "Elites × revolta popular",
+            "como_a_fcc_cobra": "Distrator autoral: Balaiada foi somente disputa partidária.",
+            "como_desarmar": "Reconhecer pluralidade de interesses."
+          },
+          {
+            "armadilha": "Abolição × igualdade",
+            "como_a_fcc_cobra": "Distrator autoral: Fim legal garantiu cidadania plena.",
+            "como_desarmar": "Desigualdades continuaram."
           }
         ],
         "quadro_comparativo": [
           {
-            "lideranca": "Raimundo Gomes",
-            "papel_balaiada": "Vaqueiro que iniciou a revolta na Vila da Manga (1838)"
+            "marco": "1823",
+            "significado": "Adesão"
           },
           {
-            "lideranca": "Manoel Balaio",
-            "papel_balaiada": "Artesão de cestos que deu nome ao movimento"
+            "marco": "1838–1841",
+            "significado": "Balaiada"
           },
           {
-            "lideranca": "Cosme Bento das Chagas",
-            "papel_balaiada": "Líder negro/quilombola que comandou ~3 mil escravizados pela liberdade"
+            "marco": "1888",
+            "significado": "Abolição"
           },
           {
-            "lideranca": "Luís Alves de Lima e Silva",
-            "papel_balaiada": "Comandante imperial (futuro Duque de Caxias) que reprimiu a revolta"
+            "marco": "1889–1930",
+            "significado": "Primeira República"
           }
         ],
         "checklist_revisao": [
-          "Sei por que o Maranhão só aderiu à Independência em 28/07/1823 (papel de Lord Cochrane)?",
-          "Sei as causas, os 3 líderes populares e o desfecho da Balaiada (1838–1841)?",
-          "Sei caracterizar o coronelismo e a 'Atenas Brasileira' na transição Império–Primeira República?"
+          "Explico adesão tardia?",
+          "Identifico lideranças e conflitos da Balaiada?",
+          "Distingo abolição e cidadania?"
         ]
       },
       "questoes": [
@@ -17214,7 +17597,7 @@
           "questao_id": "CG-GHM-06-Q001",
           "origem": "inedita_padrao_fcc",
           "referencia_prova": "Inédita — padrão FCC / Edital SEDUC-MA 01/2026",
-          "enunciado": "Embora a Independência do Brasil tenha sido proclamada em 7 de setembro de 1822, a Província do Maranhão manteve-se fiel a Portugal por quase um ano, formalizando sua adesão apenas em 28 de julho de 1823. Essa resistência inicial da capital maranhense explica-se principalmente",
+          "enunciado": "O Maranhão oficializou a adesão ao Império brasileiro em 28 de julho de 1823. A resistência inicial de setores da capital explica-se principalmente",
           "alternativas": {
             "A": "pela ausência de portos marítimos na Ilha do Maranhão.",
             "B": "pela proibição expressa de D. Pedro I à entrada do Maranhão no Império Brasileiro.",
@@ -17223,7 +17606,7 @@
             "E": "pelos estreitos vínculos comerciais, administrativos e familiares da elite de São Luís com Lisboa, sendo a adesão precipitada pela pressão militar no interior e pelo bloqueio naval de Lord Cochrane."
           },
           "gabarito": "E",
-          "justificativa_gabarito": "A elite mercantil de São Luís dependia do comércio direto com Lisboa; a adesão em 28/07/1823 resultou da pressão das tropas independentistas no interior (Caxias) e da esquadra de Lord Thomas Cochrane no litoral.",
+          "justificativa_gabarito": "Vínculos comerciais e políticos com Lisboa e pressões independentistas internas e externas explicam o processo regional.",
           "analise_distratores": {
             "A": "São Luís era justamente um importante porto atlântico.",
             "B": "D. Pedro I desejava justamente integrar as províncias do Norte.",
@@ -17324,6 +17707,190 @@
           },
           "dificuldade": "basica",
           "subtopico": "Balaiada: contexto, causas, personagens, desenvolvimento e consequências"
+        },
+        {
+          "questao_id": "CG-GHM-06-EXP-Q001",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "A adesão oficial do Maranhão ao Império em julho de 1823 evidencia",
+          "alternativas": {
+            "A": "consenso político nacional em setembro de 1822.",
+            "B": "a dimensão regional e conflituosa do processo de independência.",
+            "C": "fim imediato da escravidão.",
+            "D": "início do federalismo republicano.",
+            "E": "ausência de relações comerciais com Lisboa."
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "A emancipação envolveu diferentes trajetórias provinciais.",
+          "analise_distratores": {
+            "A": "Houve resistências.",
+            "C": "A escravidão permaneceu.",
+            "D": "A República é posterior.",
+            "E": "Os vínculos eram relevantes."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Adesão do Maranhão à Independência e formação da província"
+        },
+        {
+          "questao_id": "CG-GHM-06-EXP-Q002",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "A independência política de 1822–1823 não significou automaticamente",
+          "alternativas": {
+            "A": "formação de um Estado imperial.",
+            "B": "reorganização de vínculos com Portugal.",
+            "C": "abolição da escravidão e igualdade de cidadania.",
+            "D": "mudanças administrativas.",
+            "E": "disputas entre projetos políticos."
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "A ordem imperial preservou escravidão e desigualdades.",
+          "analise_distratores": {
+            "A": "O Império foi formado.",
+            "B": "Houve ruptura política.",
+            "D": "As instituições mudaram.",
+            "E": "Houve disputas."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Adesão do Maranhão à Independência e formação da província"
+        },
+        {
+          "questao_id": "CG-GHM-06-EXP-Q003",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "A oposição entre bem-te-vis e cabanos na Balaiada",
+          "alternativas": {
+            "A": "explica integralmente todas as reivindicações populares.",
+            "B": "é equivalente à oposição da França Equinocial.",
+            "C": "prova ausência de escravizados na revolta.",
+            "D": "compôs um contexto político articulado a conflitos sociais e escravistas.",
+            "E": "ocorreu na Primeira República."
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "A revolta não se esgota na disputa partidária.",
+          "analise_distratores": {
+            "A": "Havia múltiplos interesses.",
+            "B": "Contexto distinto.",
+            "C": "Houve participação negra.",
+            "E": "O período é regencial."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Balaiada: contexto, causas, personagens, desenvolvimento e consequências"
+        },
+        {
+          "questao_id": "CG-GHM-06-EXP-Q004",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "A liderança de Cosme Bento das Chagas na Balaiada permite reconhecer",
+          "alternativas": {
+            "A": "a luta pela liberdade de escravizados como dimensão importante da revolta.",
+            "B": "a defesa unânime da escravidão pelos revoltosos.",
+            "C": "o caráter exclusivamente parlamentar do movimento.",
+            "D": "a inexistência de organizações populares.",
+            "E": "a ausência de conflitos territoriais."
+          },
+          "gabarito": "A",
+          "justificativa_gabarito": "Negro Cosme liderou participantes ligados à resistência à escravidão.",
+          "analise_distratores": {
+            "B": "Não representa sua luta.",
+            "C": "Houve mobilização popular.",
+            "D": "Existiam grupos organizados.",
+            "E": "A questão territorial era relevante."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Balaiada: contexto, causas, personagens, desenvolvimento e consequências"
+        },
+        {
+          "questao_id": "CG-GHM-06-EXP-Q005",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "O encerramento da Balaiada em 1841 e a execução de Negro Cosme em 1842",
+          "alternativas": {
+            "A": "comprovam que a revolta ocorreu no século XX.",
+            "B": "significam abolição imediata.",
+            "C": "demonstram igualdade no tratamento dos grupos.",
+            "D": "eliminaram a memória popular do conflito.",
+            "E": "são marcos distintos que evidenciam a repressão e seus desdobramentos."
+          },
+          "gabarito": "E",
+          "justificativa_gabarito": "O fim da revolta não encerrou imediatamente suas consequências.",
+          "analise_distratores": {
+            "A": "É século XIX.",
+            "B": "A abolição ocorreu em 1888.",
+            "C": "Houve tratamento desigual.",
+            "D": "A memória permanece."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Balaiada: contexto, causas, personagens, desenvolvimento e consequências"
+        },
+        {
+          "questao_id": "CG-GHM-06-EXP-Q006",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "A proibição do tráfico atlântico em 1850, no Brasil, distinguiu-se da abolição de 1888 porque",
+          "alternativas": {
+            "A": "instituiu voto universal.",
+            "B": "não extinguiu naquele momento a escravidão interna.",
+            "C": "criou a Primeira República.",
+            "D": "extinguiu toda produção agrícola.",
+            "E": "foi posterior à Lei Áurea."
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "A Lei Eusébio de Queirós proibiu o tráfico, não aboliu a escravidão.",
+          "analise_distratores": {
+            "A": "Não trata de sufrágio.",
+            "C": "A República iniciou em 1889.",
+            "D": "A produção continuou.",
+            "E": "1850 antecede 1888."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Maranhão na Primeira República"
+        },
+        {
+          "questao_id": "CG-GHM-06-EXP-Q007",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "O coronelismo na Primeira República é melhor compreendido como",
+          "alternativas": {
+            "A": "sinônimo de todo regime militar.",
+            "B": "autonomia completa das chefias locais diante do Estado.",
+            "C": "sistema de participação universal livre de dependências.",
+            "D": "relações entre chefias locais, redes de dependência e poderes estaduais e nacionais.",
+            "E": "mera designação de um cargo eclesiástico."
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "É fenômeno político relacional, associado à estrutura republicana.",
+          "analise_distratores": {
+            "A": "Não é sinônimo de ditadura militar.",
+            "B": "Havia articulação com o Estado.",
+            "C": "Havia exclusões e controle.",
+            "E": "Não é cargo religioso."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Maranhão na Primeira República"
+        },
+        {
+          "questao_id": "CG-GHM-06-EXP-Q008",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "A coexistência de fábricas têxteis e estruturas agrárias desiguais no Maranhão republicano revela",
+          "alternativas": {
+            "A": "ausência de industrialização.",
+            "B": "fim obrigatório do extrativismo.",
+            "C": "modernização econômica seletiva, sem eliminação automática das desigualdades.",
+            "D": "extinção das atividades urbanas.",
+            "E": "igualdade universal de renda."
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "Transformação produtiva pode coexistir com desigualdades.",
+          "analise_distratores": {
+            "A": "Existiram fábricas.",
+            "B": "Extrativismo permaneceu.",
+            "D": "Atividades urbanas existiam.",
+            "E": "Não decorre da industrialização."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Maranhão na Primeira República"
         }
       ],
       "flashcards": [
@@ -17386,9 +17953,149 @@
             "cultura",
             "atenas-brasileira"
           ]
+        },
+        {
+          "card_id": "CG-GHM-06-EXP-FC001",
+          "frente": "Quando São Luís oficializou a adesão ao Império brasileiro?",
+          "verso": "28 de julho de 1823.",
+          "tipo": "conceito",
+          "tags": [
+            "historia-maranhao",
+            "cg-ghm-06"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-06-EXP-FC002",
+          "frente": "O que explica a adesão tardia?",
+          "verso": "Vínculos com Lisboa, divergências internas e pressões independentistas.",
+          "tipo": "conceito",
+          "tags": [
+            "historia-maranhao",
+            "cg-ghm-06"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-06-EXP-FC003",
+          "frente": "A independência aboliu a escravidão?",
+          "verso": "Não.",
+          "tipo": "conceito",
+          "tags": [
+            "historia-maranhao",
+            "cg-ghm-06"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-06-EXP-FC004",
+          "frente": "Em que período ocorreu a Balaiada?",
+          "verso": "Regencial, 1838–1841, com desdobramentos posteriores.",
+          "tipo": "conceito",
+          "tags": [
+            "historia-maranhao",
+            "cg-ghm-06"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-06-EXP-FC005",
+          "frente": "Quais facções disputavam a política provincial?",
+          "verso": "Bem-te-vis (liberais) e cabanos (conservadores).",
+          "tipo": "conceito",
+          "tags": [
+            "historia-maranhao",
+            "cg-ghm-06"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-06-EXP-FC006",
+          "frente": "Qual medida de 1838 agravou disputas locais?",
+          "verso": "Lei dos Prefeitos.",
+          "tipo": "conceito",
+          "tags": [
+            "historia-maranhao",
+            "cg-ghm-06"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-06-EXP-FC007",
+          "frente": "Quem era Raimundo Gomes?",
+          "verso": "Vaqueiro e liderança popular da Balaiada.",
+          "tipo": "conceito",
+          "tags": [
+            "historia-maranhao",
+            "cg-ghm-06"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-06-EXP-FC008",
+          "frente": "Quem era Manuel Francisco dos Anjos Ferreira?",
+          "verso": "Artesão conhecido como Balaio.",
+          "tipo": "conceito",
+          "tags": [
+            "historia-maranhao",
+            "cg-ghm-06"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-06-EXP-FC009",
+          "frente": "Qual dimensão destaca a atuação de Negro Cosme?",
+          "verso": "Resistência negra e luta pela liberdade.",
+          "tipo": "conceito",
+          "tags": [
+            "historia-maranhao",
+            "cg-ghm-06"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-06-EXP-FC010",
+          "frente": "Qual cidade foi ocupada por rebeldes em 1839?",
+          "verso": "Caxias.",
+          "tipo": "conceito",
+          "tags": [
+            "historia-maranhao",
+            "cg-ghm-06"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-06-EXP-FC011",
+          "frente": "Quem comandou a repressão imperial?",
+          "verso": "Luís Alves de Lima e Silva, futuro Duque de Caxias.",
+          "tipo": "conceito",
+          "tags": [
+            "historia-maranhao",
+            "cg-ghm-06"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-06-EXP-FC012",
+          "frente": "O que distingue 1850 de 1888?",
+          "verso": "Proibição do tráfico atlântico versus abolição legal da escravidão.",
+          "tipo": "conceito",
+          "tags": [
+            "historia-maranhao",
+            "cg-ghm-06"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-06-EXP-FC013",
+          "frente": "Qual período da Primeira República?",
+          "verso": "1889–1930.",
+          "tipo": "conceito",
+          "tags": [
+            "historia-maranhao",
+            "cg-ghm-06"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-06-EXP-FC014",
+          "frente": "O que é coronelismo?",
+          "verso": "Relação política entre chefias locais, redes de dependência e poderes públicos.",
+          "tipo": "conceito",
+          "tags": [
+            "historia-maranhao",
+            "cg-ghm-06"
+          ]
         }
       ],
-      "teoria_md": "---\ntopico_id: CG-GHM-06\nslug: independencia-balaiada-primeira-republica\ntitulo: \"Independência, Balaiada (1838–1841) e Primeira República no Maranhão\"\nedital: SEDUC-MA-01-2026\nbanca: FCC\nstatus: em_auditoria\n---\n\n# 1. Delimitação no Edital (Camada A)\n- **Itens explícitos (p. 60):** *Independência e formação da província. Balaiada: contexto, causas, principais personagens, desenvolvimento e consequências. Maranhão na Primeira República.*\n\n# 2. Adesão Tardia do Maranhão à Independência (1823)\nEmbora D. Pedro I tenha proclamado a Independência em 7 de setembro de 1822, a elite mercantil e política de **São Luís** mantinha laços econômicos, familiares e administrativos muito mais fortes com **Lisboa** do que com o Rio de Janeiro (herança do antigo Estado do Maranhão).\n- **Conflito no interior:** vilas do interior (como Caxias, Itapecuru e o eixo do Piauí após a Batalha do Jenipapo) aderiram ao projeto imperial brasileiro antes da capital.\n- **28 de julho de 1823:** após cerco militar no interior (Caxias) e bloqueio naval em São Luís pela esquadra comandada pelo almirante **Lord Thomas Cochrane** a serviço do Império, a Junta Governativa de São Luís assinou a **Adesão do Maranhão à Independência** (data celebrada como feriado estadual).\n\n# 3. A Balaiada (1838–1841) — A Maior Revolta Popular do Maranhão\nOcorrida no **Período Regencial**, a Balaiada articulou disputas políticas entre elites locais (Liberais/**Bem-te-vis** × Conservadores/**Cabanos**) e uma profunda rebelião social de sertanejos, vaqueiros, lavradores pobres e escravizados fugidos.\n- **Causas estruturais e estopim:**\n  - Crise econômica do algodão maranhense (concorrência dos EUA) e miséria da população livre pobre.\n  - Disputa violenta pelo poder provincial: a **Lei dos Prefeitos (1838)** deu aos conservadores o controle policial e o recrutamento militar forçado contra adversários.\n  - **Estopim (dezembro de 1838, Vila da Manga):** o vaqueiro **Raimundo Gomes** (Cara Preta) invadiu a cadeia pública para libertar seu irmão preso arbitrariamente pelo subprefeito local.\n- **Principais lideranças:**\n  - **Raimundo Gomes:** vaqueiro, liderança inicial do movimento sertanejo.\n  - **Manuel Francisco dos Anjos Ferreira (o \"Balaio\"):** artesão fabricante de cestos (balaios), que deu nome à revolta após sua família sofrer violências de tropas oficiais.\n  - **Cosme Bento das Chagas (o \"Negro Cosme\"):** líder de quilombolas e cerca de 3 mil escravizados insurgentes (autointitulado *\"Tutor e Imperador da Liberdade\"*), defendendo a abolição.\n- **Desenvolvimento e Repressão:** os rebeldes chegaram a tomar a importante cidade de **Caxias (1839)**. Diante da radicalização popular e escrava, o governo regencial enviou **Luís Alves de Lima e Silva** (futuro **Duque de Caxias**), que combinou anistia seletiva aos bem-te-vis/livres com repressão implacável aos negros quilombolas até 1841 (Cosme Bento das Chagas foi capturado e enforcado em 1842).\n\n# 4. Crise Escravista, Abolição e Maranhão na Primeira República (1889–1930)\n- **Século XIX tardio:** com a decadência da lavoura algodoeira tradicional e a Lei Eusébio de Queirós (1850), o Maranhão enfrentou estagnação rural, mas manteve forte efervescência intelectual em São Luís (**\"Atenas Brasileira\"** — Gonçalves Dias, Sousândrade, Aluísio Azevedo, Coelho Neto, Maria Firmina dos Reis).\n- **1888–1889:** a abolição da escravatura (1888) acelerou a crise da antiga aristocracia rural. A Proclamação da República (1889) gerou tensões iniciais em São Luís (como o episódio do **17 de Novembro**, repressão a libertos que temiam o retorno da escravidão).\n- **Primeira República (1889–1930):** marcada pelo **coronelismo**, voto de cabresto e domínio de oligarquias estaduais (como o grupo de **Benedito Leite** e, depois, Urbano Santos), alternando tentativas de industrialização têxtil em São Luís e Caxias com forte dependência agrária e extrativista (babaçu).\n"
+      "teoria_md": "# 1. Independência como processo regional\n\nO marco de 7 de setembro de 1822 não encerrou imediatamente os vínculos políticos de todas as províncias com Portugal. O Maranhão mantinha relações comerciais e administrativas importantes com Lisboa, construídas durante a colonização. O Arquivo Nacional documenta divergências entre grupos locais, pressões econômicas e mobilizações de partidários do novo Império. Não se deve atribuir uma posição política única a toda a população maranhense.\n\nA adesão ganhou força em 1823 em meio a conflitos no interior e pressão das forças independentistas provenientes de áreas vizinhas. A atuação de Thomas Cochrane na costa integra esse contexto. Em 28 de julho de 1823, a Câmara Geral reunida em São Luís oficializou a adesão ao Império brasileiro. O Arquivo Público do Maranhão preserva documentação que permite examinar o processo para além de narrativas comemorativas.\n\nA independência política preservou a escravidão e desigualdades de acesso à terra e participação pública. O Estado imperial organizou províncias e instituições, mas a nova ordem não garantiu cidadania igual a todos. As tensões do período ajudam a compreender conflitos posteriores.\n\n# 2. Regências e contexto da Balaiada\n\nA Balaiada (1838–1841) ocorreu durante o período regencial e atingiu o Maranhão e áreas vizinhas. As disputas entre grupos liberais, conhecidos como bem-te-vis, e conservadores, chamados cabanos, combinaram-se com conflitos sociais. A expressão cabanos nesse contexto não deve ser confundida automaticamente com os participantes da Cabanagem no Pará.\n\nA Lei dos Prefeitos de 1838 é referência para compreender a disputa pelo controle de autoridades locais. Recrutamento coercitivo, desigualdades fundiárias, dificuldades econômicas e escravidão faziam parte das tensões que atingiam diferentes segmentos da população. A revolta não pode ser reduzida à divergência partidária entre elites.\n\nA economia algodoeira enfrentava mudanças na concorrência e nos mercados internacionais. Seus efeitos variaram segundo grupos e áreas. Em uma sociedade escravista, a insatisfação de trabalhadores livres pobres não era necessariamente idêntica à luta pela liberdade de pessoas escravizadas. A participação de grupos diversos produziu objetivos e alianças heterogêneos.\n\n# 3. Lideranças, dimensão social e consequências\n\nRaimundo Gomes, vaqueiro, Manuel Francisco dos Anjos Ferreira, artesão conhecido como Balaio, e Cosme Bento das Chagas, Negro Cosme, figuram entre as principais lideranças populares. A atuação de Cosme e de comunidades de fugitivos evidencia a dimensão antiescravista da revolta. O movimento não possuía um programa único compartilhado por todos os participantes.\n\nCaxias, importante centro urbano e comercial, foi um dos espaços centrais da Balaiada, ocupado por rebeldes em 1839. O governo imperial enviou Luís Alves de Lima e Silva, futuro Duque de Caxias, para comandar a repressão. Anistias seletivas e repressão contribuíram para a derrota do movimento. A historiografia destaca o tratamento desigual de participantes livres e escravizados. Negro Cosme foi executado em 1842, após o encerramento da revolta.\n\nA memória da Balaiada permite discutir as diferenças entre a narrativa de pacificação estatal e a experiência de grupos populares. O Memorial da Balaiada em Caxias constitui referência para o estudo da memória regional. Não confunda derrota militar com solução das desigualdades que contribuíram para o conflito.\n\n# 4. Escravidão, abolição e reorganização econômica\n\nA sociedade maranhense do século XIX era marcada pela escravidão e por circuitos exportadores. A proibição do tráfico atlântico em 1850 não aboliu a escravidão interna. Leis graduais e mobilizações abolicionistas antecederam a Lei Áurea de 1888. Pessoas negras livres e escravizadas participaram da luta contra o sistema, não foram apenas beneficiárias de decisões da elite.\n\nO fim legal da escravidão não veio acompanhado de ampla redistribuição de terra ou garantia universal de trabalho, moradia e educação. A exclusão persistiu sob novas formas. Ao mesmo tempo, o estado experimentou iniciativas industriais, especialmente no setor têxtil, e reorganização de atividades agrícolas, mercantis e extrativistas. Não trate o período como simples desaparecimento de toda atividade produtiva.\n\nA produção literária maranhense, incluindo autores como Gonçalves Dias e Maria Firmina dos Reis, revela debates sobre identidade nacional, escravidão e sociedade. A expressão Atenas Brasileira é uma construção de memória cultural; não significa acesso igualitário à educação ou ausência de desigualdade.\n\n# 5. Primeira República e poder local\n\nA República foi proclamada em 1889. A Primeira República (1889–1930) foi marcada por federalismo, poder de elites estaduais e mecanismos de controle eleitoral. O coronelismo deve ser compreendido como relação entre chefias locais, autoridades estaduais e estrutura política nacional, e não apenas como personalidade autoritária de um indivíduo.\n\nVoto aberto, dependência econômica e redes de favores favoreceram práticas de coerção e controle político. O acesso ao voto era limitado, inclusive pela exclusão de analfabetos e mulheres. Grupos associados a Benedito Leite e Urbano Santos são referências da política maranhense do período. A influência oligárquica coexistiu com disputas e oposição.\n\nA indústria têxtil de São Luís e Caxias, o comércio, atividades rurais e o extrativismo de babaçu integraram a economia republicana. Modernização econômica e permanência de desigualdades não são excludentes. A centralização política que se seguiu a 1930 alterou relações entre governo federal e elites estaduais, tema da unidade seguinte.\n\n![Comparação didática entre Independência, Regência e Primeira República.](./media/historia-maranhao/periodos.svg)\n\n# 6. Síntese comparativa e aplicação\n\n| Processo | Problema central |\n|---|---|\n| Adesão de 1823 | Formação da soberania imperial e disputa entre projetos políticos |\n| Balaiada | Conflitos regenciais, sociais e escravistas |\n| Abolição | Fim legal da escravidão sem igualdade material automática |\n| Primeira República | Relações entre federalismo, elites, controle eleitoral e economia |\n\nRecupere sem consultar: por que o Maranhão aderiu em 1823? Quem foram as três lideranças populares da Balaiada? Em que sentido a participação de Negro Cosme amplia a interpretação do conflito? Por que abolição e cidadania plena não são sinônimos? Como distinguir coronelismo de simples chefia local? Use contexto e relações causais em vez de decorar somente personagens."
     },
     {
       "schema_version": "2.0.0",
@@ -17398,7 +18105,7 @@
       "titulo": "Maranhão no Século XX: Era Vargas, Vitorinismo, Grandes Projetos e Redemocratização",
       "status": "em_auditoria",
       "origem": "edital_explicito",
-      "tempo_leitura_min": 30,
+      "tempo_leitura_min": 25,
       "edital_subtopicos": [
         "Transformações econômicas, políticas e sociais no século XX",
         "Industrialização, urbanização, grandes projetos, mineração e infraestrutura",
@@ -17420,56 +18127,94 @@
           "referencia_abnt": "COELHO, Maria Célia Nunes (org.). Estado e Políticas Públicas na Amazônia: Gestão do Desenvolvimento Regional (Programa Grande Carajás). Belém: UFPA, 2001.",
           "tipo": "bibliografia_academica",
           "nivel_autoridade": 5
+        },
+        {
+          "referencia_abnt": "UEMA. Oligarquia Vitorinista (1945–1965): entre presença e ausência no ensino de História do Maranhão.",
+          "url": "https://repositorio.uema.br/handle/123456789/5086",
+          "tipo": "bibliografia_academica",
+          "nivel_autoridade": 5
+        },
+        {
+          "referencia_abnt": "UEMA. Memória coletiva da cidade rebelde: a greve de 51 na memória dos citadinos.",
+          "url": "https://repositorio.uema.br/handle/123456789/3106",
+          "tipo": "bibliografia_academica",
+          "nivel_autoridade": 5
+        },
+        {
+          "referencia_abnt": "Senado Federal. Decreto-lei 1.813, de 24 de novembro de 1980, Programa Grande Carajás.",
+          "url": "https://legis.senado.gov.br/norma/526236/publicacao/34620572",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
+        },
+        {
+          "referencia_abnt": "AGU. Caso Comunidades Quilombolas de Alcântara vs. Brasil.",
+          "url": "https://www.gov.br/agu/pt-br/composicao/procuradoria-geral-da-uniao-1/caso-comunidades-quilombolas-de-alcantara-vs-brasil",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
         }
       ],
       "sintese_fcc": {
         "conceitos_nucleares": [
           {
-            "termo": "Vitorinismo (1945–1965)",
-            "definicao_precisa": "Sistema político hegemônico liderado por Vitorino Freire no pós-1945, baseado no PSD e no controle eleitoral rural, superado em 1965 por José Sarney.",
-            "fonte": "MEIRELES, 2001."
+            "termo": "Vitorinismo",
+            "definicao_precisa": "Hegemonia política de 1945–1965.",
+            "fonte": "UEMA."
           },
           {
-            "termo": "Programa Grande Carajás e EFC (anos 1980)",
-            "definicao_precisa": "Megaprojeto mineral-logístico que ligou Carajás (PA) a São Luís (Ponta da Madeira), impulsionando guseiras (Açailândia), Alumar e pressão socioambiental.",
-            "fonte": "COELHO, 2001."
+            "termo": "Greve de 1951",
+            "definicao_precisa": "Mobilização e contestação eleitoral.",
+            "fonte": "UEMA."
           },
           {
-            "termo": "Rodovia Belém–Brasília (BR-010)",
-            "definicao_precisa": "Eixo rodoviário dos anos 1950 que integrou o oeste maranhense, impulsionando o crescimento rápido de Imperatriz e frentes migratórias.",
-            "fonte": "MEIRELES, 2001."
+            "termo": "Grande Carajás",
+            "definicao_precisa": "Incentivos instituídos em 1980; integração mineral e logística.",
+            "fonte": "Senado."
+          },
+          {
+            "termo": "Alcântara",
+            "definicao_precisa": "Direitos territoriais quilombolas e sentença internacional de 2024.",
+            "fonte": "AGU."
           }
         ],
         "pegadinhas_fcc": [
           {
-            "armadilha": "Confundir a origem do minério de ferro da EFC",
-            "como_a_fcc_cobra": "Afirma que a Estrada de Ferro Carajás extrai o minério de ferro de São Luís para levá-lo até o Pará.",
-            "como_desarmar": "O sentido é inverso: a extração ocorre na Serra dos Carajás (Pará) e a ferrovia escoa o minério até os portos em São Luís (MA)."
+            "armadilha": "1965 × 1985",
+            "como_a_fcc_cobra": "Distrator autoral: Eleição de 1965 redemocratizou o país.",
+            "como_desarmar": "O regime militar permanecia."
           },
           {
-            "armadilha": "Dissociar os Grandes Projetos dos conflitos fundiários e ambientais",
-            "como_a_fcc_cobra": "Apresenta os megaprojetos da década de 1980 (Carajás, Alumar, CLA) como isentos de impactos sociais.",
-            "como_desarmar": "Geraram crescimento exportador de enclave, mas também grilagem, desmatamento (carvão para guseiras) e conflitos com indígenas e quilombolas (ex.: Alcântara)."
+            "armadilha": "Extração × embarque",
+            "como_a_fcc_cobra": "Distrator autoral: Minério de Carajás é extraído em São Luís.",
+            "como_desarmar": "Origem no Pará, embarque no MA."
+          },
+          {
+            "armadilha": "Direito × execução",
+            "como_a_fcc_cobra": "Distrator autoral: Sentença prova implementação integral.",
+            "como_desarmar": "Acompanhar medidas concretas."
           }
         ],
         "quadro_comparativo": [
           {
-            "decada": "1945–1965",
-            "marco_politico_economico": "Vitorinismo e Greve de 1951; abertura da BR-010 (Belém–Brasília)"
+            "marco": "1930",
+            "significado": "Centralização"
           },
           {
-            "decada": "1965–1985",
-            "marco_politico_economico": "'Maranhão Novo' (José Sarney) e implantação dos Grandes Projetos (PGC, EFC, Alumar, CLA)"
+            "marco": "1945–1965",
+            "significado": "Vitorinismo"
           },
           {
-            "decada": "Pós-1985",
-            "marco_politico_economico": "Redemocratização, CF/1988, movimentos tradicionais (quilombolas/MIQCB) e MATOPIBA"
+            "marco": "1980",
+            "significado": "Grande Carajás"
+          },
+          {
+            "marco": "1988",
+            "significado": "Constituição"
           }
         ],
         "checklist_revisao": [
-          "Sei explicar a transição política do Vitorinismo (1945–1965) para o grupo Sarney (1965)?",
-          "Sei os impactos da BR-010 (Imperatriz), do Programa Grande Carajás (EFC/Açailândia) e da Alumar (São Luís)?",
-          "Sei relacionar o Centro de Lançamento de Alcântara aos conflitos fundiários quilombolas?"
+          "Distingo Era Vargas e Estado Novo?",
+          "Relaciono projetos e transformações territoriais?",
+          "Explico direitos e implementação?"
         ]
       },
       "questoes": [
@@ -17587,13 +18332,197 @@
           },
           "dificuldade": "basica",
           "subtopico": "Maranhão contemporâneo e processo de redemocratização"
+        },
+        {
+          "questao_id": "CG-GHM-07-EXP-Q001",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "A nomeação de interventores federais após 1930 relaciona-se",
+          "alternativas": {
+            "A": "ao retorno imediato da ordem de 1889.",
+            "B": "à autonomia absoluta das elites estaduais.",
+            "C": "à centralização política da Era Vargas.",
+            "D": "à redemocratização de 1985.",
+            "E": "à criação da França Equinocial."
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "Interventorias integraram a reorganização das relações federais.",
+          "analise_distratores": {
+            "A": "A ordem anterior foi interrompida.",
+            "B": "A centralização restringiu autonomia.",
+            "D": "É outro período.",
+            "E": "É século XVII."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Transformações econômicas, políticas e sociais no século XX"
+        },
+        {
+          "questao_id": "CG-GHM-07-EXP-Q002",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "A Greve de 1951 em São Luís, no contexto do vitorinismo, evidencia",
+          "alternativas": {
+            "A": "ausência de participação popular.",
+            "B": "mobilização social associada à contestação eleitoral e política.",
+            "C": "abolição do trabalho escravizado.",
+            "D": "fundação colonial de São Luís.",
+            "E": "extinção de todos os grupos de oposição."
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "O movimento envolveu setores urbanos e oposição à hegemonia vigente.",
+          "analise_distratores": {
+            "A": "Houve mobilização.",
+            "C": "A abolição foi em 1888.",
+            "D": "É século XVII.",
+            "E": "A oposição se mobilizou."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Transformações econômicas, políticas e sociais no século XX"
+        },
+        {
+          "questao_id": "CG-GHM-07-EXP-Q003",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "A vitória de José Sarney em 1965 deve ser diferenciada da redemocratização de 1985 porque",
+          "alternativas": {
+            "A": "ambas foram eventos coloniais.",
+            "B": "1965 antecedeu o Estado Novo.",
+            "C": "1965 eliminou imediatamente o regime militar.",
+            "D": "a alternância estadual ocorreu sob o regime militar, enquanto 1985 marca a transição nacional.",
+            "E": "1985 corresponde à criação do vitorinismo."
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "Alternância estadual não implica mudança de regime nacional.",
+          "analise_distratores": {
+            "A": "São século XX.",
+            "B": "O Estado Novo terminou em 1945.",
+            "C": "O regime prosseguiu.",
+            "E": "Vitorinismo é anterior."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Transformações econômicas, políticas e sociais no século XX"
+        },
+        {
+          "questao_id": "CG-GHM-07-EXP-Q004",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "A implantação da BR-010 e a transformação de Imperatriz mostram",
+          "alternativas": {
+            "A": "articulação entre infraestrutura, migrações e centralidade regional.",
+            "B": "ausência de circulação interestadual.",
+            "C": "transferência da capital estadual.",
+            "D": "crescimento explicado exclusivamente por um fator natural.",
+            "E": "desaparecimento de todos os conflitos pela terra."
+          },
+          "gabarito": "A",
+          "justificativa_gabarito": "A rodovia reorganizou fluxos e centralidades.",
+          "analise_distratores": {
+            "B": "Integração é característica.",
+            "C": "São Luís permaneceu capital.",
+            "D": "Há fatores sociais e econômicos.",
+            "E": "Conflitos persistiram."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Industrialização, urbanização, grandes projetos, mineração e infraestrutura"
+        },
+        {
+          "questao_id": "CG-GHM-07-EXP-Q005",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "O decreto-lei de 1980 que instituiu incentivos ao Programa Grande Carajás vinculou-se",
+          "alternativas": {
+            "A": "à instalação da França Equinocial.",
+            "B": "à extinção do transporte ferroviário.",
+            "C": "à abolição da escravidão.",
+            "D": "à criação de um único município industrial.",
+            "E": "a uma estratégia de integração de projetos minerais, logísticos e econômicos em território amplo."
+          },
+          "gabarito": "E",
+          "justificativa_gabarito": "O programa envolveu coordenação e incentivos a diferentes projetos.",
+          "analise_distratores": {
+            "A": "É outro período.",
+            "B": "Ferrovias eram centrais.",
+            "C": "A abolição foi anterior.",
+            "D": "A área abrangia vários municípios."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Industrialização, urbanização, grandes projetos, mineração e infraestrutura"
+        },
+        {
+          "questao_id": "CG-GHM-07-EXP-Q006",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "O embarque em Ponta da Madeira de minério proveniente de Carajás exemplifica",
+          "alternativas": {
+            "A": "extração de todo o minério em São Luís.",
+            "B": "separação espacial entre áreas de extração e infraestrutura exportadora.",
+            "C": "identidade entre Itaqui e Ponta da Madeira.",
+            "D": "ausência de articulação ferroviária.",
+            "E": "produção exclusiva de bens de consumo."
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "O corredor conecta a extração no Pará ao embarque no Maranhão.",
+          "analise_distratores": {
+            "A": "A origem é paraense.",
+            "C": "São instalações distintas.",
+            "D": "A EFC é central.",
+            "E": "Minério é commodity."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Industrialização, urbanização, grandes projetos, mineração e infraestrutura"
+        },
+        {
+          "questao_id": "CG-GHM-07-EXP-Q007",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "O reconhecimento constitucional dos direitos territoriais quilombolas em 1988",
+          "alternativas": {
+            "A": "eliminou imediatamente toda disputa fundiária.",
+            "B": "dispensou políticas de implementação.",
+            "C": "estabeleceu garantia jurídica cuja efetivação exige medidas concretas.",
+            "D": "proibiu a organização de movimentos sociais.",
+            "E": "revogou toda participação comunitária."
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "Direito reconhecido e efetivado são dimensões distintas.",
+          "analise_distratores": {
+            "A": "Conflitos persistem.",
+            "B": "A execução é necessária.",
+            "D": "Movimentos reivindicam direitos.",
+            "E": "Participação é relevante."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Maranhão contemporâneo e processo de redemocratização"
+        },
+        {
+          "questao_id": "CG-GHM-07-EXP-Q008",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "A sentença de 2024 no caso Comunidades Quilombolas de Alcântara vs. Brasil constitui",
+          "alternativas": {
+            "A": "prova de que todos os direitos foram integralmente efetivados.",
+            "B": "mera previsão econômica.",
+            "C": "decisão da UNESCO sobre patrimônio.",
+            "D": "decisão da Corte Interamericana sobre violações de direitos, distinta da execução das medidas.",
+            "E": "ato de criação do Programa Grande Carajás."
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "A sentença estabelece responsabilidade e medidas, cuja implementação precisa ser acompanhada.",
+          "analise_distratores": {
+            "A": "Decisão não prova execução.",
+            "B": "Não é indicador econômico.",
+            "C": "É decisão judicial.",
+            "E": "O programa é de 1980."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Maranhão contemporâneo e processo de redemocratização"
         }
       ],
       "flashcards": [
         {
           "card_id": "CG-GHM-07-FC001",
           "frente": "O que foi o 'Vitorinismo' (1945–1965) e quem o derrotou em 1965?",
-          "verso": "Hegemonia política de Vitorino Freire no pós-1945 (PSD/coronelismo), encerrada em 1965 com a eleição de José Sarney ('Maranhão Novo').",
+          "verso": "Hegemonia política associada a Vitorino Freire, sobretudo entre 1945 e 1965; José Sarney venceu a eleição de 1965, sob o regime militar.",
           "tipo": "conceito",
           "tags": [
             "politica-ma",
@@ -17649,9 +18578,149 @@
             "movimentos-sociais",
             "1951"
           ]
+        },
+        {
+          "card_id": "CG-GHM-07-EXP-FC001",
+          "frente": "Qual período da Era Vargas inicial?",
+          "verso": "1930–1945.",
+          "tipo": "conceito",
+          "tags": [
+            "historia-maranhao",
+            "cg-ghm-07"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-07-EXP-FC002",
+          "frente": "Qual período do Estado Novo?",
+          "verso": "1937–1945.",
+          "tipo": "conceito",
+          "tags": [
+            "historia-maranhao",
+            "cg-ghm-07"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-07-EXP-FC003",
+          "frente": "O que eram interventorias federais?",
+          "verso": "Mecanismo de centralização do controle político estadual.",
+          "tipo": "conceito",
+          "tags": [
+            "historia-maranhao",
+            "cg-ghm-07"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-07-EXP-FC004",
+          "frente": "Qual período de referência do vitorinismo?",
+          "verso": "1945–1965.",
+          "tipo": "conceito",
+          "tags": [
+            "historia-maranhao",
+            "cg-ghm-07"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-07-EXP-FC005",
+          "frente": "Qual o contexto da Greve de 1951?",
+          "verso": "Contestação eleitoral e mobilização popular em São Luís.",
+          "tipo": "conceito",
+          "tags": [
+            "historia-maranhao",
+            "cg-ghm-07"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-07-EXP-FC006",
+          "frente": "Quem venceu a eleição estadual de 1965?",
+          "verso": "José Sarney, em oposição ao vitorinismo.",
+          "tipo": "conceito",
+          "tags": [
+            "historia-maranhao",
+            "cg-ghm-07"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-07-EXP-FC007",
+          "frente": "1965 representou redemocratização nacional?",
+          "verso": "Não. O regime militar estava em vigor.",
+          "tipo": "conceito",
+          "tags": [
+            "historia-maranhao",
+            "cg-ghm-07"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-07-EXP-FC008",
+          "frente": "Qual rodovia reforçou a centralidade de Imperatriz?",
+          "verso": "BR-010, Belém–Brasília.",
+          "tipo": "conceito",
+          "tags": [
+            "historia-maranhao",
+            "cg-ghm-07"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-07-EXP-FC009",
+          "frente": "Qual ano do decreto-lei de incentivos ao Programa Grande Carajás?",
+          "verso": "1980.",
+          "tipo": "conceito",
+          "tags": [
+            "historia-maranhao",
+            "cg-ghm-07"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-07-EXP-FC010",
+          "frente": "Qual ano de inauguração da EFC?",
+          "verso": "1985.",
+          "tipo": "conceito",
+          "tags": [
+            "historia-maranhao",
+            "cg-ghm-07"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-07-EXP-FC011",
+          "frente": "Qual complexo industrial se destaca em São Luís nos anos 1980?",
+          "verso": "Alumar, relacionado à alumina e ao alumínio.",
+          "tipo": "conceito",
+          "tags": [
+            "historia-maranhao",
+            "cg-ghm-07"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-07-EXP-FC012",
+          "frente": "O que reconhece o art. 68 do ADCT?",
+          "verso": "Propriedade definitiva das terras ocupadas por remanescentes das comunidades dos quilombos, nos termos constitucionais.",
+          "tipo": "conceito",
+          "tags": [
+            "historia-maranhao",
+            "cg-ghm-07"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-07-EXP-FC013",
+          "frente": "Quando foram promulgadas as constituições federal e estadual maranhense?",
+          "verso": "1988 e 1989, respectivamente.",
+          "tipo": "conceito",
+          "tags": [
+            "historia-maranhao",
+            "cg-ghm-07"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-07-EXP-FC014",
+          "frente": "Qual marco judicial internacional de Alcântara ocorreu em 2024?",
+          "verso": "Sentença da Corte Interamericana de Direitos Humanos em 21 de novembro.",
+          "tipo": "conceito",
+          "tags": [
+            "historia-maranhao",
+            "cg-ghm-07"
+          ]
         }
       ],
-      "teoria_md": "---\ntopico_id: CG-GHM-07\nslug: maranhao-seculo-xx-contemporaneo\ntitulo: \"Maranhão no Século XX: Era Vargas, Vitorinismo, Grandes Projetos e Redemocratização\"\nedital: SEDUC-MA-01-2026\nbanca: FCC\nstatus: em_auditoria\n---\n\n# 1. Delimitação no Edital (Camada A)\n- **Itens explícitos (p. 61):** *Transformações econômicas, políticas e sociais no século XX. Industrialização, urbanização, grandes projetos, mineração e infraestrutura. Maranhão contemporâneo e processo de redemocratização.*\n\n# 2. Política Maranhense: Da Era Vargas ao Vitorinismo e ao Sarneyísmo\n- **Revolução de 1930 e Era Vargas (1930–1945):** fim da hegemonia da Primeira República com nomeação de interventores federais (como Martins de Almeida e Paulo Ramos), centralização administrativa e estímulo inicial à integração econômica nacional.\n- **Vitorinismo (1945–1965):** após a redemocratização de 1945, **Vitorino Freire** consolidou uma máquina política estadual hegemônica (PSD), marcada pelo clientelismo rural e forte controle eleitoral até ser derrotado em 1965.\n- **Eleição de 1965 e Era Sarney (pós-1966):** **José Sarney** venceu a eleição para governador em 1965 com discurso modernizador (\"Maranhão Novo\") em oposição ao vitorinismo, inaugurando novo ciclo político que dominou a cena estadual por décadas, inclusive após a redemocratização de 1985 (quando Sarney assumiu a Presidência da República).\n- **Movimentos Sociais e Greve de 1951:** em 1951, a posse questionada de Eugênio Barros desencadeou a histórica **Greve de 1951** em São Luís (forte mobilização popular e repressão). Nos anos 1950–1980, avançaram também as lutas camponesas pela terra frente à grilagem (como os conflitos no Vale do Pindaré, Mearim e Tocantins).\n\n# 3. Abertura de Fronteiras e Grandes Projetos (Décadas de 1950–1980)\nA partir da segunda metade do século XX, o Maranhão passou por rápida **urbanização e integração rodoviário-ferroviária**:\n1. **Rodovia Belém–Brasília (BR-010, final dos anos 1950):** rompeu o isolamento do oeste/sudoeste maranhense, transformando **Imperatriz** em metrópole regional e atraindo intensos fluxos migratórios do Ceará, Piauí e do próprio interior maranhense para a frente agrícola da pré-Amazônia.\n2. **Programa Grande Carajás (PGC) e Estrada de Ferro Carajás (década de 1980):** implantação do corredor mineral **Carajás (PA) → São Luís (MA)** (892 km de ferrovia inaugurada em 1985) e do **Terminal Marítimo de Ponta da Madeira** (Vale), articulados ao **Porto do Itaqui**. Ao longo da ferrovia surgiram polos siderúrgicos de ferro-gusa (como **Açailândia**), com forte impacto ambiental sobre a cobertura florestal (uso de carvão vegetal nas guseiras) e sobre povos indígenas/comunidades rurais.\n3. **Consórcio Alumar (1984, São Luís):** grande complexo industrial produtor de alumina e alumínio, que redesenhou o Distrito Industrial de São Luís e demandou energia elétrica de Tucuruí.\n4. **Centro de Lançamento de Alcântara — CLA (anos 1980):** base espacial instalada em Alcântara (posição próxima ao Equador), gerando historicamente disputas fundiárias com comunidades **quilombolas** locais.\n\n# 4. Maranhão Contemporâneo e Redemocratização (Pós-1985)\n- **Redemocratização (Constituição de 1988 e Constituição Estadual de 1989):** ampliação da participação social, fortalecimento de sindicatos rurais, do movimento quilombola (reconhecimento constitucional do Art. 68 do ADCT) e do movimento das **quebradeiras de coco babaçu (MIQCB)**.\n- **Dinâmica econômica recente (século XXI):** consolidação do **MATOPIBA** no sul (Balsas), implantação da **Ferrovia Norte-Sul** e do polo de **celulose em Imperatriz**, exploração de gás natural na Bacia do Parnaíba e alternância política estadual a partir de 2015, mantendo como desafio central a redução das desigualdades regionais e sociais frente ao crescimento das exportações de commodities.\n"
+      "teoria_md": "# 1. Centralização política após 1930\n\nA Revolução de 1930 interrompeu a ordem política da Primeira República. Durante a Era Vargas (1930–1945), a centralização federal e a nomeação de interventores modificaram as relações entre governos estaduais e o poder central. Martins de Almeida e Paulo Ramos são referências do período no Maranhão. O Estado Novo, entre 1937 e 1945, representou fase ditatorial dessa trajetória; não confunda toda a Era Vargas com o Estado Novo.\n\nA reorganização administrativa e o avanço de políticas nacionais de integração econômica não eliminaram redes locais de influência. O estudo da política maranhense exige relacionar decisões federais, elites estaduais, organizações sociais e condições econômicas. Mudanças institucionais não significam necessariamente ruptura de todos os vínculos de poder anteriores.\n\n# 2. Vitorinismo e mobilização popular\n\nA bibliografia caracteriza o vitorinismo como hegemonia política associada a Vitorino Freire, especialmente no período de 1945 a 1965. Sua influência relacionava-se à articulação com a esfera federal, controle partidário, alianças locais e redes de dependência política. Clientelismo designa relações de troca de apoio e benefícios; coronelismo e oligarquia não são simplesmente palavras equivalentes.\n\nAs oposições coligadas reuniram atores heterogêneos contra essa hegemonia. A Greve de 1951, em São Luís, relacionou-se à contestação eleitoral e à posse de Eugênio Barros. Estudos da UEMA destacam a mobilização de diferentes setores urbanos. A participação popular não deve ser apagada por uma narrativa centrada apenas na disputa entre líderes políticos.\n\nJosé Sarney venceu a eleição estadual de 1965, em oposição ao vitorinismo, com discurso de modernização. O contexto era o regime militar instaurado em 1964; a alternância eleitoral não significou redemocratização nacional. O novo ciclo de alianças políticas ganhou influência duradoura. Analise essas trajetórias a partir de instituições e relações de poder, sem reduzir a história estadual a biografias individuais.\n\n# 3. Rodovias, migração e urbanização\n\nA abertura da Belém–Brasília, BR-010, na segunda metade do século XX reforçou a integração do oeste maranhense com outros estados. Imperatriz consolidou-se como centro de comércio, serviços e circulação regional, recebendo migrantes de diferentes origens. A rodovia foi importante, mas não constitui explicação exclusiva de seu crescimento.\n\nA expansão de frentes agrícolas e pecuárias alterou o acesso à terra. Conflitos fundiários, desmatamento, trabalho rural e formação de novos núcleos urbanos acompanharam essa integração em diferentes contextos. A melhoria de circulação para certos fluxos econômicos pôde coexistir com exclusão de comunidades e precariedade de serviços.\n\nUrbanização envolve aumento da proporção urbana, enquanto crescimento urbano envolve aumento de população urbana em termos absolutos. A construção de infraestrutura pode modificar ambos, mas exige evidências demográficas para demonstrar seus efeitos. A hierarquia atual de Imperatriz deve ser lida na REGIC correspondente, sem denominá-la metrópole oficial por mera importância regional.\n\n# 4. Programa Grande Carajás e industrialização\n\nO Decreto-lei 1.813, de 24 de novembro de 1980, instituiu incentivos para projetos do Programa Grande Carajás. Seu território de planejamento abrangia áreas do Pará, Goiás da época e Maranhão; Tocantins seria criado pela Constituição de 1988. A Estrada de Ferro Carajás, inaugurada em 1985, conectou a produção mineral paraense à área portuária de São Luís.\n\nO Terminal Marítimo de Ponta da Madeira é distinto do Porto do Itaqui. A instalação do complexo Alumar em São Luís, nos anos 1980, vinculou a região a cadeias industriais de alumina e alumínio. Açailândia tornou-se referência de siderurgia e logística. Esses empreendimentos associam produção, energia, transporte e exportação, mas não são uma única empresa ou um único projeto.\n\nO aumento da circulação de mercadorias não garante distribuição equitativa de renda. Alterações do uso da terra, demanda energética, impactos ambientais e conflitos territoriais precisam ser examinados com indicadores e recortes específicos. O local de extração mineral pode ser diferente do local de processamento e embarque.\n\n# 5. Alcântara, redemocratização e direitos\n\nA implantação do Centro de Lançamento de Alcântara na década de 1980 gerou deslocamentos e conflitos territoriais envolvendo comunidades quilombolas. A localização próxima ao Equador tem relevância para determinadas operações espaciais, mas a análise histórica também deve considerar direitos, modos de vida e participação das populações atingidas.\n\nA redemocratização nacional, a partir de 1985, e a Constituição Federal de 1988 ampliaram garantias institucionais. O art. 68 do ADCT reconhece a propriedade definitiva aos remanescentes das comunidades dos quilombos que ocupam suas terras. A Constituição estadual maranhense é de 1989. O reconhecimento jurídico não implica implementação automática e integral dos direitos.\n\nEm 21 de novembro de 2024, a Corte Interamericana de Direitos Humanos proferiu sentença no caso Comunidades Quilombolas de Alcântara vs. Brasil, relativa a violações associadas ao funcionamento do centro de lançamento. Conforme a AGU, o caso envolve direitos territoriais e outros direitos humanos. É necessário distinguir a decisão judicial, compromissos assumidos e efetiva execução das medidas.\n\n# 6. Maranhão contemporâneo: continuidade e transformação\n\nA expansão de cadeias agrícolas no sul, celulose em Imperatriz, gás natural na Bacia do Parnaíba e integração ferroviária na Norte-Sul diversificou a organização econômica. Movimentos de trabalhadores rurais, comunidades quilombolas e quebradeiras de coco babaçu reivindicam direitos e participação em decisões sobre os territórios. A alternância política estadual de 2015 constitui outro marco, mas não prova por si só superação das estruturas históricas de desigualdade.\n\n| Período | Referência |\n|---|---|\n| 1930–1945 | Centralização varguista e interventorias |\n| 1945–1965 | Vitorinismo e oposição |\n| 1951 | Greve e contestação eleitoral |\n| 1980–1985 | Programa Grande Carajás e EFC |\n| 1985–1989 | Redemocratização e novas constituições |\n\nRecuperação ativa: explique a Greve de 1951, diferencie alternância de 1965 e redemocratização de 1985, associe BR-010 e Imperatriz, compare origem mineral e porto de exportação e explique por que direitos constitucionais exigem implementação."
     },
     {
       "schema_version": "2.0.0",
@@ -17661,7 +18730,7 @@
       "titulo": "Cultura, Patrimônio Material/Imaterial, Literatura e Atualidades do Maranhão",
       "status": "em_auditoria",
       "origem": "edital_explicito",
-      "tempo_leitura_min": 30,
+      "tempo_leitura_min": 25,
       "edital_subtopicos": [
         "Bumba meu boi, Tambor de Crioula, Tambor de Mina, reggae e manifestações populares",
         "Literatura e personalidades maranhenses",
@@ -17686,60 +18755,115 @@
           "tipo": "edital",
           "nivel_autoridade": 1,
           "url": "https://www.concursosfcc.com.br"
+        },
+        {
+          "referencia_abnt": "Iphan. Complexo Cultural do Bumba meu boi do Maranhão.",
+          "url": "https://bcr.iphan.gov.br/bens-culturais/complexo-cultural-do-bumba-meu-boi-do-maranhao/",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
+        },
+        {
+          "referencia_abnt": "Iphan. Maranhão: patrimônio cultural.",
+          "url": "https://www.gov.br/iphan/pt-br/superintendencias/maranhao",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
+        },
+        {
+          "referencia_abnt": "Senado Notícias. São Luís é reconhecida como Capital Nacional do Reggae, 12 set. 2023.",
+          "url": "https://www12.senado.leg.br/noticias/noticias/materias/2023/09/12/sao-luis-e-reconhecida-como-capital-nacional-do-reggae",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
+        },
+        {
+          "referencia_abnt": "Fundação Biblioteca Nacional. A escrita de Maria Firmina dos Reis.",
+          "url": "https://www.gov.br/bn/pt-br/atuacao/pesquisa-e-editoracao/programa-nacional-de-apoio-a-pesquisa/pnap-2012/a-escrita-de-maria-firmina-dos-reis-solucoes-para-um-problema-existencial",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
+        },
+        {
+          "referencia_abnt": "UNESCO. Historic Centre of São Luís.",
+          "url": "https://whc.unesco.org/en/list/821/",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
+        },
+        {
+          "referencia_abnt": "UNESCO. Lençóis Maranhenses National Park.",
+          "url": "https://whc.unesco.org/en/list/1611/",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
         }
       ],
       "sintese_fcc": {
         "conceitos_nucleares": [
           {
-            "termo": "Títulos UNESCO no Maranhão",
-            "definicao_precisa": "Centro Histórico de São Luís (Cultural Mundial, 1997), Bumba Meu Boi (Cultural Imaterial, 2019) e Lençóis Maranhenses (Natural Mundial, 2024).",
-            "fonte": "UNESCO / IPHAN."
+            "termo": "Bumba meu boi",
+            "definicao_precisa": "Celebração registrada no Iphan em 2011 e reconhecida pela UNESCO em 2019.",
+            "fonte": "Iphan."
           },
           {
             "termo": "Tambor de Crioula",
-            "definicao_precisa": "Manifestação afro-brasileira de dança circular feminina, canto e percussão em louvor a São Benedito, registrada pelo IPHAN em 2007.",
-            "fonte": "IPHAN, 2007."
+            "definicao_precisa": "Forma de expressão registrada em 2007.",
+            "fonte": "Iphan."
           },
           {
-            "termo": "Maria Firmina dos Reis",
-            "definicao_precisa": "Escritora maranhense autora de 'Úrsula' (1859), considerada a primeira romancista negra e pioneira da literatura abolicionista no Brasil.",
-            "fonte": "História da Literatura Brasileira."
+            "termo": "Tambor de Mina",
+            "definicao_precisa": "Tradição religiosa afro-maranhense.",
+            "fonte": "Bibliografia cultural."
+          },
+          {
+            "termo": "Reggae",
+            "definicao_precisa": "Reconhecimento de São Luís como Capital Nacional em 2023.",
+            "fonte": "Senado."
+          },
+          {
+            "termo": "Patrimônio",
+            "definicao_precisa": "Centro Histórico 1997, Lençóis 2024; categorias distintas.",
+            "fonte": "UNESCO."
           }
         ],
         "pegadinhas_fcc": [
           {
-            "armadilha": "Confundir Tambor de Crioula com Tambor de Mina",
-            "como_a_fcc_cobra": "Troca a dança circular/punga em louvor a São Benedito pelo culto religioso afro-maranhense de voduns/orixás.",
-            "como_desarmar": "Tambor de Crioula = dança circular feminina + umbigada (punga) + São Benedito. Tambor de Mina = religião de matriz africana (Casa das Minas / Casa de Nagô)."
+            "armadilha": "Crioula × Mina",
+            "como_a_fcc_cobra": "Distrator autoral: São sinônimos.",
+            "como_desarmar": "Distinguir forma de expressão e tradição religiosa."
           },
           {
-            "armadilha": "Trocar os autores maranhenses e suas obras",
-            "como_a_fcc_cobra": "Atribui 'O Mulato' a Gonçalves Dias ou 'Úrsula' a Aluísio Azevedo.",
-            "como_desarmar": "Gonçalves Dias = Romantismo/Canção do Exílio; Maria Firmina = Úrsula (1859); Aluísio Azevedo = O Mulato (1881, Naturalismo); Ferreira Gullar = Poema Sujo."
+            "armadilha": "Registro × UNESCO",
+            "como_a_fcc_cobra": "Distrator autoral: Todos os títulos são internacionais.",
+            "como_desarmar": "Distinguir instituição e categoria."
+          },
+          {
+            "armadilha": "Atualidades",
+            "como_a_fcc_cobra": "Distrator autoral: Data da notícia é ano do dado.",
+            "como_desarmar": "Verificar período e metodologia."
           }
         ],
         "quadro_comparativo": [
           {
-            "manifestacao": "Bumba Meu Boi",
-            "marca": "Ciclo junino, sotaques (matraca, zabumba, orquestra...), UNESCO 2019"
+            "marco": "1997",
+            "significado": "Centro Histórico — UNESCO"
           },
           {
-            "manifestacao": "Tambor de Crioula",
-            "marca": "Dança circular feminina, punga (umbigada), São Benedito, IPHAN 2007"
+            "marco": "2007",
+            "significado": "Tambor de Crioula — Iphan"
           },
           {
-            "manifestacao": "Tambor de Mina",
-            "marca": "Religião afro-maranhense (Casa das Minas Jeje / Casa de Nagô)"
+            "marco": "2011/2019",
+            "significado": "Bumba meu boi — Iphan/UNESCO"
           },
           {
-            "manifestacao": "Reggae Maranhense",
-            "marca": "São Luís 'Jamaica Brasileira', radiolas e dança agarradinha"
+            "marco": "2023",
+            "significado": "Capital Nacional do Reggae"
+          },
+          {
+            "marco": "2024",
+            "significado": "Lençóis — UNESCO"
           }
         ],
         "checklist_revisao": [
-          "Sei os 3 títulos UNESCO do Maranhão (1997, 2019 e 2024) + registro do Tambor de Crioula (IPHAN 2007)?",
-          "Sei diferenciar Bumba Meu Boi, Tambor de Crioula, Tambor de Mina e o reggae das radiolas?",
-          "Sei associar Maria Firmina dos Reis, Gonçalves Dias, Aluísio Azevedo, Sousândrade e Ferreira Gullar às suas obras?"
+          "Distingo manifestações e reconhecimentos?",
+          "Associo autores e obras?",
+          "Sei conferir dados atuais e seus recortes?"
         ]
       },
       "questoes": [
@@ -17793,7 +18917,7 @@
           "questao_id": "CG-GHM-08-Q003",
           "origem": "inedita_padrao_fcc",
           "referencia_prova": "Inédita — padrão FCC / Edital SEDUC-MA 01/2026",
-          "enunciado": "Na história da literatura brasileira e maranhense, a escritora são-luisense autora do romance 'Úrsula' (1859) — reconhecida como a primeira romancista negra do país e pioneira da literatura abolicionista ao dar voz e humanidade a personagens escravizados — é",
+          "enunciado": "A escritora maranhense autora de Úrsula (1859), obra pioneira da literatura antiescravista brasileira, é",
           "alternativas": {
             "A": "Maria Firmina dos Reis.",
             "B": "Clarice Lispector.",
@@ -17816,7 +18940,7 @@
           "questao_id": "CG-GHM-08-Q004",
           "origem": "inedita_padrao_fcc",
           "referencia_prova": "Inédita — padrão FCC / Edital SEDUC-MA 01/2026",
-          "enunciado": "Assinale a alternativa que lista APENAS bens localizados no Estado do Maranhão que possuem reconhecimento oficial da UNESCO como Patrimônio da Humanidade (material, imaterial ou natural).",
+          "enunciado": "Assinale a alternativa que associa corretamente três reconhecimentos da UNESCO no Maranhão aos respectivos anos, sem pressupor que constituam lista exaustiva.",
           "alternativas": {
             "A": "Centro Histórico de Alcântara (1990), Delta do Parnaíba (2005) e Cidade de Imperatriz (2020).",
             "B": "Porto do Itaqui (1985), Chapada das Mesas (2010) e Estrada de Ferro Carajás (1999).",
@@ -17857,12 +18981,196 @@
           },
           "dificuldade": "basica",
           "subtopico": "Bumba meu boi, Tambor de Crioula, Tambor de Mina, reggae e manifestações populares"
+        },
+        {
+          "questao_id": "CG-GHM-08-EXP-Q001",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "A distinção entre o Centro Histórico de São Luís e o complexo do Bumba meu boi refere-se",
+          "alternativas": {
+            "A": "à inexistência de objetos materiais nas festas.",
+            "B": "ao predomínio de um conjunto urbano material no primeiro e de práticas culturais no segundo.",
+            "C": "à ausência de valor histórico na cidade.",
+            "D": "à classificação de ambos como parques nacionais.",
+            "E": "à identidade de todos os instrumentos de proteção."
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "Patrimônio material e imaterial possuem focos diferentes e complementares.",
+          "analise_distratores": {
+            "A": "Festas usam objetos.",
+            "C": "Há valor histórico.",
+            "D": "Não são parques.",
+            "E": "Instrumentos diferem."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Patrimônio material e imaterial"
+        },
+        {
+          "questao_id": "CG-GHM-08-EXP-Q002",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "O reconhecimento do Bumba meu boi do Maranhão em 2011 pelo Iphan e em 2019 pela UNESCO",
+          "alternativas": {
+            "A": "representa um único ato administrativo.",
+            "B": "impõe versão rígida das apresentações.",
+            "C": "transforma a manifestação em patrimônio exclusivamente arquitetônico.",
+            "D": "corresponde a reconhecimentos nacional e internacional distintos.",
+            "E": "extingue a autonomia dos grupos."
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "Registro nacional e reconhecimento internacional são distintos.",
+          "analise_distratores": {
+            "A": "Datas e instituições diferem.",
+            "B": "Salvaguarda não congela práticas.",
+            "C": "É celebração.",
+            "E": "Detentores são centrais."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Bumba meu boi, Tambor de Crioula, Tambor de Mina, reggae e manifestações populares"
+        },
+        {
+          "questao_id": "CG-GHM-08-EXP-Q003",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "Embora compartilhem referências afro-maranhenses, Tambor de Crioula e Tambor de Mina",
+          "alternativas": {
+            "A": "distinguem-se como forma de expressão e tradição religiosa, respectivamente.",
+            "B": "são duas denominações idênticas.",
+            "C": "são exclusivamente gêneros literários.",
+            "D": "não possuem dimensão comunitária.",
+            "E": "constituem categorias de unidades de conservação."
+          },
+          "gabarito": "A",
+          "justificativa_gabarito": "Crioula e Mina possuem características e contextos próprios.",
+          "analise_distratores": {
+            "B": "Não são sinônimos.",
+            "C": "Não são gêneros literários.",
+            "D": "Há vínculos comunitários.",
+            "E": "Não são categorias ambientais."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Bumba meu boi, Tambor de Crioula, Tambor de Mina, reggae e manifestações populares"
+        },
+        {
+          "questao_id": "CG-GHM-08-EXP-Q004",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "O reconhecimento de São Luís como Capital Nacional do Reggae em 2023 relaciona-se",
+          "alternativas": {
+            "A": "à origem colonial francesa do reggae.",
+            "B": "à inclusão automática do gênero na lista UNESCO.",
+            "C": "à apropriação local do ritmo, com radiolas, dança e circuitos culturais próprios.",
+            "D": "à proibição de transformações culturais.",
+            "E": "à inexistência de intercâmbios musicais."
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "O título reconhece uma cultura local construída por intercâmbios.",
+          "analise_distratores": {
+            "A": "Reggae tem origem jamaicana.",
+            "B": "É título nacional.",
+            "D": "Culturas se transformam.",
+            "E": "Intercâmbios foram centrais."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Bumba meu boi, Tambor de Crioula, Tambor de Mina, reggae e manifestações populares"
+        },
+        {
+          "questao_id": "CG-GHM-08-EXP-Q005",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "A publicação de Úrsula, em 1859, destaca-se na produção de Maria Firmina dos Reis pela",
+          "alternativas": {
+            "A": "defesa da escravização como progresso.",
+            "B": "fundação do Naturalismo no século XX.",
+            "C": "autoria de O Guesa.",
+            "D": "ausência de personagens negros.",
+            "E": "crítica à escravidão e humanização de personagens escravizados."
+          },
+          "gabarito": "E",
+          "justificativa_gabarito": "O romance é referência pioneira da literatura antiescravista.",
+          "analise_distratores": {
+            "A": "A obra critica a escravidão.",
+            "B": "Não pertence ao século XX.",
+            "C": "O Guesa é de Sousândrade.",
+            "D": "Personagens escravizados são relevantes."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Literatura e personalidades maranhenses"
+        },
+        {
+          "questao_id": "CG-GHM-08-EXP-Q006",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "Assinale a associação correta entre autor e obra.",
+          "alternativas": {
+            "A": "Ferreira Gullar — O Mulato.",
+            "B": "Sousândrade — O Guesa.",
+            "C": "Gonçalves Dias — Úrsula.",
+            "D": "Aluísio Azevedo — Poema Sujo.",
+            "E": "Maria Firmina dos Reis — I-Juca Pirama."
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "O Guesa é obra de Sousândrade.",
+          "analise_distratores": {
+            "A": "O Mulato é de Aluísio Azevedo.",
+            "C": "Úrsula é de Maria Firmina.",
+            "D": "Poema Sujo é de Gullar.",
+            "E": "I-Juca Pirama é de Gonçalves Dias."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Literatura e personalidades maranhenses"
+        },
+        {
+          "questao_id": "CG-GHM-08-EXP-Q007",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "A inscrição dos Lençóis Maranhenses na Lista do Patrimônio Mundial em 2024",
+          "alternativas": {
+            "A": "é registro nacional do Tambor de Crioula.",
+            "B": "substitui todas as normas de visitação.",
+            "C": "reconhece um sítio natural, sem substituir a gestão da unidade de conservação.",
+            "D": "prova aumento uniforme da renda local.",
+            "E": "corresponde ao título de Capital Nacional do Reggae."
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "Reconhecimento internacional e gestão jurídica nacional coexistem.",
+          "analise_distratores": {
+            "A": "É outra manifestação.",
+            "B": "Regras continuam aplicáveis.",
+            "D": "Não decorre da inscrição.",
+            "E": "O título é distinto."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Patrimônio material e imaterial"
+        },
+        {
+          "questao_id": "CG-GHM-08-EXP-Q008",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "Ao estudar uma notícia sobre crescimento do PIB maranhense publicada em 2026, é adequado",
+          "alternativas": {
+            "A": "confundir data de publicação com ano de referência.",
+            "B": "tratar projeções como resultados definitivos.",
+            "C": "deduzir a distribuição de renda pelo valor total.",
+            "D": "verificar fonte, período, preços, revisão e natureza do indicador.",
+            "E": "dispensar comparação com dados sociais."
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "Indicadores econômicos exigem contexto metodológico.",
+          "analise_distratores": {
+            "A": "Podem ser anos diferentes.",
+            "B": "Projeções não são observações.",
+            "C": "Total não mede distribuição.",
+            "E": "Dados sociais são necessários."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Aspectos políticos, sociais, econômicos, ambientais e culturais atuais"
         }
       ],
       "flashcards": [
         {
           "card_id": "CG-GHM-08-FC001",
-          "frente": "Quais são os 3 Patrimônios da Humanidade da UNESCO no Maranhão e seus anos?",
+          "frente": "Associe três reconhecimentos UNESCO maranhenses aos anos.",
           "verso": "Centro Histórico de São Luís (Cultural, 1997), Bumba Meu Boi do MA (Imaterial, 2019) e Lençóis Maranhenses (Natural, 2024).",
           "tipo": "legislacao_dado",
           "tags": [
@@ -17883,7 +19191,7 @@
         {
           "card_id": "CG-GHM-08-FC003",
           "frente": "Quem foi Maria Firmina dos Reis e qual sua obra mais famosa?",
-          "verso": "Primeira romancista negra do Brasil e pioneira abolicionista, autora de 'Úrsula' (1859).",
+          "verso": "Escritora e professora negra, pioneira da literatura antiescravista; autora de Úrsula (1859).",
           "tipo": "conceito",
           "tags": [
             "literatura",
@@ -17917,9 +19225,149 @@
           "tags": [
             "literatura-ma"
           ]
+        },
+        {
+          "card_id": "CG-GHM-08-EXP-FC001",
+          "frente": "Qual ano do reconhecimento UNESCO do Centro Histórico de São Luís?",
+          "verso": "1997, patrimônio mundial cultural.",
+          "tipo": "conceito",
+          "tags": [
+            "historia-maranhao",
+            "cg-ghm-08"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-08-EXP-FC002",
+          "frente": "Qual ano do registro nacional do Bumba meu boi?",
+          "verso": "2011, Iphan, Livro das Celebrações.",
+          "tipo": "conceito",
+          "tags": [
+            "historia-maranhao",
+            "cg-ghm-08"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-08-EXP-FC003",
+          "frente": "Qual ano do reconhecimento internacional do Bumba meu boi?",
+          "verso": "2019, patrimônio cultural imaterial da UNESCO.",
+          "tipo": "conceito",
+          "tags": [
+            "historia-maranhao",
+            "cg-ghm-08"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-08-EXP-FC004",
+          "frente": "Qual ano do registro do Tambor de Crioula?",
+          "verso": "2007, Iphan, Livro das Formas de Expressão.",
+          "tipo": "conceito",
+          "tags": [
+            "historia-maranhao",
+            "cg-ghm-08"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-08-EXP-FC005",
+          "frente": "O que são sotaques do Bumba meu boi?",
+          "verso": "Estilos de apresentação associados a ritmos, instrumentos e práticas.",
+          "tipo": "conceito",
+          "tags": [
+            "historia-maranhao",
+            "cg-ghm-08"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-08-EXP-FC006",
+          "frente": "O que é a punga?",
+          "verso": "Gesto característico da dança do Tambor de Crioula.",
+          "tipo": "conceito",
+          "tags": [
+            "historia-maranhao",
+            "cg-ghm-08"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-08-EXP-FC007",
+          "frente": "Quais casas históricas são referências do Tambor de Mina?",
+          "verso": "Casa das Minas e Casa de Nagô, em São Luís.",
+          "tipo": "conceito",
+          "tags": [
+            "historia-maranhao",
+            "cg-ghm-08"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-08-EXP-FC008",
+          "frente": "Qual papel das caixeiras?",
+          "verso": "Participação musical e ritual em celebrações do Divino.",
+          "tipo": "conceito",
+          "tags": [
+            "historia-maranhao",
+            "cg-ghm-08"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-08-EXP-FC009",
+          "frente": "Em que ano São Luís recebeu o título de Capital Nacional do Reggae?",
+          "verso": "2023.",
+          "tipo": "conceito",
+          "tags": [
+            "historia-maranhao",
+            "cg-ghm-08"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-08-EXP-FC010",
+          "frente": "Quando foi inaugurado o Museu do Reggae do Maranhão?",
+          "verso": "2018.",
+          "tipo": "conceito",
+          "tags": [
+            "historia-maranhao",
+            "cg-ghm-08"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-08-EXP-FC011",
+          "frente": "Quem escreveu O Guesa?",
+          "verso": "Sousândrade.",
+          "tipo": "conceito",
+          "tags": [
+            "historia-maranhao",
+            "cg-ghm-08"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-08-EXP-FC012",
+          "frente": "Quem escreveu O Mulato?",
+          "verso": "Aluísio Azevedo (1881).",
+          "tipo": "conceito",
+          "tags": [
+            "historia-maranhao",
+            "cg-ghm-08"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-08-EXP-FC013",
+          "frente": "Quem escreveu Poema Sujo?",
+          "verso": "Ferreira Gullar.",
+          "tipo": "conceito",
+          "tags": [
+            "historia-maranhao",
+            "cg-ghm-08"
+          ]
+        },
+        {
+          "card_id": "CG-GHM-08-EXP-FC014",
+          "frente": "Como estudar dados de atualidades?",
+          "verso": "Verificar fonte, data de referência, metodologia, escala e limites do indicador.",
+          "tipo": "conceito",
+          "tags": [
+            "historia-maranhao",
+            "cg-ghm-08"
+          ]
         }
       ],
-      "teoria_md": "---\ntopico_id: CG-GHM-08\nslug: cultura-patrimonio-atualidades-ma\ntitulo: \"Cultura, Patrimônio Material/Imaterial, Literatura e Atualidades do Maranhão\"\nedital: SEDUC-MA-01-2026\nbanca: FCC\nstatus: em_auditoria\n---\n\n# 1. Delimitação no Edital (Camada A)\n- **Itens explícitos (p. 61):** *Cultura, patrimônio histórico e manifestações culturais maranhenses. Bumba meu boi, Tambor de Crioula, Tambor de Mina, reggae e demais manifestações populares. Literatura e personalidades maranhenses. Patrimônio material e imaterial. Aspectos políticos, sociais, econômicos, ambientais e culturais do Maranhão na atualidade.*\n\n# 2. Patrimônio Mundial e Nacional do Maranhão (Marcos Oficiais UNESCO & IPHAN)\nO Maranhão reúne um dos conjuntos patrimoniais mais reconhecidos do Brasil:\n\n| Bem Patrimonial | Categoria / Reconhecimento | Ano | Marco / Característica |\n| :--- | :--- | :--- | :--- |\n| **Centro Histórico de São Luís** | **Patrimônio Cultural Mundial (UNESCO)** | 1997 | Maior conjunto arquitetônico civil português dos séc. XVIII–XIX na América Latina (casarões revestidos de azulejos) |\n| **Tambor de Crioula do Maranhão** | **Patrimônio Cultural Imaterial Brasileiro (IPHAN)** | 2007 | Dança circular feminina afro-brasileira em louvor a São Benedito, com *punga* (umbigada) e tambores afinados a fogo ([IPHAN](https://bcr.iphan.gov.br/bens-culturais/tambor-de-crioula-do-maranhao/)) |\n| **Complexo Cultural do Bumba Meu Boi do MA** | **Patrimônio Cultural Imaterial da Humanidade (UNESCO)** | 2019 | Reconhecido pela UNESCO em 11/12/2019 (e pelo IPHAN em 2011); reúne múltiplos sotaques (Matraca, Zabumba, Orquestra, Costa de Mão, Baixada) ([UNESCO](https://www.unesco.org/pt/articles/bumba-meu-boi-do-maranhao-agora-e-patrimonio-cultural-imaterial-da-humanidade)) |\n| **Parque Nacional dos Lençóis Maranhenses** | **Patrimônio Natural Mundial (UNESCO)** | 2024 | Único campo de dunas e lagoas pluviais com esse título no Brasil (155 mil ha) |\n\n# 3. Manifestações Culturais Populares e Religiosidade Afro-Maranhense\n- **Bumba Meu Boi:** expressão central do ciclo junino maranhense, baseada no auto dramático da morte e ressurreição do boi (personagens: Pai Francisco, Mãe Catirina, Amo, Cazumbás, Vaquinha, Índias). Destacam-se os **sotaques** regionais: *Matraca* (Ilha), *Zabumba* (Guimarães/Cururupu), *Orquestra* (Rosário/Axixá/Ilha), *Costa de Mão* (Cururupu/Litoral) e *Baixada*.\n- **Tambor de Mina:** tradição religiosa afro-brasileira emblemática do Maranhão, com destaque para a **Casa das Minas** (tradição Jeje, fundada no séc. XIX) e a **Casa de Nagô** em São Luís, cultuando voduns, orixás, encantados e caboclos.\n- **Reggae Maranhense:** São Luís é conhecida nacionalmente como a **\"Jamaica Brasileira\"** pela apropriação singular do reggae caribenho desde os anos 1970 — dançado **agarradinho (a dois)** ao som de grandes **radiolas** de som e celebrado no **Museu do Reggae do Maranhão** (primeiro do gênero fora da Jamaica).\n- **Festa do Divino Espírito Santo:** tradição sincrética forte em **Alcântara** e São Luís, conduzida por caixeiras e impérios infantis/adultos.\n\n# 4. Literatura e Personalidades Maranhenses (\"Atenas Brasileira\")\n- **Gonçalves Dias (Caxias, 1823–1864):** grande nome do Romantismo brasileiro (1ª geração indianista), autor de *\"Canção do Exílio\"* e *\"I-Juca Pirama\"*.\n- **Maria Firmina dos Reis (São Luís, 1822–1917):** primeira romancista negra do Brasil e pioneira da literatura abolicionista com o romance ***Úrsula* (1859)**, além do conto *\"A Escrava\"*; fundou a primeira escola mista e gratuita do Maranhão em Guimarães.\n- **Sousândrade (Guimarães, 1833–1902):** poeta pré-modernista/romântico vanguardista, autor de *O Guesa*, redescoberto pelo concretismo.\n- **Aluísio Azevedo (São Luís, 1857–1913):** introdutor do Naturalismo no Brasil com ***O Mulato* (1881)** (ambientado em São Luís e crítico do racismo/clero local) e *O Cortiço*.\n- **Outros nomes fundamentais:** **Coelho Neto**, **Artur Azevedo** (teatro), **Humberto de Campos**, **Josué Montello** (*Os Tambores de São Luís*), **Ferreira Gullar** (poesia moderna/neoconcretismo — *Poema Sujo*), **João do Vale** (música popular — *Carcará*) e **Alcione**.\n\n# 5. Síntese das Atualidades do Maranhão (2024–2026)\n- **Economia e logística:** PIB estadual de R$ 177,1 bilhões (IMESC, 2026), recordes de movimentação de soja/granéis no **Porto do Itaqui** (Arco Norte), expansão de energia renovável e gás natural (Bacia do Parnaíba).\n- **Turismo e cultura:** consolidação internacional dos **Lençóis Maranhenses** após o título da UNESCO (2024) e fortalecimento do Centro Histórico e do São João como vetores econômicos.\n- **Desafios sociais e ambientais:** superação de desigualdades socioeconômicas históricas, regularização fundiária quilombola/indígena e combate ao desmatamento na Amazônia maranhense e no MATOPIBA.\n"
+      "teoria_md": "# 1. Patrimônio material, imaterial e natural\n\nPatrimônio cultural material inclui edifícios, conjuntos urbanos, objetos e sítios, entre outras formas tangíveis. O patrimônio imaterial envolve práticas, saberes, celebrações e formas de expressão reconhecidas por comunidades. A distinção é analítica: uma manifestação imaterial pode depender de instrumentos, roupas, espaços e objetos materiais. Preservar patrimônio envolve condições para continuidade, participação dos detentores e acesso à memória.\n\nO Centro Histórico de São Luís foi inscrito na Lista do Patrimônio Mundial cultural em 1997. O conjunto urbano revela traçado e arquitetura de tradição colonial portuguesa, com adaptações ao ambiente tropical. O reconhecimento não abrange automaticamente toda a capital. O tombamento nacional e a inscrição UNESCO são instrumentos distintos.\n\nO Parque Nacional dos Lençóis Maranhenses foi inscrito na Lista do Patrimônio Mundial natural em 2024. A dinâmica de dunas e lagoas integra a singularidade do sítio. A inscrição não substitui as normas de conservação e visitação. Não confunda a Lista do Patrimônio Mundial, a lista de patrimônio cultural imaterial da UNESCO e os registros nacionais do Iphan.\n\n# 2. Bumba meu boi: celebração e diversidade\n\nO Complexo Cultural do Bumba meu boi do Maranhão reúne música, dança, teatro, artesanato, religiosidade e trabalho coletivo, especialmente no ciclo junino. Não se reduz ao auto dramático ou à apresentação turística. A preparação de instrumentos, indumentárias, ensaios e rituais compõe o processo cultural.\n\nPai Francisco, Mãe Catirina, amo e outros personagens aparecem em diferentes grupos e narrativas. As formas de apresentação variam. Os sotaques designam estilos associados a combinações de ritmos, instrumentos e práticas performáticas. Matraca, zabumba, orquestra, costa de mão e baixada são referências, mas não devem ser tratados como uma classificação rígida capaz de explicar toda a diversidade dos grupos.\n\nO Iphan registrou o complexo em 2011, no Livro das Celebrações. Em 2019 ocorreu seu reconhecimento como patrimônio cultural imaterial da humanidade pela UNESCO. O registro e a salvaguarda devem favorecer condições para a transmissão de saberes e autonomia dos grupos, não congelar a manifestação numa suposta versão original.\n\n# 3. Tambor de Crioula, Tambor de Mina e Festa do Divino\n\nO Tambor de Crioula é forma de expressão afro-brasileira que reúne canto, percussão e dança, com participação tradicional de coreiras. A punga é gesto característico. A devoção a São Benedito é frequente, mas a prática possui contextos variados. O Iphan registra o bem no Livro das Formas de Expressão desde 2007.\n\nTambor de Mina designa tradição religiosa afro-maranhense, com casas históricas como Casa das Minas e Casa de Nagô em São Luís. Voduns, orixás e encantados integram diferentes tradições, de acordo com a casa e o contexto religioso. Não confunda Mina e Crioula em razão do uso comum de instrumentos percussivos. O Terecô é outra tradição religiosa presente no Maranhão, com referências importantes no interior.\n\nA Festa do Divino Espírito Santo envolve cortejos, música, devoção e organização comunitária em localidades como Alcântara e São Luís. As caixeiras desempenham papel importante em diferentes celebrações. Essas práticas mostram a diversidade cultural do estado e não devem ser descritas como mera reprodução de tradições europeias ou africanas sem transformação local.\n\n# 4. Reggae e cultura urbana\n\nA apropriação do reggae jamaicano ganhou força em São Luís a partir dos anos 1970. Radiolas, DJs, clubes e dança a dois, conhecida como agarradinho, expressam formas locais de circulação musical. O reggae participa de experiências urbanas, sociabilidade e construção de identidades. Não se trata de origem jamaicana do povo maranhense, mas de intercâmbios e recriações culturais.\n\nO Museu do Reggae do Maranhão foi inaugurado em 2018. Em 2023, São Luís recebeu reconhecimento legal como Capital Nacional do Reggae, conforme notícia do Senado. O título é nacional, distinto de um reconhecimento UNESCO. Grupos musicais, colecionadores, produtores e frequentadores das festas contribuem para a continuidade dessa cultura.\n\nA cultura popular não é estática. Meios digitais, mudanças geracionais e novos mercados podem alterar circuitos de circulação. Salvaguarda não significa impedir transformações; significa apoiar a continuidade das práticas e seus agentes, respeitando escolhas das comunidades.\n\n# 5. Literatura e personalidades\n\nGonçalves Dias é associado ao Romantismo brasileiro e ao indianismo, com obras como Canção do Exílio e I-Juca Pirama. O indianismo literário não equivale necessariamente à perspectiva histórica dos próprios povos indígenas. Maria Firmina dos Reis, professora e escritora negra, publicou Úrsula em 1859, obra pioneira na crítica à escravidão e na representação humanizada de personagens escravizados. Também escreveu A Escrava.\n\nSousândrade, autor de O Guesa, desenvolveu experimentações poéticas no século XIX, posteriormente valorizadas por leitores ligados à poesia moderna e concreta. Evite classificá-lo como integrante cronológico do Pré-Modernismo do início do século XX. Aluísio Azevedo publicou O Mulato em 1881, marco do Naturalismo brasileiro, com crítica às relações sociais maranhenses. Artur Azevedo destacou-se no teatro.\n\nCoelho Neto, Humberto de Campos e Josué Montello integram a diversidade da produção literária regional. Ferreira Gullar é referência da poesia moderna e do neoconcretismo, autor de Poema Sujo. Na música popular, João do Vale e Alcione são nomes de projeção nacional. A expressão Atenas Brasileira traduz determinada tradição de memória intelectual; deve ser analisada sem excluir autores e agentes historicamente marginalizados.\n\n# 6. Atualidades: como estudar fatos datados\n\nO edital prevê dimensões políticas, sociais, econômicas, ambientais e culturais contemporâneas. Organize os fatos por data, fonte, escala e relação com temas estruturais. Marcos verificáveis incluem a inscrição dos Lençóis Maranhenses em 2024, o reconhecimento nacional do reggae em 2023 e a sentença do caso quilombola de Alcântara em 2024. Esses fatos não constituem levantamento exaustivo das atualidades de 2026.\n\nEconomia: acompanhe indicadores oficiais do IBGE e IMESC, identificando ano de referência, revisão e preços nominais ou reais. Logística: diferencie Porto do Itaqui e terminais privados; não transforme tonelagem em medida direta de renda. Ambiente: examine desmatamento, incêndios, conservação de áreas úmidas, saneamento e segurança hídrica, com recortes temporais e territoriais. Política e sociedade: distinga anúncio, norma aprovada, execução e resultado.\n\nCultura e turismo: reconhecimento patrimonial pode aumentar visibilidade, mas não garante renda distribuída ou preservação automática. A atualização final deve consultar fontes oficiais recentes e o edital. Não memorize previsões econômicas como resultados observados. Ao estudar uma notícia, identifique fato, evidência, contexto, possíveis impactos e limites dos dados.\n\n![Três formas de reconhecimento patrimonial, com exemplos maranhenses.](./media/historia-maranhao/patrimonios.svg)\n\nRecuperação ativa: associe cada manifestação ao seu significado; diferencie Tambor de Mina e Crioula; relacione autores e obras; compare UNESCO e Iphan; explique como verificar uma informação contemporânea antes de incorporá-la à revisão."
     },
     {
       "schema_version": "2.0.0",

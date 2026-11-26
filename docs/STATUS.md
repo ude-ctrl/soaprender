@@ -44,3 +44,8 @@ A auditoria científica do acervo segue pendente. Sincronização entre disposit
 ## Pensamento geográfico e metodologia
 
 - CE-GEO-01 e CE-GEO-15 ampliadas em oito missões por unidade, 26 questões e 40 flashcards no conjunto. Expansão editorial das 15 unidades específicas concluída, sem certificação científica. [Registro](INTEGRACAO_PENSAMENTO_METODOLOGIA.md). Próximo lote: CG-GHM-05 a 08.
+
+
+## História e Cultura do Maranhão
+
+- CG-GHM-05 a 08 ampliadas em 24 missões, 52 questões e 80 flashcards. Expansão editorial das oito unidades de História e Geografia do Maranhão concluída; auditoria e atualidades específicas de 2026 pendentes. [Registro](INTEGRACAO_HISTORIA_CULTURA_MARANHAO.md). Próximo lote: Língua Portuguesa.
