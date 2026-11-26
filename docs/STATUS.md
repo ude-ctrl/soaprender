@@ -29,3 +29,8 @@ A auditoria científica do acervo segue pendente. Sincronização entre disposit
 
 - Ampliação de CE-GEO-12 e CE-GEO-13, preservando IDs, gabaritos e estados editoriais. Ver [registro do lote](INTEGRACAO_GEOGRAFIA_BRASIL_LOTE1.md).
 - Página 76 da cópia do edital conferida; portal oficial da FCC indica publicação de 17/11/2026. Não havia retificações listadas no portal consultado; PDF direto inacessível, conferência geral segue pendente.
+
+
+## Geografia do Maranhão — conhecimentos específicos
+
+- CE-GEO-14 ampliada em oito missões, 13 questões, 20 flashcards e dois diagramas; mantido estado em_auditoria. [Registro e fontes](INTEGRACAO_MARANHAO_ESPECIFICA.md). Próximo lote: CG-GHM-01–04, evitando repetição rasa.
