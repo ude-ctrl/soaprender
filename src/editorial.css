@@ -159,7 +159,7 @@ progress::-moz-progress-bar { border-radius: 10px; background: var(--accent); }
 .coverage-row { display: flex; justify-content: space-between; gap: 8px; }
 .coverage-row + progress { margin-bottom: 13px; }
 
-button, .file-button, .reader-outline a { transition: background-color .16s ease, border-color .16s ease, color .16s ease, box-shadow .16s ease, transform .14s ease; }
+button, .file-button { transition: background-color .16s ease, border-color .16s ease, color .16s ease, box-shadow .16s ease, transform .14s ease; }
 :is(.mission-action, .primary, .discipline-list button, .search-trigger):active:not(:disabled) { transform: translateY(1px); }
 :is(.home-disciplines button, .mission button, .card-reveal button, .next-action button):focus-visible { outline-offset: 3px; }
 
@@ -194,7 +194,7 @@ button, .file-button, .reader-outline a { transition: background-color .16s ease
   .trail-preview::before { inset-inline: 36px auto; width: calc(max(100%, 444px) - 72px); }
 }
 @media (prefers-reduced-motion: reduce) {
-  button, .file-button, .reader-outline a { transition: none; }
+  button, .file-button { transition: none; }
 }
 @media (max-width: 359px) {
   .topbar-inner { padding-inline: 10px; }

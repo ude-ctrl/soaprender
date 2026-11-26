@@ -36,7 +36,7 @@ export default function App() {
   const [session, setSession] = useState<Session>();
   const [now, setNow] = useState(Date.now);
   const [collapsed, setCollapsed] = usePreference('navigation', false, [true, false]);
-  const [outlineHost, setOutlineHost] = useState<HTMLDivElement | null>(null);
+  const [settingsHost, setSettingsHost] = useState<HTMLDivElement | null>(null);
   const [immersive, setImmersive] = useState(false);
   const pendingScroll = useRef<number | null>(null);
   const reviews = useMemo(() => reviewIndex(progress.attempts), [progress.attempts]);
@@ -129,7 +129,7 @@ export default function App() {
           <span className="nav-tip" aria-hidden="true">{label}</span>
         </button>)}
       </nav>
-      <div className="sidebar-context" ref={setOutlineHost} />
+      <div className="sidebar-context" ref={setSettingsHost} />
       <Contours />
       <p className="sidebar-exam"><span>SEDUC–MA</span><small>Professor de Geografia</small></p>
     </aside>
@@ -165,7 +165,7 @@ export default function App() {
       <main className={reading ? 'site-main reader-main' : session ? 'site-main practice-main' : 'site-main'}>
         {error && <p className="storage-error" role="alert">{error}</p>}
         {page === 'unit' && unit && <div hidden={Boolean(session)}><UnitPage key={unitId} unit={unit}
-          score={mastery(unit, reviews)} outlineHost={reading && !collapsed ? outlineHost : null} onBack={() => go('map')} onPractice={practiceUnit}
+          score={mastery(unit, reviews)} settingsHost={reading && !collapsed ? settingsHost : null} onBack={() => go('map')} onPractice={practiceUnit}
           immersive={!session && immersive} onImmersion={setImmersive} /></div>}
         {page === 'review' && <div className="standard-page" hidden={Boolean(session)}>
           <ReviewPage due={due} reviews={reviews} onPractice={items => start(items, true)} />
