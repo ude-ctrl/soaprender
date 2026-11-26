@@ -5,8 +5,8 @@
   "resumo_cobertura": {
     "total_unidades_edital": 45,
     "unidades_populadas": 45,
-    "total_questoes": 556,
-    "total_flashcards": 901
+    "total_questoes": 596,
+    "total_flashcards": 971
   },
   "edital": {
     "schema_version": "1.0.0",
@@ -19377,7 +19377,7 @@
       "titulo": "Hardware, Software, Armazenamento e Ambiente Windows (FCC)",
       "status": "em_auditoria",
       "origem": "edital_explicito",
-      "tempo_leitura_min": 20,
+      "tempo_leitura_min": 30,
       "edital_subtopicos": [
         "Conceitos básicos de hardware e software",
         "Dispositivos de entrada, saída e armazenamento",
@@ -19389,55 +19389,89 @@
           "tipo": "edital",
           "nivel_autoridade": 1,
           "url": "https://www.concursosfcc.com.br"
+        },
+        {
+          "referencia_abnt": "Microsoft Support. Atalhos de teclado no Windows. Consulta em 26 nov. 2026 (trechos indexados ou texto oficial).",
+          "url": "https://support.microsoft.com/pt-br/accessibility/windows/keyboard-shortcuts-in-windows",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
+        },
+        {
+          "referencia_abnt": "Microsoft Support. Explorador de Arquivos. Consulta em 26 nov. 2026 (trechos indexados ou texto oficial).",
+          "url": "https://support.microsoft.com/pt-br/windows/experience/fileexplorer/file-explorer-in-windows",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
+        },
+        {
+          "referencia_abnt": "Microsoft Support. Extensões de nomes de arquivos. Consulta em 26 nov. 2026 (trechos indexados ou texto oficial).",
+          "url": "https://support.microsoft.com/pt-br/windows/experience/storage-filemanagement/common-file-name-extensions-in-windows",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
         }
       ],
       "sintese_fcc": {
         "conceitos_nucleares": [
           {
-            "termo": "RAM vs. ROM/SSD",
-            "definicao_precisa": "RAM é memória principal VOLÁTIL (perde dados sem energia); ROM e SSD/HD são NÃO VOLÁTEIS.",
-            "fonte": "Arquitetura de Computadores."
+            "termo": "Hardware e software",
+            "definicao_precisa": "Componentes físicos e instruções",
+            "fonte": "Síntese autoral e referências da unidade."
           },
           {
-            "termo": "Shift + Delete no Windows",
-            "definicao_precisa": "Exclui o arquivo permanentemente sem enviá-lo para a Lixeira.",
-            "fonte": "Documentação Windows."
+            "termo": "Memória",
+            "definicao_precisa": "Volatilidade e persistência",
+            "fonte": "Síntese autoral e referências da unidade."
           },
           {
-            "termo": "Periféricos Híbridos (E/S)",
-            "definicao_precisa": "Touchscreen e impressora multifuncional atuam tanto na entrada quanto na saída de dados.",
-            "fonte": "Hardware Básico."
+            "termo": "Entrada/saída",
+            "definicao_precisa": "Direção do fluxo de dados",
+            "fonte": "Síntese autoral e referências da unidade."
+          },
+          {
+            "termo": "Gerenciamento de arquivos",
+            "definicao_precisa": "Copiar, mover, renomear, excluir",
+            "fonte": "Síntese autoral e referências da unidade."
           }
         ],
         "pegadinhas_fcc": [
           {
-            "armadilha": "Dizer que a memória RAM guarda arquivos permanentemente ou que o SSD é volátil",
-            "como_a_fcc_cobra": "Inverte o conceito de volatilidade entre RAM e SSD/HD.",
-            "como_desarmar": "RAM = rápida e VOLÁTIL (temporária); SSD/HD = armazenamento permanente (não volátil)."
+            "armadilha": "Shift+Delete",
+            "como_a_fcc_cobra": "Exemplo autoral: Apagamento forense garantido",
+            "como_desarmar": "Apenas evita Lixeira; recuperação depende do caso."
+          },
+          {
+            "armadilha": "RAM",
+            "como_a_fcc_cobra": "Exemplo autoral: SSD equivale à RAM",
+            "como_desarmar": "Distinguir volatilidade e função."
+          },
+          {
+            "armadilha": "Extensão",
+            "como_a_fcc_cobra": "Exemplo autoral: Renomear converte",
+            "como_desarmar": "Converter conteúdo."
           }
         ],
         "quadro_comparativo": [
           {
-            "atalho": "Win + E",
-            "acao": "Abrir Explorador de Arquivos"
+            "conceito": "Hardware e software",
+            "criterio": "Componentes físicos e instruções"
           },
           {
-            "atalho": "Win + L",
-            "acao": "Bloquear o computador"
+            "conceito": "Memória",
+            "criterio": "Volatilidade e persistência"
           },
           {
-            "atalho": "Ctrl + Shift + Esc",
-            "acao": "Abrir Gerenciador de Tarefas"
+            "conceito": "Entrada/saída",
+            "criterio": "Direção do fluxo de dados"
           },
           {
-            "atalho": "Shift + Delete",
-            "acao": "Excluir sem passar pela Lixeira"
+            "conceito": "Gerenciamento de arquivos",
+            "criterio": "Copiar, mover, renomear, excluir"
           }
         ],
         "checklist_revisao": [
-          "Sei diferenciar memória RAM, ROM, HD e SSD?",
-          "Sei os periféricos de entrada, saída e híbridos?",
-          "Decorei os principais atalhos e caracteres proibidos do Windows?"
+          "Consigo aplicar hardware e software em situação nova?",
+          "Consigo aplicar memória em situação nova?",
+          "Consigo aplicar entrada/saída em situação nova?",
+          "Consigo aplicar gerenciamento de arquivos em situação nova?"
         ]
       },
       "questoes": [
@@ -19450,16 +19484,16 @@
             "A": "enviado para a Lixeira para possível restauração posterior.",
             "B": "movido para a pasta Documentos.",
             "C": "renomeado automaticamente.",
-            "D": "excluído diretamente sem ser enviado para a Lixeira (após confirmação).",
+            "D": "excluído sem ser enviado para a Lixeira, mediante confirmação se configurada.",
             "E": "compactado em formato ZIP."
           },
           "gabarito": "D",
-          "justificativa_gabarito": "Shift + Delete ignora a Lixeira e realiza exclusão direta do arquivo.",
+          "justificativa_gabarito": "No Explorador de Arquivos, Shift+Delete exclui sem passar pela Lixeira. Confirmação depende da configuração; não é garantia de apagamento seguro.",
           "analise_distratores": {
-            "A": "Isso ocorre com Delete simples.",
-            "B": "Incorreto.",
+            "A": "Delete simples pode enviar à Lixeira, quando aplicável; Shift+Delete a ignora.",
+            "B": "O atalho não é operação de mover.",
             "C": "Renomear é F2.",
-            "E": "Incorreto."
+            "E": "O atalho não compacta."
           },
           "dificuldade": "basica",
           "subtopico": "Ambiente Windows e gerenciamento de arquivos/pastas"
@@ -19555,13 +19589,197 @@
           },
           "dificuldade": "basica",
           "subtopico": "Ambiente Windows e gerenciamento de arquivos/pastas"
+        },
+        {
+          "questao_id": "CG-INF-01-EXP-Q001",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão autoral de treino; não é questão oficial FCC",
+          "enunciado": "Um computador reconhece uma impressora após instalar um programa que intermedeia a comunicação do sistema operacional com o dispositivo. Esse programa é um",
+          "alternativas": {
+            "A": "firmware obrigatoriamente armazenado na impressora.",
+            "B": "aplicativo de edição de texto.",
+            "C": "driver de dispositivo.",
+            "D": "arquivo de paginação.",
+            "E": "atalho do Explorador."
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "O driver viabiliza a comunicação do sistema com o dispositivo.",
+          "analise_distratores": {
+            "A": "O firmware reside no equipamento; não é necessariamente o programa instalado no sistema.",
+            "B": "Editor não gerencia comunicação com hardware.",
+            "D": "Paginação serve à memória virtual.",
+            "E": "Atalho apenas referencia destino."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Conceitos básicos de hardware e software"
+        },
+        {
+          "questao_id": "CG-INF-01-EXP-Q002",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão autoral de treino; não é questão oficial FCC",
+          "enunciado": "Após desligar normalmente um computador, um arquivo salvo no SSD permanece disponível, ao contrário de informações não salvas mantidas na RAM. A diferença principal é",
+          "alternativas": {
+            "A": "RAM usa armazenamento magnético e SSD usa cache.",
+            "B": "RAM é volátil e SSD é não volátil.",
+            "C": "SSD é memória principal de execução e RAM é armazenamento secundário.",
+            "D": "RAM é firmware e SSD é driver.",
+            "E": "SSD só armazena dados quando há energia."
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "RAM convencional perde conteúdo sem energia; SSD preserva dados.",
+          "analise_distratores": {
+            "A": "RAM não é armazenamento magnético convencional.",
+            "C": "Os papéis estão invertidos.",
+            "D": "Ambos são componentes físicos.",
+            "E": "SSD é não volátil."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Dispositivos de entrada, saída e armazenamento"
+        },
+        {
+          "questao_id": "CG-INF-01-EXP-Q003",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão autoral de treino; não é questão oficial FCC",
+          "enunciado": "Uma conexão de 80 megabits por segundo tem taxa teórica, em megabytes por segundo e sem sobrecarga, de",
+          "alternativas": {
+            "A": "80",
+            "B": "640",
+            "C": "8",
+            "D": "10",
+            "E": "0,8"
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "Um byte contém oito bits: 80/8=10.",
+          "analise_distratores": {
+            "A": "Confunde bits e bytes.",
+            "B": "Multiplica em vez de dividir.",
+            "C": "Usa divisor incorreto.",
+            "E": "Usa divisor 100."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Dispositivos de entrada, saída e armazenamento"
+        },
+        {
+          "questao_id": "CG-INF-01-EXP-Q004",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão autoral de treino; não é questão oficial FCC",
+          "enunciado": "Uma multifuncional digitaliza um mapa em papel e imprime uma cópia. Em relação ao computador, as funções correspondem, respectivamente, a",
+          "alternativas": {
+            "A": "entrada e saída.",
+            "B": "saída e entrada.",
+            "C": "armazenamento e processamento.",
+            "D": "entrada e entrada.",
+            "E": "saída e saída."
+          },
+          "gabarito": "A",
+          "justificativa_gabarito": "Digitalizar fornece dados; imprimir os apresenta.",
+          "analise_distratores": {
+            "B": "Inverte o fluxo.",
+            "C": "Não descreve a finalidade principal.",
+            "D": "Impressão é saída.",
+            "E": "Digitalização é entrada."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Dispositivos de entrada, saída e armazenamento"
+        },
+        {
+          "questao_id": "CG-INF-01-EXP-Q005",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão autoral de treino; não é questão oficial FCC",
+          "enunciado": "No Explorador do Windows, o usuário deseja mudar apenas o nome do arquivo selecionado sem alterar seu formato. O atalho adequado é",
+          "alternativas": {
+            "A": "Ctrl+Shift+Esc",
+            "B": "Windows+E",
+            "C": "Alt+F4",
+            "D": "Ctrl+P",
+            "E": "F2"
+          },
+          "gabarito": "E",
+          "justificativa_gabarito": "F2 renomeia o item selecionado.",
+          "analise_distratores": {
+            "A": "Abre Gerenciador de Tarefas.",
+            "B": "Abre Explorador.",
+            "C": "Fecha janela.",
+            "D": "Imprimir no contexto aplicável."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Ambiente Windows e gerenciamento de arquivos/pastas"
+        },
+        {
+          "questao_id": "CG-INF-01-EXP-Q006",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão autoral de treino; não é questão oficial FCC",
+          "enunciado": "Renomear um arquivo de texto de relatório.txt para relatório.pdf, sem conversão,",
+          "alternativas": {
+            "A": "gera um documento PDF válido.",
+            "B": "criptografa seu conteúdo.",
+            "C": "altera o nome, mas não converte o formato interno.",
+            "D": "compacta o texto.",
+            "E": "cria automaticamente cópia do original."
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "Extensão é indicação de formato; alterar o nome não recodifica conteúdo.",
+          "analise_distratores": {
+            "A": "Falta conversão.",
+            "B": "Renomear não cifra.",
+            "D": "Não aplica compressão.",
+            "E": "Renomear não cria cópia."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Ambiente Windows e gerenciamento de arquivos/pastas"
+        },
+        {
+          "questao_id": "CG-INF-01-EXP-Q007",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão autoral de treino; não é questão oficial FCC",
+          "enunciado": "Em relação à memória cache do processador, é correto afirmar que",
+          "alternativas": {
+            "A": "substitui integralmente o armazenamento permanente.",
+            "B": "reduz tempos de acesso a dados e instruções reutilizados.",
+            "C": "é o mesmo que a pasta de downloads.",
+            "D": "é um tipo de sistema operacional.",
+            "E": "mantém obrigatoriamente todo arquivo salvo após desligamento."
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "Cache aproxima dados e instruções do processador.",
+          "analise_distratores": {
+            "A": "É limitada e normalmente volátil.",
+            "C": "Pasta de downloads pertence ao sistema de arquivos.",
+            "D": "É componente de memória.",
+            "E": "Não é armazenamento permanente."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Conceitos básicos de hardware e software"
+        },
+        {
+          "questao_id": "CG-INF-01-EXP-Q008",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão autoral de treino; não é questão oficial FCC",
+          "enunciado": "A exclusão de um atalho de arquivo na área de trabalho, sem excluir o próprio destino, normalmente",
+          "alternativas": {
+            "A": "apaga o destino de modo irrecuperável.",
+            "B": "converte o destino para ZIP.",
+            "C": "muda a extensão do destino.",
+            "D": "remove a referência de acesso, preservando o arquivo de destino.",
+            "E": "desinstala o sistema operacional."
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "Atalho e destino são objetos distintos.",
+          "analise_distratores": {
+            "A": "O enunciado exclui a remoção do destino.",
+            "B": "Não há compactação.",
+            "C": "Não altera nome do destino.",
+            "E": "Não se relaciona à instalação."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Ambiente Windows e gerenciamento de arquivos/pastas"
         }
       ],
       "flashcards": [
         {
           "card_id": "CG-INF-01-FC001",
           "frente": "Qual a diferença entre memória RAM e SSD/HD?",
-          "verso": "RAM é memória principal VOLÁTIL (temporária); SSD/HD são armazenamentos secundários NÃO VOLÁTEIS (permanentes).",
+          "verso": "RAM convencional é volátil; SSD/HDD são armazenamento não volátil, sujeito a falhas.",
           "tipo": "conceito",
           "tags": [
             "hardware",
@@ -19615,9 +19833,149 @@
           "tags": [
             "windows"
           ]
+        },
+        {
+          "card_id": "CG-INF-01-EXP-FC001",
+          "frente": "Hardware × software",
+          "verso": "Componentes físicos × programas/instruções.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-01"
+          ]
+        },
+        {
+          "card_id": "CG-INF-01-EXP-FC002",
+          "frente": "Sistema operacional",
+          "verso": "Gerencia recursos, processos, dispositivos e arquivos.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-01"
+          ]
+        },
+        {
+          "card_id": "CG-INF-01-EXP-FC003",
+          "frente": "Driver",
+          "verso": "Intermedeia comunicação com dispositivo.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-01"
+          ]
+        },
+        {
+          "card_id": "CG-INF-01-EXP-FC004",
+          "frente": "CPU",
+          "verso": "Executa instruções.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-01"
+          ]
+        },
+        {
+          "card_id": "CG-INF-01-EXP-FC005",
+          "frente": "Cache",
+          "verso": "Memória rápida para reaproveitamento de dados/instruções.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-01"
+          ]
+        },
+        {
+          "card_id": "CG-INF-01-EXP-FC006",
+          "frente": "Firmware UEFI",
+          "verso": "Programa de inicialização, geralmente em flash atualizável.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-01"
+          ]
+        },
+        {
+          "card_id": "CG-INF-01-EXP-FC007",
+          "frente": "Byte",
+          "verso": "8 bits.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-01"
+          ]
+        },
+        {
+          "card_id": "CG-INF-01-EXP-FC008",
+          "frente": "80 Mb/s em MB/s",
+          "verso": "10 MB/s teóricos, antes de sobrecarga.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-01"
+          ]
+        },
+        {
+          "card_id": "CG-INF-01-EXP-FC009",
+          "frente": "HDD × SSD",
+          "verso": "Magnético mecânico × memória flash convencional sem partes móveis.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-01"
+          ]
+        },
+        {
+          "card_id": "CG-INF-01-EXP-FC010",
+          "frente": "Touchscreen",
+          "verso": "Entrada e saída.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-01"
+          ]
+        },
+        {
+          "card_id": "CG-INF-01-EXP-FC011",
+          "frente": "Compactação × criptografia",
+          "verso": "Redução/empacotamento × proteção por cifra.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-01"
+          ]
+        },
+        {
+          "card_id": "CG-INF-01-EXP-FC012",
+          "frente": "Windows+E",
+          "verso": "Abre Explorador de Arquivos.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-01"
+          ]
+        },
+        {
+          "card_id": "CG-INF-01-EXP-FC013",
+          "frente": "Atalho × arquivo",
+          "verso": "Atalho referencia destino; excluí-lo normalmente preserva o destino.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-01"
+          ]
+        },
+        {
+          "card_id": "CG-INF-01-EXP-FC014",
+          "frente": "Renomear extensão converte?",
+          "verso": "Não. É necessária conversão real do conteúdo.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-01"
+          ]
         }
       ],
-      "teoria_md": "---\ntopico_id: CG-INF-01\nslug: hardware-software-windows\ntitulo: \"Hardware, Software, Armazenamento e Ambiente Windows (FCC)\"\nedital: SEDUC-MA-01-2026\nbanca: FCC\nstatus: em_auditoria\n---\n\n# 1. Delimitação no Edital (Camada A)\n- **Itens explícitos (p. 61):** *Conceitos básicos de hardware e software. Sistemas operacionais (ambiente Windows). Dispositivos de entrada, saída e armazenamento. Gerenciamento de arquivos e pastas.*\n\n# 2. Hardware: Processamento, Memórias e Periféricos\n- **CPU (Processador):** executa instruções (ULA + Unidade de Controle + Registradores).\n- **Memórias:**\n  - **RAM (Volátil):** armazena dados e programas **em execução**; apaga-se ao desligar o computador.\n  - **ROM (Não volátil):** armazena instruções básicas de inicialização (BIOS/UEFI).\n  - **Armazenamento Secundário (Não volátil):** **SSD** (memória flash rápida, sem partes móveis) e **HD** (disco magnético).\n- **Periféricos:**\n  - *Entrada:* teclado, mouse, scanner, microfone, webcam.\n  - *Saída:* monitor, impressora comum, caixa de som, projetor.\n  - *Entrada e Saída (Híbridos):* tela sensível ao toque (*touchscreen*), impressora multifuncional, pendrive/SSD externo.\n\n# 3. Ambiente Windows (Atalhos e Gerenciamento de Arquivos)\n- **Atalhos campeões da FCC no Windows:**\n  - `Win + E`: abre o **Explorador de Arquivos**.\n  - `Win + D`: mostra/oculta a Área de Trabalho.\n  - `Win + L`: **bloqueia** a sessão do computador.\n  - `Ctrl + Shift + Esc`: abre o **Gerenciador de Tarefas**.\n  - `Alt + Tab`: alterna entre janelas abertas.\n  - `Delete`: envia para a **Lixeira**; **`Shift + Delete`**: exclui **permanentemente** sem passar pela Lixeira!\n  - `F2`: renomeia o arquivo/pasta selecionado.\n- **Regras de nomes de arquivos no Windows:** não podem conter os 9 caracteres **`\\ / : * ? \" < > |`**.\n"
+      "teoria_md": "# 1. Hardware, software e funcionamento do computador\n\nHardware é o conjunto de componentes físicos; software compreende instruções e programas. O sistema operacional administra recursos, processos, arquivos, dispositivos e permissões, oferecendo serviços aos aplicativos. Windows é um sistema operacional; Word é aplicativo; um driver permite que o sistema interaja com determinado dispositivo.\n\nA CPU executa instruções. A unidade de controle coordena etapas, unidades de cálculo realizam operações, registradores guardam valores de uso imediato. A GPU pode acelerar processamento gráfico e outras tarefas paralelas. Frequência de relógio, quantidade de núcleos e arquitetura influenciam desempenho; nenhum indicador isolado garante maior velocidade.\n\n# 2. Hierarquia de memória e armazenamento\n\nRAM guarda informações em uso e normalmente perde conteúdo sem energia. Cache aproxima dados frequentemente usados do processador. Registradores estão na CPU. HDD e SSD preservam dados sem energia, mas não são invulneráveis a falhas. O HDD utiliza armazenamento magnético com partes móveis; SSD convencional utiliza memória flash, sem partes móveis.\n\nROM designa memória não volátil de leitura em sentido tradicional. Firmware moderno, inclusive UEFI, costuma residir em memória flash atualizável. Memória virtual utiliza mecanismos de mapeamento de endereços e pode recorrer ao armazenamento quando necessário; não equivale a ampliar fisicamente a RAM.\n\n| Unidade | Relação |\n|---|---|\n| bit | dígito binário |\n| byte | 8 bits |\n| kB | 1.000 bytes |\n| KiB | 1.024 bytes |\n\nNão confunda Mb (megabit) com MB (megabyte). 80 Mb/s correspondem teoricamente a 10 MB/s antes de perdas e sobrecarga.\n\n# 3. Dispositivos e utilitários\n\nEntrada fornece informação ao computador: teclado, scanner, microfone. Saída apresenta informação: monitor comum, projetor, alto-falante. Uma tela sensível ao toque reúne entrada e saída; uma multifuncional reúne digitalização e impressão. Um armazenamento externo permite leitura e escrita. Classifique pelo funcionamento, não pelo nome comercial.\n\nUtilitários auxiliam manutenção, segurança ou organização: compactador, ferramenta de backup, antimalware, gerenciador de arquivos. Compactar reduz tamanho quando os dados permitem; não é criptografar. Um ZIP pode reunir vários arquivos; extrair cria arquivos a partir do conteúdo arquivado. A extensão não garante que o conteúdo seja legítimo.\n\n# 4. Ambiente Windows\n\nNo Windows de desktop, a área de trabalho é espaço de interação; barra de tarefas permite alternar aplicativos; menu Iniciar dá acesso a programas e configurações. Explorador de Arquivos navega por pastas e unidades; Gerenciador de Tarefas permite observar processos e uso de recursos. Encerrar tarefa pode perder alterações não salvas.\n\n| Atalho | Efeito típico |\n|---|---|\n| Windows + E | abrir Explorador |\n| Windows + L | bloquear sessão |\n| Windows + D | mostrar ou ocultar área de trabalho |\n| Alt + Tab | alternar janelas |\n| Ctrl + Shift + Esc | Gerenciador de Tarefas |\n| F2 no Explorador | renomear seleção |\n\nAtalhos dependem de foco, sistema e aplicativo. Bloquear não desliga o computador; suspender não equivale a encerrar sessão.\n\n# 5. Arquivos, pastas e exclusão\n\nCaminho indica localização; extensão sugere formato. Renomear arquivo .txt para .pdf não converte seu conteúdo. Copiar cria outra instância; recortar e colar move o item em uma operação normal bem-sucedida. Um atalho referencia um destino; apagar o atalho normalmente não apaga o destino.\n\nNo Explorador, Delete pode encaminhar arquivos locais à Lixeira quando aplicável. Shift + Delete evita a Lixeira; isso não significa apagamento forense seguro. Exclusões em rede, mídias externas ou arquivos grandes podem ter comportamento diferente. A confirmação depende das configurações. Restrições de nomes incluem barra, contrabarra, dois-pontos, asterisco, interrogação, aspas, sinais de menor/maior e barra vertical. Há também nomes reservados, como CON e NUL.\n\n# 6. Aplicação e recuperação\n\nExemplo: uma professora edita um relatório. O programa usa CPU e RAM; o arquivo salvo persiste no SSD; um scanner digitaliza anexos; o Explorador organiza pastas; uma cópia externa independente permite recuperar dados. Se o aplicativo travar, salvar quando possível vem antes de encerrar à força.\n\nRecupere: hardware e software; RAM e SSD; entrada e saída; diferença de bit e byte; copiar, mover, renomear e excluir; funções dos atalhos."
     },
     {
       "schema_version": "2.0.0",
@@ -19627,7 +19985,7 @@
       "titulo": "Produtividade (Microsoft Office e Google Workspace), E-mail e Reuniões Virtuais (FCC)",
       "status": "em_auditoria",
       "origem": "edital_explicito",
-      "tempo_leitura_min": 25,
+      "tempo_leitura_min": 30,
       "edital_subtopicos": [
         "Editores de texto, planilhas e apresentações (Office e Google Workspace)",
         "Correio eletrônico (Gmail e Outlook)",
@@ -19639,51 +19997,95 @@
           "tipo": "edital",
           "nivel_autoridade": 1,
           "url": "https://www.concursosfcc.com.br"
+        },
+        {
+          "referencia_abnt": "Microsoft Support. Referências relativas, absolutas e mistas. Consulta em 26 nov. 2026 (trechos indexados ou texto oficial).",
+          "url": "https://support.microsoft.com/pt-br/excel/switch-between-relative-absolute-and-mixed-references",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
+        },
+        {
+          "referencia_abnt": "Google. Lista de funções do Google Planilhas. Consulta em 26 nov. 2026 (trechos indexados ou texto oficial).",
+          "url": "https://support.google.com/docs/table/25273?hl=pt-BR",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
+        },
+        {
+          "referencia_abnt": "Google. Localidade e idioma das funções. Consulta em 26 nov. 2026 (trechos indexados ou texto oficial).",
+          "url": "https://support.google.com/docs/answer/58515?hl=pt-BR",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
+        },
+        {
+          "referencia_abnt": "Microsoft Support. Atalhos de apresentações. Consulta em 26 nov. 2026 (trechos indexados ou texto oficial).",
+          "url": "https://support.microsoft.com/pt-br/accessibility/powerpoint/use-keyboard-shortcuts-to-deliver-powerpoint-presentations",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
         }
       ],
       "sintese_fcc": {
         "conceitos_nucleares": [
           {
-            "termo": "Dois pontos (:) vs. Ponto e vírgula (;) no Excel/Sheets",
-            "definicao_precisa": "A1:A5 significa intervalo contínuo (A1 até A5); A1;A5 significa apenas as duas células isoladas (A1 e A5).",
-            "fonte": "Documentação Excel/Sheets."
+            "termo": "Referências",
+            "definicao_precisa": "Partes fixas e relativas na cópia",
+            "fonte": "Síntese autoral e referências da unidade."
           },
           {
-            "termo": "Símbolo $ em Planilhas",
-            "definicao_precisa": "Trava linha e/ou coluna contra alteração ao copiar a fórmula ($A$1 = referência absoluta).",
-            "fonte": "Documentação Excel/Sheets."
+            "termo": "Funções",
+            "definicao_precisa": "Intervalo e argumentos conforme localidade",
+            "fonte": "Síntese autoral e referências da unidade."
           },
           {
-            "termo": "CC vs. CCO no E-mail",
-            "definicao_precisa": "CC exibe os endereços a todos; CCO (cópia oculta) esconde os endereços dos demais destinatários.",
-            "fonte": "Correio Eletrônico."
+            "termo": "Colaboração",
+            "definicao_precisa": "Permissões e histórico",
+            "fonte": "Síntese autoral e referências da unidade."
+          },
+          {
+            "termo": "Correio e reunião",
+            "definicao_precisa": "Destinatários e exposição mínima",
+            "fonte": "Síntese autoral e referências da unidade."
           }
         ],
         "pegadinhas_fcc": [
           {
-            "armadilha": "Confundir =SOMA(A1:A3) com =SOMA(A1;A3)",
-            "como_a_fcc_cobra": "Dá valores em A1, A2, A3 e pergunta o resultado de =SOMA(A1;A3).",
-            "como_desarmar": "Com ponto e vírgula (;), NÃO soma A2! Só soma A1 + A3."
+            "armadilha": "Cifrão",
+            "como_a_fcc_cobra": "Exemplo autoral: Toda referência é fixa",
+            "como_desarmar": "Verificar linha e coluna separadamente."
+          },
+          {
+            "armadilha": "Separador",
+            "como_a_fcc_cobra": "Exemplo autoral: Sintaxe universal",
+            "como_desarmar": "Fixar localidade e idioma."
+          },
+          {
+            "armadilha": "CCO",
+            "como_a_fcc_cobra": "Exemplo autoral: Garante privacidade integral",
+            "como_desarmar": "Oculta endereços no envio original."
           }
         ],
         "quadro_comparativo": [
           {
-            "ferramenta": "Excel / Sheets",
-            "recurso_chave": "$A$1 (trava), : (até), ; (e), =SE()"
+            "conceito": "Referências",
+            "criterio": "Partes fixas e relativas na cópia"
           },
           {
-            "ferramenta": "PowerPoint / Slides",
-            "recurso_chave": "F5 (início), Shift+F5 (slide atual)"
+            "conceito": "Funções",
+            "criterio": "Intervalo e argumentos conforme localidade"
           },
           {
-            "ferramenta": "Gmail / Outlook",
-            "recurso_chave": "Para, CC (visível), CCO (oculto)"
+            "conceito": "Colaboração",
+            "criterio": "Permissões e histórico"
+          },
+          {
+            "conceito": "Correio e reunião",
+            "criterio": "Destinatários e exposição mínima"
           }
         ],
         "checklist_revisao": [
-          "Sei a diferença entre : e ; e o uso do $ em fórmulas de planilha?",
-          "Sei resolver funções =SE(), =MÉDIA(), =CONT.SE()?",
-          "Sei usar CCO corretamente para proteger e-mails de terceiros?"
+          "Consigo aplicar referências em situação nova?",
+          "Consigo aplicar funções em situação nova?",
+          "Consigo aplicar colaboração em situação nova?",
+          "Consigo aplicar correio e reunião em situação nova?"
         ]
       },
       "questoes": [
@@ -19691,7 +20093,7 @@
           "questao_id": "CG-INF-02-Q001",
           "origem": "inedita_padrao_fcc",
           "referencia_prova": "Inédita — padrão FCC / Edital SEDUC-MA 01/2026",
-          "enunciado": "Em uma planilha do Microsoft Excel (ou Google Planilhas), considere os valores: A1 = 10, A2 = 20, A3 = 30. O resultado da fórmula =SOMA(A1;A3) é",
+          "enunciado": "Em uma planilha configurada com funções em português e ponto e vírgula como separador de argumentos, A1=10, A2=20 e A3=30. O resultado de =SOMA(A1;A3) é",
           "alternativas": {
             "A": "60.",
             "B": "30.",
@@ -19783,7 +20185,7 @@
           "questao_id": "CG-INF-02-Q005",
           "origem": "inedita_padrao_fcc",
           "referencia_prova": "Inédita — padrão FCC / Edital SEDUC-MA 01/2026",
-          "enunciado": "No Microsoft PowerPoint, para iniciar a apresentação em tela cheia exatamente a partir do slide que está sendo editado no momento (e não do primeiro slide), utiliza-se o atalho",
+          "enunciado": "No Microsoft PowerPoint desktop para Windows, para iniciar a apresentação a partir do slide atual, utiliza-se",
           "alternativas": {
             "A": "Shift + F5.",
             "B": "F5.",
@@ -19797,9 +20199,193 @@
             "B": "Inicia do primeiro slide.",
             "C": "Imprimir.",
             "D": "Fechar.",
-            "E": "Sublinhar/Salvar conforme idioma."
+            "E": "Não inicia a apresentação a partir do slide atual."
           },
           "dificuldade": "basica",
+          "subtopico": "Editores de texto, planilhas e apresentações (Office e Google Workspace)"
+        },
+        {
+          "questao_id": "CG-INF-02-EXP-Q001",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão autoral de treino; não é questão oficial FCC",
+          "enunciado": "Uma fórmula em B2 é =$A2*B$1. Copiada para C3, torna-se",
+          "alternativas": {
+            "A": "=$B3*C$2",
+            "B": "=$A2*B$1",
+            "C": "=$A3*C$1",
+            "D": "=A3*C2",
+            "E": "=$A3*B$1"
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "Desloca uma linha e coluna; A e linha 1 ficam fixas.",
+          "analise_distratores": {
+            "A": "Altera referências fixadas.",
+            "B": "Não desloca partes relativas.",
+            "D": "Remove fixações e muda linha fixa.",
+            "E": "B é coluna relativa, passa a C."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Editores de texto, planilhas e apresentações (Office e Google Workspace)"
+        },
+        {
+          "questao_id": "CG-INF-02-EXP-Q002",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão autoral de treino; não é questão oficial FCC",
+          "enunciado": "Em A1:A4 há 4, 6, 8, 10. Com funções em português e separador ponto e vírgula, =CONT.SE(A1:A4;\">=6\") retorna",
+          "alternativas": {
+            "A": "2",
+            "B": "3",
+            "C": "24",
+            "D": "28",
+            "E": "4"
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "6, 8 e 10 satisfazem o critério, total 3.",
+          "analise_distratores": {
+            "A": "Exclui indevidamente 6.",
+            "C": "É soma das células elegíveis.",
+            "D": "É soma total.",
+            "E": "Inclui 4."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Editores de texto, planilhas e apresentações (Office e Google Workspace)"
+        },
+        {
+          "questao_id": "CG-INF-02-EXP-Q003",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão autoral de treino; não é questão oficial FCC",
+          "enunciado": "Para organizar um documento longo em seções e gerar sumário automático, a prática mais adequada é",
+          "alternativas": {
+            "A": "inserir espaços antes de cada título.",
+            "B": "aplicar apenas negrito manualmente a todos os títulos.",
+            "C": "usar uma imagem para cada título.",
+            "D": "aplicar estilos hierárquicos de título.",
+            "E": "repetir quebras de linha até a posição desejada."
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "Estilos de título estruturam o documento e permitem navegação e sumário.",
+          "analise_distratores": {
+            "A": "Espaços não estruturam níveis.",
+            "B": "Negrito não define hierarquia semântica.",
+            "C": "Imagem não estabelece estilo.",
+            "E": "Quebras não definem títulos."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Editores de texto, planilhas e apresentações (Office e Google Workspace)"
+        },
+        {
+          "questao_id": "CG-INF-02-EXP-Q004",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão autoral de treino; não é questão oficial FCC",
+          "enunciado": "Em apresentações, o efeito que ocorre na passagem entre slides é denominado",
+          "alternativas": {
+            "A": "transição.",
+            "B": "animação de objeto.",
+            "C": "comentário.",
+            "D": "layout.",
+            "E": "referência absoluta."
+          },
+          "gabarito": "A",
+          "justificativa_gabarito": "Transição atua entre slides.",
+          "analise_distratores": {
+            "B": "Animação atua em elementos.",
+            "C": "Comentário é anotação.",
+            "D": "Layout distribui conteúdo.",
+            "E": "É conceito de planilha."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Editores de texto, planilhas e apresentações (Office e Google Workspace)"
+        },
+        {
+          "questao_id": "CG-INF-02-EXP-Q005",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão autoral de treino; não é questão oficial FCC",
+          "enunciado": "Um servidor envia uma mensagem com um link para documento institucional. Um destinatário recebe o e-mail, mas não consegue abrir o documento. A explicação compatível é",
+          "alternativas": {
+            "A": "links concedem acesso universal automaticamente.",
+            "B": "o CCO sempre bloqueia links.",
+            "C": "o assunto deve ser o mesmo nome do arquivo.",
+            "D": "o destinatário precisa modificar a extensão.",
+            "E": "o documento pode exigir permissão independente da mensagem."
+          },
+          "gabarito": "E",
+          "justificativa_gabarito": "Receber o link não concede necessariamente permissão ao recurso.",
+          "analise_distratores": {
+            "A": "Permissões podem impedir acesso.",
+            "B": "CCO não define permissões do arquivo.",
+            "C": "Assunto não concede acesso.",
+            "D": "Extensão não resolve autorização."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Correio eletrônico (Gmail e Outlook)"
+        },
+        {
+          "questao_id": "CG-INF-02-EXP-Q006",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão autoral de treino; não é questão oficial FCC",
+          "enunciado": "O campo CCO é adequado para envio coletivo porque",
+          "alternativas": {
+            "A": "impede que destinatários respondam.",
+            "B": "criptografa os anexos.",
+            "C": "oculta os endereços inseridos nesse campo dos demais destinatários na mensagem original.",
+            "D": "envia a mensagem sem remetente.",
+            "E": "garante conformidade integral com a LGPD."
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "CCO limita exposição de endereços, mas não todas as divulgações.",
+          "analise_distratores": {
+            "A": "Responder continua possível.",
+            "B": "Não cifra anexos.",
+            "D": "Remetente continua identificado.",
+            "E": "É apenas uma medida de privacidade."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Correio eletrônico (Gmail e Outlook)"
+        },
+        {
+          "questao_id": "CG-INF-02-EXP-Q007",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão autoral de treino; não é questão oficial FCC",
+          "enunciado": "Uma professora precisa apresentar uma planilha em reunião virtual sem expor notificações e outros aplicativos. A opção mais adequada é",
+          "alternativas": {
+            "A": "compartilhar toda a tela sem revisar notificações.",
+            "B": "compartilhar apenas a janela ou aba necessária e verificar a prévia.",
+            "C": "silenciar microfone e compartilhar tela inteira.",
+            "D": "gravar a reunião antes de compartilhar.",
+            "E": "conceder edição a todos os participantes."
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "Compartilhar apenas o recurso necessário reduz exposição.",
+          "analise_distratores": {
+            "A": "Amplia exposição.",
+            "C": "Silenciar não protege conteúdo visual.",
+            "D": "Gravação não limita conteúdo.",
+            "E": "Edição não é necessária."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Reuniões virtuais (Teams, Zoom e Meet)"
+        },
+        {
+          "questao_id": "CG-INF-02-EXP-Q008",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão autoral de treino; não é questão oficial FCC",
+          "enunciado": "Em uma planilha, aplicar filtro de linhas por status 'Pendente' normalmente",
+          "alternativas": {
+            "A": "exclui definitivamente as linhas concluídas.",
+            "B": "altera os valores concluídos para pendentes.",
+            "C": "transforma fórmulas em texto.",
+            "D": "restringe a visualização sem apagar os outros registros.",
+            "E": "converte a planilha em PDF."
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "Filtro limita visualização; dados permanecem.",
+          "analise_distratores": {
+            "A": "Filtro não elimina dados.",
+            "B": "Não altera status.",
+            "C": "Não modifica fórmulas por si.",
+            "E": "Não exporta."
+          },
+          "dificuldade": "intermediaria",
           "subtopico": "Editores de texto, planilhas e apresentações (Office e Google Workspace)"
         }
       ],
@@ -19807,7 +20393,7 @@
         {
           "card_id": "CG-INF-02-FC001",
           "frente": "Diferença entre ':' e ';' em fórmulas do Excel/Sheets?",
-          "verso": "':' indica intervalo contínuo (A1 até A5); ';' separa argumentos isolados (A1 e A5).",
+          "verso": "Na configuração com separador ponto e vírgula, : indica intervalo e ; separa argumentos; outros idiomas/localidades podem variar.",
           "tipo": "pegadinha_fcc",
           "tags": [
             "excel",
@@ -19826,7 +20412,7 @@
         {
           "card_id": "CG-INF-02-FC003",
           "frente": "Qual a diferença entre CC e CCO no e-mail?",
-          "verso": "CC exibe os destinatários a todos; CCO (cópia oculta) esconde os endereços dos demais.",
+          "verso": "CC deixa destinatários visíveis; CCO oculta os inseridos nesse campo dos demais na mensagem original.",
           "tipo": "conceito",
           "tags": [
             "email"
@@ -19834,7 +20420,7 @@
         },
         {
           "card_id": "CG-INF-02-FC004",
-          "frente": "Diferença entre F5 e Shift + F5 no PowerPoint?",
+          "frente": "F5 e Shift+F5 no PowerPoint desktop para Windows?",
           "verso": "F5 inicia do 1º slide; Shift + F5 inicia do slide atual.",
           "tipo": "conceito",
           "tags": [
@@ -19858,9 +20444,149 @@
           "tags": [
             "reunioes"
           ]
+        },
+        {
+          "card_id": "CG-INF-02-EXP-FC001",
+          "frente": "Estilos de título",
+          "verso": "Estruturam documento, sumário e navegação.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-02"
+          ]
+        },
+        {
+          "card_id": "CG-INF-02-EXP-FC002",
+          "frente": "Sugestões/revisão",
+          "verso": "Registram alterações propostas.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-02"
+          ]
+        },
+        {
+          "card_id": "CG-INF-02-EXP-FC003",
+          "frente": "Referência relativa",
+          "verso": "A1 se desloca na cópia.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-02"
+          ]
+        },
+        {
+          "card_id": "CG-INF-02-EXP-FC004",
+          "frente": "Referência mista $A1",
+          "verso": "Coluna A fixa; linha variável.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-02"
+          ]
+        },
+        {
+          "card_id": "CG-INF-02-EXP-FC005",
+          "frente": "Referência mista A$1",
+          "verso": "Linha 1 fixa; coluna variável.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-02"
+          ]
+        },
+        {
+          "card_id": "CG-INF-02-EXP-FC006",
+          "frente": "$A1 copiada +1 coluna/+1 linha",
+          "verso": "$A2.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-02"
+          ]
+        },
+        {
+          "card_id": "CG-INF-02-EXP-FC007",
+          "frente": "SOMA(A1:A3)",
+          "verso": "Soma intervalo de três células.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-02"
+          ]
+        },
+        {
+          "card_id": "CG-INF-02-EXP-FC008",
+          "frente": "CONT.SE",
+          "verso": "Conta células que satisfazem critério.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-02"
+          ]
+        },
+        {
+          "card_id": "CG-INF-02-EXP-FC009",
+          "frente": "SOMASE",
+          "verso": "Soma valores conforme critério.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-02"
+          ]
+        },
+        {
+          "card_id": "CG-INF-02-EXP-FC010",
+          "frente": "Filtro × exclusão",
+          "verso": "Filtro restringe visualização, não apaga dados.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-02"
+          ]
+        },
+        {
+          "card_id": "CG-INF-02-EXP-FC011",
+          "frente": "Transição × animação",
+          "verso": "Entre slides × efeito em objetos.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-02"
+          ]
+        },
+        {
+          "card_id": "CG-INF-02-EXP-FC012",
+          "frente": "Anexo × link",
+          "verso": "Cópia enviada × referência a recurso com permissões próprias.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-02"
+          ]
+        },
+        {
+          "card_id": "CG-INF-02-EXP-FC013",
+          "frente": "Responder a todos",
+          "verso": "Inclui destinatários pertinentes, além do remetente.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-02"
+          ]
+        },
+        {
+          "card_id": "CG-INF-02-EXP-FC014",
+          "frente": "Compartilhar tela com privacidade",
+          "verso": "Preferir aba/janela necessária, revisar prévia e notificações.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-02"
+          ]
         }
       ],
-      "teoria_md": "---\ntopico_id: CG-INF-02\nslug: produtividade-office-workspace-reunioes\ntitulo: \"Produtividade (Microsoft Office e Google Workspace), E-mail e Reuniões Virtuais (FCC)\"\nedital: SEDUC-MA-01-2026\nbanca: FCC\nstatus: em_auditoria\n---\n\n# 1. Delimitação no Edital (Camada A)\n- **Itens explícitos (p. 61):** *Softwares utilitários. Ferramentas de produtividade: edição de textos, planilhas e apresentações (Microsoft Office e Google Workspace). Correio eletrônico (Gmail e Outlook). Ferramentas de reuniões virtuais (Microsoft Teams, Zoom e Google Meet).*\n\n# 2. Planilhas (Excel e Google Sheets — Campeão da FCC!)\n- **Referências relativas vs. absolutas:**\n  - `A1` → **relativa** (muda ao copiar/arrastar a fórmula).\n  - `$A$1` → **absoluta** (trava coluna A e linha 1 com `$`!).\n  - `$A1` ou `A$1` → **mista** (trava só coluna ou só linha).\n- **Funções clássicas:**\n  - `=SOMA(A1:A5)` (soma o intervalo de A1 até A5); `=SOMA(A1;A5)` (soma **apenas** A1 e A5! Atenção: `:` = até; `;` = e).\n  - `=MÉDIA(A1:A5)`: média aritmética.\n  - `=MÁXIMO(...)` e `=MÍNIMO(...)`.\n  - `=SE(teste_lógico; valor_se_verdadeiro; valor_se_falso)`: função condicional.\n  - `=CONT.SE(intervalo; critério)` / `=SOMASE(...)`.\n\n# 3. Editores de Texto, Apresentações, E-mail e Reuniões\n- **Atalhos em editores (Word/Docs em português):** `Ctrl+B` (Salvar no Word) vs. `Ctrl+N` (Negrito), `Ctrl+I` (Itálico), `Ctrl+S` (Sublinhado), `Ctrl+Z` (Desfazer), `Ctrl+P` (Imprimir). *(No Google Docs em navegador, `Ctrl+B` aplica Negrito!)*\n- **Apresentações (PowerPoint / Google Slides):** `F5` inicia a apresentação do 1º slide; `Shift + F5` inicia do slide atual.\n- **Correio Eletrônico (Gmail e Outlook):**\n  - **Para (`To`):** destinatário principal.\n  - **CC (Cópia Carbono):** todos veem os endereços listados.\n  - **CCO (Cópia Oculta / `BCC`):** os demais destinatários **não veem** quem está em CCO (protege privacidade/LGPD em envios coletivos!).\n- **Reuniões Virtuais (Teams, Zoom, Google Meet):** compartilhamento de tela (janela/aba/tela inteira), sala de espera (*lobby*), gravação na nuvem, chat e silenciamento de microfone.\n"
+      "teoria_md": "# 1. Documentos e ferramentas de produtividade\n\nWord e Google Docs permitem editar textos, aplicar estilos, inserir tabelas e imagens, revisar e comentar. Estilos de título estruturam o documento e facilitam sumário e navegação. Alinhamento, recuo e espaçamento são propriedades de parágrafos; negrito e itálico modificam caracteres. Quebra de página não é o mesmo que repetir Enter. Exportar para PDF preserva a apresentação visual, mas não torna o arquivo automaticamente inacessível a edição.\n\nControle de alterações ou modo de sugestões registra propostas; comentários permitem discutir sem necessariamente modificar o texto. Histórico de versões ajuda a localizar alterações anteriores, conforme a plataforma e as permissões. Atalhos variam entre aplicativo desktop, web, idioma e sistema; não trate atalhos do Word como universais.\n\n# 2. Planilhas: células e referências\n\nExcel e Google Planilhas organizam informações em linhas, colunas e células. Fórmulas normalmente começam com =. Em configuração de língua portuguesa e separador de argumentos ponto e vírgula, =SOMA(A1:A3) soma intervalo; =SOMA(A1;A3) soma apenas os dois argumentos. Localidade, idioma de funções e separadores podem variar.\n\nUma referência relativa muda de acordo com o deslocamento da cópia; a absoluta permanece fixa. Referências mistas fixam apenas coluna ou linha.\n\n![Referências e cópia uma coluna à direita e uma linha abaixo.](./media/informatica/referencias.svg)\n\n| Origem da referência | Após copiar +1 coluna e +1 linha |\n|---|---|\n| A1 | B2 |\n| $A$1 | $A$1 |\n| $A1 | $A2 |\n| A$1 | B$1 |\n\nExemplo: B2 contém =A2*$D$1. Ao copiar para B3, obtém-se =A3*$D$1. Isso permite utilizar uma taxa comum a todas as linhas.\n\n# 3. Funções, filtros e erros\n\nConsidere A1:A4 com 4, 6, 8, 10. SOMA retorna 28; MÉDIA, 7; MÁXIMO, 10; MÍNIMO, 4. =CONT.SE(A1:A4;\">=6\") retorna 3. =SOMASE(A1:A4;\">=6\") retorna 24. SE avalia uma condição e retorna uma das duas expressões: =SE(A1>=6;\"Sim\";\"Não\") retorna Não.\n\nCONT.NÚM conta células numéricas; CONT.VALORES conta valores não vazios segundo a semântica da função. Ordenação reorganiza linhas; filtro oculta temporariamente linhas que não atendem ao critério, sem apagar os registros. Formatação condicional modifica aparência segundo regras, não altera por si os valores. #DIV/0! pode indicar divisão por zero; #REF! indica referência inválida. Confira dados, formato, referências e tipo de erro.\n\n# 4. Apresentações e colaboração\n\nPowerPoint e Google Slides organizam apresentações em slides. Tema define elementos visuais; layout dispõe espaços de conteúdo; transição ocorre entre slides; animação afeta objetos. No PowerPoint desktop para Windows, F5 inicia apresentação desde o começo e Shift + F5 inicia do slide atual, conforme contexto. Aplicativos web podem ter comandos diferentes.\n\nColaboração requer permissões: leitura, comentário ou edição conforme a ferramenta. Compartilhar um link não garante acesso universal. Evite conceder edição quando somente leitura é necessária.\n\n# 5. Correio eletrônico\n\nPara indica destinatários principais; CC envia cópia visível; CCO envia cópia ocultando aqueles endereços dos demais destinatários na mensagem original. Quem está em CCO pode expor a própria participação ao responder a todos. Responder dirige-se ao remetente conforme o cabeçalho; responder a todos inclui outros destinatários pertinentes; encaminhar envia a mensagem a novos destinatários.\n\nAnexo é uma cópia do arquivo; link aponta para recurso cuja permissão pode mudar. Confira endereço, assunto, destinatários, anexos e classificação da informação antes de enviar. Gmail e Outlook possuem filtros, busca e organização de mensagens; regras específicas variam com versão e conta.\n\n# 6. Reuniões virtuais\n\nTeams, Zoom e Meet oferecem reuniões com áudio, vídeo, chat e compartilhamento, conforme plano e configuração. Compartilhar aba, janela ou tela inteira possui diferentes riscos de exposição. Silenciar microfone não desliga câmera; desativar vídeo não retira participante. Sala de espera e controles de admissão restringem entrada quando configurados. Gravação depende de permissões, política e finalidade legítima.\n\nRecupere: estilos e revisão; referências relativas, absolutas e mistas; SOMA, SE, CONT.SE; filtro versus exclusão; transição versus animação; Para, CC e CCO; compartilhar apenas o necessário."
     },
     {
       "schema_version": "2.0.0",
@@ -19870,7 +20596,7 @@
       "titulo": "Redes de Computadores, Internet/Intranet, Navegadores e Computação em Nuvem (FCC)",
       "status": "em_auditoria",
       "origem": "edital_explicito",
-      "tempo_leitura_min": 20,
+      "tempo_leitura_min": 30,
       "edital_subtopicos": [
         "Conceitos básicos de internet e intranet",
         "Navegadores (Edge, Firefox e Chrome) e busca avançada",
@@ -19882,55 +20608,83 @@
           "tipo": "edital",
           "nivel_autoridade": 1,
           "url": "https://www.concursosfcc.com.br"
+        },
+        {
+          "referencia_abnt": "Google. Navegação anônima. Consulta em 26 nov. 2026 (trechos indexados ou texto oficial).",
+          "url": "https://support.google.com/chrome/answer/95464?hl=pt-BR",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
+        },
+        {
+          "referencia_abnt": "Google. Refinar pesquisas. Consulta em 26 nov. 2026 (trechos indexados ou texto oficial).",
+          "url": "https://support.google.com/websearch/answer/2466433?hl=pt-br",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
         }
       ],
       "sintese_fcc": {
         "conceitos_nucleares": [
           {
-            "termo": "Intranet",
-            "definicao_precisa": "Rede interna privada corporativa que utiliza os mesmos protocolos da Internet (TCP/IP, HTTP/HTTPS), restrita a usuários autorizados.",
-            "fonte": "Redes de Computadores."
+            "termo": "Internet e intranet",
+            "definicao_precisa": "Redes públicas e privadas",
+            "fonte": "Síntese autoral e referências da unidade."
           },
           {
-            "termo": "Navegação Anônima",
-            "definicao_precisa": "Não registra histórico e cookies no dispositivo local após fechar a janela, mas NÃO oculta o tráfego do provedor, da rede corporativa ou dos sites.",
-            "fonte": "Documentação Navegadores."
+            "termo": "Protocolos",
+            "definicao_precisa": "DNS, TLS/HTTPS, SMTP e IMAP/POP3",
+            "fonte": "Síntese autoral e referências da unidade."
           },
           {
-            "termo": "DNS",
-            "definicao_precisa": "Sistema que traduz nomes de domínio legíveis em endereços IP numéricos.",
-            "fonte": "Redes TCP/IP."
+            "termo": "Privacidade local",
+            "definicao_precisa": "Sessão privada não garante anonimato",
+            "fonte": "Síntese autoral e referências da unidade."
+          },
+          {
+            "termo": "Nuvem",
+            "definicao_precisa": "Sincronização, permissões e backup",
+            "fonte": "Síntese autoral e referências da unidade."
           }
         ],
         "pegadinhas_fcc": [
           {
-            "armadilha": "Dizer que o modo anônimo torna o usuário 100% invisível na rede da empresa ou ao provedor",
-            "como_a_fcc_cobra": "Afirma que a janela anônima impede o administrador da rede ou o provedor de saber quais sites foram acessados.",
-            "como_desarmar": "O modo anônimo apenas não grava rastros no SEU computador/navegador."
+            "armadilha": "HTTPS",
+            "como_a_fcc_cobra": "Exemplo autoral: Site sempre confiável",
+            "como_desarmar": "Distinguir segurança do canal e conteúdo."
+          },
+          {
+            "armadilha": "Modo privado",
+            "como_a_fcc_cobra": "Exemplo autoral: Anonimato total",
+            "como_desarmar": "Limita retenção local."
+          },
+          {
+            "armadilha": "Nuvem",
+            "como_a_fcc_cobra": "Exemplo autoral: Sincronização é backup",
+            "como_desarmar": "Manter cópia recuperável independente."
           }
         ],
         "quadro_comparativo": [
           {
-            "operador_busca": "\"seduc ma\"",
-            "efeito": "Busca a expressão exata"
+            "conceito": "Internet e intranet",
+            "criterio": "Redes públicas e privadas"
           },
           {
-            "operador_busca": "site:ma.gov.br",
-            "efeito": "Restringe resultados ao domínio especificado"
+            "conceito": "Protocolos",
+            "criterio": "DNS, TLS/HTTPS, SMTP e IMAP/POP3"
           },
           {
-            "operador_busca": "filetype:pdf",
-            "efeito": "Retorna apenas arquivos PDF"
+            "conceito": "Privacidade local",
+            "criterio": "Sessão privada não garante anonimato"
           },
           {
-            "operador_busca": "-fgv",
-            "efeito": "Exclui resultados com a palavra 'fgv'"
+            "conceito": "Nuvem",
+            "criterio": "Sincronização, permissões e backup"
           }
         ],
         "checklist_revisao": [
-          "Sei a diferença entre Internet, Intranet e Extranet?",
-          "Sei os limites reais da Navegação Anônima e os atalhos Ctrl+T / Ctrl+Shift+T / Ctrl+H / Ctrl+J?",
-          "Sei usar operadores de busca avançada e distinguir HTTP de HTTPS?"
+          "Consigo aplicar internet e intranet em situação nova?",
+          "Consigo aplicar protocolos em situação nova?",
+          "Consigo aplicar privacidade local em situação nova?",
+          "Consigo aplicar nuvem em situação nova?"
         ]
       },
       "questoes": [
@@ -19943,14 +20697,14 @@
             "A": "desabilita o protocolo HTTPS em todos os sites.",
             "B": "garante anonimato absoluto perante provedores, sites visitados e administradores da rede corporativa.",
             "C": "impede automaticamente a instalação de qualquer vírus ou arquivo baixado pelo usuário.",
-            "D": "impede que o navegador salve localmente o histórico de navegação, cookies e dados preenchidos em formulários após fechar as janelas anônimas, mas não torna a atividade invisível ao provedor de internet ou à rede da instituição.",
+            "D": "limita a retenção local do histórico e dos dados temporários de navegação após fechar a sessão privativa, mas não oculta necessariamente a atividade de sites, provedor ou rede institucional.",
             "E": "apaga todos os arquivos salvos na pasta Documentos do computador."
           },
           "gabarito": "D",
-          "justificativa_gabarito": "A navegação anônima atua apenas no âmbito local do dispositivo (não grava histórico/cookies ao encerrar), sem ocultar o IP ou o tráfego do provedor/rede/servidores.",
+          "justificativa_gabarito": "O modo privado limita a retenção local de dados da sessão; downloads e favoritos podem persistir. Não garante anonimato perante terceiros.",
           "analise_distratores": {
             "A": "Mantém HTTPS.",
-            "B": "Pegadinha clássica de prova.",
+            "B": "Sites, provedor e administrador ainda podem observar atividades.",
             "C": "Downloads feitos no modo anônimo permanecem no computador e podem conter malware.",
             "E": "Não apaga arquivos pessoais."
           },
@@ -19961,7 +20715,7 @@
           "questao_id": "CG-INF-03-Q002",
           "origem": "inedita_padrao_fcc",
           "referencia_prova": "Inédita — padrão FCC / Edital SEDUC-MA 01/2026",
-          "enunciado": "Para localizar exclusivamente editais em formato PDF publicados no portal oficial do governo maranhense usando busca avançada no Google, a combinação de operadores correta é:",
+          "enunciado": "Para restringir a busca do Google a resultados indexados em PDF no domínio ma.gov.br, qual consulta usa os operadores adequados?",
           "alternativas": {
             "A": "edital @pdf #ma.gov.br",
             "B": "edital -pdf -ma.gov.br",
@@ -19970,7 +20724,7 @@
             "E": "edital OR -pdf"
           },
           "gabarito": "C",
-          "justificativa_gabarito": "'site:ma.gov.br' restringe ao domínio e 'filetype:pdf' filtra apenas arquivos PDF.",
+          "justificativa_gabarito": "site: delimita o domínio e filetype:pdf restringe o formato nos resultados indexados, sem garantir cobertura exaustiva.",
           "analise_distratores": {
             "A": "Sintaxe inválida.",
             "B": "O sinal '-' exclui os termos.",
@@ -20048,13 +20802,197 @@
           },
           "dificuldade": "basica",
           "subtopico": "Conceitos básicos de internet e intranet"
+        },
+        {
+          "questao_id": "CG-INF-03-EXP-Q001",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão autoral de treino; não é questão oficial FCC",
+          "enunciado": "Um laboratório possui conexão Wi-Fi com o roteador, mas o enlace externo está indisponível. Os computadores ainda acessam um servidor local. Isso demonstra que",
+          "alternativas": {
+            "A": "Wi-Fi e internet são o mesmo serviço.",
+            "B": "servidores locais dependem sempre da internet pública.",
+            "C": "a rede local pode funcionar sem acesso externo à internet.",
+            "D": "o protocolo IP exige acesso à Web.",
+            "E": "intranet só funciona por conexão móvel."
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "LAN pode operar independentemente do enlace externo.",
+          "analise_distratores": {
+            "A": "Wi-Fi conecta à rede local.",
+            "B": "Servidor local pode funcionar na LAN.",
+            "D": "IP é usado também em redes locais.",
+            "E": "Intranet não exige rede móvel."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Conceitos básicos de internet e intranet"
+        },
+        {
+          "questao_id": "CG-INF-03-EXP-Q002",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão autoral de treino; não é questão oficial FCC",
+          "enunciado": "Qual associação está correta?",
+          "alternativas": {
+            "A": "DNS — envio de e-mail.",
+            "B": "SMTP — transferência de mensagens de correio eletrônico.",
+            "C": "IMAP — endereçamento físico de periféricos.",
+            "D": "HTTPS — remoção de cookies.",
+            "E": "POP3 — resolução de domínios."
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "SMTP transporta e envia mensagens de correio.",
+          "analise_distratores": {
+            "A": "DNS resolve nomes.",
+            "C": "IMAP acessa caixas de e-mail.",
+            "D": "HTTPS protege comunicação Web.",
+            "E": "POP3 recupera mensagens."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Conceitos básicos de internet e intranet"
+        },
+        {
+          "questao_id": "CG-INF-03-EXP-Q003",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão autoral de treino; não é questão oficial FCC",
+          "enunciado": "Um site de fraude possui certificado TLS válido para seu próprio domínio. A presença de HTTPS",
+          "alternativas": {
+            "A": "prova legitimidade comercial do conteúdo.",
+            "B": "impede que o usuário forneça senha a golpista.",
+            "C": "dispensa conferir o domínio.",
+            "D": "protege a comunicação conforme validação, mas não garante que o conteúdo seja confiável.",
+            "E": "torna a navegação anônima perante o provedor."
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "TLS protege o canal; conteúdo fraudulento ainda é possível.",
+          "analise_distratores": {
+            "A": "Certificado não atesta honestidade.",
+            "B": "Usuário ainda pode revelar credenciais.",
+            "C": "Domínio deve ser conferido.",
+            "E": "TLS não fornece anonimato absoluto."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Conceitos básicos de internet e intranet"
+        },
+        {
+          "questao_id": "CG-INF-03-EXP-Q004",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão autoral de treino; não é questão oficial FCC",
+          "enunciado": "Ao concluir uma sessão privada do navegador, um arquivo baixado e gravado na pasta Downloads",
+          "alternativas": {
+            "A": "pode permanecer no armazenamento, ainda que o histórico privado seja descartado.",
+            "B": "é sempre apagado automaticamente.",
+            "C": "torna-se criptografado pelo modo privado.",
+            "D": "é enviado à Lixeira em qualquer navegador.",
+            "E": "não pode conter malware."
+          },
+          "gabarito": "A",
+          "justificativa_gabarito": "O modo privado limita retenção de dados da sessão, não apaga arquivos salvos.",
+          "analise_distratores": {
+            "B": "Downloads podem persistir.",
+            "C": "Modo privado não cifra automaticamente arquivos.",
+            "D": "Não há esse comportamento geral.",
+            "E": "Downloads podem ser maliciosos."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Navegadores (Edge, Firefox e Chrome) e busca avançada"
+        },
+        {
+          "questao_id": "CG-INF-03-EXP-Q005",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão autoral de treino; não é questão oficial FCC",
+          "enunciado": "Para buscar no Google documentos PDF em um domínio específico e contendo uma expressão exata, qual consulta é adequada?",
+          "alternativas": {
+            "A": "pdf:gov.br educação ambiental",
+            "B": "site: gov.br formato:pdf",
+            "C": "-gov.br -pdf educação ambiental",
+            "D": "site:pdf \"gov.br\"",
+            "E": "\"educação ambiental\" site:gov.br filetype:pdf"
+          },
+          "gabarito": "E",
+          "justificativa_gabarito": "Aspas, site: e filetype: restringem os resultados indexados.",
+          "analise_distratores": {
+            "A": "pdf: não é o operador indicado.",
+            "B": "Há espaço após site: e operador inadequado.",
+            "C": "Exclui termos.",
+            "D": "site: deve receber domínio."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Navegadores (Edge, Firefox e Chrome) e busca avançada"
+        },
+        {
+          "questao_id": "CG-INF-03-EXP-Q006",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão autoral de treino; não é questão oficial FCC",
+          "enunciado": "Um arquivo sincronizado em nuvem é apagado por engano, e a exclusão se propaga a outros dispositivos. A melhor conclusão é",
+          "alternativas": {
+            "A": "sincronização impede exclusões.",
+            "B": "armazenamento remoto garante recuperação ilimitada.",
+            "C": "sincronização não substitui backup independente com recuperação testada.",
+            "D": "um editor não consegue apagar arquivos.",
+            "E": "desativar cookies recupera a cópia."
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "Alterações podem ser propagadas; backup independente reduz risco de perda.",
+          "analise_distratores": {
+            "A": "Exclusões podem sincronizar.",
+            "B": "Retenção varia.",
+            "D": "Editor pode ter permissões de alteração/exclusão.",
+            "E": "Cookies não restauram arquivos."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Armazenamento e compartilhamento em rede e nuvem"
+        },
+        {
+          "questao_id": "CG-INF-03-EXP-Q007",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão autoral de treino; não é questão oficial FCC",
+          "enunciado": "Em uma pasta compartilhada, um colaborador precisa consultar documentos, sem modificá-los. A medida adequada é",
+          "alternativas": {
+            "A": "conceder acesso de proprietário.",
+            "B": "atribuir permissão de leitura, conforme a plataforma.",
+            "C": "publicar link aberto com edição.",
+            "D": "compartilhar a senha do proprietário.",
+            "E": "conceder administração do domínio."
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "Leitura é suficiente e aplica privilégio mínimo.",
+          "analise_distratores": {
+            "A": "Permissão excessiva.",
+            "C": "Exposição e alteração desnecessárias.",
+            "D": "Credenciais não devem ser compartilhadas.",
+            "E": "Administração é excessiva."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Armazenamento e compartilhamento em rede e nuvem"
+        },
+        {
+          "questao_id": "CG-INF-03-EXP-Q008",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão autoral de treino; não é questão oficial FCC",
+          "enunciado": "Uma instituição usa um editor de documentos diretamente pelo navegador, sem administrar os servidores ou o ambiente de execução. O modelo de serviço mais compatível é",
+          "alternativas": {
+            "A": "IaaS",
+            "B": "PaaS",
+            "C": "LAN",
+            "D": "SaaS",
+            "E": "DNS"
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "SaaS entrega aplicação como serviço.",
+          "analise_distratores": {
+            "A": "Infraestrutura não é a aplicação pronta.",
+            "B": "PaaS fornece ambiente de desenvolvimento.",
+            "C": "É tipo de rede.",
+            "E": "É serviço de resolução de nomes."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Armazenamento e compartilhamento em rede e nuvem"
         }
       ],
       "flashcards": [
         {
           "card_id": "CG-INF-03-FC001",
           "frente": "A navegação anônima esconde os sites acessados do provedor ou da empresa?",
-          "verso": "Não! Apenas impede a gravação de histórico e cookies localmente no dispositivo.",
+          "verso": "Não. Limita dados retidos localmente após fechar a sessão; downloads e favoritos podem persistir.",
           "tipo": "pegadinha_fcc",
           "tags": [
             "navegadores"
@@ -20072,7 +21010,7 @@
         {
           "card_id": "CG-INF-03-FC003",
           "frente": "O que faz o DNS?",
-          "verso": "Traduz nomes de domínio (URLs) em endereços IP numéricos.",
+          "verso": "Resolve nomes de domínio em registros, inclusive endereços IP; não a URL inteira.",
           "tipo": "conceito",
           "tags": [
             "protocolos"
@@ -20098,15 +21036,155 @@
         },
         {
           "card_id": "CG-INF-03-FC006",
-          "frente": "O que o 'S' em HTTPS garante?",
-          "verso": "Comunicação criptografada entre navegador e servidor (TLS/SSL).",
+          "frente": "O que HTTPS protege e o que não garante?",
+          "verso": "TLS protege o canal e autentica o servidor conforme validação; não garante honestidade do conteúdo.",
           "tipo": "conceito",
           "tags": [
             "https"
           ]
+        },
+        {
+          "card_id": "CG-INF-03-EXP-FC001",
+          "frente": "LAN × WAN",
+          "verso": "Rede local × rede de área ampla.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-03"
+          ]
+        },
+        {
+          "card_id": "CG-INF-03-EXP-FC002",
+          "frente": "Wi-Fi × internet",
+          "verso": "Tecnologia de conexão sem fio × rede mundial.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-03"
+          ]
+        },
+        {
+          "card_id": "CG-INF-03-EXP-FC003",
+          "frente": "Web × internet",
+          "verso": "Serviço de páginas/recursos × infraestrutura de redes.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-03"
+          ]
+        },
+        {
+          "card_id": "CG-INF-03-EXP-FC004",
+          "frente": "Roteador",
+          "verso": "Encaminha pacotes entre redes.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-03"
+          ]
+        },
+        {
+          "card_id": "CG-INF-03-EXP-FC005",
+          "frente": "DNS",
+          "verso": "Resolve nomes de domínio em registros.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-03"
+          ]
+        },
+        {
+          "card_id": "CG-INF-03-EXP-FC006",
+          "frente": "SMTP",
+          "verso": "Envio/transferência de e-mail.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-03"
+          ]
+        },
+        {
+          "card_id": "CG-INF-03-EXP-FC007",
+          "frente": "IMAP",
+          "verso": "Acesso e sincronização de caixa no servidor.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-03"
+          ]
+        },
+        {
+          "card_id": "CG-INF-03-EXP-FC008",
+          "frente": "POP3",
+          "verso": "Recuperação de mensagens; retenção depende de configuração.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-03"
+          ]
+        },
+        {
+          "card_id": "CG-INF-03-EXP-FC009",
+          "frente": "Cache de navegador",
+          "verso": "Armazena recursos para reaproveitamento.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-03"
+          ]
+        },
+        {
+          "card_id": "CG-INF-03-EXP-FC010",
+          "frente": "Cookie",
+          "verso": "Dados usados para sessão e preferências, entre outras finalidades.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-03"
+          ]
+        },
+        {
+          "card_id": "CG-INF-03-EXP-FC011",
+          "frente": "Modo privado e downloads",
+          "verso": "Arquivos baixados podem persistir.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-03"
+          ]
+        },
+        {
+          "card_id": "CG-INF-03-EXP-FC012",
+          "frente": "site: e filetype:",
+          "verso": "Restringem resultados indexados por domínio e formato.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-03"
+          ]
+        },
+        {
+          "card_id": "CG-INF-03-EXP-FC013",
+          "frente": "Sincronização × backup",
+          "verso": "Replica mudanças × possibilita recuperação independente.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-03"
+          ]
+        },
+        {
+          "card_id": "CG-INF-03-EXP-FC014",
+          "frente": "SaaS",
+          "verso": "Aplicação entregue como serviço.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-03"
+          ]
         }
       ],
-      "teoria_md": "---\ntopico_id: CG-INF-03\nslug: redes-navegadores-nuvem\ntitulo: \"Redes de Computadores, Internet/Intranet, Navegadores e Computação em Nuvem (FCC)\"\nedital: SEDUC-MA-01-2026\nbanca: FCC\nstatus: em_auditoria\n---\n\n# 1. Delimitação no Edital (Camada A)\n- **Itens explícitos (p. 61):** *Redes de computadores: conceitos básicos de internet e intranet. Navegadores de internet (Microsoft Edge, Mozilla Firefox e Google Chrome). Pesquisa e busca avançada na internet. Armazenamento e compartilhamento de arquivos em rede e na nuvem.*\n\n# 2. Internet, Intranet, Extranet e Protocolos Básicos\n- **Internet:** rede pública mundial baseada na pilha **TCP/IP**.\n- **Intranet:** rede **privada e interna** de uma organização (usa os mesmos protocolos web da Internet — HTTP/HTTPS, navegadores —, porém com acesso restrito a colaboradores autenticados).\n- **Extranet:** extensão controlada da intranet para parceiros externos/fornecedores autenticados.\n- **Protocolos essenciais:** **HTTP / HTTPS** (navegação web; o `S` indica criptografia TLS/SSL), **DNS** (traduz nomes de domínio como `concursosfcc.com.br` em endereços **IP**), **SMTP** (envio de e-mail) e **IMAP/POP3** (recebimento de e-mail).\n\n# 3. Navegadores, Busca Avançada e Nuvem\n- **Atalhos universais em Chrome, Edge e Firefox:**\n  - `Ctrl + T`: nova aba; `Ctrl + W`: fecha aba; `Ctrl + Shift + T`: reabre última aba fechada.\n  - `Ctrl + H`: Histórico; `Ctrl + J`: Downloads; `Ctrl + D`: Favoritos.\n  - **Navegação Anônima/Privativa:** `Ctrl + Shift + N` (Chrome/Edge) ou `Ctrl + Shift + P` (Firefox) — **não salva histórico, cookies nem dados de formulário localmente**, mas **não torna o usuário invisível** ao provedor, à rede da empresa ou ao site visitado!\n- **Operadores de Busca Avançada:** `\"termo exato\"` (aspas), `-palavra` (exclui termo), `site:gov.br` (restringe ao domínio), `filetype:pdf` (tipo de arquivo).\n- **Nuvem:** armazenamento e sincronização online (Google Drive, OneDrive) com modelos **IaaS, PaaS e SaaS**.\n"
+      "teoria_md": "# 1. Redes e arquitetura básica\n\nRede conecta dispositivos para troca de informações. LAN abrange área local; WAN conecta áreas mais amplas. Wi-Fi é tecnologia de rede sem fio, não sinônimo de acesso à internet. Um switch encaminha quadros dentro de redes locais; roteador encaminha pacotes entre redes. Um ponto de acesso permite conexão sem fio. Equipamentos domésticos podem combinar várias funções.\n\nInternet é uma rede mundial de redes. Web é um serviço que utiliza a internet; e-mail e outras aplicações também a utilizam. Intranet é ambiente privado organizacional; extranet oferece acesso controlado a participantes externos. VPN pode criar túnel protegido entre pontos; não garante anonimato ou segurança total.\n\n# 2. Protocolos e endereços\n\nIP permite endereçamento e encaminhamento de pacotes. TCP fornece transporte confiável e ordenado de fluxo de bytes; UDP utiliza datagramas, sem as mesmas garantias de entrega. DNS resolve nomes de domínio em registros, inclusive endereços IP; não traduz necessariamente a URL inteira. URL inclui esquema, nome do host e, conforme o caso, caminho e outros elementos.\n\nHTTP é protocolo de aplicação para a Web. HTTPS utiliza proteção TLS: cifra dados em trânsito, protege integridade e permite autenticar o servidor conforme certificados e validação. Não certifica que todo conteúdo do site seja verdadeiro ou benigno. SMTP é usado para envio/transferência de mensagens; IMAP permite acessar e sincronizar caixas no servidor; POP3 recupera mensagens, com comportamento de retenção configurável.\n\n# 3. Navegadores e dados locais\n\nChrome, Edge e Firefox interpretam páginas; mecanismos de busca localizam recursos indexados. Histórico registra páginas visitadas; cache armazena recursos para reaproveitamento; cookies guardam informações de sessão e preferências, entre outras finalidades. Favoritos permitem retomar endereços. Limpar cookies pode encerrar sessões; limpar histórico não apaga necessariamente arquivos baixados.\n\nNo Windows, Ctrl+T normalmente abre aba; Ctrl+W fecha aba; Ctrl+Shift+T restaura aba fechada conforme contexto. Ctrl+H abre histórico; Ctrl+J, downloads. Modo privado costuma ser Ctrl+Shift+N em Chrome/Edge e Ctrl+Shift+P no Firefox. Após encerrar a sessão privada, o navegador geralmente não retém o histórico e os dados temporários daquela sessão. Downloads e favoritos criados podem persistir. Redes, serviços e provedores ainda podem observar atividades; modo privado não é VPN nem antivírus.\n\n# 4. Pesquisa e busca avançada\n\nNo Google, aspas buscam expressão exata, site: delimita site/domínio, filetype: restringe formato e sinal de menos exclui termos. Exemplo: \"educação ambiental\" site:gov.br filetype:pdf. Não insira espaço entre o operador e seu parâmetro. A busca não garante inventário completo: depende de indexação e critérios do mecanismo.\n\nAvalie autoria, data, fonte primária, contexto e evidências. Uma página bem posicionada não é necessariamente oficial. Confirme legislação no portal oficial e confira vigência. Diferencie endereço aparente e domínio real antes de informar dados.\n\n# 5. Nuvem, sincronização e compartilhamento\n\nArmazenamento em nuvem utiliza infraestrutura remota acessada por rede. Drive e OneDrive oferecem sincronização e compartilhamento, conforme conta. Sincronizar propaga alterações e, em certos casos, exclusões; backup busca recuperação independente. Arquivos podem estar somente on-line, disponíveis localmente ou sincronizados; o ícone e o comportamento dependem da plataforma.\n\nConceda acesso mínimo necessário: leitor, comentarista ou editor quando disponíveis. Revogar link público ou acesso de colaborador reduz exposição futura, mas não recupera cópias que já foram baixadas. Criptografia em trânsito e em repouso são distintas.\n\n# 6. Modelos de serviço e revisão\n\nIaaS oferece infraestrutura computacional; PaaS oferece ambiente gerenciado para desenvolvimento e implantação; SaaS entrega aplicativo utilizado pelo cliente. A responsabilidade por segurança é compartilhada e varia com serviço e contrato. Nuvem não elimina necessidade de conexão, controle de acesso, cópias e governança.\n\nRecupere: internet versus web; intranet e extranet; DNS e HTTPS; SMTP, IMAP e POP3; dados privados do navegador; operadores de busca; diferença de sincronização e backup; permissões."
     },
     {
       "schema_version": "2.0.0",
@@ -20116,7 +21194,7 @@
       "titulo": "Segurança da Informação: Ameaças (Malware, Phishing), Defesas (Firewall, MFA) e Backup (FCC)",
       "status": "em_auditoria",
       "origem": "edital_explicito",
-      "tempo_leitura_min": 25,
+      "tempo_leitura_min": 30,
       "edital_subtopicos": [
         "Ameaças digitais: vírus, malware, phishing e engenharia social",
         "Defesas: antivírus, firewall, senhas seguras, MFA e backup"
@@ -20132,59 +21210,89 @@
           "referencia_abnt": "CERT.BR. Cartilha de Segurança para Internet. São Paulo: NIC.br, 2023.",
           "tipo": "institucional",
           "nivel_autoridade": 3
+        },
+        {
+          "referencia_abnt": "CERT.br. Ransomware. Consulta em 26 nov. 2026 (trechos indexados ou texto oficial).",
+          "url": "https://cartilha.cert.br/ransomware/",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
+        },
+        {
+          "referencia_abnt": "CERT.br. Ransomware: como responder. Consulta em 26 nov. 2026 (trechos indexados ou texto oficial).",
+          "url": "https://www.cartilha.cert.br/docs/ransomware/responder/",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
+        },
+        {
+          "referencia_abnt": "CERT.br. Dicas rápidas. Consulta em 26 nov. 2026 (trechos indexados ou texto oficial).",
+          "url": "https://cartilha.cert.br/dicas-rapidas/",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
         }
       ],
       "sintese_fcc": {
         "conceitos_nucleares": [
           {
-            "termo": "Ransomware",
-            "definicao_precisa": "Malware que criptografa/bloqueia dados do usuário e exige pagamento de resgate; a principal proteção preventiva é backup offline/isolado.",
-            "fonte": "CERT.BR."
+            "termo": "Tríade",
+            "definicao_precisa": "Confidencialidade, integridade e disponibilidade",
+            "fonte": "Síntese autoral e referências da unidade."
           },
           {
-            "termo": "Vírus vs. Worm",
-            "definicao_precisa": "Vírus depende de arquivo hospedeiro e execução pelo usuário; Worm propaga-se autonomamente pela rede.",
-            "fonte": "CERT.BR."
+            "termo": "Malware",
+            "definicao_precisa": "Distinguir propagação e finalidade",
+            "fonte": "Síntese autoral e referências da unidade."
           },
           {
-            "termo": "Phishing",
-            "definicao_precisa": "Técnica de engenharia social que usa páginas/mensagens falsas imitando entidades legítimas para capturar credenciais.",
-            "fonte": "CERT.BR."
+            "termo": "MFA",
+            "definicao_precisa": "Fatores de categorias diferentes",
+            "fonte": "Síntese autoral e referências da unidade."
+          },
+          {
+            "termo": "Backup",
+            "definicao_precisa": "Cadeias de restauração e cópias independentes",
+            "fonte": "Síntese autoral e referências da unidade."
           }
         ],
         "pegadinhas_fcc": [
           {
-            "armadilha": "Dizer que Firewall elimina a necessidade de Antivírus (ou vice-versa)",
-            "como_a_fcc_cobra": "Afirma que instalar um firewall torna dispensável o antivírus e o backup.",
-            "como_desarmar": "Firewall filtra tráfego de rede; Antivírus analisa arquivos/processos; Backup recupera dados. São camadas complementares!"
+            "armadilha": "Vírus",
+            "como_a_fcc_cobra": "Exemplo autoral: Sempre exige clique",
+            "como_desarmar": "Depende de hospedeiro, execução pode variar."
+          },
+          {
+            "armadilha": "MFA",
+            "como_a_fcc_cobra": "Exemplo autoral: Duas senhas bastam",
+            "como_desarmar": "Categorias distintas."
+          },
+          {
+            "armadilha": "3-2-1",
+            "como_a_fcc_cobra": "Exemplo autoral: Fora do local é sinônimo de offline",
+            "como_desarmar": "São proteções distintas."
           }
         ],
         "quadro_comparativo": [
           {
-            "ameaca": "Vírus",
-            "caracteristica": "Precisa de hospedeiro e clique/execução"
+            "conceito": "Tríade",
+            "criterio": "Confidencialidade, integridade e disponibilidade"
           },
           {
-            "ameaca": "Worm",
-            "caracteristica": "Auto-replicação autônoma pela rede"
+            "conceito": "Malware",
+            "criterio": "Distinguir propagação e finalidade"
           },
           {
-            "ameaca": "Trojan",
-            "caracteristica": "Disfarça-se de programa legítimo"
+            "conceito": "MFA",
+            "criterio": "Fatores de categorias diferentes"
           },
           {
-            "ameaca": "Ransomware",
-            "caracteristica": "Criptografa dados e exige resgate"
-          },
-          {
-            "ameaca": "Phishing",
-            "caracteristica": "Engenharia social via link/mensagem falsa"
+            "conceito": "Backup",
+            "criterio": "Cadeias de restauração e cópias independentes"
           }
         ],
         "checklist_revisao": [
-          "Sei diferenciar vírus, worm, trojan, spyware, ransomware e phishing?",
-          "Sei os papéis complementares de antivírus, firewall, MFA e backup?",
-          "Sei a diferença entre backup completo, incremental e diferencial?"
+          "Consigo aplicar tríade em situação nova?",
+          "Consigo aplicar malware em situação nova?",
+          "Consigo aplicar mfa em situação nova?",
+          "Consigo aplicar backup em situação nova?"
         ]
       },
       "questoes": [
@@ -20240,19 +21348,19 @@
           "referencia_prova": "Inédita — padrão FCC / Edital SEDUC-MA 01/2026",
           "enunciado": "Em Segurança da Informação, a diferença técnica entre um Vírus e um Worm reside no fato de que o Worm",
           "alternativas": {
-            "A": "não necessita de um arquivo hospedeiro nem de ação direta do usuário para se propagar, replicando-se automaticamente pelas redes.",
+            "A": "é autorreplicante e pode propagar-se automaticamente sem inserir-se em arquivo hospedeiro.",
             "B": "só se propaga por disquetes físicos sem uso de rede.",
             "C": "é um mecanismo oficial de backup do Windows.",
             "D": "protege o sistema contra acessos não autorizados.",
             "E": "só afeta impressoras desligadas."
           },
           "gabarito": "A",
-          "justificativa_gabarito": "Enquanto o vírus se acopla a arquivos/programas e depende da execução pelo usuário, o worm explora falhas de rede e se propaga de forma autônoma.",
+          "justificativa_gabarito": "Worm é autorreplicante e não depende de hospedeiro; vírus depende de código hospedeiro, mas sua execução não exige necessariamente clique consciente.",
           "analise_distratores": {
-            "B": "Incorreto.",
-            "C": "Incorreto.",
+            "B": "Worm pode propagar-se por redes.",
+            "C": "Backup é cópia de recuperação.",
             "D": "Descreve firewall/antivírus.",
-            "E": "Absurdo."
+            "E": "Worm não se limita a impressoras."
           },
           "dificuldade": "basica",
           "subtopico": "Ameaças digitais: vírus, malware, phishing e engenharia social"
@@ -20296,11 +21404,195 @@
           "justificativa_gabarito": "Segurança em camadas exige firewall (rede), antivírus (endpoint/arquivos), MFA (acesso) e backup externo/offline (recuperação).",
           "analise_distratores": {
             "B": "Firewall não recupera dados perdidos.",
-            "C": "Falha física do disco ou ransomware destrói a cópia no mesmo local.",
+            "C": "Cópia no mesmo disco fica exposta à falha física e a ataques que atinjam o local.",
             "D": "Esse é o backup Completo/Full.",
             "E": "Senhas seguras devem ser longas, únicas e complexas."
           },
           "dificuldade": "basica",
+          "subtopico": "Defesas: antivírus, firewall, senhas seguras, MFA e backup"
+        },
+        {
+          "questao_id": "CG-INF-04-EXP-Q001",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão autoral de treino; não é questão oficial FCC",
+          "enunciado": "Em um sistema de notas, um usuário não autorizado consegue modificar resultados, sem impedir o acesso ao sistema. O atributo diretamente comprometido pela alteração é",
+          "alternativas": {
+            "A": "disponibilidade exclusivamente.",
+            "B": "compactação.",
+            "C": "integridade.",
+            "D": "interoperabilidade.",
+            "E": "redundância."
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "Integridade protege contra alterações indevidas.",
+          "analise_distratores": {
+            "A": "Sistema continua acessível.",
+            "B": "Não é atributo da tríade.",
+            "D": "Capacidade de integração não é o problema.",
+            "E": "Redundância não define exatidão dos dados."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Ameaças digitais: vírus, malware, phishing e engenharia social"
+        },
+        {
+          "questao_id": "CG-INF-04-EXP-Q002",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão autoral de treino; não é questão oficial FCC",
+          "enunciado": "Um programa malicioso é capaz de se replicar e se espalhar automaticamente, sem depender de inserir seu código em outro arquivo hospedeiro. A descrição corresponde principalmente a",
+          "alternativas": {
+            "A": "vírus de arquivo.",
+            "B": "worm.",
+            "C": "firewall.",
+            "D": "backup diferencial.",
+            "E": "cookie de sessão."
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "Worm é autorreplicante e não necessita de arquivo hospedeiro.",
+          "analise_distratores": {
+            "A": "Vírus depende de hospedeiro.",
+            "C": "Firewall é defesa.",
+            "D": "Backup é recuperação.",
+            "E": "Cookie não é classificado assim."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Ameaças digitais: vírus, malware, phishing e engenharia social"
+        },
+        {
+          "questao_id": "CG-INF-04-EXP-Q003",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão autoral de treino; não é questão oficial FCC",
+          "enunciado": "Uma mensagem exige validação urgente de senha por link inesperado, supostamente enviado pela direção. A conduta mais apropriada é",
+          "alternativas": {
+            "A": "responder informando a senha.",
+            "B": "clicar e testar com as credenciais reais.",
+            "C": "encaminhar o link a todos os colegas.",
+            "D": "confirmar a solicitação por canal oficial independente e comunicar a suspeita.",
+            "E": "desativar o antimalware para abrir o endereço."
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "Verificação independente e comunicação reduzem risco de phishing.",
+          "analise_distratores": {
+            "A": "Expõe credencial.",
+            "B": "Pode entregar credenciais.",
+            "C": "Amplia exposição.",
+            "E": "Remove proteção."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Ameaças digitais: vírus, malware, phishing e engenharia social"
+        },
+        {
+          "questao_id": "CG-INF-04-EXP-Q004",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão autoral de treino; não é questão oficial FCC",
+          "enunciado": "Qual alternativa combina dois fatores de autenticação de categorias distintas?",
+          "alternativas": {
+            "A": "Senha e chave de segurança física.",
+            "B": "Senha e PIN memorizado.",
+            "C": "Duas senhas.",
+            "D": "Pergunta secreta e senha.",
+            "E": "PIN e resposta de segurança memorizada."
+          },
+          "gabarito": "A",
+          "justificativa_gabarito": "Conhecimento e posse são categorias distintas.",
+          "analise_distratores": {
+            "B": "Ambos são conhecimento.",
+            "C": "Ambos são conhecimento.",
+            "D": "Ambos são conhecimento.",
+            "E": "Ambos são conhecimento."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Defesas: antivírus, firewall, senhas seguras, MFA e backup"
+        },
+        {
+          "questao_id": "CG-INF-04-EXP-Q005",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão autoral de treino; não é questão oficial FCC",
+          "enunciado": "Uma organização precisa restringir conexões de rede por endereço e porta, conforme política. O recurso adequado é",
+          "alternativas": {
+            "A": "compactador.",
+            "B": "editor de texto.",
+            "C": "backup completo.",
+            "D": "desfragmentador.",
+            "E": "firewall."
+          },
+          "gabarito": "E",
+          "justificativa_gabarito": "Firewall filtra tráfego segundo regras.",
+          "analise_distratores": {
+            "A": "Compacta arquivos.",
+            "B": "Edita texto.",
+            "C": "Recupera dados.",
+            "D": "Organiza armazenamento; não filtra tráfego."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Defesas: antivírus, firewall, senhas seguras, MFA e backup"
+        },
+        {
+          "questao_id": "CG-INF-04-EXP-Q006",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão autoral de treino; não é questão oficial FCC",
+          "enunciado": "Com backup completo na segunda e incrementais válidos na terça e quarta, a restauração convencional ao estado da quarta exige",
+          "alternativas": {
+            "A": "somente o incremental de quarta.",
+            "B": "somente o completo de segunda.",
+            "C": "o completo e os incrementais de terça e quarta.",
+            "D": "o completo e somente o incremental de quarta.",
+            "E": "apenas a sincronização da pasta."
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "Incrementais dependem da cadeia desde o completo.",
+          "analise_distratores": {
+            "A": "Faltam os dados anteriores.",
+            "B": "Faltam alterações posteriores.",
+            "D": "Falta o incremental de terça.",
+            "E": "Sincronização não substitui cadeia de backup."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Defesas: antivírus, firewall, senhas seguras, MFA e backup"
+        },
+        {
+          "questao_id": "CG-INF-04-EXP-Q007",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão autoral de treino; não é questão oficial FCC",
+          "enunciado": "Com backup completo na segunda e diferenciais válidos na terça e quarta, qual conjunto mínimo restaura o estado da quarta?",
+          "alternativas": {
+            "A": "apenas o diferencial de quarta.",
+            "B": "completo de segunda e diferencial de quarta.",
+            "C": "completo e diferencial de terça.",
+            "D": "apenas os dois diferenciais.",
+            "E": "completo e todos os incrementais."
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "O diferencial mais recente contém mudanças desde o completo.",
+          "analise_distratores": {
+            "A": "Falta a base.",
+            "C": "Faltam alterações de quarta.",
+            "D": "Falta a base completa.",
+            "E": "Não há incrementais no cenário."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Defesas: antivírus, firewall, senhas seguras, MFA e backup"
+        },
+        {
+          "questao_id": "CG-INF-04-EXP-Q008",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão autoral de treino; não é questão oficial FCC",
+          "enunciado": "Na estratégia 3-2-1 de backup, a interpretação convencional é",
+          "alternativas": {
+            "A": "três cópias em uma única pasta.",
+            "B": "dois originais, um usuário e uma senha.",
+            "C": "três dispositivos conectados permanentemente ao mesmo computador.",
+            "D": "três cópias no total, dois tipos de mídia, uma cópia fora do local.",
+            "E": "três senhas para cada arquivo."
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "A estratégia reduz dependência de uma única mídia e localização.",
+          "analise_distratores": {
+            "A": "Mesmo local/mídia não satisfaz.",
+            "B": "Não descreve cópias.",
+            "C": "Exposição comum aumenta risco.",
+            "E": "Não é estratégia de senha."
+          },
+          "dificuldade": "intermediaria",
           "subtopico": "Defesas: antivírus, firewall, senhas seguras, MFA e backup"
         }
       ],
@@ -20308,7 +21600,7 @@
         {
           "card_id": "CG-INF-04-FC001",
           "frente": "Qual a diferença entre Vírus e Worm?",
-          "verso": "Vírus precisa de arquivo hospedeiro e ação do usuário; Worm propaga-se automaticamente pela rede.",
+          "verso": "Vírus depende de código hospedeiro; worm é autorreplicante. Nem todo vírus exige clique consciente.",
           "tipo": "comparacao",
           "tags": [
             "malware"
@@ -20317,7 +21609,7 @@
         {
           "card_id": "CG-INF-04-FC002",
           "frente": "O que faz um Ransomware e qual a melhor defesa contra ele?",
-          "verso": "Criptografa os arquivos e exige resgate; a melhor defesa preventiva é manter backup offline/isolado (regra 3-2-1).",
+          "verso": "Restringe acesso e exige resgate; reduzir risco com camadas de proteção e backups independentes, preferencialmente offline/imutáveis.",
           "tipo": "conceito",
           "tags": [
             "ransomware",
@@ -20359,9 +21651,149 @@
           "tags": [
             "backup"
           ]
+        },
+        {
+          "card_id": "CG-INF-04-EXP-FC001",
+          "frente": "Confidencialidade",
+          "verso": "Acesso somente por autorizados.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-04"
+          ]
+        },
+        {
+          "card_id": "CG-INF-04-EXP-FC002",
+          "frente": "Integridade",
+          "verso": "Proteção contra alteração indevida.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-04"
+          ]
+        },
+        {
+          "card_id": "CG-INF-04-EXP-FC003",
+          "frente": "Disponibilidade",
+          "verso": "Recursos acessíveis quando necessários.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-04"
+          ]
+        },
+        {
+          "card_id": "CG-INF-04-EXP-FC004",
+          "frente": "Vulnerabilidade",
+          "verso": "Fraqueza que pode ser explorada.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-04"
+          ]
+        },
+        {
+          "card_id": "CG-INF-04-EXP-FC005",
+          "frente": "Trojan",
+          "verso": "Programa que aparenta legitimidade e realiza ações maliciosas.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-04"
+          ]
+        },
+        {
+          "card_id": "CG-INF-04-EXP-FC006",
+          "frente": "Worm",
+          "verso": "Autorreplicante, sem depender de arquivo hospedeiro.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-04"
+          ]
+        },
+        {
+          "card_id": "CG-INF-04-EXP-FC007",
+          "frente": "Ransomware",
+          "verso": "Restringe acesso e exige resgate; pode envolver extorsão por vazamento.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-04"
+          ]
+        },
+        {
+          "card_id": "CG-INF-04-EXP-FC008",
+          "frente": "Suspeita de phishing",
+          "verso": "Verificar por canal independente e comunicar à instituição.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-04"
+          ]
+        },
+        {
+          "card_id": "CG-INF-04-EXP-FC009",
+          "frente": "Autenticação × autorização",
+          "verso": "Verifica identidade × define permissões.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-04"
+          ]
+        },
+        {
+          "card_id": "CG-INF-04-EXP-FC010",
+          "frente": "Duas senhas são MFA?",
+          "verso": "Não, pertencem à mesma categoria.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-04"
+          ]
+        },
+        {
+          "card_id": "CG-INF-04-EXP-FC011",
+          "frente": "Firewall",
+          "verso": "Filtra tráfego conforme regras.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-04"
+          ]
+        },
+        {
+          "card_id": "CG-INF-04-EXP-FC012",
+          "frente": "3-2-1",
+          "verso": "3 cópias no total, 2 tipos de mídia, 1 fora do local.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-04"
+          ]
+        },
+        {
+          "card_id": "CG-INF-04-EXP-FC013",
+          "frente": "Restaurar incremental",
+          "verso": "Completo + incrementais posteriores necessários.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-04"
+          ]
+        },
+        {
+          "card_id": "CG-INF-04-EXP-FC014",
+          "frente": "Restaurar diferencial",
+          "verso": "Completo + diferencial mais recente válido.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-04"
+          ]
         }
       ],
-      "teoria_md": "---\ntopico_id: CG-INF-04\nslug: seguranca-informacao\ntitulo: \"Segurança da Informação: Ameaças (Malware, Phishing), Defesas (Firewall, MFA) e Backup (FCC)\"\nedital: SEDUC-MA-01-2026\nbanca: FCC\nstatus: em_auditoria\n---\n\n# 1. Delimitação no Edital (Camada A)\n- **Itens explícitos (p. 61):** *Segurança da informação: ameaças digitais, vírus, malware, phishing e engenharia social; antivírus, firewall, senhas seguras, autenticação multifator e procedimentos de backup.*\n\n# 2. Ameaças Digitais Mais Cobradas pela FCC\n- **Vírus:** precisa de um arquivo/programa hospedeiro e de **ação do usuário** para se propagar.\n- **Worm (Verme):** propaga-se **automaticamente pela rede** explorando vulnerabilidades, sem precisar de arquivo hospedeiro nem clique do usuário.\n- **Trojan (Cavalo de Troia):** disfarça-se de software legítimo/útil para executar ações maliciosas ocultas (ex.: abrir portas via *backdoor*).\n- **Ransomware:** **sequestra e criptografa os dados** da vítima, exigindo pagamento de resgate (geralmente em criptomoedas) pela chave de descriptografia.\n- **Spyware / Keylogger:** espiona atividades do usuário (capturando teclas digitadas ou telas).\n- **Phishing e Engenharia Social:** **engenharia social** é a manipulação psicológica de pessoas para obter acesso ou segredos; **phishing** é o golpe (e-mail, SMS/*smishing*, link falso) que imita instituição confiável (banco, órgão público) para roubar senhas e dados.\n\n# 3. Mecanismos de Defesa e Backup\n- **Antivírus / Antimalware:** detecta, bloqueia e remove códigos maliciosos (por assinatura, heurística e comportamento).\n- **Firewall:** filtra o tráfego de rede (entrada e saída) com base em regras de segurança — **não substitui o antivírus**!\n- **Autenticação Multifator (MFA / 2FA):** combina dois ou mais fatores distintos: (1) algo que você **sabe** (senha), (2) algo que você **tem** (token/celular) ou (3) algo que você **é** (biometria).\n- **Backup (Regra 3-2-1):** manter **3 cópias** dos dados, em **2 mídias/locais distintos**, sendo **1 cópia fora do local / offline** (essencial contra *ransomware*!). Tipos: **Completo/Full** (copia tudo), **Incremental** (só o que mudou desde o último backup de qualquer tipo) e **Diferencial** (só o que mudou desde o último backup completo).\n"
+      "teoria_md": "# 1. Objetivos de segurança\n\nConfidencialidade limita acesso a autorizados; integridade protege exatidão e alterações indevidas; disponibilidade mantém recursos acessíveis quando necessários. Autenticidade permite verificar origem ou identidade. Uma lista de notas exposta compromete confidencialidade; notas alteradas sem autorização comprometem integridade; sistema indisponível compromete disponibilidade.\n\nRisco relaciona ameaça, vulnerabilidade, probabilidade e impacto. Uma vulnerabilidade é fraqueza explorável; ameaça é potencial de dano. Medidas preventivas, detecção, resposta e recuperação complementam-se. Privilégio mínimo reduz o acesso ao necessário.\n\n# 2. Malware e engenharia social\n\nVírus depende de código ou arquivo hospedeiro; sua execução pode ocorrer por diferentes mecanismos, sem necessariamente um clique consciente do usuário. Worm é autorreplicante e pode se espalhar automaticamente. Trojan aparenta legitimidade ou outra finalidade para induzir execução, sem necessariamente se replicar. Ransomware restringe acesso a dados ou sistemas e exige resgate; pode envolver extorsão por vazamento. Spyware coleta informações indevidamente; keylogger registra teclas.\n\nEngenharia social explora confiança, urgência e autoridade. Phishing é uma forma de fraude que induz vítima a revelar informações ou executar ações. Pode ocorrer por mensagem, ligação ou página enganosa. Verifique solicitações por canal independente, não pelo link recebido. Em ambiente institucional, comunique incidentes pelos canais estabelecidos.\n\n# 3. Camadas de proteção\n\nAntimalware detecta e bloqueia ameaças usando assinaturas e outros métodos. Firewall aplica regras ao tráfego; não recupera arquivos nem substitui todas as outras defesas. Atualizações corrigem vulnerabilidades. Criptografia protege dados conforme algoritmo, chave e contexto; hash é resumo de tamanho determinado, não criptografia reversível. Permissões controlam operações.\n\nSenha longa e exclusiva reduz risco de reutilização. Gerenciador confiável permite criar e armazenar credenciais fortes. Não compartilhe códigos de autenticação nem aprove solicitações inesperadas. A proteção precisa também alcançar recuperação da conta e dispositivos associados.\n\n# 4. Autenticação multifator\n\nAutenticação verifica identidade; autorização define o que a identidade pode fazer. Fatores: conhecimento (senha), posse (dispositivo ou chave), inerência (característica biométrica). Duas senhas pertencem à mesma categoria e não formam MFA por si. Senha mais token em dispositivo separado é exemplo de categorias distintas. MFA reduz risco, mas não impede todos os ataques; métodos resistentes a phishing são preferíveis quando disponíveis.\n\n# 5. Backup e restauração\n\nBackup é cópia recuperável independente; sincronização não substitui política de backup. Estratégia 3-2-1: três cópias no total, incluindo original; dois tipos de mídia; uma cópia fora do local. Manter também cópia offline ou imutável é proteção adicional contra ransomware. Teste a restauração e proteja acesso às cópias.\n\n| Tipo | O que copia |\n|---|---|\n| Completo | conjunto selecionado integral |\n| Incremental | alterações desde a última cópia da cadeia |\n| Diferencial | alterações desde o último completo |\n\n![Cadeias de restauração incremental e diferencial.](./media/informatica/backup.svg)\n\nCom completo segunda e incrementais terça e quarta, a recuperação convencional exige completo e os dois incrementais. Com completo segunda e diferenciais terça e quarta, basta completo e o diferencial mais recente. Isso pressupõe backups convencionais válidos da mesma cadeia.\n\n# 6. Incidente e recuperação\n\nSe houver suspeita de comprometimento, evite continuar usando a conta ou compartilhar informações; comunique a equipe responsável. Em dispositivo institucional, siga o procedimento de isolamento e preservação de evidências da organização. Não confie em pagamento de resgate como garantia de recuperação. Após contenção e erradicação, restaure cópias verificadas e revise credenciais conforme orientação.\n\nRecupere: tríade de segurança, vírus e worm, phishing e engenharia social, firewall e antivírus, autenticação e autorização, categorias de MFA, estratégia 3-2-1 e cadeias de restauração."
     },
     {
       "schema_version": "2.0.0",
@@ -20396,59 +21828,95 @@
           "tipo": "institucional",
           "nivel_autoridade": 3,
           "url": "https://www.gov.br/lncc/pt-br/centrais-de-conteudo/campanhas-de-conscientizacao/campanha-lgpd/2024/conheca-os-10-principios-da-lei-geral-de-protecao-de-dados-pessoais"
+        },
+        {
+          "referencia_abnt": "BRASIL. Lei 15.352/2026, alterações da LGPD. Consulta em 26 nov. 2026 (trechos indexados ou texto oficial).",
+          "url": "https://planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/l15352.htm",
+          "tipo": "legislacao",
+          "nivel_autoridade": 3
+        },
+        {
+          "referencia_abnt": "BRASIL. Lei 14.063/2020, assinaturas eletrônicas. Consulta em 26 nov. 2026 (trechos indexados ou texto oficial).",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l14063.htm",
+          "tipo": "legislacao",
+          "nivel_autoridade": 3
+        },
+        {
+          "referencia_abnt": "Microsoft Support. Proteção de dados do Copilot Chat para trabalho ou escola. Consulta em 26 nov. 2026 (trechos indexados ou texto oficial).",
+          "url": "https://support.microsoft.com/pt-br/privacy/data-protection-when-using-microsoft-365-copilot-chat-for-work-or-school",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
+        },
+        {
+          "referencia_abnt": "Google. Workspace com Gemini, Business/Enterprise. Consulta em 26 nov. 2026 (trechos indexados ou texto oficial).",
+          "url": "https://support.google.com/mail/answer/13952129?hl=pt-br",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
         }
       ],
       "sintese_fcc": {
         "conceitos_nucleares": [
           {
-            "termo": "Controlador vs. Operador vs. Encarregado (LGPD)",
-            "definicao_precisa": "Controlador: toma decisões sobre tratamento de dados; Operador: realiza o tratamento em nome do controlador; Encarregado (DPO): canal entre controlador, titulares e ANPD.",
-            "fonte": "Lei nº 13.709/2018."
+            "termo": "IA generativa",
+            "definicao_precisa": "Revisão crítica e proteção",
+            "fonte": "Síntese autoral e referências da unidade."
           },
           {
-            "termo": "Assinaturas Eletrônicas (Lei nº 14.063/2020)",
-            "definicao_precisa": "Simples (menor rigor), Avançada (ex.: Gov.br Prata/Ouro, detecta alterações) e Qualificada (certificado digital ICP-Brasil).",
-            "fonte": "Lei nº 14.063/2020 / Lei nº 14.129/2021."
+            "termo": "LGPD",
+            "definicao_precisa": "Princípios, agentes, bases e direitos",
+            "fonte": "Síntese autoral e referências da unidade."
           },
           {
-            "termo": "Interoperabilidade",
-            "definicao_precisa": "Capacidade de sistemas públicos distintos trocarem dados de forma padronizada e segura sem exigir retrabalho do cidadão.",
-            "fonte": "Lei nº 14.129/2021."
+            "termo": "Governo digital",
+            "definicao_precisa": "Escopo e acessibilidade",
+            "fonte": "Síntese autoral e referências da unidade."
+          },
+          {
+            "termo": "Assinaturas",
+            "definicao_precisa": "Simples, avançada, qualificada",
+            "fonte": "Síntese autoral e referências da unidade."
           }
         ],
         "pegadinhas_fcc": [
           {
-            "armadilha": "Dizer que a LGPD só vale para empresas privadas",
-            "como_a_fcc_cobra": "Afirma que órgãos públicos estaduais e municipais estão isentos da LGPD.",
-            "como_desarmar": "Art. 1º, parágrafo único: a LGPD aplica-se a pessoas jurídicas de direito PÚBLICO ou privado (União, Estados, DF e Municípios)."
+            "armadilha": "IA",
+            "como_a_fcc_cobra": "Exemplo autoral: Resposta plausível é verdadeira",
+            "como_desarmar": "Verificar em fontes primárias."
           },
           {
-            "armadilha": "Dizer que o Governo Digital extingue o atendimento presencial",
-            "como_a_fcc_cobra": "Afirma que a Lei nº 14.129/2021 proíbe atendimento presencial para serviços digitalizados.",
-            "como_desarmar": "Art. 14 da Lei nº 14.129/2021 garante expressamente a prestação digital SEM prejuízo do direito ao atendimento presencial."
+            "armadilha": "ANPD",
+            "como_a_fcc_cobra": "Exemplo autoral: Denominação anterior é a atual",
+            "como_desarmar": "Consultar Lei 15.352/2026."
+          },
+          {
+            "armadilha": "Governo digital",
+            "como_a_fcc_cobra": "Exemplo autoral: Aplicação automática a todo ente",
+            "como_desarmar": "Art. 2º condiciona adoção pelos demais entes."
           }
         ],
         "quadro_comparativo": [
           {
-            "assinatura": "Simples",
-            "nivel": "Básico",
-            "exemplo": "Identificação simples / login básico"
+            "conceito": "IA generativa",
+            "criterio": "Revisão crítica e proteção"
           },
           {
-            "assinatura": "Avançada",
-            "nivel": "Intermediário",
-            "exemplo": "Assinatura Gov.br (Prata/Ouro) vinculada unicamente ao titular"
+            "conceito": "LGPD",
+            "criterio": "Princípios, agentes, bases e direitos"
           },
           {
-            "assinatura": "Qualificada",
-            "nivel": "Máximo",
-            "exemplo": "Certificado Digital padrão ICP-Brasil"
+            "conceito": "Governo digital",
+            "criterio": "Escopo e acessibilidade"
+          },
+          {
+            "conceito": "Assinaturas",
+            "criterio": "Simples, avançada, qualificada"
           }
         ],
         "checklist_revisao": [
-          "Sei os riscos do uso de IA generativa no setor público (alucinação e vazamento de dados sigilosos)?",
-          "Sei diferenciar dado pessoal, dado sensível e dado anonimizado, além de Controlador/Operador/Encarregado?",
-          "Sei os 3 níveis de assinatura eletrônica e o conceito de interoperabilidade no Governo Digital?"
+          "Consigo aplicar ia generativa em situação nova?",
+          "Consigo aplicar lgpd em situação nova?",
+          "Consigo aplicar governo digital em situação nova?",
+          "Consigo aplicar assinaturas em situação nova?"
         ]
       },
       "questoes": [
@@ -20507,16 +21975,16 @@
             "A": "o número de protocolo público de um edital estadual.",
             "B": "qualquer dado previamente anonimizado de forma irreversível.",
             "C": "o endereço comercial institucional de uma secretaria estadual.",
-            "D": "dado pessoal sobre origem racial ou étnica, convicção religiosa, opinião política, dado referente à saúde ou à vida sexual, dado genético ou biométrico.",
+            "D": "dado de saúde de pessoa identificada ou identificável.",
             "E": "o código postal (CEP) isolado de uma avenida comercial."
           },
           "gabarito": "D",
-          "justificativa_gabarito": "O Art. 5º, II da LGPD define exatamente essas categorias como dados pessoais sensíveis.",
+          "justificativa_gabarito": "Informação de saúde vinculada a pessoa natural é dado pessoal sensível (art. 5º, II).",
           "analise_distratores": {
-            "A": "Dado institucional público, não dado pessoal sensível.",
+            "A": "Número de protocolo institucional, isoladamente, não revela categoria sensível.",
             "B": "Dados anonimizados irreversíveis não são considerados dados pessoais pela LGPD (Art. 12).",
             "C": "Endereço de órgão público não é dado pessoal sensível.",
-            "E": "CEP isolado não identifica pessoa natural nem revela dado sensível."
+            "E": "CEP de avenida isoladamente não revela categoria sensível."
           },
           "dificuldade": "basica",
           "subtopico": "Lei Geral de Proteção de Dados Pessoais (LGPD — Lei nº 13.709/2018)"
@@ -20566,13 +22034,197 @@
           },
           "dificuldade": "basica",
           "subtopico": "Governo digital, processos/documentos eletrônicos, assinaturas eletrônicas e interoperabilidade"
+        },
+        {
+          "questao_id": "CG-INF-05-EXP-Q001",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão autoral de treino; não é questão oficial FCC",
+          "enunciado": "Uma ferramenta de IA cria uma minuta e cita um decreto aparentemente plausível. Antes de utilizar a minuta, a providência adequada é",
+          "alternativas": {
+            "A": "presumir que toda citação foi verificada pelo modelo.",
+            "B": "publicar e corrigir somente se alguém reclamar.",
+            "C": "consultar a fonte oficial, verificar vigência e revisar a minuta.",
+            "D": "trocar o modelo sem conferir a referência.",
+            "E": "aceitar a citação por estar bem redigida."
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "A geração pode produzir referências falsas; verificação é necessária.",
+          "analise_distratores": {
+            "A": "O modelo pode inventar citações.",
+            "B": "Publicação pode propagar erro.",
+            "D": "Troca de modelo não confirma fonte.",
+            "E": "Fluência não prova veracidade."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "IA generativa na produtividade (Copilot e Gemini), pesquisa e automação"
+        },
+        {
+          "questao_id": "CG-INF-05-EXP-Q002",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão autoral de treino; não é questão oficial FCC",
+          "enunciado": "Um documento institucional a ser resumido contém dados restritos. Antes de encaminhá-lo a um assistente generativo, o servidor deve",
+          "alternativas": {
+            "A": "presumir que toda conta paga é homologada.",
+            "B": "verificar classificação, finalidade, autorização e controles da ferramenta, minimizando os dados.",
+            "C": "remover apenas o título do documento.",
+            "D": "considerar que criptografia de transporte dispensa base legal.",
+            "E": "enviar a versão integral à conta pessoal por conveniência."
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "O uso deve respeitar finalidade, autorização, proteção e minimização.",
+          "analise_distratores": {
+            "A": "Pagamento não equivale à homologação.",
+            "C": "Título não é a única informação restrita.",
+            "D": "TLS não fornece base legal.",
+            "E": "Conta pessoal pode não ser autorizada."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Uso responsável da IA e proteção de informações"
+        },
+        {
+          "questao_id": "CG-INF-05-EXP-Q003",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão autoral de treino; não é questão oficial FCC",
+          "enunciado": "A substituição dos nomes dos alunos por códigos, quando a escola mantém uma tabela capaz de reidentificá-los, caracteriza",
+          "alternativas": {
+            "A": "anonimização irreversível necessariamente.",
+            "B": "dado público sem proteção.",
+            "C": "eliminação definitiva dos dados.",
+            "D": "pseudonimização, que não afasta automaticamente a aplicação da LGPD.",
+            "E": "assinatura qualificada."
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "A possibilidade de vincular código à pessoa mantém o risco de identificação.",
+          "analise_distratores": {
+            "A": "Há possibilidade de reidentificação.",
+            "B": "Não se torna público.",
+            "C": "A tabela e os registros persistem.",
+            "E": "Não é mecanismo de assinatura."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Lei Geral de Proteção de Dados Pessoais (LGPD — Lei nº 13.709/2018)"
+        },
+        {
+          "questao_id": "CG-INF-05-EXP-Q004",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão autoral de treino; não é questão oficial FCC",
+          "enunciado": "À luz da redação da LGPD alterada pela Lei 15.352/2026, a denominação da ANPD é",
+          "alternativas": {
+            "A": "Agência Nacional de Proteção de Dados.",
+            "B": "Autoridade Nacional de Proteção Digital.",
+            "C": "Agência Nacional de Processamento de Documentos.",
+            "D": "Autoridade Nacional de Protocolos Digitais.",
+            "E": "Agência Nacional de Publicidade de Dados."
+          },
+          "gabarito": "A",
+          "justificativa_gabarito": "A lei de 2026 passou a denominar o órgão Agência Nacional de Proteção de Dados.",
+          "analise_distratores": {
+            "B": "Não é denominação legal.",
+            "C": "Não corresponde à sigla legal.",
+            "D": "Não corresponde à denominação legal.",
+            "E": "A função não é publicidade de dados."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Lei Geral de Proteção de Dados Pessoais (LGPD — Lei nº 13.709/2018)"
+        },
+        {
+          "questao_id": "CG-INF-05-EXP-Q005",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão autoral de treino; não é questão oficial FCC",
+          "enunciado": "A coleta de somente informações pertinentes à finalidade administrativa, sem exigir dados excessivos, concretiza mais diretamente o princípio da",
+          "alternativas": {
+            "A": "interoperabilidade.",
+            "B": "publicidade irrestrita.",
+            "C": "livre iniciativa.",
+            "D": "disponibilidade.",
+            "E": "necessidade."
+          },
+          "gabarito": "E",
+          "justificativa_gabarito": "Necessidade limita o tratamento ao mínimo pertinente e proporcional.",
+          "analise_distratores": {
+            "A": "É conceito de integração.",
+            "B": "Não autoriza coleta ilimitada.",
+            "C": "É fundamento da LGPD, não minimização.",
+            "D": "É atributo de segurança."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Lei Geral de Proteção de Dados Pessoais (LGPD — Lei nº 13.709/2018)"
+        },
+        {
+          "questao_id": "CG-INF-05-EXP-Q006",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão autoral de treino; não é questão oficial FCC",
+          "enunciado": "Segundo o art. 2º da Lei 14.129/2021, sua aplicação às administrações dos demais entes federados está condicionada",
+          "alternativas": {
+            "A": "à mera existência de conexão à internet.",
+            "B": "à eliminação do atendimento presencial.",
+            "C": "à adoção dos comandos da lei mediante atos normativos próprios.",
+            "D": "à compra de certificados por todos os cidadãos.",
+            "E": "à publicação automática de dados pessoais."
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "A lei prevê adoção por atos próprios para Estados, DF e Municípios.",
+          "analise_distratores": {
+            "A": "Conectividade não satisfaz requisito.",
+            "B": "O atendimento presencial é preservado.",
+            "D": "Não é condição legal geral.",
+            "E": "Proteção de dados permanece."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Governo digital, processos/documentos eletrônicos, assinaturas eletrônicas e interoperabilidade"
+        },
+        {
+          "questao_id": "CG-INF-05-EXP-Q007",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão autoral de treino; não é questão oficial FCC",
+          "enunciado": "Nos termos da Lei 14.063/2020, assinatura eletrônica avançada diferencia-se da qualificada porque",
+          "alternativas": {
+            "A": "nunca permite verificar integridade.",
+            "B": "pode empregar outros meios admitidos de comprovação de autoria e integridade, enquanto a qualificada usa certificado ICP-Brasil.",
+            "C": "é sempre uma imagem manuscrita.",
+            "D": "é anônima e não possui vínculo com signatário.",
+            "E": "exige obrigatoriamente certificado ICP-Brasil, ao contrário da qualificada."
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "A lei distingue meio avançado e certificado ICP-Brasil para qualificada.",
+          "analise_distratores": {
+            "A": "A integridade é requisito relevante.",
+            "C": "Imagem isolada não atende necessariamente aos requisitos.",
+            "D": "Deve haver vínculo com signatário.",
+            "E": "Inverte as categorias."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Governo digital, processos/documentos eletrônicos, assinaturas eletrônicas e interoperabilidade"
+        },
+        {
+          "questao_id": "CG-INF-05-EXP-Q008",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão autoral de treino; não é questão oficial FCC",
+          "enunciado": "Dois sistemas públicos trocam registros por padrão comum e com controles de acesso, permitindo uso autorizado da informação. Esse cenário exemplifica",
+          "alternativas": {
+            "A": "divulgação irrestrita.",
+            "B": "phishing institucional.",
+            "C": "criptografia como único requisito.",
+            "D": "interoperabilidade com governança.",
+            "E": "anonimização automática."
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "Sistemas compatíveis trocam e utilizam dados com segurança e governança.",
+          "analise_distratores": {
+            "A": "Compartilhamento é controlado.",
+            "B": "Não se trata de fraude.",
+            "C": "Interoperabilidade exige mais que criptografia.",
+            "E": "Integração não anonimiza automaticamente."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Governo digital, processos/documentos eletrônicos, assinaturas eletrônicas e interoperabilidade"
         }
       ],
       "flashcards": [
         {
           "card_id": "CG-INF-05-FC001",
           "frente": "A LGPD (Lei nº 13.709/2018) aplica-se a órgãos públicos estaduais e municipais?",
-          "verso": "Sim! Art. 1º: aplica-se a pessoas naturais e jurídicas de direito PÚBLICO (União, Estados, DF, Municípios) ou privado.",
+          "verso": "Sim, respeitando âmbito, hipóteses e exceções legais.",
           "tipo": "pegadinha_fcc",
           "tags": [
             "lgpd",
@@ -20592,7 +22244,7 @@
         {
           "card_id": "CG-INF-05-FC003",
           "frente": "Diferença entre Controlador, Operador e Encarregado (DPO) na LGPD?",
-          "verso": "Controlador: decide sobre o tratamento; Operador: executa em nome do controlador; Encarregado: canal entre controlador, titulares e ANPD.",
+          "verso": "Controlador decide; operador trata em seu nome; encarregado faz comunicação com titulares e ANPD. Art. 5º, VIII, redação de 2026: indicação pelo controlador e operador; observar regulamentação.",
           "tipo": "conceito",
           "tags": [
             "lgpd",
@@ -20602,7 +22254,7 @@
         {
           "card_id": "CG-INF-05-FC004",
           "frente": "Quais são os 3 níveis de assinatura eletrônica no setor público (Lei nº 14.063/2020)?",
-          "verso": "Simples (básica), Avançada (ex.: Gov.br Prata/Ouro) e Qualificada (certificado digital ICP-Brasil).",
+          "verso": "Simples, avançada e qualificada (certificado ICP-Brasil); nível depende de norma e ato.",
           "tipo": "legislacao_dado",
           "tags": [
             "assinatura-eletronica",
@@ -20612,7 +22264,7 @@
         {
           "card_id": "CG-INF-05-FC005",
           "frente": "O Governo Digital (Lei nº 14.129/2021) elimina o atendimento presencial?",
-          "verso": "Não! O Art. 14 garante a prestação digital SEM prejuízo do direito do cidadão ao atendimento presencial.",
+          "verso": "Não. Art. 14 preserva atendimento presencial; art. 2º condiciona aplicação aos demais entes à adoção por atos próprios.",
           "tipo": "pegadinha_fcc",
           "tags": [
             "governo-digital",
@@ -20622,15 +22274,155 @@
         {
           "card_id": "CG-INF-05-FC006",
           "frente": "Quais os 2 cuidados obrigatórios ao usar Copilot ou Gemini no serviço público?",
-          "verso": "1) Nunca inserir dados sigilosos/pessoais protegidos em ferramentas abertas; 2) Revisar tudo para corrigir possíveis 'alucinações' da IA.",
+          "verso": "Usar ferramentas autorizadas, minimizar dados e verificar criticamente os resultados; respeitar políticas e base legal.",
           "tipo": "conceito",
           "tags": [
             "ia-generativa",
             "seguranca"
           ]
+        },
+        {
+          "card_id": "CG-INF-05-EXP-FC001",
+          "frente": "Alucinação em IA",
+          "verso": "Resposta plausível, mas sem sustentação factual.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-05"
+          ]
+        },
+        {
+          "card_id": "CG-INF-05-EXP-FC002",
+          "frente": "IA e citação legal",
+          "verso": "Verificar fonte oficial e vigência.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-05"
+          ]
+        },
+        {
+          "card_id": "CG-INF-05-EXP-FC003",
+          "frente": "Conta empresarial autoriza todo dado?",
+          "verso": "Não. Verificar política, finalidade, base legal e autorização.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-05"
+          ]
+        },
+        {
+          "card_id": "CG-INF-05-EXP-FC004",
+          "frente": "Dado pessoal",
+          "verso": "Informação sobre pessoa natural identificada ou identificável.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-05"
+          ]
+        },
+        {
+          "card_id": "CG-INF-05-EXP-FC005",
+          "frente": "Dado sensível: exemplo",
+          "verso": "Informação de saúde vinculada a pessoa.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-05"
+          ]
+        },
+        {
+          "card_id": "CG-INF-05-EXP-FC006",
+          "frente": "Pseudonimização × anonimização",
+          "verso": "Código reidentificável × anonimização conforme requisitos legais.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-05"
+          ]
+        },
+        {
+          "card_id": "CG-INF-05-EXP-FC007",
+          "frente": "Necessidade",
+          "verso": "Tratamento limitado ao pertinente e não excessivo.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-05"
+          ]
+        },
+        {
+          "card_id": "CG-INF-05-EXP-FC008",
+          "frente": "Consentimento é única base?",
+          "verso": "Não. Ver arts. 7º e 11 conforme tipo de dado.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-05"
+          ]
+        },
+        {
+          "card_id": "CG-INF-05-EXP-FC009",
+          "frente": "ANPD após Lei 15.352/2026",
+          "verso": "Agência Nacional de Proteção de Dados.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-05"
+          ]
+        },
+        {
+          "card_id": "CG-INF-05-EXP-FC010",
+          "frente": "Encarregado, art. 5º VIII atualizado",
+          "verso": "Indicado pelo controlador e operador; canal de comunicação nos termos legais.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-05"
+          ]
+        },
+        {
+          "card_id": "CG-INF-05-EXP-FC011",
+          "frente": "Lei 14.129: alcance estadual",
+          "verso": "Adoção por ato normativo próprio, art. 2º.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-05"
+          ]
+        },
+        {
+          "card_id": "CG-INF-05-EXP-FC012",
+          "frente": "Documento nato-digital",
+          "verso": "Criado originalmente em meio digital.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-05"
+          ]
+        },
+        {
+          "card_id": "CG-INF-05-EXP-FC013",
+          "frente": "Assinatura qualificada",
+          "verso": "Certificado ICP-Brasil.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-05"
+          ]
+        },
+        {
+          "card_id": "CG-INF-05-EXP-FC014",
+          "frente": "Interoperabilidade",
+          "verso": "Troca e uso compatível de dados, com governança e segurança.",
+          "tipo": "conceito",
+          "tags": [
+            "informatica",
+            "cg-inf-05"
+          ]
         }
       ],
-      "teoria_md": "---\ntopico_id: CG-INF-05\nslug: ia-generativa-lgpd-governo-digital\ntitulo: \"IA Generativa (Copilot e Gemini), LGPD e Transformação Digital na Administração Pública\"\nedital: SEDUC-MA-01-2026\nbanca: FCC\nstatus: em_auditoria\n---\n\n# 1. Delimitação no Edital (Camada A)\n- **Itens explícitos (p. 61):** *Noções de inteligência artificial generativa e suas aplicações em ferramentas de produtividade (Copilot e Gemini), pesquisa, elaboração de documentos e automação de tarefas administrativas. Uso responsável da inteligência artificial e proteção de informações. Lei Geral de Proteção de Dados Pessoais (LGPD). Transformação digital na Administração Pública: governo digital, processos e documentos eletrônicos, assinaturas eletrônicas e noções de interoperabilidade entre sistemas.*\n- Tópico **altamente atualizado** do Edital 01/2026, com altíssima probabilidade de cobrança literal e situacional pela FCC.\n\n# 2. IA Generativa na Produtividade e Uso Responsável\n- **IA Generativa:** sistemas baseados em grandes modelos de linguagem (LLMs) e modelos multimodais capazes de criar textos, resumos, planilhas, códigos e imagens a partir de instruções (*prompts*).\n- **Aplicações em produtividade:**\n  - **Microsoft Copilot** (integrado ao Microsoft 365: Word, Excel, PowerPoint, Outlook, Teams — redação de minutas, resumo de reuniões, fórmulas em planilhas).\n  - **Google Gemini** (integrado ao Google Workspace: Docs, Sheets, Gmail, Meet — síntese de e-mails, elaboração de documentos, pesquisa estruturada).\n- **Uso responsável e riscos no serviço público (foco de prova!):**\n  1. **Alucinação:** a IA pode gerar informações plausíveis, porém falsas ou inventadas — exige **revisão humana obrigatória** antes de publicar ou decidir.\n  2. **Sigilo e proteção de dados:** **nunca** inserir dados pessoais sensíveis, sigilosos ou processos restritos em versões públicas/abertas de IA que utilizem entradas para treinamento.\n  3. **Vieses algorítmicos e direitos autorais:** monitorar discriminação e respeitar propriedade intelectual.\n\n# 3. Lei Geral de Proteção de Dados Pessoais — LGPD (Lei nº 13.709/2018)\nSegundo o texto oficial da [Lei nº 13.709/2018 (Planalto)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709compilado.htm) e o [Portal Gov.br](https://www.gov.br/mds/pt-br/acesso-a-informacao/governanca/integridade/campanhas/lgpd):\n- **Abrangência (Art. 1º):** aplica-se ao tratamento de dados pessoais (inclusive digitais) por pessoa natural ou jurídica de **direito público ou privado** (União, Estados, DF e Municípios).\n- **Conceitos-chave:**\n  - **Dado pessoal:** informação relacionada a pessoa natural identificada ou identificável (nome, CPF, RG, e-mail, IP).\n  - **Dado pessoal sensível:** origem racial/étnica, convicção religiosa, opinião política, filiação a sindicato, dado referente à **saúde ou à vida sexual**, dado genético ou biométrico (exige proteção reforçada, Art. 11).\n  - **Dado anonimizado (Art. 12):** não permite identificar o titular por meios técnicos razoáveis (em regra, fora do escopo da lei, salvo se reversível).\n- **Agentes de tratamento:** **Controlador** (decide sobre o tratamento), **Operador** (executa o tratamento em nome do controlador) e **Encarregado / DPO** (canal de comunicação entre controlador, titulares e a **ANPD** — Autoridade Nacional de Proteção de Dados).\n- **Os 10 Princípios da LGPD (Art. 6º — além da boa-fé):** **Finalidade**, **Adequação**, **Necessidade** (mínimo necessário), **Livre acesso**, **Qualidade dos dados**, **Transparência**, **Segurança**, **Prevenção**, **Não discriminação** e **Responsabilização e prestação de contas**.\n\n# 4. Transformação Digital e Governo Digital (Lei nº 14.129/2021 e Lei nº 14.063/2020)\nConforme a [Lei nº 14.129/2021 (Lei do Governo Digital)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14129.htm):\n- **Governo Digital:** desburocratização, prestação digital de serviços públicos em plataforma única (ex.: Gov.br), **sem prejuízo do direito do cidadão ao atendimento presencial** (Art. 14).\n- **Processos e documentos eletrônicos:** tramitação digital (como o SEI), presunção de autenticidade de documentos enviados digitalmente quando assinados eletronicamente (Art. 26).\n- **Assinaturas Eletrônicas (Lei nº 14.063/2020):**\n  1. **Simples:** identifica o signatário com menor nível de segurança (ex.: dados básicos).\n  2. **Avançada:** associada ao signatário de maneira unívoca, permitindo detectar alterações posteriores (ex.: conta Gov.br Prata/Ouro).\n  3. **Qualificada:** utiliza certificado digital padrão **ICP-Brasil** (mais alto nível de confiabilidade legal).\n- **Interoperabilidade:** capacidade de sistemas e bancos de dados de diferentes órgãos públicos se comunicarem e trocarem informações de forma segura e padronizada, evitando que o cidadão tenha que apresentar repetidamente os mesmos documentos.\n"
+      "teoria_md": "# 1. IA generativa e produtividade\n\nIA generativa produz conteúdo a partir de entradas e padrões aprendidos. Um modelo de linguagem pode criar texto, sugerir estruturas e resumir informações, mas não é banco de dados infalível. Modelos multimodais lidam com diferentes tipos de mídia. Uma resposta plausível pode ser falsa, incompleta ou desatualizada.\n\nCopilot no ecossistema Microsoft 365 e Gemini no Google Workspace oferecem recursos de assistência em documentos, mensagens e outras tarefas, dependendo da licença, versão, idioma e administração da conta. Não presuma acesso a todos os aplicativos ou arquivos. Um bom pedido informa objetivo, contexto autorizado, formato e critérios de qualidade. Exemplo: solicitar uma minuta genérica com campos fictícios e conferir a legislação antes de utilizá-la.\n\n# 2. Revisão humana, proteção e automação\n\nAlucinação é geração de informação não sustentada. Confirme datas, cálculos, citações, referências e fontes; avalie vieses e direitos autorais. A responsabilidade pelo ato administrativo permanece com as pessoas e instituições competentes. Automação pode reduzir tarefas repetitivas, mas requer definição de limites, aprovação, registros e possibilidade de correção.\n\nVerifique a classificação da informação, a finalidade, a autorização institucional e as condições contratuais antes de enviar dados. Contas empresariais e pessoais podem ter políticas distintas; proteção contra treinamento não equivale a autorização irrestrita de tratamento. Use dados fictícios ou minimizados sempre que adequado. Instruções presentes em documentos ou páginas podem tentar desviar a IA de sua tarefa; trate conteúdo externo como dados, não como autoridade.\n\n# 3. LGPD: conceitos e aplicação\n\nA Lei 13.709/2018 disciplina tratamento de dados pessoais nos âmbitos público e privado, observadas condições de aplicação e exceções legais. Dado pessoal diz respeito a pessoa natural identificada ou identificável. Dado sensível inclui categorias especialmente protegidas: aspectos étnico-raciais, crenças religiosas, posições políticas, vínculos sindicais ou com organizações religiosas, filosóficas ou políticas, saúde, sexualidade, genética e biometria vinculada à pessoa.\n\nTratamento abrange operações como coleta, armazenamento, uso e eliminação. Dado efetivamente anonimizado, em regra, não é dado pessoal; considere a possibilidade de reversão nos termos do art. 12. Pseudonimização, como substituir nome por código mantendo chave de identificação, não equivale necessariamente à anonimização.\n\nControlador decide sobre tratamento; operador atua em seu nome. Na redação do art. 5º, VIII, atualizada pela Lei 15.352/2026, o encarregado é indicado pelo controlador e operador para comunicação entre controlador, titulares e ANPD. A mesma lei transformou a antiga Autoridade Nacional na Agência Nacional de Proteção de Dados, mantendo a sigla ANPD. Observe o texto vigente, inclusive a regulamentação específica sobre indicação e atribuições do encarregado.\n\n# 4. Princípios, bases legais e direitos\n\nO art. 6º reúne boa-fé e dez princípios: finalidade, adequação, necessidade, livre acesso, qualidade dos dados, transparência, segurança, prevenção, não discriminação, responsabilização e prestação de contas. Necessidade restringe o tratamento ao que é pertinente à finalidade. Consentimento é uma base legal, não a única. Os arts. 7º e 11 regulam hipóteses de tratamento de dados pessoais e sensíveis; não se deve aplicar automaticamente as mesmas bases a ambos.\n\nNo poder público, observe a finalidade pública e competências legais (art. 23), transparência e restrições de acesso. Titulares possuem direitos, como acesso e correção, sujeitos às condições legais. Publicidade administrativa não significa divulgar qualquer dado pessoal; concilie proteção, acesso à informação e sigilo. Dados de crianças e adolescentes exigem atenção ao melhor interesse e ao art. 14.\n\n# 5. Governo digital e documentos\n\nA Lei 14.129/2021 busca simplificação, eficiência, serviços acessíveis e participação. O art. 2º condiciona a aplicação aos demais entes federados à adoção por atos normativos próprios. Não se afirma aqui que o Maranhão tenha adotado integralmente a lei sem verificação local. O art. 14 preserva o atendimento presencial no âmbito da lei. Autosserviço digital não deve excluir cidadãos sem conectividade ou com barreiras de acessibilidade.\n\nProcesso eletrônico registra tramitação, autoria e atos. Documento nato-digital é criado digitalmente; documento digitalizado deriva de original em outro suporte. Autenticidade, integridade, preservação, temporalidade e permissões são requisitos relevantes. A mera digitalização não garante autenticidade. O art. 11 reconhece os documentos nato-digitais assinados na forma do art. 7º como originais.\n\n# 6. Assinaturas e interoperabilidade\n\nA Lei 14.063/2020 classifica assinaturas eletrônicas em simples, avançadas e qualificadas. A simples permite identificação e associação de dados ao signatário; a avançada comprova autoria e integridade conforme requisitos legais, permite detectar alterações e depende de aceitação aplicável; a qualificada usa certificado ICP-Brasil. O nível exigido depende do ato e das normas pertinentes. Uma imagem de assinatura não é certificado digital.\n\nInteroperabilidade permite que sistemas troquem e utilizem dados de modo compatível; requer padrões técnicos, significado comum, governança e segurança. Não implica acesso irrestrito. Um sistema educacional pode validar informação de outro órgão por integração autorizada, evitando repetição desnecessária de documentos.\n\nRecupere: alucinação e revisão; diferença de contas; dado pessoal/sensível/anonimizado; agentes e encarregado atualizado; necessidade e bases legais; escopo da Lei 14.129; assinaturas e interoperabilidade."
     },
     {
       "schema_version": "2.0.0",

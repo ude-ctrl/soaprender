@@ -59,3 +59,8 @@ A auditoria científica do acervo segue pendente. Sincronização entre disposit
 ## Raciocínio Lógico-Matemático
 
 - CG-RLM-01 a 05 ampliadas em 30 missões, 65 questões e 100 flashcards; cinco diagramas. [Registro](INTEGRACAO_RACIOCINIO_LOGICO.md). Mantido em_auditoria. Próximo lote: Informática.
+
+
+## Informática
+
+- CG-INF-01 a 05 ampliadas em 30 missões, 65 questões e 100 flashcards. Atualização LGPD (Lei 15.352/2026) e escopo de governo digital. [Registro](INTEGRACAO_INFORMATICA.md). Mantido em_auditoria. Próximo lote: Redação FCC.
