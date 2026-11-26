@@ -69,3 +69,5 @@ Referência: leitor editorial premium com sumário de conceitos à esquerda, teo
 
 ### Refinamento aprovado: leitura imersiva
 A instrução anterior de três layouts não exige seletor de três modos. O Foco Total deve ser um recurso auxiliar e discreto de leitura, acionado por pequeno ícone de expansão com nome acessível, especialmente útil em textos longos. Ocultar cabeçalhos, menus, painéis e HUD, deixando apenas conteúdo, diagramas e mapas, com controle discreto de saída e tecla Escape. Preservar posição de leitura e restaurar layout anterior. Permitir recolher painéis independentemente no layout normal. Manter medida confortável dos parágrafos, mesmo com área de tela inteira disponível. Não confundir com intensidade Foco/Arena.
+
+**Controle de imersão:** exibir somente o ícone Lucide Maximize/Minimize, sem rótulo textual permanente. Tooltip discreto “Leitura imersiva” ao passar o mouse ou receber foco de teclado; no estado ativo, “Sair da leitura imersiva”. Manter nome acessível (aria-label), alvo de toque de 44 px e saída via Escape. Esta regra prevalece sobre exemplos anteriores com texto visível.
