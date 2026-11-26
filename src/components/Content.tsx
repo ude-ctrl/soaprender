@@ -121,7 +121,10 @@ export function ExamGuide() {
   const strategy = bundle.matriz_pesos_estrategia.matematica_objetiva;
   return <section className="panel prose">
     <h2>Prova e pesos</h2>
-    <p><a href={safeUrl(exam.site_oficial)}>Edital {exam.edital_numero} · {exam.banca_organizadora}</a></p>
+    <p>Edital {exam.edital_numero} · {exam.banca_organizadora} · identificação informada no acervo</p>
+    <Editorial status="verificação documental pendente" />
+    <p>A identificação, o cronograma, os pesos e as retificações aguardam conferência com o documento oficial.
+      {' '}<a href={safeUrl(exam.site_oficial)}>Portal da FCC</a></p>
     <p><strong>{strategy.formula}</strong></p><p>{strategy.conclusao_objetiva}</p>
     <ul>{bundle.edital.blocos.map(block => <li key={block.bloco_id}>{block.nome} · {block.questoes_bloco} {block.questoes_bloco === 1 ? 'item' : 'itens'} · peso {block.peso_bloco}</li>)}</ul>
     <h2>Perfil FCC</h2>

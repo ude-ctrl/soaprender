@@ -3,7 +3,6 @@ import { createPortal } from 'react-dom';
 import { useLayoutEffect, useState, type ReactNode } from 'react';
 import type { Item } from '../content/catalog';
 import type { Unit } from '../content/schema';
-import { resetUnit } from '../engine/progress';
 import { useStudy } from '../store/study';
 import { Editorial, Prose, Summary, Theory } from './Content';
 import { useImmersion, usePreference } from './LayoutControls';
@@ -22,7 +21,7 @@ export function UnitPage({ unit, score, settingsHost, onBack, onPractice, immers
   const [right, setRight] = usePreference('reader-tools', true, [true, false]);
   const [size, setSize] = usePreference('reader-size', 'standard', textSizes);
   const [compact, setCompact] = useState(() => window.matchMedia('(max-width: 1040px)').matches);
-  const update = useStudy(state => state.update);
+  const resetProgress = useStudy(state => state.reset);
   const { area, button } = useImmersion(immersive, onImmersion);
   const keyConcept = unit.sintese_fcc.conceitos_nucleares[0];
   const recall = unit.flashcards[0];
@@ -107,7 +106,7 @@ export function UnitPage({ unit, score, settingsHost, onBack, onPractice, immers
       </article>
     </div>
     {reset && <Confirm title="Zerar esta unidade?" action="Zerar unidade" onCancel={() => setReset(false)}
-      onConfirm={() => update(progress => resetUnit(progress, unit.topico_id))}>
+      onConfirm={() => resetProgress(unit.topico_id)}>
       As tentativas e as revisões desta unidade serão apagadas. O domínio e o XP serão recalculados.
     </Confirm>}
   </div>;

@@ -5,6 +5,7 @@ import { catalog, type Item } from '../content/catalog';
 import { letters, type Letter } from '../content/schema';
 import { day, ratings, schedule, type Rating, type Review, type StudyAttempt } from '../engine/progress';
 import { useStudy } from '../store/study';
+import { emptyDraft, type Draft, type PracticeSession } from '../store/session';
 import { Editorial, Media, Prose } from './Content';
 import { Cartography } from './EditorialArt';
 import { IconButton, useImmersion } from './LayoutControls';
@@ -13,34 +14,46 @@ const ratingLabels: Record<Rating, string> = { again: 'Errei', hard: 'Difícil',
 const difficultyLabels: Record<string, string> = { basica: 'básica', intermediaria: 'intermediária' };
 const arenaSeconds = 90;
 
-export function Practice({ items, reviews, recovery = false, onExit, immersive, onImmersion }: {
-  items: Item[]; reviews: ReadonlyMap<string, Review>; recovery?: boolean; onExit: () => void;
+export function Practice({ session, attempts, reviews, onEdit, onExit, immersive, onImmersion }: {
+  session: PracticeSession; attempts: StudyAttempt[]; reviews: ReadonlyMap<string, Review>;
+  onEdit: (change: (current: PracticeSession) => PracticeSession) => void; onExit: () => void;
   immersive: boolean; onImmersion: (active: boolean) => void;
 }) {
-  const [index, setIndex] = useState(0);
-  const [combo, setCombo] = useState(0);
-  const [correct, setCorrect] = useState(0);
   const arena = useStudy(state => state.progress.intensity === 'arena');
   const { area, button } = useImmersion(immersive, onImmersion);
-  const item = items[index];
+  const { index, itemIds } = session;
+  const item = catalog.items.get(itemIds[index]);
+  const submissionId = `${session.id}:${index}`;
+  const recorded = attempts.filter(attempt => attempt.submissionId?.startsWith(`${session.id}:`));
+  const result = recorded.find(attempt => attempt.submissionId === submissionId);
+  const invalidated = itemIds.slice(0, index).some((_, position) =>
+    !recorded.some(attempt => attempt.submissionId === `${session.id}:${position}`));
+  useEffect(() => {
+    if (invalidated) onEdit(current => ({ ...current, id: crypto.randomUUID(), index: 0, draft: emptyDraft }));
+  }, [invalidated, session.id]);
+  let combo = 0;
+  let correct = 0;
+  for (const attempt of recorded) {
+    combo = attempt.rating === 'again' ? 0 : combo + 1;
+    if (attempt.rating !== 'again') correct++;
+  }
 
+  if (invalidated) return null;
   if (!item) return <section className="panel session-end">
     <CheckCircle2 size={30} />
-    <h2>{items.length ? 'Sessão concluída' : 'Nenhum item disponível'}</h2>
-    {items.length > 0 && <p>{items.length} itens praticados · {correct} respostas corretas ou recuperadas.</p>}
+    <h2>Sessão concluída</h2>
+    <p>{itemIds.length} itens praticados · {correct} respostas corretas ou recuperadas.</p>
     <button className="primary" onClick={onExit}>Voltar</button>
   </section>;
 
   return <div className="practice-shell" ref={area}>
-    <Prompt key={item.id} item={item} ordinal={index + 1} total={items.length} immersionControl={button}
-      previousReview={reviews.get(item.id)} arena={arena} combo={combo} recovery={recovery}
-      onGrade={success => {
-        setCombo(value => success ? value + 1 : 0);
-        if (success) setCorrect(value => value + 1);
-      }}
+    <Prompt key={submissionId} item={item} ordinal={index + 1} total={itemIds.length} immersionControl={button}
+      previousReview={reviews.get(item.id)} arena={arena} combo={combo} recovery={session.recovery}
+      draft={session.draft} submissionId={submissionId} result={result}
+      onDraft={patch => onEdit(current => ({ ...current, draft: { ...current.draft, ...patch } }))}
       onNext={() => {
-        if (index + 1 >= items.length) onImmersion(false);
-        setIndex(value => value + 1);
+        if (index + 1 >= itemIds.length) onImmersion(false);
+        onEdit(current => ({ ...current, index: index + 1, draft: emptyDraft }));
         window.scrollTo(0, 0);
       }} />
   </div>;
@@ -56,21 +69,20 @@ function intervalLabel(milliseconds: number) {
   return `em ${hours} h`;
 }
 
-function Prompt({ item, ordinal, total, arena, combo, recovery, previousReview, immersionControl, onGrade, onNext }: {
+function Prompt({ item, ordinal, total, arena, combo, recovery, previousReview, immersionControl,
+  draft, submissionId, result, onDraft, onNext }: {
   item: Item; ordinal: number; total: number; arena: boolean; combo: number; recovery: boolean;
   previousReview?: Review; immersionControl: ReactNode;
-  onGrade: (success: boolean) => void; onNext: () => void;
+  draft: Draft; submissionId: string; result?: StudyAttempt; onDraft: (patch: Partial<Draft>) => void; onNext: () => void;
 }) {
-  const [revealedAt, setRevealedAt] = useState<number>();
-  const [answer, setAnswer] = useState<Letter | null>(null);
-  const [excluded, setExcluded] = useState<readonly Letter[]>([]);
-  const [result, setResult] = useState<StudyAttempt>();
+  const { revealedAt, excluded, confidence, deadline } = draft;
+  const answer = result?.choice ?? draft.answer;
   const [showFeedback, setShowFeedback] = useState(true);
   const [showReview, setShowReview] = useState(true);
-  const [confidence, setConfidence] = useState<'know' | 'think' | 'guess'>('think');
+  const [saving, setSaving] = useState(false);
   const [seconds, setSeconds] = useState(arenaSeconds);
   const record = useStudy(state => state.record);
-  const update = useStudy(state => state.update);
+  const preferences = useStudy(state => state.preferences);
   const reduced = useReducedMotion();
   const heading = useRef<HTMLHeadingElement>(null);
   const feedback = useRef<HTMLButtonElement>(null);
@@ -81,16 +93,19 @@ function Prompt({ item, ordinal, total, arena, combo, recovery, previousReview, 
 
   useEffect(() => { heading.current?.focus({ preventScroll: true }); }, []);
   useEffect(() => {
-    if (!timed) return;
-    const deadline = Date.now() + arenaSeconds * 1000;
-    setSeconds(arenaSeconds);
-    const timer = window.setInterval(() => {
-      const left = Math.max(0, Math.ceil((deadline - Date.now()) / 1000));
-      setSeconds(left);
-      if (!left) window.clearInterval(timer);
-    }, 250);
+    if (!timed) {
+      if (!arena && deadline !== undefined) onDraft({ deadline: undefined });
+      return;
+    }
+    if (deadline === undefined) {
+      onDraft({ deadline: Date.now() + arenaSeconds * 1000 });
+      return;
+    }
+    const tick = () => setSeconds(Math.max(0, Math.ceil((deadline - Date.now()) / 1000)));
+    tick();
+    const timer = window.setInterval(tick, 250);
     return () => window.clearInterval(timer);
-  }, [timed]);
+  }, [timed, deadline, arena]);
   useEffect(() => {
     if (!result || !feedback.current) return;
     const sideBySide = window.matchMedia('(min-width: 1120px)').matches;
@@ -103,16 +118,16 @@ function Prompt({ item, ordinal, total, arena, combo, recovery, previousReview, 
   useEffect(() => { if (revealedAt !== undefined) revealed.current?.focus(); }, [revealedAt]);
 
   function attempt(rating: Rating, at: number): StudyAttempt {
-    return { itemId: item.id, rating, at, wasRecovery: recovery, confidence: isQuestion ? confidence : undefined };
+    return { submissionId, choice: isQuestion ? answer ?? undefined : undefined, itemId: item.id, rating, at, wasRecovery: recovery, confidence: isQuestion ? confidence : undefined };
   }
 
-  function grade(rating: Rating) {
-    if (submitted.current) return;
+  async function grade(rating: Rating) {
+    if (submitted.current || result) return;
     submitted.current = true;
-    const next = attempt(rating, Date.now());
-    if (!record(next)) { submitted.current = false; return; }
-    setResult(next);
-    onGrade(rating !== 'again');
+    setSaving(true);
+    await record(attempt(rating, Date.now()));
+    submitted.current = false;
+    setSaving(false);
   }
 
   const success = result && result.rating !== 'again';
@@ -132,8 +147,8 @@ function Prompt({ item, ordinal, total, arena, combo, recovery, previousReview, 
       <div className="practice-tools">
         <div className="practice-meta">
           {isQuestion && <div className="practice-modes" role="group" aria-label="Intensidade da prática">
-            <button aria-pressed={!arena} onClick={() => update(current => ({ ...current, intensity: 'focus' }))}><Target size={16} /> Foco</button>
-            <button aria-pressed={arena} onClick={() => update(current => ({ ...current, intensity: 'arena' }))}><Trophy size={16} /> Arena</button>
+            <button aria-pressed={!arena} onClick={() => preferences(current => ({ ...current, intensity: 'focus' }))}><Target size={16} /> Foco</button>
+            <button aria-pressed={arena} onClick={() => preferences(current => ({ ...current, intensity: 'arena' }))}><Trophy size={16} /> Arena</button>
           </div>}
           {arena && combo > 1 && <span className="xp"><Zap size={15} /> Combo ×{combo}</span>}
           {timed && <span><Clock3 size={16} /> {seconds}s</span>}
@@ -171,30 +186,27 @@ function Prompt({ item, ordinal, total, arena, combo, recovery, previousReview, 
               return <div className={`option-row ${correct ? 'correct' : wrong ? 'wrong' : ''} ${eliminated ? 'eliminated' : ''}`} key={letter}>
                 <label className="option">
                   <input type="radio" name={item.id} value={letter} checked={answer === letter}
-                    disabled={Boolean(result) || eliminated} onChange={() => setAnswer(letter)} />
+                    disabled={Boolean(result) || eliminated || saving} onChange={() => onDraft({ answer: letter })} />
                   <span className="letter">{letter}</span><span className="option-text">{item.data.alternativas[letter]}</span>
                   {!result && answer === letter && <Check size={17} aria-hidden="true" />}
                   {correct && <CheckCircle2 size={18} aria-label="Resposta correta" />}
                   {wrong && <CircleAlert size={18} aria-label="Resposta incorreta" />}
                 </label>
                 {!result && <IconButton label={`${eliminated ? 'Restaurar' : 'Eliminar'} alternativa ${letter}`}
-                  icon={eliminated ? Undo2 : X} onClick={() => {
-                    if (eliminated) setExcluded(values => values.filter(value => value !== letter));
-                    else {
-                      setExcluded(values => [...values, letter]);
-                      if (answer === letter) setAnswer(null);
-                    }
+                  icon={eliminated ? Undo2 : X} disabled={saving} onClick={() => {
+                    if (eliminated) onDraft({ excluded: excluded.filter(value => value !== letter) });
+                    else onDraft({ excluded: [...excluded, letter], answer: answer === letter ? null : answer });
                   }} />}
               </div>;
             })}
           </fieldset>
           {!result && <div className="answer-controls">
             <label>Confiança
-              <select value={confidence} onChange={event => setConfidence(event.target.value as typeof confidence)}>
+              <select disabled={saving} value={confidence} onChange={event => onDraft({ confidence: event.target.value as typeof confidence })}>
                 <option value="know">Sei</option><option value="think">Acho que sei</option><option value="guess">Chutei</option>
               </select>
             </label>
-            <button className="primary" disabled={!answer} onClick={() => {
+            <button className="primary" disabled={!answer || saving} onClick={() => {
               if (answer) grade(answer === item.data.gabarito ? 'good' : 'again');
             }}>Confirmar resposta <ArrowRight size={16} /></button>
           </div>}
@@ -208,7 +220,7 @@ function Prompt({ item, ordinal, total, arena, combo, recovery, previousReview, 
               <div className="ratings">
                 {ratings.map(rating => {
                   const preview = schedule(previousReview, attempt(rating, revealedAt));
-                  return <button key={rating} onClick={() => grade(rating)}>
+                  return <button key={rating} disabled={saving} onClick={() => grade(rating)}>
                     <strong>{ratingLabels[rating]}</strong><small>{intervalLabel(preview.due - revealedAt)}</small>
                   </button>;
                 })}
@@ -221,7 +233,7 @@ function Prompt({ item, ordinal, total, arena, combo, recovery, previousReview, 
         </>}
       </section>
       {!isQuestion && revealedAt === undefined && <div className="card-reveal">
-        <button className="primary" onClick={() => setRevealedAt(Date.now())}><Eye size={20} /> Mostrar resposta</button>
+        <button className="primary" onClick={() => onDraft({ revealedAt: Date.now() })}><Eye size={20} /> Mostrar resposta</button>
       </div>}
       {!isQuestion && result && nextButton}
       </div>

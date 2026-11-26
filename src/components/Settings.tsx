@@ -1,23 +1,32 @@
 import { useEffect, useRef, useState } from 'react';
 import { Download, RotateCcw, Upload } from 'lucide-react';
-import { initialProgress, type UserProgress } from '../engine/progress';
+import { type UserProgress } from '../engine/progress';
 import { parseBackup } from '../engine/storage';
 import { useStudy } from '../store/study';
 
 export function Confirm({ title, children, action, onCancel, onConfirm }: {
-  title: string; children: string; action: string; onCancel: () => void; onConfirm: () => boolean;
+  title: string; children: string; action: string; onCancel: () => void; onConfirm: () => boolean | Promise<boolean>;
 }) {
   const ref = useRef<HTMLDialogElement>(null);
+  const [busy, setBusy] = useState(false);
+  const [failed, setFailed] = useState(false);
   useEffect(() => {
     const dialog = ref.current;
     dialog?.showModal();
     return () => dialog?.close();
   }, []);
   return <dialog ref={ref} className="panel" aria-labelledby="confirm-title"
-    onCancel={event => { event.preventDefault(); onCancel(); }}>
+    onCancel={event => { event.preventDefault(); if (!busy) onCancel(); }}>
     <h2 id="confirm-title">{title}</h2><p>{children}</p>
-    <div className="actions"><button autoFocus onClick={onCancel}>Cancelar</button>
-      <button className="danger" onClick={() => { if (onConfirm()) onCancel(); }}>{action}</button></div>
+    {failed && <p role="alert">Não foi possível salvar a alteração. Tente novamente.</p>}
+    <div className="actions"><button autoFocus disabled={busy} onClick={onCancel}>Cancelar</button>
+      <button className="danger" disabled={busy} onClick={async () => {
+        setBusy(true);
+        try {
+          if (await onConfirm()) onCancel();
+          else setFailed(true);
+        } finally { setBusy(false); }
+      }}>{action}</button></div>
   </dialog>;
 }
 
@@ -31,7 +40,7 @@ function download(progress: UserProgress) {
 }
 
 export function Settings() {
-  const { progress, update } = useStudy();
+  const { progress, preferences, replace, reset: resetProgress } = useStudy();
   const [imported, setImported] = useState<UserProgress | null>(null);
   const [reset, setReset] = useState(false);
   const [message, setMessage] = useState('');
@@ -40,12 +49,12 @@ export function Settings() {
     <section className="panel preferences">
       <h2>Preferências</h2>
       <fieldset><legend>Aparência</legend><div className="actions">
-        <button aria-pressed={progress.appearance === 'light'} onClick={() => update(p => ({ ...p, appearance: 'light' }))}>Clara</button>
-        <button aria-pressed={progress.appearance === 'dark'} onClick={() => update(p => ({ ...p, appearance: 'dark' }))}>Escura</button>
+        <button aria-pressed={progress.appearance === 'light'} onClick={() => preferences(p => ({ ...p, appearance: 'light' }))}>Clara</button>
+        <button aria-pressed={progress.appearance === 'dark'} onClick={() => preferences(p => ({ ...p, appearance: 'dark' }))}>Escura</button>
       </div></fieldset>
       <fieldset><legend>Intensidade</legend><div className="actions">
-        <button aria-pressed={progress.intensity === 'focus'} onClick={() => update(p => ({ ...p, intensity: 'focus' }))}>Foco</button>
-        <button aria-pressed={progress.intensity === 'arena'} onClick={() => update(p => ({ ...p, intensity: 'arena' }))}>Arena</button>
+        <button aria-pressed={progress.intensity === 'focus'} onClick={() => preferences(p => ({ ...p, intensity: 'focus' }))}>Foco</button>
+        <button aria-pressed={progress.intensity === 'arena'} onClick={() => preferences(p => ({ ...p, intensity: 'arena' }))}>Arena</button>
       </div><p className="muted">Foco oferece prática sem relógio. Arena adiciona tempo de treino e combos às sessões.</p></fieldset>
     </section>
     <section className="panel preferences">
@@ -71,13 +80,13 @@ export function Settings() {
       <button className="danger" onClick={() => setReset(true)}><RotateCcw size={17} /> Reset geral</button>
     </section>
     {imported && <Confirm title="Importar progresso?" action="Substituir" onCancel={() => setImported(null)}
-      onConfirm={() => {
-        if (!update(() => imported)) return false;
+      onConfirm={async () => {
+        if (!await replace(imported)) return false;
         setMessage('Progresso importado.');
         return true;
       }}>O backup substituirá o histórico e as preferências salvos neste navegador.</Confirm>}
     {reset && <Confirm title="Zerar todo o progresso?" action="Zerar progresso" onCancel={() => setReset(false)}
-      onConfirm={() => update(p => ({ ...initialProgress, appearance: p.appearance, intensity: p.intensity }))}>
+      onConfirm={() => resetProgress()}>
       As tentativas, revisões, o domínio e o XP de todas as unidades serão apagados.
     </Confirm>}
   </>;
