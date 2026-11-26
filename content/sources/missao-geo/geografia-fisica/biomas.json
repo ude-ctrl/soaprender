@@ -1,0 +1,1492 @@
+{
+  "schema_version": "1.0.0",
+  "source": {
+    "repository": "ude-ctrl/Estudo-para-Concurso",
+    "ref": "main",
+    "path": "MissaoAprovacaoGeo/SEDUC_PA_Tema_08_Biomas_e_Dominios_MATRIZ_OFICIAL_V2_6_AUDITADA.html",
+    "blob_sha": "3f0433e3e73826a8ce30b4f1933877eedb13f0ff",
+    "previous_context": "SEDUC-PA/FGV; aprovação anterior não transferida"
+  },
+  "status": "candidato_em_auditoria",
+  "sections": [
+    {
+      "id": "biomas-01",
+      "title": "Como a FGV cobra Biomas e Domínios",
+      "hook": "A banca cruza paisagem, vegetação, clima, solo e classificação — e pune equivalências apressadas.",
+      "html_original": "<p>Este tema exige reconhecer <b>padrões integrados</b>. A FGV pode apresentar uma paisagem, uma descrição de solo, uma formação vegetal ou um mapa e pedir o recorte correto.</p>\n<div class=\"w\"><table><tr><th>Se aparecer...</th><th>Pense primeiro em...</th><th>Pegadinha típica</th></tr>\n<tr><td>IBGE + seis grandes recortes</td><td>biomas brasileiros</td><td>trocar por domínios de Ab’Sáber</td></tr>\n<tr><td>relevo + clima + solos + vegetação</td><td>domínio morfoclimático</td><td>reduzir a vegetação</td></tr>\n<tr><td>Cerrado</td><td>mosaico de fitofisionomias</td><td>imaginar apenas árvores retorcidas</td></tr>\n<tr><td>Pantanal</td><td>pulso de inundação</td><td>tratá-lo como domínio clássico</td></tr>\n<tr><td>contato entre formações</td><td>transição / tensão ecológica</td><td>supor fronteira rígida</td></tr></table></div>\n<div class=\"box prova\"><span class=\"l\">Radar de prova</span>Antes de responder, pergunte: <b>qual sistema de classificação está sendo usado?</b> IBGE, Ab’Sáber e classificação da vegetação respondem a perguntas diferentes.</div>",
+      "recall": "Em 30 segundos: explique por que “bioma” e “domínio morfoclimático” não são sinônimos.",
+      "recall_answer": "Porque são recortes construídos com objetivos e critérios distintos; seus limites e categorias não coincidem necessariamente.",
+      "source_index": 0,
+      "proposed_unit": null,
+      "status": "em_auditoria"
+    },
+    {
+      "id": "biomas-02",
+      "title": "Bioma, ecossistema, domínio e vegetação",
+      "hook": "Quatro palavras próximas — quatro escalas e lógicas diferentes.",
+      "html_original": "<p><b>Bioma</b>, no recorte do IBGE, reúne tipos de vegetação contíguos e identificáveis regionalmente sob condições geoclimáticas semelhantes e história compartilhada de mudanças. <b>Ecossistema</b> enfatiza interações entre organismos e ambiente em uma unidade funcional, que pode ocorrer em várias escalas.</p>\n<p><b>Domínio morfoclimático</b>, na tradição de Aziz Ab’Sáber, é uma grande unidade paisagística definida pela combinação de relevo, clima, solos, hidrografia e cobertura vegetal. Já <b>tipo de vegetação</b> descreve uma formação ou região fitoecológica e não equivale automaticamente a um bioma inteiro.</p>\n<div class=\"box peg\"><span class=\"l\">Pegadinha típica</span>Um mesmo bioma contém vários ecossistemas e tipos de vegetação. E um domínio de Ab’Sáber não deve ser convertido mecanicamente em bioma do IBGE.</div>",
+      "recall": "Dê um exemplo de algo que seja vegetação, mas não o nome de um bioma.",
+      "recall_answer": "Ex.: Floresta Ombrófila Densa, Floresta Estacional Semidecidual, Savana Arborizada ou Campinarana.",
+      "source_index": 1,
+      "proposed_unit": "CE-GEO-10",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "biomas-03",
+      "title": "Grandes biomas mundiais: latitude, energia e água",
+      "hook": "O nome do bioma é menos importante que o mecanismo climático que sustenta sua fisionomia.",
+      "html_original": "<p>Em escala mundial, a distribuição de grandes formações relaciona-se sobretudo a <b>temperatura, disponibilidade de água, sazonalidade e latitude</b>, moduladas por altitude, continentalidade, correntes oceânicas e solos.</p>\n<div class=\"w\"><table><tr><th>Formação</th><th>Âncora</th><th>Armadilha</th></tr><tr><td>Tundra</td><td>frio intenso, curta estação de crescimento, ausência de árvores altas; permafrost frequente</td><td>confundir com taiga</td></tr><tr><td>Taiga</td><td>floresta boreal, coníferas dominantes</td><td>dizer que é formação tropical</td></tr><tr><td>Floresta tropical úmida</td><td>calor + alta disponibilidade hídrica</td><td>inferir solo naturalmente muito fértil</td></tr><tr><td>Savana</td><td>gramíneas + componente lenhoso, forte sazonalidade em muitas regiões</td><td>sinônimo de deserto</td></tr><tr><td>Deserto</td><td>aridez</td><td>defini-lo por calor</td></tr></table></div>",
+      "recall": "Associe tundra, taiga, savana e deserto a uma palavra-chave.",
+      "recall_answer": "Tundra: frio/permafrost; taiga: coníferas; savana: gramíneas + lenhosas; deserto: aridez.",
+      "source_index": 2,
+      "proposed_unit": "CE-GEO-10",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "biomas-04",
+      "title": "Os seis biomas brasileiros do IBGE",
+      "hook": "O mapa é um recorte oficial — não uma lista de “paisagens puras”.",
+      "html_original": "<p>O IBGE delimita seis biomas continentais: <b>Amazônia, Mata Atlântica, Caatinga, Cerrado, Pantanal e Pampa</b>. O Sistema Costeiro-Marinho é mapeado separadamente. Os limites servem como referência territorial e não significam que cada bioma tenha vegetação homogênea.</p>\n<div class=\"carto-visual\"><div class=\"w\"><table><tr><th>Norte</th><th>Centro</th><th>Leste/Interior</th><th>Sul</th></tr><tr><td>Amazônia</td><td>Cerrado + Pantanal</td><td>Caatinga + Mata Atlântica</td><td>Mata Atlântica + Pampa</td></tr></table></div><p class=\"visual-cap\">Esquema de orientação, não substitui o mapa. <a href=\"https://atlasescolar.ibge.gov.br/images/mapas/pdf/brasil-diversidade-ambiental-biomas-continentais-p-108.pdf\" target=\"_blank\" rel=\"noopener\">Abrir mapa oficial de biomas do IBGE ↗</a></p></div>\n<div class=\"box dia\"><span class=\"l\">Leitura de mapa</span>Observe legenda, limites, escala e áreas de contato. Não transforme uma cor predominante em afirmação de homogeneidade ecológica.</div>",
+      "recall": "Liste os seis biomas brasileiros sem olhar.",
+      "recall_answer": "Amazônia, Mata Atlântica, Caatinga, Cerrado, Pantanal e Pampa.",
+      "source_index": 3,
+      "proposed_unit": "CE-GEO-11",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "biomas-05",
+      "title": "Amazônia: mosaico florestal e águas",
+      "hook": "“Floresta Amazônica” não significa uma única condição ecológica.",
+      "html_original": "<p>O Bioma Amazônia abriga diferentes formações e ambientes. Uma distinção clássica é entre <b>terra firme</b>, que não sofre inundação fluvial sazonal regular; <b>várzea</b>, sujeita a inundações associadas em geral a rios de águas brancas com maior carga de sedimentos; e <b>igapó</b>, inundável e associado em muitos casos a águas pretas ou claras, mais pobres em sedimentos.</p>\n<p>A exuberância da floresta <b>não autoriza concluir alta fertilidade natural generalizada dos solos</b>. A rápida ciclagem de nutrientes na biomassa e na serapilheira é parte importante do funcionamento do sistema.</p>\n<div class=\"box peg\"><span class=\"l\">Cuidado</span>“Amazônia = floresta uniforme = solo fértil” é uma sequência de simplificações erradas.</div>",
+      "recall": "Diferencie terra firme, várzea e igapó em uma frase cada.",
+      "recall_answer": "Terra firme: fora da inundação fluvial sazonal regular; várzea: inundável, em geral ligada a águas brancas; igapó: inundável, frequentemente ligado a águas pretas/claras.",
+      "source_index": 4,
+      "proposed_unit": "CE-GEO-11",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "biomas-06",
+      "title": "Cerrado: um mosaico de fitofisionomias",
+      "hook": "A árvore retorcida é um símbolo — não a definição inteira do Cerrado.",
+      "html_original": "<p>A Embrapa organiza as fitofisionomias do Cerrado em <b>formações florestais, savânicas e campestres</b>. Entre os exemplos estão mata ciliar, mata de galeria, mata seca e cerradão; cerrado sentido restrito, parque de cerrado, palmeiral e vereda; campo sujo, campo rupestre e campo limpo.</p>\n<p>Grande parte dos solos do Cerrado é profundamente intemperizada, ácida e pobre em nutrientes disponíveis, com ocorrência de toxicidade por alumínio. A vegetação apresenta diferentes adaptações à sazonalidade, ao fogo e às condições edáficas.</p>\n<div class=\"box prova\"><span class=\"l\">Como a banca cobra</span>Classificar uma fisionomia a partir de <b>estrutura da vegetação</b>: dossel contínuo → florestal; árvores/arbustos sem dossel contínuo → savânica; predomínio herbáceo-arbustivo → campestre.</div>",
+      "recall": "Nomeie uma formação florestal, uma savânica e uma campestre do Cerrado.",
+      "recall_answer": "Ex.: cerradão; cerrado sentido restrito; campo limpo.",
+      "source_index": 5,
+      "proposed_unit": "CE-GEO-11",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "biomas-07",
+      "title": "Caatinga: semiárido não é vazio biológico",
+      "hook": "Seca sazonal produz adaptações — não ausência de biodiversidade.",
+      "html_original": "<p>A <b>Caatinga</b> é o único bioma exclusivamente brasileiro. Predomina no semiárido e possui vegetação fortemente ajustada à sazonalidade hídrica: perda de folhas na estação seca em muitas espécies, presença de espinhos, tecidos de armazenamento e outras estratégias xeromórficas.</p>\n<p>Na classificação de vegetação do IBGE, grande parte de suas formações aparece como <b>Savana-Estépica</b>. Desertificação é processo de degradação de terras secas e não sinônimo de “existência natural de deserto”.</p>",
+      "recall": "Por que “semiárido” não significa “sem biodiversidade”?",
+      "recall_answer": "Porque a limitação hídrica seleciona múltiplas adaptações e a Caatinga possui diversidade e endemismos próprios.",
+      "source_index": 6,
+      "proposed_unit": "CE-GEO-11",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "biomas-08",
+      "title": "Mata Atlântica: diversidade, relevo e fragmentação",
+      "hook": "Um bioma pode ser muito biodiverso e ao mesmo tempo fortemente fragmentado.",
+      "html_original": "<p>A Mata Atlântica reúne diferentes formações florestais e ecossistemas associados ao longo de amplo gradiente latitudinal e altitudinal. No sistema do IBGE aparecem, entre outras, <b>Florestas Ombrófilas Densa e Mista</b> e <b>Florestas Estacionais</b>.</p>\n<p>O domínio dos <b>Mares de Morros</b> de Ab’Sáber tem forte relação espacial com áreas originalmente florestadas da fachada atlântica, mas <b>não é sinônimo cartográfico de Bioma Mata Atlântica</b>.</p>",
+      "recall": "Qual a principal cautela ao relacionar Mata Atlântica e Mares de Morros?",
+      "recall_answer": "Reconhecer a forte associação sem transformar os dois recortes em equivalentes exatos.",
+      "source_index": 7,
+      "proposed_unit": "CE-GEO-11",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "biomas-09",
+      "title": "Pantanal: a água organiza a paisagem",
+      "hook": "O pulso de inundação é a chave para entender o bioma.",
+      "html_original": "<p>O Pantanal é uma vasta planície sujeita a <b>inundações sazonais</b>. A alternância entre fases de cheia e seca reorganiza habitats, deslocamento da fauna, produtividade e usos econômicos.</p>\n<p>Sua vegetação expressa influências de formações vizinhas. Por isso, uma paisagem pantaneira não deve ser reduzida a um único “tipo de planta”. No mapa de biomas do IBGE ele é um bioma; na leitura clássica de Ab’Sáber, o Pantanal aparece como <b>área de transição</b>, e não um dos seis domínios principais.</p>",
+      "recall": "Explique em uma frase por que o Pantanal muda de aparência ao longo do ano.",
+      "recall_answer": "Porque o pulso sazonal de inundação e vazante altera a área coberta por água, os habitats e a vegetação aparente.",
+      "source_index": 8,
+      "proposed_unit": "CE-GEO-11",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "biomas-10",
+      "title": "Pampa: campos do Sul",
+      "hook": "Campo não significa paisagem biologicamente simples.",
+      "html_original": "<p>O <b>Pampa</b> brasileiro ocorre no Rio Grande do Sul e integra os Pampas sul-americanos. Sua paisagem é marcada por ampla presença de formações campestres, com elevada diversidade de gramíneas, herbáceas e outros componentes.</p>\n<p>No sistema de vegetação do IBGE, <b>Estepe</b> corresponde aos campos do Sul do Brasil. No modelo de Ab’Sáber, o <b>Domínio das Pradarias</b> guarda relação com essas paisagens, mas novamente os recortes não devem ser convertidos em sinônimos automáticos.</p>",
+      "recall": "Pampa e Pradarias são exatamente a mesma classificação?",
+      "recall_answer": "Não. São conceitos de sistemas diferentes, embora haja forte relação espacial e paisagística.",
+      "source_index": 9,
+      "proposed_unit": "CE-GEO-11",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "biomas-11",
+      "title": "Ab’Sáber e os seis domínios morfoclimáticos",
+      "hook": "O domínio é uma síntese de paisagem, não um mapa apenas de vegetação.",
+      "html_original": "<p>Na formulação clássica de Aziz Ab’Sáber, o Brasil apresenta seis grandes domínios: <b>Amazônico, Cerrados, Caatingas, Mares de Morros, Araucárias e Pradarias</b>, separados e conectados por faixas de transição.</p>\n<div class=\"w\"><table><tr><th>Domínio</th><th>Âncora paisagística</th></tr><tr><td>Amazônico</td><td>terras baixas, redes fluviais e florestas equatoriais</td></tr><tr><td>Cerrados</td><td>chapadões tropicais e mosaico savânico</td></tr><tr><td>Caatingas</td><td>depressões interplanálticas semiáridas</td></tr><tr><td>Mares de Morros</td><td>mamelonização e fachada atlântica úmida</td></tr><tr><td>Araucárias</td><td>planaltos subtropicais</td></tr><tr><td>Pradarias</td><td>coxilhas/campos subtropicais</td></tr></table></div>",
+      "recall": "Liste os seis domínios de Ab’Sáber sem olhar.",
+      "recall_answer": "Amazônico, Cerrados, Caatingas, Mares de Morros, Araucárias e Pradarias.",
+      "source_index": 10,
+      "proposed_unit": "CE-GEO-11",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "biomas-12",
+      "title": "Faixas de transição e tensão ecológica",
+      "hook": "Na natureza, fronteiras frequentemente são gradientes.",
+      "html_original": "<p><b>Faixas de transição</b> são áreas onde características de grandes conjuntos paisagísticos se interpenetram. Na cartografia da vegetação do IBGE, contatos entre regiões fitoecológicas podem aparecer como <b>áreas de tensão ecológica</b>.</p>\n<p>Ecótono, tensão ecológica e faixa de transição são conceitos próximos, mas o contexto classificatório importa. O erro de prova é imaginar uma “linha ecológica” perfeita, como uma fronteira política.</p>\n<div class=\"box dia\"><span class=\"l\">Exemplo brasileiro</span>O Meio-Norte, com destaque para a Mata dos Cocais, é frequentemente estudado como transição entre conjuntos amazônicos, cerrados e caatingas. Use o exemplo para compreender gradiente, não para decorar uma linha fixa.</div>",
+      "recall": "Por que uma faixa de transição é importante para provas de Geografia?",
+      "recall_answer": "Porque revela que classificações são modelos e que paisagens reais podem combinar características de unidades vizinhas.",
+      "source_index": 11,
+      "proposed_unit": "CE-GEO-11",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "biomas-13",
+      "title": "Vegetação segundo o IBGE",
+      "hook": "“Ombrófila”, “estacional”, “savana” e “estepe” são chaves de leitura.",
+      "html_original": "<p>O sistema fitogeográfico do IBGE diferencia grandes regiões e formações. <b>Floresta Ombrófila</b> associa-se a condições úmidas; <b>Floresta Estacional</b> apresenta sazonalidade com perda foliar em parte das árvores; <b>Savana</b> corresponde amplamente ao Cerrado; <b>Savana-Estépica</b> inclui formações como a Caatinga; <b>Estepe</b> corresponde aos campos do Sul; <b>Campinarana</b> ocorre principalmente na Amazônia em ambientes de solos muito pobres, frequentemente arenosos e hidromórficos.</p>\n<div class=\"box peg\"><span class=\"l\">Não misture escalas</span>“Savana” é categoria de vegetação; “Cerrado” pode nomear bioma e também aparecer em usos regionais/fitofisionômicos. Leia o enunciado.</div>",
+      "recall": "Diferencie Ombrófila, Estacional, Savana e Estepe em palavras-chave.",
+      "recall_answer": "Ombrófila: umidade; Estacional: sazonalidade/deciduidade; Savana: cerrado; Estepe: campos sulinos.",
+      "source_index": 12,
+      "proposed_unit": "CE-GEO-11",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "biomas-14",
+      "title": "Biodiversidade e serviços ecossistêmicos",
+      "hook": "Diversidade biológica é mais do que contar espécies.",
+      "html_original": "<p>A Convenção sobre Diversidade Biológica abrange diversidade <b>dentro das espécies, entre espécies e de ecossistemas</b>. A conservação interessa não só pelo número de espécies, mas também por funções ecológicas, diversidade genética e resiliência.</p>\n<p><b>Serviços ecossistêmicos</b> incluem benefícios como regulação climática, proteção hídrica, ciclagem de nutrientes e polinização. Eles não significam que a natureza exista apenas por sua utilidade econômica.</p>\n<div class=\"box prova\"><span class=\"l\">Como a banca cobra</span>Distinguir serviço ecossistêmico de ação humana de conservação. <b>Polinização</b> é serviço ecossistêmico; <b>restauração de mata ciliar</b> é uma ação que pode manter ou recuperar serviços.</div>",
+      "recall": "Dê três exemplos de serviços ecossistêmicos.",
+      "recall_answer": "Polinização, regulação climática, proteção/regularização hídrica, ciclagem de nutrientes, entre outros.",
+      "source_index": 13,
+      "proposed_unit": "CE-GEO-10",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "biomas-15",
+      "title": "Unidades de conservação: o básico para este tema",
+      "hook": "Conservar biomas exige instrumentos territoriais — mas a lei será aprofundada no Tema 09.",
+      "html_original": "<p>O SNUC organiza as unidades de conservação em dois grupos: <b>Proteção Integral</b> e <b>Uso Sustentável</b>. No primeiro, o objetivo básico é preservar a natureza e, como regra, admite-se uso indireto dos recursos; no segundo, busca-se compatibilizar conservação com uso sustentável de parcela dos recursos.</p>\n<p>As categorias têm regras diferentes. Aqui, o essencial é compreender a lógica ecológica e territorial. A arquitetura legal completa do SNUC será retomada em <b>Ambiente e Energia</b>, evitando duplicação excessiva.</p>\n<div class=\"box peg\"><span class=\"l\">Pegadinha</span>Uso Sustentável <b>não</b> significa “uso sem regras”; Proteção Integral tampouco significa ausência absoluta de presença humana em qualquer situação prevista em lei.</div>",
+      "recall": "Qual é a diferença central entre os dois grupos do SNUC?",
+      "recall_answer": "Proteção Integral prioriza preservação com uso indireto como regra; Uso Sustentável compatibiliza conservação e uso sustentável de parte dos recursos.",
+      "source_index": 14,
+      "proposed_unit": "CE-GEO-11",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "biomas-16",
+      "title": "Pará: Amazônia, Cerrado e áreas de contato",
+      "hook": "O recorte estadual mostra por que mapas de biomas não devem ser lidos como blocos isolados.",
+      "html_original": "<p>O Pará está majoritariamente inserido no <b>Bioma Amazônia</b>, mas o mapa do IBGE registra municípios do sudeste/sul paraense em áreas de contato <b>Amazônia–Cerrado</b>, como Conceição do Araguaia, Redenção e Santana do Araguaia.</p>\n<p>Isso ajuda a compreender o território como gradiente ambiental e também como frente de uso da terra. Em questões locais, relacione cobertura vegetal, hidrografia, solos, ocupação e mudanças no uso do solo sem atribuir tudo a um único fator.</p>\n<div class=\"box prova\"><span class=\"l\">Radar Pará</span>Se o enunciado trouxer sudeste paraense, Araguaia ou transição Amazônia–Cerrado, pense em <b>contato de biomas + uso da terra + conectividade ecológica</b>, e não apenas em “Amazônia homogênea”.</div>",
+      "recall": "Cite um município paraense listado pelo IBGE em mais de um bioma.",
+      "recall_answer": "Ex.: Conceição do Araguaia, Redenção, Santana do Araguaia, Rio Maria, Pau D’Arco, Floresta do Araguaia ou Santa Maria das Barreiras.",
+      "source_index": 15,
+      "proposed_unit": "CE-GEO-11",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "biomas-17",
+      "title": "Integração final: ler a paisagem sem misturar classificações",
+      "hook": "A resposta forte nomeia o sistema, identifica processos e só depois associa a paisagem.",
+      "html_original": "<p>Para resolver uma questão inédita, siga quatro passos: <b>① identifique o sistema classificatório; ② extraia os indicadores ambientais; ③ reconheça o processo dominante; ④ elimine alternativas que misturam escalas ou usam absolutos</b>.</p>\n<div class=\"w\"><table><tr><th>Pergunta</th><th>Resposta mental</th></tr><tr><td>“Bioma?”</td><td>recorte IBGE / conjunto regional</td></tr><tr><td>“Domínio?”</td><td>síntese paisagística de Ab’Sáber</td></tr><tr><td>“Vegetação?”</td><td>fisionomia / região fitoecológica</td></tr><tr><td>“Transição?”</td><td>contato e gradiente</td></tr><tr><td>“Conservação?”</td><td>biodiversidade + território + manejo</td></tr></table></div>\n<div class=\"box dia\"><span class=\"l\">Regra de ouro</span>Não responda pelo nome mais familiar. Responda pelo <b>critério</b> que o enunciado está usando.</div>",
+      "recall": "Qual a regra de ouro deste tema?",
+      "recall_answer": "Identificar o sistema classificatório antes de associar nomes, limites e características.",
+      "source_index": 16,
+      "proposed_unit": "CE-GEO-10",
+      "status": "em_auditoria"
+    }
+  ],
+  "questions": [
+    {
+      "id": "GF-biomas-diagnostico-1",
+      "section": "diagnostico",
+      "prompt": "Qual afirmação distingue corretamente bioma de domínio morfoclimático?",
+      "options": [
+        "Os dois termos são sinônimos e usam exatamente os mesmos limites",
+        "Bioma e domínio são recortes diferentes; o domínio integra relevo, clima, hidrografia, solos e vegetação",
+        "Domínio morfoclimático considera apenas animais",
+        "Bioma considera apenas limites político-administrativos"
+      ],
+      "correct_index": 1,
+      "explanation": "Bioma e domínio morfoclimático são construções distintas e não devem ser tratados como mapas equivalentes.",
+      "option_feedback": [
+        "Não é a melhor resposta.",
+        "Correto.",
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-biomas-diagnostico-2",
+      "section": "diagnostico",
+      "prompt": "No Cerrado, qual associação é mais adequada?",
+      "options": [
+        "Solos sempre férteis e ausência de sazonalidade",
+        "Predomínio de neve e permafrost",
+        "Mosaico de formações florestais, savânicas e campestres, com forte sazonalidade climática",
+        "Floresta homogênea de coníferas"
+      ],
+      "correct_index": 2,
+      "explanation": "O Cerrado é um mosaico fitofisionômico, não uma vegetação única.",
+      "option_feedback": [
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta.",
+        "Correto.",
+        "Não é a melhor resposta."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-biomas-diagnostico-3",
+      "section": "diagnostico",
+      "prompt": "Na leitura clássica de Ab’Sáber, o Pantanal deve ser lembrado principalmente como:",
+      "options": [
+        "um dos seis domínios principais",
+        "uma área de transição entre grandes domínios",
+        "sinônimo do domínio das Pradarias",
+        "parte obrigatória do domínio Amazônico"
+      ],
+      "correct_index": 1,
+      "explanation": "No modelo clássico dos seis domínios, o Pantanal é tratado como importante área de transição.",
+      "option_feedback": [
+        "Não é a melhor resposta.",
+        "Correto.",
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-biomas-biomas-01-1",
+      "section": "biomas-01",
+      "prompt": "Uma questão descreve relevo, clima, solos, hidrografia e vegetação como conjunto integrado. O conceito mais adequado é:",
+      "options": [
+        "município",
+        "domínio morfoclimático",
+        "fuso horário",
+        "rede urbana"
+      ],
+      "correct_index": 1,
+      "explanation": "Domínio morfoclimático integra múltiplos componentes da paisagem.",
+      "option_feedback": [
+        "Não é a melhor resposta.",
+        "Correto.",
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-biomas-biomas-01-2",
+      "section": "biomas-01",
+      "prompt": "Qual estratégia reduz mais erros neste tema?",
+      "options": [
+        "decorar cores de mapas sem legenda",
+        "identificar primeiro o sistema de classificação usado",
+        "tratar bioma e domínio como sinônimos",
+        "ignorar clima e relevo"
+      ],
+      "correct_index": 1,
+      "explanation": "O mesmo espaço pode receber nomes distintos em sistemas classificatórios diferentes.",
+      "option_feedback": [
+        "Não é a melhor resposta.",
+        "Correto.",
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-biomas-biomas-02-1",
+      "section": "biomas-02",
+      "prompt": "Qual conceito é mais diretamente funcional e pode ser definido em escalas muito diferentes?",
+      "options": [
+        "ecossistema",
+        "bioma brasileiro do IBGE",
+        "domínio morfoclimático",
+        "macrorregião administrativa"
+      ],
+      "correct_index": 0,
+      "explanation": "Ecossistema pode ser reconhecido desde ambientes locais até unidades amplas, conforme a análise das interações bióticas e abióticas.",
+      "option_feedback": [
+        "Correto.",
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-biomas-biomas-02-2",
+      "section": "biomas-02",
+      "prompt": "“Floresta Ombrófila Densa” é melhor entendida como:",
+      "options": [
+        "um país",
+        "um tipo/região de vegetação",
+        "um dos seis biomas oficiais",
+        "um domínio morfoclimático de Ab’Sáber"
+      ],
+      "correct_index": 1,
+      "explanation": "É uma categoria fitogeográfica/vegetacional, não um bioma por si só.",
+      "option_feedback": [
+        "Não é a melhor resposta.",
+        "Correto.",
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-biomas-biomas-03-1",
+      "section": "biomas-03",
+      "prompt": "Qual característica distingue melhor a tundra da taiga?",
+      "options": [
+        "tundra é floresta de coníferas",
+        "tundra apresenta forte limitação ao crescimento arbóreo e permafrost frequente",
+        "taiga é deserto quente",
+        "tundra ocorre apenas no Equador"
+      ],
+      "correct_index": 1,
+      "explanation": "A tundra é essencialmente não florestal; a taiga é uma floresta boreal.",
+      "option_feedback": [
+        "Não é a melhor resposta.",
+        "Correto.",
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-biomas-biomas-03-2",
+      "section": "biomas-03",
+      "prompt": "Um deserto é definido principalmente por:",
+      "options": [
+        "temperaturas sempre elevadas",
+        "baixa disponibilidade hídrica/aridez",
+        "presença obrigatória de dunas",
+        "ausência absoluta de vida"
+      ],
+      "correct_index": 1,
+      "explanation": "Existem desertos quentes e frios; o critério central é a aridez.",
+      "option_feedback": [
+        "Não é a melhor resposta.",
+        "Correto.",
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-biomas-biomas-04-1",
+      "section": "biomas-04",
+      "prompt": "Quantos biomas continentais o IBGE reconhece no Brasil nesse recorte?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "8"
+      ],
+      "correct_index": 2,
+      "explanation": "Amazônia, Mata Atlântica, Caatinga, Cerrado, Pantanal e Pampa.",
+      "option_feedback": [
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta.",
+        "Correto.",
+        "Não é a melhor resposta."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-biomas-biomas-04-2",
+      "section": "biomas-04",
+      "prompt": "O Sistema Costeiro-Marinho, no produto do IBGE:",
+      "options": [
+        "substitui a Mata Atlântica",
+        "é mapeado separadamente dos seis biomas continentais",
+        "é sinônimo de Pantanal",
+        "não possui influência marinha"
+      ],
+      "correct_index": 1,
+      "explanation": "O produto do IBGE apresenta os seis biomas e também o Sistema Costeiro-Marinho.",
+      "option_feedback": [
+        "Não é a melhor resposta.",
+        "Correto.",
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-biomas-biomas-05-1",
+      "section": "biomas-05",
+      "prompt": "Qual associação está correta?",
+      "options": [
+        "terra firme → inundação fluvial sazonal obrigatória",
+        "várzea → áreas periodicamente inundáveis",
+        "igapó → ambiente exclusivamente desértico",
+        "Amazônia → vegetação homogênea"
+      ],
+      "correct_index": 1,
+      "explanation": "Várzeas são planícies inundáveis; a Amazônia contém grande diversidade de formações.",
+      "option_feedback": [
+        "Não é a melhor resposta.",
+        "Correto.",
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-biomas-biomas-05-2",
+      "section": "biomas-05",
+      "prompt": "A grande biomassa da floresta amazônica permite concluir que:",
+      "options": [
+        "todos os solos amazônicos são naturalmente muito férteis",
+        "a ciclagem de nutrientes na biomassa é ecologicamente importante",
+        "não há limitação de nutrientes",
+        "não existe lixiviação"
+      ],
+      "correct_index": 1,
+      "explanation": "A fertilidade do solo e a produtividade do ecossistema não são equivalentes.",
+      "option_feedback": [
+        "Não é a melhor resposta.",
+        "Correto.",
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-biomas-biomas-06-1",
+      "section": "biomas-06",
+      "prompt": "Cerradão é classificado, na tipologia fitofisionômica da Embrapa, como formação:",
+      "options": [
+        "florestal",
+        "glacial",
+        "marinha",
+        "exclusivamente campestre"
+      ],
+      "correct_index": 0,
+      "explanation": "O cerradão é uma formação florestal do mosaico do Cerrado.",
+      "option_feedback": [
+        "Correto.",
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-biomas-biomas-06-2",
+      "section": "biomas-06",
+      "prompt": "Qual afirmação sobre solos do Cerrado é mais adequada?",
+      "options": [
+        "são invariavelmente férteis e neutros",
+        "muitos são ácidos, intemperizados e pobres em nutrientes disponíveis",
+        "não apresentam alumínio",
+        "são todos rasos"
+      ],
+      "correct_index": 1,
+      "explanation": "Há diversidade pedológica, mas Latossolos profundos, ácidos e pobres em nutrientes são muito expressivos.",
+      "option_feedback": [
+        "Não é a melhor resposta.",
+        "Correto.",
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-biomas-biomas-07-1",
+      "section": "biomas-07",
+      "prompt": "Qual afirmação é correta sobre a Caatinga?",
+      "options": [
+        "é o único bioma exclusivamente brasileiro",
+        "é uma tundra tropical",
+        "não possui espécies endêmicas",
+        "ocorre apenas em áreas permanentemente inundadas"
+      ],
+      "correct_index": 0,
+      "explanation": "Fontes oficiais reconhecem a Caatinga como o único bioma exclusivamente brasileiro.",
+      "option_feedback": [
+        "Correto.",
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-biomas-biomas-07-2",
+      "section": "biomas-07",
+      "prompt": "A perda sazonal de folhas em muitas plantas da Caatinga pode:",
+      "options": [
+        "reduzir perda de água durante o período seco",
+        "aumentar obrigatoriamente transpiração",
+        "eliminar a sazonalidade",
+        "transformar o bioma em floresta boreal"
+      ],
+      "correct_index": 0,
+      "explanation": "A deciduidade pode reduzir a superfície transpirante no período seco.",
+      "option_feedback": [
+        "Correto.",
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-biomas-biomas-08-1",
+      "section": "biomas-08",
+      "prompt": "Qual formação está associada à Mata Atlântica em parte do Sul do Brasil?",
+      "options": [
+        "Floresta Ombrófila Mista, com araucária",
+        "Tundra",
+        "Taiga siberiana",
+        "Savana-Estépica exclusivamente"
+      ],
+      "correct_index": 0,
+      "explanation": "A Floresta Ombrófila Mista é a clássica formação com araucária.",
+      "option_feedback": [
+        "Correto.",
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-biomas-biomas-08-2",
+      "section": "biomas-08",
+      "prompt": "Mata Atlântica e domínio dos Mares de Morros:",
+      "options": [
+        "são mapas exatamente idênticos",
+        "são recortes de sistemas diferentes e não devem ser tratados como sinônimos",
+        "não possuem qualquer relação espacial",
+        "são divisões político-administrativas"
+      ],
+      "correct_index": 1,
+      "explanation": "Há relação paisagística importante, mas os critérios e limites são diferentes.",
+      "option_feedback": [
+        "Não é a melhor resposta.",
+        "Correto.",
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-biomas-biomas-09-1",
+      "section": "biomas-09",
+      "prompt": "O principal controlador ecológico do Pantanal é:",
+      "options": [
+        "pulso sazonal de inundação",
+        "permafrost",
+        "glaciação permanente",
+        "aridez absoluta"
+      ],
+      "correct_index": 0,
+      "explanation": "A dinâmica de cheia e seca estrutura grande parte dos ambientes pantaneiros.",
+      "option_feedback": [
+        "Correto.",
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-biomas-biomas-09-2",
+      "section": "biomas-09",
+      "prompt": "Qual frase evita confundir sistemas de classificação?",
+      "options": [
+        "Pantanal é bioma do IBGE e área de transição no modelo clássico de Ab’Sáber",
+        "Pantanal é sempre domínio das Pradarias",
+        "Pantanal é sinônimo de Cerrado",
+        "Pantanal não possui influência de outros conjuntos vegetacionais"
+      ],
+      "correct_index": 0,
+      "explanation": "O enquadramento depende do sistema usado.",
+      "option_feedback": [
+        "Correto.",
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-biomas-biomas-10-1",
+      "section": "biomas-10",
+      "prompt": "No sistema de vegetação do IBGE, “Estepe” está associada principalmente a:",
+      "options": [
+        "campos do Sul do Brasil",
+        "floresta amazônica inundável",
+        "tundra ártica brasileira",
+        "manguezal"
+      ],
+      "correct_index": 0,
+      "explanation": "A Estepe corresponde aos campos do extremo sul.",
+      "option_feedback": [
+        "Correto.",
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-biomas-biomas-10-2",
+      "section": "biomas-10",
+      "prompt": "O Pampa brasileiro ocorre:",
+      "options": [
+        "apenas em Roraima",
+        "no Rio Grande do Sul",
+        "somente no Pantanal",
+        "apenas no Pará"
+      ],
+      "correct_index": 1,
+      "explanation": "No Brasil, o bioma Pampa está no Rio Grande do Sul.",
+      "option_feedback": [
+        "Não é a melhor resposta.",
+        "Correto.",
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-biomas-biomas-11-1",
+      "section": "biomas-11",
+      "prompt": "Qual opção contém apenas domínios clássicos de Ab’Sáber?",
+      "options": [
+        "Amazônico, Cerrados, Caatingas, Mares de Morros, Araucárias e Pradarias",
+        "Amazônia, Pantanal, Pampa, Caatinga, Cerrado e Mata Atlântica",
+        "Norte, Nordeste, Centro-Oeste, Sudeste e Sul",
+        "Tundra, taiga, savana, deserto, estepe e mediterrâneo"
+      ],
+      "correct_index": 0,
+      "explanation": "Essa é a lista clássica dos seis grandes domínios.",
+      "option_feedback": [
+        "Correto.",
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-biomas-biomas-11-2",
+      "section": "biomas-11",
+      "prompt": "A proposta de Ab’Sáber é melhor entendida como:",
+      "options": [
+        "classificação integrada de grandes paisagens",
+        "mapa de municípios",
+        "lista de espécies animais",
+        "divisão de fusos horários"
+      ],
+      "correct_index": 0,
+      "explanation": "O domínio sintetiza componentes naturais e suas relações na paisagem.",
+      "option_feedback": [
+        "Correto.",
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-biomas-biomas-12-1",
+      "section": "biomas-12",
+      "prompt": "Uma área com mistura/contato entre formações diferentes deve ser interpretada primeiro como:",
+      "options": [
+        "transição ou tensão ecológica",
+        "fronteira política obrigatória",
+        "oceano profundo",
+        "zona sem biodiversidade"
+      ],
+      "correct_index": 0,
+      "explanation": "Áreas de contato podem apresentar combinações e gradientes ambientais.",
+      "option_feedback": [
+        "Correto.",
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-biomas-biomas-12-2",
+      "section": "biomas-12",
+      "prompt": "A principal pegadinha ao estudar transições é:",
+      "options": [
+        "imaginar limites naturais sempre rígidos",
+        "reconhecer gradientes",
+        "comparar vegetação e clima",
+        "observar contatos espaciais"
+      ],
+      "correct_index": 0,
+      "explanation": "Fronteiras ecológicas podem ser graduais e complexas.",
+      "option_feedback": [
+        "Correto.",
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-biomas-biomas-13-1",
+      "section": "biomas-13",
+      "prompt": "Floresta Estacional Semidecidual significa que:",
+      "options": [
+        "parte relevante das árvores perde folhas na estação desfavorável",
+        "todas as árvores permanecem sempre verdes",
+        "é vegetação marinha",
+        "é sinônimo de tundra"
+      ],
+      "correct_index": 0,
+      "explanation": "A semideciduidade expressa perda sazonal de folhas em parcela do estrato arbóreo.",
+      "option_feedback": [
+        "Correto.",
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-biomas-biomas-13-2",
+      "section": "biomas-13",
+      "prompt": "Campinarana é associada principalmente a:",
+      "options": [
+        "ambientes amazônicos de solos muito pobres, muitas vezes arenosos",
+        "neve permanente",
+        "planícies de maré exclusivamente",
+        "cultivos agrícolas"
+      ],
+      "correct_index": 0,
+      "explanation": "É uma região fitoecológica amazônica ligada a condições edáficas particulares.",
+      "option_feedback": [
+        "Correto.",
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-biomas-biomas-14-1",
+      "section": "biomas-14",
+      "prompt": "Biodiversidade inclui:",
+      "options": [
+        "apenas número de espécies",
+        "diversidade genética, de espécies e de ecossistemas",
+        "somente animais",
+        "somente áreas protegidas"
+      ],
+      "correct_index": 1,
+      "explanation": "O conceito é multidimensional.",
+      "option_feedback": [
+        "Não é a melhor resposta.",
+        "Correto.",
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-biomas-biomas-14-2",
+      "section": "biomas-14",
+      "prompt": "Qual é exemplo de serviço ecossistêmico?",
+      "options": [
+        "polinização",
+        "desmatamento",
+        "impermeabilização total do solo",
+        "contaminação de rio"
+      ],
+      "correct_index": 0,
+      "explanation": "Polinização é um benefício decorrente de processos ecológicos.",
+      "option_feedback": [
+        "Correto.",
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-biomas-biomas-15-1",
+      "section": "biomas-15",
+      "prompt": "Qual par corresponde aos dois grandes grupos do SNUC?",
+      "options": [
+        "Proteção Integral e Uso Sustentável",
+        "Federal e Internacional",
+        "Urbano e Rural",
+        "Floresta e Savana"
+      ],
+      "correct_index": 0,
+      "explanation": "Essa é a divisão legal básica.",
+      "option_feedback": [
+        "Correto.",
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-biomas-biomas-15-2",
+      "section": "biomas-15",
+      "prompt": "Uma Reserva Extrativista pertence ao grupo de:",
+      "options": [
+        "Uso Sustentável",
+        "Proteção Integral",
+        "área sem proteção",
+        "domínio morfoclimático"
+      ],
+      "correct_index": 0,
+      "explanation": "RESEX é categoria de Uso Sustentável.",
+      "option_feedback": [
+        "Correto.",
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-biomas-biomas-16-1",
+      "section": "biomas-16",
+      "prompt": "Sobre o Pará, é correto afirmar que:",
+      "options": [
+        "todo município está exclusivamente em um único bioma sem áreas de contato",
+        "há municípios paraenses classificados como interbiomas Amazônia–Cerrado",
+        "o estado está no bioma Pampa",
+        "o Cerrado ocupa todo o estado"
+      ],
+      "correct_index": 1,
+      "explanation": "O IBGE registra municípios interbiomas Amazônia–Cerrado no Pará.",
+      "option_feedback": [
+        "Não é a melhor resposta.",
+        "Correto.",
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-biomas-biomas-16-2",
+      "section": "biomas-16",
+      "prompt": "A existência de área Amazônia–Cerrado no sudeste paraense reforça que:",
+      "options": [
+        "limites ecológicos podem envolver contatos e transições",
+        "biomas são divisões municipais",
+        "clima não influencia vegetação",
+        "uso do solo não altera paisagens"
+      ],
+      "correct_index": 0,
+      "explanation": "Áreas de contato evidenciam gradientes e interações entre conjuntos naturais.",
+      "option_feedback": [
+        "Correto.",
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-biomas-biomas-17-1",
+      "section": "biomas-17",
+      "prompt": "Uma alternativa chama o Pantanal de um dos seis domínios clássicos de Ab’Sáber. A melhor avaliação é:",
+      "options": [
+        "correta",
+        "incorreta; no modelo clássico ele é área de transição",
+        "correta apenas por ser bioma do IBGE",
+        "irrelevante"
+      ],
+      "correct_index": 1,
+      "explanation": "Ser bioma do IBGE não o transforma em domínio clássico de Ab’Sáber.",
+      "option_feedback": [
+        "Não é a melhor resposta.",
+        "Correto.",
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-biomas-biomas-17-2",
+      "section": "biomas-17",
+      "prompt": "Uma questão descreve dossel contínuo, alta umidade e folhas largas, mas não fornece sistema classificatório. O primeiro passo é:",
+      "options": [
+        "adivinhar pelo nome mais conhecido",
+        "identificar o que exatamente a questão quer classificar",
+        "ignorar a descrição",
+        "tratar como município"
+      ],
+      "correct_index": 1,
+      "explanation": "A descrição pode apontar uma fisionomia, um bioma ou outro recorte; o comando define a escala conceitual.",
+      "option_feedback": [
+        "Não é a melhor resposta.",
+        "Correto.",
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-biomas-desafio-1",
+      "section": "desafio",
+      "prompt": "O mapa do IBGE mostra seis biomas continentais. Qual alternativa NÃO pertence a esse conjunto?",
+      "options": [
+        "Amazônia",
+        "Cerrado",
+        "Pantanal",
+        "Mares de Morros",
+        "Pampa"
+      ],
+      "correct_index": 3,
+      "explanation": "Mares de Morros é domínio morfoclimático de Ab’Sáber, não bioma do IBGE.",
+      "option_feedback": [
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta.",
+        "Correto.",
+        "Não é a melhor resposta."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "candidato_treino_objetivo"
+    },
+    {
+      "id": "GF-biomas-desafio-2",
+      "section": "desafio",
+      "prompt": "Uma paisagem apresenta formações florestais, savânicas e campestres no mesmo bioma. A conclusão correta é:",
+      "options": [
+        "o bioma é necessariamente homogêneo",
+        "um bioma pode conter várias fitofisionomias",
+        "trata-se obrigatoriamente de tundra",
+        "fitofisionomia e bioma são sinônimos",
+        "só pode ocorrer fora do Brasil"
+      ],
+      "correct_index": 1,
+      "explanation": "O Cerrado é exemplo clássico de mosaico fitofisionômico.",
+      "option_feedback": [
+        "Não é a melhor resposta.",
+        "Correto.",
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "candidato_treino_objetivo"
+    },
+    {
+      "id": "GF-biomas-desafio-3",
+      "section": "desafio",
+      "prompt": "Qual relação está conceitualmente correta?",
+      "options": [
+        "Pantanal → um dos seis domínios clássicos",
+        "Mata Atlântica → sinônimo perfeito de Mares de Morros",
+        "Cerrado do IBGE → mesmo limite exato do domínio dos Cerrados",
+        "Caatinga → bioma exclusivamente brasileiro",
+        "Pampa → floresta equatorial"
+      ],
+      "correct_index": 3,
+      "explanation": "A Caatinga é o único bioma exclusivamente brasileiro; as demais equivalências são indevidas.",
+      "option_feedback": [
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta.",
+        "Correto.",
+        "Não é a melhor resposta."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "candidato_treino_objetivo"
+    },
+    {
+      "id": "GF-biomas-desafio-4",
+      "section": "desafio",
+      "prompt": "Uma questão descreve área com árvores baixas e retorcidas, gramíneas, estação seca e solos frequentemente ácidos. A associação mais provável é:",
+      "options": [
+        "Cerrado",
+        "Tundra",
+        "Taiga",
+        "Manguezal",
+        "Floresta boreal"
+      ],
+      "correct_index": 0,
+      "explanation": "Esse conjunto é típico de formações savânicas do Cerrado, embora o bioma seja mais diverso do que essa fisionomia.",
+      "option_feedback": [
+        "Correto.",
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "candidato_treino_objetivo"
+    },
+    {
+      "id": "GF-biomas-desafio-5",
+      "section": "desafio",
+      "prompt": "Sobre conservação, assinale a correta:",
+      "options": [
+        "Uso Sustentável significa ausência de regras",
+        "Proteção Integral admite como regra apenas uso indireto dos recursos",
+        "todo bioma é uma unidade de conservação",
+        "serviço ecossistêmico é sinônimo de parque nacional",
+        "ecótono é categoria do SNUC"
+      ],
+      "correct_index": 1,
+      "explanation": "No SNUC, Proteção Integral tem como regra o uso indireto, ressalvadas exceções legais.",
+      "option_feedback": [
+        "Não é a melhor resposta.",
+        "Correto.",
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta.",
+        "Não é a melhor resposta."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "candidato_treino_objetivo"
+    }
+  ],
+  "cards": [
+    {
+      "id": "GF-biomas-FC1",
+      "category": "Conceitos",
+      "front": "Bioma e domínio morfoclimático são sinônimos?",
+      "back": "Não. São recortes de sistemas e critérios distintos.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-biomas-FC2",
+      "category": "Conceitos",
+      "front": "O que é ecossistema?",
+      "back": "Interações entre organismos e ambiente em unidade funcional.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-biomas-FC3",
+      "category": "Conceitos",
+      "front": "Tipo de vegetação equivale a bioma?",
+      "back": "Não. Um bioma pode reunir vários tipos de vegetação.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-biomas-FC4",
+      "category": "Mundo",
+      "front": "Tundra: palavra-chave?",
+      "back": "Frio intenso, curta estação de crescimento e permafrost frequente.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-biomas-FC5",
+      "category": "Mundo",
+      "front": "Taiga: palavra-chave?",
+      "back": "Floresta boreal dominada por coníferas.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-biomas-FC6",
+      "category": "Mundo",
+      "front": "Deserto é definido por calor?",
+      "back": "Não. O critério central é aridez.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-biomas-FC7",
+      "category": "Brasil",
+      "front": "Quais são os seis biomas continentais do IBGE?",
+      "back": "Amazônia, Mata Atlântica, Caatinga, Cerrado, Pantanal e Pampa.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-biomas-FC8",
+      "category": "Brasil",
+      "front": "Sistema Costeiro-Marinho é um dos seis biomas?",
+      "back": "Não. O IBGE o mapeia separadamente.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-biomas-FC9",
+      "category": "Amazônia",
+      "front": "Terra firme sofre inundação fluvial sazonal regular?",
+      "back": "Não. Esse é justamente o contraste com áreas inundáveis.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-biomas-FC10",
+      "category": "Amazônia",
+      "front": "Várzea: característica central?",
+      "back": "Planície sujeita a inundação periódica, em geral por rios de águas brancas.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-biomas-FC11",
+      "category": "Amazônia",
+      "front": "Igapó: característica central?",
+      "back": "Floresta inundável frequentemente associada a águas pretas ou claras.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-biomas-FC12",
+      "category": "Amazônia",
+      "front": "Floresta exuberante prova solo muito fértil?",
+      "back": "Não. Ciclagem de nutrientes na biomassa é crucial.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-biomas-FC13",
+      "category": "Cerrado",
+      "front": "Três grupos de fitofisionomias?",
+      "back": "Florestais, savânicas e campestres.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-biomas-FC14",
+      "category": "Cerrado",
+      "front": "Cerradão pertence a qual grupo?",
+      "back": "Formações florestais.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-biomas-FC15",
+      "category": "Cerrado",
+      "front": "Cerrado sentido restrito pertence a qual grupo?",
+      "back": "Formações savânicas.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-biomas-FC16",
+      "category": "Cerrado",
+      "front": "Campo limpo pertence a qual grupo?",
+      "back": "Formações campestres.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-biomas-FC17",
+      "category": "Cerrado",
+      "front": "Solos frequentes do Cerrado?",
+      "back": "Muito intemperizados, frequentemente ácidos e pobres em nutrientes disponíveis.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-biomas-FC18",
+      "category": "Cerrado",
+      "front": "Fogo naturaliza qualquer queimada?",
+      "back": "Não. Frequência, intensidade e origem alteram os efeitos ecológicos.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-biomas-FC19",
+      "category": "Caatinga",
+      "front": "Único bioma exclusivamente brasileiro?",
+      "back": "Caatinga.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-biomas-FC20",
+      "category": "Caatinga",
+      "front": "Vegetação IBGE associada?",
+      "back": "Savana-Estépica.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-biomas-FC21",
+      "category": "Caatinga",
+      "front": "Deciduidade pode ajudar em quê?",
+      "back": "Reduzir perda de água durante a estação seca.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-biomas-FC22",
+      "category": "Mata Atlântica",
+      "front": "Floresta com araucária no IBGE?",
+      "back": "Floresta Ombrófila Mista.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-biomas-FC23",
+      "category": "Mata Atlântica",
+      "front": "Mata Atlântica = Mares de Morros?",
+      "back": "Não. Há forte relação, mas são recortes diferentes.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-biomas-FC24",
+      "category": "Pantanal",
+      "front": "Processo ecológico central?",
+      "back": "Pulso sazonal de inundação e vazante.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-biomas-FC25",
+      "category": "Pantanal",
+      "front": "Pantanal em Ab’Sáber clássico?",
+      "back": "Área de transição, não um dos seis domínios principais.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-biomas-FC26",
+      "category": "Pampa",
+      "front": "Onde ocorre o Pampa brasileiro?",
+      "back": "Rio Grande do Sul.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-biomas-FC27",
+      "category": "Pampa",
+      "front": "Estepe no IBGE corresponde a quê?",
+      "back": "Campos do Sul do Brasil.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-biomas-FC28",
+      "category": "Ab’Sáber",
+      "front": "Seis domínios clássicos?",
+      "back": "Amazônico, Cerrados, Caatingas, Mares de Morros, Araucárias e Pradarias.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-biomas-FC29",
+      "category": "Ab’Sáber",
+      "front": "Domínio morfoclimático integra quais elementos?",
+      "back": "Relevo, clima, solos, hidrografia e vegetação.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-biomas-FC30",
+      "category": "Ab’Sáber",
+      "front": "Mares de Morros: âncora?",
+      "back": "Relevo mamelonizado e fachada atlântica úmida.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-biomas-FC31",
+      "category": "Ab’Sáber",
+      "front": "Araucárias: âncora?",
+      "back": "Planaltos subtropicais e floresta com araucária.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-biomas-FC32",
+      "category": "Ab’Sáber",
+      "front": "Pradarias: âncora?",
+      "back": "Campos e coxilhas subtropicais do Sul.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-biomas-FC33",
+      "category": "Transição",
+      "front": "O que é uma faixa de transição?",
+      "back": "Área de contato e interpenetração entre grandes conjuntos paisagísticos.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-biomas-FC34",
+      "category": "Transição",
+      "front": "Tensão ecológica no IBGE indica quê?",
+      "back": "Contato entre regiões/tipos de vegetação.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-biomas-FC35",
+      "category": "Vegetação",
+      "front": "Ombrófila: palavra-chave?",
+      "back": "Umidade elevada.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-biomas-FC36",
+      "category": "Vegetação",
+      "front": "Estacional: palavra-chave?",
+      "back": "Sazonalidade e perda foliar em parte da vegetação.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-biomas-FC37",
+      "category": "Vegetação",
+      "front": "Savana no sistema do IBGE associa-se amplamente a quê?",
+      "back": "Cerrado.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-biomas-FC38",
+      "category": "Vegetação",
+      "front": "Campinarana ocorre sobretudo onde?",
+      "back": "Amazônia, associada a solos muito pobres e frequentemente arenosos.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-biomas-FC39",
+      "category": "Biodiversidade",
+      "front": "Três níveis clássicos de biodiversidade?",
+      "back": "Genética, espécies e ecossistemas.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-biomas-FC40",
+      "category": "Serviços",
+      "front": "Exemplo de serviço ecossistêmico?",
+      "back": "Polinização, regulação climática ou proteção hídrica.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-biomas-FC41",
+      "category": "Serviços",
+      "front": "Restauração é serviço ecossistêmico?",
+      "back": "É uma ação que pode recuperar/manter serviços.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-biomas-FC42",
+      "category": "SNUC",
+      "front": "Dois grupos do SNUC?",
+      "back": "Proteção Integral e Uso Sustentável.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-biomas-FC43",
+      "category": "SNUC",
+      "front": "Proteção Integral: regra de uso?",
+      "back": "Uso indireto dos recursos, ressalvadas exceções legais.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-biomas-FC44",
+      "category": "SNUC",
+      "front": "RESEX pertence a qual grupo?",
+      "back": "Uso Sustentável.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-biomas-FC45",
+      "category": "SNUC",
+      "front": "Parque Nacional pertence a qual grupo?",
+      "back": "Proteção Integral.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-biomas-FC46",
+      "category": "Pará",
+      "front": "Bioma predominante no Pará?",
+      "back": "Amazônia.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-biomas-FC47",
+      "category": "Pará",
+      "front": "Há interbioma Amazônia–Cerrado no Pará?",
+      "back": "Sim, especialmente em municípios do sul/sudeste.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-biomas-FC48",
+      "category": "Pará",
+      "front": "Exemplo de município interbioma?",
+      "back": "Conceição do Araguaia, Redenção ou Santana do Araguaia.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-biomas-FC49",
+      "category": "Prova",
+      "front": "Regra de ouro para classificar paisagens?",
+      "back": "Identifique primeiro o sistema e o critério do enunciado.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-biomas-FC50",
+      "category": "Prova",
+      "front": "Erro mais perigoso neste tema?",
+      "back": "Tratar bioma, domínio e tipo de vegetação como equivalentes.",
+      "status": "em_auditoria"
+    }
+  ],
+  "source_links": [
+    "https://www.ibge.gov.br/geociencias/todos-os-produtos-geociencias/15842-biomas.html"
+  ],
+  "notes": "HTML preservado como fonte; não renderizar HTML bruto. Remover afirmações de incidência FGV e exemplos exclusivamente paraenses, se fora do escopo. Revisar semântica, figuras, atualidade, direitos, unidades e feedbacks. Cinco alternativas não comprovam aderência FCC."
+}

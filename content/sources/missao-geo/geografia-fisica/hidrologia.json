@@ -1,0 +1,1438 @@
+{
+  "schema_version": "1.0.0",
+  "source": {
+    "repository": "ude-ctrl/Estudo-para-Concurso",
+    "ref": "main",
+    "path": "MissaoAprovacaoGeo/SEDUC_PA_Tema_07_Hidrologia_MATRIZ_OFICIAL_V2_6_AUDITADA.html",
+    "blob_sha": "be45c026e1aeb0a95e303284c3941ba73b550301",
+    "previous_context": "SEDUC-PA/FGV; aprovação anterior não transferida"
+  },
+  "status": "candidato_em_auditoria",
+  "sections": [
+    {
+      "id": "hidrologia-01",
+      "title": "Como a FGV cobra Hidrologia",
+      "hook": "A banca costuma transformar conceitos simples em relações de causa → efeito, leitura de bacia e gestão pública.",
+      "html_original": "<p>Hidrologia em prova de Geografia raramente é só “decorar o ciclo da água”. O núcleo é interpretar <b>fluxos, armazenamento, bacias, usos e conflitos</b>. A FGV também cruza hidrologia com urbanização, legislação ambiental e leitura de mapas.</p>\n<div class=\"w\"><table><tr><th>Se aparecer...</th><th>Pense primeiro em...</th><th>Pegadinha típica</th></tr>\n<tr><td>chuva + impermeabilização</td><td>escoamento mais rápido</td><td>dizer que infiltração aumenta</td></tr>\n<tr><td>divisor + exutório</td><td>bacia hidrográfica</td><td>confundir com região hidrográfica</td></tr>\n<tr><td>poço + recarga</td><td>aquífero</td><td>porosidade = permeabilidade</td></tr>\n<tr><td>outorga</td><td>direito de uso</td><td>confundir com propriedade</td></tr>\n<tr><td>chuva urbana + extravasamento</td><td>inundação</td><td>chamar todo acúmulo de inundação</td></tr></table></div>\n<div class=\"box prova\"><span class=\"l\">Radar de prova</span>Localize o <b>fluxo</b>: onde a água entra, onde fica armazenada, por onde se desloca e qual saída domina. Depois identifique a escala — parcela, bacia, cidade, aquífero ou oceano.</div>",
+      "recall": "Em 30 segundos: explique por que hidrologia exige pensar em fluxos e armazenamentos, não apenas em “água”.",
+      "recall_answer": "Porque precipitação, infiltração, evapotranspiração, escoamento, armazenamento superficial e subterrâneo se conectam; a resposta depende de onde a água está e como se desloca.",
+      "source_index": 0,
+      "proposed_unit": null,
+      "status": "em_auditoria"
+    },
+    {
+      "id": "hidrologia-02",
+      "title": "Ciclo hidrológico e balanço de água",
+      "hook": "O ciclo é contínuo, mas os fluxos e tempos de residência são muito diferentes.",
+      "html_original": "<p>O <b>ciclo hidrológico</b> descreve a circulação da água entre atmosfera, superfície, biosfera, solo, águas subterrâneas e oceanos. Os principais fluxos são <b>precipitação, evaporação, transpiração, infiltração, percolação e escoamento</b>.</p>\n<p>A água pode permanecer armazenada em oceanos, geleiras, lagos, reservatórios, solo, aquíferos, atmosfera e organismos. O ciclo não implica que toda molécula percorra todas as etapas na mesma ordem.</p>\n<div class=\"carto-visual\"><svg viewBox=\"0 0 760 280\" role=\"img\" aria-label=\"Esquema do ciclo hidrológico\"><defs><marker id=\"ah\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L0,6 L7,3 z\" fill=\"currentColor\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"760\" height=\"280\" rx=\"18\" fill=\"#eef6f2\"/><path d=\"M0 190 Q120 145 220 195 T430 188 T760 190 V280 H0Z\" fill=\"#c9dcb9\"/><path d=\"M470 206 Q580 165 760 205 V280 H470Z\" fill=\"#aad8e8\"/><circle cx=\"100\" cy=\"65\" r=\"30\" fill=\"#f0bf55\"/><g fill=\"none\" stroke=\"#317d65\" stroke-width=\"4\" marker-end=\"url(#ah)\"><path d=\"M565 196 C560 120 510 95 455 82\"/><path d=\"M250 188 C250 125 292 106 330 91\"/><path d=\"M377 105 C330 139 310 172 314 225\"/><path d=\"M315 225 C375 229 423 230 485 217\"/></g><g fill=\"#213c32\" font-family=\"Arial\" font-size=\"16\" font-weight=\"700\"><text x=\"486\" y=\"116\">evaporação</text><text x=\"205\" y=\"118\">evapotranspiração</text><text x=\"330\" y=\"74\">precipitação</text><text x=\"305\" y=\"252\">infiltração / fluxo subterrâneo</text><text x=\"530\" y=\"240\">oceano</text></g></svg><p class=\"visual-cap\">Esquema próprio: pense em reservatórios + fluxos. O sentido das setas vale mais que decorar uma sequência fixa.</p></div>\n<p>Em uma bacia, um balanço simplificado pode ser pensado como <b>entrada por precipitação = saídas por evapotranspiração e escoamento ± variação do armazenamento</b>. Em intervalos curtos, a variação de armazenamento não deve ser ignorada.</p>",
+      "recall": "Liste cinco fluxos do ciclo hidrológico e dois reservatórios.",
+      "recall_answer": "Fluxos possíveis: precipitação, evaporação, transpiração, infiltração, percolação e escoamento. Reservatórios: oceanos, lagos, solo, aquíferos, geleiras ou atmosfera.",
+      "source_index": 1,
+      "proposed_unit": "CE-GEO-10",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "hidrologia-03",
+      "title": "Bacia hidrográfica: divisor, rede e exutório",
+      "hook": "A bacia transforma relevo em organização do escoamento.",
+      "html_original": "<p><b>Bacia hidrográfica</b> é a área drenada por um rio principal e seus tributários até um ponto de saída, o <b>exutório</b>. Em geral, seus limites superficiais são definidos por <b>divisores de águas</b> associados ao relevo.</p>\n<p>A rede de drenagem é formada por canais que convergem para o curso principal. <b>Montante</b> indica direção para as cabeceiras; <b>jusante</b>, direção para a foz/exutório.</p>\n<div class=\"box dia\"><span class=\"l\">Não confunda</span><b>Bacia hidrográfica</b> é uma unidade física de drenagem. <b>Região hidrográfica</b>, no planejamento nacional, pode reunir bacias, grupos de bacias ou sub-bacias próximas com características naturais, sociais e econômicas similares.</div>",
+      "recall": "Defina bacia, divisor, tributário e exutório usando um único desenho mental.",
+      "recall_answer": "Imagine uma “tigela” irregular: as bordas são divisores; pequenos canais são tributários; eles convergem ao rio principal; o ponto por onde a água sai é o exutório.",
+      "source_index": 2,
+      "proposed_unit": "CE-GEO-10",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "hidrologia-04",
+      "title": "Vazão, regime fluvial e hidrograma",
+      "hook": "A banca pode transformar chuva em gráfico e pedir a resposta da bacia.",
+      "html_original": "<p><b>Vazão (Q)</b> é o volume de água que atravessa uma seção por unidade de tempo, frequentemente expresso em m³/s. O <b>regime fluvial</b> descreve a variação sazonal das vazões.</p>\n<p>Um <b>hidrograma</b> mostra vazão ao longo do tempo. Após uma chuva efetiva, pode haver subida da vazão, <b>pico</b> e recessão. O tempo e a altura do pico dependem de chuva, área, forma da bacia, declividade, drenagem, solo, cobertura e urbanização.</p>\n<div class=\"carto-visual\"><svg viewBox=\"0 0 720 300\" role=\"img\" aria-label=\"Hidrograma esquemático\"><rect width=\"720\" height=\"300\" rx=\"18\" fill=\"#f5f7f2\"/><line x1=\"85\" y1=\"245\" x2=\"660\" y2=\"245\" stroke=\"#68766d\" stroke-width=\"2\"/><line x1=\"85\" y1=\"245\" x2=\"85\" y2=\"45\" stroke=\"#68766d\" stroke-width=\"2\"/><path d=\"M90 232 C170 230 210 220 255 188 C300 155 324 78 370 68 C420 62 458 128 500 177 C545 218 585 229 655 232\" fill=\"none\" stroke=\"#236b50\" stroke-width=\"6\"/><line x1=\"370\" y1=\"68\" x2=\"370\" y2=\"245\" stroke=\"#d29a2e\" stroke-dasharray=\"7 6\"/><text x=\"385\" y=\"82\" font-family=\"Arial\" font-weight=\"700\" fill=\"#795b1a\">pico</text><text x=\"335\" y=\"280\" font-family=\"Arial\" fill=\"#213c32\">tempo</text><text x=\"18\" y=\"148\" transform=\"rotate(-90 18,148)\" font-family=\"Arial\" fill=\"#213c32\">vazão</text></svg><p class=\"visual-cap\">Esquema próprio. Urbanização tende a antecipar e elevar o pico quando aumenta a impermeabilização e reduz o armazenamento/infiltração.</p></div>",
+      "recall": "Explique por que duas bacias sob a mesma chuva podem ter picos de vazão diferentes.",
+      "recall_answer": "Porque área, forma, declividade, solo, cobertura, rede de drenagem, armazenamento e impermeabilização controlam o tempo de concentração e a transformação da chuva em escoamento.",
+      "source_index": 3,
+      "proposed_unit": "CE-GEO-10",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "hidrologia-05",
+      "title": "Infiltração, escoamento e urbanização",
+      "hook": "Nem toda chuva vira escoamento: o estado da superfície decide muito.",
+      "html_original": "<p><b>Infiltração</b> é a entrada de água no solo. Parte pode ficar armazenada, ser utilizada pelas plantas ou <b>percolar</b> para níveis mais profundos. Quando a intensidade da chuva supera a capacidade de infiltração, ou quando o solo está muito saturado, o escoamento superficial pode aumentar.</p>\n<p>A urbanização modifica essa partição: telhados, pavimentos e drenagem artificial reduzem áreas infiltrantes e podem transferir água rapidamente para canais.</p>\n<div class=\"box prova\"><span class=\"l\">Como a banca cobra</span>Não use “impermeabilização = inundação automática”. Ela <b>aumenta a propensão</b> ao escoamento rápido, mas a ocorrência e magnitude do evento dependem de chuva, drenagem, topografia, ocupação da planície e condições antecedentes.</div>",
+      "recall": "Qual a cadeia urbana mais importante para memorizar?",
+      "recall_answer": "Mais impermeabilização → menor infiltração/armazenamento local → transferência mais rápida → maior possibilidade de picos de vazão e alagamentos/inundações, dependendo do contexto.",
+      "source_index": 4,
+      "proposed_unit": "CE-GEO-10",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "hidrologia-06",
+      "title": "Água subterrânea e aquíferos",
+      "hook": "Porosidade guarda; permeabilidade conecta.",
+      "html_original": "<p><b>Aquífero</b> é uma formação geológica capaz de armazenar e transmitir água em quantidade relevante. A <b>porosidade</b> expressa o volume de vazios; a <b>permeabilidade</b> relaciona-se à capacidade de transmitir fluidos através de poros/fraturas conectados. Uma rocha pode ter porosidade e baixa permeabilidade se os poros não estiverem bem conectados.</p>\n<p>No aquífero <b>livre</b>, o limite superior da zona saturada é o nível freático. No <b>confinado</b>, a água está sob pressão entre camadas menos permeáveis. <b>Recarga</b> é a entrada de água no sistema subterrâneo, geralmente associada à infiltração/percolação em áreas favoráveis.</p>\n<p>No Brasil, a gestão e a autorização de uso das águas subterrâneas e poços são de competência dos <b>Estados</b>. A ANA produz estudos e promove integração entre águas superficiais e subterrâneas.</p>\n<div class=\"box dia\"><span class=\"l\">Pará</span>Na Região Metropolitana de Belém, estudos da ANA destacam os sistemas aquíferos <b>Barreiras e Pirabas</b>, reforçando a importância de proteger zonas de recarga e controlar contaminação.</div>",
+      "recall": "Por que “muita porosidade” não significa automaticamente “muita água disponível”?",
+      "recall_answer": "Porque é necessário considerar conectividade dos poros, permeabilidade, saturação, recarga, espessura e condições do aquífero.",
+      "source_index": 5,
+      "proposed_unit": "CE-GEO-10",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "hidrologia-07",
+      "title": "Dinâmica fluvial: erosão, transporte e deposição",
+      "hook": "O rio é um sistema de transferência de água e sedimentos.",
+      "html_original": "<p>Rios erodem, transportam e depositam sedimentos. A capacidade de transporte varia com vazão, velocidade, declividade, forma do canal e características do material.</p>\n<p><b>Meandros</b> podem apresentar maior erosão na margem externa e deposição relativa na margem interna, mas a dinâmica real depende do canal. <b>Planícies de inundação</b> são áreas adjacentes ao canal sujeitas a inundações periódicas e deposição de sedimentos.</p>\n<p>O <b>nível de base</b> condiciona a erosão vertical do rio; o nível do mar é o nível de base último para rios que nele desembocam.</p>",
+      "recall": "Como erosão a montante pode afetar áreas a jusante?",
+      "recall_answer": "Sedimentos transportados podem alterar canais, assorear reservatórios, modificar habitats e influenciar capacidade hidráulica e qualidade da água.",
+      "source_index": 6,
+      "proposed_unit": "CE-GEO-10",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "hidrologia-08",
+      "title": "Qualidade da água, poluição e eutrofização",
+      "hook": "Quantidade e qualidade precisam ser geridas juntas.",
+      "html_original": "<p>A qualidade da água depende do uso pretendido e de parâmetros físicos, químicos e biológicos. <b>Poluição pontual</b> tem fonte identificável, como um lançamento localizado; <b>difusa</b> provém de múltiplas fontes espalhadas, como parte do escoamento sobre áreas agrícolas e urbanas.</p>\n<p><b>Eutrofização</b> é o enriquecimento do sistema aquático por nutrientes, sobretudo nitrogênio e fósforo, podendo favorecer proliferação de algas/cianobactérias e alterações de oxigênio, transparência e biota.</p>\n<p>A gestão deve integrar <b>quantidade e qualidade</b>. Um rio com muita água não está automaticamente adequado para qualquer uso.</p>",
+      "recall": "Por que “água em grande quantidade” não basta para garantir abastecimento?",
+      "recall_answer": "Porque qualidade, sazonalidade, acesso, tratamento, conflitos de uso e infraestrutura também condicionam a segurança hídrica.",
+      "source_index": 7,
+      "proposed_unit": "CE-GEO-10",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "hidrologia-09",
+      "title": "Usos da água e conflitos",
+      "hook": "Usar água não significa sempre consumi-la da mesma forma.",
+      "html_original": "<p>Os usos podem ser <b>consuntivos</b>, quando parte da água retirada deixa de retornar imediatamente ao sistema na mesma quantidade/condição, e <b>não consuntivos</b>, quando a atividade depende da água sem consumo direto equivalente, como navegação e parte dos usos recreativos.</p>\n<p>No Brasil, a <b>irrigação</b> é o principal uso em volume de retirada consuntiva. Abastecimento urbano e indústria também têm grande peso. Hidreletricidade depende do fluxo e do armazenamento, mas não deve ser tratada como “uso sem impacto”.</p>\n<div class=\"box prova\"><span class=\"l\">Pegadinha</span>“Não consuntivo” ≠ “sem efeito ambiental”. Barragens e navegação podem alterar regime, conectividade, sedimentos e ecossistemas.</div>",
+      "recall": "Dê um exemplo de conflito de usos múltiplos.",
+      "recall_answer": "Em uma bacia, irrigação, abastecimento, geração hidrelétrica, navegação e manutenção de vazões ecológicas podem disputar quantidade, timing e qualidade da água.",
+      "source_index": 8,
+      "proposed_unit": "CE-GEO-10",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "hidrologia-10",
+      "title": "Lei 9.433: fundamentos e objetivos vigentes",
+      "hook": "A “Lei das Águas” mistura princípios permanentes e atualizações recentes.",
+      "html_original": "<p>A Lei 9.433/1997 instituiu a <b>Política Nacional de Recursos Hídricos (PNRH)</b>. Entre seus fundamentos: água é bem de domínio público; recurso limitado com valor econômico; em escassez, prioridade para <b>consumo humano e dessedentação de animais</b>; gestão deve proporcionar usos múltiplos; a <b>bacia hidrográfica</b> é unidade territorial de implementação; e a gestão deve ser descentralizada e participativa.</p>\n<p>Em 2025, a lei foi atualizada: entre os objetivos passou a aparecer de modo explícito a <b>segurança hídrica e energética</b> por obras de acumulação e a redação sobre uso racional passou a incluir a geração de energia elétrica. A diretriz de integração passou a mencionar também a gestão eletroenergética.</p>\n<div class=\"box dia\"><span class=\"l\">Atualização 2026</span>Não estude uma versão antiga da lei. Para prova, diferencie <b>fundamentos, objetivos, diretrizes e instrumentos</b>.</div>",
+      "recall": "Recite os seis fundamentos centrais da PNRH sem consultar.",
+      "recall_answer": "Bem público; recurso limitado com valor econômico; prioridade humano/animal na escassez; usos múltiplos; bacia como unidade; gestão descentralizada e participativa.",
+      "source_index": 9,
+      "proposed_unit": "CE-GEO-11",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "hidrologia-11",
+      "title": "Instrumentos da PNRH: plano, enquadramento, outorga, cobrança e informação",
+      "hook": "A banca troca finalidade e natureza jurídica dos instrumentos.",
+      "html_original": "<p>O art. 5º lista: <b>Planos de Recursos Hídricos; enquadramento dos corpos d’água em classes; outorga; cobrança; compensação a municípios; Sistema de Informações sobre Recursos Hídricos</b>.</p>\n<p><b>Planos</b> orientam a gestão; <b>enquadramento</b> estabelece metas/classes conforme usos preponderantes; <b>outorga</b> controla direitos de uso; <b>cobrança</b> reconhece valor econômico, incentiva racionalização e financia ações; o <b>Sistema de Informações</b> organiza dados para a gestão.</p>\n<div class=\"box prova\"><span class=\"l\">Pegadinha jurídica</span>“Compensação a municípios” permanece no rol do art. 5º, mas o <b>art. 24 foi vetado</b>. Outra armadilha: <b>outorga não transfere propriedade da água</b>; concede direito de uso sob condições.</div>",
+      "recall": "Diferencie enquadramento, outorga e cobrança em uma frase cada.",
+      "recall_answer": "Enquadramento define objetivos de qualidade por usos; outorga controla o direito de uso; cobrança sinaliza valor econômico, incentiva racionalização e gera recursos para a gestão.",
+      "source_index": 10,
+      "proposed_unit": "CE-GEO-11",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "hidrologia-12",
+      "title": "SINGREH, comitês e gestão participativa",
+      "hook": "O sistema distribui papéis entre instâncias nacionais, estaduais e de bacia.",
+      "html_original": "<p>O <b>SINGREH</b> coordena a gestão integrada das águas, arbitra administrativamente conflitos, implementa a PNRH e planeja/regula/controla os usos.</p>\n<p>Integram o sistema: <b>Conselho Nacional de Recursos Hídricos, ANA, Conselhos Estaduais e do DF, Comitês de Bacia, órgãos públicos relacionados à gestão e Agências de Água</b>.</p>\n<p>Os <b>Comitês de Bacia</b> são fóruns participativos com representantes do poder público, usuários e sociedade civil. Entre suas competências estão promover debate, arbitrar conflitos em primeira instância administrativa, aprovar o plano da bacia e estabelecer mecanismos de cobrança/sugerir valores.</p>\n<div class=\"box dia\"><span class=\"l\">Não confunda</span>Comitê não é “dono do rio” e não substitui automaticamente ANA ou órgãos estaduais. Competência depende do domínio da água e da função de cada ente.</div>",
+      "recall": "Explique a diferença entre ANA, Comitê de Bacia e Agência de Água.",
+      "recall_answer": "ANA regula/implementa atribuições federais; Comitê delibera e articula na bacia; Agência de Água exerce função executiva/secretaria e apoio técnico do(s) comitê(s), quando existente.",
+      "source_index": 11,
+      "proposed_unit": "CE-GEO-11",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "hidrologia-13",
+      "title": "Cheias urbanas: inundação, alagamento e enxurrada",
+      "hook": "Nem todo excesso de água na cidade é o mesmo fenômeno.",
+      "html_original": "<p>O CEMADEN define <b>inundação</b> como submersão de áreas fora dos limites normais do curso d’água. <b>Alagamento</b> está ligado à superação da capacidade de drenagem e acúmulo de água em ruas e áreas rebaixadas. <b>Enxurradas</b> envolvem escoamento rápido e concentrado, com grande energia.</p>\n<p>A palavra <b>enchente/cheia</b> é usada com sentidos variados; em muitas abordagens didáticas indica elevação do nível no canal antes ou sem extravasamento. Em prova, siga a definição apresentada.</p>\n<p>Medidas de redução de risco podem ser <b>estruturais</b> (reservatórios, obras de drenagem, contenções) ou <b>não estruturais</b> (zoneamento, alerta, educação, planos de contingência). Infraestrutura verde — parques inundáveis, jardins de chuva, pavimentos permeáveis — busca reter/infiltrar água e reduzir picos.</p>",
+      "recall": "Por que canalizar um córrego não é solução universal contra inundações?",
+      "recall_answer": "Porque pode aumentar velocidade e transferir picos a jusante; é preciso avaliar a bacia inteira, armazenamento, ocupação da planície, manutenção e soluções combinadas.",
+      "source_index": 12,
+      "proposed_unit": "CE-GEO-10",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "hidrologia-14",
+      "title": "Tocantins–Araguaia e a leitura regional do Pará",
+      "hook": "O tema aproxima hidrologia do território cobrado na SEDUC-PA.",
+      "html_original": "<p>A <b>Região Hidrográfica Tocantins–Araguaia</b> é uma das 12 regiões hidrográficas brasileiras. A ANA a descreve como a <b>maior região hidrográfica totalmente contida em território brasileiro</b>, abrangendo Goiás, Tocantins, Pará, Maranhão, Mato Grosso e Distrito Federal.</p>\n<p>Seus temas de gestão incluem <b>energia, navegação, irrigação, saneamento, turismo e desmatamento</b>. O rio Tocantins recebe o Araguaia antes de alcançar o Pará; grandes empreendimentos hidrelétricos, como Tucuruí, mostram como água, energia, território e impactos sociais se conectam.</p>\n<div class=\"map-real\"><div class=\"map-real-head\"><div><b>Mapa real · Região Hidrográfica Tocantins–Araguaia</b><span>Fonte: Agência Nacional de Águas e Saneamento Básico (ANA).</span></div><a href=\"https://www.gov.br/ana/pt-br/todos-os-documentos-do-portal/documentos-spr/mapas-regioes-hidrograficas/tocantins-araguaia-para-site-ana-a0.pdf/view\" target=\"_blank\" rel=\"noopener\">Abrir mapa oficial ↗</a></div><object data=\"https://www.gov.br/ana/pt-br/todos-os-documentos-do-portal/documentos-spr/mapas-regioes-hidrograficas/tocantins-araguaia-para-site-ana-a0.pdf/@@download/file\" type=\"application/pdf\"><p>O navegador não carregou o PDF incorporado. <a href=\"https://www.gov.br/ana/pt-br/todos-os-documentos-do-portal/documentos-spr/mapas-regioes-hidrograficas/tocantins-araguaia-para-site-ana-a0.pdf/view\" target=\"_blank\" rel=\"noopener\">Abra o mapa oficial da ANA.</a></p></object></div>\n<div class=\"box prova\"><span class=\"l\">Como a banca cobra</span>Não memorize só “maior bacia”. Pergunte: <b>inteiramente brasileira ou não?</b> A Amazônica é maior no território nacional/transnacional; Tocantins–Araguaia se destaca como a maior região hidrográfica totalmente contida no Brasil.</div>",
+      "recall": "Explique em 30 segundos por que Tocantins–Araguaia é um tema de hidrologia e de geografia regional ao mesmo tempo.",
+      "recall_answer": "Porque a rede de rios sustenta energia, transporte, irrigação, cidades e ecossistemas; usos e obras reorganizam territórios e geram conflitos entre escalas e agentes.",
+      "source_index": 13,
+      "proposed_unit": "CE-GEO-11",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "hidrologia-15",
+      "title": "Oceanos: ondas, marés, correntes e circulação",
+      "hook": "O oceano é o maior reservatório do ciclo e um sistema dinâmico.",
+      "html_original": "<p><b>Ondas</b> são transferências de energia; muitas ondas de superfície são geradas pelo vento, mas tsunamis têm outra origem. <b>Marés</b> são oscilações de longo período associadas principalmente às forças gravitacionais da Lua e do Sol, moduladas pela geometria das bacias e costas.</p>\n<p><b>Correntes oceânicas</b> são movimentos dirigidos de água. Podem ser impulsionadas por ventos, marés e diferenças de densidade relacionadas a temperatura e salinidade. A <b>circulação termohalina</b> envolve contrastes de densidade; correntes superficiais redistribuem calor e influenciam climas.</p>\n<p><b>Ressurgência (upwelling)</b> traz águas subsuperficiais frias e geralmente ricas em nutrientes para perto da superfície, favorecendo alta produtividade biológica em várias regiões.</p>\n<div class=\"box dia\"><span class=\"l\">Pegadinha</span>Maré não é sinônimo de corrente; ondas não transportam necessariamente a massa de água na mesma proporção da energia; e corrente quente/fria é relativa à água ao redor e à origem.</div>",
+      "recall": "Diferencie onda, maré e corrente em uma frase cada.",
+      "recall_answer": "Onda: propagação de energia; maré: oscilação periódica do nível ligada sobretudo à atração Lua–Sol; corrente: movimento dirigido de massas de água.",
+      "source_index": 14,
+      "proposed_unit": "CE-GEO-10",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "hidrologia-16",
+      "title": "Leitura integrada: mapa, hidrograma e gestão",
+      "hook": "A última etapa une hidrologia física, território e política pública.",
+      "html_original": "<p>Em uma questão integrada, siga uma ordem:</p>\n<ol><li><b>Delimite a unidade</b>: parcela, bacia, região hidrográfica, aquífero ou oceano.</li><li><b>Identifique entradas e saídas</b>: chuva, evapotranspiração, captação, vazão, recarga.</li><li><b>Observe armazenamentos</b>: solo, reservatório, planície de inundação, aquífero.</li><li><b>Localize agentes e usos</b>: abastecimento, irrigação, energia, navegação, ecossistemas.</li><li><b>Escolha o instrumento</b>: plano, enquadramento, outorga, cobrança, informação.</li></ol>\n<div class=\"w\"><table><tr><th>Erro típico</th><th>Correção</th></tr><tr><td>“mais chuva = mais inundação sempre”</td><td>depende de bacia, uso do solo, drenagem e condições antecedentes</td></tr><tr><td>“poroso = permeável”</td><td>conectividade dos poros importa</td></tr><tr><td>“outorga = propriedade”</td><td>é direito de uso</td></tr><tr><td>“não consuntivo = sem impacto”</td><td>impactos podem ocorrer</td></tr><tr><td>“toda água urbana acumulada = inundação”</td><td>distinguir inundação, alagamento e enxurrada</td></tr></table></div>",
+      "recall": "Faça o checklist completo de uma questão de hidrologia aplicada.",
+      "recall_answer": "Unidade espacial → entrada/saída → armazenamento → fluxo → uso/agente → impacto → instrumento de gestão → escala e condições do problema.",
+      "source_index": 15,
+      "proposed_unit": "CE-GEO-10",
+      "status": "em_auditoria"
+    }
+  ],
+  "questions": [
+    {
+      "id": "GF-hidrologia-diagnostico-1",
+      "section": "diagnostico",
+      "prompt": "Uma chuva intensa cai sobre duas áreas semelhantes. Na primeira, o solo está vegetado e permeável; na segunda, está muito impermeabilizado. Em geral, a segunda tende a apresentar:",
+      "options": [
+        "maior infiltração e menor escoamento superficial",
+        "menor escoamento e maior recarga",
+        "maior escoamento superficial e resposta mais rápida da drenagem",
+        "nenhuma alteração hidrológica"
+      ],
+      "correct_index": 2,
+      "explanation": "A impermeabilização reduz a infiltração e tende a acelerar/concentrar o escoamento superficial.",
+      "option_feedback": [
+        "Tende ao contrário.",
+        "Tende ao contrário.",
+        "Correto.",
+        "O uso do solo altera a resposta hidrológica."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-hidrologia-diagnostico-2",
+      "section": "diagnostico",
+      "prompt": "Na Lei 9.433/1997, a outorga de direito de uso da água significa:",
+      "options": [
+        "venda definitiva da água ao usuário",
+        "autorização de uso sob condições, sem transferir a propriedade da água",
+        "privatização automática do rio",
+        "isenção de qualquer controle público"
+      ],
+      "correct_index": 1,
+      "explanation": "A outorga assegura o direito de uso dentro de condições; não aliena a água, que permanece bem público.",
+      "option_feedback": [
+        "Não há venda da água.",
+        "Correto.",
+        "Não.",
+        "A outorga é instrumento de controle."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-hidrologia-diagnostico-3",
+      "section": "diagnostico",
+      "prompt": "Em hidrologia urbana, qual situação descreve melhor uma inundação?",
+      "options": [
+        "Acúmulo de água em rua apenas por insuficiência da drenagem, sem relação com curso d’água",
+        "Extravasamento de um curso d’água para áreas que normalmente não ficam submersas",
+        "Qualquer chuva fraca em superfície permeável",
+        "Aumento da evapotranspiração"
+      ],
+      "correct_index": 1,
+      "explanation": "O CEMADEN define inundação pelo transbordamento/submersão de áreas fora dos limites normais do curso d’água.",
+      "option_feedback": [
+        "Isso caracteriza melhor alagamento urbano.",
+        "Correto.",
+        "Não.",
+        "Não."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-hidrologia-hidrologia-01-1",
+      "section": "hidrologia-01",
+      "prompt": "Uma questão apresenta aumento da área pavimentada e pico de vazão mais alto após a chuva. A explicação mais adequada é:",
+      "options": [
+        "maior infiltração e atraso do escoamento",
+        "redução da infiltração e concentração mais rápida do escoamento",
+        "aumento automático da evaporação",
+        "desaparecimento da bacia"
+      ],
+      "correct_index": 1,
+      "explanation": "Impermeabilização tende a aumentar e acelerar o escoamento superficial.",
+      "option_feedback": [
+        "É o contrário.",
+        "Correto.",
+        "Não explica o pico.",
+        "A bacia continua existindo."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-hidrologia-hidrologia-01-2",
+      "section": "hidrologia-01",
+      "prompt": "Qual par está corretamente associado?",
+      "options": [
+        "outorga → venda da água",
+        "divisor de águas → limite topográfico de drenagem",
+        "aquífero → água apenas superficial",
+        "maré → corrente exclusivamente causada pelo vento"
+      ],
+      "correct_index": 1,
+      "explanation": "Divisores separam áreas que drenam para exutórios diferentes.",
+      "option_feedback": [
+        "Outorga não vende a água.",
+        "Correto.",
+        "Aquíferos armazenam/transmitem água subterrânea.",
+        "Marés têm componente gravitacional astronômica."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-hidrologia-hidrologia-02-1",
+      "section": "hidrologia-02",
+      "prompt": "Qual processo transfere água da superfície para a atmosfera por plantas?",
+      "options": [
+        "infiltração",
+        "transpiração",
+        "percolação",
+        "escoamento"
+      ],
+      "correct_index": 1,
+      "explanation": "Transpiração é a perda de água pelas plantas para a atmosfera.",
+      "option_feedback": [
+        "Entrada no solo.",
+        "Correto.",
+        "Movimento mais profundo no solo/subsolo.",
+        "Movimento superficial ou fluvial."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-hidrologia-hidrologia-02-2",
+      "section": "hidrologia-02",
+      "prompt": "Em um balanço hídrico de curto período, por que não é seguro assumir que precipitação = evapotranspiração + escoamento?",
+      "options": [
+        "porque pode haver variação do armazenamento",
+        "porque precipitação nunca entra na bacia",
+        "porque aquíferos não armazenam água",
+        "porque rios não transportam água"
+      ],
+      "correct_index": 0,
+      "explanation": "Reservatórios superficiais, solo e água subterrânea podem ganhar ou perder armazenamento.",
+      "option_feedback": [
+        "Correto.",
+        "Falso.",
+        "Falso.",
+        "Falso."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-hidrologia-hidrologia-03-1",
+      "section": "hidrologia-03",
+      "prompt": "O exutório de uma bacia é:",
+      "options": [
+        "o ponto para o qual converge o escoamento da área drenada",
+        "sempre a nascente mais alta",
+        "qualquer divisor topográfico",
+        "uma camada confinante"
+      ],
+      "correct_index": 0,
+      "explanation": "O exutório é a seção/ponto de saída considerado na delimitação da bacia.",
+      "option_feedback": [
+        "Correto.",
+        "Nascente é montante.",
+        "Divisor é limite.",
+        "Isso é hidrogeologia."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-hidrologia-hidrologia-03-2",
+      "section": "hidrologia-03",
+      "prompt": "Um divisor de águas superficial separa:",
+      "options": [
+        "áreas que drenam para diferentes sistemas de saída",
+        "apenas tipos de solo",
+        "fusos horários",
+        "classes de água por qualidade"
+      ],
+      "correct_index": 0,
+      "explanation": "O divisor topográfico organiza a direção do escoamento superficial.",
+      "option_feedback": [
+        "Correto.",
+        "Não necessariamente.",
+        "Não.",
+        "Não."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-hidrologia-hidrologia-04-1",
+      "section": "hidrologia-04",
+      "prompt": "Uma bacia mais impermeabilizada, sob chuva comparável, tende a apresentar hidrograma com:",
+      "options": [
+        "pico mais tardio e menor por regra",
+        "pico mais rápido e frequentemente maior",
+        "vazão sempre zero",
+        "nenhuma resposta"
+      ],
+      "correct_index": 1,
+      "explanation": "Menor infiltração e armazenamento superficial tendem a acelerar o escoamento.",
+      "option_feedback": [
+        "Tende ao contrário.",
+        "Correto.",
+        "Não.",
+        "Há resposta hidrológica."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-hidrologia-hidrologia-04-2",
+      "section": "hidrologia-04",
+      "prompt": "Vazão é, em termos básicos:",
+      "options": [
+        "área dividida por altitude",
+        "volume de água por unidade de tempo em uma seção",
+        "apenas profundidade do rio",
+        "quantidade anual de chuva"
+      ],
+      "correct_index": 1,
+      "explanation": "Q relaciona volume e tempo de passagem por uma seção.",
+      "option_feedback": [
+        "Não.",
+        "Correto.",
+        "Profundidade sozinha não define vazão.",
+        "Precipitação é outra variável."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-hidrologia-hidrologia-05-1",
+      "section": "hidrologia-05",
+      "prompt": "Qual mudança tende a favorecer infiltração em área urbana?",
+      "options": [
+        "substituir solo vegetado por asfalto",
+        "ampliar superfícies permeáveis e áreas vegetadas",
+        "canalizar toda água imediatamente",
+        "selar o solo"
+      ],
+      "correct_index": 1,
+      "explanation": "Superfícies permeáveis e vegetação podem ampliar armazenamento e infiltração.",
+      "option_feedback": [
+        "Tende ao contrário.",
+        "Correto.",
+        "Acelera a transferência.",
+        "Tende ao contrário."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-hidrologia-hidrologia-05-2",
+      "section": "hidrologia-05",
+      "prompt": "O escoamento superficial pode aumentar quando:",
+      "options": [
+        "a chuva excede a capacidade de infiltração",
+        "não existe precipitação",
+        "todo o solo é substituído por um aquífero confinado",
+        "a evapotranspiração é sempre zero"
+      ],
+      "correct_index": 0,
+      "explanation": "Excesso de chuva sobre a capacidade de infiltração é um mecanismo clássico.",
+      "option_feedback": [
+        "Correto.",
+        "Sem entrada não há esse mecanismo.",
+        "Não faz sentido.",
+        "Não é condição necessária."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-hidrologia-hidrologia-06-1",
+      "section": "hidrologia-06",
+      "prompt": "Uma formação com muitos poros, mas pouco conectados, pode apresentar:",
+      "options": [
+        "alta porosidade e baixa permeabilidade",
+        "ausência total de armazenamento",
+        "permeabilidade infinita",
+        "apenas água superficial"
+      ],
+      "correct_index": 0,
+      "explanation": "Porosidade e permeabilidade são propriedades distintas.",
+      "option_feedback": [
+        "Correto.",
+        "Pode armazenar água.",
+        "Não.",
+        "Não."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-hidrologia-hidrologia-06-2",
+      "section": "hidrologia-06",
+      "prompt": "No Brasil, a autorização para uso de água subterrânea e perfuração de poços é, em regra, competência:",
+      "options": [
+        "exclusivamente municipal",
+        "dos estados",
+        "da ONU",
+        "apenas da ANA em qualquer poço"
+      ],
+      "correct_index": 1,
+      "explanation": "A Constituição atribui aos estados a gestão das águas subterrâneas.",
+      "option_feedback": [
+        "Não.",
+        "Correto.",
+        "Não.",
+        "A ANA regula águas de domínio da União; subterrâneas são estaduais."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-hidrologia-hidrologia-07-1",
+      "section": "hidrologia-07",
+      "prompt": "Em um meandro, qual tendência é didaticamente correta?",
+      "options": [
+        "erosão relativa na margem externa e deposição na interna",
+        "deposição exclusiva na margem externa",
+        "ausência de transporte",
+        "erosão igual em todos os pontos por definição"
+      ],
+      "correct_index": 0,
+      "explanation": "Velocidade e distribuição de tensão favorecem essa assimetria típica.",
+      "option_feedback": [
+        "Correto.",
+        "Está invertido.",
+        "Rios transportam sedimentos.",
+        "A dinâmica não é uniforme."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-hidrologia-hidrologia-07-2",
+      "section": "hidrologia-07",
+      "prompt": "Planície de inundação é:",
+      "options": [
+        "área adjacente ao canal sujeita a extravasamentos periódicos",
+        "sinônimo de divisor de águas",
+        "camada geológica confinante",
+        "somente leito rochoso profundo"
+      ],
+      "correct_index": 0,
+      "explanation": "É parte do sistema fluvial e pode ser ocupada temporariamente pelas águas.",
+      "option_feedback": [
+        "Correto.",
+        "Não.",
+        "Não.",
+        "Não."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-hidrologia-hidrologia-08-1",
+      "section": "hidrologia-08",
+      "prompt": "Qual exemplo é mais típico de poluição difusa?",
+      "options": [
+        "efluente saindo de um único tubo identificado",
+        "escoamento carregando nutrientes de uma grande área agrícola",
+        "descarga de uma estação por um emissário específico",
+        "vazamento em um ponto conhecido"
+      ],
+      "correct_index": 1,
+      "explanation": "A origem é espacialmente distribuída.",
+      "option_feedback": [
+        "Pontual.",
+        "Correto.",
+        "Pontual.",
+        "Pontual."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-hidrologia-hidrologia-08-2",
+      "section": "hidrologia-08",
+      "prompt": "Eutrofização está frequentemente associada a:",
+      "options": [
+        "enriquecimento por nutrientes",
+        "ausência total de nutrientes",
+        "tectônica de placas",
+        "redução universal da produtividade aquática"
+      ],
+      "correct_index": 0,
+      "explanation": "Excesso de nutrientes pode alterar fortemente o ecossistema aquático.",
+      "option_feedback": [
+        "Correto.",
+        "É o contrário.",
+        "Não.",
+        "Os efeitos não se resumem a isso."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-hidrologia-hidrologia-09-1",
+      "section": "hidrologia-09",
+      "prompt": "Qual uso é tipicamente consuntivo?",
+      "options": [
+        "irrigação",
+        "navegação",
+        "lazer contemplativo",
+        "manutenção da paisagem"
+      ],
+      "correct_index": 0,
+      "explanation": "Irrigação envolve retirada e consumo de parte significativa da água.",
+      "option_feedback": [
+        "Correto.",
+        "Tipicamente não consuntivo.",
+        "Não consuntivo.",
+        "Não é consumo direto."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-hidrologia-hidrologia-09-2",
+      "section": "hidrologia-09",
+      "prompt": "Sobre usos não consuntivos, é correto afirmar que:",
+      "options": [
+        "não podem gerar impactos",
+        "dependem da água, mas não significam necessariamente consumo direto equivalente",
+        "são sempre gratuitos",
+        "não entram em conflitos"
+      ],
+      "correct_index": 1,
+      "explanation": "A classificação não elimina impactos ou conflitos.",
+      "option_feedback": [
+        "Podem gerar impactos.",
+        "Correto.",
+        "Não.",
+        "Podem entrar em conflito."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-hidrologia-hidrologia-10-1",
+      "section": "hidrologia-10",
+      "prompt": "Em situação de escassez, a Lei 9.433 estabelece prioridade para:",
+      "options": [
+        "consumo humano e dessedentação de animais",
+        "qualquer uso industrial",
+        "navegação em todos os casos",
+        "irrigação comercial exclusivamente"
+      ],
+      "correct_index": 0,
+      "explanation": "Essa prioridade está expressa no art. 1º.",
+      "option_feedback": [
+        "Correto.",
+        "Não.",
+        "Não.",
+        "Não."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-hidrologia-hidrologia-10-2",
+      "section": "hidrologia-10",
+      "prompt": "Segundo a PNRH, a unidade territorial de implementação da política é:",
+      "options": [
+        "município",
+        "bacia hidrográfica",
+        "fuso horário",
+        "bioma"
+      ],
+      "correct_index": 1,
+      "explanation": "A bacia é a unidade territorial da PNRH e do SINGREH.",
+      "option_feedback": [
+        "Não.",
+        "Correto.",
+        "Não.",
+        "Não."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-hidrologia-hidrologia-11-1",
+      "section": "hidrologia-11",
+      "prompt": "Qual alternativa descreve corretamente a outorga?",
+      "options": [
+        "transfere a propriedade da água",
+        "assegura/controla direito de uso segundo condições públicas",
+        "substitui todo licenciamento ambiental",
+        "elimina a necessidade de gestão da bacia"
+      ],
+      "correct_index": 1,
+      "explanation": "A água continua inalienável; a outorga concede direito de uso.",
+      "option_feedback": [
+        "Falso.",
+        "Correto.",
+        "São instrumentos distintos.",
+        "Falso."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-hidrologia-hidrologia-11-2",
+      "section": "hidrologia-11",
+      "prompt": "Qual item consta no rol do art. 5º da Lei 9.433?",
+      "options": [
+        "Sistema de Informações sobre Recursos Hídricos",
+        "IPTU ecológico",
+        "zoneamento eleitoral",
+        "plano diretor municipal como instrumento da PNRH"
+      ],
+      "correct_index": 0,
+      "explanation": "O sistema de informações é instrumento expresso da PNRH.",
+      "option_feedback": [
+        "Correto.",
+        "Não é do rol.",
+        "Não.",
+        "Não como instrumento da PNRH."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-hidrologia-hidrologia-12-1",
+      "section": "hidrologia-12",
+      "prompt": "Qual entidade integra expressamente o SINGREH?",
+      "options": [
+        "ANA",
+        "Banco Central",
+        "IBGE apenas por produzir mapas",
+        "ONU"
+      ],
+      "correct_index": 0,
+      "explanation": "A ANA integra expressamente o sistema.",
+      "option_feedback": [
+        "Correto.",
+        "Não.",
+        "IBGE não integra por esse motivo.",
+        "Não."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-hidrologia-hidrologia-12-2",
+      "section": "hidrologia-12",
+      "prompt": "Os Comitês de Bacia têm caráter:",
+      "options": [
+        "exclusivamente empresarial",
+        "participativo, reunindo poder público, usuários e sociedade civil",
+        "apenas judicial",
+        "somente técnico sem representação social"
+      ],
+      "correct_index": 1,
+      "explanation": "A participação descentralizada é fundamento da política.",
+      "option_feedback": [
+        "Não.",
+        "Correto.",
+        "Conflitos são arbitrados administrativamente no sistema.",
+        "Há representação social."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-hidrologia-hidrologia-13-1",
+      "section": "hidrologia-13",
+      "prompt": "Acúmulo de água em rua porque a drenagem não comporta a chuva é melhor classificado como:",
+      "options": [
+        "alagamento",
+        "subducção",
+        "maré",
+        "recarga confinada"
+      ],
+      "correct_index": 0,
+      "explanation": "Alagamento é associado à insuficiência da drenagem urbana.",
+      "option_feedback": [
+        "Correto.",
+        "Não.",
+        "Não.",
+        "Não."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-hidrologia-hidrologia-13-2",
+      "section": "hidrologia-13",
+      "prompt": "Qual é uma medida não estrutural de controle de cheias?",
+      "options": [
+        "zoneamento de áreas inundáveis e sistema de alerta",
+        "construção de dique",
+        "reservatório de detenção",
+        "galeria pluvial"
+      ],
+      "correct_index": 0,
+      "explanation": "Planejamento, alerta e regulação do uso do solo são não estruturais.",
+      "option_feedback": [
+        "Correto.",
+        "Estrutural.",
+        "Estrutural.",
+        "Estrutural."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-hidrologia-hidrologia-14-1",
+      "section": "hidrologia-14",
+      "prompt": "Qual afirmação sobre Tocantins–Araguaia é correta?",
+      "options": [
+        "é a maior região hidrográfica totalmente contida no Brasil",
+        "não alcança o Pará",
+        "não possui uso hidrelétrico relevante",
+        "abrange apenas Tocantins"
+      ],
+      "correct_index": 0,
+      "explanation": "A região ocupa partes de vários estados e DF e é integralmente brasileira.",
+      "option_feedback": [
+        "Correto.",
+        "Alcança o Pará.",
+        "Tucuruí é exemplo importante.",
+        "Abrange várias unidades."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-hidrologia-hidrologia-14-2",
+      "section": "hidrologia-14",
+      "prompt": "Qual conjunto reúne temas de gestão relevantes na região?",
+      "options": [
+        "energia, navegação, irrigação e saneamento",
+        "apenas esportes",
+        "somente pesca artesanal",
+        "apenas transporte aéreo"
+      ],
+      "correct_index": 0,
+      "explanation": "A ANA destaca múltiplos usos e pressões.",
+      "option_feedback": [
+        "Correto.",
+        "Incompleto.",
+        "Incompleto.",
+        "Não."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-hidrologia-hidrologia-15-1",
+      "section": "hidrologia-15",
+      "prompt": "Qual processo é diretamente ligado às forças gravitacionais da Lua e do Sol?",
+      "options": [
+        "marés",
+        "erosão laminar",
+        "infiltração",
+        "outorga"
+      ],
+      "correct_index": 0,
+      "explanation": "Marés são oscilações astronômicas de longo período.",
+      "option_feedback": [
+        "Correto.",
+        "Não.",
+        "Não.",
+        "Instrumento de gestão."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-hidrologia-hidrologia-15-2",
+      "section": "hidrologia-15",
+      "prompt": "A circulação termohalina é relacionada principalmente a diferenças de:",
+      "options": [
+        "temperatura e salinidade que alteram densidade",
+        "longitude e escala cartográfica",
+        "pH do solo e declividade",
+        "vegetação e altitude apenas"
+      ],
+      "correct_index": 0,
+      "explanation": "Thermo + haline remete a temperatura e salinidade.",
+      "option_feedback": [
+        "Correto.",
+        "Não.",
+        "Não.",
+        "Não."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-hidrologia-hidrologia-16-1",
+      "section": "hidrologia-16",
+      "prompt": "Uma cidade ocupa planície fluvial, impermeabiliza o solo e canaliza tributários. Para explicar o risco, a análise mais completa é:",
+      "options": [
+        "considerar apenas o total anual de chuva",
+        "integrar chuva, uso do solo, drenagem, relevo, ocupação e exposição",
+        "considerar apenas a altitude média do país",
+        "ignorar a bacia"
+      ],
+      "correct_index": 1,
+      "explanation": "Risco hidrológico urbano é sistêmico e multicausal.",
+      "option_feedback": [
+        "Insuficiente.",
+        "Correto.",
+        "Insuficiente.",
+        "Erro de escala."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-hidrologia-hidrologia-16-2",
+      "section": "hidrologia-16",
+      "prompt": "Um usuário quer captar água de rio de domínio da União para processo produtivo. Qual instrumento é central para controlar esse direito de uso?",
+      "options": [
+        "outorga",
+        "projeção cartográfica",
+        "zoneamento climático",
+        "maré"
+      ],
+      "correct_index": 0,
+      "explanation": "A outorga controla direitos de uso sujeitos ao regime da PNRH.",
+      "option_feedback": [
+        "Correto.",
+        "Não.",
+        "Não.",
+        "Não."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-hidrologia-desafio-1",
+      "section": "desafio",
+      "prompt": "(Bacia + urbanização) Após expansão urbana, um mesmo evento de chuva gera pico de vazão mais cedo e mais alto em um córrego. A interpretação mais robusta é:",
+      "options": [
+        "a urbanização aumentou necessariamente a evapotranspiração",
+        "a impermeabilização e drenagem rápida reduziram armazenamento/infiltração e concentraram o escoamento",
+        "a bacia perdeu seu exutório",
+        "a vazão independe do uso do solo",
+        "o fenômeno só pode ser explicado por maré"
+      ],
+      "correct_index": 1,
+      "explanation": "Mudanças no uso do solo alteram o tempo de resposta e a parcela de escoamento.",
+      "option_feedback": [
+        "Não.",
+        "Correto.",
+        "Não.",
+        "Falso.",
+        "Não necessariamente."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "candidato_treino_objetivo"
+    },
+    {
+      "id": "GF-hidrologia-desafio-2",
+      "section": "desafio",
+      "prompt": "(Lei 9.433) Qual alternativa está correta?",
+      "options": [
+        "outorga transfere a propriedade da água",
+        "a bacia hidrográfica é unidade territorial da PNRH",
+        "gestão deve ser exclusivamente centralizada",
+        "em escassez, irrigação sempre tem prioridade",
+        "cobrança é uma multa penal"
+      ],
+      "correct_index": 1,
+      "explanation": "A bacia é fundamento territorial da política.",
+      "option_feedback": [
+        "Falso.",
+        "Correto.",
+        "A gestão é descentralizada e participativa.",
+        "A prioridade é consumo humano e dessedentação animal.",
+        "Cobrança é instrumento de gestão, não multa penal."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "candidato_treino_objetivo"
+    },
+    {
+      "id": "GF-hidrologia-desafio-3",
+      "section": "desafio",
+      "prompt": "(Aquíferos) Uma rocha tem muitos vazios microscópicos, porém pouco conectados. A conclusão mais segura é:",
+      "options": [
+        "alta porosidade implica alta permeabilidade sempre",
+        "pode armazenar água, mas transmitir lentamente",
+        "não pode conter água",
+        "é necessariamente aquífero confinado produtivo",
+        "é um divisor superficial"
+      ],
+      "correct_index": 1,
+      "explanation": "Conectividade dos vazios é crucial para permeabilidade.",
+      "option_feedback": [
+        "Generalização falsa.",
+        "Correto.",
+        "Pode conter.",
+        "Não se conclui isso.",
+        "Conceito distinto."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "candidato_treino_objetivo"
+    },
+    {
+      "id": "GF-hidrologia-desafio-4",
+      "section": "desafio",
+      "prompt": "(Tocantins–Araguaia) A expressão “maior região hidrográfica totalmente contida em território brasileiro” refere-se a:",
+      "options": [
+        "Tocantins–Araguaia",
+        "Amazônica inteira",
+        "Paraná internacional",
+        "Atlântico Sul necessariamente",
+        "qualquer bacia urbana"
+      ],
+      "correct_index": 0,
+      "explanation": "A ANA destaca Tocantins–Araguaia por ser integralmente brasileira e extensa.",
+      "option_feedback": [
+        "Correto.",
+        "A Amazônica é transnacional.",
+        "Não.",
+        "Não.",
+        "Não."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "candidato_treino_objetivo"
+    },
+    {
+      "id": "GF-hidrologia-desafio-5",
+      "section": "desafio",
+      "prompt": "(Oceanos) Qual associação está correta?",
+      "options": [
+        "maré → apenas vento",
+        "corrente termohalina → diferenças de densidade ligadas a temperatura e salinidade",
+        "onda → transferência exclusiva de massa sem energia",
+        "ressurgência → afundamento de água superficial quente como definição",
+        "corrente oceânica → imóvel"
+      ],
+      "correct_index": 1,
+      "explanation": "A circulação termohalina é controlada por contrastes de densidade associados a temperatura e salinidade.",
+      "option_feedback": [
+        "Falso.",
+        "Correto.",
+        "Ondas propagam energia.",
+        "Ressurgência é subida de águas subsuperficiais.",
+        "Corrente é movimento."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "candidato_treino_objetivo"
+    }
+  ],
+  "cards": [
+    {
+      "id": "GF-hidrologia-FC1",
+      "category": "Ciclo",
+      "front": "Evapotranspiração?",
+      "back": "Soma da evaporação com a transpiração vegetal.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-hidrologia-FC2",
+      "category": "Ciclo",
+      "front": "Infiltração?",
+      "back": "Entrada de água no solo.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-hidrologia-FC3",
+      "category": "Ciclo",
+      "front": "Percolação?",
+      "back": "Movimento da água para níveis mais profundos no solo/subsolo.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-hidrologia-FC4",
+      "category": "Balanço",
+      "front": "Balanço hídrico simplificado?",
+      "back": "Precipitação = evapotranspiração + escoamento ± armazenamento.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-hidrologia-FC5",
+      "category": "Bacia",
+      "front": "Bacia hidrográfica?",
+      "back": "Área drenada para um exutório comum.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-hidrologia-FC6",
+      "category": "Bacia",
+      "front": "Divisor de águas?",
+      "back": "Limite topográfico entre áreas de drenagem.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-hidrologia-FC7",
+      "category": "Bacia",
+      "front": "Exutório?",
+      "back": "Ponto/seção de saída da bacia considerada.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-hidrologia-FC8",
+      "category": "Bacia",
+      "front": "Montante x jusante?",
+      "back": "Montante → cabeceira; jusante → direção da foz.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-hidrologia-FC9",
+      "category": "Hidrometria",
+      "front": "Vazão?",
+      "back": "Volume que atravessa uma seção por unidade de tempo.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-hidrologia-FC10",
+      "category": "Hidrograma",
+      "front": "O que mostra?",
+      "back": "Vazão ao longo do tempo.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-hidrologia-FC11",
+      "category": "Hidrograma",
+      "front": "Impermeabilização tende a fazer o quê?",
+      "back": "Antecipar e frequentemente elevar o pico de vazão.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-hidrologia-FC12",
+      "category": "Solo-água",
+      "front": "Solo saturado pode fazer o quê ao escoamento?",
+      "back": "Reduzir armazenamento disponível e favorecer escoamento.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-hidrologia-FC13",
+      "category": "Aquífero",
+      "front": "Aquífero?",
+      "back": "Formação que armazena e transmite água subterrânea.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-hidrologia-FC14",
+      "category": "Aquífero",
+      "front": "Porosidade?",
+      "back": "Proporção de vazios no material.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-hidrologia-FC15",
+      "category": "Aquífero",
+      "front": "Permeabilidade?",
+      "back": "Capacidade de transmitir água por poros/fraturas conectados.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-hidrologia-FC16",
+      "category": "Aquífero",
+      "front": "Aquífero livre?",
+      "back": "Zona saturada cujo topo é o nível freático.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-hidrologia-FC17",
+      "category": "Aquífero",
+      "front": "Aquífero confinado?",
+      "back": "Camada aquífera sob pressão entre unidades menos permeáveis.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-hidrologia-FC18",
+      "category": "Aquífero",
+      "front": "Recarga?",
+      "back": "Entrada de água que repõe o armazenamento subterrâneo.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-hidrologia-FC19",
+      "category": "Brasil",
+      "front": "Quem autoriza poços/água subterrânea?",
+      "back": "Órgãos estaduais, em regra.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-hidrologia-FC20",
+      "category": "Rios",
+      "front": "Planície de inundação?",
+      "back": "Área adjacente ao canal sujeita a extravasamentos periódicos.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-hidrologia-FC21",
+      "category": "Rios",
+      "front": "Meandro: tendência de erosão/deposição?",
+      "back": "Externa erosiona mais; interna tende a depositar.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-hidrologia-FC22",
+      "category": "Qualidade",
+      "front": "Poluição pontual?",
+      "back": "Fonte localizada e identificável.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-hidrologia-FC23",
+      "category": "Qualidade",
+      "front": "Poluição difusa?",
+      "back": "Carga distribuída sobre uma área, sem único ponto.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-hidrologia-FC24",
+      "category": "Qualidade",
+      "front": "Eutrofização?",
+      "back": "Enriquecimento por nutrientes com alteração do ecossistema aquático.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-hidrologia-FC25",
+      "category": "Usos",
+      "front": "Uso consuntivo?",
+      "back": "Retira e consome parte da água, como irrigação.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-hidrologia-FC26",
+      "category": "Usos",
+      "front": "Principal retirada consuntiva no Brasil?",
+      "back": "Irrigação.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-hidrologia-FC27",
+      "category": "PNRH",
+      "front": "Prioridade em escassez?",
+      "back": "Consumo humano e dessedentação de animais.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-hidrologia-FC28",
+      "category": "PNRH",
+      "front": "Unidade territorial da política?",
+      "back": "Bacia hidrográfica.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-hidrologia-FC29",
+      "category": "PNRH",
+      "front": "Gestão segundo a lei?",
+      "back": "Descentralizada e participativa.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-hidrologia-FC30",
+      "category": "PNRH",
+      "front": "Outorga?",
+      "back": "Direito de uso sob condições; não transfere propriedade.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-hidrologia-FC31",
+      "category": "PNRH",
+      "front": "Enquadramento?",
+      "back": "Classes/metas de qualidade segundo usos preponderantes.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-hidrologia-FC32",
+      "category": "PNRH",
+      "front": "Cobrança serve para?",
+      "back": "Valor econômico, racionalização e financiamento da gestão.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-hidrologia-FC33",
+      "category": "PNRH",
+      "front": "Sistema de Informações?",
+      "back": "Reúne, trata e divulga dados sobre recursos hídricos.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-hidrologia-FC34",
+      "category": "Lei",
+      "front": "Mudança de 2025: ideia-chave?",
+      "back": "Reforço explícito da segurança hídrica e energética.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-hidrologia-FC35",
+      "category": "Lei",
+      "front": "Compensação a municípios no art. 5º?",
+      "back": "Consta no rol; o art. 24 foi vetado.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-hidrologia-FC36",
+      "category": "SINGREH",
+      "front": "Quem integra?",
+      "back": "CNRH, ANA, conselhos, comitês, órgãos públicos e Agências de Água.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-hidrologia-FC37",
+      "category": "Comitê",
+      "front": "Função-chave?",
+      "back": "Debater, arbitrar conflitos administrativos e aprovar plano da bacia.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-hidrologia-FC38",
+      "category": "Urbano",
+      "front": "Inundação?",
+      "back": "Extravasamento do curso d’água para áreas normalmente secas.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-hidrologia-FC39",
+      "category": "Urbano",
+      "front": "Alagamento?",
+      "back": "Acúmulo por insuficiência da drenagem urbana.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-hidrologia-FC40",
+      "category": "Urbano",
+      "front": "Enxurrada?",
+      "back": "Escoamento rápido e concentrado, de grande energia.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-hidrologia-FC41",
+      "category": "Urbano",
+      "front": "Medida não estrutural?",
+      "back": "Zoneamento, alerta, educação ou plano de contingência.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-hidrologia-FC42",
+      "category": "Tocantins-Araguaia",
+      "front": "Destaque nacional?",
+      "back": "Maior região hidrográfica totalmente contida no Brasil.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-hidrologia-FC43",
+      "category": "Tocantins-Araguaia",
+      "front": "Unidades abrangidas?",
+      "back": "GO, MT, TO, MA, PA e DF.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-hidrologia-FC44",
+      "category": "Pará",
+      "front": "Aquíferos estudados na Grande Belém?",
+      "back": "Barreiras e Pirabas.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-hidrologia-FC45",
+      "category": "Oceanos",
+      "front": "Marés são causadas principalmente por?",
+      "back": "Gravidade da Lua e do Sol.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-hidrologia-FC46",
+      "category": "Oceanos",
+      "front": "Correntes superficiais: motor importante?",
+      "back": "Ventos, além de marés e outros controles.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-hidrologia-FC47",
+      "category": "Oceanos",
+      "front": "Circulação termohalina?",
+      "back": "Movimento ligado à densidade por temperatura e salinidade.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-hidrologia-FC48",
+      "category": "Oceanos",
+      "front": "Ressurgência?",
+      "back": "Subida de água profunda/subsuperficial rica em nutrientes.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-hidrologia-FC49",
+      "category": "Integração",
+      "front": "Não consuntivo = sem impacto?",
+      "back": "Não. Pode alterar regime, sedimentos e ecossistemas.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-hidrologia-FC50",
+      "category": "Integração",
+      "front": "Checklist de hidrologia aplicada?",
+      "back": "Unidade → fluxos → armazenamento → usos → impacto → gestão.",
+      "status": "em_auditoria"
+    }
+  ],
+  "source_links": [
+    "https://www.gov.br/ana/pt-br/assuntos/gestao-das-aguas/panorama-das-aguas/regioes-hidrograficas",
+    "https://www.ibge.gov.br/geociencias/informacoes-ambientais/estudos-ambientais/31653-bacias-e-divisoes-hidrograficas-do-brasil.html"
+  ],
+  "notes": "HTML preservado como fonte; não renderizar HTML bruto. Remover afirmações de incidência FGV e exemplos exclusivamente paraenses, se fora do escopo. Revisar semântica, figuras, atualidade, direitos, unidades e feedbacks. Cinco alternativas não comprovam aderência FCC."
+}

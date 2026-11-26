@@ -1,0 +1,428 @@
+{
+  "status": "triagem_concluida_nao_publicado",
+  "inventory": [
+    {
+      "key": "climatologia",
+      "path": "content/sources/missao-geo/geografia-fisica/climatologia.json",
+      "source_blob": "7d55d221e46dc044827c799efa3babc213591f0f",
+      "sections": 13,
+      "questions": 34,
+      "five": 5,
+      "cards": 50,
+      "invalid_answers": [],
+      "missing_feedback": 0
+    },
+    {
+      "key": "tectonica",
+      "path": "content/sources/missao-geo/geografia-fisica/tectonica.json",
+      "source_blob": "6efbe14a77e5a5339c7ba79303ea1e064340b71d",
+      "sections": 14,
+      "questions": 36,
+      "five": 5,
+      "cards": 50,
+      "invalid_answers": [],
+      "missing_feedback": 0
+    },
+    {
+      "key": "solos",
+      "path": "content/sources/missao-geo/geografia-fisica/solos.json",
+      "source_blob": "b4753e05e537ed3a13304a6218a0c0663454f184",
+      "sections": 16,
+      "questions": 40,
+      "five": 5,
+      "cards": 50,
+      "invalid_answers": [],
+      "missing_feedback": 0
+    },
+    {
+      "key": "hidrologia",
+      "path": "content/sources/missao-geo/geografia-fisica/hidrologia.json",
+      "source_blob": "be45c026e1aeb0a95e303284c3941ba73b550301",
+      "sections": 16,
+      "questions": 40,
+      "five": 5,
+      "cards": 50,
+      "invalid_answers": [],
+      "missing_feedback": 0
+    },
+    {
+      "key": "biomas",
+      "path": "content/sources/missao-geo/geografia-fisica/biomas.json",
+      "source_blob": "3f0433e3e73826a8ce30b4f1933877eedb13f0ff",
+      "sections": 17,
+      "questions": 42,
+      "five": 5,
+      "cards": 50,
+      "invalid_answers": [],
+      "missing_feedback": 0
+    }
+  ],
+  "units": {
+    "CE-GEO-03": [
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/tectonica.json",
+        "id": "tectonica-02",
+        "title": "Estrutura interna da Terra: química e comportamento mecânico"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/tectonica.json",
+        "id": "tectonica-03",
+        "title": "Tempo geológico e construção do planeta"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/tectonica.json",
+        "id": "tectonica-04",
+        "title": "Tectônica de placas e tipos de limites"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/tectonica.json",
+        "id": "tectonica-05",
+        "title": "Convergência, subducção, Andes e Himalaia"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/tectonica.json",
+        "id": "tectonica-06",
+        "title": "Terremotos, falhas e ondas sísmicas"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/tectonica.json",
+        "id": "tectonica-07",
+        "title": "Vulcanismo, magma e hotspots"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/tectonica.json",
+        "id": "tectonica-08",
+        "title": "Minerais, rochas e ciclo das rochas"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/tectonica.json",
+        "id": "tectonica-09",
+        "title": "Intemperismo, erosão e sedimentação"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/tectonica.json",
+        "id": "tectonica-11",
+        "title": "Relevo: forma, processo e escala"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/tectonica.json",
+        "id": "tectonica-14",
+        "title": "Perfis topográficos e raciocínio estrutura → processo → forma"
+      }
+    ],
+    "CE-GEO-10": [
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/climatologia.json",
+        "id": "climatologia-02",
+        "title": "Tempo, clima e normais climatológicas"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/climatologia.json",
+        "id": "climatologia-03",
+        "title": "Radiação, balanço de energia e temperatura"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/climatologia.json",
+        "id": "climatologia-04",
+        "title": "Pressão, ventos e circulação geral"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/climatologia.json",
+        "id": "climatologia-05",
+        "title": "Umidade, nuvens e tipos de chuva"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/climatologia.json",
+        "id": "climatologia-08",
+        "title": "Oceano–atmosfera: ENOS e Atlântico Tropical"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/climatologia.json",
+        "id": "climatologia-09",
+        "title": "Climogramas e classificações climáticas"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/climatologia.json",
+        "id": "climatologia-12",
+        "title": "Clima urbano: ilha de calor e inversão térmica"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/climatologia.json",
+        "id": "climatologia-13",
+        "title": "Mudanças climáticas e eventos extremos"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/solos.json",
+        "id": "solos-02",
+        "title": "Solo: corpo natural e pedogênese"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/solos.json",
+        "id": "solos-03",
+        "title": "Perfil e horizontes do solo"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/solos.json",
+        "id": "solos-04",
+        "title": "Textura, estrutura, porosidade e água"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/solos.json",
+        "id": "solos-05",
+        "title": "Acidez, fertilidade, CTC e calagem"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/solos.json",
+        "id": "solos-07",
+        "title": "Erosão: desagregação, transporte e deposição"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/solos.json",
+        "id": "solos-08",
+        "title": "Splash, laminar, sulcos, ravinas e voçorocas"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/solos.json",
+        "id": "solos-09",
+        "title": "O que controla a erosão hídrica?"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/solos.json",
+        "id": "solos-10",
+        "title": "Conservação do solo: reduzir energia e organizar a água"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/solos.json",
+        "id": "solos-11",
+        "title": "Erosão eólica e degradação física"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/solos.json",
+        "id": "solos-12",
+        "title": "Movimentos de massa: gravidade em ação"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/solos.json",
+        "id": "solos-13",
+        "title": "Suscetibilidade, perigo, exposição, vulnerabilidade e risco"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/solos.json",
+        "id": "solos-15",
+        "title": "Leitura integrada: solo, uso e bacia hidrográfica"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/hidrologia.json",
+        "id": "hidrologia-02",
+        "title": "Ciclo hidrológico e balanço de água"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/hidrologia.json",
+        "id": "hidrologia-03",
+        "title": "Bacia hidrográfica: divisor, rede e exutório"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/hidrologia.json",
+        "id": "hidrologia-04",
+        "title": "Vazão, regime fluvial e hidrograma"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/hidrologia.json",
+        "id": "hidrologia-05",
+        "title": "Infiltração, escoamento e urbanização"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/hidrologia.json",
+        "id": "hidrologia-06",
+        "title": "Água subterrânea e aquíferos"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/hidrologia.json",
+        "id": "hidrologia-07",
+        "title": "Dinâmica fluvial: erosão, transporte e deposição"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/hidrologia.json",
+        "id": "hidrologia-08",
+        "title": "Qualidade da água, poluição e eutrofização"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/hidrologia.json",
+        "id": "hidrologia-09",
+        "title": "Usos da água e conflitos"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/hidrologia.json",
+        "id": "hidrologia-13",
+        "title": "Cheias urbanas: inundação, alagamento e enxurrada"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/hidrologia.json",
+        "id": "hidrologia-15",
+        "title": "Oceanos: ondas, marés, correntes e circulação"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/hidrologia.json",
+        "id": "hidrologia-16",
+        "title": "Leitura integrada: mapa, hidrograma e gestão"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/biomas.json",
+        "id": "biomas-02",
+        "title": "Bioma, ecossistema, domínio e vegetação"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/biomas.json",
+        "id": "biomas-03",
+        "title": "Grandes biomas mundiais: latitude, energia e água"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/biomas.json",
+        "id": "biomas-14",
+        "title": "Biodiversidade e serviços ecossistêmicos"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/biomas.json",
+        "id": "biomas-17",
+        "title": "Integração final: ler a paisagem sem misturar classificações"
+      }
+    ],
+    "CE-GEO-11": [
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/climatologia.json",
+        "id": "climatologia-06",
+        "title": "Massas de ar e frentes no Brasil"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/climatologia.json",
+        "id": "climatologia-07",
+        "title": "ZCIT, ZCAS e sistemas de convergência"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/climatologia.json",
+        "id": "climatologia-10",
+        "title": "Climas do Brasil"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/climatologia.json",
+        "id": "climatologia-11",
+        "title": "Amazônia e Pará: clima em escala regional"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/tectonica.json",
+        "id": "tectonica-10",
+        "title": "Estruturas geológicas e o território brasileiro"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/tectonica.json",
+        "id": "tectonica-12",
+        "title": "Aroldo de Azevedo, Aziz Ab’Sáber e Jurandyr Ross"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/tectonica.json",
+        "id": "tectonica-13",
+        "title": "Relevo do Brasil: leitura integrada"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/solos.json",
+        "id": "solos-06",
+        "title": "SiBCS e classes frequentes no Brasil"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/solos.json",
+        "id": "solos-14",
+        "title": "Amazônia e Pará: solo fértil não explica sozinho a floresta"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/hidrologia.json",
+        "id": "hidrologia-10",
+        "title": "Lei 9.433: fundamentos e objetivos vigentes"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/hidrologia.json",
+        "id": "hidrologia-11",
+        "title": "Instrumentos da PNRH: plano, enquadramento, outorga, cobrança e informação"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/hidrologia.json",
+        "id": "hidrologia-12",
+        "title": "SINGREH, comitês e gestão participativa"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/hidrologia.json",
+        "id": "hidrologia-14",
+        "title": "Tocantins–Araguaia e a leitura regional do Pará"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/biomas.json",
+        "id": "biomas-04",
+        "title": "Os seis biomas brasileiros do IBGE"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/biomas.json",
+        "id": "biomas-05",
+        "title": "Amazônia: mosaico florestal e águas"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/biomas.json",
+        "id": "biomas-06",
+        "title": "Cerrado: um mosaico de fitofisionomias"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/biomas.json",
+        "id": "biomas-07",
+        "title": "Caatinga: semiárido não é vazio biológico"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/biomas.json",
+        "id": "biomas-08",
+        "title": "Mata Atlântica: diversidade, relevo e fragmentação"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/biomas.json",
+        "id": "biomas-09",
+        "title": "Pantanal: a água organiza a paisagem"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/biomas.json",
+        "id": "biomas-10",
+        "title": "Pampa: campos do Sul"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/biomas.json",
+        "id": "biomas-11",
+        "title": "Ab’Sáber e os seis domínios morfoclimáticos"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/biomas.json",
+        "id": "biomas-12",
+        "title": "Faixas de transição e tensão ecológica"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/biomas.json",
+        "id": "biomas-13",
+        "title": "Vegetação segundo o IBGE"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/biomas.json",
+        "id": "biomas-15",
+        "title": "Unidades de conservação: o básico para este tema"
+      },
+      {
+        "source": "content/sources/missao-geo/geografia-fisica/biomas.json",
+        "id": "biomas-16",
+        "title": "Pará: Amazônia, Cerrado e áreas de contato"
+      }
+    ]
+  },
+  "excluded": "Seções de perfil FGV e sínteses repetitivas não entram automaticamente; manter nas fontes para rastreabilidade. Questões ainda precisam de mapeamento semântico por unidade; não duplicar.",
+  "audit_pending": [
+    "Conferir escopo com anexo oficial",
+    "Ler integralmente cada seção e confrontar fontes",
+    "Adaptar Pará ao Maranhão somente quando pertinente",
+    "Revisar todos os itens e distratores; adaptar quatro alternativas sem preenchimento artificial",
+    "Separar conceitos gerais de aplicação brasileira",
+    "Obter e validar imagens oficiais e diagramas",
+    "Consolidar somente as três unidades no bundle da main atual após conciliar correções de estabilidade"
+  ]
+}

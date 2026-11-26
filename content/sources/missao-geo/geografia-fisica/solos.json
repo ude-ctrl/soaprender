@@ -1,0 +1,1438 @@
+{
+  "schema_version": "1.0.0",
+  "source": {
+    "repository": "ude-ctrl/Estudo-para-Concurso",
+    "ref": "main",
+    "path": "MissaoAprovacaoGeo/SEDUC_PA_Tema_06_Solos_e_Erosao_MATRIZ_OFICIAL_V2_6_AUDITADA.html",
+    "blob_sha": "b4753e05e537ed3a13304a6218a0c0663454f184",
+    "previous_context": "SEDUC-PA/FGV; aprovação anterior não transferida"
+  },
+  "status": "candidato_em_auditoria",
+  "sections": [
+    {
+      "id": "solos-01",
+      "title": "Como a FGV cobra Solos e Erosão",
+      "hook": "A banca troca definições próximas e transforma processos em cadeias de causa → efeito.",
+      "html_original": "<p>Este tema exige separar três planos: <b>formação do solo</b>, <b>degradação/erosão</b> e <b>risco geomorfológico</b>. A FGV costuma apresentar uma paisagem, uma prática agrícola ou uma encosta urbana e perguntar qual processo explica o resultado.</p>\n<div class=\"w\"><table><tr><th>Se aparecer...</th><th>Pense primeiro em...</th><th>Pegadinha típica</th></tr>\n<tr><td>areia, silte e argila</td><td>textura</td><td>confundir com estrutura</td></tr>\n<tr><td>pH baixo + Al</td><td>acidez / manejo</td><td>achar que adubo e calcário são a mesma coisa</td></tr>\n<tr><td>remoção difusa</td><td>erosão laminar</td><td>chamar de ravina</td></tr>\n<tr><td>canais progressivos</td><td>sulco → ravina → voçoroca</td><td>tratar os limites como universais</td></tr>\n<tr><td>encosta + chuva + ocupação</td><td>movimento de massa + vulnerabilidade</td><td>atribuir o desastre só à chuva</td></tr></table></div>\n<div class=\"box prova\"><span class=\"l\">Radar de prova</span>Procure o verbo do fenômeno: <b>formar, alterar, desagregar, transportar, depositar ou deslocar em massa</b>. Ele costuma revelar a alternativa correta.</div>",
+      "recall": "Em 30 segundos, diferencie intemperismo, erosão e movimento de massa.",
+      "recall_answer": "Intemperismo altera materiais no local; erosão envolve remoção e transporte por agentes como água e vento; movimento de massa é deslocamento gravitacional de solo/rocha, frequentemente favorecido por água.",
+      "source_index": 0,
+      "proposed_unit": null,
+      "status": "em_auditoria"
+    },
+    {
+      "id": "solos-02",
+      "title": "Solo: corpo natural e pedogênese",
+      "hook": "Solo não é apenas rocha triturada: é um corpo dinâmico formado pela interação entre material, clima, organismos, relevo e tempo.",
+      "html_original": "<p><b>Pedogênese</b> é o conjunto de processos que forma e diferencia os solos. Os fatores clássicos são <b>material de origem, clima, organismos, relevo e tempo</b>. A ação humana pode alterar rapidamente propriedades e processos pedológicos.</p>\n<p>Durante a formação ocorrem <b>adições, perdas, translocações e transformações</b>: entrada de matéria orgânica; lixiviação; migração de argila/compostos; alteração mineral e formação de novos constituintes.</p>\n<div class=\"box dia\"><span class=\"l\">Cuidado</span>Um mesmo material de origem pode gerar solos diferentes sob clima, relevo, organismos e tempo distintos. E solos semelhantes podem ocorrer sobre materiais diferentes.</div>",
+      "recall": "Por que clima e relevo podem produzir solos diferentes sobre uma mesma rocha?",
+      "recall_answer": "Porque controlam água, temperatura, drenagem, erosão e tempo de permanência dos materiais, alterando a intensidade e o sentido da pedogênese.",
+      "source_index": 1,
+      "proposed_unit": "CE-GEO-10",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "solos-03",
+      "title": "Perfil e horizontes do solo",
+      "hook": "Horizonte é uma camada pedogenética; perfil é a sequência observada verticalmente.",
+      "html_original": "<p>Um perfil pode apresentar horizontes <b>O, A, E, B, C</b> e contato com <b>R</b>, mas <b>nem todo solo possui todos eles</b>. O horizonte O é dominado por material orgânico; A é mineral com influência de matéria orgânica; E é frequentemente eluviado; B apresenta desenvolvimento pedogenético e pode concentrar materiais translocados; C é material pouco afetado pela pedogênese; R indica rocha consolidada.</p>\n<p>No <b>SiBCS</b>, a classificação usa horizontes diagnósticos e atributos morfológicos, físicos, químicos e mineralógicos. Não basta olhar apenas a cor.</p>\n<div class=\"box prova\"><span class=\"l\">Pegadinha típica</span>“Todo perfil tem O–A–E–B–C–R completo” é falso.</div>",
+      "recall": "O que diferencia um perfil de solo de uma simples pilha de sedimentos?",
+      "recall_answer": "O perfil registra horizontes e atributos organizados por processos pedogenéticos; sedimentos podem estar apenas depositados sem essa diferenciação.",
+      "source_index": 2,
+      "proposed_unit": "CE-GEO-10",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "solos-04",
+      "title": "Textura, estrutura, porosidade e água",
+      "hook": "A banca gosta de inverter textura e estrutura e de transformar tendências em regras absolutas.",
+      "html_original": "<p><b>Textura</b> é a proporção relativa das frações granulométricas — principalmente areia, silte e argila. <b>Estrutura</b> é o modo como partículas e agregados se organizam.</p>\n<p>Solos mais arenosos tendem a ter maior presença de macroporos e drenagem rápida; solos com mais argila podem reter mais água e nutrientes devido à maior superfície específica, mas <b>permeabilidade e infiltração dependem também da estrutura, agregação e compactação</b>.</p>\n<p>A <b>compactação</b> costuma reduzir macroporosidade e infiltração, favorecendo escoamento superficial. Cobertura vegetal e matéria orgânica ajudam na estabilidade de agregados.</p>",
+      "recall": "Por que não é seguro dizer que 'todo solo argiloso é impermeável'?",
+      "recall_answer": "Porque infiltração/permeabilidade dependem não só da textura, mas também de estrutura, agregação, fissuras, matéria orgânica, compactação e continuidade dos poros.",
+      "source_index": 3,
+      "proposed_unit": "CE-GEO-10",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "solos-05",
+      "title": "Acidez, fertilidade, CTC e calagem",
+      "hook": "Solo ácido não é sinônimo de solo infértil, e calcário não é sinônimo de adubo.",
+      "html_original": "<p>O <b>pH</b> expressa a reação ácido–base. Em muitos solos tropicais altamente intemperizados, a acidez, a baixa saturação por bases e o alumínio trocável podem limitar culturas sensíveis. A <b>CTC</b> indica a capacidade de reter/trocar cátions, mas seu valor e significado dependem dos coloides e das condições químicas.</p>\n<p><b>Calagem</b> é uma prática de correção da acidez: pode elevar o pH, reduzir efeitos do Al e fornecer Ca e Mg. <b>Adubação</b> visa suprir nutrientes. A necessidade de ambas deve ser orientada por <b>análise de solo e recomendação técnica</b>.</p>\n<div class=\"box prova\"><span class=\"l\">Pegadinha típica</span>Calcário não “substitui qualquer fertilizante”, nem todo solo ácido exige a mesma dose de corretivo.</div>",
+      "recall": "Por que 'solo ácido = solo inútil' é uma generalização ruim?",
+      "recall_answer": "Porque aptidão depende de várias propriedades, espécies/cultivos e manejo; acidez pode ser corrigida em muitos contextos, e fertilidade não se reduz ao pH.",
+      "source_index": 4,
+      "proposed_unit": "CE-GEO-10",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "solos-06",
+      "title": "SiBCS e classes frequentes no Brasil",
+      "hook": "Não é preciso decorar o livro inteiro; é preciso reconhecer critérios e classes-chave.",
+      "html_original": "<p>O <b>Sistema Brasileiro de Classificação de Solos (SiBCS)</b> organiza os solos em níveis categóricos. A 6ª edição revisada e ampliada da Embrapa mantém <b>13 ordens</b>: Argissolos, Cambissolos, Chernossolos, Espodossolos, Gleissolos, Latossolos, Luvissolos, Neossolos, Nitossolos, Organossolos, Planossolos, Plintossolos e Vertissolos.</p>\n<div class=\"w\"><table><tr><th>Classe</th><th>Ideia útil para prova</th></tr>\n<tr><td>Latossolos</td><td>muito intemperizados; geralmente profundos; ampla ocorrência tropical</td></tr>\n<tr><td>Argissolos</td><td>horizonte B textural, com aumento de argila em subsuperfície</td></tr>\n<tr><td>Neossolos</td><td>pouco desenvolvimento pedogenético</td></tr>\n<tr><td>Gleissolos</td><td>forte influência de saturação por água/hidromorfia e gleização</td></tr></table></div>\n<p>Latossolos e Argissolos juntos ocupam grande parte do território brasileiro e são frequentemente muito intemperizados e ácidos, mas <b>há variação interna</b>.</p>",
+      "recall": "Associe sem consultar: Latossolo, Argissolo, Neossolo e Gleissolo a uma característica.",
+      "recall_answer": "Latossolo: forte intemperismo; Argissolo: B textural; Neossolo: pouco desenvolvimento; Gleissolo: hidromorfia/gleização.",
+      "source_index": 5,
+      "proposed_unit": "CE-GEO-11",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "solos-07",
+      "title": "Erosão: desagregação, transporte e deposição",
+      "hook": "Erosão não é sinônimo de intemperismo: ela envolve remoção e transporte.",
+      "html_original": "<p>Na erosão hídrica, a chuva pode iniciar a <b>desagregação</b> pelo impacto das gotas; o escoamento remove e <b>transporta</b> partículas; quando perde energia ocorre <b>deposição</b>. Em condições naturais existe erosão geológica, mas uso inadequado pode acelerar muito as perdas.</p>\n<p>A retirada de cobertura, compactação, concentração artificial de fluxo e manejo incompatível com relevo/solo aumentam o risco erosivo. Os sedimentos podem causar <b>assoreamento</b> de canais e reservatórios.</p>\n<div class=\"box dia\"><span class=\"l\">Cadeia mental</span>Impacto → desagregação → escoamento → transporte → deposição.</div>",
+      "recall": "Explique por que erosão em uma encosta pode gerar impacto longe do ponto onde o solo foi perdido.",
+      "recall_answer": "Porque sedimentos e nutrientes são transportados para jusante, podendo assorear cursos d'água, alterar habitats e afetar infraestrutura e qualidade da água.",
+      "source_index": 6,
+      "proposed_unit": "CE-GEO-10",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "solos-08",
+      "title": "Splash, laminar, sulcos, ravinas e voçorocas",
+      "hook": "O segredo é reconhecer a passagem do escoamento difuso para o concentrado.",
+      "html_original": "<p><b>Splash</b> é o destacamento e deslocamento inicial de partículas pelo impacto das gotas. A <b>erosão laminar</b> remove uma camada fina de forma difusa. Quando o fluxo se concentra, surgem <b>sulcos</b> e incisões maiores, como <b>ravinas</b> e <b>voçorocas</b>.</p>\n<p>Em literatura brasileira, voçorocas são formas erosivas lineares profundas e complexas, frequentemente com participação de fluxos subsuperficiais; algumas referências usam o contato com o lençol freático como marco evolutivo. <b>Os critérios geométricos e terminológicos podem variar</b>, portanto evite tratar um único limite de profundidade como universal.</p>\n<div class=\"box prova\"><span class=\"l\">Pegadinha típica</span>A sequência didática splash → laminar → sulcos → ravinas → voçorocas ajuda a ordenar a intensificação, mas a evolução real não precisa seguir uma escada rígida em todo terreno.</div>",
+      "recall": "Reconstrua a sequência didática das principais formas de erosão hídrica superficial.",
+      "recall_answer": "Splash → laminar → sulcos → ravinas → voçorocas, lembrando que a evolução real pode variar e as definições de ravina/voçoroca não são universais.",
+      "source_index": 7,
+      "proposed_unit": "CE-GEO-10",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "solos-09",
+      "title": "O que controla a erosão hídrica?",
+      "hook": "Chuva forte não produz a mesma perda em todos os solos e encostas.",
+      "html_original": "<p>A erosão depende da interação entre <b>erosividade da chuva</b>, <b>erodibilidade do solo</b>, <b>comprimento e declividade da vertente</b>, <b>cobertura/manejo</b> e <b>práticas conservacionistas</b>. Esses grupos aparecem na lógica da <b>USLE/RUSLE</b>.</p>\n<p>A equação universal de perda de solo é frequentemente expressa como <b>A = R · K · LS · C · P</b>. Ela estima perdas médias por erosão laminar e em sulcos sob condições específicas; <b>não é modelo universal para voçorocas ou movimentos de massa</b>.</p>\n<div class=\"w\"><table><tr><th>Fator</th><th>Ideia</th></tr><tr><td>R</td><td>erosividade da chuva</td></tr><tr><td>K</td><td>erodibilidade do solo</td></tr><tr><td>LS</td><td>comprimento + declividade</td></tr><tr><td>C</td><td>cobertura e manejo</td></tr><tr><td>P</td><td>práticas conservacionistas</td></tr></table></div>",
+      "recall": "Por que duas encostas sob a mesma chuva podem perder quantidades muito diferentes de solo?",
+      "recall_answer": "Porque variam erodibilidade, declividade/comprimento, cobertura, estrutura, infiltração, compactação e práticas de manejo.",
+      "source_index": 8,
+      "proposed_unit": "CE-GEO-10",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "solos-10",
+      "title": "Conservação do solo: reduzir energia e organizar a água",
+      "hook": "Boa prática não é receita única: depende de solo, relevo, chuva e uso.",
+      "html_original": "<p>Práticas conservacionistas procuram <b>manter cobertura, aumentar infiltração, reduzir velocidade/concentração do escoamento e estabilizar o solo</b>. Entre elas: plantio em nível/contorno, terraceamento quando tecnicamente indicado, cobertura permanente, rotação de culturas, plantio direto bem manejado, faixas vegetadas e proteção de áreas ripárias.</p>\n<p><b>Terraço</b> não é solução universal; mal dimensionado pode concentrar água e agravar erosão. Conservação exige planejamento da bacia/vertente, não apenas uma técnica isolada.</p>\n<div class=\"box prova\"><span class=\"l\">Pegadinha típica</span>“Arar morro abaixo facilita drenagem e reduz erosão” costuma inverter a lógica: linhas no sentido da máxima declividade favorecem concentração e velocidade do escoamento.</div>",
+      "recall": "Qual princípio une cobertura vegetal, plantio em nível e terraceamento?",
+      "recall_answer": "Reduzir a energia erosiva da chuva/escoamento, favorecer infiltração e evitar concentração descontrolada de água.",
+      "source_index": 9,
+      "proposed_unit": "CE-GEO-10",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "solos-11",
+      "title": "Erosão eólica e degradação física",
+      "hook": "Nem toda erosão é hídrica, e nem toda degradação do solo envolve remoção de partículas.",
+      "html_original": "<p>A <b>erosão eólica</b> é favorecida por solo seco, pouco coberto, partículas suscetíveis e ventos capazes de mobilizá-las. Pode envolver <b>deflação</b> (remoção), transporte e deposição, além de abrasão.</p>\n<p>Outras formas de degradação incluem <b>compactação, selamento/crostamento, salinização, perda de matéria orgânica e contaminação</b>. Portanto, “degradação do solo” é categoria mais ampla que “erosão”.</p>\n<div class=\"box dia\"><span class=\"l\">Distinção</span>Erosão implica remoção/transporte; compactação altera propriedades físicas sem necessariamente remover o solo.</div>",
+      "recall": "Diferencie erosão de degradação do solo.",
+      "recall_answer": "Erosão é um tipo de degradação que envolve remoção e transporte; degradação inclui também compactação, salinização, perda de matéria orgânica, contaminação e outros processos.",
+      "source_index": 10,
+      "proposed_unit": "CE-GEO-10",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "solos-12",
+      "title": "Movimentos de massa: gravidade em ação",
+      "hook": "A água frequentemente dispara o processo, mas a força motriz é a gravidade.",
+      "html_original": "<p><b>Movimentos de massa</b> são deslocamentos de solo, rocha e detritos encosta abaixo sob ação da gravidade. A água pode elevar pressão nos poros, aumentar peso e reduzir resistência, funcionando como importante condicionante ou gatilho.</p>\n<div class=\"w\"><table><tr><th>Tipo</th><th>Traço geral</th></tr>\n<tr><td>Quedas</td><td>desprendimento de blocos em encostas/escarpas</td></tr>\n<tr><td>Deslizamentos/escorregamentos</td><td>movimento ao longo de uma superfície de ruptura</td></tr>\n<tr><td>Corridas/fluxos</td><td>mistura muito móvel de água, solo e detritos, comportamento semelhante a fluido</td></tr></table></div>\n<p>Cortes de talude, aterros, desmatamento, drenagem inadequada e ocupação precária podem aumentar instabilidade e vulnerabilidade.</p>",
+      "recall": "Por que dizer 'a chuva causou o desastre' pode ser insuficiente?",
+      "recall_answer": "Porque chuva pode ser gatilho, mas suscetibilidade do terreno, uso do solo, drenagem, exposição e vulnerabilidade social determinam se o evento se torna desastre.",
+      "source_index": 11,
+      "proposed_unit": "CE-GEO-10",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "solos-13",
+      "title": "Suscetibilidade, perigo, exposição, vulnerabilidade e risco",
+      "hook": "Um processo natural só vira desastre quando encontra sociedade exposta e vulnerável.",
+      "html_original": "<p><b>Suscetibilidade</b> é a propensão física de um terreno a determinado processo. <b>Perigo/ameaça</b> incorpora a possibilidade de ocorrência de um evento potencialmente danoso, com intensidade e, quando possível, probabilidade. <b>Exposição</b> indica pessoas, bens e infraestrutura presentes na área. <b>Vulnerabilidade</b> expressa a propensão a sofrer danos.</p>\n<p><b>Risco</b> resulta da combinação entre ameaça/perigo, exposição e vulnerabilidade. Um <b>desastre</b> ocorre quando um evento produz impactos graves sobre uma sociedade, excedendo sua capacidade de resposta em determinado contexto.</p>\n<div class=\"box prova\"><span class=\"l\">Pegadinha típica</span>Mapa de suscetibilidade não é automaticamente mapa de risco: é preciso considerar quem/o que está exposto e quão vulnerável é.</div>",
+      "recall": "Diferencie mapa de suscetibilidade de mapa de risco.",
+      "recall_answer": "Suscetibilidade representa propensão física ao processo; risco combina ameaça/suscetibilidade com exposição e vulnerabilidade dos elementos afetáveis.",
+      "source_index": 12,
+      "proposed_unit": "CE-GEO-10",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "solos-14",
+      "title": "Amazônia e Pará: solo fértil não explica sozinho a floresta",
+      "hook": "A floresta exuberante é uma armadilha clássica: biomassa alta não significa solo uniformemente fértil.",
+      "html_original": "<p>Na Amazônia brasileira predominam extensas áreas de <b>Latossolos e Argissolos</b>, frequentemente muito intemperizados, ácidos e de baixa fertilidade natural. A alta biomassa florestal depende fortemente de <b>ciclagem rápida de nutrientes</b> entre serapilheira, organismos e vegetação.</p>\n<p>Há forte diversidade: áreas de <b>várzea</b> recebem sedimentos fluviais e podem apresentar condições diferentes das terras firmes; existem também solos antropogênicos como <b>Terras Pretas de Índio</b>, com propriedades particulares.</p>\n<p>Quando a cobertura é removida, chuvas intensas podem aumentar impacto direto, escoamento, perda de solo e nutrientes. Em Argissolos, o contraste textural pode elevar suscetibilidade erosiva em certos relevos.</p>\n<div class=\"box prova\"><span class=\"l\">Pegadinha típica</span>“Floresta exuberante = solos naturalmente ricos em toda a Amazônia” é falso.</div>",
+      "recall": "Explique a aparente contradição: floresta muito produtiva sobre muitos solos de baixa fertilidade natural.",
+      "recall_answer": "A produtividade se apoia em ciclagem rápida e eficiente de nutrientes entre biomassa, serapilheira e camada superficial, não em grande estoque mineral disponível no solo.",
+      "source_index": 13,
+      "proposed_unit": "CE-GEO-11",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "solos-15",
+      "title": "Leitura integrada: solo, uso e bacia hidrográfica",
+      "hook": "A questão mais forte conecta o ponto da encosta ao sistema inteiro.",
+      "html_original": "<p>Uma análise geográfica completa relaciona <b>solo + relevo + chuva + cobertura + uso + drenagem + sociedade</b>. O efeito de uma prática agrícola ou urbana não termina no lote: água e sedimentos conectam vertentes, estradas, canais, rios e reservatórios.</p>\n<div class=\"road ui\"><span>1 · Solo</span><span>2 · Declive</span><span>3 · Cobertura</span><span>4 · Fluxo</span><span>5 · Exposição</span></div>\n<p>Ao interpretar um caso, pergunte: <b>qual material é suscetível? onde a água se concentra? o que foi alterado pelo uso? para onde vai o sedimento? quem está exposto?</b></p>\n<div class=\"box dia\"><span class=\"l\">Prática docente</span>Use uma encosta ou rua do bairro: identifique cobertura, declive, drenagem e sinais de erosão. O aluno deve propor intervenção e justificar o mecanismo, não apenas nomear a forma.</div>",
+      "recall": "Monte uma cadeia causal para uma voçoroca associada a estrada mal drenada.",
+      "recall_answer": "Concentração artificial de escoamento → aumento de velocidade/energia → incisão → aprofundamento e recuo → exportação de sedimentos → assoreamento/impactos a jusante.",
+      "source_index": 14,
+      "proposed_unit": "CE-GEO-10",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "solos-16",
+      "title": "Síntese de prova: relações que precisam ficar automáticas",
+      "hook": "O objetivo final é reconhecer pares conceituais sem hesitação e justificar mecanismos.",
+      "html_original": "<div class=\"w\"><table><tr><th>Conceito</th><th>Associação segura</th><th>Não confunda com</th></tr>\n<tr><td>textura</td><td>areia–silte–argila</td><td>estrutura</td></tr>\n<tr><td>intemperismo</td><td>alteração in situ</td><td>erosão/transporte</td></tr>\n<tr><td>laminar</td><td>remoção difusa</td><td>ravina</td></tr>\n<tr><td>voçoroca</td><td>erosão linear profunda/complexa</td><td>movimento de massa</td></tr>\n<tr><td>calagem</td><td>correção da acidez</td><td>adubação</td></tr>\n<tr><td>corrida</td><td>fluxo de detritos/solo + água</td><td>erosão laminar</td></tr>\n<tr><td>suscetibilidade</td><td>propensão física</td><td>risco completo</td></tr></table></div>\n<p>Se você consegue explicar <b>por que</b> cada associação está correta, a banca perde boa parte das pegadinhas.</p>",
+      "recall": "Sem consultar, recite sete pares da tabela e dê um exemplo para três deles.",
+      "recall_answer": "Textura–granulometria; intemperismo–alteração; laminar–difusa; voçoroca–erosão linear; calagem–acidez; corrida–fluxo; suscetibilidade–propensão física.",
+      "source_index": 15,
+      "proposed_unit": null,
+      "status": "em_auditoria"
+    }
+  ],
+  "questions": [
+    {
+      "id": "GF-solos-diagnostico-1",
+      "section": "diagnostico",
+      "prompt": "Um solo exposto em uma encosta passa a apresentar remoção quase uniforme de uma camada superficial muito fina após chuvas. O processo descrito é:",
+      "options": [
+        "erosão laminar",
+        "voçorocamento",
+        "corrida de massa",
+        "intemperismo químico"
+      ],
+      "correct_index": 0,
+      "explanation": "A erosão laminar remove material de modo difuso, sem canais bem definidos.",
+      "option_feedback": [
+        "Correto.",
+        "Voçorocas são incisões profundas.",
+        "Corrida de massa é movimento gravitacional rápido.",
+        "Intemperismo altera a rocha/solo no local, sem exigir transporte."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-solos-diagnostico-2",
+      "section": "diagnostico",
+      "prompt": "Qual alternativa diferencia corretamente textura e estrutura do solo?",
+      "options": [
+        "Textura = arranjo dos agregados; estrutura = proporção de areia, silte e argila",
+        "Textura = proporção de areia, silte e argila; estrutura = modo como as partículas se agregam",
+        "Textura e estrutura são sinônimos",
+        "Textura se refere apenas à cor do solo"
+      ],
+      "correct_index": 1,
+      "explanation": "Textura é granulometria relativa; estrutura descreve o arranjo/agregação das partículas.",
+      "option_feedback": [
+        "Está invertido.",
+        "Correto.",
+        "São propriedades distintas.",
+        "Cor não define textura."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-solos-diagnostico-3",
+      "section": "diagnostico",
+      "prompt": "Em uma encosta urbana íngreme, chuvas intensas ocorrem após cortes de talude, retirada de vegetação e drenagem inadequada. O risco de movimento de massa tende a:",
+      "options": [
+        "diminuir automaticamente",
+        "aumentar pela combinação de suscetibilidade, água e intervenção antrópica",
+        "desaparecer porque o solo fica exposto",
+        "depender somente do tipo de rocha"
+      ],
+      "correct_index": 1,
+      "explanation": "Água, declividade e intervenções humanas podem aumentar a instabilidade e a vulnerabilidade.",
+      "option_feedback": [
+        "É o contrário.",
+        "Correto.",
+        "Exposição não estabiliza o terreno.",
+        "Risco é multicausal."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-solos-solos-01-1",
+      "section": "solos-01",
+      "prompt": "Qual sequência conceitual está correta?",
+      "options": [
+        "intemperismo altera; erosão remove/transporta; sedimentação deposita",
+        "erosão forma minerais; intemperismo transporta",
+        "sedimentação remove; erosão deposita",
+        "pedogênese é sinônimo de deslizamento"
+      ],
+      "correct_index": 0,
+      "explanation": "A cadeia correta separa alteração, transporte e deposição.",
+      "option_feedback": [
+        "Correto.",
+        "Funções trocadas.",
+        "Funções invertidas.",
+        "São processos distintos."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-solos-solos-01-2",
+      "section": "solos-01",
+      "prompt": "Qual associação é correta?",
+      "options": [
+        "textura → arranjo de agregados",
+        "estrutura → proporção areia/silte/argila",
+        "erosão laminar → remoção difusa superficial",
+        "voçoroca → alteração química sem transporte"
+      ],
+      "correct_index": 2,
+      "explanation": "Erosão laminar é perda relativamente uniforme da superfície.",
+      "option_feedback": [
+        "Isso é estrutura.",
+        "Isso é textura.",
+        "Correto.",
+        "Voçoroca é forma erosiva linear."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-solos-solos-02-1",
+      "section": "solos-02",
+      "prompt": "Qual conjunto reúne fatores clássicos de formação do solo?",
+      "options": [
+        "clima, organismos, relevo, material de origem e tempo",
+        "longitude, fuso, escala e projeção",
+        "apenas chuva e rocha",
+        "somente atividade humana"
+      ],
+      "correct_index": 0,
+      "explanation": "A pedogênese resulta da interação desses fatores.",
+      "option_feedback": [
+        "Correto.",
+        "São conceitos cartográficos.",
+        "É incompleto.",
+        "A ação humana importa, mas não é o único fator."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-solos-solos-02-2",
+      "section": "solos-02",
+      "prompt": "Lixiviação corresponde, em termos gerais, a:",
+      "options": [
+        "remoção/transferência de constituintes solúveis pela água percolante",
+        "aumento automático do pH",
+        "transporte apenas pelo vento",
+        "formação exclusiva de areia"
+      ],
+      "correct_index": 0,
+      "explanation": "A água pode mobilizar e remover substâncias ao longo do perfil.",
+      "option_feedback": [
+        "Correto.",
+        "Não necessariamente.",
+        "Isso é erosão eólica.",
+        "Não."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-solos-solos-03-1",
+      "section": "solos-03",
+      "prompt": "Qual afirmação sobre horizontes é mais correta?",
+      "options": [
+        "Todo solo possui obrigatoriamente O, A, E, B, C e R",
+        "Horizontes refletem processos pedogenéticos e podem não ocorrer todos no mesmo perfil",
+        "Horizonte B é sempre rocha sã",
+        "Horizonte C é sempre matéria orgânica"
+      ],
+      "correct_index": 1,
+      "explanation": "A sequência de horizontes varia com o solo e sua gênese.",
+      "option_feedback": [
+        "Generalização falsa.",
+        "Correto.",
+        "R indica rocha consolidada.",
+        "O é o mais associado a material orgânico."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-solos-solos-03-2",
+      "section": "solos-03",
+      "prompt": "No SiBCS, a classificação de um solo considera:",
+      "options": [
+        "somente a cor",
+        "apenas o clima",
+        "dados morfológicos, físicos, químicos e mineralógicos do perfil",
+        "apenas a vegetação atual"
+      ],
+      "correct_index": 2,
+      "explanation": "A classificação integra múltiplos atributos e horizontes diagnósticos.",
+      "option_feedback": [
+        "Insuficiente.",
+        "Insuficiente.",
+        "Correto.",
+        "Insuficiente."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-solos-solos-04-1",
+      "section": "solos-04",
+      "prompt": "Qual propriedade descreve a proporção de areia, silte e argila?",
+      "options": [
+        "estrutura",
+        "textura",
+        "pH",
+        "declividade"
+      ],
+      "correct_index": 1,
+      "explanation": "Textura é a distribuição granulométrica.",
+      "option_feedback": [
+        "Estrutura é agregação.",
+        "Correto.",
+        "É propriedade química.",
+        "É do relevo."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-solos-solos-04-2",
+      "section": "solos-04",
+      "prompt": "Um solo compactado tende, em muitas situações, a apresentar:",
+      "options": [
+        "maior macroporosidade e infiltração",
+        "menor infiltração e maior escoamento superficial",
+        "eliminação da erosão",
+        "mais horizontes diagnósticos"
+      ],
+      "correct_index": 1,
+      "explanation": "Compactação reduz poros maiores e dificulta entrada de água.",
+      "option_feedback": [
+        "Tende ao contrário.",
+        "Correto.",
+        "Pode aumentar erosão.",
+        "Não há essa relação direta."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-solos-solos-05-1",
+      "section": "solos-05",
+      "prompt": "Qual diferença é correta?",
+      "options": [
+        "calagem e adubação são sinônimos",
+        "calagem corrige principalmente acidez; adubação supre nutrientes",
+        "adubação serve apenas para elevar pH",
+        "calagem remove fisicamente argila"
+      ],
+      "correct_index": 1,
+      "explanation": "São práticas diferentes, embora possam ser complementares.",
+      "option_feedback": [
+        "Não.",
+        "Correto.",
+        "Não é sua função principal.",
+        "Não."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-solos-solos-05-2",
+      "section": "solos-05",
+      "prompt": "A recomendação de calagem deve ser baseada principalmente em:",
+      "options": [
+        "cor visual do solo",
+        "análise de solo e exigências do sistema de cultivo",
+        "latitude",
+        "tipo de mapa"
+      ],
+      "correct_index": 1,
+      "explanation": "A dose depende de propriedades químicas e objetivo de manejo.",
+      "option_feedback": [
+        "Insuficiente.",
+        "Correto.",
+        "Não.",
+        "Não."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-solos-solos-06-1",
+      "section": "solos-06",
+      "prompt": "Qual associação está correta?",
+      "options": [
+        "Argissolo → horizonte B textural",
+        "Neossolo → sempre muito profundo e altamente evoluído",
+        "Gleissolo → necessariamente deserto",
+        "Latossolo → ausência total de intemperismo"
+      ],
+      "correct_index": 0,
+      "explanation": "Argissolos são definidos, entre outros critérios, pela presença de B textural.",
+      "option_feedback": [
+        "Correto.",
+        "Neossolos têm pouco desenvolvimento.",
+        "Gleissolos se ligam a condições hidromórficas.",
+        "Latossolos são muito intemperizados."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-solos-solos-06-2",
+      "section": "solos-06",
+      "prompt": "Sobre o SiBCS, é correto afirmar que:",
+      "options": [
+        "classifica solos apenas pela cor",
+        "usa horizontes e atributos diagnósticos e possui 13 ordens no primeiro nível",
+        "é uma classificação climática",
+        "ignora análises laboratoriais"
+      ],
+      "correct_index": 1,
+      "explanation": "O SiBCS é taxonomia pedológica baseada em critérios diagnósticos.",
+      "option_feedback": [
+        "Não.",
+        "Correto.",
+        "Não.",
+        "Análises são importantes."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-solos-solos-07-1",
+      "section": "solos-07",
+      "prompt": "Assoreamento corresponde principalmente a:",
+      "options": [
+        "deposição de sedimentos em canais/lagos/reservatórios",
+        "formação de rocha metamórfica",
+        "elevação do pH",
+        "movimento tectônico"
+      ],
+      "correct_index": 0,
+      "explanation": "Sedimentos transportados podem se acumular e reduzir profundidade/capacidade de canais.",
+      "option_feedback": [
+        "Correto.",
+        "Não.",
+        "Não.",
+        "Não."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-solos-solos-07-2",
+      "section": "solos-07",
+      "prompt": "A cobertura vegetal tende a reduzir erosão hídrica porque:",
+      "options": [
+        "elimina a gravidade",
+        "intercepta chuva, protege a superfície e favorece infiltração/estrutura",
+        "torna todo solo impermeável",
+        "impede qualquer escoamento"
+      ],
+      "correct_index": 1,
+      "explanation": "A proteção superficial e raízes reduzem a energia erosiva e ajudam a estrutura.",
+      "option_feedback": [
+        "Não.",
+        "Correto.",
+        "Não.",
+        "Não elimina todo escoamento."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-solos-solos-08-1",
+      "section": "solos-08",
+      "prompt": "O impacto direto das gotas de chuva sobre solo descoberto caracteriza principalmente:",
+      "options": [
+        "splash",
+        "solifluxão",
+        "subducção",
+        "laterização"
+      ],
+      "correct_index": 0,
+      "explanation": "Splash é a erosão por salpicamento/impacto das gotas.",
+      "option_feedback": [
+        "Correto.",
+        "É movimento lento em ambientes frios/periglaciais.",
+        "É tectônica.",
+        "É processo pedogeoquímico."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-solos-solos-08-2",
+      "section": "solos-08",
+      "prompt": "Qual formulação é mais cuidadosa sobre ravinas e voçorocas?",
+      "options": [
+        "Há um único limite universal de profundidade",
+        "São formas lineares de erosão concentrada; critérios de distinção podem variar entre classificações",
+        "São sinônimos de erosão eólica",
+        "Não têm relação com escoamento concentrado"
+      ],
+      "correct_index": 1,
+      "explanation": "A distinção pode envolver profundidade, dinâmica e água subsuperficial conforme a referência.",
+      "option_feedback": [
+        "Não.",
+        "Correto.",
+        "Não.",
+        "Têm relação forte."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-solos-solos-09-1",
+      "section": "solos-09",
+      "prompt": "Na lógica da USLE, o fator K representa:",
+      "options": [
+        "erosividade da chuva",
+        "erodibilidade do solo",
+        "declividade isolada",
+        "pH"
+      ],
+      "correct_index": 1,
+      "explanation": "K expressa a susceptibilidade intrínseca do solo à erosão no modelo.",
+      "option_feedback": [
+        "R é erosividade.",
+        "Correto.",
+        "LS combina comprimento/declividade.",
+        "Não."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-solos-solos-09-2",
+      "section": "solos-09",
+      "prompt": "É correto usar a USLE diretamente para prever:",
+      "options": [
+        "perda média por erosão laminar/sulcos dentro de seu domínio de aplicação",
+        "qualquer terremoto",
+        "toda voçoroca sem ajustes",
+        "todo deslizamento de encosta"
+      ],
+      "correct_index": 0,
+      "explanation": "A USLE não é um modelo geral de todos os processos geomorfológicos.",
+      "option_feedback": [
+        "Correto.",
+        "Não.",
+        "Não é seu domínio clássico.",
+        "Não."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-solos-solos-10-1",
+      "section": "solos-10",
+      "prompt": "Uma prática coerente para reduzir erosão em área agrícola inclinada é:",
+      "options": [
+        "manter solo descoberto",
+        "plantio em contorno associado a cobertura e manejo adequado",
+        "abrir canais morro abaixo sem projeto",
+        "remover mata ciliar"
+      ],
+      "correct_index": 1,
+      "explanation": "O contorno e a cobertura ajudam a desacelerar o escoamento e proteger o solo.",
+      "option_feedback": [
+        "Aumenta exposição.",
+        "Correto.",
+        "Pode concentrar fluxo.",
+        "Aumenta vulnerabilidade."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-solos-solos-10-2",
+      "section": "solos-10",
+      "prompt": "Sobre terraços, qual afirmação é mais correta?",
+      "options": [
+        "Funcionam igual em qualquer terreno",
+        "Precisam de dimensionamento e integração ao sistema de manejo",
+        "Eliminam toda erosão",
+        "Substituem cobertura vegetal"
+      ],
+      "correct_index": 1,
+      "explanation": "São estruturas técnicas que dependem de projeto e manutenção.",
+      "option_feedback": [
+        "Não.",
+        "Correto.",
+        "Não eliminam todo risco.",
+        "Não substituem todas as práticas."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-solos-solos-11-1",
+      "section": "solos-11",
+      "prompt": "Qual condição favorece erosão eólica?",
+      "options": [
+        "solo úmido e totalmente protegido",
+        "superfície seca, descoberta e com partículas mobilizáveis",
+        "mata fechada sem exposição",
+        "saturação permanente por água"
+      ],
+      "correct_index": 1,
+      "explanation": "Exposição e secura aumentam a disponibilidade de partículas ao vento.",
+      "option_feedback": [
+        "Tende a reduzir.",
+        "Correto.",
+        "Tende a proteger.",
+        "Não é condição típica."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-solos-solos-11-2",
+      "section": "solos-11",
+      "prompt": "Compactação é melhor classificada como:",
+      "options": [
+        "forma de degradação física que pode reduzir infiltração",
+        "sinônimo obrigatório de erosão eólica",
+        "deposição sedimentar",
+        "processo tectônico"
+      ],
+      "correct_index": 0,
+      "explanation": "Ela altera porosidade/estrutura e pode favorecer escoamento.",
+      "option_feedback": [
+        "Correto.",
+        "Não.",
+        "Não.",
+        "Não."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-solos-solos-12-1",
+      "section": "solos-12",
+      "prompt": "Nas corridas de massa, o material tende a:",
+      "options": [
+        "comportar-se como fluxo muito móvel de água e detritos",
+        "permanecer imóvel",
+        "surgir apenas em desertos",
+        "ser movido por placas tectônicas"
+      ],
+      "correct_index": 0,
+      "explanation": "Corridas têm comportamento fluido e alta mobilidade.",
+      "option_feedback": [
+        "Correto.",
+        "Não.",
+        "Não.",
+        "Não."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-solos-solos-12-2",
+      "section": "solos-12",
+      "prompt": "A força motriz fundamental dos movimentos de massa é:",
+      "options": [
+        "magnetismo",
+        "gravidade",
+        "rotação da Terra",
+        "maré"
+      ],
+      "correct_index": 1,
+      "explanation": "Água pode disparar ou intensificar, mas a gravidade dirige o deslocamento.",
+      "option_feedback": [
+        "Não.",
+        "Correto.",
+        "Não.",
+        "Não."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-solos-solos-13-1",
+      "section": "solos-13",
+      "prompt": "Uma encosta instável sem pessoas ou infraestrutura expostas apresenta:",
+      "options": [
+        "suscetibilidade física, mas risco social pode ser muito baixo",
+        "risco máximo obrigatório",
+        "desastre em curso",
+        "vulnerabilidade humana máxima"
+      ],
+      "correct_index": 0,
+      "explanation": "Risco depende também de exposição e vulnerabilidade.",
+      "option_feedback": [
+        "Correto.",
+        "Não.",
+        "Não.",
+        "Não há exposição humana por hipótese."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-solos-solos-13-2",
+      "section": "solos-13",
+      "prompt": "Qual variável representa pessoas e bens localizados na área potencialmente afetada?",
+      "options": [
+        "exposição",
+        "textura",
+        "intemperismo",
+        "erodibilidade"
+      ],
+      "correct_index": 0,
+      "explanation": "Exposição identifica os elementos presentes na zona de impacto.",
+      "option_feedback": [
+        "Correto.",
+        "Solo.",
+        "Processo geológico.",
+        "Propriedade erosiva."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-solos-solos-14-1",
+      "section": "solos-14",
+      "prompt": "Por que a floresta amazônica não permite concluir que todos os solos da região são naturalmente férteis?",
+      "options": [
+        "porque biomassa e fertilidade são sinônimos",
+        "porque a ciclagem de nutrientes na biomassa/serapilheira sustenta produtividade mesmo sobre muitos solos pobres",
+        "porque não existem solos na Amazônia",
+        "porque chuva impede pedogênese"
+      ],
+      "correct_index": 1,
+      "explanation": "Nutrientes podem estar fortemente concentrados na biomassa e na ciclagem superficial.",
+      "option_feedback": [
+        "Não.",
+        "Correto.",
+        "Não.",
+        "Não."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-solos-solos-14-2",
+      "section": "solos-14",
+      "prompt": "Qual grupo é muito frequente em terras firmes amazônicas?",
+      "options": [
+        "Latossolos e Argissolos",
+        "apenas Chernossolos",
+        "somente Organossolos",
+        "apenas Vertissolos"
+      ],
+      "correct_index": 0,
+      "explanation": "Latossolos e Argissolos dominam grandes extensões.",
+      "option_feedback": [
+        "Correto.",
+        "Não.",
+        "Não.",
+        "Não."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-solos-solos-15-1",
+      "section": "solos-15",
+      "prompt": "Uma estrada rural concentra água em uma única saída sobre encosta arenosa. Qual efeito é plausível?",
+      "options": [
+        "redução garantida da erosão",
+        "formação/intensificação de erosão linear a jusante",
+        "eliminação do escoamento",
+        "aumento automático da fertilidade"
+      ],
+      "correct_index": 1,
+      "explanation": "Concentração de fluxo aumenta energia e pode iniciar sulcos, ravinas ou voçorocas.",
+      "option_feedback": [
+        "Não.",
+        "Correto.",
+        "Não.",
+        "Não."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-solos-solos-15-2",
+      "section": "solos-15",
+      "prompt": "Qual análise é mais geográfica para um problema erosivo?",
+      "options": [
+        "nomear apenas o tipo de solo",
+        "integrar solo, relevo, chuva, cobertura, uso, drenagem e efeitos a jusante",
+        "medir só a latitude",
+        "ignorar ocupação humana"
+      ],
+      "correct_index": 1,
+      "explanation": "O processo resulta da interação de fatores físicos e sociais.",
+      "option_feedback": [
+        "Insuficiente.",
+        "Correto.",
+        "Irrelevante isoladamente.",
+        "Perde parte central do problema."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-solos-solos-16-1",
+      "section": "solos-16",
+      "prompt": "Qual alternativa reúne somente associações corretas?",
+      "options": [
+        "textura–agregados; calagem–adubo; risco–suscetibilidade apenas",
+        "textura–granulometria; calagem–acidez; laminar–remoção difusa",
+        "voçoroca–tectônica; corrida–vento; Gleissolo–deserto",
+        "Argissolo–sem B; Neossolo–muito evoluído; pH–declividade"
+      ],
+      "correct_index": 1,
+      "explanation": "As três relações da alternativa são conceitualmente corretas.",
+      "option_feedback": [
+        "Há trocas conceituais.",
+        "Correto.",
+        "Todas incorretas.",
+        "Todas incorretas."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-solos-solos-16-2",
+      "section": "solos-16",
+      "prompt": "Uma resposta de prova é mais forte quando:",
+      "options": [
+        "apenas nomeia o fenômeno",
+        "explica mecanismo, condicionantes e consequências",
+        "usa absolutos sem evidência",
+        "ignora escala e uso do solo"
+      ],
+      "correct_index": 1,
+      "explanation": "A banca costuma premiar relações causais consistentes.",
+      "option_feedback": [
+        "Incompleto.",
+        "Correto.",
+        "Perigoso.",
+        "Incompleto."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-solos-desafio-1",
+      "section": "desafio",
+      "prompt": "(Pedogênese) Um perfil apresenta forte diferenciação de horizontes em uma vertente estável e antiga. Qual interpretação é mais adequada?",
+      "options": [
+        "A diferenciação pode refletir longo tempo de pedogênese e translocações, moduladas por clima, relevo e material de origem",
+        "Horizontes só se formam por erosão eólica",
+        "Todo horizonte B indica rocha sã",
+        "O tempo não interfere na formação do solo",
+        "Perfis antigos não sofrem transformação química"
+      ],
+      "correct_index": 0,
+      "explanation": "A formação do solo resulta da interação de fatores e processos ao longo do tempo.",
+      "option_feedback": [
+        "Correto.",
+        "Não.",
+        "B é horizonte pedogenético.",
+        "Tempo é fator clássico.",
+        "Transformações podem ser intensas."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "candidato_treino_objetivo"
+    },
+    {
+      "id": "GF-solos-desafio-2",
+      "section": "desafio",
+      "prompt": "(Erosão) Após desmatamento, uma área passa de perda difusa superficial para pequenos canais e depois incisões permanentes. A interpretação mais coerente é:",
+      "options": [
+        "evolução do escoamento difuso para erosão linear concentrada",
+        "subducção continental",
+        "apenas compactação sem transporte",
+        "somente deposição",
+        "formação de horizontes por iluviação"
+      ],
+      "correct_index": 0,
+      "explanation": "A concentração progressiva do fluxo pode levar de erosão laminar/sulcos a formas lineares maiores.",
+      "option_feedback": [
+        "Correto.",
+        "Tectônica.",
+        "Há transporte e incisão.",
+        "É o contrário.",
+        "É pedogênese, não o caso."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "candidato_treino_objetivo"
+    },
+    {
+      "id": "GF-solos-desafio-3",
+      "section": "desafio",
+      "prompt": "(Manejo) Uma lavoura em declive apresenta perda de solo após chuvas fortes. Qual conjunto de medidas é mais coerente?",
+      "options": [
+        "solo descoberto + preparo morro abaixo",
+        "cobertura do solo + plantio em contorno + manejo do escoamento",
+        "retirada da matéria orgânica + compactação",
+        "concentração da água em um único sulco",
+        "eliminar qualquer vegetação ripária"
+      ],
+      "correct_index": 1,
+      "explanation": "Conservação reduz impacto, velocidade e concentração do escoamento.",
+      "option_feedback": [
+        "Aumenta risco.",
+        "Correto.",
+        "Aumenta degradação.",
+        "Pode iniciar erosão linear.",
+        "Retira proteção."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "candidato_treino_objetivo"
+    },
+    {
+      "id": "GF-solos-desafio-4",
+      "section": "desafio",
+      "prompt": "(Risco) Duas encostas têm suscetibilidade física semelhante. Uma é desocupada; a outra tem moradias precárias e drenagem deficiente. Qual conclusão é melhor?",
+      "options": [
+        "O risco é necessariamente igual",
+        "A segunda pode apresentar risco maior por exposição e vulnerabilidade",
+        "A encosta desocupada sempre tem desastre maior",
+        "Vulnerabilidade não entra na análise de risco",
+        "Somente a chuva define o risco"
+      ],
+      "correct_index": 1,
+      "explanation": "Risco combina ameaça/perigo com exposição e vulnerabilidade.",
+      "option_feedback": [
+        "Não.",
+        "Correto.",
+        "Não.",
+        "Entra sim.",
+        "É multicausal."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "candidato_treino_objetivo"
+    },
+    {
+      "id": "GF-solos-desafio-5",
+      "section": "desafio",
+      "prompt": "(Amazônia) Qual afirmação é tecnicamente mais defensável?",
+      "options": [
+        "A floresta exuberante prova que todos os solos amazônicos são naturalmente muito férteis",
+        "Muitos solos de terra firme são fortemente intemperizados e a floresta depende de ciclagem eficiente de nutrientes",
+        "Latossolos não ocorrem na Amazônia",
+        "Várzea e terra firme possuem sempre o mesmo regime pedológico",
+        "Desmatamento reduz necessariamente todo escoamento superficial"
+      ],
+      "correct_index": 1,
+      "explanation": "A elevada biomassa não implica fertilidade natural uniforme dos solos.",
+      "option_feedback": [
+        "Generalização falsa.",
+        "Correto.",
+        "Ocorrem amplamente.",
+        "Há diferenças importantes.",
+        "Em geral a retirada de cobertura pode elevar escoamento."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "candidato_treino_objetivo"
+    }
+  ],
+  "cards": [
+    {
+      "id": "GF-solos-FC1",
+      "category": "Pedogênese",
+      "front": "Fatores clássicos de formação do solo?",
+      "back": "Material de origem, clima, organismos, relevo e tempo.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-solos-FC2",
+      "category": "Pedogênese",
+      "front": "Pedogênese significa?",
+      "back": "Formação e diferenciação do solo por processos físicos, químicos e biológicos.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-solos-FC3",
+      "category": "Pedogênese",
+      "front": "Lixiviação?",
+      "back": "Remoção/mobilização de substâncias pela água que percola o perfil.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-solos-FC4",
+      "category": "Horizontes",
+      "front": "Horizonte O?",
+      "back": "Camada dominada por material orgânico.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-solos-FC5",
+      "category": "Horizontes",
+      "front": "Horizonte A?",
+      "back": "Horizonte mineral superficial com influência de matéria orgânica.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-solos-FC6",
+      "category": "Horizontes",
+      "front": "Horizonte E?",
+      "back": "Horizonte frequentemente eluviado, com perda de argila/compostos.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-solos-FC7",
+      "category": "Horizontes",
+      "front": "Horizonte B?",
+      "back": "Horizonte de desenvolvimento pedogenético e possível acumulação subsuperficial.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-solos-FC8",
+      "category": "Horizontes",
+      "front": "Horizonte C?",
+      "back": "Material pouco alterado pela pedogênese em relação aos horizontes superiores.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-solos-FC9",
+      "category": "Horizontes",
+      "front": "Todo solo tem O-A-E-B-C-R completo?",
+      "back": "Não. A sequência varia entre solos.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-solos-FC10",
+      "category": "Textura",
+      "front": "Textura do solo?",
+      "back": "Proporção relativa de areia, silte e argila.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-solos-FC11",
+      "category": "Estrutura",
+      "front": "Estrutura do solo?",
+      "back": "Modo como partículas e agregados se organizam.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-solos-FC12",
+      "category": "Poros",
+      "front": "Efeito comum da compactação?",
+      "back": "Menos macroporos, menor infiltração e mais escoamento.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-solos-FC13",
+      "category": "Química",
+      "front": "pH do solo indica?",
+      "back": "Reação ácido–base do solo.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-solos-FC14",
+      "category": "Química",
+      "front": "CTC?",
+      "back": "Capacidade de reter e trocar cátions.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-solos-FC15",
+      "category": "Manejo",
+      "front": "Calagem serve principalmente para?",
+      "back": "Corrigir acidez e reduzir efeitos do Al, além de fornecer Ca/Mg.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-solos-FC16",
+      "category": "Manejo",
+      "front": "Calagem e adubação são iguais?",
+      "back": "Não. Calagem corrige acidez; adubação supre nutrientes.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-solos-FC17",
+      "category": "SiBCS",
+      "front": "Quantas ordens há no 1º nível do SiBCS atual?",
+      "back": "13 ordens.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-solos-FC18",
+      "category": "SiBCS",
+      "front": "Latossolos: ideia-chave?",
+      "back": "Solos muito intemperizados, geralmente profundos e comuns nos trópicos.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-solos-FC19",
+      "category": "SiBCS",
+      "front": "Argissolos: ideia-chave?",
+      "back": "Presença de horizonte B textural, com aumento de argila em subsuperfície.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-solos-FC20",
+      "category": "SiBCS",
+      "front": "Neossolos: ideia-chave?",
+      "back": "Pouco desenvolvimento pedogenético.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-solos-FC21",
+      "category": "SiBCS",
+      "front": "Gleissolos: ideia-chave?",
+      "back": "Solos hidromórficos com forte influência de saturação por água.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-solos-FC22",
+      "category": "Erosão",
+      "front": "Intemperismo x erosão?",
+      "back": "Intemperismo altera in situ; erosão remove e transporta.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-solos-FC23",
+      "category": "Erosão",
+      "front": "Splash?",
+      "back": "Desagregação e salpicamento pelo impacto das gotas de chuva.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-solos-FC24",
+      "category": "Erosão",
+      "front": "Erosão laminar?",
+      "back": "Remoção difusa de fina camada superficial.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-solos-FC25",
+      "category": "Erosão",
+      "front": "Sulcos?",
+      "back": "Pequenos canais formados por concentração do escoamento.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-solos-FC26",
+      "category": "Erosão",
+      "front": "Ravina?",
+      "back": "Incisão erosiva linear maior e mais persistente que sulcos.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-solos-FC27",
+      "category": "Erosão",
+      "front": "Voçoroca?",
+      "back": "Erosão linear profunda e complexa, muitas vezes com fluxo subsuperficial.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-solos-FC28",
+      "category": "Erosão",
+      "front": "Assoreamento?",
+      "back": "Deposição de sedimentos em rios, lagos ou reservatórios.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-solos-FC29",
+      "category": "USLE",
+      "front": "Fator R?",
+      "back": "Erosividade da chuva.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-solos-FC30",
+      "category": "USLE",
+      "front": "Fator K?",
+      "back": "Erodibilidade do solo.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-solos-FC31",
+      "category": "USLE",
+      "front": "Fator LS?",
+      "back": "Comprimento e declividade da vertente.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-solos-FC32",
+      "category": "USLE",
+      "front": "Fator C?",
+      "back": "Cobertura e manejo.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-solos-FC33",
+      "category": "USLE",
+      "front": "Fator P?",
+      "back": "Práticas conservacionistas.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-solos-FC34",
+      "category": "Conservação",
+      "front": "Plantio em contorno ajuda como?",
+      "back": "Reduz velocidade e concentração do escoamento em declives.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-solos-FC35",
+      "category": "Conservação",
+      "front": "Cobertura vegetal ajuda como?",
+      "back": "Protege contra impacto da chuva e favorece infiltração/estrutura.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-solos-FC36",
+      "category": "Conservação",
+      "front": "Terraço é solução universal?",
+      "back": "Não. Exige dimensionamento, manutenção e adequação ao terreno.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-solos-FC37",
+      "category": "Eólica",
+      "front": "Erosão eólica é favorecida por?",
+      "back": "Solo seco, descoberto, partículas mobilizáveis e vento forte.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-solos-FC38",
+      "category": "Degradação",
+      "front": "Compactação é erosão?",
+      "back": "Não. É degradação física e pode favorecer erosão.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-solos-FC39",
+      "category": "Movimentos",
+      "front": "Força motriz dos movimentos de massa?",
+      "back": "Gravidade.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-solos-FC40",
+      "category": "Movimentos",
+      "front": "Corrida de massa?",
+      "back": "Fluxo rápido de água, solo, lama e/ou detritos.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-solos-FC41",
+      "category": "Movimentos",
+      "front": "Água em encostas pode fazer o quê?",
+      "back": "Aumentar peso/pressão de poros e reduzir resistência do material.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-solos-FC42",
+      "category": "Risco",
+      "front": "Suscetibilidade?",
+      "back": "Propensão física do terreno a determinado processo.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-solos-FC43",
+      "category": "Risco",
+      "front": "Exposição?",
+      "back": "Pessoas, bens e infraestrutura presentes na área potencialmente afetada.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-solos-FC44",
+      "category": "Risco",
+      "front": "Vulnerabilidade?",
+      "back": "Propensão dos elementos expostos a sofrer danos.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-solos-FC45",
+      "category": "Risco",
+      "front": "Risco resulta de quê?",
+      "back": "Combinação de ameaça/perigo, exposição e vulnerabilidade.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-solos-FC46",
+      "category": "Amazônia",
+      "front": "Solos comuns em terras firmes amazônicas?",
+      "back": "Latossolos e Argissolos são muito frequentes.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-solos-FC47",
+      "category": "Amazônia",
+      "front": "Floresta exuberante prova solo fértil?",
+      "back": "Não. A ciclagem de nutrientes sustenta muita da produtividade.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-solos-FC48",
+      "category": "Amazônia",
+      "front": "Várzea x terra firme?",
+      "back": "Várzeas recebem sedimentos fluviais; terras firmes têm outra dinâmica.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-solos-FC49",
+      "category": "Argissolos",
+      "front": "Por que podem ser erosivos em relevo movimentado?",
+      "back": "Contraste textural pode reduzir infiltração e favorecer escoamento.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-solos-FC50",
+      "category": "Integração",
+      "front": "Checklist de um caso erosivo?",
+      "back": "Solo, relevo, chuva, cobertura, uso, drenagem e efeitos a jusante.",
+      "status": "em_auditoria"
+    }
+  ],
+  "source_links": [
+    "https://www.infoteca.cnptia.embrapa.br/handle/doc/1176834",
+    "https://www.embrapa.br/web/solos/sibcs/bases-e-criterios"
+  ],
+  "notes": "HTML preservado como fonte; não renderizar HTML bruto. Remover afirmações de incidência FGV e exemplos exclusivamente paraenses, se fora do escopo. Revisar semântica, figuras, atualidade, direitos, unidades e feedbacks. Cinco alternativas não comprovam aderência FCC."
+}

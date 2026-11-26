@@ -1,0 +1,1274 @@
+{
+  "schema_version": "1.0.0",
+  "source": {
+    "repository": "ude-ctrl/Estudo-para-Concurso",
+    "ref": "main",
+    "path": "MissaoAprovacaoGeo/SEDUC_PA_Tema_04_Climatologia_MATRIZ_OFICIAL_V2_6.html",
+    "blob_sha": "7d55d221e46dc044827c799efa3babc213591f0f",
+    "previous_context": "SEDUC-PA/FGV; aprovação anterior não transferida"
+  },
+  "status": "candidato_em_auditoria",
+  "sections": [
+    {
+      "id": "climatologia-01",
+      "title": "Como a FGV cobra climatologia",
+      "hook": "Climatologia não é uma lista de nomes: a prova quer que você enxergue o mecanismo por trás do gráfico, mapa ou situação.",
+      "html_original": "<p>A FGV tende a transformar conceitos climáticos em <b>problemas de interpretação</b>. Em vez de perguntar apenas “o que é ZCIT?”, ela pode apresentar sazonalidade de chuva, circulação atmosférica, uma situação urbana ou um climograma e pedir a causa mais coerente.</p><div class=\"w\"><table><tr><th>Sinal no enunciado</th><th>Pense primeiro em</th><th>Pegadinha comum</th></tr><tr><td>estado atmosférico de hoje/amanhã</td><td>tempo</td><td>chamar episódio isolado de clima</td></tr><tr><td>médias, sazonalidade, normal climatológica</td><td>clima</td><td>confundir média com ausência de extremos</td></tr><tr><td>baixa pressão equatorial + alísios convergindo</td><td>ZCIT</td><td>trocar por ZCAS</td></tr><tr><td>linha de temperatura + barras de chuva</td><td>climograma</td><td>inferir hemisfério sem olhar a sazonalidade completa</td></tr><tr><td>queda de temperatura na Amazônia</td><td>mPa / friagem</td><td>achar que massa polar nunca alcança baixas latitudes</td></tr><tr><td>cidade mais quente que entorno rural</td><td>ilha de calor</td><td>confundir com inversão térmica</td></tr><tr><td>Pacífico equatorial anormalmente quente</td><td>El Niño / ENOS</td><td>tratar teleconexão como regra determinística</td></tr></table></div><div class=\"box prova\"><span class=\"l\">Como a banca cobra</span>Observe os verbos: <b>explicar, comparar, inferir, relacionar, justificar</b>. Eles exigem mecanismo causal. A alternativa certa costuma conectar corretamente <b>processo → efeito → escala espacial/temporal</b>.</div>",
+      "recall": "Sem olhar: cite quatro formas pelas quais a FGV pode transformar climatologia em questão de interpretação.",
+      "recall_answer": "Climograma/mapa; causa de um fenômeno urbano; dinâmica de massas e sistemas; relações oceano-atmosfera; comparação entre clima e tempo; análise de extremos e mudanças climáticas.",
+      "source_index": 0,
+      "proposed_unit": null,
+      "status": "em_auditoria"
+    },
+    {
+      "id": "climatologia-02",
+      "title": "Tempo, clima e normais climatológicas",
+      "hook": "Se o tempo muda a cada hora, como ainda podemos falar em clima?",
+      "html_original": "<p><b>Tempo atmosférico</b> é o estado da atmosfera em determinado lugar e momento: temperatura, chuva, nebulosidade, vento, pressão e umidade observados agora ou em curto intervalo. <b>Clima</b> é a descrição estatística do comportamento dessas variáveis ao longo de períodos suficientemente longos, incluindo médias, sazonalidade, variabilidade e extremos.</p><p>As <b>normais climatológicas</b> funcionam como referência. No Brasil, o INMET publica normais de períodos de três décadas, como 1991–2020. Atenção: “normal” não significa “o que acontece todo ano”; é um valor de referência construído a partir de uma série histórica.</p><p><b>Elementos climáticos</b> são grandezas observadas: temperatura, pressão, umidade, precipitação, vento, radiação/insolação. <b>Fatores climáticos</b> ajudam a explicar por que esses elementos variam: latitude, altitude, relevo, maritimidade/continentalidade, massas de ar, correntes oceânicas, cobertura vegetal e uso do solo.</p><div class=\"nu\"><b>Distinção valiosa.</b> Um fator não é “o clima” e um elemento não é necessariamente a causa. Altitude é fator; temperatura é elemento. A FGV gosta de trocar essas categorias.</div><div class=\"box prova\"><span class=\"l\">Pegadinha típica</span>Uma onda de frio, seca ou chuva extrema pode ser compatível com um clima conhecido e também sofrer influência de mudanças climáticas. O evento sozinho não prova que o clima mudou; é preciso analisar tendências, probabilidades e séries.</div>",
+      "recall": "Explique em uma frase: tempo, clima, elemento e fator climático.",
+      "recall_answer": "Tempo = estado momentâneo; clima = padrão estatístico de longo prazo; elemento = variável observada; fator = condição/processo que influencia os elementos.",
+      "source_index": 1,
+      "proposed_unit": "CE-GEO-10",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "climatologia-03",
+      "title": "Radiação, balanço de energia e temperatura",
+      "hook": "Por que latitude, altitude, nuvens e tipo de superfície conseguem alterar a temperatura do ar?",
+      "html_original": "<p>A fonte primária de energia do sistema climático é a <b>radiação solar</b>. Nem toda energia incidente aquece a superfície: parte é refletida por nuvens, aerossóis e pelo solo; parte é absorvida pela atmosfera e pela superfície. A fração refletida é expressa pelo <b>albedo</b>. Superfícies claras tendem a refletir mais; superfícies escuras, em geral, absorvem mais.</p><p>A superfície aquecida emite radiação de onda longa. Gases de efeito estufa absorvem e reemitem parte dessa energia, mantendo a baixa atmosfera muito mais quente do que seria sem o <b>efeito estufa natural</b>. A mudança climática atual relaciona-se ao <b>reforço antrópico</b> desse efeito pelo aumento das concentrações de gases de efeito estufa.</p><p>A <b>latitude</b> altera o ângulo de incidência solar e a duração do dia ao longo do ano. A <b>altitude</b> tende a reduzir a temperatura porque, na troposfera, o ar ascendente se expande e resfria em ambiente de menor pressão. Como regra didática, usa-se frequentemente um gradiente ambiental médio de cerca de <b>0,6–0,65 °C por 100 m</b>, mas ele não é uma constante universal.</p><p><b>Maritimidade</b> tende a moderar a amplitude térmica; <b>continentalidade</b> favorece maiores amplitudes, porque água e continente armazenam e liberam calor de modo diferente.</p><div class=\"box prova\"><span class=\"l\">Como a banca cobra</span>Ela pode trocar “altitude” por “latitude”, ou afirmar que a temperatura cai exatamente 1 °C a cada 100 m. Desconfie de valores rígidos: o gradiente varia com estabilidade e umidade.</div>",
+      "recall": "Sem consultar: diferencie albedo, efeito estufa e amplitude térmica.",
+      "recall_answer": "Albedo = fração refletida; efeito estufa = absorção/reemissão de infravermelho por gases; amplitude térmica = diferença entre valores máximo e mínimo em determinado intervalo.",
+      "source_index": 2,
+      "proposed_unit": "CE-GEO-10",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "climatologia-04",
+      "title": "Pressão, ventos e circulação geral",
+      "hook": "Vento não nasce “do nada”: ele é resposta a diferenças de pressão dentro de um planeta em rotação.",
+      "html_original": "<p>O aquecimento desigual da superfície gera diferenças de densidade e <b>pressão atmosférica</b>. Perto da superfície, o ar tende a mover-se de áreas de maior para menor pressão, mas sua trajetória é modificada pela <b>força de Coriolis</b>: desvio para a direita no Hemisfério Norte e para a esquerda no Hemisfério Sul. O efeito é muito fraco junto ao Equador.</p><p>Na circulação idealizada, o forte aquecimento equatorial favorece <b>baixa pressão e ascensão</b>. Em altitude, o ar se desloca para os subtrópicos e desce em torno de 30°, formando cinturões de <b>alta pressão subtropical</b>. Na superfície, parte retorna ao Equador como <b>ventos alísios</b>: de nordeste no Hemisfério Norte e de sudeste no Hemisfério Sul.</p><p>Esse circuito integra a <b>célula de Hadley</b>. Em latitudes médias predominam os ventos de oeste associados à célula de Ferrel; nas altas latitudes, a célula polar. O modelo de três células é uma simplificação útil: continentes, oceanos, estações e ondas atmosféricas tornam a circulação real muito mais irregular.</p><div class=\"box dia\"><span class=\"l\">Mapa mental</span><b>Equador:</b> convergência + ascensão + baixa pressão → muita nebulosidade. <b>Subtrópicos:</b> subsidência + alta pressão → estabilidade relativa e muitas áreas áridas do planeta.</div><div class=\"box prova\"><span class=\"l\">Pegadinha típica</span>Alta pressão não significa “ar quente” por definição. Pode haver altas pressões frias ou quentes. O essencial é a dinâmica de subsidência/convergência e a estrutura da massa de ar.</div>",
+      "recall": "Reconstrua a célula de Hadley: onde o ar sobe, onde desce e quais ventos aparecem na superfície?",
+      "recall_answer": "Sobe na faixa equatorial de baixa pressão, diverge em altitude, desce nos subtrópicos (~30°) e retorna em superfície como alísios.",
+      "source_index": 3,
+      "proposed_unit": "CE-GEO-10",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "climatologia-05",
+      "title": "Umidade, nuvens e tipos de chuva",
+      "hook": "Para chover, não basta “ter muita água no ar”: é preciso entender saturação, resfriamento e ascensão.",
+      "html_original": "<p>A <b>umidade relativa</b> compara a quantidade de vapor presente com a quantidade máxima que o ar poderia conter naquela temperatura. Como o ar quente pode sustentar mais vapor, a umidade relativa pode cair durante a tarde mesmo sem perda de vapor.</p><p>Quando uma parcela de ar ascende, encontra pressões menores, expande-se e tende a resfriar. Ao atingir a saturação, o vapor condensa sobre núcleos de condensação, formando gotículas e nuvens. O <b>ponto de orvalho</b> é a temperatura à qual o ar deve ser resfriado, mantendo aproximadamente o conteúdo de vapor, para atingir saturação.</p><p>Três mecanismos são básicos: <b>chuva convectiva</b> — forte aquecimento da superfície gera ascensão rápida, comum em ambientes tropicais; <b>orográfica</b> — o relevo força o ar úmido a subir, podendo criar sombra de chuva a sotavento; <b>frontal</b> — o encontro de massas de ar com propriedades diferentes favorece ascensão ao longo da frente.</p><div class=\"nu\"><b>Cuidado com a linguagem.</b> “Ar quente sobe” é uma simplificação. O movimento vertical depende de flutuabilidade, estabilidade e forçantes. Em prova escolar, porém, o contraste térmico e a expansão adiabática são chaves.</div><div class=\"box prova\"><span class=\"l\">Radar de prova</span>Se uma encosta de barlavento é muito úmida e o sotavento é seco, pense em <b>chuva orográfica + sombra de chuva</b>.</div>",
+      "recall": "Diferencie chuva convectiva, frontal e orográfica usando o mecanismo de ascensão do ar.",
+      "recall_answer": "Convectiva: flutuabilidade/aquecimento; frontal: encontro de massas e ascensão na zona frontal; orográfica: relevo força a subida.",
+      "source_index": 4,
+      "proposed_unit": "CE-GEO-10",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "climatologia-06",
+      "title": "Massas de ar e frentes no Brasil",
+      "hook": "O mapa das massas de ar funciona como uma gramática: origem explica temperatura e umidade; trajetória explica transformação.",
+      "html_original": "<p>Uma <b>massa de ar</b> é um grande volume atmosférico que adquire características relativamente homogêneas de temperatura e umidade em sua região de origem. Ao deslocar-se, modifica-se pelo contato com novas superfícies.</p><div class=\"w\"><table><tr><th>Massa</th><th>Origem/traço didático</th><th>Papel no Brasil</th></tr><tr><td><b>mEc</b> Equatorial Continental</td><td>Amazônia ocidental; quente e muito úmida</td><td>convecção e transporte de umidade; exceção importante à ideia “continental = seca”</td></tr><tr><td><b>mEa</b> Equatorial Atlântica</td><td>Atlântico equatorial; quente e úmida</td><td>atua no Norte e litoral setentrional</td></tr><tr><td><b>mTa</b> Tropical Atlântica</td><td>Atlântico Sul subtropical; quente e úmida</td><td>leste do Brasil, litoral e interior conforme circulação</td></tr><tr><td><b>mTc</b> Tropical Continental</td><td>região do Chaco/interior; quente e relativamente seca</td><td>centro-sul, especialmente na estação quente</td></tr><tr><td><b>mPa</b> Polar Atlântica</td><td>altas latitudes do Atlântico Sul; fria e úmida</td><td>frentes frias, quedas de temperatura e friagem</td></tr></table></div><p>Uma <b>frente</b> é a zona de transição entre massas com propriedades diferentes. Na frente fria, o ar frio avança e força o ar quente a subir. A passagem frontal pode produzir mudança rápida de vento, pressão, temperatura, nebulosidade e chuva.</p><div class=\"box prova\"><span class=\"l\">Pegadinha típica</span>A mEc é <b>continental e úmida</b>. Isso acontece pela intensa disponibilidade hídrica e evapotranspiração amazônica. A prova adora a regra simplista “massa continental é sempre seca”.</div>",
+      "recall": "Liste as cinco massas clássicas do Brasil e associe uma característica a cada uma.",
+      "recall_answer": "mEc quente/úmida continental; mEa quente/úmida atlântica equatorial; mTa quente/úmida atlântica tropical; mTc quente/seca continental; mPa fria/úmida polar atlântica.",
+      "source_index": 5,
+      "proposed_unit": "CE-GEO-11",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "climatologia-07",
+      "title": "ZCIT, ZCAS e sistemas de convergência",
+      "hook": "Duas siglas parecidas podem custar uma questão inteira: ZCIT não é ZCAS.",
+      "html_original": "<p>A <b>Zona de Convergência Intertropical (ZCIT)</b> é uma faixa de baixa pressão relativa, convergência dos alísios, forte convecção e nebulosidade. Ela migra sazonalmente para norte e sul acompanhando, de modo geral, o máximo de aquecimento e a configuração oceano-atmosfera. Sua posição influencia fortemente a estação chuvosa do extremo norte do Brasil e de partes do Nordeste.</p><p>A <b>Zona de Convergência do Atlântico Sul (ZCAS)</b> é outra estrutura: uma banda persistente de nebulosidade e precipitação orientada aproximadamente de noroeste para sudeste, conectando a Amazônia ao Sudeste do Brasil e ao Atlântico Sul, sobretudo no verão austral. Ela é central para episódios prolongados de chuva no centro-sudeste.</p><p>A <b>Alta Subtropical do Atlântico Sul (ASAS)</b> é uma circulação anticiclônica de grande escala associada à subsidência subtropical. Sua posição e intensidade modulam ventos, estabilidade e transporte de umidade. Bloqueios atmosféricos podem manter padrões persistentes de seca ou calor.</p><div class=\"box prova\"><span class=\"l\">Cuidado com a troca</span><b>ZCIT:</b> faixa tropical quase zonal, convergência dos alísios, importante para Norte/Nordeste. <b>ZCAS:</b> corredor NW–SE de umidade/chuva Amazônia–Sudeste–Atlântico, típico do verão.</div>",
+      "recall": "Explique em 30 segundos a diferença entre ZCIT e ZCAS.",
+      "recall_answer": "ZCIT: convergência equatorial dos alísios, migra sazonalmente e afeta Norte/Nordeste. ZCAS: banda NW–SE Amazônia–Sudeste–Atlântico, comum no verão austral.",
+      "source_index": 6,
+      "proposed_unit": "CE-GEO-11",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "climatologia-08",
+      "title": "Oceano–atmosfera: ENOS e Atlântico Tropical",
+      "hook": "O oceano muda devagar; por isso, anomalias de temperatura da superfície do mar conseguem reorganizar a circulação por meses.",
+      "html_original": "<p>O <b>ENOS</b> (El Niño–Oscilação Sul) acopla oceano e atmosfera no Pacífico equatorial. No <b>El Niño</b>, ocorre aquecimento anômalo do Pacífico equatorial central/oriental e reorganização da circulação de Walker; em muitos episódios, os alísios enfraquecem. Na <b>La Niña</b>, predomina resfriamento anômalo nessas áreas e configuração oposta em vários aspectos.</p><p>As consequências no Brasil são <b>teleconexões</b>, isto é, tendências probabilísticas a distância. Em termos didáticos, El Niño costuma aumentar a chance de chuva no Sul e de condições mais secas em partes do Norte/Nordeste; La Niña frequentemente favorece tendências opostas. Porém, <b>não é uma regra automática</b>: intensidade, época do ano, Atlântico Tropical e outras circulações podem reforçar ou enfraquecer os impactos.</p><p>No <b>Atlântico Tropical</b>, o contraste de temperatura da superfície do mar entre os hemisférios ajuda a deslocar a ZCIT. Um Atlântico Norte relativamente mais quente pode favorecer posição mais ao norte; um Atlântico Sul tropical relativamente mais quente pode favorecer deslocamento mais ao sul, com implicações para chuva no Nordeste setentrional e Amazônia oriental.</p><div class=\"box prova\"><span class=\"l\">FGV em modo difícil</span>Desconfie de frases como “há consenso de que o aquecimento global já alterou definitivamente a frequência do ENOS”. O conhecimento científico é mais nuançado: há incerteza sobre mudanças na frequência/amplitude do ENOS, embora a variabilidade de precipitação associada ao ENOS seja projetada para aumentar com o aquecimento.</div>",
+      "recall": "Explique por que “El Niño causa seca no Norte” é uma frase útil, mas incompleta.",
+      "recall_answer": "Porque expressa uma tendência de teleconexão, não uma determinação. Impacto depende de intensidade, sazonalidade, Atlântico Tropical e outros sistemas.",
+      "source_index": 7,
+      "proposed_unit": "CE-GEO-10",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "climatologia-09",
+      "title": "Climogramas e classificações climáticas",
+      "hook": "O climograma é uma narrativa de doze capítulos: cada mês oferece pista sobre temperatura, chuva, hemisfério e mecanismos.",
+      "html_original": "<p>Num <b>climograma</b>, observe nesta ordem: (1) temperatura média e <b>amplitude térmica anual</b>; (2) total e distribuição da precipitação; (3) meses secos e úmidos; (4) mês mais quente/frio, como pista do hemisfério; (5) relação com latitude, altitude, continentalidade e sistemas atmosféricos.</p><p>Uma baixa amplitude térmica com temperaturas altas o ano inteiro e precipitação abundante tende a indicar clima equatorial/tropical muito úmido. Uma estação seca marcada e verão chuvoso sugere vários climas tropicais do interior. Chuvas bem distribuídas e maior amplitude térmica no Sul podem apontar para clima subtropical/temperado.</p><p>As <b>classificações climáticas</b> são modelos: escolhem critérios e limites. Köppen utiliza temperatura, precipitação e sazonalidade para agrupar grandes tipos; a classificação do IBGE/Nimer distingue zonas e tipos considerando temperatura e duração/intensidade do período seco/úmido. Logo, dois mapas podem usar nomes/limites diferentes sem que um esteja necessariamente “errado”.</p><div class=\"box prova\"><span class=\"l\">Como ler sem decorar</span>Primeiro descreva o padrão; depois atribua o tipo climático. Se você começa pelo rótulo, fica vulnerável a classificações com nomenclaturas diferentes.</div>",
+      "recall": "Qual é a ordem de leitura de um climograma que reduz erros?",
+      "recall_answer": "Temperatura/amplitude → chuva total e sazonalidade → meses secos/úmidos → hemisfério provável → fatores e sistemas → nome do clima.",
+      "source_index": 8,
+      "proposed_unit": "CE-GEO-10",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "climatologia-10",
+      "title": "Climas do Brasil",
+      "hook": "O território brasileiro não tem “um clima tropical”: a extensão latitudinal, relevo e circulação produzem vários regimes.",
+      "html_original": "<p>O Brasil é majoritariamente intertropical, por isso predominam climas quentes, mas a diversidade é grande. Em síntese didática:</p><div class=\"w\"><table><tr><th>Tipo</th><th>Traço dominante</th><th>Mecanismos/área de referência</th></tr><tr><td><b>Equatorial</b></td><td>quente, baixa amplitude anual, muita umidade</td><td>Amazônia; convecção, umidade continental/oceânica, ZCIT em setores</td></tr><tr><td><b>Tropical típico</b></td><td>verão chuvoso, inverno mais seco</td><td>Brasil central; sazonalidade da circulação tropical</td></tr><tr><td><b>Semiárido</b></td><td>chuvas escassas e muito irregulares; alta evapotranspiração potencial</td><td>interior do Nordeste; múltiplos controles atmosféricos e oceânicos</td></tr><tr><td><b>Tropical Atlântico/litorâneo</b></td><td>umidade marítima, relevo e sistemas costeiros</td><td>faixa leste, com grande variação latitudinal</td></tr><tr><td><b>Tropical de altitude</b></td><td>altitude reduz médias térmicas; verão chuvoso em grande parte do Sudeste</td><td>planaltos/serras do Sudeste</td></tr><tr><td><b>Subtropical</b></td><td>maior amplitude anual, frentes frequentes e chuva relativamente bem distribuída</td><td>Sul, ao sul do Trópico de Capricórnio</td></tr></table></div><p>O mapa climático do IBGE trabalha com zonas como <b>Equatorial, Tropical Zona Equatorial, Tropical Nordeste Oriental, Tropical Brasil Central e Temperado</b>, além de classes de temperatura e umidade/duração do período seco.</p><div class=\"box prova\"><span class=\"l\">Pegadinha típica</span>Não trate “tropical” como sinônimo de “verão chuvoso e inverno seco” em qualquer ponto do país. O litoral leste, a Amazônia e áreas de transição têm regimes diferentes.</div>",
+      "recall": "Sem olhar, compare em uma frase: equatorial, tropical típico, semiárido e subtropical.",
+      "recall_answer": "Equatorial: quente/úmido; tropical típico: verão chuvoso/inverno seco; semiárido: chuvas escassas e irregulares; subtropical: maior sazonalidade térmica e chuva relativamente distribuída.",
+      "source_index": 9,
+      "proposed_unit": "CE-GEO-11",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "climatologia-11",
+      "title": "Amazônia e Pará: clima em escala regional",
+      "hook": "“Amazônia quente e úmida” está correto — mas é só o começo da resposta que a prova pode exigir.",
+      "html_original": "<p>A Amazônia apresenta forte disponibilidade de energia e água, grande convecção e intensa reciclagem de umidade pela floresta. A <b>evapotranspiração</b> devolve vapor à atmosfera; parte da umidade é transportada por circulações regionais e de grande escala. Isso ajuda a manter fluxos de umidade para outras áreas da América do Sul.</p><p>No <b>Pará</b>, é inadequado imaginar um regime uniforme. O estado é extenso: porções norte/litorâneas e nordeste paraense têm forte influência atlântica e da migração da ZCIT, enquanto áreas do sul e sudeste apresentam <b>estação seca mais marcada</b>. Em todo o estado predominam temperaturas elevadas, mas chuva e duração da seca variam espacialmente.</p><p>A <b>mEc</b> fornece ar quente e úmido e convecção; a <b>ZCIT</b> é especialmente relevante para a sazonalidade de chuva no norte/leste amazônico; linhas de instabilidade costeiras e brisas podem organizar convecção; sistemas de maior escala, inclusive ENOS e Atlântico Tropical, modulam anos mais secos ou chuvosos.</p><p>A <b>friagem</b> é mais marcante no sul e oeste da Amazônia, mas mostra que ar polar pode penetrar profundamente nas baixas latitudes sul-americanas. Não use “Amazônia” como sinônimo de ausência total de incursões frias.</p><div class=\"box prova\"><span class=\"l\">Aplicação para o Pará</span>Quando a questão comparar Belém/norte do estado com Marabá ou áreas do sudeste paraense, pense em <b>diferenças de sazonalidade da chuva</b>, não em grandes diferenças de latitude térmica.</div>",
+      "recall": "Explique por que “o Pará tem clima equatorial” é uma resposta insuficiente para uma questão regional.",
+      "recall_answer": "Porque o estado possui variação espacial e sazonal de chuva: litoral/norte sob forte influência atlântica/ZCIT e sul/sudeste com seca mais marcada, além de modulação por sistemas interanuais.",
+      "source_index": 10,
+      "proposed_unit": "CE-GEO-11",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "climatologia-12",
+      "title": "Clima urbano: ilha de calor e inversão térmica",
+      "hook": "Dois fenômenos urbanos aparecem juntos nos livros, mas seus mecanismos são diferentes.",
+      "html_original": "<p>A <b>ilha de calor urbana</b> é o aquecimento relativo de áreas urbanizadas em comparação com áreas rurais/periurbanas próximas. Entre as causas: substituição de vegetação por materiais impermeáveis, redução de sombra e evapotranspiração, propriedades térmicas do concreto/asfalto, geometria dos cânions urbanos e liberação de calor por veículos, edifícios e atividades humanas.</p><p>A <b>inversão térmica</b> é uma condição de estabilidade vertical em que, numa camada, a temperatura aumenta com a altura em vez de diminuir. Isso dificulta a mistura vertical e pode <b>concentrar poluentes próximos à superfície</b>. A poluição não “cria” necessariamente a inversão; ela pode ser agravada por ela.</p><p>Vegetação urbana pode reduzir temperaturas por <b>sombreamento e evapotranspiração</b>, além de trazer outros benefícios. Superfícies de alto albedo podem reduzir absorção solar, mas o efeito urbano total depende do desenho, materiais, umidade, ventilação e escala.</p><div class=\"box prova\"><span class=\"l\">Como a banca cobra</span>Ela apresenta cidade com pouca vegetação + asfalto/concreto e pergunta a causa principal. A resposta robusta combina <b>alteração da cobertura do solo + menor evapotranspiração + maior armazenamento de calor</b>.</div>",
+      "recall": "Diferencie ilha de calor e inversão térmica sem usar a palavra “poluição” na primeira frase.",
+      "recall_answer": "Ilha de calor = contraste térmico urbano-rural ligado ao balanço de energia/uso do solo. Inversão = estrutura vertical estável com temperatura aumentando com a altura numa camada.",
+      "source_index": 11,
+      "proposed_unit": "CE-GEO-10",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "climatologia-13",
+      "title": "Mudanças climáticas e eventos extremos",
+      "hook": "A questão mais perigosa não é “o planeta aquece?”, mas “o que exatamente podemos afirmar, com qual escala e grau de confiança?”.",
+      "html_original": "<p><b>Variabilidade climática</b> inclui oscilações naturais em escalas sazonais, interanuais e decadais, como o ENOS. <b>Mudança climática</b> refere-se a alteração persistente no estado estatístico do clima. O aquecimento global recente é explicado principalmente pelo aumento antrópico dos gases de efeito estufa.</p><p>Um evento extremo individual não “prova” sozinho a mudança climática. A <b>atribuição de eventos</b> pergunta se o aquecimento causado por humanos alterou a probabilidade ou intensidade do evento, comparando o clima atual com um mundo contrafactual sem aquela influência.</p><p>O aquecimento aumenta a capacidade da atmosfera de conter vapor e favorece a <b>intensificação de precipitações extremas</b> em muitas regiões. Ondas de calor tornam-se mais frequentes/intensas com o aumento da temperatura média. Para secas, a resposta depende do tipo de seca e da região: maior demanda evaporativa pode agravar secas agrícolas/ecológicas mesmo onde a tendência de precipitação é incerta.</p><p>Sobre o <b>ENOS</b>, evite excesso de certeza. A ciência indica incerteza sobre como frequência/amplitude mudarão, enquanto há maior confiança de que a variabilidade de precipitação associada ao ENOS pode se intensificar em um mundo mais quente.</p><div class=\"box prova\"><span class=\"l\">Pegadinha FGV</span>Palavras absolutas — “sempre”, “em toda região”, “consenso de que a frequência já mudou definitivamente” — são frequentemente o ponto fraco de uma alternativa.</div>",
+      "recall": "Explique a diferença entre “evento extremo”, “variabilidade climática” e “mudança climática”.",
+      "recall_answer": "Evento extremo = ocorrência rara/intensa; variabilidade = flutuações naturais em torno do padrão; mudança = alteração persistente das estatísticas do clima.",
+      "source_index": 12,
+      "proposed_unit": "CE-GEO-10",
+      "status": "em_auditoria"
+    }
+  ],
+  "questions": [
+    {
+      "id": "GF-climatologia-diagnostico-1",
+      "section": "diagnostico",
+      "prompt": "Uma tarde excepcionalmente fria em Belém permite concluir que o clima da cidade mudou?",
+      "options": [
+        "Sim, porque o clima é o estado atmosférico de um dia.",
+        "Não. Um episódio isolado descreve o tempo; clima exige padrões de longo prazo.",
+        "Sim, desde que a temperatura fique abaixo da média histórica.",
+        "Não, porque clima depende apenas da chuva."
+      ],
+      "correct_index": 1,
+      "explanation": "Tempo é o estado momentâneo da atmosfera; clima resulta de padrões estatísticos e variabilidade observados em períodos longos.",
+      "option_feedback": [
+        "Troca tempo por clima: um dia não define padrão climático.",
+        "Correto: evento isolado ≠ mudança do padrão de longo prazo.",
+        "Uma anomalia pode ser relevante, mas não basta para definir mudança climática.",
+        "Clima envolve várias variáveis, não só precipitação."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-climatologia-diagnostico-2",
+      "section": "diagnostico",
+      "prompt": "Na circulação tropical, a faixa próxima ao Equador onde convergem os alísios e o ar tende a subir é a:",
+      "options": [
+        "ASAS",
+        "ZCIT",
+        "frente polar",
+        "corrente de jato subtropical"
+      ],
+      "correct_index": 1,
+      "explanation": "A ZCIT é uma zona de convergência e ascensão do ar, associada a nebulosidade e chuva intensa em sua faixa de atuação.",
+      "option_feedback": [
+        "ASAS é alta subtropical, com subsidência.",
+        "Correto: convergência dos alísios + ascensão = ZCIT.",
+        "Frente polar separa massas de características distintas em latitudes mais altas.",
+        "Jatos são correntes de altos níveis; não definem a convergência equatorial superficial."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-climatologia-diagnostico-3",
+      "section": "diagnostico",
+      "prompt": "Quando ar polar avança excepcionalmente até a Amazônia e provoca queda acentuada de temperatura, o fenômeno é conhecido como:",
+      "options": [
+        "friagem",
+        "ilha de calor",
+        "monção",
+        "inversão térmica"
+      ],
+      "correct_index": 0,
+      "explanation": "Friagem é a queda de temperatura na Amazônia causada pela penetração de ar frio de origem polar.",
+      "option_feedback": [
+        "Correto: avanço da mPa pode produzir friagem, sobretudo no sul e oeste amazônicos.",
+        "Ilha de calor é aquecimento relativo de áreas urbanizadas.",
+        "Monção é circulação sazonal de grande escala ligada a contraste térmico continente-oceano.",
+        "Inversão é uma estrutura vertical estável, não a entrada de ar polar na Amazônia."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-climatologia-climatologia-01-1",
+      "section": "climatologia-01",
+      "prompt": "Uma questão apresenta um climograma com barras mensais e uma linha térmica. Essas variáveis representam, respectivamente:",
+      "options": [
+        "pressão e umidade",
+        "precipitação e temperatura",
+        "latitude e altitude",
+        "vento e insolação"
+      ],
+      "correct_index": 1,
+      "explanation": "No climograma escolar clássico, barras mostram precipitação e a linha mostra temperatura média mensal.",
+      "option_feedback": [
+        "Não são as duas variáveis usuais do climograma.",
+        "Correto: chuva em barras e temperatura em linha.",
+        "Latitude/altitude são fatores, não séries mensais do climograma.",
+        "Podem ser graficados, mas não definem o climograma climático mais comum."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-climatologia-climatologia-01-2",
+      "section": "climatologia-01",
+      "prompt": "Qual alternativa melhor expressa o raciocínio esperado em climatologia?",
+      "options": [
+        "Memorizar o nome do clima sem relacioná-lo aos mecanismos.",
+        "Associar elementos, fatores e sistemas atmosféricos para explicar um padrão observado.",
+        "Usar apenas latitude para explicar qualquer clima.",
+        "Tratar toda anomalia meteorológica como mudança climática."
+      ],
+      "correct_index": 1,
+      "explanation": "Climatologia exige relações causais entre energia, circulação, umidade, relevo, oceanos e uso da terra.",
+      "option_feedback": [
+        "Memorização isolada falha quando a questão muda o contexto.",
+        "Correto: mecanismo + evidência + escala.",
+        "Latitude é importante, mas nunca é o único fator.",
+        "Anomalia e mudança climática não são sinônimos."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-climatologia-climatologia-02-1",
+      "section": "climatologia-02",
+      "prompt": "Assinale o par formado apenas por fatores climáticos:",
+      "options": [
+        "temperatura e umidade",
+        "latitude e altitude",
+        "pressão e precipitação",
+        "vento e nebulosidade"
+      ],
+      "correct_index": 1,
+      "explanation": "Latitude e altitude são controles/fatores; os demais pares são elementos meteorológicos.",
+      "option_feedback": [
+        "São elementos medidos.",
+        "Correto: ambos ajudam a controlar padrões climáticos.",
+        "São elementos do estado atmosférico.",
+        "São variáveis observáveis, não fatores geográficos."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-climatologia-climatologia-02-2",
+      "section": "climatologia-02",
+      "prompt": "Uma normal climatológica deve ser entendida como:",
+      "options": [
+        "valor que se repete em todos os anos",
+        "referência estatística de longo período para variáveis meteorológicas",
+        "previsão do tempo para 30 anos",
+        "registro apenas de eventos extremos"
+      ],
+      "correct_index": 1,
+      "explanation": "Normal é uma referência estatística de longo prazo e pode coexistir com grande variabilidade interanual.",
+      "option_feedback": [
+        "Médias não se repetem necessariamente a cada ano.",
+        "Correto.",
+        "Climatologia não é previsão determinística de décadas.",
+        "Extremos fazem parte do clima, mas a normal não é só isso."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-climatologia-climatologia-03-1",
+      "section": "climatologia-03",
+      "prompt": "Duas cidades têm latitude semelhante, mas uma está 1.500 m mais alta. Mantidos outros fatores, espera-se na cidade mais alta:",
+      "options": [
+        "temperaturas médias geralmente menores",
+        "temperaturas sempre maiores",
+        "a mesma temperatura em todos os meses",
+        "maior temperatura apenas por estar mais perto do Sol"
+      ],
+      "correct_index": 0,
+      "explanation": "Altitude elevada tende a reduzir a temperatura média do ar na troposfera.",
+      "option_feedback": [
+        "Correto: expansão e resfriamento do ar em menor pressão.",
+        "Inverte o efeito típico da altitude.",
+        "A altitude produz diferença térmica relevante.",
+        "A distância adicional ao Sol é desprezível nessa escala."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-climatologia-climatologia-03-2",
+      "section": "climatologia-03",
+      "prompt": "Qual afirmação é correta sobre o efeito estufa?",
+      "options": [
+        "É exclusivamente antrópico.",
+        "É um processo natural; o problema atual é seu reforço por emissões humanas.",
+        "Impede qualquer saída de radiação para o espaço.",
+        "É sinônimo de ilha de calor urbana."
+      ],
+      "correct_index": 1,
+      "explanation": "O efeito estufa natural é essencial à temperatura da Terra; seu reforço antropogênico causa desequilíbrio energético.",
+      "option_feedback": [
+        "Há efeito estufa natural.",
+        "Correto.",
+        "O sistema continua emitindo energia para o espaço.",
+        "Ilha de calor é fenômeno urbano local."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-climatologia-climatologia-04-1",
+      "section": "climatologia-04",
+      "prompt": "Na circulação de Hadley, os alísios de sudeste sopram, em superfície:",
+      "options": [
+        "do Equador para 30°S",
+        "das altas subtropicais do Hemisfério Sul em direção à baixa equatorial",
+        "de oeste para leste em latitudes médias",
+        "do polo Sul diretamente para o Equador"
+      ],
+      "correct_index": 1,
+      "explanation": "Os alísios partem das altas subtropicais e convergem para a faixa equatorial.",
+      "option_feedback": [
+        "É o sentido oposto ao dos alísios superficiais.",
+        "Correto.",
+        "Essa é a faixa dos ventos de oeste.",
+        "A circulação polar não conecta diretamente polo e Equador."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-climatologia-climatologia-04-2",
+      "section": "climatologia-04",
+      "prompt": "Sobre a força de Coriolis, é correto afirmar que:",
+      "options": [
+        "desvia movimentos para a esquerda no Hemisfério Sul",
+        "é máxima no Equador",
+        "cria sozinha o gradiente de pressão",
+        "não afeta movimentos atmosféricos"
+      ],
+      "correct_index": 0,
+      "explanation": "A rotação terrestre produz o desvio aparente; o efeito tende a zero no Equador.",
+      "option_feedback": [
+        "Correto.",
+        "É mínima/praticamente nula no Equador.",
+        "O gradiente de pressão resulta do campo de pressão; Coriolis modifica a trajetória.",
+        "É fundamental na circulação em escalas sinóticas."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-climatologia-climatologia-05-1",
+      "section": "climatologia-05",
+      "prompt": "A chuva orográfica ocorre quando:",
+      "options": [
+        "o relevo força o ar úmido a ascender e resfriar",
+        "duas massas de ar nunca entram em contato",
+        "a superfície urbana impermeável aquece o ar",
+        "o Pacífico equatorial aquece anormalmente"
+      ],
+      "correct_index": 0,
+      "explanation": "A ascensão forçada pelo relevo pode produzir condensação e precipitação no barlavento.",
+      "option_feedback": [
+        "Correto.",
+        "Isso negaria a formação frontal.",
+        "Descreve parte da ilha de calor, não chuva orográfica.",
+        "Descreve El Niño."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-climatologia-climatologia-05-2",
+      "section": "climatologia-05",
+      "prompt": "Se a temperatura do ar aumenta durante a tarde e o conteúdo de vapor permanece semelhante, a umidade relativa tende a:",
+      "options": [
+        "aumentar necessariamente",
+        "diminuir",
+        "ficar sempre em 100%",
+        "tornar-se igual à pressão atmosférica"
+      ],
+      "correct_index": 1,
+      "explanation": "Ar mais quente tem maior capacidade de vapor; com o mesmo vapor, a umidade relativa tende a cair.",
+      "option_feedback": [
+        "Em geral ocorre o oposto.",
+        "Correto.",
+        "100% indica saturação, não é automática.",
+        "São grandezas diferentes."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-climatologia-climatologia-06-1",
+      "section": "climatologia-06",
+      "prompt": "Qual massa é a exceção clássica à associação simplista “continental = seca”?",
+      "options": [
+        "mTc",
+        "mEc",
+        "mPa",
+        "mTa"
+      ],
+      "correct_index": 1,
+      "explanation": "A mEc forma-se sobre a Amazônia e é muito úmida apesar da origem continental.",
+      "option_feedback": [
+        "mTc é quente e relativamente seca.",
+        "Correto.",
+        "mPa é atlântica/polar.",
+        "mTa é oceânica."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-climatologia-climatologia-06-2",
+      "section": "climatologia-06",
+      "prompt": "A friagem amazônica está associada principalmente:",
+      "options": [
+        "à penetração de ar frio de origem polar",
+        "ao aquecimento do Pacífico central",
+        "à ilha de calor urbana",
+        "à subsidência da ZCIT"
+      ],
+      "correct_index": 0,
+      "explanation": "Incursões da mPa podem alcançar a Amazônia e causar queda acentuada de temperatura.",
+      "option_feedback": [
+        "Correto.",
+        "El Niño pode modular chuva/temperatura, mas não define friagem.",
+        "Fenômeno urbano local.",
+        "Na ZCIT predomina convergência e ascensão, não subsidência."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-climatologia-climatologia-07-1",
+      "section": "climatologia-07",
+      "prompt": "Uma banda de nebulosidade persistente ligando a Amazônia ao Sudeste do Brasil no verão é típica da:",
+      "options": [
+        "ZCIT",
+        "ZCAS",
+        "mTc",
+        "corrente de Humboldt"
+      ],
+      "correct_index": 1,
+      "explanation": "A ZCAS forma um corredor de umidade e precipitação NW–SE no verão austral.",
+      "option_feedback": [
+        "ZCIT atua mais próxima à faixa equatorial.",
+        "Correto.",
+        "mTc é massa de ar, não zona de convergência.",
+        "Corrente oceânica do Pacífico sul-americano."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-climatologia-climatologia-07-2",
+      "section": "climatologia-07",
+      "prompt": "A migração sazonal da ZCIT é importante porque:",
+      "options": [
+        "modula a distribuição sazonal de chuvas em áreas tropicais",
+        "elimina toda variabilidade interanual",
+        "ocorre apenas sobre continentes",
+        "é uma frente fria polar"
+      ],
+      "correct_index": 0,
+      "explanation": "A posição da ZCIT controla parte importante da sazonalidade pluviométrica tropical.",
+      "option_feedback": [
+        "Correto.",
+        "ENOS, Atlântico e outros fatores mantêm variabilidade.",
+        "A ZCIT é fortemente oceânica e atravessa áreas continentais tropicais.",
+        "Não é frente polar."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-climatologia-climatologia-08-1",
+      "section": "climatologia-08",
+      "prompt": "Qual formulação é mais correta?",
+      "options": [
+        "El Niño determina sozinho a chuva de todo o Brasil.",
+        "El Niño cria teleconexões que alteram probabilidades regionais, mas seus efeitos dependem de outros controles.",
+        "La Niña sempre produz exatamente o oposto do El Niño em todo lugar.",
+        "ENOS é fenômeno exclusivamente atmosférico."
+      ],
+      "correct_index": 1,
+      "explanation": "Teleconexões são probabilísticas e interagem com Atlântico, estação e variabilidade interna.",
+      "option_feedback": [
+        "Determinismo excessivo.",
+        "Correto.",
+        "Os impactos não são perfeitamente simétricos.",
+        "ENOS é acoplado oceano-atmosfera."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-climatologia-climatologia-08-2",
+      "section": "climatologia-08",
+      "prompt": "No El Niño, o sinal oceânico básico é:",
+      "options": [
+        "aquecimento anômalo no Pacífico equatorial central/oriental",
+        "resfriamento do Atlântico Sul inteiro",
+        "aquecimento uniforme de todos os oceanos",
+        "congelamento do Pacífico tropical"
+      ],
+      "correct_index": 0,
+      "explanation": "El Niño é definido por aquecimento anômalo em setores do Pacífico equatorial, acompanhado de mudanças atmosféricas.",
+      "option_feedback": [
+        "Correto.",
+        "Não define El Niño.",
+        "Não ocorre uniformemente em todos os oceanos.",
+        "Não há congelamento tropical."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-climatologia-climatologia-09-1",
+      "section": "climatologia-09",
+      "prompt": "Um climograma com pouca variação térmica anual e chuvas elevadas em quase todos os meses é mais compatível com:",
+      "options": [
+        "clima equatorial úmido",
+        "clima desértico",
+        "clima mediterrâneo",
+        "clima polar"
+      ],
+      "correct_index": 0,
+      "explanation": "Altas temperaturas, baixa amplitude e muita chuva são traços típicos de clima equatorial úmido.",
+      "option_feedback": [
+        "Correto.",
+        "Desértico tem forte aridez.",
+        "Mediterrâneo tem verão seco e inverno chuvoso.",
+        "Polar apresenta baixas temperaturas."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-climatologia-climatologia-09-2",
+      "section": "climatologia-09",
+      "prompt": "Duas classificações climáticas podem delimitar tipos de forma diferente porque:",
+      "options": [
+        "clima não existe",
+        "usam critérios, limiares e finalidades distintos",
+        "uma delas obrigatoriamente está errada",
+        "temperatura e chuva nunca são usadas juntas"
+      ],
+      "correct_index": 1,
+      "explanation": "Classificações são modelos baseados em critérios e limiares escolhidos.",
+      "option_feedback": [
+        "Clima é um objeto científico mensurável.",
+        "Correto.",
+        "Diferenças metodológicas podem gerar mapas diferentes.",
+        "Muitas classificações combinam temperatura e precipitação."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-climatologia-climatologia-10-1",
+      "section": "climatologia-10",
+      "prompt": "Qual característica é mais típica do clima subtropical brasileiro?",
+      "options": [
+        "baixa amplitude térmica anual em toda a região",
+        "maior atuação de frentes e massas polares ao longo do ano",
+        "seca absoluta anual",
+        "ausência de chuvas de inverno"
+      ],
+      "correct_index": 1,
+      "explanation": "O Sul recebe com frequência frentes e ar polar e tende a ter chuva mais bem distribuída.",
+      "option_feedback": [
+        "A amplitude anual costuma ser maior que em áreas equatoriais.",
+        "Correto.",
+        "Não é clima árido.",
+        "Pode chover no inverno."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-climatologia-climatologia-10-2",
+      "section": "climatologia-10",
+      "prompt": "O semiárido brasileiro caracteriza-se principalmente por:",
+      "options": [
+        "chuvas abundantes e regulares",
+        "precipitação baixa/irregular e elevada demanda evaporativa",
+        "temperaturas negativas o ano inteiro",
+        "domínio de ZCAS permanente"
+      ],
+      "correct_index": 1,
+      "explanation": "A irregularidade das chuvas e forte balanço hídrico deficitário são centrais.",
+      "option_feedback": [
+        "Inverte o padrão.",
+        "Correto.",
+        "Não corresponde às baixas latitudes brasileiras.",
+        "ZCAS não é permanente nem define o semiárido."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-climatologia-climatologia-11-1",
+      "section": "climatologia-11",
+      "prompt": "Ao comparar o norte/litoral do Pará com o sudeste paraense, é razoável esperar:",
+      "options": [
+        "regime de chuva idêntico em todos os meses",
+        "maior marcação da estação seca em partes do sul/sudeste",
+        "temperaturas polares no litoral",
+        "ausência de influência atlântica no norte"
+      ],
+      "correct_index": 1,
+      "explanation": "A extensão do estado produz diferenças importantes na duração/intensidade da estação seca.",
+      "option_feedback": [
+        "O Pará tem variabilidade espacial de precipitação.",
+        "Correto.",
+        "O estado é de baixas latitudes e predominantemente quente.",
+        "O Atlântico é importante para o norte/litoral."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-climatologia-climatologia-11-2",
+      "section": "climatologia-11",
+      "prompt": "A floresta amazônica participa do clima regional porque:",
+      "options": [
+        "interrompe a evapotranspiração",
+        "recicla umidade por evapotranspiração e interage com fluxos atmosféricos",
+        "impede qualquer massa de ar de entrar",
+        "elimina a variabilidade interanual"
+      ],
+      "correct_index": 1,
+      "explanation": "Evapotranspiração e reciclagem de umidade são componentes fundamentais do ciclo hidrológico amazônico.",
+      "option_feedback": [
+        "Ocorre intensa evapotranspiração.",
+        "Correto.",
+        "A floresta não é uma barreira absoluta a massas de ar.",
+        "ENOS e Atlântico mantêm variabilidade."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-climatologia-climatologia-12-1",
+      "section": "climatologia-12",
+      "prompt": "A ilha de calor urbana é favorecida por:",
+      "options": [
+        "substituição de vegetação por superfícies impermeáveis e maior armazenamento de calor",
+        "aumento universal da altitude das cidades",
+        "presença permanente de frente fria",
+        "redução de qualquer emissão antropogênica de calor"
+      ],
+      "correct_index": 0,
+      "explanation": "Urbanização altera balanço de energia e água e reduz resfriamento por evapotranspiração.",
+      "option_feedback": [
+        "Correto.",
+        "Altitude não cresce com urbanização.",
+        "Frente fria é episódica e não explica ilha de calor.",
+        "Calor antropogênico tende a reforçar, não reduzir."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-climatologia-climatologia-12-2",
+      "section": "climatologia-12",
+      "prompt": "Durante uma inversão térmica, é comum:",
+      "options": [
+        "aumentar a mistura vertical e dispersar poluentes",
+        "reduzir a mistura vertical e favorecer acúmulo de poluentes",
+        "a temperatura diminuir obrigatoriamente com a altura em toda a camada",
+        "formar El Niño sobre a cidade"
+      ],
+      "correct_index": 1,
+      "explanation": "A inversão estabiliza a camada e limita a dispersão vertical.",
+      "option_feedback": [
+        "Ocorre o contrário.",
+        "Correto.",
+        "Na inversão há aumento da temperatura com altura em uma camada.",
+        "ENOS é fenômeno do Pacífico tropical."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-climatologia-climatologia-13-1",
+      "section": "climatologia-13",
+      "prompt": "Qual frase é cientificamente mais adequada?",
+      "options": [
+        "Todo evento extremo é causado pela mudança climática.",
+        "A mudança climática pode alterar a probabilidade/intensidade de extremos, mas a atribuição exige análise específica.",
+        "ENOS deixou de ser variabilidade natural.",
+        "Secas responderão da mesma forma em todas as regiões."
+      ],
+      "correct_index": 1,
+      "explanation": "A atribuição é probabilística e específica por evento, região e tipo de extremo.",
+      "option_feedback": [
+        "Causalidade não é tão simples.",
+        "Correto.",
+        "ENOS continua sendo modo natural de variabilidade.",
+        "Resposta regional de secas é heterogênea."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-climatologia-climatologia-13-2",
+      "section": "climatologia-13",
+      "prompt": "Com o aquecimento global, a tendência física geral para precipitações muito intensas é:",
+      "options": [
+        "redução inevitável em todas as regiões",
+        "maior potencial de intensidade porque ar mais quente pode conter mais vapor",
+        "desaparecimento das nuvens convectivas",
+        "nenhuma relação com temperatura"
+      ],
+      "correct_index": 1,
+      "explanation": "A capacidade de vapor da atmosfera aumenta com temperatura, favorecendo extremos de precipitação em muitas regiões.",
+      "option_feedback": [
+        "Não é uma redução universal.",
+        "Correto.",
+        "Convecção não desaparece por definição.",
+        "Há relação termodinâmica importante."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-climatologia-desafio-1",
+      "section": "desafio",
+      "prompt": "(Climograma) Uma localidade apresenta temperaturas altas o ano inteiro, amplitude térmica anual pequena e precipitação elevada, sem longa estação seca. O padrão é mais compatível com:",
+      "options": [
+        "equatorial úmido",
+        "mediterrâneo",
+        "semiárido",
+        "subtropical continental",
+        "polar"
+      ],
+      "correct_index": 0,
+      "explanation": "A combinação de calor permanente, baixa amplitude e forte umidade aponta para clima equatorial úmido.",
+      "option_feedback": [
+        "Correto.",
+        "Mediterrâneo tem verão seco.",
+        "Semiárido tem déficit hídrico marcante.",
+        "Subtropical tem maior sazonalidade térmica.",
+        "Polar não apresenta temperaturas altas."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "candidato_treino_objetivo"
+    },
+    {
+      "id": "GF-climatologia-desafio-2",
+      "section": "desafio",
+      "prompt": "(Circulação) Em uma faixa tropical, os alísios convergem, o ar úmido sobe e há muita nebulosidade. O sistema descrito é:",
+      "options": [
+        "ASAS",
+        "ZCIT",
+        "mTc",
+        "corrente de jato polar",
+        "frente estacionária"
+      ],
+      "correct_index": 1,
+      "explanation": "Convergência dos alísios e ascensão equatorial caracterizam a ZCIT.",
+      "option_feedback": [
+        "ASAS é alta subtropical.",
+        "Correto.",
+        "mTc é massa de ar quente e seca.",
+        "Jato polar atua em altos níveis e latitudes maiores.",
+        "Frente estacionária é outro mecanismo."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "candidato_treino_objetivo"
+    },
+    {
+      "id": "GF-climatologia-desafio-3",
+      "section": "desafio",
+      "prompt": "(ENOS) Assinale a formulação mais precisa sobre El Niño e mudanças climáticas:",
+      "options": [
+        "O El Niño determina sozinho o regime de chuva brasileiro.",
+        "Existe consenso de que o aquecimento antrópico já tornou todo El Niño mais frequente.",
+        "ENOS é variabilidade natural; o aquecimento pode alterar impactos e variabilidade de precipitação, mas há incerteza sobre frequência/amplitude.",
+        "La Niña elimina secas no Brasil.",
+        "ENOS ocorre no Atlântico Tropical."
+      ],
+      "correct_index": 2,
+      "explanation": "A melhor resposta preserva a natureza acoplada do ENOS e a incerteza científica sobre frequência/amplitude.",
+      "option_feedback": [
+        "Determinismo excessivo.",
+        "Afirmação forte demais.",
+        "Correto.",
+        "La Niña também pode associar-se a secas regionais.",
+        "ENOS é fenômeno do Pacífico equatorial."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "candidato_treino_objetivo"
+    },
+    {
+      "id": "GF-climatologia-desafio-4",
+      "section": "desafio",
+      "prompt": "(Pará) Qual interpretação regional é mais adequada?",
+      "options": [
+        "Todo o Pará apresenta a mesma sazonalidade pluviométrica.",
+        "O litoral/norte pode ter influência mais forte da ZCIT e do Atlântico, enquanto sul/sudeste tende a apresentar seca mais marcada.",
+        "O sudeste do Pará possui clima polar por efeito da continentalidade.",
+        "A ZCIT atua apenas no Sul do Brasil.",
+        "A mEc é fria e seca."
+      ],
+      "correct_index": 1,
+      "explanation": "O estado é extenso e apresenta gradientes importantes de sazonalidade das chuvas.",
+      "option_feedback": [
+        "Homogeneiza indevidamente o estado.",
+        "Correto.",
+        "Continentalidade não cria clima polar em baixas latitudes.",
+        "ZCIT é sistema tropical equatorial.",
+        "mEc é quente e úmida."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "candidato_treino_objetivo"
+    },
+    {
+      "id": "GF-climatologia-desafio-5",
+      "section": "desafio",
+      "prompt": "(Clima urbano) A principal combinação de processos que favorece a ilha de calor é:",
+      "options": [
+        "mais vegetação + mais evapotranspiração",
+        "impermeabilização + menor evapotranspiração + maior armazenamento/liberação de calor",
+        "inversão térmica + queda obrigatória da temperatura urbana",
+        "frente fria permanente + baixa pressão equatorial",
+        "aquecimento do Pacífico + Coriolis"
+      ],
+      "correct_index": 1,
+      "explanation": "A urbanização modifica o balanço de energia e água e tende a elevar temperaturas relativas.",
+      "option_feedback": [
+        "Esses fatores tendem a resfriar.",
+        "Correto.",
+        "Inversão e ilha de calor são fenômenos distintos.",
+        "Não define o fenômeno urbano.",
+        "ENOS não é causa direta da ilha de calor."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "candidato_treino_objetivo"
+    }
+  ],
+  "cards": [
+    {
+      "id": "GF-climatologia-FC1",
+      "category": "Fundamentos",
+      "front": "Tempo atmosférico?",
+      "back": "Estado momentâneo da atmosfera em um lugar.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-climatologia-FC2",
+      "category": "Fundamentos",
+      "front": "Clima?",
+      "back": "Padrões estatísticos de longo prazo: médias, sazonalidade, variabilidade e extremos.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-climatologia-FC3",
+      "category": "Fundamentos",
+      "front": "Normal climatológica?",
+      "back": "Referência estatística calculada em série longa, tipicamente de três décadas.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-climatologia-FC4",
+      "category": "Fundamentos",
+      "front": "Elemento climático x fator climático?",
+      "back": "Elemento é variável observada; fator ajuda a explicar sua variação.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-climatologia-FC5",
+      "category": "Energia",
+      "front": "Albedo?",
+      "back": "Fração da radiação incidente refletida por uma superfície.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-climatologia-FC6",
+      "category": "Energia",
+      "front": "Efeito estufa natural?",
+      "back": "Gases absorvem/reemitem infravermelho e mantêm a baixa atmosfera aquecida.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-climatologia-FC7",
+      "category": "Energia",
+      "front": "Gradiente térmico ambiental médio?",
+      "back": "Cerca de 0,6–0,65 °C/100 m; é aproximação, não constante universal.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-climatologia-FC8",
+      "category": "Energia",
+      "front": "Maritimidade x continentalidade?",
+      "back": "Mar modera amplitudes; interior tende a maior amplitude térmica.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-climatologia-FC9",
+      "category": "Circulação",
+      "front": "Gradiente de pressão?",
+      "back": "Diferença de pressão que impulsiona o vento.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-climatologia-FC10",
+      "category": "Circulação",
+      "front": "Coriolis no Hemisfério Sul?",
+      "back": "Desvia movimentos para a esquerda; efeito tende a zero no Equador.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-climatologia-FC11",
+      "category": "Circulação",
+      "front": "Célula de Hadley?",
+      "back": "Ascensão equatorial, descida subtropical e retorno superficial por alísios.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-climatologia-FC12",
+      "category": "Circulação",
+      "front": "Alísios no Hemisfério Sul?",
+      "back": "Ventos de sudeste rumo à baixa pressão equatorial.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-climatologia-FC13",
+      "category": "Umidade",
+      "front": "Umidade relativa?",
+      "back": "Percentual de vapor presente em relação ao máximo possível naquela temperatura.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-climatologia-FC14",
+      "category": "Umidade",
+      "front": "Ponto de orvalho?",
+      "back": "Temperatura de saturação do ar para determinado conteúdo de vapor.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-climatologia-FC15",
+      "category": "Umidade",
+      "front": "Chuva convectiva?",
+      "back": "Ascensão por aquecimento/flutuabilidade; comum nos trópicos.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-climatologia-FC16",
+      "category": "Umidade",
+      "front": "Chuva orográfica?",
+      "back": "Relevo força ascensão, resfriamento, condensação e chuva.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-climatologia-FC17",
+      "category": "Umidade",
+      "front": "Chuva frontal?",
+      "back": "Ascensão associada ao encontro de massas de ar distintas.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-climatologia-FC18",
+      "category": "Brasil",
+      "front": "mEc?",
+      "back": "Equatorial Continental: quente e muito úmida; Amazônia.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-climatologia-FC19",
+      "category": "Brasil",
+      "front": "mEa?",
+      "back": "Equatorial Atlântica: quente e úmida; Atlântico equatorial.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-climatologia-FC20",
+      "category": "Brasil",
+      "front": "mTa?",
+      "back": "Tropical Atlântica: quente e úmida; Atlântico Sul.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-climatologia-FC21",
+      "category": "Brasil",
+      "front": "mTc?",
+      "back": "Tropical Continental: quente e relativamente seca; interior/Chaco.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-climatologia-FC22",
+      "category": "Brasil",
+      "front": "mPa?",
+      "back": "Polar Atlântica: fria e úmida; frentes e quedas de temperatura.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-climatologia-FC23",
+      "category": "Brasil",
+      "front": "Friagem?",
+      "back": "Incursão de ar polar que provoca queda de temperatura na Amazônia.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-climatologia-FC24",
+      "category": "Sistemas",
+      "front": "ZCIT?",
+      "back": "Convergência dos alísios + ascensão tropical; migra sazonalmente.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-climatologia-FC25",
+      "category": "Sistemas",
+      "front": "ZCAS?",
+      "back": "Banda NW–SE de umidade/chuva Amazônia–Sudeste–Atlântico no verão.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-climatologia-FC26",
+      "category": "Sistemas",
+      "front": "ASAS?",
+      "back": "Alta subtropical do Atlântico Sul, ligada a subsidência e estabilidade.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-climatologia-FC27",
+      "category": "Oceanos",
+      "front": "El Niño?",
+      "back": "Aquecimento anômalo do Pacífico equatorial central/oriental + resposta atmosférica.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-climatologia-FC28",
+      "category": "Oceanos",
+      "front": "La Niña?",
+      "back": "Resfriamento anômalo no Pacífico equatorial + reorganização atmosférica.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-climatologia-FC29",
+      "category": "Oceanos",
+      "front": "Teleconexão?",
+      "back": "Influência climática a distância mediada pela circulação oceano-atmosfera.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-climatologia-FC30",
+      "category": "Oceanos",
+      "front": "Atlântico Tropical e ZCIT?",
+      "back": "Gradiente térmico norte–sul ajuda a deslocar a ZCIT.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-climatologia-FC31",
+      "category": "Leitura",
+      "front": "Climograma: barras e linha?",
+      "back": "Barras: precipitação; linha: temperatura média mensal.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-climatologia-FC32",
+      "category": "Leitura",
+      "front": "Amplitude térmica anual?",
+      "back": "Diferença entre médias do mês mais quente e do mais frio.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-climatologia-FC33",
+      "category": "Leitura",
+      "front": "Primeiro passo num climograma?",
+      "back": "Descrever temperatura/amplitude e chuva/sazonalidade antes de nomear o clima.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-climatologia-FC34",
+      "category": "Leitura",
+      "front": "Classificação climática?",
+      "back": "Modelo que agrupa climas por critérios e limiares definidos.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-climatologia-FC35",
+      "category": "Brasil",
+      "front": "Equatorial úmido?",
+      "back": "Quente, baixa amplitude anual e elevada umidade/precipitação.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-climatologia-FC36",
+      "category": "Brasil",
+      "front": "Tropical típico?",
+      "back": "Em grande parte do interior: verão chuvoso e inverno mais seco.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-climatologia-FC37",
+      "category": "Brasil",
+      "front": "Semiárido?",
+      "back": "Chuva baixa/irregular e forte déficit hídrico.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-climatologia-FC38",
+      "category": "Brasil",
+      "front": "Subtropical?",
+      "back": "Maior sazonalidade térmica, frentes frequentes e chuva mais distribuída.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-climatologia-FC39",
+      "category": "Pará",
+      "front": "Por que o Pará não é climaticamente uniforme?",
+      "back": "A duração/intensidade da estação seca varia do litoral/norte ao sul/sudeste.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-climatologia-FC40",
+      "category": "Pará",
+      "front": "Papel da ZCIT no Pará?",
+      "back": "Modula fortemente a estação chuvosa no norte/leste amazônico.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-climatologia-FC41",
+      "category": "Pará",
+      "front": "Papel da floresta no ciclo de umidade?",
+      "back": "Evapotranspiração recicla vapor e alimenta fluxos atmosféricos.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-climatologia-FC42",
+      "category": "Urbano",
+      "front": "Ilha de calor?",
+      "back": "Área urbanizada mais quente que entorno por mudanças no balanço de energia/água.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-climatologia-FC43",
+      "category": "Urbano",
+      "front": "Inversão térmica?",
+      "back": "Camada estável com temperatura aumentando com a altura, reduzindo mistura vertical.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-climatologia-FC44",
+      "category": "Urbano",
+      "front": "Vegetação urbana resfria como?",
+      "back": "Sombreamento + evapotranspiração.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-climatologia-FC45",
+      "category": "Mudança",
+      "front": "Variabilidade climática?",
+      "back": "Flutuações naturais do clima em diferentes escalas temporais.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-climatologia-FC46",
+      "category": "Mudança",
+      "front": "Mudança climática?",
+      "back": "Alteração persistente nas estatísticas do clima.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-climatologia-FC47",
+      "category": "Mudança",
+      "front": "Atribuição de evento?",
+      "back": "Avalia quanto a influência humana alterou probabilidade/intensidade do evento.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-climatologia-FC48",
+      "category": "Mudança",
+      "front": "Extremos de precipitação e aquecimento?",
+      "back": "Ar mais quente comporta mais vapor, elevando potencial de chuva intensa.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-climatologia-FC49",
+      "category": "Mudança",
+      "front": "ENOS no clima futuro?",
+      "back": "Há incerteza sobre frequência/amplitude; variabilidade de chuva associada pode aumentar.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-climatologia-FC50",
+      "category": "Prova",
+      "front": "Regra antipegadinha?",
+      "back": "Desconfie de “sempre”, “nunca”, “em toda região” e relações monocausais.",
+      "status": "em_auditoria"
+    }
+  ],
+  "source_links": [
+    "https://portal.inmet.gov.br/normais",
+    "https://portal.inmet.gov.br/noticias/zona-de-convergencia-do-atlantico-sul-zcas",
+    "https://www.gov.br/inpe/pt-br/assuntos/ultimas-noticias/o-que-precisamos-saber-sobre-o-el-nino-e-seus-impactos-para-o-brasil/"
+  ],
+  "notes": "HTML preservado como fonte; não renderizar HTML bruto. Remover afirmações de incidência FGV e exemplos exclusivamente paraenses, se fora do escopo. Revisar semântica, figuras, atualidade, direitos, unidades e feedbacks. Cinco alternativas não comprovam aderência FCC."
+}

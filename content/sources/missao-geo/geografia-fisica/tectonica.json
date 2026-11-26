@@ -1,0 +1,1329 @@
+{
+  "schema_version": "1.0.0",
+  "source": {
+    "repository": "ude-ctrl/Estudo-para-Concurso",
+    "ref": "main",
+    "path": "MissaoAprovacaoGeo/SEDUC_PA_Tema_05_Tectonica_e_Relevo_MATRIZ_OFICIAL_V2_6.html",
+    "blob_sha": "6efbe14a77e5a5339c7ba79303ea1e064340b71d",
+    "previous_context": "SEDUC-PA/FGV; aprovação anterior não transferida"
+  },
+  "status": "candidato_em_auditoria",
+  "sections": [
+    {
+      "id": "tectonica-01",
+      "title": "Como a FGV cobra tectônica e relevo",
+      "hook": "A prova raramente quer uma lista de nomes: ela quer que você leia o mecanismo e reconheça o processo que produziu a forma.",
+      "html_original": "<p>Em tectônica e geomorfologia, a FGV costuma partir de <b>mapas, perfis, imagens, esquemas ou pequenas situações-problema</b>. A pergunta decisiva é: <b>qual processo explica melhor a evidência?</b></p><div class=\"w\"><table><tr><th>Sinal no enunciado</th><th>Pense primeiro em</th><th>Pegadinha típica</th></tr><tr><td>placas afastando-se + dorsal</td><td>limite divergente</td><td>dizer que destrói litosfera</td></tr><tr><td>fossa + arco vulcânico</td><td>subducção</td><td>confundir com colisão continental</td></tr><tr><td>deslizamento lateral + sismos</td><td>transformante</td><td>associar necessariamente a vulcanismo</td></tr><tr><td>S não atravessa uma camada</td><td>meio líquido</td><td>achar que P também não atravessa</td></tr><tr><td>rocha alterada no próprio local</td><td>intemperismo</td><td>chamar de erosão</td></tr><tr><td>área baixa em relação ao entorno</td><td>depressão relativa</td><td>exigir altitude abaixo do nível do mar</td></tr><tr><td>Ross / Ab’Sáber / Azevedo</td><td>critério de classificação</td><td>trocar autor e método</td></tr></table></div><div class=\"box prova\"><span class=\"l\">Como a banca cobra</span>Busque a cadeia <b>estrutura → processo → forma → evidência</b>. Quando a alternativa pula uma etapa causal ou usa palavras absolutas como “sempre” e “somente”, desconfie.</div>",
+      "recall": "Sem olhar: cite quatro pares “evidência → processo” que a banca pode explorar.",
+      "recall_answer": "Dorsal → divergência; fossa/arco → subducção; San Andreas → transformância; S bloqueada → meio líquido; alteração in situ → intemperismo; deposição dominante → planície.",
+      "source_index": 0,
+      "proposed_unit": null,
+      "status": "em_auditoria"
+    },
+    {
+      "id": "tectonica-02",
+      "title": "Estrutura interna da Terra: química e comportamento mecânico",
+      "hook": "Crosta, litosfera e astenosfera não são sinônimos — e essa troca derruba questões fáceis.",
+      "html_original": "<p>Há duas maneiras úteis de dividir o interior terrestre. Pela <b>composição</b>: <b>crosta, manto e núcleo</b>. Pelo <b>comportamento mecânico</b>: litosfera rígida, astenosfera mais dúctil, manto inferior e núcleo externo/interno.</p><p>A <b>litosfera</b> reúne a crosta e a porção superior rígida do manto. É ela que se fragmenta em placas. A <b>astenosfera</b>, abaixo, permanece majoritariamente sólida, mas em escalas geológicas pode deformar e fluir lentamente. Não é correto imaginá-la como um oceano global de magma.</p><p>O <b>núcleo externo é líquido</b> e o <b>núcleo interno é sólido</b>. Boa parte desse conhecimento vem do comportamento das ondas sísmicas. A descontinuidade de <b>Mohorovičić (Moho)</b> marca a transição crosta–manto; a de <b>Gutenberg</b>, manto–núcleo externo.</p><div class=\"box prova\"><span class=\"l\">Pegadinha típica</span><b>placa tectônica ≠ crosta.</b> A placa é litosfera; e a astenosfera não precisa estar fundida para permitir deformação lenta.</div>",
+      "recall": "Explique em 20 segundos a diferença entre crosta, litosfera e astenosfera.",
+      "recall_answer": "Crosta é uma camada composicional; litosfera é crosta + topo rígido do manto e forma as placas; astenosfera é a zona mecanicamente dúctil abaixo da litosfera.",
+      "source_index": 1,
+      "proposed_unit": "CE-GEO-03",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "tectonica-03",
+      "title": "Tempo geológico e construção do planeta",
+      "hook": "O relevo que vemos hoje é instantâneo para nós, mas é resultado de processos que operam em escalas de milhões de anos.",
+      "html_original": "<p>O <b>tempo geológico</b> organiza a história da Terra em grandes intervalos. Para a prova, mais importante que decorar todas as divisões é compreender a sequência: rochas antigas podem registrar eventos muito anteriores às formas atuais do relevo.</p><p>O <b>Pré-Cambriano</b> concentra a maior parte da história terrestre e inclui a formação de extensos terrenos cristalinos. No <b>Fanerozoico</b>, Paleozoico, Mesozoico e Cenozoico registram grandes transformações tectônicas, biológicas e sedimentares. A abertura do Atlântico Sul e o grande magmatismo da Bacia do Paraná ocorreram no Mesozoico; a configuração atual dos Andes relaciona-se à convergência ativa no Cenozoico, embora sua história seja longa.</p><p><b>Datação relativa</b> organiza eventos por relações como superposição e corte; <b>datação absoluta</b> utiliza métodos radiométricos para estimar idades numéricas.</p><div class=\"box dia\"><span class=\"l\">Radar de prova</span>“Rocha antiga” não significa “relevo antigo e imutável”. Uma superfície pode ser retrabalhada muitas vezes sobre substratos muito antigos.</div>",
+      "recall": "Por que “idade da rocha” e “idade da forma de relevo” não devem ser confundidas?",
+      "recall_answer": "Porque a mesma rocha pode ser soerguida, erodida e remodelada em fases posteriores; substrato e forma atual podem ter histórias diferentes.",
+      "source_index": 2,
+      "proposed_unit": "CE-GEO-03",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "tectonica-04",
+      "title": "Tectônica de placas e tipos de limites",
+      "hook": "Três movimentos básicos explicam grande parte da distribuição mundial de dorsais, fossas, vulcões e terremotos.",
+      "html_original": "<p>A tectônica de placas descreve o movimento relativo de blocos da litosfera. Nos <b>limites divergentes</b>, as placas se afastam e nova litosfera oceânica é criada, sobretudo em dorsais mesoceânicas; em continentes, riftes podem anteceder a abertura oceânica.</p><p>Nos <b>limites convergentes</b>, placas se aproximam. Pode haver <b>subducção</b> de litosfera oceânica ou <b>colisão continental</b>. Nos <b>transformantes</b>, as placas deslizam lateralmente: em termos simplificados, não há criação nem destruição sistemática de litosfera no limite.</p><p>Os movimentos são muito lentos em escala humana, geralmente centímetros por ano, mas acumulam deformação suficiente para produzir grandes eventos geológicos.</p><div class=\"box prova\"><span class=\"l\">Cuidado com a troca</span><b>Divergente = construtivo</b>; <b>convergente com subducção = destrutivo</b>; <b>transformante = conservativo</b>. Esses rótulos se referem ao balanço de litosfera no limite.</div>",
+      "recall": "Associe divergente, convergente e transformante a movimento, balanço de litosfera e forma/evento típico.",
+      "recall_answer": "Divergente: afasta/cria/dorsal-rifte; convergente: aproxima/destrói litosfera oceânica na subducção ou espessa na colisão/fossa-arco-orógeno; transformante: desliza/conserva/sismos rasos.",
+      "source_index": 3,
+      "proposed_unit": "CE-GEO-03",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "tectonica-05",
+      "title": "Convergência, subducção, Andes e Himalaia",
+      "hook": "Nem toda convergência é igual: o tipo de crosta envolvida muda completamente a paisagem.",
+      "html_original": "<p>Na convergência <b>oceano–continente</b>, a litosfera oceânica, em geral mais densa, subducta sob a continental. Surgem fossa oceânica, sismos de profundidades variadas, magmatismo e arco continental. A margem oeste da América do Sul e os <b>Andes</b> são o exemplo clássico.</p><p>Na convergência <b>oceano–oceano</b>, uma placa oceânica subducta e pode formar <b>arcos de ilhas vulcânicas</b>. Já na convergência <b>continente–continente</b>, após consumo do oceano intermediário, a baixa densidade relativa da crosta continental dificulta subducção profunda; ocorre forte encurtamento e espessamento crustal. O <b>Himalaia</b> exemplifica essa colisão.</p><div class=\"box prova\"><span class=\"l\">Pegadinha típica</span><b>Andes ≠ Himalaia.</b> Andes: subducção oceano–continente. Himalaia: colisão continente–continente. Ambos envolvem convergência, mas os mecanismos imediatos diferem.</div>",
+      "recall": "Explique por que Andes e Himalaia são ambos convergentes, mas não resultam do mesmo tipo de convergência.",
+      "recall_answer": "Andes: oceano–continente com subducção. Himalaia: continente–continente com encurtamento e espessamento crustal após fechamento oceânico.",
+      "source_index": 4,
+      "proposed_unit": "CE-GEO-03",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "tectonica-06",
+      "title": "Terremotos, falhas e ondas sísmicas",
+      "hook": "Terremoto não é “movimento da placa” em si: é liberação súbita de energia acumulada em uma ruptura.",
+      "html_original": "<p>Um sismo ocorre quando tensão acumulada supera a resistência das rochas e há ruptura ou deslizamento súbito em uma <b>falha</b>. O ponto de origem em profundidade é o <b>hipocentro (foco)</b>; sua projeção na superfície é o <b>epicentro</b>.</p><p>Ondas <b>P</b> são compressionais e atravessam sólidos e líquidos; ondas <b>S</b> são de cisalhamento e não atravessam líquidos. Ondas de superfície costumam produzir movimentos intensos próximos ao terreno.</p><p><b>Magnitude</b> expressa o tamanho/energia do evento em escala instrumental; <b>intensidade</b> descreve efeitos observados e pode variar de lugar para lugar no mesmo terremoto.</p><p>Embora a maioria dos sismos se concentre nas bordas de placas, há <b>sismos intraplaca</b>. No Brasil, tensões regionais podem reativar antigas zonas de fraqueza crustal.</p><div class=\"box prova\"><span class=\"l\">Radar de prova</span>Brasil está no interior da placa Sul-Americana, mas <b>interior de placa ≠ ausência de terremotos</b>.</div>",
+      "recall": "Explique P, S, hipocentro, epicentro, magnitude e intensidade sem consultar.",
+      "recall_answer": "P: compressão, sólido/líquido; S: cisalhamento, não atravessa líquido; hipocentro: foco; epicentro: projeção; magnitude: tamanho/energia; intensidade: efeitos locais.",
+      "source_index": 5,
+      "proposed_unit": "CE-GEO-03",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "tectonica-07",
+      "title": "Vulcanismo, magma e hotspots",
+      "hook": "Vulcão longe de borda de placa não derruba a tectônica de placas — pode revelar um hotspot.",
+      "html_original": "<p>O magma pode ser gerado por diferentes mecanismos. Em <b>dorsais</b>, a ascensão do manto reduz a pressão e favorece fusão parcial por descompressão. Em <b>zonas de subducção</b>, voláteis liberados pela placa descendente favorecem fusão no manto sobrejacente.</p><p><b>Hotspots</b> explicam cadeias vulcânicas intraplaca, como o Havaí, em que uma placa se desloca sobre uma fonte térmica relativamente persistente. A distribuição de idades dos vulcões ajuda a reconstruir o movimento da placa.</p><p>O Brasil atual não está sobre uma margem tectônica ativa com vulcanismo de arco. Entretanto, sua história geológica registra grandes episódios magmáticos antigos, como os derrames basálticos associados à Bacia do Paraná.</p><div class=\"box prova\"><span class=\"l\">Pegadinha típica</span>“Astenosfera = magma” é falso. Magma existe localmente; o manto é majoritariamente sólido, embora capaz de deformação lenta.</div>",
+      "recall": "Diferencie magmatismo de dorsal, de subducção e de hotspot.",
+      "recall_answer": "Dorsal: descompressão; subducção: voláteis favorecem fusão no manto sobrejacente; hotspot: fonte térmica localizada, frequentemente intraplaca.",
+      "source_index": 6,
+      "proposed_unit": "CE-GEO-03",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "tectonica-08",
+      "title": "Minerais, rochas e ciclo das rochas",
+      "hook": "Rocha não é sinônimo de mineral: uma rocha é um agregado e pode mudar de classe ao longo do ciclo geológico.",
+      "html_original": "<p><b>Mineral</b> é uma substância natural, geralmente inorgânica, com composição e estrutura cristalina características. <b>Rocha</b> é um agregado de um ou mais minerais (ou material mineraloide).</p><div class=\"w\"><table><tr><th>Classe</th><th>Formação</th><th>Exemplos úteis</th></tr><tr><td><b>Ígnea</b></td><td>solidificação de magma/lava</td><td>granito intrusivo; basalto extrusivo</td></tr><tr><td><b>Sedimentar</b></td><td>deposição + diagênese, ou precipitação/biogênese</td><td>arenito; calcário</td></tr><tr><td><b>Metamórfica</b></td><td>transformação no estado sólido por pressão, temperatura e fluidos</td><td>gnaisse; mármore</td></tr></table></div><p>O <b>ciclo das rochas</b> não é uma sequência única: qualquer classe pode, em condições adequadas, ser intemperizada, soterrada, metamorfizada, fundida ou recristalizada. <b>Metamorfismo não implica fusão completa</b>; se a rocha funde, passa a magma.</p><div class=\"box prova\"><span class=\"l\">Como a banca cobra</span>Ela troca <b>processo</b> por <b>produto</b>: magma → ígnea; sedimento → sedimentar após litificação; calor/pressão sem fusão → metamórfica.</div>",
+      "recall": "Reconstrua o ciclo das rochas partindo de um granito e dê dois caminhos possíveis de transformação.",
+      "recall_answer": "Granito pode intemperizar → sedimentos → litificação → sedimentar; ou sofrer soterramento/aquecimento → metamorfismo → gnaisse; com fusão → magma → nova ígnea.",
+      "source_index": 7,
+      "proposed_unit": "CE-GEO-03",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "tectonica-09",
+      "title": "Intemperismo, erosão e sedimentação",
+      "hook": "A rocha pode se alterar sem sair do lugar — e é exatamente aí que intemperismo e erosão se separam.",
+      "html_original": "<p><b>Intemperismo</b> é a alteração e desagregação da rocha <b>in situ</b>. Pode ser <b>físico</b> (fragmentação sem mudança química dominante), <b>químico</b> (transformação mineral por reações) e <b>biológico</b> — categoria didática que envolve organismos e pode produzir efeitos físicos e químicos.</p><p><b>Erosão</b> envolve remoção e transporte de material por água, vento, gelo ou gravidade. <b>Sedimentação</b> é a deposição quando a capacidade de transporte diminui. Os três processos se encadeiam, mas não são sinônimos.</p><p>Clima, litologia, relevo, organismos e tempo de exposição condicionam a intensidade do intemperismo. Em ambientes quentes e úmidos, reações químicas tendem a ser favorecidas; em ambientes com forte variação térmica, gelo ou pouca água, processos físicos podem ganhar importância.</p><div class=\"box prova\"><span class=\"l\">Pegadinha típica</span><b>Intemperismo prepara e altera; erosão remove/transporta; sedimentação deposita.</b> A próxima missão aprofundará solos, erosão e movimentos de massa; aqui, guarde a distinção processual.</div>",
+      "recall": "Dê uma frase para intemperismo, erosão e sedimentação e conecte os três em sequência.",
+      "recall_answer": "Intemperismo altera/desagrega in situ; erosão remove e transporta; sedimentação deposita o material quando a energia do agente diminui.",
+      "source_index": 8,
+      "proposed_unit": "CE-GEO-03",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "tectonica-10",
+      "title": "Estruturas geológicas e o território brasileiro",
+      "hook": "O Brasil não está numa margem tectônica ativa, mas sua geologia guarda cicatrizes de antigos continentes, oceanos e bacias.",
+      "html_original": "<p>Em escala continental, é útil distinguir <b>crátons/escudos cristalinos</b>, <b>cinturões orogênicos antigos</b> e <b>bacias sedimentares</b>. Escudos e crátons expõem ou sustentam terrenos muito antigos; bacias acumulam espessas sequências sedimentares; cinturões registram antigas colisões e deformações.</p><p>O território brasileiro situa-se no interior da placa Sul-Americana e não possui cadeias de dobramentos modernos comparáveis aos Andes. Isso não significa estabilidade absoluta: há soerguimentos, falhas reativadas, erosão diferencial e sismicidade intraplaca.</p><p>Em termos econômicos, muitos depósitos metálicos associam-se a terrenos cristalinos e cinturões antigos; grandes sistemas de petróleo e gás concentram-se em bacias sedimentares. Trate essas relações como tendências geológicas, não como regras sem exceção.</p><div class=\"box prova\"><span class=\"l\">Radar de prova</span><b>Estrutura geológica não é forma de relevo.</b> Uma bacia sedimentar pode sustentar planaltos, chapadas, depressões ou planícies, dependendo da história geomorfológica.</div>",
+      "recall": "Diferencie escudo/cráton, cinturão orogênico antigo, bacia sedimentar e forma de relevo.",
+      "recall_answer": "Os três primeiros são estruturas/geotectônicas; forma de relevo é a expressão topográfica modelada sobre essas estruturas ao longo do tempo.",
+      "source_index": 9,
+      "proposed_unit": "CE-GEO-11",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "tectonica-11",
+      "title": "Relevo: forma, processo e escala",
+      "hook": "Planalto não é simplesmente “lugar alto” e planície não é simplesmente “lugar baixo”.",
+      "html_original": "<p>Na geomorfologia moderna, o relevo deve ser interpretado pela combinação de <b>morfologia, estrutura, gênese e processos</b>. Em classificações escolares brasileiras influenciadas por Ab’Sáber e Ross, <b>planaltos</b> são áreas em que predominam processos denudacionais/erosivos; <b>planícies</b>, áreas de acumulação sedimentar recente; <b>depressões</b>, superfícies rebaixadas em relação às áreas vizinhas.</p><p>Uma <b>depressão relativa</b> está abaixo do entorno, mas pode estar acima do nível do mar. Uma <b>depressão absoluta</b> fica abaixo do nível médio do mar.</p><p><b>Chapadas</b> são superfícies de topo relativamente plano e bordas escarpadas, frequentemente associadas a estruturas sedimentares. <b>Cuestas</b> apresentam relevo assimétrico, com frente mais íngreme e reverso suave, ligado a camadas inclinadas com resistência diferencial.</p><div class=\"box prova\"><span class=\"l\">Pegadinha típica</span>Na classificação processual, <b>altitude sozinha não decide</b> se uma área é planalto ou planície.</div>",
+      "recall": "Explique planalto, planície e depressão sem usar apenas “alto” e “baixo”.",
+      "recall_answer": "Planalto: predomínio denudacional; planície: predomínio de acumulação recente; depressão: superfície rebaixada em relação ao entorno, geralmente denudacional.",
+      "source_index": 10,
+      "proposed_unit": "CE-GEO-03",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "tectonica-12",
+      "title": "Aroldo de Azevedo, Aziz Ab’Sáber e Jurandyr Ross",
+      "hook": "A banca pode mostrar o mesmo Brasil em três mapas diferentes e perguntar: qual critério está por trás de cada um?",
+      "html_original": "<div class=\"w\"><table><tr><th>Autor</th><th>Chave de leitura</th><th>O que guardar</th></tr><tr><td><b>Aroldo de Azevedo</b></td><td>critério fortemente altimétrico/hypsométrico</td><td>distinção clássica de planaltos e planícies com referência a cotas</td></tr><tr><td><b>Aziz Ab’Sáber</b></td><td>processos geomorfológicos</td><td>planalto = erosão/denudação predominante; planície = sedimentação predominante</td></tr><tr><td><b>Jurandyr Ross</b></td><td>síntese morfoestrutural e morfoescultural com dados do RADAMBRASIL</td><td>planaltos + depressões + planícies; maior detalhamento</td></tr></table></div><p>A evolução dessas classificações mostra a passagem de uma leitura mais <b>altimétrica</b> para abordagens que integram <b>processos, estrutura e modelado</b>. O edital nomeia os três autores; portanto, em prova, responda conforme o <b>critério explicitado pelo autor</b>, e não misture sistemas.</p><p>Hoje o IBGE, o SGB e a comunidade geomorfológica trabalham na padronização de um <b>Sistema Brasileiro de Classificação de Relevo</b>. Isso não apaga o valor histórico e didático das classificações cobradas no edital.</p><div class=\"box prova\"><span class=\"l\">Cuidado com a troca</span><b>Azevedo → altitude</b>; <b>Ab’Sáber → processos erosão/deposição</b>; <b>Ross → estrutura + modelado + processos, incluindo depressões como grande categoria.</b></div>",
+      "recall": "Faça um cartão mental de uma linha para cada autor: Azevedo, Ab’Sáber e Ross.",
+      "recall_answer": "Azevedo = altitude; Ab’Sáber = erosão x sedimentação; Ross = planaltos/depressões/planícies integrando estrutura e modelado com RADAMBRASIL.",
+      "source_index": 11,
+      "proposed_unit": "CE-GEO-11",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "tectonica-13",
+      "title": "Relevo do Brasil: leitura integrada",
+      "hook": "O relevo brasileiro é antigo em estrutura, mas está longe de ser “parado”.",
+      "html_original": "<p>O Brasil combina <b>planaltos, depressões e planícies</b>, sobre estruturas cristalinas e sedimentares de idades variadas. A ausência de orogenias cenozoicas ativas dentro do território contrasta com a margem andina do continente, mas a modelagem externa continua intensa.</p><p>As <b>planícies fluviais</b> associam-se à acumulação recente; <b>chapadas</b> podem aparecer em áreas sedimentares; <b>serras e escarpas</b> podem refletir estrutura, erosão diferencial, falhamento e soerguimentos. Na Amazônia, não confunda a bacia sedimentar amazônica com “uma imensa planície”: há planaltos, depressões e planícies fluviais.</p><p>O IBGE atualmente mapeia categorias como planícies, depressões, patamares, tabuleiros, chapadas, planaltos e serras em diferentes escalas. Isso reforça que o relevo é <b>hierárquico e multiescalar</b>.</p><div class=\"box prova\"><span class=\"l\">Pegadinha típica</span><b>Amazônia ≠ toda plana</b>. O rio Amazonas ocupa grandes planícies fluviais, mas a região inclui depressões e planaltos extensos.</div>",
+      "recall": "Explique por que “estrutura antiga” não significa “paisagem imóvel” no Brasil.",
+      "recall_answer": "Porque erosão, sedimentação, clima, drenagem, reativações tectônicas e soerguimentos remodelam continuamente superfícies sobre substratos antigos.",
+      "source_index": 12,
+      "proposed_unit": "CE-GEO-11",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "tectonica-14",
+      "title": "Perfis topográficos e raciocínio estrutura → processo → forma",
+      "hook": "A questão mais difícil não diz o nome da forma: ela entrega pistas e espera que você reconstrua a gênese.",
+      "html_original": "<p>Ao ler um <b>perfil topográfico</b>, não comece pelo nome. Observe: altitude relativa, inclinação, ruptura de declive, posição de vales, relação com drenagem e possível controle estrutural. Depois pergunte qual combinação de processos é coerente.</p><div class=\"w\"><table><tr><th>Pista</th><th>Hipótese inicial</th><th>Teste</th></tr><tr><td>topo plano + borda escarpada</td><td>chapada</td><td>há camadas sub-horizontais e erosão diferencial?</td></tr><tr><td>frente íngreme + reverso suave</td><td>cuesta</td><td>camadas sedimentares inclinadas?</td></tr><tr><td>superfície rebaixada entre áreas mais altas</td><td>depressão</td><td>posição relativa + predomínio denudacional?</td></tr><tr><td>vale amplo com depósitos recentes</td><td>planície fluvial</td><td>acumulação e dinâmica de inundação?</td></tr><tr><td>alinhamento montanhoso + fossa + vulcões</td><td>margem convergente</td><td>há subducção?</td></tr></table></div><p>O raciocínio ideal combina <b>morfometria + litologia/estrutura + processos + tempo</b>. Esse método também ajuda a eliminar distratores que descrevem uma forma correta, mas atribuem mecanismo incompatível.</p><div class=\"box dia\"><span class=\"l\">Método de 20 segundos</span>1) descreva o que vê; 2) identifique o processo dominante; 3) conecte à estrutura; 4) só então dê o nome da forma.</div>",
+      "recall": "Use o método de 20 segundos para explicar uma chapada ou uma cuesta.",
+      "recall_answer": "Descrever forma; verificar estrutura/litologia; identificar erosão diferencial/denudação; conectar evolução e então nomear a feição.",
+      "source_index": 13,
+      "proposed_unit": "CE-GEO-03",
+      "status": "em_auditoria"
+    }
+  ],
+  "questions": [
+    {
+      "id": "GF-tectonica-diagnostico-1",
+      "section": "diagnostico",
+      "prompt": "As placas tectônicas correspondem apenas à crosta terrestre?",
+      "options": [
+        "Sim. Crosta e placa tectônica são sinônimos.",
+        "Não. As placas são porções rígidas da litosfera, formada pela crosta e pela parte superior rígida do manto.",
+        "Sim, porque o manto inteiro é líquido.",
+        "Não, porque as placas pertencem apenas à astenosfera."
+      ],
+      "correct_index": 1,
+      "explanation": "Placa tectônica é um bloco de litosfera. A astenosfera subjacente é mecanicamente mais dúctil e permite o movimento em escalas geológicas.",
+      "option_feedback": [
+        "Crosta é apenas parte da litosfera.",
+        "Correto: placa = litosfera, não apenas crosta.",
+        "O manto não é um oceano global de magma; em grande parte é sólido e flui lentamente.",
+        "A astenosfera fica abaixo da litosfera e não constitui as placas."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-tectonica-diagnostico-2",
+      "section": "diagnostico",
+      "prompt": "A Falha de San Andreas é o exemplo clássico de qual limite de placas?",
+      "options": [
+        "divergente",
+        "transformante",
+        "convergente com subducção",
+        "colisão continental"
+      ],
+      "correct_index": 1,
+      "explanation": "Em limites transformantes, placas deslizam lateralmente; predominam falhamento e sismos rasos, sem criação ou destruição sistemática de litosfera.",
+      "option_feedback": [
+        "Divergência cria nova litosfera em centros de expansão.",
+        "Correto.",
+        "Subducção envolve mergulho de uma placa sob outra.",
+        "Colisão continental gera espessamento crustal, como no Himalaia."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-tectonica-diagnostico-3",
+      "section": "diagnostico",
+      "prompt": "Na classificação de Jurandyr Ross, qual conjunto reúne as três grandes formas usadas na compartimentação do relevo brasileiro?",
+      "options": [
+        "planaltos, depressões e planícies",
+        "montanhas, vales e deltas",
+        "escudos, bacias e dobramentos",
+        "serras, chapadas e tabuleiros"
+      ],
+      "correct_index": 0,
+      "explanation": "Ross organiza o relevo em planaltos, depressões e planícies, articulando estrutura, modelado e processos.",
+      "option_feedback": [
+        "Correto.",
+        "São formas específicas, não as três categorias principais da classificação.",
+        "São estruturas geológicas, não categorias de relevo da classificação de Ross.",
+        "São feições importantes, mas não as três categorias principais."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-tectonica-tectonica-01-1",
+      "section": "tectonica-01",
+      "prompt": "Um mapa mostra duas placas deslizando horizontalmente uma em relação à outra e concentração de sismos rasos. O limite é:",
+      "options": [
+        "divergente",
+        "transformante",
+        "convergente oceano-continente",
+        "colisão continente-continente"
+      ],
+      "correct_index": 1,
+      "explanation": "Movimento lateral relativo caracteriza limite transformante.",
+      "option_feedback": [
+        "Divergência é afastamento.",
+        "Correto.",
+        "Subducção envolve convergência.",
+        "Colisão continental envolve compressão e espessamento crustal."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-tectonica-tectonica-01-2",
+      "section": "tectonica-01",
+      "prompt": "Qual sequência expressa melhor o raciocínio geomorfológico?",
+      "options": [
+        "forma → nome → memorização",
+        "estrutura/processo → ação ao longo do tempo → forma observada",
+        "altitude → clima → qualquer relevo",
+        "rocha → relevo, sem influência de agentes externos"
+      ],
+      "correct_index": 1,
+      "explanation": "O relevo resulta da interação entre estrutura, tectônica, litologia, clima e processos de modelagem ao longo do tempo.",
+      "option_feedback": [
+        "É descritivo demais.",
+        "Correto.",
+        "Altitude sozinha não explica a gênese.",
+        "Agentes externos também modelam o relevo."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-tectonica-tectonica-02-1",
+      "section": "tectonica-02",
+      "prompt": "Qual alternativa descreve corretamente a litosfera?",
+      "options": [
+        "Somente a crosta continental.",
+        "Crosta + porção superior rígida do manto.",
+        "Todo o manto, por ser sólido.",
+        "Apenas a astenosfera parcialmente fundida."
+      ],
+      "correct_index": 1,
+      "explanation": "A litosfera é uma camada mecânica rígida formada pela crosta e pelo topo rígido do manto.",
+      "option_feedback": [
+        "Restrita demais.",
+        "Correto.",
+        "O manto possui diferentes comportamentos mecânicos.",
+        "A astenosfera é a camada dúctil abaixo da litosfera."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-tectonica-tectonica-02-2",
+      "section": "tectonica-02",
+      "prompt": "A ausência de propagação de ondas S através do núcleo externo é evidência de que ele é:",
+      "options": [
+        "gasoso",
+        "líquido",
+        "totalmente rígido",
+        "idêntico ao manto"
+      ],
+      "correct_index": 1,
+      "explanation": "Ondas S são de cisalhamento e não se propagam em líquidos.",
+      "option_feedback": [
+        "Não é a interpretação sísmica.",
+        "Correto.",
+        "Se fosse rígido, S poderia atravessar.",
+        "Manto e núcleo têm composição e comportamento distintos."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-tectonica-tectonica-03-1",
+      "section": "tectonica-03",
+      "prompt": "Uma intrusão ígnea corta uma sequência de camadas sedimentares. Pela datação relativa, a intrusão é:",
+      "options": [
+        "mais antiga que todas as camadas",
+        "mais recente que as camadas que corta",
+        "necessariamente da mesma idade",
+        "impossível de ordenar"
+      ],
+      "correct_index": 1,
+      "explanation": "Pelo princípio das relações de corte, a estrutura que corta outra é posterior a ela.",
+      "option_feedback": [
+        "Inverte a relação.",
+        "Correto.",
+        "Não há necessidade de mesma idade.",
+        "A relação permite ordenação relativa."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-tectonica-tectonica-03-2",
+      "section": "tectonica-03",
+      "prompt": "Qual afirmação é mais precisa?",
+      "options": [
+        "Escudos antigos mantêm exatamente o mesmo relevo desde o Pré-Cambriano.",
+        "Substrato geológico antigo pode sustentar formas de relevo retrabalhadas por processos posteriores.",
+        "Todo relevo montanhoso é cenozoico.",
+        "Tempo geológico serve apenas para fósseis."
+      ],
+      "correct_index": 1,
+      "explanation": "Forma e substrato podem ter idades distintas; o relevo é continuamente retrabalhado.",
+      "option_feedback": [
+        "Relevo muda ao longo do tempo.",
+        "Correto.",
+        "Há relevos elevados em estruturas antigas.",
+        "O tempo geológico organiza toda a história terrestre."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-tectonica-tectonica-04-1",
+      "section": "tectonica-04",
+      "prompt": "Em uma dorsal mesoceânica, a principal dinâmica é:",
+      "options": [
+        "subducção de crosta continental",
+        "formação de nova litosfera oceânica por divergência",
+        "colisão de continentes",
+        "deslizamento lateral sem magmatismo"
+      ],
+      "correct_index": 1,
+      "explanation": "Dorsais são centros de expansão onde magma ascende e forma nova crosta oceânica.",
+      "option_feedback": [
+        "Não descreve dorsal.",
+        "Correto.",
+        "Colisão forma cinturões orogênicos.",
+        "Transformância não define a dorsal."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-tectonica-tectonica-04-2",
+      "section": "tectonica-04",
+      "prompt": "Em um limite transformante típico:",
+      "options": [
+        "a litosfera é criada em grande quantidade",
+        "uma placa necessariamente mergulha sob a outra",
+        "predomina movimento lateral relativo e sismicidade",
+        "forma-se sempre um arco vulcânico"
+      ],
+      "correct_index": 2,
+      "explanation": "Falhas transformantes acomodam deslizamento lateral e são fortemente sísmicas.",
+      "option_feedback": [
+        "Isso é divergência.",
+        "Isso é subducção.",
+        "Correto.",
+        "Vulcanismo não é consequência necessária."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-tectonica-tectonica-05-1",
+      "section": "tectonica-05",
+      "prompt": "Qual associação está correta?",
+      "options": [
+        "Andes — divergência continental",
+        "Himalaia — subducção oceânica sob continente",
+        "Andes — subducção da placa de Nazca sob a Sul-Americana",
+        "San Andreas — colisão continente-continente"
+      ],
+      "correct_index": 2,
+      "explanation": "Os Andes relacionam-se à convergência e subducção da placa de Nazca sob a placa Sul-Americana.",
+      "option_feedback": [
+        "Não.",
+        "Himalaia é colisão continental.",
+        "Correto.",
+        "San Andreas é transformante."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-tectonica-tectonica-05-2",
+      "section": "tectonica-05",
+      "prompt": "Em uma colisão continente–continente como a do Himalaia, espera-se principalmente:",
+      "options": [
+        "espessamento crustal e soerguimento",
+        "criação de nova crosta oceânica",
+        "formação de dorsal mesoceânica",
+        "ausência de sismos"
+      ],
+      "correct_index": 0,
+      "explanation": "Compressão de crosta continental promove dobramentos, falhas, espessamento e soerguimento.",
+      "option_feedback": [
+        "Correto.",
+        "É divergência oceânica.",
+        "Também divergência.",
+        "Colisões continentais são sísmicas."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-tectonica-tectonica-06-1",
+      "section": "tectonica-06",
+      "prompt": "Qual par está correto?",
+      "options": [
+        "hipocentro — projeção superficial; epicentro — origem em profundidade",
+        "hipocentro — origem em profundidade; epicentro — projeção na superfície",
+        "magnitude — efeitos locais; intensidade — energia total",
+        "onda S — atravessa líquidos com facilidade"
+      ],
+      "correct_index": 1,
+      "explanation": "Hipocentro é o foco em profundidade; epicentro é sua projeção na superfície.",
+      "option_feedback": [
+        "Invertidos.",
+        "Correto.",
+        "Magnitude e intensidade também estão invertidas.",
+        "S não atravessa líquidos."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-tectonica-tectonica-06-2",
+      "section": "tectonica-06",
+      "prompt": "Sobre sismos no Brasil, a formulação mais precisa é:",
+      "options": [
+        "não ocorrem porque não há limite de placas no território",
+        "podem ocorrer intraplaca, inclusive por reativação de estruturas antigas sob tensões atuais",
+        "só ocorrem por vulcões ativos",
+        "são necessariamente mais fortes que os de borda de placa"
+      ],
+      "correct_index": 1,
+      "explanation": "Sismicidade intraplaca existe, embora globalmente eventos de borda sejam muito mais comuns.",
+      "option_feedback": [
+        "Absoluto incorreto.",
+        "Correto.",
+        "Não dependem de vulcanismo ativo.",
+        "Não há essa regra."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-tectonica-tectonica-07-1",
+      "section": "tectonica-07",
+      "prompt": "Em um hotspot oceânico persistente sob uma placa móvel, uma cadeia de ilhas vulcânicas pode registrar:",
+      "options": [
+        "a direção do movimento relativo da placa ao longo do tempo",
+        "a ausência total de movimento da placa",
+        "somente limites transformantes",
+        "necessariamente subducção"
+      ],
+      "correct_index": 0,
+      "explanation": "A progressão espacial de idades pode indicar o movimento da placa sobre a fonte.",
+      "option_feedback": [
+        "Correto.",
+        "É o oposto.",
+        "Hotspot pode ser intraplaca.",
+        "Não exige subducção."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-tectonica-tectonica-07-2",
+      "section": "tectonica-07",
+      "prompt": "A fusão parcial em dorsais é favorecida principalmente por:",
+      "options": [
+        "aumento de pressão",
+        "descompressão durante ascensão do manto",
+        "congelamento do núcleo externo",
+        "erosão superficial"
+      ],
+      "correct_index": 1,
+      "explanation": "A queda de pressão durante a ascensão pode cruzar o solidus e gerar fusão parcial.",
+      "option_feedback": [
+        "Tende ao efeito oposto.",
+        "Correto.",
+        "Não explica magmatismo de dorsal.",
+        "Processo externo."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-tectonica-tectonica-08-1",
+      "section": "tectonica-08",
+      "prompt": "O gnaisse é classificado como rocha:",
+      "options": [
+        "ígnea extrusiva",
+        "sedimentar clástica",
+        "metamórfica",
+        "sedimentar química"
+      ],
+      "correct_index": 2,
+      "explanation": "Gnaisse se forma por metamorfismo de alto grau de protólitos variados, frequentemente graníticos.",
+      "option_feedback": [
+        "Basalto é exemplo extrusivo.",
+        "Arenito é exemplo clástico.",
+        "Correto.",
+        "Calcários/evaporitos podem ser químicos."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-tectonica-tectonica-08-2",
+      "section": "tectonica-08",
+      "prompt": "Qual afirmação sobre metamorfismo é correta?",
+      "options": [
+        "exige fusão completa da rocha",
+        "ocorre apenas na superfície",
+        "transforma a rocha no estado sólido por mudanças de pressão, temperatura e fluidos",
+        "é sinônimo de sedimentação"
+      ],
+      "correct_index": 2,
+      "explanation": "Metamorfismo altera minerais e textura sem fusão total.",
+      "option_feedback": [
+        "Fusão gera magma.",
+        "Pode ocorrer em profundidade significativa.",
+        "Correto.",
+        "São processos diferentes."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-tectonica-tectonica-09-1",
+      "section": "tectonica-09",
+      "prompt": "Uma rocha se decompõe quimicamente no local onde aflora, sem transporte do material. O processo dominante é:",
+      "options": [
+        "erosão",
+        "intemperismo químico",
+        "sedimentação",
+        "tectonismo"
+      ],
+      "correct_index": 1,
+      "explanation": "Alteração in situ da composição mineral caracteriza intemperismo químico.",
+      "option_feedback": [
+        "Erosão pressupõe remoção/transporte.",
+        "Correto.",
+        "Sedimentação é deposição.",
+        "Tectonismo é processo endógeno."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-tectonica-tectonica-09-2",
+      "section": "tectonica-09",
+      "prompt": "Quando a velocidade de um rio diminui e parte da carga deixa de ser transportada, tende a ocorrer:",
+      "options": [
+        "subducção",
+        "metamorfismo",
+        "sedimentação",
+        "rifteamento"
+      ],
+      "correct_index": 2,
+      "explanation": "Queda da competência/capacidade de transporte favorece deposição.",
+      "option_feedback": [
+        "Não relacionado.",
+        "Não relacionado.",
+        "Correto.",
+        "Processo tectônico."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-tectonica-tectonica-10-1",
+      "section": "tectonica-10",
+      "prompt": "Qual afirmação é correta?",
+      "options": [
+        "Bacia sedimentar é, por definição, uma planície.",
+        "Estrutura geológica e forma de relevo são conceitos diferentes.",
+        "Escudo cristalino é sempre a área mais alta do relevo.",
+        "O Brasil não registra qualquer atividade sísmica."
+      ],
+      "correct_index": 1,
+      "explanation": "Uma mesma estrutura pode apresentar formas distintas conforme processos e história de modelagem.",
+      "option_feedback": [
+        "Confunde estrutura e forma.",
+        "Correto.",
+        "Altitude não define escudo.",
+        "Há sismicidade intraplaca."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-tectonica-tectonica-10-2",
+      "section": "tectonica-10",
+      "prompt": "A ausência de dobramentos modernos no Brasil relaciona-se principalmente:",
+      "options": [
+        "à posição no interior da placa Sul-Americana, distante de margens convergentes ativas",
+        "à inexistência de rochas antigas",
+        "à falta de erosão",
+        "ao predomínio absoluto de planícies"
+      ],
+      "correct_index": 0,
+      "explanation": "O território brasileiro está longe das grandes margens orogênicas atuais da placa.",
+      "option_feedback": [
+        "Correto.",
+        "Há vastos terrenos antigos.",
+        "Erosão é intensa e importante.",
+        "O relevo brasileiro inclui planaltos e depressões extensos."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-tectonica-tectonica-11-1",
+      "section": "tectonica-11",
+      "prompt": "Uma área está a 300 m de altitude, mas é dominada por deposição fluvial recente. Pelo critério processual, ela pode ser:",
+      "options": [
+        "necessariamente planalto",
+        "planície",
+        "escudo cristalino por definição",
+        "limite transformante"
+      ],
+      "correct_index": 1,
+      "explanation": "Processo dominante pode definir planície independentemente de um corte altimétrico simples.",
+      "option_feedback": [
+        "Altura isolada não basta.",
+        "Correto.",
+        "Estrutura não é definida pela altitude.",
+        "Não relacionado."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-tectonica-tectonica-11-2",
+      "section": "tectonica-11",
+      "prompt": "Uma depressão relativa:",
+      "options": [
+        "deve estar abaixo do nível do mar",
+        "está rebaixada em relação ao entorno",
+        "é sempre uma bacia sedimentar",
+        "é sinônimo de vale fluvial"
+      ],
+      "correct_index": 1,
+      "explanation": "“Relativa” descreve a posição topográfica em relação às áreas adjacentes.",
+      "option_feedback": [
+        "Isso define depressão absoluta.",
+        "Correto.",
+        "Pode ocorrer sobre estruturas diferentes.",
+        "Vale é outra forma."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-tectonica-tectonica-12-1",
+      "section": "tectonica-12",
+      "prompt": "Qual associação está correta?",
+      "options": [
+        "Aroldo de Azevedo — classificação centrada em tectônica de placas",
+        "Aziz Ab’Sáber — distinção processual entre áreas erosivas e deposicionais",
+        "Jurandyr Ross — apenas duas categorias: planalto e planície",
+        "Ross — rejeição dos dados do RADAMBRASIL"
+      ],
+      "correct_index": 1,
+      "explanation": "Ab’Sáber desloca a classificação do simples corte altimétrico para a dinâmica geomorfológica.",
+      "option_feedback": [
+        "Não.",
+        "Correto.",
+        "Ross inclui depressões.",
+        "Ross utilizou amplamente dados do RADAMBRASIL."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-tectonica-tectonica-12-2",
+      "section": "tectonica-12",
+      "prompt": "Na classificação de Ross, o primeiro nível mais amplo é composto por:",
+      "options": [
+        "planaltos, depressões e planícies",
+        "serras, vales e dunas",
+        "escudos, bacias e falhas",
+        "Andes, Himalaia e Alpes"
+      ],
+      "correct_index": 0,
+      "explanation": "As três grandes categorias são planaltos, depressões e planícies.",
+      "option_feedback": [
+        "Correto.",
+        "Feições variadas.",
+        "Estruturas geológicas.",
+        "Cadeias montanhosas."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-tectonica-tectonica-13-1",
+      "section": "tectonica-13",
+      "prompt": "A frase “a Amazônia é uma grande planície sedimentar” é:",
+      "options": [
+        "precisa para toda a região",
+        "uma simplificação excessiva, porque estrutura sedimentar e forma de relevo não são equivalentes e há planaltos/depressões",
+        "correta porque toda bacia é planície",
+        "correta apenas por estar em baixa latitude"
+      ],
+      "correct_index": 1,
+      "explanation": "A região amazônica reúne várias unidades de relevo e diferentes estruturas.",
+      "option_feedback": [
+        "Generaliza demais.",
+        "Correto.",
+        "Bacia sedimentar não define uma única forma topográfica.",
+        "Latitude não resolve a classificação."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-tectonica-tectonica-13-2",
+      "section": "tectonica-13",
+      "prompt": "Qual afirmação melhor descreve o relevo brasileiro?",
+      "options": [
+        "É dominado por dobramentos modernos ativos.",
+        "Resulta da interação de estruturas antigas com longos processos de erosão, sedimentação e movimentos crustais.",
+        "É composto apenas de planícies e planaltos, sem depressões.",
+        "É tectonicamente incapaz de registrar soerguimentos e falhas."
+      ],
+      "correct_index": 1,
+      "explanation": "A paisagem integra herança estrutural antiga e modelagem contínua.",
+      "option_feedback": [
+        "Não há cordilheiras jovens equivalentes aos Andes.",
+        "Correto.",
+        "Depressões são extensas.",
+        "Há deformações e reativações."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-tectonica-tectonica-14-1",
+      "section": "tectonica-14",
+      "prompt": "Um perfil mostra camadas sedimentares levemente inclinadas, com uma vertente abrupta e outra longa e suave. A forma mais compatível é:",
+      "options": [
+        "dorsal oceânica",
+        "cuesta",
+        "fossa tectônica oceânica",
+        "delta"
+      ],
+      "correct_index": 1,
+      "explanation": "Cuestas apresentam relevo assimétrico ligado à erosão diferencial em camadas inclinadas.",
+      "option_feedback": [
+        "Ambiente marinho divergente.",
+        "Correto.",
+        "Fossa é subducção.",
+        "Delta é deposição na foz."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-tectonica-tectonica-14-2",
+      "section": "tectonica-14",
+      "prompt": "Ao interpretar um perfil de relevo, qual procedimento é mais robusto?",
+      "options": [
+        "nomear pela altitude apenas",
+        "combinar geometria da forma, estrutura/litologia e processos atuantes",
+        "ignorar a drenagem",
+        "assumir que qualquer escarpa é falha ativa"
+      ],
+      "correct_index": 1,
+      "explanation": "A gênese geomorfológica exige integração de evidências.",
+      "option_feedback": [
+        "Altitude isolada é insuficiente.",
+        "Correto.",
+        "Drenagem é pista essencial.",
+        "Escarpas podem ter várias origens."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "fixacao_ou_adaptacao"
+    },
+    {
+      "id": "GF-tectonica-desafio-1",
+      "section": "desafio",
+      "prompt": "(Tectônica) Um esquema mostra fossa oceânica, terremotos que aumentam de profundidade para o interior do continente e arco vulcânico continental. O ambiente é:",
+      "options": [
+        "limite transformante",
+        "dorsal mesoceânica",
+        "subducção oceano–continente",
+        "colisão continente–continente sem subducção oceânica",
+        "hotspot intraplaca"
+      ],
+      "correct_index": 2,
+      "explanation": "Fossa + plano sísmico inclinado + arco continental é assinatura de subducção oceano–continente.",
+      "option_feedback": [
+        "Transformante gera deslizamento lateral.",
+        "Dorsal é divergente.",
+        "Correto.",
+        "Colisão continental não produz a mesma combinação de fossa e arco de subducção.",
+        "Hotspot não exige fossa."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "candidato_treino_objetivo"
+    },
+    {
+      "id": "GF-tectonica-desafio-2",
+      "section": "desafio",
+      "prompt": "(Ondas sísmicas) Uma camada terrestre deixa passar ondas P, mas não ondas S. A inferência mais consistente é:",
+      "options": [
+        "a camada é necessariamente gasosa",
+        "a camada apresenta comportamento líquido",
+        "P e S têm a mesma natureza",
+        "a camada é a litosfera rígida",
+        "não é possível inferir estado físico"
+      ],
+      "correct_index": 1,
+      "explanation": "S não se propaga em líquidos; P pode atravessar sólidos e líquidos.",
+      "option_feedback": [
+        "Gasoso não é a inferência necessária.",
+        "Correto.",
+        "São modos distintos.",
+        "Litosfera transmite S.",
+        "A observação é diagnóstica."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "candidato_treino_objetivo"
+    },
+    {
+      "id": "GF-tectonica-desafio-3",
+      "section": "desafio",
+      "prompt": "(Relevo brasileiro) Uma questão enfatiza áreas em que erosão predomina sobre sedimentação e contrapõe áreas de acumulação. Essa chave remete sobretudo à inovação de:",
+      "options": [
+        "Aroldo de Azevedo",
+        "Aziz Ab’Sáber",
+        "Wegener",
+        "Tuzo Wilson",
+        "Köppen"
+      ],
+      "correct_index": 1,
+      "explanation": "Ab’Sáber enfatizou a dinâmica erosão versus sedimentação na distinção entre planaltos e planícies.",
+      "option_feedback": [
+        "Azevedo é associado ao critério altimétrico clássico.",
+        "Correto.",
+        "Wegener formulou deriva continental.",
+        "Wilson contribuiu à tectônica/transformantes.",
+        "Köppen é climatologia."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "candidato_treino_objetivo"
+    },
+    {
+      "id": "GF-tectonica-desafio-4",
+      "section": "desafio",
+      "prompt": "(Ross) Qual conjunto pertence ao primeiro nível mais amplo de sua compartimentação do relevo brasileiro?",
+      "options": [
+        "planaltos, depressões e planícies",
+        "crátons, bacias e placas",
+        "chapadas, cuestas e deltas",
+        "serras, falhas e vulcões",
+        "escudos, fossas e dorsais"
+      ],
+      "correct_index": 0,
+      "explanation": "Ross trabalha com as grandes categorias planaltos, depressões e planícies.",
+      "option_feedback": [
+        "Correto.",
+        "Mistura estruturas.",
+        "São feições específicas.",
+        "Mistura formas e estruturas.",
+        "Não corresponde ao sistema."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "candidato_treino_objetivo"
+    },
+    {
+      "id": "GF-tectonica-desafio-5",
+      "section": "desafio",
+      "prompt": "(Integração) Um candidato afirma: “O Brasil não tem terremotos porque está no interior de uma placa e, portanto, é tectonicamente inativo.” A avaliação correta é:",
+      "options": [
+        "correta em todos os aspectos",
+        "incorreta: sismos intraplaca podem ocorrer por tensões atuais e reativação de estruturas antigas",
+        "correta apenas porque não há vulcões ativos",
+        "incorreta porque o Brasil está sobre uma margem convergente",
+        "correta porque ondas sísmicas não atravessam o cráton"
+      ],
+      "correct_index": 1,
+      "explanation": "Interior de placa reduz a frequência de grandes eventos de borda, mas não elimina sismicidade nem deformação.",
+      "option_feedback": [
+        "Absolutiza estabilidade.",
+        "Correto.",
+        "Ausência de vulcanismo de arco não elimina sismos.",
+        "O Brasil não está em margem convergente ativa.",
+        "Ondas atravessam materiais crustais."
+      ],
+      "origin": "autoral legado SEDUC-PA; não oficial FCC",
+      "status": "em_auditoria",
+      "use": "candidato_treino_objetivo"
+    }
+  ],
+  "cards": [
+    {
+      "id": "GF-tectonica-FC1",
+      "category": "Fundamentos",
+      "front": "Crosta x litosfera?",
+      "back": "Crosta é composicional; litosfera = crosta + topo rígido do manto.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-tectonica-FC2",
+      "category": "Fundamentos",
+      "front": "Astenosfera?",
+      "back": "Zona dúctil do manto superior abaixo da litosfera; majoritariamente sólida.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-tectonica-FC3",
+      "category": "Fundamentos",
+      "front": "Núcleo externo?",
+      "back": "Camada líquida; bloqueia ondas S e reduz a velocidade das P.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-tectonica-FC4",
+      "category": "Fundamentos",
+      "front": "Núcleo interno?",
+      "back": "Parte central sólida, dominada por ferro e níquel.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-tectonica-FC5",
+      "category": "Fundamentos",
+      "front": "Descontinuidade de Moho?",
+      "back": "Limite sísmico entre crosta e manto.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-tectonica-FC6",
+      "category": "Fundamentos",
+      "front": "Ondas P?",
+      "back": "Compressionais; mais rápidas; atravessam sólidos e líquidos.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-tectonica-FC7",
+      "category": "Fundamentos",
+      "front": "Ondas S?",
+      "back": "Cisalhamento; não atravessam líquidos.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-tectonica-FC8",
+      "category": "Tempo geológico",
+      "front": "Datação relativa?",
+      "back": "Ordena eventos sem fornecer idade numérica absoluta.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-tectonica-FC9",
+      "category": "Tempo geológico",
+      "front": "Relação de corte?",
+      "back": "Estrutura que corta outra é posterior à estrutura cortada.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-tectonica-FC10",
+      "category": "Tectônica",
+      "front": "Limite divergente?",
+      "back": "Placas se afastam; nova litosfera oceânica pode ser criada.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-tectonica-FC11",
+      "category": "Tectônica",
+      "front": "Limite convergente?",
+      "back": "Placas se aproximam; pode haver subducção ou colisão continental.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-tectonica-FC12",
+      "category": "Tectônica",
+      "front": "Limite transformante?",
+      "back": "Placas deslizam lateralmente; forte sismicidade, sem balanço de criação/destruição.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-tectonica-FC13",
+      "category": "Tectônica",
+      "front": "Rifte continental?",
+      "back": "Estiramento da litosfera continental; pode anteceder abertura oceânica.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-tectonica-FC14",
+      "category": "Tectônica",
+      "front": "Subducção?",
+      "back": "Mergulho de uma placa, geralmente oceânica e mais densa, sob outra.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-tectonica-FC15",
+      "category": "Tectônica",
+      "front": "Andes: mecanismo-chave?",
+      "back": "Subducção da placa de Nazca sob a placa Sul-Americana.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-tectonica-FC16",
+      "category": "Tectônica",
+      "front": "Himalaia: mecanismo-chave?",
+      "back": "Colisão continente–continente e espessamento crustal.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-tectonica-FC17",
+      "category": "Sismos",
+      "front": "Hipocentro?",
+      "back": "Ponto em profundidade onde começa a ruptura sísmica.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-tectonica-FC18",
+      "category": "Sismos",
+      "front": "Epicentro?",
+      "back": "Projeção do hipocentro na superfície.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-tectonica-FC19",
+      "category": "Sismos",
+      "front": "Magnitude x intensidade?",
+      "back": "Magnitude = tamanho/energia; intensidade = efeitos observados localmente.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-tectonica-FC20",
+      "category": "Sismos",
+      "front": "Sismo intraplaca?",
+      "back": "Evento no interior da placa, possível por reativação de zonas de fraqueza.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-tectonica-FC21",
+      "category": "Vulcanismo",
+      "front": "Hotspot?",
+      "back": "Fonte térmica localizada que pode gerar vulcanismo intraplaca.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-tectonica-FC22",
+      "category": "Vulcanismo",
+      "front": "Fusão em dorsal?",
+      "back": "Descompressão do manto ascendente favorece fusão parcial.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-tectonica-FC23",
+      "category": "Vulcanismo",
+      "front": "Fusão em subducção?",
+      "back": "Voláteis da placa descendente reduzem o ponto de fusão do manto.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-tectonica-FC24",
+      "category": "Rochas",
+      "front": "Mineral x rocha?",
+      "back": "Mineral tem composição/estrutura próprias; rocha é agregado de minerais/material.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-tectonica-FC25",
+      "category": "Rochas",
+      "front": "Granito?",
+      "back": "Rocha ígnea intrusiva, de resfriamento lento.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-tectonica-FC26",
+      "category": "Rochas",
+      "front": "Basalto?",
+      "back": "Rocha ígnea extrusiva, comum em derrames e crosta oceânica.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-tectonica-FC27",
+      "category": "Rochas",
+      "front": "Arenito?",
+      "back": "Rocha sedimentar clástica litificada a partir de areia.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-tectonica-FC28",
+      "category": "Rochas",
+      "front": "Calcário?",
+      "back": "Rocha sedimentar carbonática, química e/ou biogênica.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-tectonica-FC29",
+      "category": "Rochas",
+      "front": "Gnaisse?",
+      "back": "Rocha metamórfica frequentemente bandada, de metamorfismo elevado.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-tectonica-FC30",
+      "category": "Rochas",
+      "front": "Metamorfismo?",
+      "back": "Transformação no estado sólido por pressão, temperatura e fluidos.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-tectonica-FC31",
+      "category": "Exógenos",
+      "front": "Intemperismo?",
+      "back": "Alteração/desagregação da rocha in situ.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-tectonica-FC32",
+      "category": "Exógenos",
+      "front": "Erosão?",
+      "back": "Remoção e transporte de material por agentes externos.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-tectonica-FC33",
+      "category": "Exógenos",
+      "front": "Sedimentação?",
+      "back": "Deposição do material quando a energia de transporte diminui.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-tectonica-FC34",
+      "category": "Exógenos",
+      "front": "Intemperismo químico em clima quente/úmido?",
+      "back": "Em geral é favorecido por água e temperaturas elevadas.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-tectonica-FC35",
+      "category": "Estruturas",
+      "front": "Cráton/escudo?",
+      "back": "Núcleo continental antigo e relativamente estável; escudo é a parte exposta.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-tectonica-FC36",
+      "category": "Estruturas",
+      "front": "Bacia sedimentar?",
+      "back": "Depressão estrutural com acumulação prolongada de sedimentos.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-tectonica-FC37",
+      "category": "Estruturas",
+      "front": "Estrutura geológica = relevo?",
+      "back": "Não. Uma mesma estrutura pode sustentar várias formas de relevo.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-tectonica-FC38",
+      "category": "Brasil",
+      "front": "Dobramentos modernos no Brasil?",
+      "back": "Não há cadeias jovens ativas comparáveis aos Andes dentro do território.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-tectonica-FC39",
+      "category": "Relevo",
+      "front": "Planalto no critério processual?",
+      "back": "Área em que predomina denudação/erosão sobre acumulação.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-tectonica-FC40",
+      "category": "Relevo",
+      "front": "Planície no critério processual?",
+      "back": "Área em que predomina acumulação sedimentar recente.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-tectonica-FC41",
+      "category": "Relevo",
+      "front": "Depressão relativa?",
+      "back": "Área rebaixada em relação ao entorno, ainda que acima do nível do mar.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-tectonica-FC42",
+      "category": "Relevo",
+      "front": "Depressão absoluta?",
+      "back": "Área situada abaixo do nível médio do mar.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-tectonica-FC43",
+      "category": "Relevo",
+      "front": "Chapada?",
+      "back": "Superfície de topo plano e bordas escarpadas, comum em estruturas sedimentares.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-tectonica-FC44",
+      "category": "Relevo",
+      "front": "Cuesta?",
+      "back": "Relevo assimétrico: frente íngreme e reverso suave em camadas inclinadas.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-tectonica-FC45",
+      "category": "Autores",
+      "front": "Aroldo de Azevedo: chave?",
+      "back": "Critério altimétrico clássico para planaltos e planícies.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-tectonica-FC46",
+      "category": "Autores",
+      "front": "Aziz Ab’Sáber: chave?",
+      "back": "Processos: erosão/denudação x sedimentação.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-tectonica-FC47",
+      "category": "Autores",
+      "front": "Jurandyr Ross: chave?",
+      "back": "Integra estrutura e modelado; planaltos, depressões e planícies; RADAMBRASIL.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-tectonica-FC48",
+      "category": "Brasil",
+      "front": "Amazônia = grande planície?",
+      "back": "Não. Há planícies fluviais, depressões e planaltos.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-tectonica-FC49",
+      "category": "Leitura",
+      "front": "Perfil topográfico: primeiro passo?",
+      "back": "Descrever geometria e posição antes de nomear a forma.",
+      "status": "em_auditoria"
+    },
+    {
+      "id": "GF-tectonica-FC50",
+      "category": "Leitura",
+      "front": "Regra de ouro do tema?",
+      "back": "Estrutura + processo + tempo explicam a forma; altitude sozinha não basta.",
+      "status": "em_auditoria"
+    }
+  ],
+  "source_links": [
+    "https://www.sgb.gov.br/estrutura-interna-da-terra",
+    "https://www.ibge.gov.br/geociencias/informacoes-ambientais/geomorfologia/15827-unidades-de-relevo.html",
+    "https://www.ibge.gov.br/geociencias/informacoes-ambientais/geomorfologia/28098-sistema-brasileiro-de-classificacao-de-relevo.html"
+  ],
+  "notes": "HTML preservado como fonte; não renderizar HTML bruto. Remover afirmações de incidência FGV e exemplos exclusivamente paraenses, se fora do escopo. Revisar semântica, figuras, atualidade, direitos, unidades e feedbacks. Cinco alternativas não comprovam aderência FCC."
+}
