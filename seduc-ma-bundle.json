@@ -5,8 +5,8 @@
   "resumo_cobertura": {
     "total_unidades_edital": 45,
     "unidades_populadas": 45,
-    "total_questoes": 348,
-    "total_flashcards": 537
+    "total_questoes": 364,
+    "total_flashcards": 565
   },
   "edital": {
     "schema_version": "1.0.0",
@@ -11339,7 +11339,7 @@
           "referencia_abnt": "MARANHÃO. SEAD. Edital nº 01/2026 — SEAD/SEDUC-MA. São Luís: SEAD/FCC, 2026. p. 76.",
           "tipo": "edital",
           "nivel_autoridade": 1,
-          "url": "https://www.concursosfcc.com.br"
+          "url": "https://www.concursosfcc.com.br/concursos/seadm226/index.html"
         },
         {
           "referencia_abnt": "SANTOS, Milton; SILVEIRA, Maria Laura. O Brasil: Território e Sociedade no Início do Século XXI. Rio de Janeiro: Record, 2001.",
@@ -11350,54 +11350,79 @@
           "referencia_abnt": "GEIGER, Pedro Pinchas. Organização Regional do Brasil. Revista Brasileira de Geografia, IBGE, 1967.",
           "tipo": "bibliografia_academica",
           "nivel_autoridade": 5
+        },
+        {
+          "referencia_abnt": "IBGE. Divisões Regionais do Brasil: regiões imediatas e intermediárias, 2017. Consulta em 26 nov. 2026.",
+          "url": "https://www.ibge.gov.br/geociencias/cartas-e-mapas/redes-geograficas/15778-regic.html",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
+        },
+        {
+          "referencia_abnt": "MDIC. Comex Stat, base oficial de comércio exterior. Consulta em 26 nov. 2026.",
+          "url": "https://comexstat.mdic.gov.br/",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
         }
       ],
       "sintese_fcc": {
         "conceitos_nucleares": [
           {
-            "termo": "Complexos Regionais (Geiger, 1967)",
-            "definicao_precisa": "Amazônia, Nordeste e Centro-Sul — NÃO seguem fronteiras estaduais (ex.: oeste do Maranhão integra a Amazônia).",
-            "fonte": "GEIGER, 1967."
+            "termo": "Regionalizações",
+            "definicao_precisa": "IBGE: cinco regiões por estados; Geiger: complexos geoeconômicos; Santos e Silveira: quatro Brasis.",
+            "fonte": "IBGE; GEIGER; SANTOS e SILVEIRA."
           },
           {
-            "termo": "Quatro Brasis (Milton Santos & M. L. Silveira, 2001)",
-            "definicao_precisa": "Região Concentrada (SE+S), Centro-Oeste, Nordeste e Amazônia — critério: meio técnico-científico-informacional.",
-            "fonte": "SANTOS & SILVEIRA, 2001."
+            "termo": "Regiões de 2017",
+            "definicao_precisa": "Imediatas: cotidiano; intermediárias: gestão e serviços de maior alcance.",
+            "fonte": "IBGE, 2017."
           },
           {
-            "termo": "Desconcentração Industrial Relativa",
-            "definicao_precisa": "Saída de plantas fabris da metrópole paulista em busca de menores custos e incentivos fiscais, mantendo comando/P&D em SP.",
-            "fonte": "Geografia Econômica do Brasil."
+            "termo": "Desconcentração relativa",
+            "definicao_precisa": "Perda de participação de núcleo tradicional sem exigir queda absoluta da produção.",
+            "fonte": "Geografia econômica; exemplo hipotético."
+          },
+          {
+            "termo": "Reprimarização",
+            "definicao_precisa": "Aumento de participação de produtos primários nas exportações segundo recorte e período.",
+            "fonte": "MDIC, Comex Stat."
           }
         ],
         "pegadinhas_fcc": [
           {
-            "armadilha": "Dizer que os Complexos Regionais de Geiger respeitam limites estaduais",
-            "como_a_fcc_cobra": "Afirma que o Maranhão pertence integralmente ao Complexo Regional do Nordeste na divisão geoeconômica.",
-            "como_desarmar": "Na divisão de Geiger (1967), o oeste do Maranhão integra a Amazônia e o centro-leste integra o Nordeste."
+            "armadilha": "Confundir recortes",
+            "como_a_fcc_cobra": "Exemplo de distrator autoral: Maranhão integra o Nordeste em todos os modelos.",
+            "como_desarmar": "Identificar critério e finalidade de cada divisão."
+          },
+          {
+            "armadilha": "Confundir volume e participação",
+            "como_a_fcc_cobra": "Exemplo de distrator autoral: Queda de participação implica queda absoluta.",
+            "como_desarmar": "Calcular a razão entre parcela e total."
+          },
+          {
+            "armadilha": "Confundir substituição de importações e autarquia",
+            "como_a_fcc_cobra": "Exemplo de distrator autoral: Indústria nacional exclui capital ou máquinas estrangeiras.",
+            "como_desarmar": "A substituição é seletiva, não elimina todas as importações."
           }
         ],
         "quadro_comparativo": [
           {
-            "regionalizacao": "IBGE (1970/88)",
-            "divisoes": "5 Macrorregiões",
-            "limites_estaduais": "Sim (respeita)"
+            "modelo": "IBGE",
+            "criterio": "Estatístico; limites estaduais"
           },
           {
-            "regionalizacao": "Pedro P. Geiger (1967)",
-            "divisoes": "3 Complexos (Amazônia, NE, Centro-Sul)",
-            "limites_estaduais": "Não (cruza estados)"
+            "modelo": "Geiger",
+            "criterio": "Histórico-econômico; atravessa estados"
           },
           {
-            "regionalizacao": "Milton Santos (2001)",
-            "divisoes": "4 Brasis (Região Concentrada, CO, NE, Amazônia)",
-            "limites_estaduais": "Sim (respeita)"
+            "modelo": "Santos e Silveira",
+            "criterio": "Densidade técnico-científico-informacional"
           }
         ],
         "checklist_revisao": [
-          "Sei comparar IBGE, Geiger (3 Complexos) e Milton Santos (4 Brasis)?",
-          "Sei as fases da industrialização brasileira (Vargas, JK, Militar, Pós-1990)?",
-          "Sei explicar desconcentração industrial relativa e reprimarização das exportações?"
+          "Explico a formação territorial sem pressupor vazio demográfico?",
+          "Distingo as regionalizações clássicas, o quadro de 2017 e a Amazônia Legal?",
+          "Comparo as fases industriais e interpreto desconcentração relativa?",
+          "Sei ler valor, volume, participação e saldo comercial?"
         ]
       },
       "questoes": [
@@ -11453,19 +11478,19 @@
           "referencia_prova": "Inédita — padrão FCC / Edital SEDUC-MA 01/2026",
           "enunciado": "O fenômeno da 'desconcentração industrial relativa' observado no Brasil a partir do final do século XX caracteriza-se",
           "alternativas": {
-            "A": "pelo fechamento total de todas as indústrias no Sudeste e no Sul.",
-            "B": "pela transferência de plantas fabris da Região Metropolitana de São Paulo para o interior paulista e outros estados (atraídas por incentivos fiscais e menores custos), mantendo-se porém os centros de comando financeiro e P&D concentrados na metrópole paulista.",
-            "C": "pela proibição constitucional de instalação de fábricas fora do Estado de São Paulo.",
-            "D": "pelo retorno exclusivo à manufatura artesanal doméstica.",
-            "E": "pela concentração de 100% da produção nacional no bairro do Brás em São Paulo."
+            "A": "pela extinção da atividade fabril no Sudeste.",
+            "B": "pela redistribuição relativa de unidades produtivas, com persistência de concentrações de comando e inovação em centros tradicionais.",
+            "C": "pela homogeneização das condições industriais de todas as regiões.",
+            "D": "pela substituição generalizada das fábricas pela produção artesanal.",
+            "E": "pelo aumento obrigatório da participação paulista no total nacional."
           },
           "gabarito": "B",
-          "justificativa_gabarito": "Chama-se 'relativa' porque a produção fabril se espraia pelo território (guerra fiscal, custos trabalhistas/fundiários menores), mas o comando corporativo, financeiro e informacional segue concentrado em São Paulo.",
+          "justificativa_gabarito": "A produção pode crescer mais depressa em outras áreas, reduzindo a concentração relativa, sem deslocamento equivalente de todas as funções de comando.",
           "analise_distratores": {
-            "A": "O Sudeste segue como principal polo industrial.",
-            "C": "Falso.",
-            "D": "Absurdo.",
-            "E": "Descreve o início do séc. XX, não a desconcentração."
+            "A": "Perda de participação não exige extinção.",
+            "C": "Persistem diferenças de infraestrutura e especialização.",
+            "D": "O processo envolve reorganização industrial.",
+            "E": "A participação do núcleo tradicional pode cair."
           },
           "dificuldade": "intermediaria",
           "subtopico": "Geografia do espaço industrial brasileiro"
@@ -11483,7 +11508,7 @@
             "E": "Tratado de Petrópolis."
           },
           "gabarito": "B",
-          "justificativa_gabarito": "O Tratado de Madri (1750), negociado com participação decisiva de Alexandre de Gusmão, adotou o princípio do uti possidetis para redefinir as fronteiras na América do Sul.",
+          "justificativa_gabarito": "Madri (1750) empregou o uti possidetis e referências naturais na delimitação; foi revogado em 1761 e sucedido por outras negociações. Não fixou todas as fronteiras atuais.",
           "analise_distratores": {
             "A": "De 1494, anterior à interiorização.",
             "C": "Acordo comercial Inglaterra–Portugal (1703).",
@@ -11515,6 +11540,190 @@
           },
           "dificuldade": "basica",
           "subtopico": "Geografia do espaço industrial brasileiro"
+        },
+        {
+          "questao_id": "CE-GEO-12-EXP-Q001",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "Ao examinar a ocupação do território que viria a constituir o Brasil, uma interpretação geográfica historicamente adequada reconhece",
+          "alternativas": {
+            "A": "a inexistência de territorialidades antes da colonização.",
+            "B": "o controle português uniforme desde 1494.",
+            "C": "a coexistência de territorialidades indígenas, apropriação colonial e resistência, com diferentes vetores de interiorização.",
+            "D": "a mineração como causa exclusiva da ocupação de todas as regiões.",
+            "E": "a independência como origem de todos os núcleos urbanos."
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "A ocupação antecede a colonização; processos de conquista, resistência e interiorização foram diferenciados.",
+          "analise_distratores": {
+            "A": "Povos indígenas possuíam territórios.",
+            "B": "A partilha diplomática não assegurou controle efetivo.",
+            "D": "Houve pecuária, missões e outros vetores.",
+            "E": "Havia núcleos coloniais anteriores."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Ocupação, organização territorial e regionalizações do Brasil"
+        },
+        {
+          "questao_id": "CE-GEO-12-EXP-Q002",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "A divisão regional de 2017 do IBGE, ao delimitar regiões geográficas imediatas e intermediárias, considera sobretudo",
+          "alternativas": {
+            "A": "a uniformidade climática entre todos os municípios.",
+            "B": "a articulação dos centros urbanos, fluxos de serviços e funções de gestão.",
+            "C": "a substituição das unidades federativas por novos estados.",
+            "D": "a delimitação da bacia amazônica.",
+            "E": "a reprodução das divisões de Geiger."
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "A divisão de 2017 organiza relações urbanas e regionais em escalas funcionais distintas.",
+          "analise_distratores": {
+            "A": "Não é regionalização climática.",
+            "C": "Não cria entes federativos.",
+            "D": "Bacia é recorte hidrográfico.",
+            "E": "Os complexos têm outro critério."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Ocupação, organização territorial e regionalizações do Brasil"
+        },
+        {
+          "questao_id": "CE-GEO-12-EXP-Q003",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "A inclusão de parte do Maranhão na Amazônia Legal, embora o estado pertença ao Nordeste na divisão do IBGE, indica que",
+          "alternativas": {
+            "A": "o Maranhão integra integralmente a Região Norte.",
+            "B": "Amazônia Legal e bioma Amazônia possuem limites idênticos.",
+            "C": "os critérios de regionalização são contraditórios e um mapa precisa estar errado.",
+            "D": "um recorte de planejamento pode atravessar divisões estatísticas e não coincide necessariamente com recortes ecológicos.",
+            "E": "a bacia amazônica é delimitada por fronteiras estaduais."
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "Os recortes têm finalidades legais, estatísticas e ecológicas diferentes.",
+          "analise_distratores": {
+            "A": "A grande região é Nordeste.",
+            "B": "Os limites não coincidem.",
+            "C": "Critérios distintos podem coexistir.",
+            "E": "Bacias se delimitam pela drenagem."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Ocupação, organização territorial e regionalizações do Brasil"
+        },
+        {
+          "questao_id": "CE-GEO-12-EXP-Q004",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "Uma região produz 60 unidades de bens industriais de um total nacional de 100; depois, produz 72 de um total de 150. Conclui-se que",
+          "alternativas": {
+            "A": "a produção regional cresceu, mas sua participação caiu de 60% para 48%.",
+            "B": "a produção regional caiu 12 unidades.",
+            "C": "a participação regional aumentou 12 pontos percentuais.",
+            "D": "a indústria regional desapareceu.",
+            "E": "a participação permaneceu constante."
+          },
+          "gabarito": "A",
+          "justificativa_gabarito": "72/150 = 48%; a produção cresceu 12 unidades, mas a participação caiu 12 pontos percentuais.",
+          "analise_distratores": {
+            "B": "72 é maior que 60.",
+            "C": "Houve redução, não aumento.",
+            "D": "O volume aumentou.",
+            "E": "As participações são diferentes."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Geografia do espaço industrial brasileiro"
+        },
+        {
+          "questao_id": "CE-GEO-12-EXP-Q005",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "A substituição de importações, como processo histórico da industrialização brasileira, caracteriza-se pela",
+          "alternativas": {
+            "A": "proibição de toda importação de insumos.",
+            "B": "origem exclusiva durante o governo JK.",
+            "C": "ausência de políticas estatais de infraestrutura.",
+            "D": "produção apenas de bens agrícolas.",
+            "E": "ampliação da produção interna de bens antes importados, sem excluir a importação de máquinas e tecnologia."
+          },
+          "gabarito": "E",
+          "justificativa_gabarito": "Substituir certos produtos finais não significa autossuficiência em todas as etapas.",
+          "analise_distratores": {
+            "A": "Insumos e máquinas podiam ser importados.",
+            "B": "O processo antecedeu JK.",
+            "C": "O Estado atuou na infraestrutura.",
+            "D": "Envolve produção industrial."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Geografia do espaço industrial brasileiro"
+        },
+        {
+          "questao_id": "CE-GEO-12-EXP-Q006",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "Se o preço internacional de um produto primário sobe, sem alteração de sua quantidade exportada, seu valor na pauta comercial",
+          "alternativas": {
+            "A": "necessariamente cai.",
+            "B": "torna-se igual ao PIB.",
+            "C": "pode aumentar, elevando sua participação se os demais valores não acompanharem a alta.",
+            "D": "comprova crescimento da produção física.",
+            "E": "determina sozinho o saldo de serviços."
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "Valor combina preço e quantidade; participação depende também do total exportado.",
+          "analise_distratores": {
+            "A": "Preço maior não implica queda do valor.",
+            "B": "PIB mede valor adicionado.",
+            "D": "O volume ficou constante.",
+            "E": "Saldo de serviços é distinto."
+          },
+          "dificuldade": "avancada",
+          "subtopico": "Inserção brasileira na economia global"
+        },
+        {
+          "questao_id": "CE-GEO-12-EXP-Q007",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "Uma empresa instala uma fábrica em cidade média, mas mantém direção e pesquisa numa metrópole. Esse arranjo evidencia",
+          "alternativas": {
+            "A": "a inexistência de redes empresariais.",
+            "B": "a possibilidade de desconcentração produtiva sem dispersão equivalente das funções de comando.",
+            "C": "a perda de toda centralidade metropolitana.",
+            "D": "a proibição de inovação no interior.",
+            "E": "a igualdade das condições locacionais em todo o território."
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "Produção e gestão podem ocupar nós diferentes de uma mesma rede.",
+          "analise_distratores": {
+            "A": "A empresa articula uma rede.",
+            "C": "A metrópole conserva comando.",
+            "D": "Não existe essa proibição.",
+            "E": "Custos e redes diferem."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Geografia do espaço industrial brasileiro"
+        },
+        {
+          "questao_id": "CE-GEO-12-EXP-Q008",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "A ampliação de um corredor ferroviário-portuário para exportação de minério permite concluir, por si só, que",
+          "alternativas": {
+            "A": "toda a renda gerada será retida na área produtora.",
+            "B": "a indústria local se diversificará automaticamente.",
+            "C": "a desigualdade regional deixará de existir.",
+            "D": "a capacidade de circulação pode aumentar, sem garantia de encadeamentos locais ou distribuição de benefícios.",
+            "E": "o território ficará independente do mercado externo."
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "Infraestrutura facilita fluxos, mas desenvolvimento depende de apropriação, políticas e encadeamentos.",
+          "analise_distratores": {
+            "A": "Retenção depende das relações econômicas.",
+            "B": "Diversificação não é automática.",
+            "C": "Desigualdades podem persistir.",
+            "E": "O corredor conecta mercados externos."
+          },
+          "dificuldade": "avancada",
+          "subtopico": "Inserção brasileira na economia global"
         }
       ],
       "flashcards": [
@@ -11541,7 +11750,7 @@
         {
           "card_id": "CE-GEO-12-FC003",
           "frente": "O que foi o princípio do 'uti possidetis' no Tratado de Madri (1750)?",
-          "verso": "Princípio pelo qual a terra pertence a quem efetivamente a ocupa, legitimando a expansão portuguesa além de Tordesilhas.",
+          "verso": "Ocupação efetiva como critério de delimitação, combinada a referências naturais; não fixou definitivamente as fronteiras.",
           "tipo": "conceito",
           "tags": [
             "formacao-territorial"
@@ -11550,7 +11759,7 @@
         {
           "card_id": "CE-GEO-12-FC004",
           "frente": "Por que se fala em desconcentração industrial RELATIVA no Brasil?",
-          "verso": "Porque fábricas migram para outros estados/interior por custos e incentivos fiscais, mas o comando financeiro e P&D seguem concentrados em São Paulo.",
+          "verso": "A participação industrial de núcleos tradicionais pode cair, enquanto funções de comando permanecem concentradas; não exige queda absoluta.",
           "tipo": "conceito",
           "tags": [
             "industria-brasil"
@@ -11559,7 +11768,7 @@
         {
           "card_id": "CE-GEO-12-FC005",
           "frente": "O que significa 'reprimarização da pauta exportadora' brasileira?",
-          "verso": "Crescimento do peso de commodities primárias (soja, minério de ferro, petróleo, carnes) nas exportações em detrimento de manufaturados.",
+          "verso": "Aumento da participação relativa de produtos primários nas exportações, conforme classificação e período.",
           "tipo": "conceito",
           "tags": [
             "economia-brasil"
@@ -11574,9 +11783,149 @@
             "jk",
             "industrializacao"
           ]
+        },
+        {
+          "card_id": "CE-GEO-12-EXP-FC001",
+          "frente": "Por que o Brasil não era um território vazio antes da colonização?",
+          "verso": "Povos indígenas já ocupavam e transformavam ambientes, com territorialidades próprias.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-brasil",
+            "ce-geo-12"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-12-EXP-FC002",
+          "frente": "Quais vetores favoreceram a interiorização colonial?",
+          "verso": "Pecuária, mineração, expedições, missões, fortificações e comércio de produtos florestais.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-brasil",
+            "ce-geo-12"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-12-EXP-FC003",
+          "frente": "Madri (1750) fixou todas as fronteiras atuais?",
+          "verso": "Não. Foi revogado em 1761; outros acordos e disputas redefiniram limites.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-brasil",
+            "ce-geo-12"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-12-EXP-FC004",
+          "frente": "Qual tratado incorporou o Acre ao Brasil em 1903?",
+          "verso": "Tratado de Petrópolis, negociado com a Bolívia.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-brasil",
+            "ce-geo-12"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-12-EXP-FC005",
+          "frente": "O que distingue região imediata e intermediária do IBGE?",
+          "verso": "A imediata articula necessidades cotidianas; a intermediária, centros e funções de maior alcance.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-brasil",
+            "ce-geo-12"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-12-EXP-FC006",
+          "frente": "Amazônia Legal é sinônimo de bioma Amazônia?",
+          "verso": "Não. É recorte jurídico de planejamento; o bioma é recorte ecológico.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-brasil",
+            "ce-geo-12"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-12-EXP-FC007",
+          "frente": "Por que a indústria brasileira antecede 1930?",
+          "verso": "Mercado, capital cafeeiro, infraestrutura e trabalho já sustentavam atividade industrial.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-brasil",
+            "ce-geo-12"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-12-EXP-FC008",
+          "frente": "O que é substituição de importações?",
+          "verso": "Produção interna de bens antes importados; não exclui tecnologia e insumos externos.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-brasil",
+            "ce-geo-12"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-12-EXP-FC009",
+          "frente": "Qual foi o papel estatal no Plano de Metas?",
+          "verso": "Infraestrutura e energia, articuladas a investimentos privados nacionais e estrangeiros.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-brasil",
+            "ce-geo-12"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-12-EXP-FC010",
+          "frente": "Desconcentração relativa exige queda da produção absoluta?",
+          "verso": "Não. A produção pode crescer menos que o total nacional e perder participação.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-brasil",
+            "ce-geo-12"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-12-EXP-FC011",
+          "frente": "O que é desindustrialização?",
+          "verso": "Perda persistente de participação industrial em indicadores como produto ou emprego; não é mero deslocamento de fábricas.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-brasil",
+            "ce-geo-12"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-12-EXP-FC012",
+          "frente": "Por que o valor exportado pode subir sem aumento do volume?",
+          "verso": "O preço unitário pode aumentar.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-brasil",
+            "ce-geo-12"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-12-EXP-FC013",
+          "frente": "Como se calcula o saldo comercial de bens?",
+          "verso": "Valor das exportações menos valor das importações de bens.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-brasil",
+            "ce-geo-12"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-12-EXP-FC014",
+          "frente": "Um corredor de exportação garante desenvolvimento local?",
+          "verso": "Não. Depende de encadeamentos, apropriação de renda, políticas e impactos territoriais.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-brasil",
+            "ce-geo-12"
+          ]
         }
       ],
-      "teoria_md": "---\ntopico_id: CE-GEO-12\nslug: brasil-formacao-territorial-economia-industria\ntitulo: \"Formação Territorial, Regionalizações, Economia Global e Espaço Industrial Brasileiro\"\nedital: SEDUC-MA-01-2026\nbanca: FCC\nstatus: em_auditoria\n---\n\n# 1. Delimitação no Edital (Camada A)\n- **Itens explícitos (p. 76):** *A formação territorial do Brasil: ocupação, organização; regionalizações. A inserção brasileira na economia global. Geografia do espaço industrial brasileiro.*\n\n# 2. Formação Territorial e Regionalizações do Brasil\n- **Ocupação e Tratados:** do Tratado de Tordesilhas (1494) ao **Tratado de Madri (1750 — princípio do *uti possidetis*, Alexandre de Gusmão)**, passando pela expansão bandeirante, pecuária interiorana, drogas do sertão na Amazônia e incorporação do Acre (**Tratado de Petrópolis, 1903**).\n- **Três Regionalizações Clássicas do Brasil (Campeã de Prova FCC!):**\n  1. **5 Macrorregiões do IBGE (1970, atualizada em 1988):** Norte, Nordeste, Centro-Oeste, Sudeste e Sul. Respeita os **limites estaduais** para fins estatísticos e administrativos.\n  2. **3 Complexos Regionais / Geoeconômicos (Pedro Pinchas Geiger, 1967):** **Amazônia**, **Nordeste** e **Centro-Sul**. **NÃO respeita limites estaduais** — baseia-se na dinâmica histórico-econômica (ex.: oeste do Maranhão na Amazônia; norte de MG no Nordeste; sul do TO no Centro-Sul).\n  3. **4 Brasis (Milton Santos e Maria Laura Silveira, 2001):** **Região Concentrada** (Sudeste + Sul), **Centro-Oeste**, **Nordeste** e **Amazônia** — baseada na difusão do **meio técnico-científico-informacional** (respeita limites estaduais).\n\n# 3. Industrialização Brasileira e Desconcentração Relativa\n- **Fases:** (1) *Pré-1930:* surto incipiente ligado ao café (SP/RJ); (2) *Era Vargas (1930–1955):* substituição de importações e indústria de base estatal (CSN, Vale, Petrobras); (3) *JK (1956–1961):* Plano de Metas e internacionalização (tripé: Estado + capital nacional + multinacionais automotivas); (4) *Regime Militar (1964–1985):* \"Milagre Econômico\", grandes projetos de infraestrutura/mineração (Carajás, Itaipu, Zona Franca de Manaus); (5) *Pós-1990:* abertura comercial, privatizações, **desconcentração industrial relativa** do Sudeste/ABCD paulista rumo a cidades médias, Sul, Nordeste (guerra fiscal) e Centro-Oeste, mantendo porém o comando financeiro/P&D concentrado em São Paulo.\n- **Inserção Global:** reprimarização parcial da pauta exportadora no século XXI (soja, minério de ferro, petróleo, celulose, carnes — forte vínculo com a China), combinada a nichos industriais competitivos (Embraer, agroindústria, energia).\n"
+      "teoria_md": "# 1. Território brasileiro: ocupação anterior à colonização e expansão colonial\n\nO território é espaço apropriado e regulado por relações de poder. Antes da conquista europeia, povos indígenas de numerosas sociedades ocupavam e transformavam os ambientes, constituindo territórios e redes próprias. A ideia de um Brasil vazio a ser povoado apaga essas territorialidades. A colonização portuguesa impôs novas formas de controle da terra, exploração do trabalho e circulação de riquezas; a resistência indígena e negra também participou da construção do espaço.\n\nO Tratado de Tordesilhas (1494) estabeleceu uma partilha de pretensões ibéricas, não uma fronteira efetivamente demarcada de um Brasil independente. A colonização inicialmente privilegiou núcleos litorâneos, extração e lavoura açucareira articuladas ao comércio atlântico e ao trabalho escravizado. Capitanias hereditárias e sesmarias organizaram concessões e ocupação, sem distribuir terra de maneira igualitária.\n\nA interiorização teve diversos vetores: criação de gado para abastecer núcleos produtores, expedições de apresamento indígena e procura de metais, missões, fortificações, coleta e comércio de produtos florestais, mineração e caminhos de abastecimento. A mineração estimulou núcleos urbanos e mercados internos no século XVIII. Não foi um processo uniforme nem pacífico. A Amazônia, o sertão nordestino e as áreas mineradoras tiveram trajetórias distintas, relacionadas por redes de comércio e poder.\n\n# 2. Fronteiras e organização político-administrativa\n\nO Tratado de Madri (1750) empregou a ocupação efetiva e referências naturais para redefinir pretensões portuguesas e espanholas. É associado ao princípio uti possidetis. Foi revogado pelo Tratado de El Pardo (1761); acordos posteriores, como Santo Ildefonso (1777), modificaram a delimitação. Portanto, não se deve confundir a expansão colonial com a fixação instantânea de todas as fronteiras atuais. O Tratado de Petrópolis (1903) incorporou o Acre ao Brasil mediante negociação com a Bolívia, após conflitos e disputas na região.\n\nA independência em 1822 e a organização imperial conservaram grande parte da estrutura territorial colonial, mas houve tensões regionais. A República consolidou a forma federativa. A Constituição de 1988 organiza a federação em União, estados, Distrito Federal e municípios, autônomos nos termos constitucionais. Atualmente há 26 estados e o Distrito Federal; regiões do IBGE não são novos entes federativos. Fronteira internacional, limite estadual e regionalização analítica são categorias distintas.\n\nA construção de Brasília e a transferência da capital em 1960 relacionaram-se à integração territorial, à abertura de eixos rodoviários e à reorganização do comando político no interior. A expansão das redes não eliminou a concentração econômica no litoral e no Sudeste.\n\n# 3. Regionalizar é escolher um critério\n\nUma região é um recorte analítico construído segundo objetivos definidos. O mesmo território pode integrar recortes distintos sem contradição. Observe autoria, data, critérios, escala e finalidade antes de interpretar mapas.\n\n| Proposta | Unidades | Critério e limites |\n|---|---|---|\n| Grandes Regiões do IBGE | Norte, Nordeste, Centro-Oeste, Sudeste e Sul | Recorte estatístico oficial, respeita estados |\n| Complexos geoeconômicos, associados a Pedro Pinchas Geiger | Amazônia, Nordeste, Centro-Sul | Formação histórico-econômica, pode cruzar estados |\n| Quatro Brasis, Santos e Silveira (2001) | Amazônia, Nordeste, Centro-Oeste, Região Concentrada | Difusão desigual do meio técnico-científico-informacional; recorte por estados |\n\nNa divisão do IBGE, Maranhão integra o Nordeste; na representação clássica dos complexos geoeconômicos, sua porção ocidental integra a Amazônia. A Região Concentrada reúne Sul e Sudeste, onde existe maior densidade de redes técnicas, científicas, financeiras e informacionais, sem homogeneidade interna. As classificações são modelos, não rankings naturais de desenvolvimento.\n\n![Esquema conceitual: o território brasileiro pode ser regionalizado por limites estaduais, formação histórico-econômica ou densidade técnico-informacional.](./media/geografia-brasil/regionalizacoes.svg)\n\n# 4. Regiões imediatas, intermediárias e planejamento\n\nO IBGE introduziu em 2017 as regiões geográficas imediatas e intermediárias, em lugar das antigas mesorregiões e microrregiões como quadro regional de referência. Imediatas articulam necessidades cotidianas (trabalho, saúde, compras e serviços); intermediárias se organizam por centros de maior complexidade e gestão. Essa divisão funcional não suprime as cinco grandes regiões. Tampouco se confunde com a REGIC, que investiga centralidade e influência urbana.\n\nA Amazônia Legal é um recorte jurídico de planejamento regional, inclui áreas de outros biomas e parte do Maranhão; a região Norte é uma divisão estatística; o bioma Amazônia é uma categoria ecológica; a bacia amazônica decorre da drenagem hidrográfica e ultrapassa fronteiras nacionais. Não trate esses polígonos como equivalentes. Uma política regional pode adotar recortes diferentes dos mapas naturais.\n\nExemplo: avaliar acesso a um hospital de referência requer examinar redes e deslocamentos, não simplesmente a região administrativa. Uma análise de desmatamento por bioma exige o recorte ambiental correspondente. A fonte do mapa é parte da informação geográfica.\n\n# 5. Industrialização: da formação do mercado à diversificação produtiva\n\nA industrialização brasileira é tardia em relação à britânica. A economia cafeeira, o mercado urbano, ferrovias, portos, capital e mão de obra contribuíram para a formação de condições industriais, especialmente no Sudeste. Já havia indústria antes de 1930. A crise de 1929 e as restrições de importação reforçaram a produção interna, mas não explicam sozinhas a industrialização.\n\nNos governos Vargas (1930–1945 e 1951–1954), a intervenção estatal favoreceu infraestrutura e bens de produção, com marcos como CSN, Vale e Petrobras em momentos distintos. A substituição de importações foi um processo de longo prazo, não autarquia. A fabricação local podia depender de máquinas, tecnologia, insumos e financiamento estrangeiros.\n\nO Plano de Metas do governo JK (1956–1961) articulou Estado, capital privado nacional e capital estrangeiro. Energia e transporte sustentaram setores como o automobilístico. A industrialização aumentou a demanda por trabalhadores urbanos, a concentração metropolitana e a integração do mercado nacional. O chamado tripé econômico descreve funções complementares, não uma divisão rígida e exclusiva de atividades.\n\n# 6. Integração produtiva, desconcentração e indústria contemporânea\n\nDurante o regime militar, investimentos estatais, capital externo e privado, infraestrutura e grandes projetos ampliaram a capacidade produtiva; o crescimento econômico foi acompanhado por desigualdades e endividamento. A Zona Franca de Manaus, ampliada pelo Decreto-Lei 288/1967, é exemplo de política territorial com incentivos industriais; não equivale à industrialização uniforme da Amazônia. Crises do petróleo e dívida ajudam a compreender as dificuldades dos anos 1980.\n\nDesde os anos 1970 houve deslocamentos e novos investimentos fora de núcleos industriais tradicionais; a abertura econômica dos anos 1990, mudanças tecnológicas e novas estratégias empresariais reconfiguraram a produção. Custos fundiários, infraestrutura, proximidade a mercados e fornecedores, incentivos e mão de obra qualificada influenciam localização. Uma fábrica pode estar no interior enquanto finanças e direção permanecem em metrópoles. Contudo, existem centros de comando e inovação fora de São Paulo, e nem toda empresa segue a mesma estratégia.\n\nDesconcentração relativa não significa desaparecimento da indústria no Sudeste, nem igualdade territorial. Um exemplo hipotético: a região A passa de 60 para 72 unidades de produção, enquanto o total nacional sobe de 100 para 150. Sua participação cai de 60% para 48%, apesar de crescer em volume absoluto. Essa diferença é central para interpretar tabelas.\n\nDesindustrialização é outra discussão: perda persistente de participação industrial no emprego ou produto, com causas e efeitos a investigar. Não pode ser inferida apenas pelo deslocamento geográfico de fábricas ou pela queda de um indicador em um ano.\n\n# 7. Brasil na economia global: cadeias, comércio e dependências\n\nA integração global é seletiva. O Brasil participa de cadeias agroindustriais, minerais, energéticas, manufatureiras e de serviços, tanto como produtor de insumos quanto de bens processados. Soja, minério de ferro e petróleo são exemplos relevantes de exportação; aeronaves ilustram produção industrial de maior complexidade. Importações de equipamentos, componentes e insumos conectam a produção interna a fornecedores externos. A atuação de empresas transnacionais não torna o Estado irrelevante.\n\nA reprimarização da pauta refere-se ao aumento do peso relativo de produtos primários em determinada classificação e período. Não significa extinção das manufaturas. O valor exportado depende de preço e quantidade; uma alta do preço de commodities pode elevar a participação sem aumento equivalente de volume. Para medir a tendência, use séries comparáveis do Comex Stat/MDIC, mesma classificação e moeda, e explicite o período. Saldo comercial é exportação menos importação de bens, não o PIB nem o saldo de todos os fluxos externos.\n\nO Mercosul é um arranjo de integração regional; o comércio brasileiro não se limita ao bloco. A China é importante destino de produtos brasileiros; os vínculos comerciais, investimentos e cadeias de suprimento devem ser analisados separadamente. Especialização em commodities pode gerar divisas e oportunidades de investimento, mas também vulnerabilidade a preços internacionais, concentração territorial e pressões ambientais.\n\n# 8. Desigualdades, redes territoriais e aplicação FCC\n\nInfraestrutura de circulação integra áreas produtoras, centros industriais e mercados. Corredores ferroviários e portuários articulam produção e exportação, como a Estrada de Ferro Carajás e o complexo portuário da região de São Luís. A presença de um corredor não assegura distribuição local de renda, acesso universal a serviços ou encadeamentos industriais diversificados.\n\nO conceito de meio técnico-científico-informacional ajuda a entender por que redes de comando, tecnologia e circulação se adensam seletivamente. Uma área pode receber investimentos logísticos sem adquirir o mesmo poder decisório que uma metrópole financeira. Políticas de desenvolvimento regional envolvem infraestrutura, qualificação, inovação e proteção social e ambiental, com resultados condicionados à execução e à estrutura produtiva.\n\nTreino de leitura: se um enunciado informa que a produção de uma região aumentou, mas sua participação no total nacional diminuiu, a conclusão compatível é desconcentração relativa, não fechamento de fábricas. Se duas regionalizações situam uma parte do Maranhão em unidades diferentes, identifique o critério, em vez de escolher uma divisão como universalmente verdadeira.\n\nRecupere sem consultar: diferencie os três modelos clássicos, explique o alcance do Tratado de Madri, compare Vargas e JK, distinga participação relativa de produção absoluta e explique por que saldo comercial positivo não é sinônimo de desenvolvimento regional."
     },
     {
       "schema_version": "2.0.0",
@@ -11597,67 +11946,120 @@
           "referencia_abnt": "MARANHÃO. SEAD. Edital nº 01/2026 — SEAD/SEDUC-MA. São Luís: SEAD/FCC, 2026. p. 76.",
           "tipo": "edital",
           "nivel_autoridade": 1,
-          "url": "https://www.concursosfcc.com.br"
+          "url": "https://www.concursosfcc.com.br/concursos/seadm226/index.html"
         },
         {
           "referencia_abnt": "IBGE. Regiões de Influência das Cidades (REGIC). Rio de Janeiro: IBGE, 2020.",
           "tipo": "institucional",
-          "nivel_autoridade": 3
+          "nivel_autoridade": 3,
+          "url": "https://www.ibge.gov.br/geociencias/todos-os-produtos-geociencias/15798-regioes-de-influencia-das-cidades.html"
         },
         {
           "referencia_abnt": "OLIVEIRA, Ariovaldo Umbelino de. Modo de Produção Capitalista, Agricultura e Reforma Agrária. São Paulo: Labur, 2007.",
           "tipo": "bibliografia_academica",
           "nivel_autoridade": 5
+        },
+        {
+          "referencia_abnt": "IBGE. Censo Demográfico 2022: população urbana e rural. Resultados divulgados em 2024. Consulta em 26 nov. 2026.",
+          "url": "https://educa.ibge.gov.br/jovens/materias-especiais/22550-87-da-populacao-brasileira-vivia-em-areas-urbanas.html",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
+        },
+        {
+          "referencia_abnt": "IBGE. Censo Demográfico 2022: fecundidade. Resultados divulgados em 2025. Consulta em 26 nov. 2026.",
+          "url": "https://educa.ibge.gov.br/jovens/materias-especiais/22718-taxa-de-fecundidade-do-pais-caiu-para-1-55-filho-por-mulher-de-acordo-com-o-censo-2022.html",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
+        },
+        {
+          "referencia_abnt": "IBGE. Censo Agropecuário 2017: resultados definitivos, divulgados em 2019. Consulta em 26 nov. 2026.",
+          "url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/25789-censo-agro-2017-populacao-ocupada-nos-estabelecimentos-agropecuarios-cai-8-8",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
+        },
+        {
+          "referencia_abnt": "BRASIL. Lei nº 601, de 18 de setembro de 1850, arts. 1º e 4º a 5º.",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lim/lim601.htm",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
+        },
+        {
+          "referencia_abnt": "BRASIL. Constituição Federal de 1988, arts. 184 a 186.",
+          "url": "https://www4.planalto.gov.br/legislacao/portal-legis/legislacao-1/constituicao",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
+        },
+        {
+          "referencia_abnt": "IBGE. Análise dos fluxos aéreos de passageiros e carga, 2019–2020: classificação REGIC 2018 de São Luís e Imperatriz.",
+          "url": "https://agenciadenoticias.ibge.gov.br/media/com_mediaibge/arquivos/24ab9508b610332b170371a32e50cf57.pdf",
+          "tipo": "institucional",
+          "nivel_autoridade": 3
         }
       ],
       "sintese_fcc": {
         "conceitos_nucleares": [
           {
-            "termo": "Pirâmide Etária Brasileira Atual",
-            "definicao_precisa": "Estreitamento da base (queda da fecundidade abaixo de 2,1) e alargamento do corpo/topo (envelhecimento acelerado).",
-            "fonte": "IBGE Censo 2022."
+            "termo": "Transição demográfica",
+            "definicao_precisa": "Fecundidade em 2022: 1,55 filho por mulher; abaixo da reposição aproximada, sem inferir queda imediata da população.",
+            "fonte": "IBGE, Censo 2022."
           },
           {
-            "termo": "Lei de Terras (1850) e Função Social (CF/1988)",
-            "definicao_precisa": "Lei de 1850 restringiu o acesso à terra à compra; CF/1988 condiciona a propriedade rural ao cumprimento da função social.",
-            "fonte": "Legislação Agrária."
+            "termo": "Agricultura familiar",
+            "definicao_precisa": "Categoria legal e estatística, pode integrar cadeias do agronegócio.",
+            "fonte": "IBGE, Censo Agropecuário 2017."
           },
           {
-            "termo": "REGIC (IBGE)",
-            "definicao_precisa": "Hierarquia urbana brasileira com São Paulo no topo (Grande Metrópole Nacional), seguida por Metrópoles Nacionais (RJ/DF), Metrópoles e Capitais Regionais (como São Luís e Imperatriz).",
-            "fonte": "IBGE REGIC."
+            "termo": "Função social",
+            "definicao_precisa": "Quatro requisitos simultâneos, com regime jurídico de desapropriação nos arts. 184–186.",
+            "fonte": "CF/1988."
+          },
+          {
+            "termo": "REGIC",
+            "definicao_precisa": "Hierarquia funcional e regiões de influência; São Luís Capital Regional A, Imperatriz C na edição 2018.",
+            "fonte": "IBGE, REGIC 2018."
           }
         ],
         "pegadinhas_fcc": [
           {
-            "armadilha": "Dizer que o Brasil ainda tem pirâmide etária de base larga (país jovem)",
-            "como_a_fcc_cobra": "Afirma que a população brasileira cresce aceleradamente com alta fecundidade acima de 4 filhos/mulher.",
-            "como_desarmar": "A fecundidade caiu abaixo da reposição (< 2,1); o Brasil está em rápido envelhecimento e desaceleração."
+            "armadilha": "Confundir fecundidade e variação total",
+            "como_a_fcc_cobra": "Exemplo de distrator autoral: Abaixo da reposição, a população cai imediatamente.",
+            "como_desarmar": "Considerar estrutura etária, mortalidade e migração."
           },
           {
-            "armadilha": "Confundir o papel da Agricultura Familiar com o do Agronegócio",
-            "como_a_fcc_cobra": "Afirma que o agronegócio exportador responde pela maior parte dos empregos rurais no Brasil.",
-            "como_desarmar": "Agronegócio lidera área ocupada, PIB exportador e commodities; Agricultura Familiar lidera número de estabelecimentos e ocupação de mão de obra no campo."
+            "armadilha": "Falsa oposição familiar × agronegócio",
+            "como_a_fcc_cobra": "Exemplo de distrator autoral: Unidade familiar não pode fornecer a indústrias.",
+            "como_desarmar": "Categoria de unidade e cadeia econômica podem se sobrepor."
+          },
+          {
+            "armadilha": "Confundir urbanização e crescimento urbano",
+            "como_a_fcc_cobra": "Exemplo de distrator autoral: Toda alta absoluta implica aumento da proporção.",
+            "como_desarmar": "Dividir população urbana pelo total."
+          },
+          {
+            "armadilha": "Confundir região metropolitana legal e hierarquia REGIC",
+            "como_a_fcc_cobra": "Exemplo de distrator autoral: Toda capital estadual é metrópole.",
+            "como_desarmar": "REGIC mede centralidade funcional."
           }
         ],
         "quadro_comparativo": [
           {
-            "eixo": "Demografia",
-            "tendencia_atual": "Envelhecimento, queda da fecundidade (< 2,1) e desaceleração"
+            "indicador": "Fecundidade (2022)",
+            "recorte": "1,55 filho por mulher"
           },
           {
-            "eixo": "Migrações",
-            "tendencia_atual": "Migração de retorno ao NE e atração por cidades médias / fronteiras"
+            "indicador": "População urbana (2022)",
+            "recorte": "87,4% do total"
           },
           {
-            "eixo": "Urbano",
-            "tendencia_atual": "Crescimento de cidades médias (desmetropolização relativa) e periferização"
+            "indicador": "Agricultura familiar (2017)",
+            "recorte": "77% dos estabelecimentos, 23% da área, 67% das pessoas ocupadas"
           }
         ],
         "checklist_revisao": [
-          "Sei ler as transformações da pirâmide etária brasileira e a migração de retorno?",
-          "Sei a importância da Lei de Terras (1850), do Estatuto da Terra (1964) e da função social (CF/88)?",
-          "Sei a hierarquia da REGIC/IBGE e o fenômeno das cidades médias?"
+          "Interpreto pirâmide etária, fecundidade e saldo migratório?",
+          "Distingo terra devoluta, função social e modalidades de produção?",
+          "Interpreto dados do Censo Agro com denominadores corretos?",
+          "Distingo urbanização, metropolização e hierarquia REGIC?"
         ]
       },
       "questoes": [
@@ -11693,11 +12095,11 @@
             "A": "criou o conceito de módulo rural e de função social ambiental.",
             "B": "distribuiu gratuitamente lotes de terras produtivas a todos os trabalhadores libertos em 1850.",
             "C": "proibiu a existência de grandes latifúndios agroexportadores.",
-            "D": "estabeleceu a compra em dinheiro como única forma de acesso às terras devolutas, dificultando o acesso à terra por ex-escravizados, indígenas e trabalhadores pobres.",
+            "D": "restringiu a aquisição de terras devolutas à compra, ressalvadas hipóteses legais, dificultando o acesso dos trabalhadores pobres à terra.",
             "E": "estatizou todas as fazendas de café do Vale do Paraíba."
           },
           "gabarito": "D",
-          "justificativa_gabarito": "Aprovada no mesmo ano da Lei Eusébio de Queirós (1850), a Lei de Terras transformou a terra em mercadoria acessível apenas via compra, garantindo mão de obra dependente para a grande lavoura.",
+          "justificativa_gabarito": "O art. 1º restringiu a aquisição de devolutas à compra, ressalvada a faixa de fronteira; a lei também previa legitimação de determinadas posses e revalidação de sesmarias.",
           "analise_distratores": {
             "A": "Isso ocorreu apenas no Estatuto da Terra (1964) e na CF/1988.",
             "B": "Fez exatamente o oposto.",
@@ -11716,16 +12118,16 @@
             "A": "O Brasil voltou a ser um país majoritariamente rural segundo o Censo 2022.",
             "B": "São Paulo e Rio de Janeiro voltaram a receber 90% de toda a migração rural do país.",
             "C": "As cidades médias do interior entraram em colapso populacional absoluto.",
-            "D": "Ocorre um movimento de desconcentração relativa (crescimento acelerado de cidades médias fora das metrópoles tradicionais) combinado à redução da atratividade exclusiva do eixo Rio–São Paulo e ao avanço da migração de retorno.",
+            "D": "há diversificação de destinos, migração de retorno e crescimento de determinados centros intermediários, sem supressão do papel das metrópoles.",
             "E": "A Região Metropolitana de São Luís perdeu a condição de Capital Regional na REGIC."
           },
           "gabarito": "D",
-          "justificativa_gabarito": "A saturação das grandes metrópoles (custo de vida, violência, congestionamento) somada à desconcentração produtiva e expansão do agronegócio/serviços impulsionou as cidades médias e a migração de retorno.",
+          "justificativa_gabarito": "Fluxos de retorno e novos destinos coexistem com o papel das metrópoles. Os ritmos variam conforme período, região e atividade.",
           "analise_distratores": {
-            "A": "O Brasil segue altamente urbanizado.",
-            "B": "Perderam participação relativa como polos receptores.",
-            "C": "Pelo contrário, são as que mais crescem proporcionalmente.",
-            "E": "São Luís mantém papel de Capital Regional A na REGIC/IBGE."
+            "A": "Em 2022, 87,4% residiam em áreas urbanas.",
+            "B": "Não há evidência para esse percentual generalizado.",
+            "C": "Há centros intermediários que crescem, sem tendência universal.",
+            "E": "São Luís é Capital Regional A na REGIC 2018; a categoria é funcional."
           },
           "dificuldade": "intermediaria",
           "subtopico": "Geografia urbana e regional brasileira: dinâmicas históricas e atuais"
@@ -11734,7 +12136,7 @@
           "questao_id": "CE-GEO-13-Q004",
           "origem": "inedita_padrao_fcc",
           "referencia_prova": "Inédita — padrão FCC / Edital SEDUC-MA 01/2026",
-          "enunciado": "De acordo com a Constituição Federal de 1988, a propriedade rural no Brasil deve cumprir sua função social. O descumprimento simultâneo dos requisitos constitucionais (aproveitamento racional, uso adequado dos recursos naturais/meio ambiente, observância das relações de trabalho e bem-estar) sujeita o imóvel à",
+          "enunciado": "Nos termos dos arts. 184 a 186 da Constituição Federal de 1988, o imóvel rural que não cumpre sua função social pode, observadas as condições e ressalvas constitucionais e legais, estar sujeito à",
           "alternativas": {
             "A": "conversão automática em zona industrial urbana.",
             "B": "isenção permanente de impostos federais.",
@@ -11743,7 +12145,7 @@
             "E": "proibição de qualquer atividade agrícola por 100 anos."
           },
           "gabarito": "C",
-          "justificativa_gabarito": "Nos termos do Art. 184 e 186 da CF/1988, a propriedade rural que não cumpre sua função social é passível de desapropriação para fins de reforma agrária.",
+          "justificativa_gabarito": "O art. 184 prevê desapropriação pela União por interesse social para reforma agrária, observados os arts. 185 e 186 e o regime legal aplicável; não é automática.",
           "analise_distratores": {
             "A": "Incorreto.",
             "B": "Incorreto.",
@@ -11757,7 +12159,7 @@
           "questao_id": "CE-GEO-13-Q005",
           "origem": "inedita_padrao_fcc",
           "referencia_prova": "Inédita — padrão FCC / Edital SEDUC-MA 01/2026",
-          "enunciado": "Na hierarquia da rede urbana brasileira segundo o estudo Regiões de Influência das Cidades (REGIC/IBGE), o único centro urbano classificado no topo absoluto da hierarquia como 'Grande Metrópole Nacional' é",
+          "enunciado": "Na hierarquia da rede urbana brasileira segundo a REGIC 2018 (IBGE, publicação de 2020), o centro classificado como Grande Metrópole Nacional é",
           "alternativas": {
             "A": "Brasília.",
             "B": "São Paulo.",
@@ -11775,6 +12177,190 @@
           },
           "dificuldade": "basica",
           "subtopico": "Geografia urbana e regional brasileira: dinâmicas históricas e atuais"
+        },
+        {
+          "questao_id": "CE-GEO-13-EXP-Q001",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "No Censo 2022, a taxa de fecundidade total brasileira foi 1,55 filho por mulher. A interpretação correta é que",
+          "alternativas": {
+            "A": "o número de habitantes necessariamente já diminuiu.",
+            "B": "a fecundidade está abaixo da reposição aproximada, mas estrutura etária e outros componentes influenciam o crescimento.",
+            "C": "a mortalidade foi maior que a natalidade em todo município.",
+            "D": "a população idosa deixou de crescer.",
+            "E": "a natalidade é idêntica à fecundidade."
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "A reposição não determina imediatamente crescimento total; importam estrutura, mortalidade e migração.",
+          "analise_distratores": {
+            "A": "Não se infere queda imediata.",
+            "C": "A taxa não demonstra isso.",
+            "D": "Pode ocorrer envelhecimento.",
+            "E": "São medidas distintas."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Geografia da população brasileira"
+        },
+        {
+          "questao_id": "CE-GEO-13-EXP-Q002",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "Um território registra 8 mil nascimentos, 3 mil óbitos, 4 mil entradas e 7 mil saídas no mesmo período. A variação populacional, desprezados outros ajustes, é",
+          "alternativas": {
+            "A": "−3 mil.",
+            "B": "+5 mil.",
+            "C": "+2 mil.",
+            "D": "+12 mil.",
+            "E": "−2 mil."
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "Crescimento natural = 5 mil; saldo migratório = −3 mil; total = +2 mil.",
+          "analise_distratores": {
+            "A": "É apenas o saldo migratório.",
+            "B": "É apenas o crescimento natural.",
+            "D": "Não desconta todas as saídas e óbitos.",
+            "E": "Inverte o sinal do resultado."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Geografia da população brasileira"
+        },
+        {
+          "questao_id": "CE-GEO-13-EXP-Q003",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "Uma trabalhadora reside em um município e se desloca diariamente a outro para trabalhar, sem mudar sua residência habitual. Trata-se de",
+          "alternativas": {
+            "A": "mobilidade pendular.",
+            "B": "migração de retorno.",
+            "C": "êxodo rural necessariamente.",
+            "D": "migração internacional.",
+            "E": "crescimento natural."
+          },
+          "gabarito": "A",
+          "justificativa_gabarito": "A mobilidade pendular envolve deslocamentos recorrentes sem mudança residencial habitual.",
+          "analise_distratores": {
+            "B": "Retorno envolve mudança de residência.",
+            "C": "Não há informação de origem rural.",
+            "D": "O deslocamento é entre municípios.",
+            "E": "Refere-se a nascimentos e óbitos."
+          },
+          "dificuldade": "basica",
+          "subtopico": "Geografia da população brasileira"
+        },
+        {
+          "questao_id": "CE-GEO-13-EXP-Q004",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "No Censo Agropecuário 2017, a agricultura familiar reunia cerca de 77% dos estabelecimentos e 23% da área. A leitura correta desses indicadores é",
+          "alternativas": {
+            "A": "os percentuais deveriam somar 100% por terem o mesmo denominador.",
+            "B": "77% de toda a área estava em estabelecimentos familiares.",
+            "C": "23% dos trabalhadores do Brasil eram agricultores familiares.",
+            "D": "todos os estabelecimentos não familiares eram exportadores.",
+            "E": "a participação no número de estabelecimentos era maior que na área, com denominadores diferentes."
+          },
+          "gabarito": "E",
+          "justificativa_gabarito": "Os indicadores comparam estabelecimentos e área, não a mesma grandeza.",
+          "analise_distratores": {
+            "A": "Denominadores diferentes.",
+            "B": "23% corresponde à área.",
+            "C": "Não mede trabalhadores do país.",
+            "D": "Não classifica destino da produção."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Espaço agrário brasileiro: histórico e relações"
+        },
+        {
+          "questao_id": "CE-GEO-13-EXP-Q005",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "Uma unidade produtiva que atende aos critérios de agricultura familiar e fornece leite a uma indústria demonstra que",
+          "alternativas": {
+            "A": "o fornecimento industrial impede a classificação familiar.",
+            "B": "o agronegócio só existe em grandes propriedades.",
+            "C": "agricultura familiar não participa de mercados.",
+            "D": "a categoria agricultura familiar pode integrar cadeias do agronegócio.",
+            "E": "toda produção familiar é de subsistência."
+          },
+          "gabarito": "D",
+          "justificativa_gabarito": "Agricultura familiar classifica a unidade; agronegócio designa uma cadeia econômica.",
+          "analise_distratores": {
+            "A": "O canal de venda não basta para descaracterizar.",
+            "B": "Cadeias incluem unidades de vários tipos.",
+            "C": "Pode comercializar.",
+            "E": "Há produção comercial familiar."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Espaço agrário brasileiro: histórico e relações"
+        },
+        {
+          "questao_id": "CE-GEO-13-EXP-Q006",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "De acordo com o art. 186 da Constituição, a função social da propriedade rural exige",
+          "alternativas": {
+            "A": "somente produtividade econômica.",
+            "B": "atendimento simultâneo dos requisitos de aproveitamento adequado, ambiente, trabalho e bem-estar.",
+            "C": "apenas inscrição cadastral.",
+            "D": "produção exclusiva para o mercado interno.",
+            "E": "ausência de trabalhadores assalariados."
+          },
+          "gabarito": "B",
+          "justificativa_gabarito": "A função social combina quatro dimensões; produtividade isolada não resume o artigo.",
+          "analise_distratores": {
+            "A": "É uma dimensão, não a totalidade.",
+            "C": "Cadastro não substitui critérios.",
+            "D": "Não há essa exigência.",
+            "E": "Não há essa proibição."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Espaço agrário brasileiro: histórico e relações"
+        },
+        {
+          "questao_id": "CE-GEO-13-EXP-Q007",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "Em um exemplo hipotético, a população urbana sobe de 80 para 90 milhões, enquanto a população total passa de 100 para 120 milhões. Nesse caso",
+          "alternativas": {
+            "A": "a população urbana cresceu, mas a proporção urbana caiu de 80% para 75%.",
+            "B": "a população urbana diminuiu 10 milhões.",
+            "C": "a taxa de urbanização subiu a 90%.",
+            "D": "urbanização e crescimento urbano são sempre idênticos.",
+            "E": "a população rural caiu necessariamente."
+          },
+          "gabarito": "A",
+          "justificativa_gabarito": "90/120 = 75%; o número urbano aumentou, mas sua participação caiu.",
+          "analise_distratores": {
+            "B": "90 supera 80.",
+            "C": "O denominador é 120.",
+            "D": "São indicadores distintos.",
+            "E": "A população rural passou de 20 para 30 milhões."
+          },
+          "dificuldade": "avancada",
+          "subtopico": "Geografia urbana e regional brasileira: dinâmicas históricas e atuais"
+        },
+        {
+          "questao_id": "CE-GEO-13-EXP-Q008",
+          "origem": "inedita_autoral_em_auditoria",
+          "referencia_prova": "SOaprender — questão inédita de treino no padrão FCC; não oficial FCC",
+          "enunciado": "Na REGIC 2018, a identificação de um centro urbano de influência regional fundamenta-se principalmente",
+          "alternativas": {
+            "A": "na condição de capital estadual, independentemente dos fluxos.",
+            "B": "na área territorial do município.",
+            "C": "nas relações de gestão e na oferta de bens e serviços que articulam outros centros.",
+            "D": "na continuidade obrigatória da mancha urbana até a capital federal.",
+            "E": "no reconhecimento legal como região metropolitana."
+          },
+          "gabarito": "C",
+          "justificativa_gabarito": "A REGIC mede hierarquia funcional e redes de influência, não apenas tamanho ou status legal.",
+          "analise_distratores": {
+            "A": "Ser capital não determina isoladamente hierarquia.",
+            "B": "Área não mede centralidade.",
+            "D": "Conurbação não é requisito.",
+            "E": "A instituição legal é outra categoria."
+          },
+          "dificuldade": "intermediaria",
+          "subtopico": "Geografia urbana e regional brasileira: dinâmicas históricas e atuais"
         }
       ],
       "flashcards": [
@@ -11790,7 +12376,7 @@
         {
           "card_id": "CE-GEO-13-FC002",
           "frente": "Qual o papel histórico da Lei de Terras (1850) na questão agrária brasileira?",
-          "verso": "Restringiu o acesso às terras devolutas à compra em dinheiro, consolidando o latifúndio e barrando ex-escravizados e pobres.",
+          "verso": "Restringiu a aquisição de devolutas à compra, salvo hipóteses legais; dificultou acesso de trabalhadores pobres.",
           "tipo": "conceito",
           "tags": [
             "agraria",
@@ -11820,7 +12406,7 @@
         {
           "card_id": "CE-GEO-13-FC005",
           "frente": "O que é 'migração de retorno' no Brasil pós-1990?",
-          "verso": "Fluxo de migrantes (especialmente nordestinos) que retornam aos estados de origem diante da saturação das metrópoles do Sudeste e expansão regional.",
+          "verso": "Mudança de residência de volta ao local de origem, segundo o recorte adotado; não implica reversão geral dos fluxos.",
           "tipo": "conceito",
           "tags": [
             "migracoes-brasil"
@@ -11828,16 +12414,156 @@
         },
         {
           "card_id": "CE-GEO-13-FC006",
-          "frente": "Quem gera mais empregos no campo brasileiro: Agronegócio exportador ou Agricultura Familiar?",
-          "verso": "Agricultura Familiar concentra a maior parte dos estabelecimentos e dos empregos rurais; o agronegócio lidera área, exportações e commodities.",
+          "frente": "Qual era a participação da agricultura familiar nas pessoas ocupadas nos estabelecimentos agropecuários em 2017?",
+          "verso": "Cerca de 67%, segundo o Censo Agropecuário 2017; não equivale a todos os empregos do agronegócio.",
           "tipo": "pegadinha_fcc",
           "tags": [
             "agronegocio",
             "familiar"
           ]
+        },
+        {
+          "card_id": "CE-GEO-13-EXP-FC001",
+          "frente": "Qual população brasileira foi registrada no Censo 2022?",
+          "verso": "Cerca de 203,1 milhões no resultado de situação urbana e rural do IBGE.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-brasil",
+            "ce-geo-13"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-13-EXP-FC002",
+          "frente": "Qual a fecundidade total no Censo 2022?",
+          "verso": "1,55 filho por mulher, segundo divulgação do IBGE em 2025.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-brasil",
+            "ce-geo-13"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-13-EXP-FC003",
+          "frente": "Fecundidade abaixo da reposição significa queda populacional imediata?",
+          "verso": "Não. Estrutura etária, mortalidade e migração também influenciam a variação.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-brasil",
+            "ce-geo-13"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-13-EXP-FC004",
+          "frente": "Como calcular o crescimento natural absoluto?",
+          "verso": "Nascimentos menos óbitos no mesmo período.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-brasil",
+            "ce-geo-13"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-13-EXP-FC005",
+          "frente": "Como calcular a razão de dependência etária convencional?",
+          "verso": "População de 0–14 e 65+ dividida pela de 15–64 anos, vezes 100.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-brasil",
+            "ce-geo-13"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-13-EXP-FC006",
+          "frente": "Migração pendular implica mudança habitual de residência?",
+          "verso": "Não. É deslocamento recorrente, por exemplo para trabalho ou estudo.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-brasil",
+            "ce-geo-13"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-13-EXP-FC007",
+          "frente": "A Lei de Terras de 1850 obrigou a comprar toda terra existente?",
+          "verso": "Não. Restringiu aquisição de devolutas e previu revalidação e legitimação de situações específicas.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-brasil",
+            "ce-geo-13"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-13-EXP-FC008",
+          "frente": "O que diferencia agricultura familiar de agronegócio?",
+          "verso": "A primeira classifica unidades produtivas; o segundo designa cadeias econômicas.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-brasil",
+            "ce-geo-13"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-13-EXP-FC009",
+          "frente": "Qual a participação familiar nos estabelecimentos e na área em 2017?",
+          "verso": "Cerca de 77% dos estabelecimentos e 23% da área, Censo Agropecuário 2017.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-brasil",
+            "ce-geo-13"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-13-EXP-FC010",
+          "frente": "O cumprimento da função social é apenas produtividade?",
+          "verso": "Não. Inclui ambiente, trabalho e bem-estar, além de aproveitamento adequado.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-brasil",
+            "ce-geo-13"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-13-EXP-FC011",
+          "frente": "Qual era a proporção urbana brasileira no Censo 2022?",
+          "verso": "87,4%, conforme classificação do IBGE divulgada em 2024.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-brasil",
+            "ce-geo-13"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-13-EXP-FC012",
+          "frente": "Urbanização é idêntica a crescimento urbano?",
+          "verso": "Não. Urbanização é aumento da proporção urbana; crescimento urbano é aumento absoluto.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-brasil",
+            "ce-geo-13"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-13-EXP-FC013",
+          "frente": "Quais os cinco níveis principais da REGIC 2018?",
+          "verso": "Metrópoles, capitais regionais, centros sub-regionais, centros de zona e centros locais.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-brasil",
+            "ce-geo-13"
+          ]
+        },
+        {
+          "card_id": "CE-GEO-13-EXP-FC014",
+          "frente": "Qual a categoria de São Luís e Imperatriz na REGIC 2018?",
+          "verso": "São Luís: Capital Regional A; Imperatriz: Capital Regional C.",
+          "tipo": "conceito",
+          "tags": [
+            "geografia-brasil",
+            "ce-geo-13"
+          ]
         }
       ],
-      "teoria_md": "---\ntopico_id: CE-GEO-13\nslug: brasil-populacao-agrario-urbano\ntitulo: \"População, Espaço Agrário e Rede Urbana do Brasil (Censo 2022 e REGIC)\"\nedital: SEDUC-MA-01-2026\nbanca: FCC\nstatus: em_auditoria\n---\n\n# 1. Delimitação no Edital (Camada A)\n- **Itens explícitos (p. 76):** *Geografia da população do Brasil. Geografia do espaço agrário do Brasil: histórico e relações. Geografia urbana e regional no Brasil: formação, dinâmicas e transformações históricas e atuais.*\n\n# 2. População Brasileira (Transição Demográfica e Censo 2022)\n- **Desaceleração demográfica:** o Brasil atingiu ~203 milhões de habitantes no Censo 2022 (IBGE), com forte queda na taxa de crescimento anual e taxa de fecundidade **abaixo do nível de reposição (2,1)**, acelerando o **envelhecimento populacional** (estreitamento da base e alargamento do topo da pirâmide etária).\n- **Migrações internas:**\n  - *1950–1980:* intenso êxodo rural e fluxos Nordeste → Sudeste (SP/RJ) e para Brasília/Centro-Oeste/Amazônia.\n  - *Pós-1990:* redução relativa das metrópoles tradicionais como polos receptores exclusivos, **migração de retorno** ao Nordeste e expansão de fluxos para **cidades médias** e fronteiras agropecuárias/minerais (MATOPIBA, Centro-Oeste, Norte).\n\n# 3. Espaço Agrário Brasileiro: Estrutura Fundiária e Relações de Trabalho\n- **Concentração fundiária histórica:** das Sesmarias e da **Lei de Terras (1850)** (que instituiu a compra como único acesso à terra, barrando libertos e pobres) até os conflitos contemporâneos por grilagem e terras devolutas.\n- **Estatuto da Terra (Lei nº 4.504/1964):** definiu **módulo rural**, **latifúndio** (por dimensão ou por exploração) e **minifúndio**. A Constituição de 1988 prevê a **função social da propriedade** rural (aproveitamento racional, preservação ambiental e respeito às leis trabalhistas), sujeita a desapropriação para reforma agrária.\n- **Dualidade Produtiva:** **Agronegócio exportador** (grandes áreas mecanizadas de soja, milho, cana, algodão, pecuária — ex.: Centro-Oeste e MATOPIBA) × **Agricultura Familiar** (menor área média, porém fundamental na geração de empregos rurais e produção de alimentos da cesta básica interna).\n\n# 4. Rede Urbana Brasileira e Hierarquia (REGIC / IBGE)\nA **REGIC (Regiões de Influência das Cidades — IBGE)** organiza a rede urbana brasileira em 5 níveis principais:\n1. **Metrópoles:** **Grande Metrópole Nacional** (São Paulo), **Metrópoles Nacionais** (Rio de Janeiro e Brasília) e **Metrópoles** (ex.: Belo Horizonte, Porto Alegre, Recife, Salvador, Fortaleza, Curitiba, Goiânia, Manaus, Belém, Vitória, Florianópolis, Campinas).\n2. **Capitais Regionais (A, B e C):** centros que polarizam amplas regiões estaduais/interestaduais — ex.: **São Luís** (Capital Regional A) e **Imperatriz** (Capital Regional C).\n3. **Centros Sub-regionais**, **Centros de Zona** e **Centros Locais**.\n- **Tendência atual:** **desmetropolização relativa** (crescimento mais rápido de **cidades médias** fora das metrópoles saturadas) e **favelização/periferização** nas grandes áreas urbanas.\n"
+      "teoria_md": "# 1. Distribuição da população brasileira e fontes demográficas\n\nA população brasileira resulta de processos de longa duração: sociedades indígenas, colonização, escravidão e diáspora africana, migrações internacionais e internas, urbanização, expansão de fronteiras produtivas e mudanças familiares. A concentração de habitantes na faixa leste e em grandes áreas urbanas relaciona-se à história da ocupação, infraestrutura e oportunidades, sem implicar que o interior seja vazio.\n\nO Censo Demográfico 2022 registrou aproximadamente 203,1 milhões de pessoas no Brasil, segundo os resultados de situação urbana e rural do IBGE. Censo é levantamento com data de referência; estimativas anuais e projeções têm métodos e objetivos diferentes. Evite misturar números de anos ou revisões sem indicar a fonte. População absoluta conta pessoas; densidade divide população por área; distribuição descreve onde se localizam.\n\nUm município extenso com sede urbana densa pode ter baixa densidade média. Duas regiões com o mesmo número de habitantes podem ter redes de serviços e padrões de ocupação muito distintos. Mapas por município dependem dos limites da unidade usada, por isso não mostram todos os contrastes internos.\n\n# 2. Transição demográfica e envelhecimento\n\nDurante o século XX, a mortalidade caiu e a fecundidade permaneceu alta por parte do período, favorecendo rápido crescimento natural. Posteriormente, mudanças sociais, acesso a saúde, educação, contracepção, urbanização e transformações do trabalho e das famílias contribuíram para reduzir a fecundidade. As trajetórias diferem entre grupos e territórios.\n\nA taxa de fecundidade total do Censo 2022 foi de 1,55 filho por mulher, segundo o IBGE (divulgação de 2025). Está abaixo da reposição aproximada de 2,1 filhos por mulher em populações de baixa mortalidade. Não significa que o total populacional já caiu: a estrutura etária acumulada, a mortalidade e o saldo migratório também influenciam o crescimento.\n\nA pirâmide etária tende a apresentar base mais estreita e maior participação de adultos e idosos. O envelhecimento tem implicações para saúde, previdência, mobilidade, acessibilidade e organização territorial de serviços. A redução relativa da população infantil altera demanda escolar, mas não elimina a necessidade de investimento; acesso desigual e mudanças locais precisam ser considerados. A razão de dependência demográfica é uma relação entre faixas etárias convencionais, não medida direta de emprego.\n\nExemplo hipotético: uma região possui 20 mil jovens, 60 mil pessoas de 15 a 64 anos e 20 mil idosos de 65 anos ou mais. A razão de dependência convencional é (20 + 20)/60 × 100, cerca de 66,7 dependentes etários por 100 pessoas na faixa intermediária. Nem todos os idosos são dependentes econômicos nem todos os adultos trabalham.\n\n# 3. Migrações e mobilidade territorial\n\nA industrialização e urbanização do século XX atraíram trabalhadores para centros como São Paulo e Rio de Janeiro, enquanto Brasília, frentes agropecuárias e projetos minerais criaram novos destinos. Êxodo rural designa mudança residencial do campo para a cidade; não é sinônimo de todo deslocamento para o Sudeste. Migrações também se dão entre cidades, estados e áreas rurais.\n\nDesde o final do século XX, fluxos se diversificaram, com migração de retorno, deslocamentos para cidades intermediárias e fronteiras produtivas. Retorno significa voltar ao lugar de origem segundo o recorte adotado. Não significa reversão completa dos fluxos históricos nem que todas as metrópoles passaram a perder habitantes. Migração pendular é mobilidade recorrente para trabalho ou estudo sem mudança habitual de residência.\n\nUma região pode ter elevado número de entradas e saídas simultaneamente. O saldo migratório indica diferença, não volume de circulação. Se entram 12 mil pessoas e saem 15 mil, o saldo é −3 mil; com crescimento natural de 5 mil, a população aumenta 2 mil, mantidos os limites e período. A análise das causas exige informação sobre trabalho, família, habitação, redes e políticas, evitando explicações únicas.\n\n# 4. Formação agrária, terra e relações sociais\n\nA estrutura fundiária brasileira tem raízes na apropriação colonial, nas sesmarias, no trabalho escravizado e na expansão de grandes propriedades. Povos indígenas, comunidades quilombolas, posseiros e agricultores familiares possuem trajetórias e formas de acesso à terra variadas. Terra não é apenas fator produtivo: também é território de moradia, cultura e reprodução social.\n\nA Lei de Terras de 1850 (Lei 601, art. 1º) restringiu a aquisição de terras devolutas à compra, com exceção legal na faixa de fronteira, e previu revalidação de sesmarias e legitimação de determinadas posses. Não tornou toda propriedade existente dependente de nova compra. Em contexto escravista, dificultou acesso de grupos pobres e contribuiu para concentração fundiária. Sua relação com a formação do mercado de trabalho é histórica, não consequência mecânica exclusiva da lei.\n\nO Estatuto da Terra (Lei 4.504/1964) definiu categorias para política agrária, entre elas propriedade familiar, módulo rural, minifúndio e latifúndio. Módulo rural relaciona-se às condições de exploração da propriedade; módulo fiscal é parâmetro municipal expresso em hectares, não valor nacional uniforme. Para classificar estabelecimentos ou imóveis em dados oficiais, verifique a definição e a legislação aplicáveis.\n\n# 5. Modernização agrícola, agricultura familiar e cadeias produtivas\n\nCrédito, pesquisa, mecanização, insumos, logística e integração à indústria ampliaram capacidade produtiva em diferentes áreas. A expansão do Cerrado e do MATOPIBA (partes do Maranhão, Tocantins, Piauí e Bahia) ilustra como técnica, mercado e política modificam usos da terra. A expansão não decorre apenas de condições naturais, e seus impactos sociais e ambientais variam.\n\nAgricultura familiar é categoria legal e estatística, definida por critérios de área, trabalho, renda e gestão familiar. Agronegócio é conceito de cadeia econômica que inclui insumos, produção, processamento, transporte e comercialização. Não são conjuntos necessariamente excludentes: uma unidade familiar pode fornecer para agroindústria e exportação. Nem todo estabelecimento não familiar é grande exportador.\n\n![Comparação das participações da agricultura familiar no Censo Agropecuário 2017: cerca de 77% dos estabelecimentos, 23% da área e 67% das pessoas ocupadas.](./media/geografia-brasil/agricultura-familiar.svg)\n\nNo Censo Agropecuário 2017, a agricultura familiar representava cerca de 77% dos estabelecimentos, 23% da área e 67% das pessoas ocupadas nos estabelecimentos; correspondia também a aproximadamente 23% do valor da produção. São percentuais de denominadores distintos, não frações de um único total. Pessoas ocupadas em estabelecimentos não equivalem a todos os empregos do agronegócio. Esses dados não demonstram que a agricultura familiar produza uma porcentagem única de todos os alimentos consumidos no Brasil.\n\nModernização pode aumentar produtividade física (produção por área) e reduzir demanda de trabalho em algumas atividades, sem implicar melhora universal de renda ou redução da concentração de terra. Compare produtividade, produção total, valor da produção, emprego e acesso à terra separadamente.\n\n# 6. Questão agrária, função social e conflitos\n\nA Constituição de 1988, arts. 184 e 186, prevê desapropriação pela União por interesse social para reforma agrária quando o imóvel rural não cumpre sua função social, observadas as condições legais e constitucionais. Os quatro requisitos do art. 186 devem ser atendidos simultaneamente: aproveitamento racional e adequado; uso adequado dos recursos naturais e preservação ambiental; observância das normas de trabalho; exploração que favoreça o bem-estar de proprietários e trabalhadores.\n\nO art. 185 prevê hipóteses de insuscetibilidade de desapropriação para reforma agrária, entre elas pequena e média propriedade quando o proprietário não possui outra e propriedade produtiva. A interpretação conjunta da produtividade e função social exige considerar a Constituição, legislação e jurisprudência pertinentes. Não reduza o regime jurídico a desapropriação automática nem à produtividade econômica isolada.\n\nReforma agrária envolve reorganização do acesso à terra e condições de produção e permanência; regularização fundiária diz respeito ao reconhecimento e ordenação de direitos e não é equivalente à reforma. Conflitos por terra podem envolver sobreposição de registros, grilagem, expulsões e disputas por recursos. A análise exige reconhecer direitos territoriais, trabalho e dimensões ambientais, evitando atribuir os conflitos a um único grupo ou causa.\n\n# 7. Urbanização, metropolização e transformações recentes\n\nO crescimento urbano brasileiro intensificou-se com industrialização, serviços, expansão de infraestrutura e migração campo–cidade. O Censo 2022 registrou 87,4% da população em áreas urbanas, conforme a classificação empregada pelo IBGE (divulgação em 2024). Urbanização é aumento da proporção urbana; crescimento urbano é aumento absoluto da população urbana. Uma cidade pode crescer sem que a proporção urbana nacional aumente no mesmo ritmo.\n\nConurbação é continuidade da mancha edificada entre núcleos; metropolização envolve redes funcionais de trabalho, gestão, consumo e serviços; região metropolitana é instituição legal estabelecida segundo as regras constitucionais. Não basta contiguidade física ou grande população para caracterizar toda influência metropolitana.\n\nCidades intermediárias podem ganhar atividades industriais, comércio especializado, universidades e serviços regionais, conectando áreas rurais e centros maiores. A desconcentração relativa de funções e crescimento populacional em determinados centros não significa desmetropolização generalizada: comando financeiro, inovação e serviços de alta complexidade continuam concentrados em muitos grandes centros. O ritmo varia por período e região.\n\nA segregação socioespacial manifesta-se na distribuição desigual de moradia, infraestrutura, risco ambiental e acesso a oportunidades. Periferia é categoria relacional, não sinônimo de pobreza; há condomínios de alta renda periféricos e áreas populares centrais. Mobilidade, habitação e saneamento devem ser analisados em conjunto.\n\n# 8. Rede urbana brasileira, REGIC e aplicações FCC\n\nA REGIC 2018 do IBGE (publicada em 2020) investiga hierarquia funcional e regiões de influência. Sua unidade de análise pode ser um arranjo populacional formado por municípios integrados, ou um município isolado. Fluxos de gestão e acesso a bens e serviços ajudam a determinar centralidade. Hierarquia não é simplesmente uma classificação por número de habitantes.\n\n| Nível principal | Característica geral |\n|---|---|\n| Metrópoles | Centros de comando com ampla influência |\n| Capitais Regionais | Polarizam redes de alcance regional |\n| Centros Sub-Regionais | Intermediação em áreas menores |\n| Centros de Zona | Centralidade de alcance mais restrito |\n| Centros Locais | Influência predominantemente local |\n\nNa REGIC 2018, São Paulo é a Grande Metrópole Nacional; Brasília e Rio de Janeiro são Metrópoles Nacionais. São Luís é Capital Regional A e Imperatriz, Capital Regional C, nessa edição. Um centro pode influenciar localidades além de sua divisa estadual. A região de influência não se confunde com o território da prefeitura, uma região metropolitana legal ou a divisão estatística de 2017.\n\nExemplo: moradores de uma cidade pequena procuram um hospital especializado e ensino superior em Imperatriz, enquanto decisões administrativas e serviços de maior complexidade os conectam também a outros centros. Esses fluxos ilustram centralidade funcional, sem implicar dependência exclusiva de uma única cidade. Para interpretar a posição real, consulte a edição e metodologia da REGIC.\n\nRecupere sem consultar: explique por que fecundidade abaixo da reposição não indica queda imediata da população; diferencie agricultura familiar e agronegócio; identifique os quatro requisitos constitucionais da função social; distinga urbanização, conurbação e metropolização; interprete os cinco níveis da REGIC."
     },
     {
       "schema_version": "2.0.0",
