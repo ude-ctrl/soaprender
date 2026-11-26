@@ -1,9 +1,11 @@
 import { expect, test, type Page } from '@playwright/test';
-import { catalog } from '../../src/content/catalog';
+import { readFileSync } from 'node:fs';
+import type { Unit } from '../../src/content/schema';
 import type { UserProgress } from '../../src/engine/progress';
 
 const button = (page: Page, name: string) => page.getByRole('button', { name, exact: true });
-const firstUnit = catalog.bundle.unidades[0];
+const bundle = JSON.parse(readFileSync(new URL('../../seduc-ma-bundle.json', import.meta.url), 'utf8')) as { unidades: Unit[] };
+const firstUnit = bundle.unidades[0];
 const question = (page: Page, index: number) => page.getByRole('heading', { name: `Questão ${index} de ${firstUnit.questoes.length}`, exact: true });
 const feedback = (page: Page) => page.getByRole('heading', { name: 'Análise dos distratores' });
 
