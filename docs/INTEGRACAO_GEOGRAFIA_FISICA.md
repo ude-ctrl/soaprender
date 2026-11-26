@@ -1,0 +1,6 @@
+# Integração incremental — Geografia Física
+Base 8b96423645737b8c039d86313ba3567178ef43ec; candidatos do commit 908cb6a4cd8f1f8780107fcddbacf0284f49a58a. CE-GEO-03, CE-GEO-10, CE-GEO-11 consolidados no bundle. Preservados os IDs, gabaritos originais e as outras 42 unidades (incluindo Cartografia). Cinco diagramas próprios esquemáticos. Correção dirigida de resíduos de conversão, síntese, alguns feedbacks e ressalvas científicas. Não foi substituído o bundle por fonte externa. A referência à alteração de legislação específica foi removida até conferência oficial da redação temporal. A seleção de links institucionais dos candidatos não implica verificação individual nesta integração. Os pacotes originais e questões/cartões reservados permanecem em feat/geografia-fisica-lote. Status em auditoria; revisão independente, conferência bibliográfica, mapas oficiais/licenças, calibração FCC e expansão do banco seguem pendentes. Validação estrutural de IDs, contagem, alternativas, gabaritos, feedbacks e preservação de Cartografia executada; CI e verificação visual ainda pendentes.
+
+- CE-GEO-03: 10 missões, 13 questões, 39 cartões, 1933 palavras.
+- CE-GEO-10: 8 missões, 12 questões, 18 cartões, 4834 palavras.
+- CE-GEO-11: 8 missões, 12 questões, 18 cartões, 3189 palavras.

@@ -50,3 +50,14 @@ test.each([
   for (let i=1; i<=6; i++) expect(catalog.items.has('CE-GEO-02-FC'+String(i).padStart(3,'0'))).toBe(true);
   expect(unit.teoria_md.match(/!\[[^\]]+\]\(\.\/media\/cartografia\/[^)]+\.svg\)/g)).toHaveLength(7);
 });
+
+ test('Geografia Física integra o lote de três unidades, sem perder Cartografia', () => {
+  for (const [id, q, c, missions] of [['CE-GEO-03',13,39,10],['CE-GEO-10',12,18,8],['CE-GEO-11',12,18,8]] as const) {
+    const unit = catalog.units.get(id)!;
+    expect(unit.questoes).toHaveLength(q);
+    expect(unit.flashcards).toHaveLength(c);
+    expect(unit.teoria_md.match(/^# .+/gm)).toHaveLength(missions);
+    expect(unit.status).toBe('em_auditoria');
+  }
+  expect(catalog.units.get('CE-GEO-02')!.questoes).toHaveLength(58);
+});
